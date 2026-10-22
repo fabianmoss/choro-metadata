@@ -15,7 +15,7 @@
     owl:sameAs <https://rism.online/sources/1001029770>;
     cidoc:P50_has_current_keeper <urn:uuid:institutions/484401742>;
     melod:hasShelfmark "Mus.ms.autogr. Telemann, G. P. 60";
-    a melod:Item, melod:ItemEntity;
+    a melod:Item;
     melod:hasAcquisition _:e9696b09-5537-42e3-9497-75c0fa57b0fa;
     melod:hasProvenance _:bc7eab1f-246d-4028-a062-847d76dca90f, _:0489f722-b20f-485e-adf2-bc6155756602;
     melod:hasTitlePage _:dace1c49-3f15-4c0b-83dc-bcda16ef416d;

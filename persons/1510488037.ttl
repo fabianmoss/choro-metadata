@@ -10,4 +10,4 @@
 <urn:uuid:persons/1510488037> schema:familyName "Poelchau";
     schema:givenName "Georg";
     schema:gender "male";
-    a melod:Person, melod:PersonEntity.
+    a melod:Person.

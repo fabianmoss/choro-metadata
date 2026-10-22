@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:expressions/1764822542> a melod:Expression, melod:ExpressionEntity;
+<urn:uuid:expressions/1764822542> a melod:Expression;
     rdfs:label "A baianinha (arrangement by Pedro Paes)";
     melod:hasClassification "Polca";
     melod:inLanguage terms:Portuguese;

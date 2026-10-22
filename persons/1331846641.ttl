@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:persons/1331846641> a melod:Person, melod:PersonEntity;
+<urn:uuid:persons/1331846641> a melod:Person;
     schema:familyName "Paes";
     schema:givenName "Pedro";
     schema:gender "male";

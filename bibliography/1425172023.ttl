@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:bibliography/1425172023> a melod:Bibliography, melod:BibliographyEntity;
+<urn:uuid:bibliography/1425172023> a melod:Bibliography;
     schema:genre terms:ArticleBook;
     melod:hasTitle _:bf1d17e8d-bb73-0f6c-71d3-98a73e8208d4;
     melod:hasAbbreviation "Pinto 1978";

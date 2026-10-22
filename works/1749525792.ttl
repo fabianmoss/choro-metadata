@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:works/1749525792> a melod:Work, melod:WorkEntity;
+<urn:uuid:works/1749525792> a melod:Work;
     melod:hasTitle _:baa0f2968-1b53-7130-0377-c7e669cfb7c3;
     melod:hasIdentifier _:bc3979908-58e4-3259-300f-0d43e2ac5bea;
     melod:hasClassification "Choro";

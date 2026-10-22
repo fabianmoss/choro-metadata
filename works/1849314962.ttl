@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:works/1849314962> a melod:Work, melod:WorkEntity;
+<urn:uuid:works/1849314962> a melod:Work;
     melod:hasTitle _:ba8e5ce12-9afd-a2d3-8ef5-f623ac0c2b76;
     melod:hasIdentifier _:b59310155-6403-cc51-67d2-4c94195ddae2;
     melod:hasClassification "Valsa";

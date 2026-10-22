@@ -41,7 +41,19 @@ python3 -m tools.datasets --out indexes
 ```
 
 The `indexes/` folder keeps a copy of the generated datasets, so that the
-dropdowns can be inspected without running the container.
+dropdowns can be inspected without running the container.  It is also part of
+the validation: the shapes reference the entities by the derived types of the
+indexes (`melod:PersonEntity`…), and `npm test` mirrors the editor, which
+validates a document against the shapes plus the indexes.  Regenerate the
+indexes whenever you change entity documents.
+
+### One entity type per document
+
+Every entity document declares exactly one type: the base class of the
+ontology, for instance `a melod:Expression`.  The editor refuses to open a
+document with two types on the entity IRI, and the `*Entity` classes belong to
+the generated indexes only.  `npm test` enforces this contract as well; see
+§ 4.12 of [docs/acervo-model.md](docs/acervo-model.md).
 
 
 ## Data Validation

@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1087671266> a melod:Manifestation, melod:ManifestationEntity;
+<urn:uuid:manifestations/1087671266> a melod:Manifestation;
     melod:hasTitle _:bed3fe107-4b70-285d-dd26-dad21e0d3f5e;
     lrmoo:R4_embodies <urn:uuid:expressions/1759871472>;
     melod:hasClassificationOfManifestation "Partitura arranjo com letra para pequena orquestra", terms:Print;

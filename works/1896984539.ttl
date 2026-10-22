@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:works/1896984539> a melod:Work, melod:WorkEntity;
+<urn:uuid:works/1896984539> a melod:Work;
     melod:hasTitle _:b7befcede-ecbb-a3c2-dfb4-fd3056d16c34;
     melod:hasIdentifier _:bd91a25e7-7f27-3ed9-58a2-b30f76111ad1;
     melod:hasClassification "Polca";

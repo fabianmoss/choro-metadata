@@ -12,4 +12,4 @@
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
 
 <urn:uuid:expressions/4054568812> rdfs:label "Helft mir Gottes Güte preisen (Choral)";
-    a melod:Expression, melod:ExpressionEntity.
+    a melod:Expression.

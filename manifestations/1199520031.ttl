@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1199520031> a melod:Manifestation, melod:ManifestationEntity;
+<urn:uuid:manifestations/1199520031> a melod:Manifestation;
     melod:hasTitle _:b9fb25072-e58f-17e7-3d06-fd7c75ffe02a;
     lrmoo:R4_embodies <urn:uuid:expressions/1042235328>;
     melod:hasClassificationOfManifestation "Partitura piano", terms:Print;

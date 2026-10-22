@@ -13,7 +13,7 @@
 
 <urn:uuid:expressions/2277979240> rdfs:label "Aria";
     melod:hasTempo "Aufgeweckt";
-    a melod:Expression, melod:ExpressionEntity;
+    a melod:Expression;
     mus:U11_has_key _:f77d21cf-cb60-4429-9b74-9aed01f4085d;
     melod:hasMeter _:ceaa281e-d15c-4d09-943d-1ae88789ed21;
     melod:hasInstrumentation <urn:uuid:instrumentations/3896901877>;

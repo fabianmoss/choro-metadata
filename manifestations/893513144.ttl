@@ -13,7 +13,7 @@
 
 _:239c2e71-de0c-4fc2-98fb-944b5543b9cd rdfs:label "Da, bei aufgehender Friedenssonne (Berlin 1762)";
     a melod:Title.
-<urn:uuid:manifestations/893513144> a melod:Manifestation, melod:ManifestationEntity;
+<urn:uuid:manifestations/893513144> a melod:Manifestation;
     melod:hasTitle _:239c2e71-de0c-4fc2-98fb-944b5543b9cd;
     melod:hasClassificationOfManifestation "Textquelle";
     melod:hasTitlePage _:811b0f7e-3b3a-40b2-8886-d2875fa75cb5;

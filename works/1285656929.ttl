@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:works/1285656929> a melod:Work, melod:WorkEntity;
+<urn:uuid:works/1285656929> a melod:Work;
     melod:hasTitle _:b9fc9009b-53ce-6dda-c4cd-6f2977ff0e9e;
     melod:hasIdentifier _:b536811ce-f9e8-6bf5-5a73-2615b58c3d89;
     melod:hasClassification "Canção Maxixe";

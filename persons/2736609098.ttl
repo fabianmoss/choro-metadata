@@ -11,4 +11,4 @@
     schema:givenName "Georg Philipp";
     owl:sameAs <http://d-nb.info/gnd/11862119X>;
     schema:gender "male";
-    a melod:Person, melod:PersonEntity.
+    a melod:Person.

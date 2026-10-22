@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1494256413> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1494256413> a melod:Item;
     rdfs:label "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (score_5588)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1087671266>;
     melod:hasClassificationOfManifestation "Printed copy";

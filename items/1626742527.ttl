@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1626742527> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1626742527> a melod:Item;
     rdfs:label "Saudade de São João do Príncipe — Partitura melodia (score_1730)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1470936578>;
     melod:hasClassificationOfManifestation "Manuscript copy";

@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1146470934> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1146470934> a melod:Item;
     rdfs:label "Amarga saudade — Partitura melodia (no digitisation)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1615454429>;
     melod:hasClassificationOfManifestation "Printed copy";

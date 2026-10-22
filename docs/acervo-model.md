@@ -129,8 +129,16 @@ unit stays in the `schema:description` of the place:
 ```
 Rio de Janeiro (geonames 3451190)
   schema:description "Rio de Janeiro - RJ, Brazil."
-  schema:containedInPlace → Brazil (geonames 3469034, a melod:Country)
+  schema:containedInPlace → https://www.geonames.org/3469034
 ```
+
+The countries are not entities of this repository.  The place shape of
+MeLODy declares them as individuals of `melod:Country` (Brazil is the
+geonames id 3469034), so `schema:containedInPlace` points at that IRI and the
+editor offers the countries in the menu of the field.  The alternative — a
+country document of our own — would need a second type for the same entity
+(`melod:Place` and `melod:Country`) and would break the editor, which accepts
+exactly one entity type per document (§ 4.12).
 
 Places of birth that designate no place (“Local não identificado”,
 “Compositor estrangeiro”) produce no entity: the information stays in the
@@ -228,14 +236,43 @@ suggests:
 | editor               | `terms:MediumCertainty`  | idem, in the field “Cópia” |
 | publisher (institution) | no value              | the acervo names the house in the field “Cópia”, but the house is certain anyway |
 
-### 4.12 Derived types
+### 4.12 Entity types and the generated indexes
 
-The shapes of MeLODy do not reference the entities by their base type
-(`melod:Work`, `melod:Person`…), but by their derived type
-(`melod:WorkEntity`, `melod:PersonEntity`…).  The validator does not do RDFS
-entailment, so the derived type has to be declared in the file itself.  All
-the files of the repository — those of the acervo and those of the MeLODy
-model — declare both types.
+Every document declares **exactly one** type for its entity, and that type is
+the base class of the ontology (`melod:Expression`, `melod:Person`…) — never
+the derived `*Entity` class.  The editor requires it: when a document is
+selected it runs
+
+```sparql
+select ?entity_iri ?entity_type where {
+    ?entity_iri a ?entity_type .
+    filter(strstarts(str(?entity_iri), "urn:uuid:"))
+    filter(strstarts(str(?entity_type), "https://lod.academy/melod/vocab/ontology#"))
+}
+```
+
+and refuses to open the document unless the query returns exactly one row.
+Two types make the editor stop with “The selected document needs one
+statement with entity IRI and entity type!”; conversely, the JSON-LD → MEI
+converter is chosen by comparing the single `@type` with the base class, so
+an array of types would also leave the document without a form.
+
+The derived classes (`melod:WorkEntity`, `melod:PersonEntity`…) appear in the
+**generated indexes**.  Every projection re-types the entities it selects:
+
+```sparql
+construct { ?expression_iri a melod:ExpressionEntity; skos:prefLabel ?label }
+where     { ?expression_iri a melod:Expression . … }
+```
+
+The shapes reference the entities of a document by these derived types
+(`sh:class melod:PersonEntity` on `melod:hasAgent`, and so on).  They are
+satisfied because the editor validates a document against a store that
+contains the shapes, their `owl:imports` (the melod terms) and the `indexes/`
+folder of the repository; `tests/validation.js` mirrors that composition.
+A consequence for the workflow: after changing entity documents, regenerate
+the indexes (§ 7), otherwise the shapes cannot see the type of a referenced
+entity.
 
 ### 4.13 Date spans
 
@@ -261,12 +298,12 @@ MeLODy model.
 ## 5. Corrections in the data of the MeLODy model
 
 The example files that came with the MeLODy template did not pass the
-validation: 27 files, 123 violations.  The corrections are of content, not
-of style:
+validation: 27 files, 123 violations.  Part of them were content errors,
+corrected here; the rest came from a validator that did not load the
+generated indexes (§ 4.12).  The corrections are of content, not of style:
 
 | file | correction |
 |------|------------|
-| 40 files | declaration of the `melod:*Entity` type (§ 4.12) |
 | `works/1031334055.ttl` | the literal of `schema:description` was not closed — the file was not valid Turtle and was left out of the validation |
 | `instrumentations/*.ttl` | `schema:position` and `schema:description` in each `melod:InstrumentationDetail`; MARC code of the double bass corrected (`#ke` → `#sd`, which is the one of the *basso continuo*); `www.loac.gov` → `www.loc.gov` |
 | `expressions/926630544.ttl` | the instrumentation pointed to `urn:uuid:1134679629`, an IRI that does not exist — it now points to `urn:uuid:instrumentations/1134679629` |
@@ -277,8 +314,9 @@ of style:
 | `performanceEvents/3395291370.ttl`, `4019778394.ttl`, `603545879.ttl` | the three pointed to `urn:uuid:venues/2096486337`, which does not exist in the venues namespace (it is the IRI of the place Hamburg); they now point to the St. Catharinen venue, as the event of 1742 does |
 | `bibliography/268258228.ttl` | the `melod:hasAbbreviation` was missing, and it is mandatory: “HenzelC 2004” — Christoph Henzel, *Das Konzertleben in der preußischen Hauptstadt 1740-1786 im Spiegel der Berliner Presse*, SIM-Jahrbuch 2004, p. 216-291, following the pagination of the record itself |
 
-After the corrections, `npm test` passes on the 123 files of the repository,
-with no violation at all.
+After the corrections, `npm test` passes on the 122 files of the repository,
+with no violation at all.  The test also checks the editor's type contract of
+§ 4.12, so a document with a second entity type fails the build.
 
 ## 6. What is missing
 
@@ -300,12 +338,13 @@ with no violation at all.
 # the sample, written into the entity folders of the repository
 python3 -m tools.acervo.sample --out .
 
-# validation against the SHACL shapes of MeLODy
-npm test
-
-# the projections (indexes) that the editor loads in its dropdowns
+# the projections (indexes): the editor loads them in its dropdowns, and the
+# validation resolves the type of a referenced entity through them (§ 4.12)
 pip install rdflib
 python3 -m tools.datasets --out indexes
+
+# validation against the SHACL shapes of MeLODy and the editor's type contract
+npm test
 ```
 
 The CI generates the same projections with the `static-publishing-backend`,

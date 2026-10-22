@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1127993827> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1127993827> a melod:Item;
     rdfs:label "A baianinha — Partitura melodia e cifra (score_12811)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1192893173>;
     melod:hasClassificationOfManifestation "Printed copy";

@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:persons/1132692528> a melod:Person, melod:PersonEntity;
+<urn:uuid:persons/1132692528> a melod:Person;
     schema:familyName "Camargo";
     schema:givenName "Nabor Pires";
     schema:gender "male";

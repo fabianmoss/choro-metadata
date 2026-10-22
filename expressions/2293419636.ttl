@@ -14,7 +14,7 @@
 <urn:uuid:expressions/2293419636> rdfs:label "Halleluja, lobet den Namen des Herrn";
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression, melod:ExpressionEntity;
+    a melod:Expression;
     melod:hasAnnotation _:a849c0fe-1fff-4747-ab7f-aa5467425145;
     melod:hasClassification "Geistliche Vokalmusik (liturgisch)", "Kirchenmusik [geisliche Kantate]";
     melod:hasContribution _:8871c9ba-10d9-4fe1-b800-b1598d6b1c8e, _:b8ff490f-d163-4ecc-8719-a685c9773428;

@@ -12,7 +12,7 @@
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
 
 <urn:uuid:instrumentations/1134679629> rdfs:label "1., 2., B. ad lib., 3 Trp., Pk., 2 V., Va. ad lib., B.c";
-    a melod:Instrumentation, melod:InstrumentationEntity;
+    a melod:Instrumentation;
     melod:hasInstrumentationDetail _:7995f0ac-cb72-4a68-b43a-f21eb2c04f32, _:ab0acef6-012b-4612-ae1f-ed0fd18f823f, _:1024934a-5a6f-40ee-a491-886c412e9fe1, _:075b9bee-d792-4b6d-bd33-46a959960f3e, _:5882f6dd-7c12-4754-9326-a38f9948e4b4, _:77ea7a2d-94a6-4419-8010-1e685de5a40e, _:c915db58-8cd6-4df1-a213-b476e0696127, _:403fdbd3-2f02-4123-9a32-e5326944c2b5, _:0558a8e1-bc5a-438f-83fb-56327167d106, _:88e9f16f-e0f5-4dfb-ad4f-09a153cc9038.
 _:7995f0ac-cb72-4a68-b43a-f21eb2c04f32 mus:U2_foresees_use_of_medium_of_performance melodTerms:Soprano;
     schema:position 1;

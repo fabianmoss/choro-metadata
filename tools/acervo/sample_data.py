@@ -503,6 +503,18 @@ WORKS = [
 # MeLODy model provides a single level of containment (city contained in a
 # country), so the federal unit goes to the description of the place.
 
+# Countries are not entities of this repository.  The MeLODy place shape
+# declares them as individuals of melod:Country (one per geonames id), and a
+# place points at that IRI with schema:containedInPlace.  The editor then
+# offers the countries in the menu of that field.
+COUNTRIES = {
+    "Brazil": {
+        "geonames": "3469034",
+        "label": "Brasil",
+        "label_en": "Brazil",
+    },
+}
+
 PLACES = [
     {
         "key": "Rio de Janeiro",
@@ -559,15 +571,6 @@ PLACES = [
         "geonames": "6321455",
         "description": "Itajubá - MG, Brazil.",
         "country": "Brazil",
-    },
-    {
-        "key": "Brazil",
-        "name": "Brazil",
-        "geonames": "3469034",
-        "description": "Brazil — country of naturality of the agents of the acervo.",
-        "country": None,
-        "country_label": "Brasil",
-        "country_label_en": "Brazil",
     },
 ]
 

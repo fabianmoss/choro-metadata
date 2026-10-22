@@ -12,8 +12,8 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:places/1084082987> a melod:Place, melod:PlaceEntity;
+<urn:uuid:places/1084082987> a melod:Place;
     schema:name "São Paulo";
     schema:description "São Paulo - SP, Brazil.";
     owl:sameAs <https://www.geonames.org/3448439>;
-    schema:containedInPlace <urn:uuid:places/1736130555>.
+    schema:containedInPlace <https://www.geonames.org/3469034>.

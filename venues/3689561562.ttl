@@ -8,4 +8,4 @@
 
 <urn:uuid:venues/3689561562> schema:name "St. Catharinen";
     schema:containedInPlace <urn:uuid:places/2096486337>;
-    a melod:Venue, melod:VenueEntity.
+    a melod:Venue.

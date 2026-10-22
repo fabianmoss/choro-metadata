@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1161387869> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1161387869> a melod:Item;
     rdfs:label "Aurora — Partitura melodia (score_10932)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1259923159>;
     melod:hasClassificationOfManifestation "Manuscript copy";

@@ -12,8 +12,8 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:places/1800036311> a melod:Place, melod:PlaceEntity;
+<urn:uuid:places/1800036311> a melod:Place;
     schema:name "Rio de Janeiro";
     schema:description "Rio de Janeiro - RJ, Brazil.";
     owl:sameAs <https://www.geonames.org/3451190>;
-    schema:containedInPlace <urn:uuid:places/1736130555>.
+    schema:containedInPlace <https://www.geonames.org/3469034>.

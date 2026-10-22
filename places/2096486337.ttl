@@ -7,4 +7,4 @@
 
 <urn:uuid:places/2096486337> schema:name "Hamburg";
     owl:sameAs <https://www.geonames.org/7602585>;
-    a melod:Place, melod:PlaceEntity.
+    a melod:Place.

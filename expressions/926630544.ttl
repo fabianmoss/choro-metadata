@@ -14,7 +14,7 @@
 <urn:uuid:expressions/926630544> rdfs:label "Choral";
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression, melod:ExpressionEntity;
+    a melod:Expression;
     mus:U11_has_key _:7a627758-f334-4559-bb41-4a2986ec19c7;
     melod:hasMeter _:728a2446-f148-432d-8612-8f230257bd2e;
     melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;

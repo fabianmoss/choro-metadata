@@ -14,7 +14,7 @@
 <urn:uuid:performanceEvents/3395291370> rdfs:label "Aufführung";
     melod:hasVenue <urn:uuid:venues/3689561562>;
     schema:description "Nach Datum auf dem Umschlag des Stimmenmaterials (D-B Mus.ms. 21740/250).";
-    a melod:PerformanceEvent, melod:PerformanceEventEntity;
+    a melod:PerformanceEvent;
     melod:hasEventDate _:5e58e2b5-942a-4282-b682-db7e42824c25.
 _:5e58e2b5-942a-4282-b682-db7e42824c25 melod:isodate "1751-01-01"^^xsd:date;
     schema:description "1. Januar 1751 (Neujahr)";

@@ -211,9 +211,11 @@ class Builder:
     """Accumulates the files to be written, one per entity."""
 
     def __init__(self, people: People, place_keys=(), instrumentation_labels=None,
-                 instrument_terms=None, bibliography=(), institutions=()):
+                 instrument_terms=None, bibliography=(), institutions=(),
+                 countries=None):
         self.people = people
         self.place_keys = set(place_keys)
+        self.countries = dict(countries or {})
         self.instrumentation_labels = instrumentation_labels or {}
         self.instrument_terms = instrument_terms or {}
         self.bibliography = list(bibliography)
@@ -245,7 +247,7 @@ class Builder:
         iri = ids.person(key)
 
         family, given = split_name(person.get("inverted", ""), person.get("name", ""))
-        graph.type(iri, "melod:Person", "melod:PersonEntity")
+        graph.type(iri, "melod:Person")
         graph.add(iri, "schema:familyName", Literal(family))
         if given:
             graph.add(iri, "schema:givenName", Literal(given))
@@ -323,23 +325,21 @@ class Builder:
     def place(self, place: dict) -> None:
         graph = Graph()
         iri = ids.place(place["key"])
-        types = ["melod:Place", "melod:PlaceEntity"]
-        if place.get("country_label"):
-            types.append("melod:Country")
-        graph.type(iri, *types)
+        graph.type(iri, "melod:Place")
         graph.add(iri, "schema:name", Literal(place["name"]))
-        if place.get("country_label"):
-            graph.add(iri, "rdfs:label", Literal(place["country_label"], lang=LANG))
-        if place.get("country_label_en"):
-            graph.add(iri, "skos:prefLabel",
-                      Literal(place["country_label_en"], lang="en"))
         if place.get("description"):
             graph.add(iri, "schema:description", Literal(place["description"]))
         if place.get("geonames"):
             graph.add(iri, "owl:sameAs",
                       IRI(f"https://www.geonames.org/{place['geonames']}"))
-        if place.get("country"):
-            graph.add(iri, "schema:containedInPlace", IRI(ids.place(place["country"])))
+        country = self.countries.get(place.get("country"))
+        if country:
+            # The countries are not entities of this repository: the place
+            # shape declares them as individuals of melod:Country (one per
+            # geonames id), so the place points at that IRI and the editor
+            # offers them in its country menu.
+            graph.add(iri, "schema:containedInPlace",
+                      IRI(f"https://www.geonames.org/{country['geonames']}"))
         self.write("places", iri, graph)
 
     # -- institutions -----------------------------------------------------
@@ -355,7 +355,7 @@ class Builder:
     def institution(self, institution: dict) -> None:
         graph = Graph()
         iri = ids.institution(institution["key"])
-        graph.type(iri, "melod:Institution", "melod:InstitutionEntity")
+        graph.type(iri, "melod:Institution")
         graph.add(iri, "schema:name", Literal(institution["name"]))
         if institution.get("abbreviation"):
             graph.add(iri, "melod:hasAbbreviation",
@@ -387,7 +387,7 @@ class Builder:
         iri = ids.instrumentation(key)
 
         graph = Graph()
-        graph.type(iri, "melod:Instrumentation", "melod:InstrumentationEntity")
+        graph.type(iri, "melod:Instrumentation")
         if label:
             # a label written for this dataset: English, no language tag
             graph.add(iri, "rdfs:label", Literal(label))
@@ -417,7 +417,7 @@ class Builder:
     def bibliography_entity(self, entry: dict) -> None:
         graph = Graph()
         iri = ids.bibliography(entry["key"])
-        graph.type(iri, "melod:Bibliography", "melod:BibliographyEntity")
+        graph.type(iri, "melod:Bibliography")
         if entry.get("genre"):
             graph.add(iri, "schema:genre", Prefixed(entry["genre"]))
         title = blank_node(f"{iri}#title")
@@ -526,7 +526,7 @@ class WorkBuilder:
     def build(self, work: dict) -> None:
         work_iri = ids.work(work["id"])
         graph = Graph()
-        graph.type(work_iri, "melod:Work", "melod:WorkEntity")
+        graph.type(work_iri, "melod:Work")
 
         title = blank_node(f"{work_iri}#title")
         graph.type(title, "melod:Title")
@@ -614,7 +614,7 @@ class WorkBuilder:
     def expression(self, work: dict, expression: dict) -> str:
         iri = ids.expression(work["id"], expression["key"])
         graph = Graph()
-        graph.type(iri, "melod:Expression", "melod:ExpressionEntity")
+        graph.type(iri, "melod:Expression")
         graph.add(iri, "rdfs:label", Literal(expression["label"]))
         for genre in work.get("fields", {}).get("Gênero", []):
             graph.add(iri, "melod:hasClassification", Literal(genre))
@@ -677,7 +677,7 @@ class WorkBuilder:
         score_type = manifestation["type"]
         iri = ids.manifestation(work["id"], edition, score_type)
         graph = Graph()
-        graph.type(iri, "melod:Manifestation", "melod:ManifestationEntity")
+        graph.type(iri, "melod:Manifestation")
 
         title = blank_node(f"{iri}#title")
         graph.type(title, "melod:Title")
@@ -767,7 +767,7 @@ class WorkBuilder:
     def item(self, work: dict, manifestation: dict, score: dict) -> None:
         iri = ids.item(work["id"], score["index"])
         graph = Graph()
-        graph.type(iri, "melod:Item", "melod:ItemEntity")
+        graph.type(iri, "melod:Item")
 
         reference = score.get("pdf")
         label = (f"{work['title']} — {score['type']} "
@@ -861,7 +861,7 @@ class WorkBuilder:
 
 def build(works, cards, extra_persons, places, institutions, bibliography,
           instrumentation_labels=None, instrument_terms=None, aliases=None,
-          merged=None, out_dir=".", verbose=True) -> dict[tuple[str, str], str]:
+          merged=None, countries=None, out_dir=".", verbose=True) -> dict[tuple[str, str], str]:
     """Writes one file per entity and returns the ``(folder, name) → text`` map."""
     people = People(cards, extra_persons, aliases=aliases, merged=merged)
     builder = Builder(
@@ -871,6 +871,7 @@ def build(works, cards, extra_persons, places, institutions, bibliography,
         instrument_terms=instrument_terms,
         bibliography=bibliography,
         institutions=institutions,
+        countries=countries,
     )
 
     for place in places:
@@ -916,6 +917,7 @@ def main(argv=None) -> int:
         instrument_terms=sample_data.INSTRUMENT_TERMS,
         aliases=sample_data.ALIASES,
         merged=sample_data.MERGED_CARDS,
+        countries=sample_data.COUNTRIES,
         out_dir=os.path.abspath(args.out),
         verbose=not args.quiet,
     )

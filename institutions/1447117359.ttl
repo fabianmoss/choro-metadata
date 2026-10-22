@@ -14,4 +14,4 @@
 <urn:uuid:institutions/1447117359> schema:name "Universitätsbibliothek Johann Christian Senckenberg";
     melod:hasAbbreviation "D-F";
     schema:location <urn:uuid:places/2023822932>;
-    a melod:Institution, melod:InstitutionEntity.
+    a melod:Institution.

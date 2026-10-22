@@ -14,7 +14,7 @@
 <urn:uuid:expressions/2372423187> rdfs:label "Musicalisches Lob Gottes";
     melod:inLanguage terms:German;
     melod:hasClassification "Geistliche Vokalmusik (liturgisch)", "Kirchenmusikalischer Jahrgang [Kantaten-Jahrgang]";
-    a melod:Expression, melod:ExpressionEntity;
+    a melod:Expression;
     melod:hasContribution _:a2bf5fd8-a15b-425e-9b10-465c6f9b8331, _:87486e71-1872-4547-8651-507769b48903;
     schema:dateCreated _:ef70fd41-35eb-4f18-986a-1e0c4e992c7c;
     schema:locationCreated <urn:uuid:places/2096486337>;

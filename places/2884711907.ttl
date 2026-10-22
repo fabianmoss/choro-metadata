@@ -7,4 +7,4 @@
 
 <urn:uuid:places/2884711907> schema:name "Berlin";
     owl:sameAs <https://www.geonames.org/2950159>;
-    a melod:Place, melod:PlaceEntity.
+    a melod:Place.

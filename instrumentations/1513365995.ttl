@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:instrumentations/1513365995> a melod:Instrumentation, melod:InstrumentationEntity;
+<urn:uuid:instrumentations/1513365995> a melod:Instrumentation;
     rdfs:label "Piano";
     melod:hasInstrumentationDetail _:bd7d7b3be-72a1-9377-ddb4-55a7e1a62e66.
 

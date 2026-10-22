@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:institutions/1466939823> a melod:Institution, melod:InstitutionEntity;
+<urn:uuid:institutions/1466939823> a melod:Institution;
     schema:name "Instituto Casa do Choro";
     melod:hasAbbreviation "ICC";
     schema:address "Rua da Carioca, 38 - Centro, Rio de Janeiro - RJ, Brasil";

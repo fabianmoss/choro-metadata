@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1192893173> a melod:Manifestation, melod:ManifestationEntity;
+<urn:uuid:manifestations/1192893173> a melod:Manifestation;
     melod:hasTitle _:b258e93af-f044-e5f8-4e69-652e294cd82d;
     lrmoo:R4_embodies <urn:uuid:expressions/1764822542>;
     melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;

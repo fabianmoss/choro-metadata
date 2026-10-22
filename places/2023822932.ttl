@@ -7,4 +7,4 @@
 
 <urn:uuid:places/2023822932> schema:name "Frankfurt a. M.";
     owl:sameAs <https://www.geonames.org/2925533>;
-    a melod:Place, melod:PlaceEntity.
+    a melod:Place.

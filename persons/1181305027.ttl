@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:persons/1181305027> a melod:Person, melod:PersonEntity;
+<urn:uuid:persons/1181305027> a melod:Person;
     schema:familyName "Silva";
     schema:givenName "Viriato Figueira da";
     schema:gender "male";

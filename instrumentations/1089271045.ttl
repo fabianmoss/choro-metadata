@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:instrumentations/1089271045> a melod:Instrumentation, melod:InstrumentationEntity;
+<urn:uuid:instrumentations/1089271045> a melod:Instrumentation;
     rdfs:label "Small orchestra";
     melod:hasInstrumentationDetail _:bdcd006fd-22ce-2de9-ff0c-e0e0ad8c7beb, _:bc6b9c50e-af1e-6016-a42b-8cd72a789c00, _:b83cea0da-077e-49e7-48db-4d08e06f5f81, _:b1a490731-0027-461f-57f5-ba6fcb3b459c, _:b82f6ed35-0945-d534-14db-d694fee45875, _:b32047122-ab2d-c600-8c56-2dba22f4a1b4, _:b3746fa09-308d-f34d-edd9-993fb67aa2ca.
 

@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1868339205> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1868339205> a melod:Item;
     rdfs:label "A Araponga e a Juriti — Partitura melodia e cifra (score_10496)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1407704655>;
     melod:hasClassificationOfManifestation "Printed copy";

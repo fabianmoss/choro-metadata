@@ -14,5 +14,5 @@
 <urn:uuid:persons/180681546> schema:familyName "Nunes";
     schema:givenName "Alfredo";
     schema:gender "male";
-    a melod:Person, melod:PersonEntity;
+    a melod:Person;
     dct:conformsTo melod:Person.

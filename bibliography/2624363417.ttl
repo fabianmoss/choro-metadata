@@ -12,7 +12,7 @@
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
 
 <urn:uuid:bibliography/2624363417> schema:genre terms:ArticleBook;
-    a melod:Bibliography, melod:BibliographyEntity;
+    a melod:Bibliography;
     melod:hasTitle _:dfbc4d4c-2c58-4c4a-b957-943618d3b719;
     melod:hasAbbreviation "NeubacherJ 2020";
     owl:sameAs <http://zotero.org/groups/5004586/items/ZCKV5V89>;

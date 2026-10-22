@@ -10,4 +10,4 @@
 <urn:uuid:persons/3073066331> schema:familyName "König";
     schema:givenName "Samuel";
     schema:gender "male";
-    a melod:Person, melod:PersonEntity.
+    a melod:Person.

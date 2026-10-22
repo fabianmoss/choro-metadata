@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:bibliography/1704822924> a melod:Bibliography, melod:BibliographyEntity;
+<urn:uuid:bibliography/1704822924> a melod:Bibliography;
     schema:genre terms:ArticleBook;
     melod:hasTitle _:bd861ab71-8bf8-7c87-6894-6387eae047c3;
     melod:hasAbbreviation "Enciclopédia da música brasileira 1998";

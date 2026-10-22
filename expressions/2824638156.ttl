@@ -14,7 +14,7 @@
 <urn:uuid:expressions/2824638156> rdfs:label "Aria";
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression, melod:ExpressionEntity;
+    a melod:Expression;
     mus:U11_has_key _:07842f6e-5fbe-418b-a989-03d6b2a86e17;
     melod:hasMeter _:a6984232-174d-4669-bc68-1a446a1f406f;
     melod:hasInstrumentation <urn:uuid:instrumentations/204336523>;

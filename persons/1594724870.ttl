@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:persons/1594724870> a melod:Person, melod:PersonEntity;
+<urn:uuid:persons/1594724870> a melod:Person;
     schema:familyName "Abreu";
     schema:givenName "José Gomes";
     schema:alternateName "Zequinha de Abreu", "José Gomes de Abreu";

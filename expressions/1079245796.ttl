@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:expressions/1079245796> a melod:Expression, melod:ExpressionEntity;
+<urn:uuid:expressions/1079245796> a melod:Expression;
     rdfs:label "Aurora (original version)";
     melod:hasClassification "Valsa Sentimental";
     melod:inLanguage terms:Portuguese;

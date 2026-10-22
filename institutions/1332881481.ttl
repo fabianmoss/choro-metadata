@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:institutions/1332881481> a melod:Institution, melod:InstitutionEntity;
+<urn:uuid:institutions/1332881481> a melod:Institution;
     schema:name "Irmãos Vitale";
     schema:address "Rua Visc. de Pirajá, 82 - 1201 - Ipanema - Rio de Janeiro - RJ, 22410-904, Brazil";
     schema:location <urn:uuid:places/1800036311>;

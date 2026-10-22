@@ -12,7 +12,7 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:items/1842598478> a melod:Item, melod:ItemEntity;
+<urn:uuid:items/1842598478> a melod:Item;
     rdfs:label "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (score_9886)";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/1684106958>;
     melod:hasClassificationOfManifestation "Manuscript copy";
