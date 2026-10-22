@@ -13,7 +13,7 @@
 
 <urn:uuid:expressions/1921829629> rdfs:label "Chor [Dictum]";
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression;
+    a melod:Expression, melod:ExpressionEntity;
     mus:U11_has_key _:0243a56c-6d2c-4eb4-8ea7-4c15e27ee85b;
     melod:hasMeter _:28a1e195-e1cb-4992-81b7-96700531b2f4;
     melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;

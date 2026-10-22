@@ -15,4 +15,4 @@
     melod:hasAbbreviation "D-Bsa";
     owl:sameAs <https://rism.online/institutions/20000001>;
     schema:location <urn:uuid:places/2884711907>;
-    a melod:Institution.
+    a melod:Institution, melod:InstitutionEntity.

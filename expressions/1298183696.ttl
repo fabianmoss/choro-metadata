@@ -14,12 +14,15 @@
 <urn:uuid:expressions/1298183696> rdfs:label "Recit[ativ]";
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression;
+    a melod:Expression, melod:ExpressionEntity;
     mus:U11_has_key _:a2ec8a44-2a98-4583-ac63-ae461c6fc369;
     melod:hasMeter _:89f544a2-058b-45a7-a21a-df462e584942;
     melod:hasInstrumentation <urn:uuid:instrumentations/204336523>;
     melod:hasIncipit _:a811b030-242b-4b88-9ab3-02d3906e03c7.
-_:a2ec8a44-2a98-4583-ac63-ae461c6fc369 schema:description "modulierend";
+_:a2ec8a44-2a98-4583-ac63-ae461c6fc369 melod:hasPitch terms:E;
+    melod:hasAccidental terms:Flat;
+    melod:isInMode terms:Major;
+    schema:description "modulierend (modulating); the key signature is empty in the source, the key of E-flat major is assumed";
     a melod:Key.
 _:89f544a2-058b-45a7-a21a-df462e584942 a melod:Meter;
     melod:usesMeterSymbol "common".

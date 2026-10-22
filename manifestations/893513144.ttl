@@ -13,7 +13,7 @@
 
 _:239c2e71-de0c-4fc2-98fb-944b5543b9cd rdfs:label "Da, bei aufgehender Friedenssonne (Berlin 1762)";
     a melod:Title.
-<urn:uuid:manifestations/893513144> a melod:Manifestation;
+<urn:uuid:manifestations/893513144> a melod:Manifestation, melod:ManifestationEntity;
     melod:hasTitle _:239c2e71-de0c-4fc2-98fb-944b5543b9cd;
     melod:hasClassificationOfManifestation "Textquelle";
     melod:hasTitlePage _:811b0f7e-3b3a-40b2-8886-d2875fa75cb5;
@@ -21,7 +21,8 @@ _:239c2e71-de0c-4fc2-98fb-944b5543b9cd rdfs:label "Da, bei aufgehender Friedenss
     melod:hasContribution _:d118c288-3262-4623-894c-02548e49645d;
     lrmoo:R4_embodies <urn:uuid:expressions/2293419636>.
 _:811b0f7e-3b3a-40b2-8886-d2875fa75cb5 a melod:TitlePage;
-    melod:paragraph "<rend fontstyle=\"italic\">Da, | bey aufgehender Friedens=Sonne, | als nemlich | zwischen | Sr. Kön. Maj. in Preußen, | unserm allergnädigsten Herrn | und | Sr. Rußisch Kaiserl. Maj. | ein erwünschter Friede | getroffen worden, | ein | dem höchsten GOtt darzubringendes Dankfest | am 1 heil. Pfingst=Tage, | den 30 Mai 1762. | angeordet worden, | so wurde, | zu mehrerer Aufmunterung, unter nachfolgendem Text, | in der hiesigen S.Nicolai Kirche eine Musik | aufgeführet | von | J. Ditmar, | Cant. und Direct. Mus. zu S. Nicolai.</rend> | Berlin, gedruckt bey Samuel König, privil. Buchdrucker.".
+    cidoc:P2_has_type "Kopftitel";
+    melod:paragraph "<rend fontstyle=\"italic\">Da, | bey aufgehender Friedens=Sonne, | als nemlich | zwischen | Sr. Kön. Maj. in Preußen, | unserm allergnädigsten Herrn | und | Sr. Rußisch Kaiserl. Maj. | ein erwünschter Friede | getroffen worden, | ein | dem höchsten GOtt darzubringendes Dankfest | am 1 heil. Pfingst=Tage, | den 30 Mai 1762. | angeordet worden, | so wurde, | zu mehrerer Aufmunterung, unter nachfolgendem Text, | in der hiesigen S.Nicolai Kirche eine Musik | aufgeführet | von | J. Ditmar, | Cant. und Direct. Mus. zu S. Nicolai.</rend> | Berlin, gedruckt bey Samuel König, privil. Buchdrucker."^^rdf:HTML.
 _:4ac5fdb1-44e1-473c-8f03-14252de3c7a3 a schema:PublicationEvent;
     schema:startDate "1762-01-01"^^xsd:date;
     schema:endDate "1762-12-31"^^xsd:date;

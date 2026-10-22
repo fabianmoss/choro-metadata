@@ -14,7 +14,7 @@
 <urn:uuid:expressions/2372423187> rdfs:label "Musicalisches Lob Gottes";
     melod:inLanguage terms:German;
     melod:hasClassification "Geistliche Vokalmusik (liturgisch)", "Kirchenmusikalischer Jahrgang [Kantaten-Jahrgang]";
-    a melod:Expression;
+    a melod:Expression, melod:ExpressionEntity;
     melod:hasContribution _:a2bf5fd8-a15b-425e-9b10-465c6f9b8331, _:87486e71-1872-4547-8651-507769b48903;
     schema:dateCreated _:ef70fd41-35eb-4f18-986a-1e0c4e992c7c;
     schema:locationCreated <urn:uuid:places/2096486337>;
@@ -28,6 +28,9 @@ _:87486e71-1872-4547-8651-507769b48903 melod:hasAgent <urn:uuid:persons/42020432
     melod:hasRole terms:Lyricist;
     melod:hasCertainty terms:HighCertainty;
     a melod:Contribution.
-_:ef70fd41-35eb-4f18-986a-1e0c4e992c7c melod:hasCertainty melod:MediumCertainty;
-    a melod:Date;
+_:ef70fd41-35eb-4f18-986a-1e0c4e992c7c a melod:Date;
+    melod:notBefore "1741"^^xsd:gYear;
+    melod:notAfter "1744"^^xsd:gYear;
+    schema:startDate "1741"^^xsd:gYear;
+    melod:hasCertainty terms:MediumCertainty;
     schema:description "[1741]-1744".

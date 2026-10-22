@@ -10,4 +10,4 @@
 <urn:uuid:persons/2108317331> schema:familyName "Telemann";
     schema:givenName "Georg Michael";
     schema:gender "male";
-    a melod:Person.
+    a melod:Person, melod:PersonEntity.

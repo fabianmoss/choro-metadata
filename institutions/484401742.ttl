@@ -15,4 +15,4 @@
     melod:hasAbbreviation "D-B";
     owl:sameAs <https://rism.online/institutions/30000655>;
     schema:location <urn:uuid:places/2884711907>;
-    a melod:Institution.
+    a melod:Institution, melod:InstitutionEntity.

@@ -16,4 +16,4 @@
     cidoc:P50_has_current_keeper <urn:uuid:institutions/901685163>;
     melod:hasShelfmark "SA 601";
     lrmoo:R7_exemplifies <urn:uuid:manifestations/893513144>;
-    a melod:Item.
+    a melod:Item, melod:ItemEntity.

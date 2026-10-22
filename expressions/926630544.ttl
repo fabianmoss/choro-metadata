@@ -14,10 +14,10 @@
 <urn:uuid:expressions/926630544> rdfs:label "Choral";
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
-    a melod:Expression;
+    a melod:Expression, melod:ExpressionEntity;
     mus:U11_has_key _:7a627758-f334-4559-bb41-4a2986ec19c7;
     melod:hasMeter _:728a2446-f148-432d-8612-8f230257bd2e;
-    melod:hasInstrumentation <urn:uuid:1134679629>;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;
     melod:hasIncipit _:257b0c4b-5189-4cc5-980c-f1656d77cdc4;
     schema:description "6. Strophe des Chorals <rend fontstyle=\"italic\">Helft mir Gotts Güte preisen</rend>; auf die Melodie von <rend fontstyle=\"italic\">Von Gott will ich nicht lassen</rend>.".
 _:7a627758-f334-4559-bb41-4a2986ec19c7 melod:hasPitch terms:C;

@@ -15,4 +15,4 @@
     melod:inLanguage terms:German;
     melod:completionStatus terms:CompleteExpression;
     melod:hasClassification "Choral";
-    a melod:Expression.
+    a melod:Expression, melod:ExpressionEntity.

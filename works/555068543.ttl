@@ -14,7 +14,7 @@
 _:b9c2a419-533f-43e2-a11c-951c8119fa59 rdfs:label "Halleluja, lobet den Namen des Herrn"@de;
     melod:hasTitleType terms:MainTitle;
     a melod:Title.
-<urn:uuid:works/555068543> a melod:Work;
+<urn:uuid:works/555068543> a melod:Work, melod:WorkEntity;
     melod:hasTitle _:b9c2a419-533f-43e2-a11c-951c8119fa59;
     melod:hasIdentifier _:fbcfea7a-195e-44a2-9b12-b55c6c546743, _:dbcc87ac-f346-4397-ba86-36d76956dc35;
     schema:creativeWorkStatus "authentic";

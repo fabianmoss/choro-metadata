@@ -12,7 +12,7 @@
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
 
 <urn:uuid:bibliography/382681371> schema:genre terms:ArticleBook;
-    a melod:Bibliography;
+    a melod:Bibliography, melod:BibliographyEntity;
     melod:hasTitle _:9db0daff-f790-4173-b871-5c2cb11b0bd5, _:df0ed2f4-ac34-40f3-83e2-12d5e639b2be;
     melod:hasAbbreviation "LangeC 2022";
     schema:publication _:409edaa2-627b-411c-bb2f-76d7b741a77f.

@@ -13,7 +13,7 @@
 
 <urn:uuid:performanceEvents/1412123009> rdfs:label "Aufführung";
     melod:hasVenue <urn:uuid:venues/3689561562>;
-    a melod:PerformanceEvent;
+    a melod:PerformanceEvent, melod:PerformanceEventEntity;
     melod:hasEventDate _:59a37d33-6c9c-4339-85c6-c36f840b4f61.
 _:59a37d33-6c9c-4339-85c6-c36f840b4f61 melod:isodate "1742-01-01"^^xsd:date;
     schema:description "[1. Januar 1742 (Neujahr)]";

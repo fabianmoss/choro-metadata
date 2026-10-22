@@ -12,9 +12,9 @@
 @prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
 
 <urn:uuid:performanceEvents/603545879> rdfs:label "Aufführung";
-    melod:hasVenue <urn:uuid:venues/2096486337>;
+    melod:hasVenue <urn:uuid:venues/3689561562>;
     schema:description "Nach Datum auf dem Umschlag des Stimmenmaterials (D-B Mus.ms. 21740/250).";
-    a melod:PerformanceEvent;
+    a melod:PerformanceEvent, melod:PerformanceEventEntity;
     melod:hasEventDate _:523d5c91-02f6-413d-a6fe-9175bcc8b4fd.
 _:523d5c91-02f6-413d-a6fe-9175bcc8b4fd melod:isodate "1763-01-01"^^xsd:date;
     schema:description "1. Januar 1763 (Neujahr)";

@@ -11,4 +11,4 @@
     schema:givenName "Erdmann";
     owl:sameAs <http://d-nb.info/gnd/11893094X>;
     schema:gender "male";
-    a melod:Person.
+    a melod:Person, melod:PersonEntity.
