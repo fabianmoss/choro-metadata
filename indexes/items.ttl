@@ -1,10 +1,67 @@
-<urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1510488037> .
+<urn:uuid:items/1017325175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1017325175> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura piano (score_5459)" .
+<urn:uuid:items/1017325175> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1017325175> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1199520031> .
+<urn:uuid:items/1068552667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1068552667> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia e cifra (score_14094)" .
+<urn:uuid:items/1068552667> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1068552667> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1212481482> .
+<urn:uuid:items/1127993827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1127993827> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia e cifra (score_12811)" .
+<urn:uuid:items/1127993827> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1127993827> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1192893173> .
+<urn:uuid:items/1146470934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1146470934> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia (no digitisation)" .
+<urn:uuid:items/1146470934> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1146470934> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1615454429> .
+<urn:uuid:items/1155615064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_828)" .
+<urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
+<urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1465258181> .
+<urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1589418829> .
+<urn:uuid:items/1337800973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_826)" .
+<urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
+<urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1063044915> .
+<urn:uuid:items/1494256413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (score_5588)" .
+<urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1087671266> .
+<urn:uuid:items/1626742527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia (score_1730)" .
+<urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1470936578> .
+<urn:uuid:items/1668786263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia e cifra (no digitisation)" .
+<urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1415549562> .
+<urn:uuid:items/1754302455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1754302455> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_825)" .
+<urn:uuid:items/1754302455> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1754302455> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
+<urn:uuid:items/1756136220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_827)" .
+<urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
+<urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1063044915> .
+<urn:uuid:items/1842598478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (score_9886)" .
+<urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1684106958> .
+<urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1168168328> .
+<urn:uuid:items/1868339205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1868339205> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura melodia e cifra (score_10496)" .
+<urn:uuid:items/1868339205> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1868339205> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1407704655> .
+<urn:uuid:items/244351973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-B Mus.ms.autogr. Telemann, G. P. 60" .
 <urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/484401742> .
 <urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/3043558560> .
-<urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-B Mus.ms.autogr. Telemann, G. P. 60".
-<urn:uuid:items/244351973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1510488037> .
 <urn:uuid:items/244351973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/2108317331> .
+<urn:uuid:items/2594093619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/2594093619> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-Bsa SA 601" .
 <urn:uuid:items/2594093619> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/901685163> .
 <urn:uuid:items/2594093619> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/893513144> .
-<urn:uuid:items/2594093619> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-Bsa SA 601".
-<urn:uuid:items/2594093619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity>.

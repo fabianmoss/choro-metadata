@@ -1,6 +1,20 @@
-<urn:uuid:places/2884711907> <http://www.w3.org/2004/02/skos/core#prefLabel> "Berlin".
-<urn:uuid:places/2884711907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
-<urn:uuid:places/2023822932> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frankfurt a. M.".
+<urn:uuid:places/1007324836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1007324836> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tietê" .
+<urn:uuid:places/1084082987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1084082987> <http://www.w3.org/2004/02/skos/core#prefLabel> "São Paulo" .
+<urn:uuid:places/1377088430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1377088430> <http://www.w3.org/2004/02/skos/core#prefLabel> "Macaé" .
+<urn:uuid:places/1680222153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1680222153> <http://www.w3.org/2004/02/skos/core#prefLabel> "Indaiatuba" .
+<urn:uuid:places/1729467367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1729467367> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brasília" .
+<urn:uuid:places/1736130555> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1736130555> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazil" .
+<urn:uuid:places/1800036311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/1800036311> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rio de Janeiro" .
 <urn:uuid:places/2023822932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
-<urn:uuid:places/2096486337> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hamburg".
-<urn:uuid:places/2096486337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity>.
+<urn:uuid:places/2023822932> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frankfurt a. M." .
+<urn:uuid:places/2096486337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/2096486337> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hamburg" .
+<urn:uuid:places/2884711907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PlaceEntity> .
+<urn:uuid:places/2884711907> <http://www.w3.org/2004/02/skos/core#prefLabel> "Berlin" .

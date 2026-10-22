@@ -1,0 +1,48 @@
+<urn:uuid:works/1031334055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1031334055> <http://www.w3.org/2004/02/skos/core#altLabel> "Musikalisches Lob Gottes" .
+<urn:uuid:works/1031334055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Musicalisches Lob Gottes" .
+<urn:uuid:works/1031334055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/382681371> .
+<urn:uuid:works/1031334055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2372423187> .
+<urn:uuid:works/1031334055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:works/555068543> .
+<urn:uuid:works/1177196623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha" .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1425172023> .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1711995158> .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1764822542> .
+<urn:uuid:works/1177196623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1372428005> .
+<urn:uuid:works/1232782606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe" .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1503929089> .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1193975608> .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1896939585> .
+<urn:uuid:works/1232782606> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1181305027> .
+<urn:uuid:works/1285656929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#broader> "Canção Maxixe" .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti" .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1704822924> .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332812348> .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1759871472> .
+<urn:uuid:works/1285656929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1182012213> .
+<urn:uuid:works/1749525792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1749525792> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1749525792> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha" .
+<urn:uuid:works/1749525792> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1042235328> .
+<urn:uuid:works/1749525792> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1520822417> .
+<urn:uuid:works/1849314962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1849314962> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1849314962> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade" .
+<urn:uuid:works/1849314962> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1216171271> .
+<urn:uuid:works/1849314962> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1298961074> .
+<urn:uuid:works/1849314962> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1132692528> .
+<urn:uuid:works/1896984539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1896984539> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1896984539> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece" .
+<urn:uuid:works/1896984539> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1433360455> .
+<urn:uuid:works/1896984539> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1168168328> .
+<urn:uuid:works/555068543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/555068543> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halleluja, lobet den Namen des Herrn" .
+<urn:uuid:works/555068543> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/2624363417> .
+<urn:uuid:works/555068543> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/268258228> .
+<urn:uuid:works/555068543> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .

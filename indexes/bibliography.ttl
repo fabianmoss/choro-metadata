@@ -1,7 +1,15 @@
-<urn:uuid:bibliography/268258228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Das Konzertleben in der preußischen Hauptstadt 1740-1786 im Spiegel der Berliner Presse (Teil I)".
+<urn:uuid:bibliography/1425172023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
+<urn:uuid:bibliography/1425172023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pinto 1978" .
+<urn:uuid:bibliography/1425172023> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:bibliography/1503929089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
+<urn:uuid:bibliography/1503929089> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vasconcelos 1977" .
+<urn:uuid:bibliography/1503929089> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:bibliography/1704822924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
+<urn:uuid:bibliography/1704822924> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enciclopédia da música brasileira 1998" .
+<urn:uuid:bibliography/1704822924> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1084082987> .
+<urn:uuid:bibliography/2624363417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
+<urn:uuid:bibliography/2624363417> <http://www.w3.org/2004/02/skos/core#prefLabel> "NeubacherJ 2020" .
 <urn:uuid:bibliography/268258228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
-<urn:uuid:bibliography/268258228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jahrbuch des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz".
-<urn:uuid:bibliography/382681371> <http://www.w3.org/2004/02/skos/core#prefLabel> "LangeC 2022".
+<urn:uuid:bibliography/268258228> <http://www.w3.org/2004/02/skos/core#prefLabel> "HenzelC 2004" .
 <urn:uuid:bibliography/382681371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity> .
-<urn:uuid:bibliography/2624363417> <http://www.w3.org/2004/02/skos/core#prefLabel> "NeubacherJ 2020".
-<urn:uuid:bibliography/2624363417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#BibliographyEntity>.
+<urn:uuid:bibliography/382681371> <http://www.w3.org/2004/02/skos/core#prefLabel> "LangeC 2022" .

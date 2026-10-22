@@ -1,12 +1,51 @@
-<urn:uuid:manifestations/3043558560> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .
-<urn:uuid:manifestations/3043558560> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-B Mus.ms.autogr. Telemann, G. P. 60".
-<urn:uuid:manifestations/3043558560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
-<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/2884711907> .
-<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/4202043203> .
-<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/3073066331> .
-<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .
-<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Da, bei aufgehender Friedenssonne (Berlin 1762)".
-<urn:uuid:manifestations/893513144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1087671266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (edition by A. Di Franco)" .
+<urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1759871472> .
+<urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1635252664> .
+<urn:uuid:manifestations/1192893173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1764822542> .
+<urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1199520031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1199520031> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura piano (printed edition)" .
+<urn:uuid:manifestations/1199520031> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1042235328> .
+<urn:uuid:manifestations/1212481482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1212481482> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1212481482> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1193975608> .
+<urn:uuid:manifestations/1212481482> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1212481482> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1407704655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332812348> .
+<urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1415549562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1415549562> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1415549562> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1216171271> .
+<urn:uuid:manifestations/1415549562> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1415549562> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1470936578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1470936578> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1470936578> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1896939585> .
+<urn:uuid:manifestations/1567217597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1567217597> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1567217597> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1711995158> .
+<urn:uuid:manifestations/1615454429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1615454429> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia (printed edition)" .
+<urn:uuid:manifestations/1615454429> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1298961074> .
+<urn:uuid:manifestations/1684106958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1684106958> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1684106958> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1433360455> .
+<urn:uuid:manifestations/1920521013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1920521013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Musicalisches Lob Gottes (Nürnberg 1742-1744)" .
 <urn:uuid:manifestations/1920521013> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .
-<urn:uuid:manifestations/1920521013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Musicalisches Lob Gottes (Nürnberg 1742-1744)".
-<urn:uuid:manifestations/1920521013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity>.
+<urn:uuid:manifestations/3043558560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/3043558560> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-B Mus.ms.autogr. Telemann, G. P. 60" .
+<urn:uuid:manifestations/3043558560> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Da, bei aufgehender Friedenssonne (Berlin 1762)" .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/3073066331> .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/4202043203> .
+<urn:uuid:manifestations/893513144> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/2884711907> .
