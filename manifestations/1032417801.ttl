@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1192893173> a melod:Manifestation;
-    melod:hasTitle _:b258e93af-f044-e5f8-4e69-652e294cd82d;
-    lrmoo:R4_embodies <urn:uuid:expressions/1764822542>;
-    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:b2145b0a6-1de6-f0db-9002-48d9d1ce20c5;
-    schema:publication _:be99c6f91-40f5-d0ac-a9c9-270a8ec3005d;
+<urn:uuid:manifestations/1032417801> a melod:Manifestation;
+    melod:hasTitle _:b2dfbbed3-1385-d502-f11b-e64a650c1e8e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1505072985>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:b1a07248e-5ab4-9c70-3d0c-474d356da7e3;
+    schema:publication _:bcdc592ec-01f0-b99a-8331-43ad9a1a44cb;
     dct:conformsTo melod:Manifestation.
 
-_:b258e93af-f044-e5f8-4e69-652e294cd82d a melod:Title;
-    rdfs:label "A baianinha — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:b2dfbbed3-1385-d502-f11b-e64a650c1e8e a melod:Title;
+    rdfs:label "A dor de amar — Partitura melodia (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
 
-_:b2145b0a6-1de6-f0db-9002-48d9d1ce20c5 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1466939823>;
+_:b1a07248e-5ab4-9c70-3d0c-474d356da7e3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
     melod:hasRole terms:Publisher.
 
-_:be99c6f91-40f5-d0ac-a9c9-270a8ec3005d a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1466939823>;
+_:bcdc592ec-01f0-b99a-8331-43ad9a1a44cb a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
     schema:location <urn:uuid:places/1800036311>.

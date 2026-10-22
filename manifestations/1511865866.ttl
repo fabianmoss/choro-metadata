@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1839402590> a melod:Manifestation;
-    melod:hasTitle _:bf99e512e-1ddd-c9d6-88d4-1a5bb666299b;
-    lrmoo:R4_embodies <urn:uuid:expressions/1505072985>;
-    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
-    melod:hasContribution _:b64fdbd0a-c1c7-6026-9cd0-fa3ac1ee56e0;
-    schema:publication _:bc69af54c-4806-3ab1-b657-0b0465f971a7;
+<urn:uuid:manifestations/1511865866> a melod:Manifestation;
+    melod:hasTitle _:b36def6e6-74fa-891f-bee8-1a9cd9eeedac;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura melodia e harmonia", terms:Print;
+    melod:hasContribution _:bbaf2afc1-dffb-ba78-1000-9d23cbfc3778;
+    schema:publication _:b7434612b-668c-6e35-6e91-ccd91decf2da;
     dct:conformsTo melod:Manifestation.
 
-_:bf99e512e-1ddd-c9d6-88d4-1a5bb666299b a melod:Title;
-    rdfs:label "A dor de amar — Partitura melodia (edition Irmãos Vitale)";
+_:b36def6e6-74fa-891f-bee8-1a9cd9eeedac a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura melodia e harmonia (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
 
-_:b64fdbd0a-c1c7-6026-9cd0-fa3ac1ee56e0 a melod:Contribution;
+_:bbaf2afc1-dffb-ba78-1000-9d23cbfc3778 a melod:Contribution;
     melod:hasAgent <urn:uuid:institutions/1332881481>;
     melod:hasRole terms:Publisher.
 
-_:bc69af54c-4806-3ab1-b657-0b0465f971a7 a schema:PublicationEvent;
+_:b7434612b-668c-6e35-6e91-ccd91decf2da a schema:PublicationEvent;
     schema:publishedBy <urn:uuid:institutions/1332881481>;
     schema:location <urn:uuid:places/1800036311>.

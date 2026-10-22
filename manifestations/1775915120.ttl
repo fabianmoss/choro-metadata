@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1815660023> a melod:Manifestation;
-    melod:hasTitle _:b0de182a7-4c67-d6a6-b18f-e364de40b7bd;
-    lrmoo:R4_embodies <urn:uuid:expressions/1702376576>;
+<urn:uuid:manifestations/1775915120> a melod:Manifestation;
+    melod:hasTitle _:bcf4f4720-1922-f59d-9c59-8fb357cb6980;
+    lrmoo:R4_embodies <urn:uuid:expressions/1193975608>;
     melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:bbf394a81-cb24-42cd-b846-03c3f9a1eae5;
-    schema:publication _:b73a6179e-8a69-8b84-56f2-f6f9b6cdb585;
+    melod:hasContribution _:b8b780c13-be2c-977c-0e61-8f06a4fa1cf8;
+    schema:publication _:b6bf3526b-1c14-e619-d88e-51057b824287;
     dct:conformsTo melod:Manifestation.
 
-_:b0de182a7-4c67-d6a6-b18f-e364de40b7bd a melod:Title;
-    rdfs:label "Aurora — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:bcf4f4720-1922-f59d-9c59-8fb357cb6980 a melod:Title;
+    rdfs:label "Saudade de São João do Príncipe — Partitura melodia e cifra (edition Instituto Casa do Choro)";
     melod:hasTitleType terms:MainTitle.
 
-_:bbf394a81-cb24-42cd-b846-03c3f9a1eae5 a melod:Contribution;
+_:b8b780c13-be2c-977c-0e61-8f06a4fa1cf8 a melod:Contribution;
     melod:hasAgent <urn:uuid:institutions/1466939823>;
     melod:hasRole terms:Publisher.
 
-_:b73a6179e-8a69-8b84-56f2-f6f9b6cdb585 a schema:PublicationEvent;
+_:b6bf3526b-1c14-e619-d88e-51057b824287 a schema:PublicationEvent;
     schema:publishedBy <urn:uuid:institutions/1466939823>;
     schema:location <urn:uuid:places/1800036311>.

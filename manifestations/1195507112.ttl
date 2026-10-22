@@ -12,12 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1615454429> a melod:Manifestation;
-    melod:hasTitle _:bc4ced695-7856-20c0-49cc-6fd81b138909;
-    lrmoo:R4_embodies <urn:uuid:expressions/1298961074>;
-    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+<urn:uuid:manifestations/1195507112> a melod:Manifestation;
+    melod:hasTitle _:bd76596a0-f280-ba92-0fae-f6f4b35bafc9;
+    lrmoo:R4_embodies <urn:uuid:expressions/1433360455>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Manuscript;
     dct:conformsTo melod:Manifestation.
 
-_:bc4ced695-7856-20c0-49cc-6fd81b138909 a melod:Title;
-    rdfs:label "Amarga saudade — Partitura melodia (printed edition)";
+_:bd76596a0-f280-ba92-0fae-f6f4b35bafc9 a melod:Title;
+    rdfs:label "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (manuscript)";
     melod:hasTitleType terms:MainTitle.

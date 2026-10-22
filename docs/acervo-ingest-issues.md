@@ -10,7 +10,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - works with digitised scores: 9
 - works modelled (including the curated sample): 10
 - persons modelled: 23
-- stale documents removed: 0
+- stale documents removed: 24
 
 ## Summary
 

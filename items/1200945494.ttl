@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1200945494> a melod:Item;
     rdfs:label "A dor de amar — Partitura melodia e cifra (score_14095)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841556720>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1018573483>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b31beb481-fc47-0eea-d227-e253ce1a763b;

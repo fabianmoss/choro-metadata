@@ -12,18 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1087671266> a melod:Manifestation;
-    melod:hasTitle _:bed3fe107-4b70-285d-dd26-dad21e0d3f5e;
-    lrmoo:R4_embodies <urn:uuid:expressions/1759871472>;
-    melod:hasClassificationOfManifestation "Partitura arranjo com letra para pequena orquestra", terms:Print;
-    melod:hasContribution _:ba514af48-625c-27de-8692-19f10624e6c6;
+<urn:uuid:manifestations/1701351024> a melod:Manifestation;
+    melod:hasTitle _:bf68d9358-0207-714b-c2b6-4464f0dc2c7d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1042235328>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
     dct:conformsTo melod:Manifestation.
 
-_:bed3fe107-4b70-285d-dd26-dad21e0d3f5e a melod:Title;
-    rdfs:label "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (edition by A. Di Franco)";
+_:bf68d9358-0207-714b-c2b6-4464f0dc2c7d a melod:Title;
+    rdfs:label "A baianinha — Partitura piano (printed edition)";
     melod:hasTitleType terms:MainTitle.
-
-_:ba514af48-625c-27de-8692-19f10624e6c6 a melod:Contribution;
-    melod:hasAgent <urn:uuid:persons/1635252664>;
-    melod:hasRole terms:Editor;
-    melod:hasCertainty terms:MediumCertainty.

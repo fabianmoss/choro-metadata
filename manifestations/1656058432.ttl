@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1415549562> a melod:Manifestation;
-    melod:hasTitle _:bc341934d-fb96-21c2-d8ba-696a774dd188;
-    lrmoo:R4_embodies <urn:uuid:expressions/1216171271>;
+<urn:uuid:manifestations/1656058432> a melod:Manifestation;
+    melod:hasTitle _:b42bcf2e1-ac02-16db-aa2f-ce91f9e5f1e1;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
     melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:bc22c8263-cab7-caf1-d476-72faed1f77b5;
-    schema:publication _:ba0bf2b02-951b-81f5-2cfa-0f33a1899015;
+    melod:hasContribution _:b4b63742e-dbc5-6c36-3a29-d4d3d3e4c72e;
+    schema:publication _:b3f2b7721-b5ee-751b-9435-ac514d173fd6;
     dct:conformsTo melod:Manifestation.
 
-_:bc341934d-fb96-21c2-d8ba-696a774dd188 a melod:Title;
-    rdfs:label "Amarga saudade — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:b42bcf2e1-ac02-16db-aa2f-ce91f9e5f1e1 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura melodia e cifra (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
 
-_:bc22c8263-cab7-caf1-d476-72faed1f77b5 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1466939823>;
+_:b4b63742e-dbc5-6c36-3a29-d4d3d3e4c72e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
     melod:hasRole terms:Publisher.
 
-_:ba0bf2b02-951b-81f5-2cfa-0f33a1899015 a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1466939823>;
+_:b3f2b7721-b5ee-751b-9435-ac514d173fd6 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
     schema:location <urn:uuid:places/1800036311>.

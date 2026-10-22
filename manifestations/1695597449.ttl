@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1298543724> a melod:Manifestation;
-    melod:hasTitle _:ba39392e3-4d4d-ce47-c85b-3d3660fdde90;
-    lrmoo:R4_embodies <urn:uuid:expressions/1505072985>;
-    melod:hasClassificationOfManifestation "Partitura melodia e harmonia", terms:Print;
-    melod:hasContribution _:be83ab906-60ef-dc8c-e109-0b56dff4f425;
-    schema:publication _:bc1205786-f9cb-0c3b-cac8-8dae58df9dce;
+<urn:uuid:manifestations/1695597449> a melod:Manifestation;
+    melod:hasTitle _:b38ba1f8f-0d29-d174-14ae-a6337b2214ec;
+    lrmoo:R4_embodies <urn:uuid:expressions/1702376576>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b089d3158-f609-d86f-0d6c-6db46f888d61;
+    schema:publication _:b4fc377c8-67f4-cc4d-df51-8c7b0b309f5f;
     dct:conformsTo melod:Manifestation.
 
-_:ba39392e3-4d4d-ce47-c85b-3d3660fdde90 a melod:Title;
-    rdfs:label "A dor de amar — Partitura melodia e harmonia (edition Irmãos Vitale)";
+_:b38ba1f8f-0d29-d174-14ae-a6337b2214ec a melod:Title;
+    rdfs:label "Aurora — Partitura melodia e cifra (edition Instituto Casa do Choro)";
     melod:hasTitleType terms:MainTitle.
 
-_:be83ab906-60ef-dc8c-e109-0b56dff4f425 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1332881481>;
+_:b089d3158-f609-d86f-0d6c-6db46f888d61 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
     melod:hasRole terms:Publisher.
 
-_:bc1205786-f9cb-0c3b-cac8-8dae58df9dce a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1332881481>;
+_:b4fc377c8-67f4-cc4d-df51-8c7b0b309f5f a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
     schema:location <urn:uuid:places/1800036311>.

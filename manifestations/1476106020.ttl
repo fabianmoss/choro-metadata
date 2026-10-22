@@ -12,12 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1470936578> a melod:Manifestation;
-    melod:hasTitle _:b5cc86fb1-267d-e3aa-80bb-6b061c496151;
-    lrmoo:R4_embodies <urn:uuid:expressions/1896939585>;
+<urn:uuid:manifestations/1476106020> a melod:Manifestation;
+    melod:hasTitle _:b55606a9a-86c5-08e2-2c42-273c6469def6;
+    lrmoo:R4_embodies <urn:uuid:expressions/1711995158>;
     melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
     dct:conformsTo melod:Manifestation.
 
-_:b5cc86fb1-267d-e3aa-80bb-6b061c496151 a melod:Title;
-    rdfs:label "Saudade de São João do Príncipe — Partitura melodia (manuscript)";
+_:b55606a9a-86c5-08e2-2c42-273c6469def6 a melod:Title;
+    rdfs:label "A baianinha — Partitura melodia (manuscript)";
     melod:hasTitleType terms:MainTitle.

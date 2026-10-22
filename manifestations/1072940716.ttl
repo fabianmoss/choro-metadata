@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1407704655> a melod:Manifestation;
-    melod:hasTitle _:b506fad76-d780-902f-0ab1-c203b7e15977;
-    lrmoo:R4_embodies <urn:uuid:expressions/1332812348>;
-    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:bc63ef771-ffb6-49a2-e9c3-baa0c0a3e672;
-    schema:publication _:bd14e7175-d233-09be-4213-442d70936538;
+<urn:uuid:manifestations/1072940716> a melod:Manifestation;
+    melod:hasTitle _:b72df4916-c041-994c-f607-aae0b272a5e6;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:b80a05b7a-c802-5a2f-c922-7324198131fe;
+    schema:publication _:bdf91255d-5239-a577-a09a-bae9f3f686af;
     dct:conformsTo melod:Manifestation.
 
-_:b506fad76-d780-902f-0ab1-c203b7e15977 a melod:Title;
-    rdfs:label "A Araponga e a Juriti — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:b72df4916-c041-994c-f607-aae0b272a5e6 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura arranjo (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
 
-_:bc63ef771-ffb6-49a2-e9c3-baa0c0a3e672 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1466939823>;
+_:b80a05b7a-c802-5a2f-c922-7324198131fe a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
     melod:hasRole terms:Publisher.
 
-_:bd14e7175-d233-09be-4213-442d70936538 a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1466939823>;
+_:bdf91255d-5239-a577-a09a-bae9f3f686af a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
     schema:location <urn:uuid:places/1800036311>.

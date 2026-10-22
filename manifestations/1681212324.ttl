@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1682765419> a melod:Manifestation;
-    melod:hasTitle _:b80fe57c4-8645-f14a-b540-44fafdc71580;
-    lrmoo:R4_embodies <urn:uuid:expressions/1534990820>;
-    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:bd1fd7f32-6e12-9724-6387-957d11ebd306;
-    schema:publication _:b38588103-c74e-cc15-8a83-1825b89ab02e;
+<urn:uuid:manifestations/1681212324> a melod:Manifestation;
+    melod:hasTitle _:b1ecec133-b2e5-341b-6394-4d4a3e3608eb;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
+    melod:hasContribution _:bb9cd3195-d51c-8b6c-db5b-d4730d9de0ae;
+    schema:publication _:b12d4fd95-ef42-a512-680f-060717835ee6;
     dct:conformsTo melod:Manifestation.
 
-_:b80fe57c4-8645-f14a-b540-44fafdc71580 a melod:Title;
-    rdfs:label "Tico-tico no fubá — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:b1ecec133-b2e5-341b-6394-4d4a3e3608eb a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura melodia e letra (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
 
-_:bd1fd7f32-6e12-9724-6387-957d11ebd306 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1466939823>;
+_:bb9cd3195-d51c-8b6c-db5b-d4730d9de0ae a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
     melod:hasRole terms:Publisher.
 
-_:b38588103-c74e-cc15-8a83-1825b89ab02e a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1466939823>;
+_:b12d4fd95-ef42-a512-680f-060717835ee6 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
     schema:location <urn:uuid:places/1800036311>.

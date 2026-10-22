@@ -12,12 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1113841861> a melod:Manifestation;
-    melod:hasTitle _:b26268fd1-649f-a604-7c31-b19f5b2b1e6f;
-    lrmoo:R4_embodies <urn:uuid:expressions/1405567821>;
+<urn:uuid:manifestations/1213183106> a melod:Manifestation;
+    melod:hasTitle _:b387207c0-9ed5-f8fb-ee13-48afc832050b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1079245796>;
     melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
     dct:conformsTo melod:Manifestation.
 
-_:b26268fd1-649f-a604-7c31-b19f5b2b1e6f a melod:Title;
-    rdfs:label "Angelina dos Santos — Partitura melodia (manuscript)";
+_:b387207c0-9ed5-f8fb-ee13-48afc832050b a melod:Title;
+    rdfs:label "Aurora — Partitura melodia (manuscript)";
     melod:hasTitleType terms:MainTitle.

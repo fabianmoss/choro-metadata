@@ -79,9 +79,16 @@ def expression(acervo_id: str, variant: str) -> str:
     return f"urn:uuid:expressions/{h('expr:' + acervo_id + ':' + slug(variant))}"
 
 
-def manifestation(acervo_id: str, edition: str, score_type: str) -> str:
-    """``edition`` and ``score_type`` identify the edition and the format."""
-    key = 'man:' + acervo_id + ':' + slug(edition) + ':' + slug(score_type)
+def manifestation(acervo_id: str, variant: str, edition: str, score_type: str) -> str:
+    """``variant``, ``edition`` and ``score_type`` identify the publication.
+
+    The variant (the arranger, or ``original``) is part of the key because a
+    manifestation embodies exactly one expression: the manuscript of an
+    arrangement and the manuscript of the original work are different
+    manifestations even when both are manuscripts of the same format.
+    """
+    key = ('man:' + acervo_id + ':' + slug(variant) + ':' + slug(edition)
+           + ':' + slug(score_type))
     return f"urn:uuid:manifestations/{h(key)}"
 
 

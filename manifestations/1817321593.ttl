@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1439602877> a melod:Manifestation;
-    melod:hasTitle _:b9f768175-edb5-6944-c034-35ff766b5b19;
-    lrmoo:R4_embodies <urn:uuid:expressions/1079245796>;
-    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
-    melod:hasContribution _:bcd9cfde0-fff9-b25d-b974-0644745d46db;
-    schema:publication _:b12e05bfd-f616-a0f0-37d1-c78a3ce8108a;
+<urn:uuid:manifestations/1817321593> a melod:Manifestation;
+    melod:hasTitle _:b63975ddb-b420-80ca-7c46-eb5dfdbcb013;
+    lrmoo:R4_embodies <urn:uuid:expressions/1534990820>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bbf83074d-fd55-0cac-444a-bb811908e3b1;
+    schema:publication _:b57d4da7c-a5e2-4aee-e232-6fe2fc7b1186;
     dct:conformsTo melod:Manifestation.
 
-_:b9f768175-edb5-6944-c034-35ff766b5b19 a melod:Title;
-    rdfs:label "Aurora — Partitura piano e letra (edition Irmãos Vitale)";
+_:b63975ddb-b420-80ca-7c46-eb5dfdbcb013 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura melodia e cifra (edition Instituto Casa do Choro)";
     melod:hasTitleType terms:MainTitle.
 
-_:bcd9cfde0-fff9-b25d-b974-0644745d46db a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1332881481>;
+_:bbf83074d-fd55-0cac-444a-bb811908e3b1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
     melod:hasRole terms:Publisher.
 
-_:b12e05bfd-f616-a0f0-37d1-c78a3ce8108a a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1332881481>;
+_:b57d4da7c-a5e2-4aee-e232-6fe2fc7b1186 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
     schema:location <urn:uuid:places/1800036311>.

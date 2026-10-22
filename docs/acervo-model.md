@@ -351,7 +351,9 @@ python3 -m tools.acervo.ingest --out .    # entities + report
 
 Only the works with at least one digitised *Partitura* are modelled; the
 records of the curated sample are kept even when they have no digitisation
-(§ 4.7).  Every free name — copyist, arranger, lyricist, former owner, donor —
+(§ 4.7).  During the harvest the ingestion can be re-run after each batch: it
+always reflects the records collected so far.  Every free name — copyist,
+arranger, lyricist, former owner, donor —
 is resolved against the person records of the acervo.  A name with no record
 becomes a provisional Person whose IRI is derived from the normalised name;
 the identification is noted in the description of the person and in the

@@ -12,12 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1199520031> a melod:Manifestation;
-    melod:hasTitle _:b9fb25072-e58f-17e7-3d06-fd7c75ffe02a;
-    lrmoo:R4_embodies <urn:uuid:expressions/1042235328>;
-    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+<urn:uuid:manifestations/1142848701> a melod:Manifestation;
+    melod:hasTitle _:b327847c3-860b-6f2d-6aa3-08e76db598d8;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura cifrada";
     dct:conformsTo melod:Manifestation.
 
-_:b9fb25072-e58f-17e7-3d06-fd7c75ffe02a a melod:Title;
-    rdfs:label "A baianinha — Partitura piano (printed edition)";
+_:b327847c3-860b-6f2d-6aa3-08e76db598d8 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura cifrada";
     melod:hasTitleType terms:MainTitle.

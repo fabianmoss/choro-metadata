@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1212481482> a melod:Manifestation;
-    melod:hasTitle _:bea7992a5-5f2e-45cb-8628-4852e921d0f1;
-    lrmoo:R4_embodies <urn:uuid:expressions/1193975608>;
+<urn:uuid:manifestations/1427143938> a melod:Manifestation;
+    melod:hasTitle _:b24ad870c-1bde-5d98-2cdd-4d531759a7df;
+    lrmoo:R4_embodies <urn:uuid:expressions/1764822542>;
     melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
-    melod:hasContribution _:b86dd95f3-7aca-986f-8e4f-835ecade3b02;
-    schema:publication _:b30c1f280-d4d2-66ad-18bf-51626a480742;
+    melod:hasContribution _:b92da61c2-9dd3-e2e1-705d-543f608f232f;
+    schema:publication _:b901051f1-59b2-9a58-857e-3ccf3405206d;
     dct:conformsTo melod:Manifestation.
 
-_:bea7992a5-5f2e-45cb-8628-4852e921d0f1 a melod:Title;
-    rdfs:label "Saudade de São João do Príncipe — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+_:b24ad870c-1bde-5d98-2cdd-4d531759a7df a melod:Title;
+    rdfs:label "A baianinha — Partitura melodia e cifra (edition Instituto Casa do Choro)";
     melod:hasTitleType terms:MainTitle.
 
-_:b86dd95f3-7aca-986f-8e4f-835ecade3b02 a melod:Contribution;
+_:b92da61c2-9dd3-e2e1-705d-543f608f232f a melod:Contribution;
     melod:hasAgent <urn:uuid:institutions/1466939823>;
     melod:hasRole terms:Publisher.
 
-_:b30c1f280-d4d2-66ad-18bf-51626a480742 a schema:PublicationEvent;
+_:b901051f1-59b2-9a58-857e-3ccf3405206d a schema:PublicationEvent;
     schema:publishedBy <urn:uuid:institutions/1466939823>;
     schema:location <urn:uuid:places/1800036311>.

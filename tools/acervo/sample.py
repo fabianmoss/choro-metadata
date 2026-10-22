@@ -509,6 +509,7 @@ class WorkBuilder:
         result = []
         for (edition, score_type), scores in groups.items():
             result.append({
+                "expression": expression["key"],
                 "edition": edition,
                 "type": score_type,
                 "copy": self.copy_of(scores[0]),
@@ -683,7 +684,7 @@ class WorkBuilder:
     def manifestation(self, work: dict, expression: dict, manifestation: dict) -> str:
         edition = manifestation["edition"]
         score_type = manifestation["type"]
-        iri = ids.manifestation(work["id"], edition, score_type)
+        iri = ids.manifestation(work["id"], expression["key"], edition, score_type)
         graph = Graph()
         graph.type(iri, "melod:Manifestation")
 
@@ -782,7 +783,8 @@ class WorkBuilder:
                  f"({reference or 'no digitisation'})")
         graph.add(iri, "rdfs:label", Literal(label))
         graph.add(iri, "lrmoo:R7_exemplifies",
-                  IRI(ids.manifestation(work["id"], manifestation["edition"],
+                  IRI(ids.manifestation(work["id"], manifestation["expression"],
+                                        manifestation["edition"],
                                         manifestation["type"])))
         graph.add(iri, "melod:hasClassificationOfManifestation",
                   Literal(self.copy_classification(score)))

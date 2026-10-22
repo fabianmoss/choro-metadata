@@ -12,12 +12,12 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1286381543> a melod:Manifestation;
-    melod:hasTitle _:b092bba4a-ba9e-38fe-0616-3a7d4764b816;
-    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
-    melod:hasClassificationOfManifestation "Partitura cifrada";
+<urn:uuid:manifestations/1311345438> a melod:Manifestation;
+    melod:hasTitle _:b5ad0e066-adf7-af84-492d-9a346fb8fef2;
+    lrmoo:R4_embodies <urn:uuid:expressions/1405567821>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
     dct:conformsTo melod:Manifestation.
 
-_:b092bba4a-ba9e-38fe-0616-3a7d4764b816 a melod:Title;
-    rdfs:label "Tico-tico no fubá — Partitura cifrada";
+_:b5ad0e066-adf7-af84-492d-9a346fb8fef2 a melod:Title;
+    rdfs:label "Angelina dos Santos — Partitura melodia (manuscript)";
     melod:hasTitleType terms:MainTitle.

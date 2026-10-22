@@ -12,12 +12,18 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1684106958> a melod:Manifestation;
-    melod:hasTitle _:b788e6121-240b-8382-0d26-a788c9c27194;
-    lrmoo:R4_embodies <urn:uuid:expressions/1433360455>;
-    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Manuscript;
+<urn:uuid:manifestations/1125670699> a melod:Manifestation;
+    melod:hasTitle _:b627129d9-bf78-a5cd-b371-5208f65eb55c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1759871472>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra para pequena orquestra", terms:Print;
+    melod:hasContribution _:b10479adb-d82a-69be-35cc-01a810a7829c;
     dct:conformsTo melod:Manifestation.
 
-_:b788e6121-240b-8382-0d26-a788c9c27194 a melod:Title;
-    rdfs:label "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (manuscript)";
+_:b627129d9-bf78-a5cd-b371-5208f65eb55c a melod:Title;
+    rdfs:label "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (edition by A. Di Franco)";
     melod:hasTitleType terms:MainTitle.
+
+_:b10479adb-d82a-69be-35cc-01a810a7829c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1635252664>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

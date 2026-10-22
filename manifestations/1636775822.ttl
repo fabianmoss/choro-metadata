@@ -12,12 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1259923159> a melod:Manifestation;
-    melod:hasTitle _:bbb3e35ae-1079-95ae-8566-2a3879ea55d1;
+<urn:uuid:manifestations/1636775822> a melod:Manifestation;
+    melod:hasTitle _:b215d4382-79c2-2c4f-4a1c-fbb3261af556;
     lrmoo:R4_embodies <urn:uuid:expressions/1079245796>;
-    melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bb172160d-1f92-7081-2545-12404b1bba83;
+    schema:publication _:b1219472c-4c8b-d927-c7a9-930fdd7977cc;
     dct:conformsTo melod:Manifestation.
 
-_:bbb3e35ae-1079-95ae-8566-2a3879ea55d1 a melod:Title;
-    rdfs:label "Aurora — Partitura melodia (manuscript)";
+_:b215d4382-79c2-2c4f-4a1c-fbb3261af556 a melod:Title;
+    rdfs:label "Aurora — Partitura piano e letra (edition Irmãos Vitale)";
     melod:hasTitleType terms:MainTitle.
+
+_:bb172160d-1f92-7081-2545-12404b1bba83 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b1219472c-4c8b-d927-c7a9-930fdd7977cc a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

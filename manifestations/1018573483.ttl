@@ -12,22 +12,22 @@
 @prefix terms: <https://lod.academy/melod/vocab/terms#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<urn:uuid:manifestations/1727759283> a melod:Manifestation;
-    melod:hasTitle _:b81f0e05d-5ed1-b26b-f8a9-9605553da707;
-    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
-    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
-    melod:hasContribution _:b84d4bed7-bc31-7817-5f88-a7b2aa43bc80;
-    schema:publication _:b2f3e729c-d729-31ab-821b-5df6128bd92b;
+<urn:uuid:manifestations/1018573483> a melod:Manifestation;
+    melod:hasTitle _:bf27ffde6-1ab2-8ab8-7cc1-9016e4987290;
+    lrmoo:R4_embodies <urn:uuid:expressions/1662828343>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b7ecb6be9-631a-1fd1-036a-2419a3ad6c80;
+    schema:publication _:b2c3e1169-561f-b280-169c-ecf2273f14a8;
     dct:conformsTo melod:Manifestation.
 
-_:b81f0e05d-5ed1-b26b-f8a9-9605553da707 a melod:Title;
-    rdfs:label "Tico-tico no fubá — Partitura melodia e letra (edition Irmãos Vitale)";
+_:bf27ffde6-1ab2-8ab8-7cc1-9016e4987290 a melod:Title;
+    rdfs:label "A dor de amar — Partitura melodia e cifra (edition Instituto Casa do Choro)";
     melod:hasTitleType terms:MainTitle.
 
-_:b84d4bed7-bc31-7817-5f88-a7b2aa43bc80 a melod:Contribution;
-    melod:hasAgent <urn:uuid:institutions/1332881481>;
+_:b7ecb6be9-631a-1fd1-036a-2419a3ad6c80 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
     melod:hasRole terms:Publisher.
 
-_:b2f3e729c-d729-31ab-821b-5df6128bd92b a schema:PublicationEvent;
-    schema:publishedBy <urn:uuid:institutions/1332881481>;
+_:b2c3e1169-561f-b280-169c-ecf2273f14a8 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
     schema:location <urn:uuid:places/1800036311>.
