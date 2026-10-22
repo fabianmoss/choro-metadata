@@ -1,0 +1,24 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1181305027> a melod:Person, melod:PersonEntity;
+    schema:familyName "Silva";
+    schema:givenName "Viriato Figueira da";
+    schema:gender "male";
+    schema:deathDate "1883-04-24"^^xsd:date;
+    schema:birthPlace <urn:uuid:places/1377088430>;
+    schema:hasOccupation "Compositor", "Flautista";
+    schema:description "<p>O flautista Viriato Figueira da Silva nasceu em Macaé, RJ. Estudou no Conservatório de Música do Rio de Janeiro com Joaquim Callado, de quem se tornou grande amigo. Foi um dos primeiros a se destacar no Brasil como solista de saxofone. Viajou a São Paulo como integrante da orquestra do Teatro Phoenix Dramática, sob direção do maestro Henrique Alves de Mesquita. Segundo o flautista Pedro de Assis, Viriato “empreendeu com grande êxito artístico e financeiro uma turnê artística às capitais nortistas alguns anos depois de ter feito a mesma digressão o maior flautista do mundo, o célebre flautista belga André Mateus Reichert”. Foram encontradas nove composições de sua autoria, entretanto há dúvida quanto a autoria da polca <em>Uma Dor</em>, cuja melodia é idêntica à da polca <em>Saudosa</em> de Joaquim Callado. <em>Uma Dor</em> foi gravada em 2002 na coleção de CDs “Princípios do Choro” (Acari Records/ Biscoito Fino), além de outras cinco polcas.</p>\n\n<p><strong>Fontes de pesquisa</strong></p>\n<ol>\n<li>1. VASCONCELOS, Ary. Panorama da música popular brasileira na Belle Époque. Rio de Janeiro: Livraria Santana Ltda., 1977.</li>\n<li>2. PINTO, Alexandre Gonçalves. O Choro — reminiscências dos chorões antigos. 2ª ed. Rio de Janeiro: Funarte, 1978. (p. 11, 20, 21, 22, 39)</li>\n</ol>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1156>;
+    dct:conformsTo melod:Person.

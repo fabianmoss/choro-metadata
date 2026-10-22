@@ -1,0 +1,26 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1182012213> a melod:Person, melod:PersonEntity;
+    schema:familyName "Lobo";
+    schema:givenName "Fernando Álvares";
+    schema:alternateName "Marcelo Tupinambá";
+    schema:gender "male";
+    schema:birthDate "1889-05-29"^^xsd:date;
+    schema:deathDate "1953-07-04"^^xsd:date;
+    schema:birthPlace <urn:uuid:places/1007324836>;
+    schema:hasOccupation "Compositor", "Instrumentista";
+    schema:description "<p>\r\n\tSeu pai, Eduardo Lobo, era regente da Banda Sant&iacute;ssima Trindade e seu tio, o maestro e compositor paulista Elias &Aacute;lvares Lobo (1834&ndash;1901), autor da primeira &oacute;pera brasileira. Desde crian&ccedil;a aprendeu a tocar piano de ouvido e mais tarde, violino, com S&aacute;vio Benedictis. Quando tinha 15 anos, em 1907, chegou a acompanhar ao piano o famoso flautista Pat&aacute;pio Silva, no &uacute;ltimo ano de sua vida, apresentando-se em cidades do interior paulista. Aprendeu a tocar v&aacute;rios instrumentos e, quando cursava o gin&aacute;sio na cidade de Pouso Alegre, MG, atuou como diretor da banda local. Come&ccedil;ou a lan&ccedil;ar suas primeiras composi&ccedil;&otilde;es em 1914, sob o pseud&ocirc;nimo Marcelo Tupinamb&aacute;, na revista <em>S&atilde;o Paulo Futuro</em>, de Danton Vampr&eacute;, ao mesmo tempo em que cursava a Escola Polit&eacute;cnica de S&atilde;o Paulo. Publicou v&aacute;rias pe&ccedil;as dan&ccedil;antes inspiradas em temas sertanejos compostas para o teatro de revista. Entre elas destacam-se algumas m&uacute;sicas de sucesso como os tanguinhos <em>Viola Cantad&ecirc;ra</em> e <em>Maricota Sai da Chuva</em>, inclu&iacute;dos nas revistas <em>Cenas da Ro&ccedil;a</em> e <em>Flor do Sert&atilde;o</em> (com Arlindo Leal); o cateret&ecirc; <em>Matuto</em> (com Claudino Costa) e os tangos <em>Tristeza</em> <em>de Caboclo</em> e <em>Sou Batuta</em>. Formou-se engenheiro civil em 1916 e exerceu a profiss&atilde;o at&eacute; 1923, quando, por motivo de uma doen&ccedil;a dos olhos precisou interromper a carreira. A partir de ent&atilde;o passou a dedicar-se inteiramente &agrave; m&uacute;sica, escrevendo inclusive pe&ccedil;as de concerto e musicando poemas de Manuel Bandeira, Oleg&aacute;rio Mariano, Coelho Neto, entre outros. Teve valsas, tangos, maxixes, cateret&ecirc;s e can&ccedil;&otilde;es gravados por orquestras populares e pelos principais cantores da &eacute;poca.</p>\n\n<p><strong>Fontes de pesquisa</strong></p>\n<ol>\n<li>1. ENCICLOPÉDIA DA MÚSICA BRASILEIRA: POPULAR, ERUDITA E FOLCLÓRICA. São Paulo: Art Editora/Publifolha, 1998.</li>\n</ol>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1236>;
+    dct:conformsTo melod:Person.

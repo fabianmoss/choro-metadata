@@ -1,0 +1,24 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1465258181> a melod:Person, melod:PersonEntity;
+    schema:familyName "Guimarães";
+    schema:givenName "Durval Berredo";
+    schema:alternateName "Berredo";
+    schema:gender "male";
+    schema:birthPlace <urn:uuid:places/1800036311>;
+    schema:hasOccupation "Compositor", "Funcionário Público", "Flautista";
+    schema:description "<p>Morador do bairro de Marechal Hermes, foi freqüentador de rodas de choro tradicionais como a do Retiro da Velha Guarda em Jacarepaguá, nas décadas de 50 e 60, e a do Suvaco de Cobra na Penha, na década de 70. Possuía cadernos manuscritos com as composições dos chorões de várias gerações, transcritas por Candinho Silva, Manoel Nascimento, entre outros. No final da década de 70, quando faleceu, a sua flauta e esses cadernos foram doados a Gerson Ferreira Pinto, flautista do conjunto Amigos do Choro. Segundo depoimento de Berredo a Gerson, o mais antigo desses cadernos pertenceu ao pai de Pixinguinha.</p>\r\n\r\n<p>Datas de nascimneto e morte aproximadas.</p>\n\n<p><strong>Fontes de pesquisa</strong></p>\n<ol>\n<li>1. Depoimento do bandolinista Déo Rian.</li>\n<li>2. Depoimento do flautista Gerson Ferreira Pinto.</li>\n</ol>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/170>;
+    dct:conformsTo melod:Person.

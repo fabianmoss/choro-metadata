@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:bibliography/1704822924> a melod:Bibliography, melod:BibliographyEntity;
+    schema:genre terms:ArticleBook;
+    melod:hasTitle _:bd861ab71-8bf8-7c87-6894-6387eae047c3;
+    melod:hasAbbreviation "Enciclopédia da música brasileira 1998";
+    schema:publication _:b48d0f038-6749-88c0-b3fa-f0377e1a1387.
+
+_:bd861ab71-8bf8-7c87-6894-6387eae047c3 a melod:Title;
+    rdfs:label "Enciclopédia da música brasileira: popular, erudita e folclórica"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b48d0f038-6749-88c0-b3fa-f0377e1a1387 a schema:PublicationEvent;
+    schema:startDate "1998-01-01"^^xsd:date;
+    schema:location <urn:uuid:places/1084082987>;
+    schema:description "São Paulo: Art Editora/Publifolha, 1998.".

@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1216171271> a melod:Expression, melod:ExpressionEntity;
+    rdfs:label "Amarga saudade (arrangement by Miguel Rabello)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bb4a6235d-3e96-97d9-2c0b-63f0f20ce3da;
+    melod:hasContribution _:b9364c438-33c1-2e4d-7b1f-c4c643bc1eb4;
+    dct:conformsTo melod:Expression.
+
+_:bb4a6235d-3e96-97d9-2c0b-63f0f20ce3da a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b9364c438-33c1-2e4d-7b1f-c4c643bc1eb4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1785280868>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,22 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1589418829> a melod:Person, melod:PersonEntity;
+    schema:familyName "Pinto";
+    schema:givenName "Gerson Ferreira";
+    schema:gender "male";
+    schema:hasOccupation "Flautista";
+    schema:description "<p>Mentioned in the provenance of the copy of “A baianinha” (arquivo de Gerson Ferreira Pinto) and in the biography of Berredo, who describes him as the flautist of the group Amigos do Choro. He has no record in the acervo.</p>";
+    owl:sameAs <https://www.wikidata.org/wiki/Q20048060>;
+    dct:conformsTo melod:Person.

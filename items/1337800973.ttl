@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1337800973> a melod:Item, melod:ItemEntity;
+    rdfs:label "A baianinha — Partitura melodia (score_826)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1567217597>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b55cf6149-e3be-91dd-6935-3a67dc0b9b2b;
+    melod:hasShelfmark "score_826";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_826.pdf>;
+    melod:hasHand _:bc70a3a38-18bf-63ee-9df4-ab93d39bf726;
+    melod:hasProvenance _:b272fa9fb-3aa2-a7bf-0725-6ea46f845a87;
+    dct:conformsTo melod:Item.
+
+_:b55cf6149-e3be-91dd-6935-3a67dc0b9b2b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_826".
+
+_:bc70a3a38-18bf-63ee-9df4-ab93d39bf726 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b272fa9fb-3aa2-a7bf-0725-6ea46f845a87 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bf95d74f9-27e7-a5b1-6695-f97a0f9f52b4.
+
+_:bf95d74f9-27e7-a5b1-6695-f97a0f9f52b4 a melod:ExactDate;
+    melod:isodate "1962-12-06"^^xsd:date;
+    schema:description "06.12.1962".

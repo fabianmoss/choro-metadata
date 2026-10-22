@@ -1,5 +1,14 @@
 # MerMEId template
 
+> **Data repository of the Casa do Choro acervo.**
+>
+> This instance of the MerMEId MeLODy template models the acervo of the
+> [Casa do Choro](https://acervo.casadochoro.com.br/).  The entities follow
+> the FRBR chain (work → expression → manifestation → item), the people are
+> Persons and the places are Places.  The mapping — and the decisions taken
+> at each point — is described in
+> [docs/acervo-model.md](docs/acervo-model.md).
+
 This is the template repository, which can be used to create a new data repository to edit your own data in the [MerMEId MeLODy Editor](https://music-metadata-tools.github.io/MerMEId-MeLODy/).
 It contains some example Turtle files and a datasets generator to create the indexes for the dropdown menus and search indexes, which are loaded in the editor.
 
@@ -12,13 +21,27 @@ After creating the data repository, activate GitHub Pages by going to Settings �
 
 ## 2. Modify configuration file
 
-To use the indexes in the editor, the correct url to the datasets needs to be modified in the [configuration.json file](configuration/configuration.json).
+To use the indexes in the editor, the correct url to the datasets needs to be modified in the [configuration.json file](configuration/config.json).
 To do this, you need to replace the line 
 ```"datasetBaseUrl": "https://music-metadata-tools.github.io/MerMEId-MeLODy-Template/datasets/",``` 
 to 
 ```"datasetBaseUrl": "{your_pages_url}/datasets/",```.
 
 You can find your GitHub Pages url on the main site of your repository once the workflows for the GitHub Pages are activated
+
+## Datasets generation
+
+The GitHub Pages workflow generates the datasets (the indexes the editor
+loads) from the SPARQL modules in `modules/datasets-generator`.  The same
+generation can be run locally, without the container the CI uses, with:
+
+```bash
+pip install rdflib
+python3 -m tools.datasets --out indexes
+```
+
+The `indexes/` folder keeps a copy of the generated datasets, so that the
+dropdowns can be inspected without running the container.
 
 
 ## Data Validation

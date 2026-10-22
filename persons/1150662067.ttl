@@ -1,0 +1,22 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1150662067> a melod:Person, melod:PersonEntity;
+    schema:familyName "Valdeos";
+    schema:givenName "Sergio";
+    schema:gender "male";
+    schema:hasOccupation "Arranjador(a)", "Compositor", "Violonista";
+    schema:description "<p>Violonista, compositor e arranjador, trabalhou com diversos músicos e cantores em gravações e shows, entre outros: Eva Ayllon, Pilar de la Hoz, Carmina Canavino, Gian Marco Zignago, Cecilia Barraza, Cecilia Bracamonte, Jane Duboc, Guinga, Leila Pinheiro, Celia Vaz.&nbsp;</p>\r\n\r\n<p>Destaca-se sua participação no grupo da cantora Susana Baca (ganhadora do Grammy Latino 2002) com quem trabalho entre 2001 e 2009 participando em quatro produções musicais e viajando pelos cinco continentes nos principais festivais de “world&nbsp;music.”</p>\r\n\r\n<p>No Peru, foi fundador do “Clube do Choro”, grupo dedicado à difusão do choro e da cultura brasileira e criou o grupo Kenyara com um trabalho livre sobre a música instrumental da costa e os Andes.</p>\r\n\r\n<p>Trabalhou junto a Carlos Hayre (2007-2011) em um livro sobre o violão da costa do Peru, projeto patrocinado pela Universidade Católica del Perú (PUCP) que será apresentado no segundo semestre de 2013.</p>\r\n\r\n<p>Foi professor da escola de folclore José Maria Arguedas (2000-2001). Também tem ministrado aulas particulares de violão e organizado palestras sobre a música Latino-americana tendo como base a rítmica aplicada ao violão.&nbsp;&nbsp;</p>\r\n\r\n<p>Recentemente participou de projetos de integração latino-americana, o primeiro, Romance de mi destino (2010), é um disco de Pasillos e Valses de Equador e Peru respectivamente que inclui a participação de artistas de ambos paises. O segundo, Fiesta em los Andes (2012), foi um show com músicas e músicos da Comunidade Andina que virou disco. &nbsp;Atualmente mantem uma intensa atividade como músico e arranjador participando de varias produções no Perú e em outros lugares.</p>\r\n\r\n<p>No Brasil fundou Los Cuatro (2010) grupo baseado na música instrumental latino-americana dentro da linguagem do choro. Este grupo lançou&nbsp;sua primeira produção fonográfica&nbsp;Outros caminho do Choro em de 2013.</p>\r\n\r\n<p>Também faz parte do quarteto de violões Maogani, grupo que fundou e do qual fez parte de 1996 a 1999, voltando em 2013. Atualmente está&nbsp;trabalhando na última produção de Maogani e Renato Braz que foi&nbsp;gravada em Lima (Peru) com canções de Venezuela, Chile, Peru, Argentina, Cuba, Colombia e Brasil.</p>\r\n\r\n<p>Em Agosto de 2013 gravou em New York, junto a Edward Perez, Erick Kurimski e Yayo Serka, uma produção que inclui algumas músicas próprias, além de algumas músicas tradicionais do folclore Peruano. Este material está&nbsp;sendo editado e será lançado em 2014.</p>\n\n<p><strong>Fontes de pesquisa</strong></p>\n<ol>\n<li>http://www.loscuatro.com.br/#!sergio-valdeos/ctmm</li>\n</ol>\n\n<p>Naturality recorded in the archive: Compositor estrangeiro.</p>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1899>;
+    dct:conformsTo melod:Person.

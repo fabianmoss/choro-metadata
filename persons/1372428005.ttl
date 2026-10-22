@@ -1,0 +1,26 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1372428005> a melod:Person, melod:PersonEntity;
+    schema:familyName "Silva";
+    schema:givenName "Cândido Pereira da";
+    schema:alternateName "Candinho Trombone", "Candinho Silva";
+    schema:gender "male";
+    schema:birthDate "1879-01-30"^^xsd:date;
+    schema:deathDate "1960-12-12"^^xsd:date;
+    schema:birthPlace <urn:uuid:places/1800036311>;
+    schema:hasOccupation "Compositor", "Trombonista", "Violonista", "Maestro";
+    schema:description "<p>Filho de Jerônimo Silva e Rosa Pereira começou a estudar com seu pai, que também era “chorão”, flautista e compositor. Residiu no Asilo dos Meninos desvalidos,&nbsp;em Vila Isabel, onde sofreu um acidente que lhe tirou a visão do olho esquerdo, porém sua iniciação profissional foi na Banda do Asilo, de onde também saíram músicos como Francisco Braga, Paulino Sacramento e Albertino Pimentel. Casou-se várias vezes e teve duas filhas, para elas dedicou várias composições.</p>\r\n\r\n<p>A obra do trombonista Cândido Pereira da Silva, Candinho Silva ou Candinho Trombone, como se tornou conhecido, abrange mais de 475 composições (das quais pouquíssimas foram editadas), entre elas a polca O Nó, que se tornou, por suas modulações imprevistas, um clássico do repertório do choro. Com seu ponto (grafia musical) inconfundível, Candinho escreveu não só suas próprias composições como também as de diversos chorões que não sabiam música. Dessa forma foi uma figura decisiva na preservação do trabalho desses artistas para as gerações futuras. Nasceu no Rio de Janeiro e iniciou suas atividades como músico na Banda da Fábrica de Tecidos Confiança, em Vila Isabel, onde chegou a contramestre. Aos 19 anos de idade passou a integrar a Banda da Polícia Militar, também como contramestre. Tocava, além de trombone, bombardino e bombardão. Em 1916, com o grupo O Passos no Choro, gravou na Odeon uma de suas músicas mais conhecidas: a polca Soluçando. Em 1918 participou do Conjunto Carioca, ao lado de Antônio Maria Passos (flauta), Nelson Alves (cavaquinho) e Donga (violão). Outros grandes chorões desse tempo foram seus companheiros, entre eles Irineu de Almeida, Licas do Trombone, Mário Álvares, Luiz Gonzaga da Hora (tuba), Anacleto de Medeiros, Albertino Pimentel, Luiz de Souza, Pixinguinha, Quincas Laranjeiras, Juca Kalut, Nolasco, Amora Cavaquinho e Catulo. Em 1924 fez parte, ao lado do cavaquinista e compositor Eurico Batista, do grupo Africanos de Vila Isabel, além de integrar a Sociedade Carnavalesca Pragas do Egito, cujo presidente era Alexandre Gonçalves Pinto. Já nessa época fazia parte da Sociedade de Concertos Sinfônicos do Rio de Janeiro e integrava a Orquestra do Teatro São José. A partir da década de 30 passou a trabalhar como primeiro trombonista da Orquestra Sinfônica Brasileira. Em 1959, já doente, doou seu arquivo musical a Jacob do Bandolim. Hoje esse tesouro faz parte do acervo do Museu da Imagem e do Som. Na coleção de CDs “Princípios do Choro”, gravada em 2002 (Acari Records/ Biscoito Fino), teve um disco inteiramente dedicado à sua obra.</p>\n\n<p><strong>Fontes de pesquisa</strong></p>\n<ol>\n<li>1. PINTO, Alexandre Gonçalves. O Choro — reminiscências dos chorões antigos. 2ª ed. Rio de Janeiro: Funarte, 1978. (p. 16, 20, 82)</li>\n<li>2. VASCONCELOS, Ary. Panorama da música popular brasileira na Belle Époque. Rio de Janeiro: Livraria Santana Ltda., 1977.</li>\n<li>3. ENCICLOPÉDIA DA MÚSICA BRASILEIRA: POPULAR, ERUDITA E FOLCLÓRICA. São Paulo: Art Editora/Publifolha, 1998.</li>\n</ol>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1127>;
+    dct:conformsTo melod:Person.

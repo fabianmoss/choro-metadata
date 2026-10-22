@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1063044915> a melod:Person, melod:PersonEntity;
+    schema:familyName "Nascimento";
+    schema:givenName "Manoel Pedro do";
+    schema:gender "male";
+    schema:birthPlace <urn:uuid:places/1800036311>;
+    schema:hasOccupation "Clarinetista", "Compositor", "Copista";
+    schema:description "<p>\r\n\tCopista prol&iacute;fico, registrou as m&uacute;sicas de centenas de compositores de choro em cadernos manuscritos, assinando &ldquo;Nascimento&rdquo; com indica&ccedil;&atilde;o de local e data. As informa&ccedil;&otilde;es biogr&aacute;ficas de muitos desses compositores foram prestadas pelo bandolinista D&eacute;o Rian, que conheceu Nascimento. Segundo Rian, Nascimento morava na Aboli&ccedil;&atilde;o e freq&uuml;entava as rodas de choro do Retiro da Velha Guarda, em Jacarepagu&aacute;. Eis a rela&ccedil;&atilde;o de alguns dos compositores cujas m&uacute;sicas foram registradas por Nascimento: Alem, J. Amaral, R. Apol&ocirc;nio, Arthur Ayr&atilde;o, J. J. Azevedo J&uacute;nior, Adalberto de Azevedo (Betinho), Jo&atilde;o Barbosa, Franco C. Bolaes, J&uacute;lio Braga, Manoel Amorim Lima (Braga), Maur&iacute;cio Braga, C&eacute;sar, Ayres Costa (Santinho), Jos&eacute; Fontes, Marcos Jos&eacute; Francisco, Jos&eacute; Soares de Freitas (Dudinha), Henrique Jo&atilde;o Flauta B. M. Jurandyr, Jos&eacute; do Carmo, Raul Silva, Louren&ccedil;o Lamartine, L&aacute;zaro, Assis Leal (Mac&aacute;rio), Francisco Assis Leal (Macarinho), Francisco Lima, Joaquim de Lima, Luizinho, Rubens Martins, Jo&atilde;o Medeiros, Nory Mendes (O Patativa), Ot&aacute;vio Dias Moreno, Narciso, Arlindo Nascimento, Ilydio Nascimento, Jo&atilde;o Batista do Nascimento, Chico Neto, Abelardo Neves, Nola, Aristides de Oliveira (Moleque Diabo), Biliano de Oliveira, Pedro Oliveira, Oscar Cruz N. Paim, Manoel Passinha, Floriano Pientznauer, Albertino Pimentel (Carramona), Jos&eacute; Ferreira Ramos, Oscar Roxinol, Ari Corr&ecirc;a de S&aacute;, Jo&atilde;o Sampaio, Achiles dos Santos (Caboclo), Dion&iacute;sio da Silva, Sebasti&atilde;o de Lima e Sousa, Jos&eacute; Toledo, Candinho Silva, Nelson Alves, Alfredinho Flautim, M&aacute;rio &Aacute;lvares, Lu&iacute;s Americano, Caninha, Henrique Dourado, Freire J&uacute;nior, Chiquinha Gonzaga, Juca Kalut, Louro, Pixinguinha, Patr&iacute;cio Teixeira, Jos&eacute; da Silva (Baianinho) e Eduardo Souto.</p>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1415>;
+    dct:conformsTo melod:Person.
