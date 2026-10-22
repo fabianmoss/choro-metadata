@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1439602877> a melod:Manifestation, melod:ManifestationEntity;
+    melod:hasTitle _:b9f768175-edb5-6944-c034-35ff766b5b19;
+    lrmoo:R4_embodies <urn:uuid:expressions/1079245796>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bcd9cfde0-fff9-b25d-b974-0644745d46db;
+    schema:publication _:b12e05bfd-f616-a0f0-37d1-c78a3ce8108a;
+    dct:conformsTo melod:Manifestation.
+
+_:b9f768175-edb5-6944-c034-35ff766b5b19 a melod:Title;
+    rdfs:label "Aurora — Partitura piano e letra (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bcd9cfde0-fff9-b25d-b974-0644745d46db a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b12e05bfd-f616-a0f0-37d1-c78a3ce8108a a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

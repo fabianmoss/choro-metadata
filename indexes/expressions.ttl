@@ -2,6 +2,11 @@
 <urn:uuid:expressions/1042235328> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:expressions/1042235328> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha (original version)" .
 <urn:uuid:expressions/1042235328> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1513365995> .
+<urn:uuid:expressions/1079245796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1079245796> <http://www.w3.org/2004/02/skos/core#broader> "Valsa Sentimental" .
+<urn:uuid:expressions/1079245796> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora (original version)" .
+<urn:uuid:expressions/1079245796> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1052125462> .
+<urn:uuid:expressions/1079245796> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1659770910> .
 <urn:uuid:expressions/1100659433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
 <urn:uuid:expressions/1100659433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choral ('Durch Trauren und durch Plagen')" .
 <urn:uuid:expressions/1100659433> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1134679629> .
@@ -26,6 +31,10 @@
 <urn:uuid:expressions/1433360455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
 <urn:uuid:expressions/1433360455> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:expressions/1433360455> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece (original version)" .
+<urn:uuid:expressions/1702376576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1702376576> <http://www.w3.org/2004/02/skos/core#broader> "Valsa Sentimental" .
+<urn:uuid:expressions/1702376576> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora (arrangement by Wellington Duarte)" .
+<urn:uuid:expressions/1702376576> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1238437448> .
 <urn:uuid:expressions/1711995158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
 <urn:uuid:expressions/1711995158> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:expressions/1711995158> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha (original version)" .

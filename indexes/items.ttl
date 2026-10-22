@@ -20,11 +20,19 @@
 <urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
 <urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1465258181> .
 <urn:uuid:items/1155615064> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1589418829> .
+<urn:uuid:items/1161387869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia (score_10932)" .
+<urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1259923159> .
 <urn:uuid:items/1337800973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_826)" .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1063044915> .
+<urn:uuid:items/1409746001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura piano e letra (no digitisation)" .
+<urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1439602877> .
 <urn:uuid:items/1494256413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (score_5588)" .
 <urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
@@ -33,6 +41,10 @@
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia (score_1730)" .
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1470936578> .
+<urn:uuid:items/1642068652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia e cifra (score_14100)" .
+<urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1815660023> .
 <urn:uuid:items/1668786263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia e cifra (no digitisation)" .
 <urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .

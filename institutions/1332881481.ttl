@@ -1,0 +1,25 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:institutions/1332881481> a melod:Institution, melod:InstitutionEntity;
+    schema:name "Irmãos Vitale";
+    schema:address "Rua Visc. de Pirajá, 82 - 1201 - Ipanema - Rio de Janeiro - RJ, 22410-904, Brazil";
+    schema:location <urn:uuid:places/1800036311>;
+    owl:sameAs <https://www.wikidata.org/wiki/Q118906848>, <https://viaf.org/viaf/49159939597125252802>, <https://id.loc.gov/authorities/names/n85106094>, <https://edicoes.vitale.com.br/contato>;
+    schema:foundingDate _:beac61753-cf50-c137-a3c7-26df50436d11;
+    schema:description "The Brazilian music publishing house Irmãos Vitale (Irmãos Vitale Editores Ltda.), founded in November 1923 by the brothers Emílio, Vicente, Affonso, João and José Vitale, specialised in the publication and distribution of scores, books and other music material.  It published works by Zequinha de Abreu, Pixinguinha, Cartola, Ary Barroso, Ernesto Nazareth and Chiquinha Gonzaga, among many others, and was one of the first publishers of Brazilian popular music scores.  It has offices in Rio de Janeiro (Rua Visc. de Pirajá, 82 - Ipanema) and in São Paulo (Rua Raposo Tavares, 85 - Jd. das Acácias).  The identification of the house comes from its own site and from Wikidata; the acervo names it only in the field “Cópia” of the scores.".
+
+_:beac61753-cf50-c137-a3c7-26df50436d11 a melod:ExactDate;
+    melod:isodate "1923-11-01"^^xsd:date;
+    schema:description "November 1923; the day of the month is not documented.".

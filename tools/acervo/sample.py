@@ -31,6 +31,9 @@ Modelling rules
 * The free-text field "Cópia" is broken down into the type of the copy, the
   copyist, the editor and the provenance by
   :func:`tools.acervo.fetch.parse_copy`.
+* A name of the field "Cópia" that is registered as an institution of the
+  dataset is a publishing house and not an editor: the edition is then
+  published by that house.
 * The people the acervo mentions without giving them a card in the
   encyclopedia are registered anyway, with the identification noted as
   provisional.
@@ -208,13 +211,28 @@ class Builder:
     """Accumulates the files to be written, one per entity."""
 
     def __init__(self, people: People, place_keys=(), instrumentation_labels=None,
-                 instrument_terms=None, bibliography=()):
+                 instrument_terms=None, bibliography=(), institutions=()):
         self.people = people
         self.place_keys = set(place_keys)
         self.instrumentation_labels = instrumentation_labels or {}
         self.instrument_terms = instrument_terms or {}
         self.bibliography = list(bibliography)
+        self.institutions: dict[str, dict] = {}
+        for institution in institutions:
+            record = dict(institution)
+            for name in (record.get("name"), record.get("key")):
+                if name:
+                    self.institutions[normalize(name)] = record
         self.files: dict[tuple[str, str], str] = {}
+
+    def institution_by_name(self, name: str) -> dict | None:
+        """The institution registered under ``name``, when there is one."""
+        return self.institutions.get(normalize(name))
+
+    def institution_location(self, name: str) -> str | None:
+        """The place where the institution is, for the publication event."""
+        record = self.institution_by_name(name)
+        return record.get("location") if record else None
 
     def write(self, folder: str, iri: str, graph: Graph) -> None:
         name = iri.rsplit("/", 1)[-1]
@@ -325,6 +343,15 @@ class Builder:
         self.write("places", iri, graph)
 
     # -- institutions -----------------------------------------------------
+    @staticmethod
+    def same_as(value) -> list[str]:
+        """The external references of an entity: one string or a list."""
+        if not value:
+            return []
+        if isinstance(value, str):
+            return [value]
+        return list(value)
+
     def institution(self, institution: dict) -> None:
         graph = Graph()
         iri = ids.institution(institution["key"])
@@ -337,8 +364,17 @@ class Builder:
             graph.add(iri, "schema:address", Literal(institution["address"]))
         if institution.get("location"):
             graph.add(iri, "schema:location", IRI(ids.place(institution["location"])))
-        if institution.get("sameAs"):
-            graph.add(iri, "owl:sameAs", IRI(institution["sameAs"]))
+        for link in self.same_as(institution.get("sameAs")):
+            graph.add(iri, "owl:sameAs", IRI(link))
+        if institution.get("founding_date"):
+            date = blank_node(f"{iri}#foundingDate")
+            graph.type(date, "melod:ExactDate")
+            graph.add(date, "melod:isodate",
+                      Literal(institution["founding_date"], datatype=XSD + "date"))
+            if institution.get("founding_description"):
+                graph.add(date, "schema:description",
+                          Literal(institution["founding_description"]))
+            graph.add(iri, "schema:foundingDate", date)
         if institution.get("description"):
             graph.add(iri, "schema:description", Literal(institution["description"]))
         self.write("institutions", iri, graph)
@@ -615,7 +651,7 @@ class WorkBuilder:
             lyricist = (score.get("details", {}).get("Letra") or [None])[0]
             if not lyricist:
                 continue
-            name = re.sub(r"^Letra de\s+", "", lyricist).strip()
+            name = re.sub(r"^Letra de\s+", "", lyricist).strip().rstrip(".")
             key = self.people.resolve(name)
             if key:
                 graph.add(iri, "melod:hasContribution", self.contribution(
@@ -668,6 +704,9 @@ class WorkBuilder:
                 graph, ids.institution(publisher), "terms:Publisher", None,
                 f"{iri}#publisher"))
         editor = copy.get("editor")
+        if publisher and editor and normalize(editor) == normalize(publisher):
+            # the name of a publishing house, not the name of an editor
+            editor = None
         if editor:
             key = self.people.resolve(editor)
             if key:
@@ -679,7 +718,9 @@ class WorkBuilder:
             publication = blank_node(f"{iri}#publication")
             graph.type(publication, "schema:PublicationEvent")
             graph.add(publication, "schema:publishedBy", IRI(ids.institution(publisher)))
-            graph.add(publication, "schema:location", IRI(ids.place("Rio de Janeiro")))
+            location = self.builder.institution_location(publisher)
+            if location:
+                graph.add(publication, "schema:location", IRI(ids.place(location)))
             graph.add(iri, "schema:publication", publication)
 
         graph.add(iri, "dct:conformsTo", Prefixed("melod:Manifestation"))
@@ -703,12 +744,24 @@ class WorkBuilder:
             suffix = ""
         return f"{work['title']} — {score_type}{suffix}"
 
-    @staticmethod
-    def publisher(copy: dict) -> str | None:
-        name = copy.get("publisher")
-        if not name:
-            return None
-        return PUBLISHER_ALIASES.get(normalize(name), name)
+    def publisher(self, copy: dict) -> str | None:
+        """The publishing house of an edition.
+
+        The acervo writes in the field “Cópia” the name of the editor,
+        which may be a person (“editada por A. Di Franco”) or a publishing
+        house (“editada por Irmãos Vitale”).  A name that is registered as
+        an institution of the dataset is a publisher, not an editor.
+        """
+        for name in (copy.get("publisher"), copy.get("editor")):
+            if not name:
+                continue
+            alias = PUBLISHER_ALIASES.get(normalize(name))
+            if alias:
+                return alias
+            institution = self.builder.institution_by_name(name)
+            if institution:
+                return institution["name"]
+        return None
 
     # -- item --------------------------------------------------------------
     def item(self, work: dict, manifestation: dict, score: dict) -> None:
@@ -817,6 +870,7 @@ def build(works, cards, extra_persons, places, institutions, bibliography,
         instrumentation_labels=instrumentation_labels,
         instrument_terms=instrument_terms,
         bibliography=bibliography,
+        institutions=institutions,
     )
 
     for place in places:

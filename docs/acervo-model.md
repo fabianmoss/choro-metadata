@@ -158,22 +158,40 @@ unpacks it:
 | `editada por X`                                             | print, editor X                       |
 | `editada`                                                   | print, unknown publisher              |
 
-### 4.6 Score without digitisation
+### 4.6 Publishing houses
 
-“Amarga saudade” has two scores whose PDF is not published: the acervo
-records that “Visualização e consulta não autorizadas pela editora.
+The field “Cópia” also names the *publishing house* of a third-party
+edition: “editada por Irmãos Vitale” — the edition of the piano score of
+“Aurora”, by Zequinha de Abreu.  The pattern `editada por X` reads the name
+as an editor, so the name is matched against the institutions of the
+dataset: when it is one of them, the edition is published by that house
+(`melod:hasContribution` → `terms:Publisher`, and `schema:publication` with
+`schema:publishedBy`), and no editor is recorded.  The place of the
+publication event is the place of the publisher, not a fixed one.
+
+The institution itself receives the name, the address, the place, the
+founding date (`schema:foundingDate` → `melod:ExactDate`) and the external
+references (`owl:sameAs`) taken from the publisher's own site and from
+authority files — Wikidata, VIAF and the Library of Congress for Irmãos
+Vitale.  The description states where the identification comes from, since
+the acervo names the house only in the free-text field.
+
+### 4.7 Score without digitisation
+
+“Amarga saudade” and “Aurora” have scores whose PDF is not published: the
+acervo records that “Visualização e consulta não autorizadas pela editora.
 Disponível somente na Casa do Choro”.  The item exists, without
 `owl:sameAs` nor identifier, and the restriction stays in
 `melod:hasAnnotation` (paragraph `rdf:HTML`).
 
-### 4.7 Shelfmark
+### 4.8 Shelfmark
 
 The acervo publishes no shelfmarks.  The identifier of the digitised
 surrogate (`score_825`) is used provisionally in `melod:hasShelfmark` and in
 `melod:hasIdentifier`, so that the editor can locate the copy; the same
 value is linked to the PDF through `owl:sameAs`.
 
-### 4.8 People with no record in the encyclopedia
+### 4.9 People with no record in the encyclopedia
 
 The acervo mentions some people only in free-text fields:
 
@@ -182,8 +200,9 @@ The acervo mentions some people only in free-text fields:
 | Baptista Júnior         | “Letra de Baptista Junior”            | person with a provisional identification noted in the description |
 | Gerson Ferreira Pinto   | “arquivo de Gerson Ferreira Pinto”    | person with `owl:sameAs` to Wikidata (Q20048060) |
 | A. Di Franco            | “editada por A. Di Franco”            | person with a provisional identification — the acervo does not say whether it is a person or a publishing house |
+| Salvador Moraes         | “Letra de Salvador Moraes.”            | person with a provisional identification noted in the description |
 
-### 4.9 Homonymous records
+### 4.10 Homonymous records
 
 The acervo has two records for “Miguel Rabello” — “Rabello, Miguel” (2326)
 and “Bastos, Miguel Rabello” (2006) — with the same activities, the same
@@ -196,7 +215,7 @@ The same applies to the two works titled “A baianinha” (771, by Candinho
 Trombone, and 4138, by P. de Alcântara Bacellar): they are different works
 and were kept separate.
 
-### 4.10 Contributions and certainty
+### 4.11 Contributions and certainty
 
 `melod:hasCertainty` tells apart what the acervo asserts from what it
 suggests:
@@ -207,9 +226,9 @@ suggests:
 | arranger             | `terms:MediumCertainty`  | the acervo names the arranger in the field “Arranjo” |
 | librettist           | `terms:MediumCertainty`  | idem, in the field “Letra” |
 | editor               | `terms:MediumCertainty`  | idem, in the field “Cópia” |
-| publisher (institution) | no value              | it is the house of the acervo itself |
+| publisher (institution) | no value              | the acervo names the house in the field “Cópia”, but the house is certain anyway |
 
-### 4.11 Derived types
+### 4.12 Derived types
 
 The shapes of MeLODy do not reference the entities by their base type
 (`melod:Work`, `melod:Person`…), but by their derived type
@@ -218,7 +237,7 @@ entailment, so the derived type has to be declared in the file itself.  All
 the files of the repository — those of the acervo and those of the MeLODy
 model — declare both types.
 
-### 4.12 Date spans
+### 4.13 Date spans
 
 The `melod:Date` shape accepts a span of dates, but the `sh:xone` that
 governs it is sensitive: both branches (`schema:startDate`/`schema:endDate`
@@ -247,18 +266,18 @@ of style:
 
 | file | correction |
 |------|------------|
-| 40 files | declaration of the `melod:*Entity` type (§ 4.11) |
+| 40 files | declaration of the `melod:*Entity` type (§ 4.12) |
 | `works/1031334055.ttl` | the literal of `schema:description` was not closed — the file was not valid Turtle and was left out of the validation |
 | `instrumentations/*.ttl` | `schema:position` and `schema:description` in each `melod:InstrumentationDetail`; MARC code of the double bass corrected (`#ke` → `#sd`, which is the one of the *basso continuo*); `www.loac.gov` → `www.loc.gov` |
 | `expressions/926630544.ttl` | the instrumentation pointed to `urn:uuid:1134679629`, an IRI that does not exist — it now points to `urn:uuid:instrumentations/1134679629` |
 | `expressions/1298183696.ttl` | the key of the recitative had only `schema:description`; it receives key, alteration and mode — E-flat major, the tonality of the other movements of the *Kantaten-Jahrgang*, since the key signature of the *incipit* is empty and the movement is “modulierend” (the description records the inference) |
-| `expressions/2293419636.ttl`, `expressions/2372423187.ttl` | date spans filled in (§ 4.12); `melod:MediumCertainty` (which does not exist in the ontology) corrected to `terms:MediumCertainty`; annotation paragraph typed as `rdf:HTML` |
+| `expressions/2293419636.ttl`, `expressions/2372423187.ttl` | date spans filled in (§ 4.13); `melod:MediumCertainty` (which does not exist in the ontology) corrected to `terms:MediumCertainty`; annotation paragraph typed as `rdf:HTML` |
 | `items/244351973.ttl` | the two provenance events had no `rdfs:label`, required by the `melod:Event` shape |
 | `manifestations/893513144.ttl` | the title page had no `cidoc:P2_has_type` and the paragraph was not `rdf:HTML` |
 | `performanceEvents/3395291370.ttl`, `4019778394.ttl`, `603545879.ttl` | the three pointed to `urn:uuid:venues/2096486337`, which does not exist in the venues namespace (it is the IRI of the place Hamburg); they now point to the St. Catharinen venue, as the event of 1742 does |
 | `bibliography/268258228.ttl` | the `melod:hasAbbreviation` was missing, and it is mandatory: “HenzelC 2004” — Christoph Henzel, *Das Konzertleben in der preußischen Hauptstadt 1740-1786 im Spiegel der Berliner Presse*, SIM-Jahrbuch 2004, p. 216-291, following the pagination of the record itself |
 
-After the corrections, `npm test` passes on the 107 files of the repository,
+After the corrections, `npm test` passes on the 123 files of the repository,
 with no violation at all.
 
 ## 6. What is missing

@@ -16,6 +16,9 @@ The sample covers the cases that matter for the modelling:
 "Araponga e a Juriti"                      instrumentation, editor, lyrics, arrangement
 "baianinha" (P. de Alcântara Bacellar)      namesake, piano score
 "Saudade de São João do Príncipe"           copy made by the composer himself
+"Aurora" (Zequinha de Abreu)                edition by another publishing house,
+                                           restricted digitisation, lyrics,
+                                           arrangement
 =========================================  =====================================
 
 Only the strings that the acervo itself publishes are kept in Portuguese;
@@ -35,6 +38,24 @@ CARDS = [
         "nworks": 500,
         "bio": "<p>Filho de Jerônimo Silva e Rosa Pereira começou a estudar com seu pai, que também era “chorão”, flautista e compositor. Residiu no Asilo dos Meninos desvalidos,&nbsp;em Vila Isabel, onde sofreu um acidente que lhe tirou a visão do olho esquerdo, porém sua iniciação profissional foi na Banda do Asilo, de onde também saíram músicos como Francisco Braga, Paulino Sacramento e Albertino Pimentel. Casou-se várias vezes e teve duas filhas, para elas dedicou várias composições.</p>\r\n\r\n<p>A obra do trombonista Cândido Pereira da Silva, Candinho Silva ou Candinho Trombone, como se tornou conhecido, abrange mais de 475 composições (das quais pouquíssimas foram editadas), entre elas a polca O Nó, que se tornou, por suas modulações imprevistas, um clássico do repertório do choro. Com seu ponto (grafia musical) inconfundível, Candinho escreveu não só suas próprias composições como também as de diversos chorões que não sabiam música. Dessa forma foi uma figura decisiva na preservação do trabalho desses artistas para as gerações futuras. Nasceu no Rio de Janeiro e iniciou suas atividades como músico na Banda da Fábrica de Tecidos Confiança, em Vila Isabel, onde chegou a contramestre. Aos 19 anos de idade passou a integrar a Banda da Polícia Militar, também como contramestre. Tocava, além de trombone, bombardino e bombardão. Em 1916, com o grupo O Passos no Choro, gravou na Odeon uma de suas músicas mais conhecidas: a polca Soluçando. Em 1918 participou do Conjunto Carioca, ao lado de Antônio Maria Passos (flauta), Nelson Alves (cavaquinho) e Donga (violão). Outros grandes chorões desse tempo foram seus companheiros, entre eles Irineu de Almeida, Licas do Trombone, Mário Álvares, Luiz Gonzaga da Hora (tuba), Anacleto de Medeiros, Albertino Pimentel, Luiz de Souza, Pixinguinha, Quincas Laranjeiras, Juca Kalut, Nolasco, Amora Cavaquinho e Catulo. Em 1924 fez parte, ao lado do cavaquinista e compositor Eurico Batista, do grupo Africanos de Vila Isabel, além de integrar a Sociedade Carnavalesca Pragas do Egito, cujo presidente era Alexandre Gonçalves Pinto. Já nessa época fazia parte da Sociedade de Concertos Sinfônicos do Rio de Janeiro e integrava a Orquestra do Teatro São José. A partir da década de 30 passou a trabalhar como primeiro trombonista da Orquestra Sinfônica Brasileira. Em 1959, já doente, doou seu arquivo musical a Jacob do Bandolim. Hoje esse tesouro faz parte do acervo do Museu da Imagem e do Som. Na coleção de CDs “Princípios do Choro”, gravada em 2002 (Acari Records/ Biscoito Fino), teve um disco inteiramente dedicado à sua obra.</p>",
         "encyclopedia": "Enciclopédia Ilustrada do Choro no Séc. XIX",
+    },
+    {
+        "id": "6",
+        "name": "Zequinha de Abreu",
+        "inverted": "Abreu, José Gomes",
+        "roles": ["Compositor", "Pianista", "Regente"],
+        "birth": "19.09.1880",
+        "death": "22.01.1935",
+        "birth_place": "Santa Rita do Passa Quatro - SP",
+        "nworks": 89,
+        "bio": "<p>Estudou na escola de São Simão, cidade vizinha a Santa Rita do Passa Quatro (SP), onde começou a aprender música com o professor Dionísio Machado. Aos dez anos, transferiu-se para o Colégio São Luís, em Itu, onde ingressou no conjunto de um parente, José de Abreu, tocando ocarina, além de estudar harmonia com José Basílio durante três anos. Em 1894, aos 14 anos, entrou para o Seminário Episcopal em São Paulo, pois o desejo de sua mãe, D. Justina Gomes Leitão de Abreu, era que se tornasse padre. No seminário continuou aperfeiçoando-se em música, estudando harmonia com José Pinto Tavares e com o padre Juvenal Kelly. Dois anos depois resolveu fugir do seminário, retornando à sua cidade natal, onde passou a trabalhar na farmácia do pai, José Alacrino de Abreu. Começou a compor valsas, choros, tangos e maxixes e organizou conjuntos musicais como a Lira Santarritense e a Orquestra Smart (do cinema do mesmo nome) que passaram a animar as festas das redondezas. Conheceu nesta época a professora Durvalina Brasil, sua futura mulher, com quem teria oito filhos. Em 1917 compôs a sua obra-prima,&nbsp;Tico-Tico no Farelo, mais tarde&nbsp;Tico-Tico no Fubá, que seria gravada por inúmeros intérpretes e, divulgada por Carmen Miranda nos EUA, tornaria-se uma das músicas brasileiras mais gravadas em todo mundo. A valsa&nbsp;Branca, outro clássico, também foi composta neste período. Na década de 1920, com a morte do pai, estabeleceu-se com a família em São Paulo, empregando-se como pianista na Casa Beethoven, além de tocar em festas, dancings e cabarés. Compôs o choro&nbsp;Sururu na Cidade&nbsp;por ocasião da revolução de 1922, alcançando enorme sucesso. No início da década de 1930, poucos anos antes de falecer, assistiu à gravação de dezenas de músicas de sua autoria pelas principais orquestras populares do país, entre as quais a Orquestra Típica Victor, Orquestra Colbaz e Orquestra Pan American do Cassino Copacabana. Outros sucessos de Zequinha de Abreu, as valsas&nbsp;Aurora,&nbsp;Elza,&nbsp;Tardes em Lindóia, os choros&nbsp;Pintinhos no Terreiro&nbsp;e&nbsp;Não Me Toques&nbsp;foram registrados por grandes intérpretes da música popular brasileira como Luís Americano, José Rielli, Antenógenes Silva, Orlando Silveira, Altamiro Carrilho e sua Bandinha, Avena de Castro e Jacob do Bandolim.</p>\n\n<p>&nbsp;</p>",
+        "encyclopedia": "Enciclopédia Ilustrada do Choro no Séc. XIX",
+        "wikidata": "Q167752",
+        "note": (
+            "The civil name recorded by Wikidata (Q167752) is “José Gomes "
+            "de Abreu”; it is registered as an alternate name.  The same "
+            "source gives São Paulo as the place of death."
+        ),
     },
     {
         "id": "1865",
@@ -108,6 +129,15 @@ CARDS = [
         "nworks": 42,
         "bio": "<p>Depois de graduar-se bacharel em Violão pela Uni-Rio, passou a se dedicar ao estudo do clarinete e do saxofone, instrumentos com os quais vem se destacando como solista de choro nas rodas cariocas. É integrante do Sexteto Mauricio Carrilho e participou de gravações de discos como “Princípios do Choro”, “Choro Carioca, Música do Brasil”, entre outros. Na Escola Portátil, é responsável pelo ensino do clarinete.</p>",
         "encyclopedia": "Enciclopédia Ilustrada do Choro no Séc. XIX",
+    },
+    {
+        "id": "1999",
+        "name": "Wellington Duarte",
+        "inverted": "Duarte, Wellington Krepke",
+        "roles": ["Arranjador(a)", "Violonista de 6 e 7 cordas"],
+        "birth": "07.09.1939",
+        "birth_place": "Itajubá - MG",
+        "bio": '<p>Wellington Krepke Duarte, mineiro de Itajubá, nascido em 7 de setembro de 1939. Iniciou-se na música aos 7 anos, aprendendo a tocar pandeiro. Até os 17 anos, incompletos, foi seu único instrumento. Em decorrência de uma iniciativa fracassada de aprender cavaquinho - não conseguia mudar de um acorde para outro se seu professor não falasse: "primeira, segunda, preparação, terceira, segunda do relativo e assim por diante" - optou pelo violão. Aos poucos, seu ouvido foi-se educando quanto às variações harmônicas. Desenvolveu-se o necessário para integrar o Conjunto Acaiaca, em 1957, auxiliado pelo violonista e saxofonista tenor, Valdemar Ribeiro Filho e, também, por Paulo Pires, violonista da extinta Rádio Sociedade de Juiz de Fora - PRB-3. Em janeiro de 1959, mudou-se para o Rio de Janeiro para trabalhar no Banco Mineiro da Produção, até 1962, quando entrou para o Banco do Brasil, em junho, fixando-se em Pato Branco, no Paraná, até 1971. Nesse tempo, abandonou, quase por completo, seu instrumento. Não acompanhou a chegada e evolução da bossa-nova com sua harmonia caracterizada pelo uso de tétrades e dissonâncias. Em 1973, já vivendo em Curitiba, após um ano de estada em Guarapuava, cidades paranaenses, começou a tomar gosto novamente pela música, em especial, a bossa-nova e o jazz. Estudava, ou melhor, decorava, os álbuns de música do professor Bandeirante, do Rio Janeiro - Cifrolândia, Harmonilândia, etc. Em 1977, transfere-se para Brasília para trabalhar na área de concurso para ingresso no Banco do Brasil. No início de 1978, conhece Everaldo Pinheiro, de quem se torna aluno de violão, estudando harmonia funcional. Passa a frequentar as rodas de choro, junto com Odette Ernest Dias, Bide da flauta, Avena de Castro, Carlinhos (Bombril) 7 cordas, Alencar 7 cordas, Valério Xavier, Pinheirinho, Pinheirão 7 cordas, Américo, Tio Nilo, Hamilton Costa e muitos outros. Tornou-se chorão. Em 1986, a partir de outubro, desenvolvendo trabalho em São Paulo, Capital, torna-se aluno de violão de 7 cordas de Luiz Araújo Amorim, Luizinho-7. Regressou para Brasília em dezembro de 1987. Dessa data, até 1999, em Brasília, dedicou-se ao choro integralmente, havendo organizado, em 92/93, com Sérgio Prata, cavaquinho, Edgardo, violão, Pedro Barbosa, bandolim e Tonho, pandeiro, o conjunto Feitiço. Em agosto de 1999, transfere-se para Juiz de Fora, onde reside. Faz parte do Clube do Choro de Juiz de Fora, criou em 2001 a Oficina de Choro Sebastião Cyrino, espelhando-se na então nascente, Escola Portátil de Música. Durou 3 anos essa Oficina. Em 2007, ingressa na Escola Portátil, como aluno de violão de Maurício Carrilho. No primeiro semestre de 2008, estuda violão tenor com Pedro Amorim. É convidado para ser monitor da Roda de Choro da EPM, onde permanece.</p>',
     },
     {
         "id": "2006",
@@ -201,6 +231,18 @@ EXTRA_PERSONS = [
             "“editada por A. Di Franco”, with no record in the encyclopedia "
             "and without clarifying whether it is a person or a publishing "
             "house. The identification is provisional."
+        ),
+    },
+    {
+        "id": "salvador-moraes",
+        "name": "Salvador Moraes",
+        "inverted": "Moraes, Salvador",
+        "roles": ["Letrista"],
+        "bio": "",
+        "note": (
+            "The acervo records the lyrics of “Aurora” as “Letra de Salvador "
+            "Moraes.”, with no record in the encyclopedia. The "
+            "identification is provisional."
         ),
     },
 ]
@@ -409,6 +451,48 @@ WORKS = [
             },
         ],
     },
+    {
+        "id": "29",
+        "title": "Aurora",
+        "fields": {"Gênero": ["Valsa Sentimental"], "Compasso": ["3/4"]},
+        "composers": [{"card": "6", "name": "Zequinha de Abreu"}],
+        "scores": [
+            {
+                "index": 0,
+                "type": "Partitura piano e letra",
+                "pdf": None,
+                "details": {
+                    "Cópia": ["editada por Irmãos Vitale"],
+                    "Letra": ["Letra de Salvador Moraes."],
+                    "Instrumentação": ["canto", "piano"],
+                },
+                "editorada": False,
+                "restriction": (
+                    "Visualização e consulta não autorizadas pela editora. "
+                    "Disponível somente na Casa do Choro."
+                ),
+            },
+            {
+                "index": 1,
+                "type": "Partitura melodia",
+                "pdf": "score_10932",
+                "details": {"Cópia": ["manuscrita"]},
+                "editorada": False,
+                "restriction": None,
+            },
+            {
+                "index": 2,
+                "type": "Partitura melodia e cifra",
+                "pdf": "score_14100",
+                "details": {
+                    "Arranjo": ["Wellington Duarte"],
+                    "Cópia": ["editorada Casa do Choro"],
+                },
+                "editorada": True,
+                "restriction": None,
+            },
+        ],
+    },
 ]
 
 
@@ -463,6 +547,20 @@ PLACES = [
         "country": "Brazil",
     },
     {
+        "key": "Santa Rita do Passa Quatro",
+        "name": "Santa Rita do Passa Quatro",
+        "geonames": "3449851",
+        "description": "Santa Rita do Passa Quatro - SP, Brazil.",
+        "country": "Brazil",
+    },
+    {
+        "key": "Itajubá",
+        "name": "Itajubá",
+        "geonames": "6321455",
+        "description": "Itajubá - MG, Brazil.",
+        "country": "Brazil",
+    },
+    {
         "key": "Brazil",
         "name": "Brazil",
         "geonames": "3469034",
@@ -493,6 +591,39 @@ INSTITUTIONS = [
             "Janeiro. It keeps the digitised collection of scores published in "
             "this dataset and is responsible for the editions that bear its "
             "name. Contact: +55 21 2242-9947 / contato@casadochoro.com.br"
+        ),
+    },
+    {
+        "key": "Irmãos Vitale",
+        "name": "Irmãos Vitale",
+        "address": (
+            "Rua Visc. de Pirajá, 82 - 1201 - Ipanema - Rio de Janeiro - RJ, "
+            "22410-904, Brazil"
+        ),
+        "location": "Rio de Janeiro",
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q118906848",
+            "https://viaf.org/viaf/49159939597125252802",
+            "https://id.loc.gov/authorities/names/n85106094",
+            "https://edicoes.vitale.com.br/contato",
+        ],
+        "founding_date": "1923-11-01",
+        "founding_description": (
+            "November 1923; the day of the month is not documented."
+        ),
+        "description": (
+            "The Brazilian music publishing house Irmãos Vitale (Irmãos Vitale "
+            "Editores Ltda.), founded in November 1923 by the brothers Emílio, "
+            "Vicente, Affonso, João and José Vitale, specialised in the "
+            "publication and distribution of scores, books and other music "
+            "material.  It published works by Zequinha de Abreu, Pixinguinha, "
+            "Cartola, Ary Barroso, Ernesto Nazareth and Chiquinha Gonzaga, "
+            "among many others, and was one of the first publishers of "
+            "Brazilian popular music scores.  It has offices in Rio de "
+            "Janeiro (Rua Visc. de Pirajá, 82 - Ipanema) and in São Paulo "
+            "(Rua Raposo Tavares, 85 - Jd. das Acácias).  The identification "
+            "of the house comes from its own site and from Wikidata; the "
+            "acervo names it only in the field “Cópia” of the scores."
         ),
     },
 ]
@@ -603,6 +734,7 @@ ALTERNATE_NAMES = {
     "1236": ["Marcelo Tupinambá"],
     "2326": ["Miguel Rabello", "Miguel Rabello Bastos"],
     "170": ["Berredo"],
+    "6": ["José Gomes de Abreu"],
 }
 
 
@@ -621,6 +753,8 @@ ALIASES = {
     "baptista junior": "baptista-junior",
     "gerson ferreira pinto": "gerson-ferreira-pinto",
     "berredo": "170",
+    "salvador moraes": "salvador-moraes",
+    "wellington duarte": "1999",
 }
 
 

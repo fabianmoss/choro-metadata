@@ -1,3 +1,6 @@
+<urn:uuid:institutions/1332881481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1332881481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Irmãos Vitale" .
+<urn:uuid:institutions/1332881481> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:institutions/1447117359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1447117359> <http://www.w3.org/2004/02/skos/core#broader> "Organization" .
 <urn:uuid:institutions/1447117359> <http://www.w3.org/2004/02/skos/core#prefLabel> "D-F (Universitätsbibliothek Johann Christian Senckenberg)" .

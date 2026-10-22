@@ -1,0 +1,26 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1594724870> a melod:Person, melod:PersonEntity;
+    schema:familyName "Abreu";
+    schema:givenName "José Gomes";
+    schema:alternateName "Zequinha de Abreu", "José Gomes de Abreu";
+    schema:gender "male";
+    schema:birthDate "1880-09-19"^^xsd:date;
+    schema:deathDate "1935-01-22"^^xsd:date;
+    schema:birthPlace <urn:uuid:places/1470636000>;
+    schema:hasOccupation "Compositor", "Pianista", "Regente";
+    schema:description "<p>Estudou na escola de São Simão, cidade vizinha a Santa Rita do Passa Quatro (SP), onde começou a aprender música com o professor Dionísio Machado. Aos dez anos, transferiu-se para o Colégio São Luís, em Itu, onde ingressou no conjunto de um parente, José de Abreu, tocando ocarina, além de estudar harmonia com José Basílio durante três anos. Em 1894, aos 14 anos, entrou para o Seminário Episcopal em São Paulo, pois o desejo de sua mãe, D. Justina Gomes Leitão de Abreu, era que se tornasse padre. No seminário continuou aperfeiçoando-se em música, estudando harmonia com José Pinto Tavares e com o padre Juvenal Kelly. Dois anos depois resolveu fugir do seminário, retornando à sua cidade natal, onde passou a trabalhar na farmácia do pai, José Alacrino de Abreu. Começou a compor valsas, choros, tangos e maxixes e organizou conjuntos musicais como a Lira Santarritense e a Orquestra Smart (do cinema do mesmo nome) que passaram a animar as festas das redondezas. Conheceu nesta época a professora Durvalina Brasil, sua futura mulher, com quem teria oito filhos. Em 1917 compôs a sua obra-prima,&nbsp;Tico-Tico no Farelo, mais tarde&nbsp;Tico-Tico no Fubá, que seria gravada por inúmeros intérpretes e, divulgada por Carmen Miranda nos EUA, tornaria-se uma das músicas brasileiras mais gravadas em todo mundo. A valsa&nbsp;Branca, outro clássico, também foi composta neste período. Na década de 1920, com a morte do pai, estabeleceu-se com a família em São Paulo, empregando-se como pianista na Casa Beethoven, além de tocar em festas, dancings e cabarés. Compôs o choro&nbsp;Sururu na Cidade&nbsp;por ocasião da revolução de 1922, alcançando enorme sucesso. No início da década de 1930, poucos anos antes de falecer, assistiu à gravação de dezenas de músicas de sua autoria pelas principais orquestras populares do país, entre as quais a Orquestra Típica Victor, Orquestra Colbaz e Orquestra Pan American do Cassino Copacabana. Outros sucessos de Zequinha de Abreu, as valsas&nbsp;Aurora,&nbsp;Elza,&nbsp;Tardes em Lindóia, os choros&nbsp;Pintinhos no Terreiro&nbsp;e&nbsp;Não Me Toques&nbsp;foram registrados por grandes intérpretes da música popular brasileira como Luís Americano, José Rielli, Antenógenes Silva, Orlando Silveira, Altamiro Carrilho e sua Bandinha, Avena de Castro e Jacob do Bandolim.</p>\n\n<p>&nbsp;</p>\n\n<p>The civil name recorded by Wikidata (Q167752) is “José Gomes de Abreu”; it is registered as an alternate name.  The same source gives São Paulo as the place of death.</p>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/6>, <https://www.wikidata.org/wiki/Q167752>;
+    dct:conformsTo melod:Person.

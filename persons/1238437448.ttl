@@ -1,0 +1,25 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:persons/1238437448> a melod:Person, melod:PersonEntity;
+    schema:familyName "Duarte";
+    schema:givenName "Wellington Krepke";
+    schema:alternateName "Wellington Duarte";
+    schema:gender "male";
+    schema:birthDate "1939-09-07"^^xsd:date;
+    schema:birthPlace <urn:uuid:places/1887901804>;
+    schema:hasOccupation "Arranjador(a)", "Violonista de 6 e 7 cordas";
+    schema:description "<p>Wellington Krepke Duarte, mineiro de Itajubá, nascido em 7 de setembro de 1939. Iniciou-se na música aos 7 anos, aprendendo a tocar pandeiro. Até os 17 anos, incompletos, foi seu único instrumento. Em decorrência de uma iniciativa fracassada de aprender cavaquinho - não conseguia mudar de um acorde para outro se seu professor não falasse: \"primeira, segunda, preparação, terceira, segunda do relativo e assim por diante\" - optou pelo violão. Aos poucos, seu ouvido foi-se educando quanto às variações harmônicas. Desenvolveu-se o necessário para integrar o Conjunto Acaiaca, em 1957, auxiliado pelo violonista e saxofonista tenor, Valdemar Ribeiro Filho e, também, por Paulo Pires, violonista da extinta Rádio Sociedade de Juiz de Fora - PRB-3. Em janeiro de 1959, mudou-se para o Rio de Janeiro para trabalhar no Banco Mineiro da Produção, até 1962, quando entrou para o Banco do Brasil, em junho, fixando-se em Pato Branco, no Paraná, até 1971. Nesse tempo, abandonou, quase por completo, seu instrumento. Não acompanhou a chegada e evolução da bossa-nova com sua harmonia caracterizada pelo uso de tétrades e dissonâncias. Em 1973, já vivendo em Curitiba, após um ano de estada em Guarapuava, cidades paranaenses, começou a tomar gosto novamente pela música, em especial, a bossa-nova e o jazz. Estudava, ou melhor, decorava, os álbuns de música do professor Bandeirante, do Rio Janeiro - Cifrolândia, Harmonilândia, etc. Em 1977, transfere-se para Brasília para trabalhar na área de concurso para ingresso no Banco do Brasil. No início de 1978, conhece Everaldo Pinheiro, de quem se torna aluno de violão, estudando harmonia funcional. Passa a frequentar as rodas de choro, junto com Odette Ernest Dias, Bide da flauta, Avena de Castro, Carlinhos (Bombril) 7 cordas, Alencar 7 cordas, Valério Xavier, Pinheirinho, Pinheirão 7 cordas, Américo, Tio Nilo, Hamilton Costa e muitos outros. Tornou-se chorão. Em 1986, a partir de outubro, desenvolvendo trabalho em São Paulo, Capital, torna-se aluno de violão de 7 cordas de Luiz Araújo Amorim, Luizinho-7. Regressou para Brasília em dezembro de 1987. Dessa data, até 1999, em Brasília, dedicou-se ao choro integralmente, havendo organizado, em 92/93, com Sérgio Prata, cavaquinho, Edgardo, violão, Pedro Barbosa, bandolim e Tonho, pandeiro, o conjunto Feitiço. Em agosto de 1999, transfere-se para Juiz de Fora, onde reside. Faz parte do Clube do Choro de Juiz de Fora, criou em 2001 a Oficina de Choro Sebastião Cyrino, espelhando-se na então nascente, Escola Portátil de Música. Durou 3 anos essa Oficina. Em 2007, ingressa na Escola Portátil, como aluno de violão de Maurício Carrilho. No primeiro semestre de 2008, estuda violão tenor com Pedro Amorim. É convidado para ser monitor da Roda de Choro da EPM, onde permanece.</p>";
+    owl:sameAs <https://acervo.casadochoro.com.br/cards/view/1999>;
+    dct:conformsTo melod:Person.
