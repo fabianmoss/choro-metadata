@@ -2,3 +2,4 @@ public/
 .gitlab-ci-local
 node_modules/
 __pycache__/
+.cache/
