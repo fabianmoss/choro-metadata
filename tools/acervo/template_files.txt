@@ -1,0 +1,47 @@
+# Documents of the upstream MerMEId MeLODy template.
+#
+# The bulk ingestion writes one file per entity into the folders below.  These
+# files come from the template itself and are never generated: the ingestion
+# must not delete them when it prunes the documents of a previous run.
+#
+# One path per line, relative to the repository root.
+bibliography/2624363417.ttl
+bibliography/268258228.ttl
+bibliography/382681371.ttl
+expressions/1100659433.ttl
+expressions/1298183696.ttl
+expressions/1921829629.ttl
+expressions/2092075796.ttl
+expressions/2277979240.ttl
+expressions/2293419636.ttl
+expressions/2372423187.ttl
+expressions/2824638156.ttl
+expressions/4054568812.ttl
+expressions/926630544.ttl
+institutions/1447117359.ttl
+institutions/484401742.ttl
+institutions/901685163.ttl
+instrumentations/1134679629.ttl
+instrumentations/204336523.ttl
+instrumentations/3896901877.ttl
+items/244351973.ttl
+items/2594093619.ttl
+manifestations/1920521013.ttl
+manifestations/3043558560.ttl
+manifestations/893513144.ttl
+persons/1510488037.ttl
+persons/180681546.ttl
+persons/2108317331.ttl
+persons/2736609098.ttl
+persons/3073066331.ttl
+persons/4202043203.ttl
+places/2023822932.ttl
+places/2096486337.ttl
+places/2884711907.ttl
+works/1031334055.ttl
+works/555068543.ttl
+venues/3689561562.ttl
+performanceEvents/1412123009.ttl
+performanceEvents/3395291370.ttl
+performanceEvents/4019778394.ttl
+performanceEvents/603545879.ttl

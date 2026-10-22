@@ -44,7 +44,12 @@ def append_record(path: str, record: dict) -> None:
 
 
 def collected_ids(path: str) -> set[str]:
-    """Ids already in the file — the harvest resumes from there."""
+    """Ids already in the file — the harvest resumes from there.
+
+    A record that failed is **not** counted as collected: the next run
+    retries it, and the successful record replaces the error in the
+    ingestion.
+    """
     collected: set[str] = set()
     if not os.path.exists(path):
         return collected
@@ -54,9 +59,12 @@ def collected_ids(path: str) -> set[str]:
             if not line:
                 continue
             try:
-                collected.add(str(json.loads(line).get("id")))
+                record = json.loads(line)
             except json.JSONDecodeError:
                 continue
+            if record.get("error"):
+                continue
+            collected.add(str(record.get("id")))
     return collected
 
 

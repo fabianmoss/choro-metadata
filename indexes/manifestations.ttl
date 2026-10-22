@@ -2,6 +2,9 @@
 <urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (edition by A. Di Franco)" .
 <urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1759871472> .
 <urn:uuid:manifestations/1087671266> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1635252664> .
+<urn:uuid:manifestations/1113841861> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1113841861> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1113841861> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1405567821> .
 <urn:uuid:manifestations/1192893173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1192893173> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1764822542> .
@@ -18,6 +21,14 @@
 <urn:uuid:manifestations/1259923159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1259923159> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1259923159> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1079245796> .
+<urn:uuid:manifestations/1286381543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1286381543> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura cifrada" .
+<urn:uuid:manifestations/1286381543> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
+<urn:uuid:manifestations/1298543724> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1298543724> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia e harmonia (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1298543724> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1505072985> .
+<urn:uuid:manifestations/1298543724> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1298543724> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1407704655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1407704655> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332812348> .
@@ -33,23 +44,63 @@
 <urn:uuid:manifestations/1439602877> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1079245796> .
 <urn:uuid:manifestations/1439602877> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
 <urn:uuid:manifestations/1439602877> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1439962912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1439962912> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e harmonia (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1439962912> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
+<urn:uuid:manifestations/1439962912> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1439962912> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1470936578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1470936578> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1470936578> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1896939585> .
+<urn:uuid:manifestations/1537137521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1537137521> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura piano e letra (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1537137521> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1505072985> .
+<urn:uuid:manifestations/1537137521> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1537137521> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1567217597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1567217597> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1567217597> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1711995158> .
 <urn:uuid:manifestations/1615454429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1615454429> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia (printed edition)" .
 <urn:uuid:manifestations/1615454429> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1298961074> .
+<urn:uuid:manifestations/1682765419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1682765419> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1682765419> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1534990820> .
+<urn:uuid:manifestations/1682765419> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1682765419> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1684106958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1684106958> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1684106958> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1433360455> .
+<urn:uuid:manifestations/1709093876> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1709093876> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e cifra (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1709093876> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
+<urn:uuid:manifestations/1709093876> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1709093876> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1727759283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1727759283> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e letra (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1727759283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
+<urn:uuid:manifestations/1727759283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1727759283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1815660023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1815660023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1815660023> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1702376576> .
 <urn:uuid:manifestations/1815660023> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1815660023> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1839402590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1839402590> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1839402590> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1505072985> .
+<urn:uuid:manifestations/1839402590> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1839402590> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1841556720> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1841556720> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1841556720> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1662828343> .
+<urn:uuid:manifestations/1841556720> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1841556720> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1854126665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1854126665> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura arranjo (edition Irmãos Vitale)" .
+<urn:uuid:manifestations/1854126665> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
+<urn:uuid:manifestations/1854126665> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1332881481> .
+<urn:uuid:manifestations/1854126665> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1920521013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1920521013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Musicalisches Lob Gottes (Nürnberg 1742-1744)" .
 <urn:uuid:manifestations/1920521013> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/2293419636> .

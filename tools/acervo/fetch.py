@@ -29,6 +29,7 @@ import json
 import os
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -79,11 +80,14 @@ def _cache_path(url: str) -> str:
     return os.path.join(CACHE_DIR, f"{digest}.html")
 
 
-def get(url: str, timeout: int = 60, cache: bool = True) -> str:
+def get(url: str, timeout: int = 60, cache: bool = True,
+        attempts: int = 3) -> str:
     """Downloads a page and returns the decoded HTML.
 
     The HTML is cached on disk (``ACERVO_CACHE``): an interrupted harvest
-    resumes without repeating the requests already made.
+    resumes without repeating the requests already made.  A transient
+    network error is retried a few times with a growing pause; a 4xx answer
+    is not retried.
     """
     path = _cache_path(url)
     if cache and os.path.exists(path):
@@ -91,8 +95,21 @@ def get(url: str, timeout: int = 60, cache: bool = True) -> str:
             return handle.read()
 
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        body = response.read().decode("utf-8", "replace")
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                body = response.read().decode("utf-8", "replace")
+            break
+        except urllib.error.HTTPError as error:
+            if error.code < 500:
+                raise
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2 ** attempt)
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2 ** attempt)
 
     if cache:
         os.makedirs(CACHE_DIR, exist_ok=True)
@@ -412,6 +429,8 @@ COPY_PATTERNS = [
     #  groups, the others are literals)
     (re.compile(r"^manuscrita\s*-\s*Obtida do Sr\.\s*(.+?)\s*\((?:arquivo de|acervo de)\s*(.+?)\)\s*$", re.I),
      {"kind": "manuscript", "former_owner": 1, "donor": 2}),
+    (re.compile(r"^c[oó]pia\s+de\s+(.+?)(?:\s*\([^)]*\))?\s*$", re.I),
+     {"kind": "manuscript", "copyist": 1}),
     (re.compile(r"^manuscrita\s+por\s+(.+)$", re.I),
      {"kind": "manuscript", "copyist": 1}),
     (re.compile(r"^manuscrita\s*$", re.I),

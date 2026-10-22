@@ -15,7 +15,7 @@
 <urn:uuid:persons/1168168328> a melod:Person;
     schema:familyName "Souto";
     schema:givenName "Maria";
-    schema:gender "male";
+    schema:gender "female";
     schema:birthPlace <urn:uuid:places/1800036311>;
     schema:hasOccupation "Flautista";
     schema:description "<p>Aguardando dados biográficos.</p>";

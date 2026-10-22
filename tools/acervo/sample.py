@@ -107,6 +107,9 @@ def place_key(value: str) -> str | None:
     text = (value or "").strip()
     if not text:
         return None
+    match = re.match(r"^(.*?)\s*[-–]\s*([A-Z]{2})\s*$", text)
+    if match:
+        return match.group(1).strip()
     if " - " in text:
         return text.split(" - ", 1)[0].strip()
     return text
@@ -253,10 +256,11 @@ class Builder:
             graph.add(iri, "schema:givenName", Literal(given))
         for name in self.alternate_names(person, family, given):
             graph.add(iri, "schema:alternateName", Literal(name))
-        # The acervo records no gender; the model admits only three values.
-        # All the agents catalogued here are men, which follows from the
-        # given names — the decision is documented in docs/acervo-model.md.
-        graph.add(iri, "schema:gender", Literal("male"))
+        # The acervo records no gender.  The model admits only three values,
+        # so it is only asserted for the records that carry it explicitly;
+        # the bulk ingestion does not guess it.
+        if person.get("gender"):
+            graph.add(iri, "schema:gender", Literal(person["gender"]))
         for field, predicate in (("birth", "schema:birthDate"),
                                  ("death", "schema:deathDate")):
             value = parse_date(person.get(field, ""))
@@ -265,7 +269,7 @@ class Builder:
         place = place_key(person.get("birth_place"))
         if place and place in self.place_keys:
             graph.add(iri, "schema:birthPlace", IRI(ids.place(place)))
-        for occupation in person.get("roles", []):
+        for occupation in person.get("roles") or []:
             graph.add(iri, "schema:hasOccupation", Literal(occupation))
         description = self.person_description(person)
         if description:
@@ -283,13 +287,13 @@ class Builder:
         display = person.get("name")
         if display and normalize(display) != full:
             names.append(display)
-        for name in person.get("alternate", []):
+        for name in person.get("alternate") or []:
             if normalize(name) not in {normalize(n) for n in names}:
                 names.append(name)
         return names
 
     def person_description(self, person: dict) -> str:
-        parts = [person.get("bio", "").strip()]
+        parts = [(person.get("bio") or "").strip()]
         sources = [s for s in (person.get("sources") or "").split("\n") if s.strip()]
         if sources:
             parts.append(
@@ -401,6 +405,10 @@ class Builder:
                       Literal(str(position), datatype=XSD + "integer"))
             graph.add(detail, "schema:description", Literal(name))
             term = self.instrument_terms.get(normalize(name))
+            if not term:
+                # numbered parts ("Flauta 1", "Violino 2") use the term of
+                # the instrument itself
+                term = self.instrument_terms.get(re.sub(r"\s+\d+$", "", normalize(name)))
             if term:
                 graph.add(detail, "mus:U2_foresees_use_of_medium_of_performance",
                           Prefixed(term[0]))
@@ -656,7 +664,7 @@ class WorkBuilder:
             if key:
                 graph.add(iri, "melod:hasContribution", self.contribution(
                     graph, self.people.iri(key), "terms:Librettist",
-                    "terms:MediumCertainty", f"{iri}#lyricist"))
+                    "terms:MediumCertainty", f"{iri}#lyricist{score['index']}"))
 
         graph.add(iri, "dct:conformsTo", Prefixed("melod:Expression"))
         self.builder.write("expressions", iri, graph)

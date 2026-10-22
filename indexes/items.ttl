@@ -24,15 +24,35 @@
 <urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia (score_10932)" .
 <urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1161387869> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1259923159> .
+<urn:uuid:items/1178331223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1178331223> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia e harmonia (no digitisation)" .
+<urn:uuid:items/1178331223> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1178331223> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1298543724> .
+<urn:uuid:items/1200945494> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1200945494> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia e cifra (score_14095)" .
+<urn:uuid:items/1200945494> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1200945494> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1841556720> .
+<urn:uuid:items/1279208051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1279208051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e cifra (no digitisation)" .
+<urn:uuid:items/1279208051> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1279208051> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1709093876> .
 <urn:uuid:items/1337800973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_826)" .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
 <urn:uuid:items/1337800973> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1063044915> .
+<urn:uuid:items/1350030982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1350030982> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e harmonia (no digitisation)" .
+<urn:uuid:items/1350030982> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1350030982> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1439962912> .
 <urn:uuid:items/1409746001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura piano e letra (no digitisation)" .
 <urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1409746001> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1439602877> .
+<urn:uuid:items/1440687243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1440687243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e letra (no digitisation)" .
+<urn:uuid:items/1440687243> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1440687243> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1727759283> .
 <urn:uuid:items/1494256413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti — Partitura arranjo com letra para pequena orquestra (score_5588)" .
 <urn:uuid:items/1494256413> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
@@ -41,14 +61,48 @@
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saudade de São João do Príncipe — Partitura melodia (score_1730)" .
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1470936578> .
+<urn:uuid:items/1626742527> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1372428005> .
+<urn:uuid:items/1639943884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1639943884> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura piano e letra (no digitisation)" .
+<urn:uuid:items/1639943884> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1639943884> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1537137521> .
 <urn:uuid:items/1642068652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora — Partitura melodia e cifra (score_14100)" .
 <urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1642068652> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1815660023> .
+<urn:uuid:items/1664346873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1664346873> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (score_4045)" .
+<urn:uuid:items/1664346873> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1664346873> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1113841861> .
 <urn:uuid:items/1668786263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amarga saudade — Partitura melodia e cifra (no digitisation)" .
 <urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1668786263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1415549562> .
+<urn:uuid:items/1680269372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1680269372> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (score_4046)" .
+<urn:uuid:items/1680269372> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1680269372> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1113841861> .
+<urn:uuid:items/1685621847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1685621847> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (score_4048)" .
+<urn:uuid:items/1685621847> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1685621847> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1113841861> .
+<urn:uuid:items/1686787679> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1686787679> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e cifra (score_14168)" .
+<urn:uuid:items/1686787679> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1686787679> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1682765419> .
+<urn:uuid:items/1709052251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1709052251> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura cifrada (score_67)" .
+<urn:uuid:items/1709052251> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1709052251> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1286381543> .
+<urn:uuid:items/1734458885> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1734458885> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (score_4047)" .
+<urn:uuid:items/1734458885> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1734458885> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1113841861> .
+<urn:uuid:items/1734458885> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1265511671> .
+<urn:uuid:items/1750250850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1750250850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura arranjo (no digitisation)" .
+<urn:uuid:items/1750250850> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1750250850> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1854126665> .
 <urn:uuid:items/1754302455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1754302455> <http://www.w3.org/2004/02/skos/core#prefLabel> "A baianinha — Partitura melodia (score_825)" .
 <urn:uuid:items/1754302455> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
@@ -58,6 +112,18 @@
 <urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1567217597> .
 <urn:uuid:items/1756136220> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1063044915> .
+<urn:uuid:items/1797945516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1797945516> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos — Partitura melodia (score_4044)" .
+<urn:uuid:items/1797945516> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1797945516> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1113841861> .
+<urn:uuid:items/1802885874> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1802885874> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e letra (no digitisation)" .
+<urn:uuid:items/1802885874> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1802885874> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1727759283> .
+<urn:uuid:items/1807104225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
+<urn:uuid:items/1807104225> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar — Partitura melodia (no digitisation)" .
+<urn:uuid:items/1807104225> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:items/1807104225> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:manifestations/1839402590> .
 <urn:uuid:items/1842598478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ItemEntity> .
 <urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece — Partitura melodia e cifra (score_9886)" .
 <urn:uuid:items/1842598478> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .

@@ -101,9 +101,10 @@ the validator loads all the files into a single graph.
 ### 4.1 Gender
 
 The acervo records no gender for the people.  The model admits only `female`,
-`male` and `diverse`.  The agents catalogued so far are all men, which
-follows from the given names; the value `male` was assigned on that basis.
-It is an inference, not a datum of the acervo.
+`male` and `diverse`.  The property is asserted only when it is known from the
+curated records — Maria Souto is recorded as a woman, the other people of the
+sample as men.  The bulk ingestion leaves it out rather than guessing it from
+names.  The values of the sample are an inference, not a datum of the acervo.
 
 ### 4.2 Names
 
@@ -184,6 +185,12 @@ authority files — Wikidata, VIAF and the Library of Congress for Irmãos
 Vitale.  The description states where the identification comes from, since
 the acervo names the house only in the free-text field.
 
+In the bulk ingestion, a name in `editada por` / `editorada` that matches no
+person becomes an Institution created from the name alone: the field usually
+names a publishing house, and the edition must not lose its publisher.  These
+institutions have no place of publication and no external reference, and they
+are listed in the issue report (§ 6) for later enrichment.
+
 ### 4.7 Score without digitisation
 
 “Amarga saudade” and “Aurora” have scores whose PDF is not published: the
@@ -209,6 +216,14 @@ The acervo mentions some people only in free-text fields:
 | Gerson Ferreira Pinto   | “arquivo de Gerson Ferreira Pinto”    | person with `owl:sameAs` to Wikidata (Q20048060) |
 | A. Di Franco            | “editada por A. Di Franco”            | person with a provisional identification — the acervo does not say whether it is a person or a publishing house |
 | Salvador Moraes         | “Letra de Salvador Moraes.”            | person with a provisional identification noted in the description |
+
+The bulk ingestion extends this treatment to every free name it cannot
+resolve against a person record: the name becomes a provisional Person, with
+the IRI derived from the normalised name (`urn:uuid:persons/<hash>`) rather
+than from a card, and the role and the work where the name appears are noted
+in the description and in the issue report (§ 6).  A later harvest may bring
+the record of the person: the next run then resolves the name to that record
+and drops the provisional entity.
 
 ### 4.10 Homonymous records
 
@@ -271,7 +286,7 @@ satisfied because the editor validates a document against a store that
 contains the shapes, their `owl:imports` (the melod terms) and the `indexes/`
 folder of the repository; `tests/validation.js` mirrors that composition.
 A consequence for the workflow: after changing entity documents, regenerate
-the indexes (§ 7), otherwise the shapes cannot see the type of a referenced
+the indexes (§ 8), otherwise the shapes cannot see the type of a referenced
 entity.
 
 ### 4.13 Date spans
@@ -318,7 +333,40 @@ After the corrections, `npm test` passes on the 122 files of the repository,
 with no violation at all.  The test also checks the editor's type contract of
 § 4.12, so a document with a second entity type fails the build.
 
-## 6. What is missing
+## 6. Bulk ingestion
+
+`tools/acervo/harvest.py` harvests the whole acervo into
+`.cache/acervo/works.jsonl` and `cards.jsonl`; `tools/acervo/ingest.py` maps
+those records to entities and writes the files into the same folders as the
+curated sample.  The harvest is resumable and the ingestion can be re-run at
+any time: it rewrites the same files deterministically and extends the set as
+the harvest grows.
+
+```bash
+python3 -m tools.acervo.harvest listing   # the ids of works and persons
+python3 -m tools.acervo.harvest works     # the work records
+python3 -m tools.acervo.harvest cards     # the person records
+python3 -m tools.acervo.ingest --out .    # entities + report
+```
+
+Only the works with at least one digitised *Partitura* are modelled; the
+records of the curated sample are kept even when they have no digitisation
+(§ 4.7).  Every free name — copyist, arranger, lyricist, former owner, donor —
+is resolved against the person records of the acervo.  A name with no record
+becomes a provisional Person whose IRI is derived from the normalised name;
+the identification is noted in the description of the person and in the
+report.  The places are derived from the `"Cidade - UF"` field (§ 4.3), the
+publishing houses from the `"Cópia"` field (§ 4.6), and each instrumentation
+from the list of instruments of the score.
+
+The report is written to `docs/acervo-ingest-issues.md` (summary) and
+`docs/acervo-ingest-issues.csv` (one row per problem).  It records, among
+other things, harvest failures, records skipped for lack of digitisation,
+provisional persons, unstructured values of `"Cópia"`, dates the model cannot
+parse, places without a country or without a GeoNames identifier, and
+instruments without a controlled term.  A problem never stops the ingestion.
+
+## 7. What is missing
 
 * **Date of composition.**  The acervo does not show the date on the record
   of the work, although the search by period works.  The works of the acervo
@@ -332,7 +380,7 @@ with no violation at all.  The test also checks the editor's type contract of
 * **Performance events.**  The sample has no documented performances — the
   acervo does not publish them for the catalogued works.
 
-## 7. How to regenerate
+## 8. How to regenerate
 
 ```bash
 # the sample, written into the entity folders of the repository
@@ -354,12 +402,13 @@ locally, with `rdflib`.  The CI publishes the result in `public/datasets/`
 `configuration/config.json`); `indexes/` keeps a versioned copy of the same
 content.
 
-`tools/acervo/` contains six modules:
+`tools/acervo/` contains seven modules:
 
 | file             | function |
 |------------------|----------|
 | `fetch.py`       | harvests the records of the acervo and returns verbatim dictionaries |
 | `harvest.py`     | drives the full, resumable harvest into JSONL files |
+| `ingest.py`      | maps the harvested records to entities and writes the issue report |
 | `ids.py`         | derives the deterministic IRIs |
 | `ttl.py`         | minimal deterministic Turtle writer |
 | `sample_data.py` | the transcribed sample and the decisions that are not automatic |

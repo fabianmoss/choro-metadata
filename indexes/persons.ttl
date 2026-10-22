@@ -12,6 +12,10 @@
 <urn:uuid:persons/1182012213> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lobo, Fernando Álvares" .
 <urn:uuid:persons/1238437448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1238437448> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duarte, Wellington Krepke" .
+<urn:uuid:persons/1265036441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1265036441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anna Paes" .
+<urn:uuid:persons/1265511671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1265511671> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mário Peixoto" .
 <urn:uuid:persons/1331846641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1331846641> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paes, Pedro" .
 <urn:uuid:persons/1372428005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -22,6 +26,8 @@
 <urn:uuid:persons/1510488037> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poelchau, Georg" .
 <urn:uuid:persons/1520822417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1520822417> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bacellar, P. de Alcântara" .
+<urn:uuid:persons/1585893179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1585893179> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eurico Barreiros" .
 <urn:uuid:persons/1589418829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1589418829> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pinto, Gerson Ferreira" .
 <urn:uuid:persons/1594724870> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -34,10 +40,14 @@
 <urn:uuid:persons/1659770910> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moraes, Salvador" .
 <urn:uuid:persons/1774983067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1774983067> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aragão, Paulo" .
+<urn:uuid:persons/1776520380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1776520380> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castello Netto" .
 <urn:uuid:persons/1785280868> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1785280868> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rabello, Miguel" .
 <urn:uuid:persons/180681546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/180681546> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunes, Alfredo" .
+<urn:uuid:persons/1881306446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1881306446> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dr. Eurico Barreiro" .
 <urn:uuid:persons/2108317331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/2108317331> <http://www.w3.org/2004/02/skos/core#prefLabel> "Telemann, Georg Michael" .
 <urn:uuid:persons/2736609098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .

@@ -12,6 +12,15 @@
 This is the template repository, which can be used to create a new data repository to edit your own data in the [MerMEId MeLODy Editor](https://music-metadata-tools.github.io/MerMEId-MeLODy/).
 It contains some example Turtle files and a datasets generator to create the indexes for the dropdown menus and search indexes, which are loaded in the editor.
 
+## Harvesting the acervo
+
+The archive is harvested in full by the resumable tools in `tools/acervo/`
+and mapped to the FRBR entities by the bulk ingestion.  The commands and the
+decisions are described in § 6 of
+[docs/acervo-model.md](docs/acervo-model.md); the problems found while
+mapping the archive are reported, without stopping the ingestion, in
+[docs/acervo-ingest-issues.md](docs/acervo-ingest-issues.md).
+
 To configure this repository, you need to activate the GitHub Pages and modify the configuration.
 
 

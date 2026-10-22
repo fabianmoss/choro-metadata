@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1727759283> a melod:Manifestation;
+    melod:hasTitle _:b81f0e05d-5ed1-b26b-f8a9-9605553da707;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
+    melod:hasContribution _:b84d4bed7-bc31-7817-5f88-a7b2aa43bc80;
+    schema:publication _:b2f3e729c-d729-31ab-821b-5df6128bd92b;
+    dct:conformsTo melod:Manifestation.
+
+_:b81f0e05d-5ed1-b26b-f8a9-9605553da707 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura melodia e letra (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b84d4bed7-bc31-7817-5f88-a7b2aa43bc80 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b2f3e729c-d729-31ab-821b-5df6128bd92b a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

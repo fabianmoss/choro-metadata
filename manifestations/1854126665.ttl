@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1854126665> a melod:Manifestation;
+    melod:hasTitle _:bd745b310-c7cf-90e7-0ff5-d781369abf97;
+    lrmoo:R4_embodies <urn:uuid:expressions/1389952506>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:b7fb1751d-19b5-c910-3740-dfb44b595828;
+    schema:publication _:b0cd86f62-ae57-50be-1f3b-fe56203c23f2;
+    dct:conformsTo melod:Manifestation.
+
+_:bd745b310-c7cf-90e7-0ff5-d781369abf97 a melod:Title;
+    rdfs:label "Tico-tico no fubá — Partitura arranjo (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b7fb1751d-19b5-c910-3740-dfb44b595828 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b0cd86f62-ae57-50be-1f3b-fe56203c23f2 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

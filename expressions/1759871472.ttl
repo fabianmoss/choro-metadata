@@ -18,7 +18,7 @@
     melod:inLanguage terms:Portuguese;
     melod:hasMeter _:b75afdfcd-1b8b-0a72-029b-d5ddde64e8c1;
     melod:hasInstrumentation <urn:uuid:instrumentations/1089271045>;
-    melod:hasContribution _:bb2b4c1fd-33ed-3068-d239-5b8906d72035;
+    melod:hasContribution _:bdc1f260d-1851-4fb7-5528-7431e6b2a817;
     dct:conformsTo melod:Expression.
 
 _:b75afdfcd-1b8b-0a72-029b-d5ddde64e8c1 a melod:Meter;
@@ -26,7 +26,7 @@ _:b75afdfcd-1b8b-0a72-029b-d5ddde64e8c1 a melod:Meter;
     melod:inMeterUnit "4"^^xsd:integer;
     schema:description "2/4".
 
-_:bb2b4c1fd-33ed-3068-d239-5b8906d72035 a melod:Contribution;
+_:bdc1f260d-1851-4fb7-5528-7431e6b2a817 a melod:Contribution;
     melod:hasAgent <urn:uuid:persons/1617858154>;
     melod:hasRole terms:Librettist;
     melod:hasCertainty terms:MediumCertainty.

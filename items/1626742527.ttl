@@ -20,8 +20,14 @@
     melod:hasIdentifier _:ba2d1927b-4957-302e-27a4-0d9cf4508671;
     melod:hasShelfmark "score_1730";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1730.pdf>;
+    melod:hasHand _:bc606eb93-e69c-3f94-cd3a-3807224ba839;
     dct:conformsTo melod:Item.
 
 _:ba2d1927b-4957-302e-27a4-0d9cf4508671 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_1730".
+
+_:bc606eb93-e69c-3f94-cd3a-3807224ba839 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Cândido Pereira da Silva (Candinho)".

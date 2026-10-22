@@ -28,9 +28,32 @@
 <urn:uuid:expressions/1332812348> <http://www.w3.org/2004/02/skos/core#broader> "Canção Maxixe" .
 <urn:uuid:expressions/1332812348> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Araponga e a Juriti (arrangement by Sergio Valdeos)" .
 <urn:uuid:expressions/1332812348> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1150662067> .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá (original version)" .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1348283979> .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1585893179> .
+<urn:uuid:expressions/1389952506> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1881306446> .
+<urn:uuid:expressions/1405567821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1405567821> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:expressions/1405567821> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelina dos Santos (original version)" .
+<urn:uuid:expressions/1405567821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1835371568> .
 <urn:uuid:expressions/1433360455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
 <urn:uuid:expressions/1433360455> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:expressions/1433360455> <http://www.w3.org/2004/02/skos/core#prefLabel> "A 1ª polca a gente nunca esquece (original version)" .
+<urn:uuid:expressions/1505072985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1505072985> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:expressions/1505072985> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar (original version)" .
+<urn:uuid:expressions/1505072985> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:instrumentations/1513365995> .
+<urn:uuid:expressions/1505072985> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1776520380> .
+<urn:uuid:expressions/1534990820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1534990820> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:expressions/1534990820> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá (arrangement by Anna Paes)" .
+<urn:uuid:expressions/1534990820> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1265036441> .
+<urn:uuid:expressions/1662828343> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
+<urn:uuid:expressions/1662828343> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:expressions/1662828343> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dor de amar (arrangement by Wellington Duarte)" .
+<urn:uuid:expressions/1662828343> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1238437448> .
 <urn:uuid:expressions/1702376576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ExpressionEntity> .
 <urn:uuid:expressions/1702376576> <http://www.w3.org/2004/02/skos/core#broader> "Valsa Sentimental" .
 <urn:uuid:expressions/1702376576> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aurora (arrangement by Wellington Duarte)" .

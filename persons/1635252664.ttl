@@ -15,7 +15,6 @@
 <urn:uuid:persons/1635252664> a melod:Person;
     schema:familyName "Di Franco";
     schema:givenName "A.";
-    schema:gender "male";
     schema:hasOccupation "Editor";
     schema:description "<p>The acervo records the edition of “A Araponga e a Juriti” as “editada por A. Di Franco”, with no record in the encyclopedia and without clarifying whether it is a person or a publishing house. The identification is provisional.</p>";
     dct:conformsTo melod:Person.

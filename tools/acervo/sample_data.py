@@ -62,6 +62,7 @@ CARDS = [
         "name": "Maria Souto",
         "inverted": "Souto, Maria",
         "roles": ["Flautista"],
+        "gender": "female",
         "birth_place": "Rio de Janeiro - RJ",
         "bio": "<p>Aguardando dados biográficos.</p>",
     },
@@ -197,6 +198,7 @@ EXTRA_PERSONS = [
         "name": "Baptista Júnior",
         "inverted": "Júnior, Baptista",
         "roles": ["Letrista"],
+        "gender": "male",
         "bio": "",
         "note": (
             "The acervo records the lyrics of “A Araponga e a Juriti” as "
@@ -211,6 +213,7 @@ EXTRA_PERSONS = [
         "name": "Gerson Ferreira Pinto",
         "inverted": "Pinto, Gerson Ferreira",
         "roles": ["Flautista"],
+        "gender": "male",
         "bio": "",
         "wikidata": "Q20048060",
         "note": (
@@ -238,6 +241,7 @@ EXTRA_PERSONS = [
         "name": "Salvador Moraes",
         "inverted": "Moraes, Salvador",
         "roles": ["Letrista"],
+        "gender": "male",
         "bio": "",
         "note": (
             "The acervo records the lyrics of “Aurora” as “Letra de Salvador "
@@ -671,7 +675,7 @@ INSTRUMENT_TERMS = {
     "sax alto eb": ("terms:Saxophone", "wi"),
     "sax tenor bb": ("terms:Tenor", "vd"),
     "guitarra": ("terms:Guitar", "tb"),
-    "violão": ("terms:Guitar", "tb"),
+    "violao": ("terms:Guitar", "tb"),
     "bandolim": ("terms:Mandolin", "td"),
     "timpano": ("terms:Timpani", "pa"),
 }
@@ -783,6 +787,10 @@ MERGED_CARDS = {
 for _card in CARDS:
     _card.setdefault("alternate", [])
     _card["alternate"] = list(ALTERNATE_NAMES.get(_card["id"], [])) + _card["alternate"]
+    # The acervo records no gender; the sample people are men, except Maria
+    # Souto, whose record says "female".  The value is an inference and is
+    # documented in docs/acervo-model.md §4.1.
+    _card.setdefault("gender", "male")
 
 for _person in EXTRA_PERSONS:
     _person.setdefault("alternate", [])
