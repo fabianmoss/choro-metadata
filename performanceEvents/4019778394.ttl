@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:performanceEvents/4019778394> rdfs:label "Aufführung";
+    melod:hasVenue <urn:uuid:venues/2096486337>;
+    schema:description "Liturgischer Ort: nach der Predigt";
+    a melod:PerformanceEvent;
+    melod:hasEventDate _:3fc761fc-073f-4a24-a13d-84823f56fb46.
+_:3fc761fc-073f-4a24-a13d-84823f56fb46 melod:isodate "1758-01-01"^^xsd:date;
+    schema:description "1. Januar 1758 (Neujahr)";
+    melod:hasCertainty terms:HighCertainty;
+    a melod:ExactDate.

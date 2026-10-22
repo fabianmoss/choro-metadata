@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+
+_:b9c2a419-533f-43e2-a11c-951c8119fa59 rdfs:label "Halleluja, lobet den Namen des Herrn"@de;
+    melod:hasTitleType terms:MainTitle;
+    a melod:Title.
+<urn:uuid:works/555068543> a melod:Work;
+    melod:hasTitle _:b9c2a419-533f-43e2-a11c-951c8119fa59;
+    melod:hasIdentifier _:fbcfea7a-195e-44a2-9b12-b55c6c546743, _:dbcc87ac-f346-4397-ba86-36d76956dc35;
+    schema:creativeWorkStatus "authentic";
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/2293419636>;
+    schema:citation <urn:uuid:bibliography/2624363417>, <urn:uuid:bibliography/268258228>;
+    schema:description "Liturgische Bestimmung: Neujahr (1.1.)"@de.
+_:fbcfea7a-195e-44a2-9b12-b55c6c546743 rdfs:label "TVWV";
+    a melod:Identifier;
+    owl:hasValue "1:713".
+_:dbcc87ac-f346-4397-ba86-36d76956dc35 rdfs:label "Zugehörigkeit";
+    a melod:Identifier;
+    owl:hasValue "MusLG-09".

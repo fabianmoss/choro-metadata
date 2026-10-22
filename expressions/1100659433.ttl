@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/1100659433> rdfs:label "Choral";
+    melod:completionStatus terms:CompleteExpression;
+    a melod:Expression;
+    mus:U11_has_key _:b2e368e5-4fe8-4ef9-b909-5b6bddfccef4;
+    melod:hasMeter _:740b3b9c-24f1-44eb-9853-112af44958a6;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;
+    melod:hasIncipit _:05cfc9e8-40ba-4db8-a40f-8ce9d26be39f;
+    schema:description "Auf die Melodie des Chorals <rend fontstyle=\"italic\">Herzlich tut mich verlangen</rend>.".
+_:b2e368e5-4fe8-4ef9-b909-5b6bddfccef4 melod:hasPitch terms:E;
+    melod:hasAccidental terms:Flat;
+    melod:isInMode terms:Major;
+    a melod:Key.
+_:740b3b9c-24f1-44eb-9853-112af44958a6 a melod:Meter;
+    melod:usesMeterSymbol "common".
+_:05cfc9e8-40ba-4db8-a40f-8ce9d26be39f a melod:MusicIncipit;
+    melod:hasIncipitValue "@clef:G-2@keysig:bBEA@timesig:c@data:2-'G/''C'B/AG/1F/G/";
+    melod:hasIncipitText "Durch Trauren und durch Plagen".

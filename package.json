@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validation.js"
+  },
+  "dependencies": {
+    "n3": "^1.x",
+    "shacl-engine": "^1.1.0"
+  }
+}

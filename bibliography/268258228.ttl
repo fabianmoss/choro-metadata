@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:bibliography/268258228> schema:genre terms:ArticleJournal;
+    a melod:Bibliography;
+    melod:hasTitle _:5c702e9b-9e74-4f6b-a6df-f6cc139696a0, _:040e8d99-57ae-4f0e-b6c3-63804f3142b8;
+    schema:publication _:efc1c96e-1b0a-42e0-bc06-ff2fb0236cf3;
+    schema:pagination "216-291";
+    schema:position "2004";
+    melod:hasClassification "Forschungsliteratur";
+    schema:description "S. 262 Aufführungsnotiz in den <i>Berlinischen Nachrichten von Staats- und gelehrten Sachen</i> vom 29. Mai 1762.".
+_:5c702e9b-9e74-4f6b-a6df-f6cc139696a0 rdfs:label "Das Konzertleben in der preußischen Hauptstadt 1740-1786 im Spiegel der Berliner Presse (Teil I)";
+    melod:hasTitleLevel terms:a;
+    a melod:Title.
+_:040e8d99-57ae-4f0e-b6c3-63804f3142b8 rdfs:label "Jahrbuch des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz";
+    melod:hasTitleLevel terms:j;
+    a melod:Title.
+_:efc1c96e-1b0a-42e0-bc06-ff2fb0236cf3 a schema:PublicationEvent.

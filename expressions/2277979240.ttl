@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/2277979240> rdfs:label "Aria";
+    melod:hasTempo "Aufgeweckt";
+    a melod:Expression;
+    mus:U11_has_key _:f77d21cf-cb60-4429-9b74-9aed01f4085d;
+    melod:hasMeter _:ceaa281e-d15c-4d09-943d-1ae88789ed21;
+    melod:hasInstrumentation <urn:uuid:instrumentations/3896901877>;
+    melod:hasIncipit _:d7bbf93c-631d-4ae4-917a-10fc21976209.
+_:f77d21cf-cb60-4429-9b74-9aed01f4085d melod:hasPitch terms:E;
+    melod:hasAccidental terms:Flat;
+    melod:isInMode terms:Major;
+    a melod:Key.
+_:ceaa281e-d15c-4d09-943d-1ae88789ed21 a melod:Meter;
+    melod:hasMeterCount 12;
+    melod:inMeterUnit 8.
+_:d7bbf93c-631d-4ae4-917a-10fc21976209 a melod:MusicIncipit;
+    melod:hasIncipitValue "@clef:G-2@keysig:bBEA@timesig:12/8@data:''4E'8B/4B8G4G8E4.B{8AGF}/{''C'BA}''4E'8B{GFE}4B''8E/{6DF8FF}{FFF}", "@clef:G-2@keysig:bBEA@timesig:12/8@data:2.-4.-''4E'8B/4B8G4G8E4.B{8AG}F/{''C'B}A''4E'8B{GF}E";
+    melod:hasIncipitText "Jauchzet alle, Groß und Klein".

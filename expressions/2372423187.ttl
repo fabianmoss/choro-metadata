@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/2372423187> rdfs:label "Musicalisches Lob Gottes";
+    melod:inLanguage terms:German;
+    melod:hasClassification "Geistliche Vokalmusik (liturgisch)", "Kirchenmusikalischer Jahrgang [Kantaten-Jahrgang]";
+    a melod:Expression;
+    melod:hasContribution _:a2bf5fd8-a15b-425e-9b10-465c6f9b8331, _:87486e71-1872-4547-8651-507769b48903;
+    schema:dateCreated _:ef70fd41-35eb-4f18-986a-1e0c4e992c7c;
+    schema:locationCreated <urn:uuid:places/2096486337>;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;
+    melod:hasExpressionPart <urn:uuid:expressions/2293419636>.
+_:a2bf5fd8-a15b-425e-9b10-465c6f9b8331 melod:hasAgent <urn:uuid:persons/2736609098>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty;
+    a melod:Contribution.
+_:87486e71-1872-4547-8651-507769b48903 melod:hasAgent <urn:uuid:persons/4202043203>;
+    melod:hasRole terms:Lyricist;
+    melod:hasCertainty terms:HighCertainty;
+    a melod:Contribution.
+_:ef70fd41-35eb-4f18-986a-1e0c4e992c7c melod:hasCertainty melod:MediumCertainty;
+    a melod:Date;
+    schema:description "[1741]-1744".

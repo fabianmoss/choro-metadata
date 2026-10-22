@@ -1,0 +1,22 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:bibliography/2624363417> schema:genre terms:ArticleBook;
+    a melod:Bibliography;
+    melod:hasTitle _:dfbc4d4c-2c58-4c4a-b957-943618d3b719;
+    melod:hasAbbreviation "NeubacherJ 2020";
+    owl:sameAs <http://zotero.org/groups/5004586/items/ZCKV5V89>;
+    schema:publication _:934b63c4-fbab-4137-aa18-430068e908fe.
+_:dfbc4d4c-2c58-4c4a-b957-943618d3b719 a melod:Title.
+_:934b63c4-fbab-4137-aa18-430068e908fe a schema:PublicationEvent;
+    schema:startDate "2020-01-01"^^xsd:date.

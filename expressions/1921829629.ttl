@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/1921829629> rdfs:label "Chor [Dictum]";
+    melod:completionStatus terms:CompleteExpression;
+    a melod:Expression;
+    mus:U11_has_key _:0243a56c-6d2c-4eb4-8ea7-4c15e27ee85b;
+    melod:hasMeter _:28a1e195-e1cb-4992-81b7-96700531b2f4;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1134679629>;
+    melod:hasIncipit _:2081bb5c-a9c8-4e7a-985f-b31c568d8791;
+    schema:description "Textvorlage: Bibel, Ps 135,1-3.".
+_:0243a56c-6d2c-4eb4-8ea7-4c15e27ee85b melod:hasPitch terms:E;
+    melod:hasAccidental terms:Flat;
+    melod:isInMode terms:Major;
+    a melod:Key.
+_:28a1e195-e1cb-4992-81b7-96700531b2f4 a melod:Meter;
+    melod:usesMeterSymbol "common".
+_:2081bb5c-a9c8-4e7a-985f-b31c568d8791 a melod:MusicIncipit;
+    melod:hasIncipitValue "@clef:G-2@keysig:bBEA@timesig:c@data:4-''EED/EEED/2E'4B''8CD/4EDC{8DE}/4FED";
+    melod:hasIncipitText "Halleluja, lobet den Namen des Herrn".

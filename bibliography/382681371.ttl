@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:bibliography/382681371> schema:genre terms:ArticleBook;
+    a melod:Bibliography;
+    melod:hasTitle _:9db0daff-f790-4173-b871-5c2cb11b0bd5, _:df0ed2f4-ac34-40f3-83e2-12d5e639b2be;
+    melod:hasAbbreviation "LangeC 2022";
+    schema:publication _:409edaa2-627b-411c-bb2f-76d7b741a77f.
+_:9db0daff-f790-4173-b871-5c2cb11b0bd5 rdfs:label "Telemann, Lüneburg, and Roger Brown";
+    melod:hasTitleLevel terms:a;
+    a melod:Title.
+_:df0ed2f4-ac34-40f3-83e2-12d5e639b2be rdfs:label "Telemann Studies";
+    melod:hasTitleLevel terms:m;
+    a melod:Title.
+_:409edaa2-627b-411c-bb2f-76d7b741a77f a schema:PublicationEvent;
+    schema:startDate "2022-01-01"^^xsd:date.

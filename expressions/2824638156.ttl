@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/2824638156> rdfs:label "Aria";
+    melod:inLanguage terms:German;
+    melod:completionStatus terms:CompleteExpression;
+    a melod:Expression;
+    mus:U11_has_key _:07842f6e-5fbe-418b-a989-03d6b2a86e17;
+    melod:hasMeter _:a6984232-174d-4669-bc68-1a446a1f406f;
+    melod:hasInstrumentation <urn:uuid:instrumentations/204336523>;
+    melod:hasIncipit _:62b11fd6-d288-4429-a27c-1d9c519bae49.
+_:07842f6e-5fbe-418b-a989-03d6b2a86e17 melod:hasPitch terms:C;
+    melod:isInMode terms:Minor;
+    a melod:Key.
+_:a6984232-174d-4669-bc68-1a446a1f406f a melod:Meter;
+    melod:usesMeterSymbol "common".
+_:62b11fd6-d288-4429-a27c-1d9c519bae49 a melod:MusicIncipit;
+    melod:hasIncipitValue "@clef:G-2@keysig:bBEA@timesig:c@data:''4D{8.G'6G}''4C{8DE}/{C'B}4AG8-''nE/{6FA8F}{6nE3DC8F}{'6B''D8C}{'6nA3GF8B}/", "@clef:G-2@keysig:bBEA@timesig:c@data:2-''4D{8.G'6G}/''4C8DEC'B4A/G8-''D6E{3FG}8F6E{3C'B}''8E/";
+    melod:hasIncipitText "Legt Lob und Dank zu Jesu Füßen".

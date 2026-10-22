@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix melodTerms: <https://lod.academy/melod/vocab/terms#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:instrumentations/204336523> rdfs:label "2., V., B.c.";
+    a melod:Instrumentation;
+    melod:hasInstrumentationDetail _:4e565adf-14c7-41d6-a65c-ebf43269282d, _:b10ee23e-6ba8-41c6-9fbe-c3f7b5162909, _:66234c46-e9d8-4af8-a5f6-7853a4cbef8a.
+_:4e565adf-14c7-41d6-a65c-ebf43269282d mus:U2_foresees_use_of_medium_of_performance melodTerms:Alto;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vc>;
+    mus:U30_foresees_quantity_of_medium_of_performance 1;
+    melod:isSoloist true;
+    a melod:InstrumentationDetail.
+_:b10ee23e-6ba8-41c6-9fbe-c3f7b5162909 mus:U2_foresees_use_of_medium_of_performance melodTerms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance 2;
+    a melod:InstrumentationDetail.
+_:66234c46-e9d8-4af8-a5f6-7853a4cbef8a mus:U2_foresees_use_of_medium_of_performance melodTerms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ke>;
+    mus:U30_foresees_quantity_of_medium_of_performance 1;
+    a melod:InstrumentationDetail.

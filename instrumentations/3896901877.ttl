@@ -1,0 +1,37 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix melodTerms: <https://lod.academy/melod/vocab/terms#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:instrumentations/3896901877> rdfs:label "2., B.c., V., Pk., Trp.";
+    a melod:Instrumentation;
+    melod:hasInstrumentationDetail _:7bbdd18b-867b-4bd5-87cc-f394f1ec4042, _:0738c60b-b062-454c-a805-d19d412f4d38, _:cbc2f39a-8143-49c3-aed6-770bc43ce172, _:d0d0d16c-861f-43e3-bfbc-9b6396d9ddd3, _:f1982660-cde5-4694-aa65-6d2882e7e12d.
+_:7bbdd18b-867b-4bd5-87cc-f394f1ec4042 mus:U2_foresees_use_of_medium_of_performance melodTerms:Alto;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vc>;
+    mus:U30_foresees_quantity_of_medium_of_performance 1;
+    melod:isSoloist true;
+    a melod:InstrumentationDetail.
+_:0738c60b-b062-454c-a805-d19d412f4d38 mus:U2_foresees_use_of_medium_of_performance melodTerms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ke>;
+    mus:U30_foresees_quantity_of_medium_of_performance 1;
+    a melod:InstrumentationDetail.
+_:cbc2f39a-8143-49c3-aed6-770bc43ce172 mus:U2_foresees_use_of_medium_of_performance melodTerms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance 2;
+    a melod:InstrumentationDetail.
+_:d0d0d16c-861f-43e3-bfbc-9b6396d9ddd3 mus:U2_foresees_use_of_medium_of_performance melodTerms:Timpani;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pa>;
+    mus:U30_foresees_quantity_of_medium_of_performance 1;
+    a melod:InstrumentationDetail.
+_:f1982660-cde5-4694-aa65-6d2882e7e12d mus:U2_foresees_use_of_medium_of_performance melodTerms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance 3;
+    a melod:InstrumentationDetail.

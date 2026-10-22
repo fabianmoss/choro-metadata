@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+
+<urn:uuid:expressions/2293419636> rdfs:label "Halleluja, lobet den Namen des Herrn";
+    melod:inLanguage terms:German;
+    melod:completionStatus terms:CompleteExpression;
+    a melod:Expression;
+    melod:hasAnnotation _:a849c0fe-1fff-4747-ab7f-aa5467425145;
+    melod:hasClassification "Geistliche Vokalmusik (liturgisch)", "Kirchenmusik [geisliche Kantate]";
+    melod:hasContribution _:8871c9ba-10d9-4fe1-b800-b1598d6b1c8e, _:b8ff490f-d163-4ecc-8719-a685c9773428;
+    schema:dateCreated _:874acd58-c7c8-4678-83a1-6e2d27009fa4;
+    melod:hasHistoricEvent _:1f090392-92b1-41a1-bf93-43ca2108e6ba;
+    schema:firstPerformance <urn:uuid:performanceEvents/1412123009>;
+    melod:hasPerformance <urn:uuid:performanceEvents/3395291370>, <urn:uuid:performanceEvents/4019778394>, <urn:uuid:performanceEvents/603545879>;
+    schema:includedComposition <urn:uuid:expressions/1921829629>, <urn:uuid:expressions/1100659433>, <urn:uuid:expressions/1298183696>, <urn:uuid:expressions/2824638156>, <urn:uuid:expressions/926630544>, <urn:uuid:expressions/2277979240>;
+    melod:isExpressionPartOf <urn:uuid:expressions/2372423187>.
+_:a849c0fe-1fff-4747-ab7f-aa5467425145 rdfs:label "Liturgische Bestimmung";
+    melod:paragraph "Neujahr (1.1.)";
+    a melod:Annotation.
+_:8871c9ba-10d9-4fe1-b800-b1598d6b1c8e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/2736609098>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+_:b8ff490f-d163-4ecc-8719-a685c9773428 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/4202043203>;
+    melod:hasRole terms:Lyricist;
+    melod:hasCertainty terms:HighCertainty.
+_:874acd58-c7c8-4678-83a1-6e2d27009fa4 a melod:ExactDate;
+    melod:hasCertainty terms:LowCertainty;
+    melod:isodate "1741-01-01"^^xsd:date;
+    schema:description "[1741]".
+_:1f090392-92b1-41a1-bf93-43ca2108e6ba rdfs:label "Druck";
+    a melod:Event;
+    melod:hasEventDate _:309f8909-3655-4f80-8d10-3f06675029d7.
+_:309f8909-3655-4f80-8d10-3f06675029d7 a melod:Date;
+    melod:hasCertainty melod:MediumCertainty;
+    schema:description "1742-1744".

@@ -1,0 +1,61 @@
+name: Build and Deploy Pages
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  generate_datasets:
+    runs-on: ubuntu-latest
+    container:
+      image: registry.gitlab.rlp.net/adwmainz/nfdi4culture/cdmd/static-publishing-backend/static-publishing-backend:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Generate datasets
+        run: ./modules/datasets-generator/datasets-generator.sh
+
+      - name: Upload public artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: public
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: generate_datasets
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download public artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: public
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

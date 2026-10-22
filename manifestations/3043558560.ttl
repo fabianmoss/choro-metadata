@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+
+_:a808d650-b6dd-4a18-95aa-4155250f0b79 rdfs:label "D-B Mus.ms.autogr. Telemann, G. P. 60";
+    a melod:Title.
+<urn:uuid:manifestations/3043558560> a melod:Manifestation;
+    melod:hasTitle _:a808d650-b6dd-4a18-95aa-4155250f0b79;
+    melod:hasClassificationOfManifestation "Musikalische Quelle", "Hauptquelle";
+    lrmoo:R4_embodies <urn:uuid:expressions/2293419636>.

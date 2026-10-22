@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+
+<urn:uuid:items/2594093619> rdfs:label "D-Bsa SA 601";
+    owl:sameAs <https://resolver.staatsbibliothek-berlin.de/SBB000347F900000000>;
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/901685163>;
+    melod:hasShelfmark "SA 601";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/893513144>;
+    a melod:Item.

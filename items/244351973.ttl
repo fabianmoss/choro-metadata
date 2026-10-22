@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix dataset: <https://adwmainz.pages.gitlab.rlp.net/nfdi4culture/cdmd/project_templates/mermeid-template/datasets/>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+
+<urn:uuid:items/244351973> rdfs:label "D-B Mus.ms.autogr. Telemann, G. P. 60";
+    owl:sameAs <https://rism.online/sources/1001029770>;
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/484401742>;
+    melod:hasShelfmark "Mus.ms.autogr. Telemann, G. P. 60";
+    a melod:Item;
+    melod:hasAcquisition _:e9696b09-5537-42e3-9497-75c0fa57b0fa;
+    melod:hasProvenance _:bc7eab1f-246d-4028-a062-847d76dca90f, _:0489f722-b20f-485e-adf2-bc6155756602;
+    melod:hasTitlePage _:dace1c49-3f15-4c0b-83dc-bcda16ef416d;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/3043558560>.
+_:e9696b09-5537-42e3-9497-75c0fa57b0fa melod:isodate "1841-01-01"^^xsd:date;
+    schema:description "1841";
+    a melod:ExactDate.
+_:0b0411ec-c740-4b51-9d82-04e52c82e0ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/2108317331>;
+    melod:hasRole terms:FormerOwner.
+_:bc7eab1f-246d-4028-a062-847d76dca90f a melod:Event;
+    melod:hasContribution _:0b0411ec-c740-4b51-9d82-04e52c82e0ee.
+_:ce831f59-6812-4cb2-8530-60b9e8c626f6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510488037>;
+    melod:hasRole terms:FormerOwner.
+_:0489f722-b20f-485e-adf2-bc6155756602 a melod:Event;
+    melod:hasContribution _:ce831f59-6812-4cb2-8530-60b9e8c626f6.
+_:dace1c49-3f15-4c0b-83dc-bcda16ef416d a melod:TitlePage;
+    cidoc:P2_has_type "Kopftitel";
+    melod:paragraph "<rend fontstyle=\"italic\">Am neujahrstage</rend>".
