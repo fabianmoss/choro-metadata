@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1352970791> a melod:Work;
+    melod:hasTitle _:ba7bf42f8-25e5-6598-79c2-119ebc943db1;
+    melod:hasIdentifier _:b1769d727-7882-c470-381f-bc7f460d17a3;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9618>;
+    melod:hasContribution _:b751f54de-8008-587f-9e2c-f6fb0c142ff3;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1885300759>;
+    melod:hasAnnotation _:bc3725f65-ccfd-ee4d-cf61-1d78f6902375;
+    dct:conformsTo melod:Work.
+
+_:ba7bf42f8-25e5-6598-79c2-119ebc943db1 a melod:Title;
+    rdfs:label "Agoniza mas não morre"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1769d727-7882-c470-381f-bc7f460d17a3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9618".
+
+_:b751f54de-8008-587f-9e2c-f6fb0c142ff3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1526724501>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc3725f65-ccfd-ee4d-cf61-1d78f6902375 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9618\">https://acervo.casadochoro.com.br/works/view/9618</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1776383070> a melod:Work;
+    melod:hasTitle _:b8f414269-ce3a-57d8-3908-0de7e1962108;
+    melod:hasIdentifier _:bfbf2fdcf-dd39-4cfe-62a2-0d6187178c83;
+    melod:hasClassification "Serenata";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2552>;
+    melod:hasContribution _:ba7b05a5d-628c-6c79-f2fb-3b218f7334ee;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1284932873>;
+    melod:hasAnnotation _:bd2e6f5f4-306c-e958-d420-52339a5ad947;
+    dct:conformsTo melod:Work.
+
+_:b8f414269-ce3a-57d8-3908-0de7e1962108 a melod:Title;
+    rdfs:label "A avosinha"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bfbf2fdcf-dd39-4cfe-62a2-0d6187178c83 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2552".
+
+_:ba7b05a5d-628c-6c79-f2fb-3b218f7334ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd2e6f5f4-306c-e958-d420-52339a5ad947 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2552\">https://acervo.casadochoro.com.br/works/view/2552</a>. Gênero: Serenata. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

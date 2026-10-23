@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1180772761> a melod:Work;
+    melod:hasTitle _:b25d5d845-1da3-7899-fe99-e19660bac154;
+    melod:hasIdentifier _:b431e17d1-407f-7b63-91ea-1d2f7a9e4d47;
+    melod:hasClassification "Pas de Quatre";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1481>;
+    melod:hasContribution _:b4738d526-97b8-3b5f-2c28-28156854dacf;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1667093416>, <urn:uuid:expressions/1645396504>;
+    melod:hasAnnotation _:b999372c2-94d1-1fa0-a074-b68469bfd122;
+    dct:conformsTo melod:Work.
+
+_:b25d5d845-1da3-7899-fe99-e19660bac154 a melod:Title;
+    rdfs:label "A luz de teus olhos"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b431e17d1-407f-7b63-91ea-1d2f7a9e4d47 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1481".
+
+_:b4738d526-97b8-3b5f-2c28-28156854dacf a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427198017>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b999372c2-94d1-1fa0-a074-b68469bfd122 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1481\">https://acervo.casadochoro.com.br/works/view/1481</a>. Gênero: Pas de Quatre. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

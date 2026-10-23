@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1856835978> a melod:Work;
+    melod:hasTitle _:b6433ed48-e105-25b7-2262-b051e379218d;
+    melod:hasIdentifier _:b30f9c5a6-0d26-bead-24d0-8ae2b2fd0168;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/750>;
+    melod:hasContribution _:bbac5a76b-6c39-1c49-13b7-ad57054658e9;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1350720836>, <urn:uuid:expressions/1117574446>;
+    melod:hasAnnotation _:b2de25460-e302-72bc-3429-a52ab95d1e05;
+    dct:conformsTo melod:Work.
+
+_:b6433ed48-e105-25b7-2262-b051e379218d a melod:Title;
+    rdfs:label "Abraçando um Kalut"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b30f9c5a6-0d26-bead-24d0-8ae2b2fd0168 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "750".
+
+_:bbac5a76b-6c39-1c49-13b7-ad57054658e9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2de25460-e302-72bc-3429-a52ab95d1e05 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/750\">https://acervo.casadochoro.com.br/works/view/750</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

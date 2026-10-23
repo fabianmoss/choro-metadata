@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1109179667> a melod:Work;
+    melod:hasTitle _:b34c9690a-854f-42b9-105b-4ff6d93edcb4;
+    melod:hasIdentifier _:b5f549dee-9ebd-f96d-5d19-ba6d644275f1;
+    melod:hasClassification "Quadrilha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/430>;
+    melod:hasContribution _:b9ca7b83f-b80b-5f95-e627-fb1e7039839c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1441772598>;
+    melod:hasAnnotation _:b88be48a9-225b-0c90-d879-2a7e63b36dd2;
+    dct:conformsTo melod:Work.
+
+_:b34c9690a-854f-42b9-105b-4ff6d93edcb4 a melod:Title;
+    rdfs:label "A família de Fifina"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b5f549dee-9ebd-f96d-5d19-ba6d644275f1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "430".
+
+_:b9ca7b83f-b80b-5f95-e627-fb1e7039839c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1606048059>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b88be48a9-225b-0c90-d879-2a7e63b36dd2 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/430\">https://acervo.casadochoro.com.br/works/view/430</a>. Gênero: Quadrilha. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

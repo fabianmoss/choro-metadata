@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1118657302> a melod:Item;
+    rdfs:label "Altair — Partitura piano (score_2961)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1041415172>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf74e7db9-db8d-b622-44f9-644d5172bcde;
+    melod:hasShelfmark "score_2961";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2961.pdf>;
+    melod:hasHand _:b500a6338-f20d-716c-4444-f1a4b2d8dedb;
+    melod:hasProvenance _:b19db4978-9f12-605d-1c75-430ae98eb6b6;
+    dct:conformsTo melod:Item.
+
+_:bf74e7db9-db8d-b622-44f9-644d5172bcde a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2961".
+
+_:b500a6338-f20d-716c-4444-f1a4b2d8dedb a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b19db4978-9f12-605d-1c75-430ae98eb6b6 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b87f258d7-263b-6634-9f1b-22b7c9a3ac83.
+
+_:b87f258d7-263b-6634-9f1b-22b7c9a3ac83 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

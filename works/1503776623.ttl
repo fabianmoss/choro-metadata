@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1503776623> a melod:Work;
+    melod:hasTitle _:b3a166333-4047-6304-0d8f-be801f824be0;
+    melod:hasIdentifier _:b4204651a-8897-9ede-3e58-df12ffd66bdf;
+    melod:hasClassification "Prelúdio de Opereta";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3178>;
+    melod:hasContribution _:b52f02ec5-fc58-e94d-fd85-57382df42cc7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1172578798>;
+    melod:hasAnnotation _:b7883dc74-ecee-000f-2134-6a51af82799f;
+    dct:conformsTo melod:Work.
+
+_:b3a166333-4047-6304-0d8f-be801f824be0 a melod:Title;
+    rdfs:label "A corte na roça"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4204651a-8897-9ede-3e58-df12ffd66bdf a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3178".
+
+_:b52f02ec5-fc58-e94d-fd85-57382df42cc7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7883dc74-ecee-000f-2134-6a51af82799f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3178\">https://acervo.casadochoro.com.br/works/view/3178</a>. Gênero: Prelúdio de Opereta. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

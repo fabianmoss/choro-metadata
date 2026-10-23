@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1397248200> a melod:Item;
+    rdfs:label "A peixada dos coroas — Partitura melodia (score_1811)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1380400472>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbc6b3b6d-d33b-8eec-66c5-60c09df924fc;
+    melod:hasShelfmark "score_1811";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1811.pdf>;
+    melod:hasHand _:b9918dc9b-bce5-27ce-1eea-780e59b60f8d;
+    melod:hasProvenance _:beeb9ee80-1732-ee6d-3351-cd014cf87712;
+    dct:conformsTo melod:Item.
+
+_:bbc6b3b6d-d33b-8eec-66c5-60c09df924fc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1811".
+
+_:b9918dc9b-bce5-27ce-1eea-780e59b60f8d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Candinho (Cândido Pereira da Silva)".
+
+_:beeb9ee80-1732-ee6d-3351-cd014cf87712 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b42563a4b-23c4-e248-0627-6a85f588d699.
+
+_:b42563a4b-23c4-e248-0627-6a85f588d699 a melod:ExactDate;
+    melod:isodate "1953-03-01"^^xsd:date;
+    schema:description "01.03.1953".

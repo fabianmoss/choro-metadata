@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1238944176> a melod:Item;
+    rdfs:label "Altair — Partitura melodia (score_7626)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1500875561>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b356abc36-d11f-0a3b-732d-537405480509;
+    melod:hasShelfmark "score_7626";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7626.pdf>;
+    melod:hasProvenance _:b34b1473c-66bb-9c63-4b98-949d79512736;
+    dct:conformsTo melod:Item.
+
+_:b356abc36-d11f-0a3b-732d-537405480509 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7626".
+
+_:b34b1473c-66bb-9c63-4b98-949d79512736 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9c6af0cc-357b-bf24-7398-41e323fb7221.
+
+_:b9c6af0cc-357b-bf24-7398-41e323fb7221 a melod:ExactDate;
+    melod:isodate "1940-08-07"^^xsd:date;
+    schema:description "07.08.1940".

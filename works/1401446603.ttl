@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1401446603> a melod:Work;
+    melod:hasTitle _:b533dc1e6-2a57-f168-bb1c-3e29ab721676;
+    melod:hasIdentifier _:b6e19593e-e5be-2e12-3725-f2954a17d9d7;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4229>;
+    melod:hasContribution _:b7e14e806-b275-7c39-bcd1-41de1fea4a48;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1304146807>;
+    melod:hasAnnotation _:bfb0fd689-51f9-9cdd-96eb-84ef8b9e32f3;
+    dct:conformsTo melod:Work.
+
+_:b533dc1e6-2a57-f168-bb1c-3e29ab721676 a melod:Title;
+    rdfs:label "A jovem marciana"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6e19593e-e5be-2e12-3725-f2954a17d9d7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4229".
+
+_:b7e14e806-b275-7c39-bcd1-41de1fea4a48 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1707951728>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfb0fd689-51f9-9cdd-96eb-84ef8b9e32f3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4229\">https://acervo.casadochoro.com.br/works/view/4229</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

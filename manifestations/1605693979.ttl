@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1605693979> a melod:Manifestation;
+    melod:hasTitle _:b56165686-a6c4-fd41-3cdf-0e899f929249;
+    lrmoo:R4_embodies <urn:uuid:expressions/1530828775>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b60a9c2d7-44e8-9467-7cf6-b094516fa74c;
+    dct:conformsTo melod:Manifestation.
+
+_:b56165686-a6c4-fd41-3cdf-0e899f929249 a melod:Title;
+    rdfs:label "A trasmontana — Partitura piano e letra (edition Campassi & Camin)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b60a9c2d7-44e8-9467-7cf6-b094516fa74c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1303311434>;
+    melod:hasRole terms:Publisher.

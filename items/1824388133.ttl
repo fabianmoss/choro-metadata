@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1824388133> a melod:Item;
+    rdfs:label "A idéia — Partitura melodia (score_6517)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1622575568>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b0a56c1fe-33c0-2536-8f0d-5a26ed6ceebf;
+    melod:hasShelfmark "score_6517";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6517.pdf>;
+    melod:hasHand _:b38b79a49-f096-3096-0919-d9d150956473;
+    melod:hasProvenance _:b65f1d8b0-83c3-9e85-2ff9-2e61865309bb;
+    dct:conformsTo melod:Item.
+
+_:b0a56c1fe-33c0-2536-8f0d-5a26ed6ceebf a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6517".
+
+_:b38b79a49-f096-3096-0919-d9d150956473 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1216242672>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Bartholomeu Rosa (Caderno)".
+
+_:b65f1d8b0-83c3-9e85-2ff9-2e61865309bb a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b481a25d1-4582-e397-49fa-a0bd4ea1a4b5.
+
+_:b481a25d1-4582-e397-49fa-a0bd4ea1a4b5 a melod:ExactDate;
+    melod:isodate "1934-09-06"^^xsd:date;
+    schema:description "06.09.1934".

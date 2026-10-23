@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1575078245> a melod:Manifestation;
+    melod:hasTitle _:b759466de-9efc-6404-97fb-5ade109963da;
+    lrmoo:R4_embodies <urn:uuid:expressions/1385337907>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", terms:Print;
+    melod:hasContribution _:b496f6025-32b3-b1ac-0c69-3ee6e4a75dbf;
+    dct:conformsTo melod:Manifestation.
+
+_:b759466de-9efc-6404-97fb-5ade109963da a melod:Title;
+    rdfs:label "A cara do Brasil — Partitura melodia, cifra e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b496f6025-32b3-b1ac-0c69-3ee6e4a75dbf a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

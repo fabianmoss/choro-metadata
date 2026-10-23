@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1131211579> a melod:Work;
+    melod:hasTitle _:b4a3323b5-8f52-6600-f058-69df692744c0;
+    melod:hasIdentifier _:be23ee3c6-576c-6f69-982e-a97c64c1d325;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9583>;
+    melod:hasContribution _:b42db0373-6fc7-e428-b175-74109addddff, _:b74a6321e-cc06-948d-a104-43e4b4de2a08;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1105728106>;
+    melod:hasAnnotation _:b0e8f4ffe-b828-5c7c-908b-f3e948f49815;
+    dct:conformsTo melod:Work.
+
+_:b4a3323b5-8f52-6600-f058-69df692744c0 a melod:Title;
+    rdfs:label "Abre a porta, São Pedro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be23ee3c6-576c-6f69-982e-a97c64c1d325 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9583".
+
+_:b42db0373-6fc7-e428-b175-74109addddff a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1710699019>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b74a6321e-cc06-948d-a104-43e4b4de2a08 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1508271420>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0e8f4ffe-b828-5c7c-908b-f3e948f49815 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9583\">https://acervo.casadochoro.com.br/works/view/9583</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

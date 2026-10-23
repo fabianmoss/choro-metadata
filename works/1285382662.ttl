@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1285382662> a melod:Work;
+    melod:hasTitle _:beb1eec1e-bf59-3f92-d05f-ddca6401d03f;
+    melod:hasIdentifier _:b0d04aeb9-261e-86e1-cbf1-f99c21eb7537;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2558>;
+    melod:hasContribution _:b38708bd5-34c0-a6d1-d29b-60c0a4a21a20;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1712366673>;
+    melod:hasAnnotation _:b052bdedc-d010-1524-9c42-541b45fa53e4;
+    dct:conformsTo melod:Work.
+
+_:beb1eec1e-bf59-3f92-d05f-ddca6401d03f a melod:Title;
+    rdfs:label "A bela jardineira"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0d04aeb9-261e-86e1-cbf1-f99c21eb7537 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2558".
+
+_:b38708bd5-34c0-a6d1-d29b-60c0a4a21a20 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b052bdedc-d010-1524-9c42-541b45fa53e4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2558\">https://acervo.casadochoro.com.br/works/view/2558</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

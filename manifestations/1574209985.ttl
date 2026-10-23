@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1574209985> a melod:Manifestation;
+    melod:hasTitle _:b70bd8d05-9d25-fc69-5cb1-4b9644b86f59;
+    lrmoo:R4_embodies <urn:uuid:expressions/1386782663>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:baba205b0-5de9-0f03-f475-e80bf4a40f1d;
+    schema:publication _:b12e3d44e-bbd0-6de3-3bcc-8e264346b8ac;
+    dct:conformsTo melod:Manifestation.
+
+_:b70bd8d05-9d25-fc69-5cb1-4b9644b86f59 a melod:Title;
+    rdfs:label "A elegância do samba — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:baba205b0-5de9-0f03-f475-e80bf4a40f1d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b12e3d44e-bbd0-6de3-3bcc-8e264346b8ac a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

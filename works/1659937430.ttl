@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1659937430> a melod:Work;
+    melod:hasTitle _:b7f03a681-1823-ef00-d5bd-f94992960d07;
+    melod:hasIdentifier _:b05472a80-e423-1f4f-d1d9-3196eeaf15c4;
+    melod:hasClassification "Habanera";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7992>;
+    melod:hasContribution _:bd83da188-db23-a5e4-c440-bf18e76ef62f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1346161753>;
+    melod:hasAnnotation _:bfa977a71-11e6-7c31-00dc-adb089807ba4;
+    dct:conformsTo melod:Work.
+
+_:b7f03a681-1823-ef00-d5bd-f94992960d07 a melod:Title;
+    rdfs:label "Adeus pra Tia Dora"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b05472a80-e423-1f4f-d1d9-3196eeaf15c4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7992".
+
+_:bd83da188-db23-a5e4-c440-bf18e76ef62f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfa977a71-11e6-7c31-00dc-adb089807ba4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7992\">https://acervo.casadochoro.com.br/works/view/7992</a>. Gênero: Habanera. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

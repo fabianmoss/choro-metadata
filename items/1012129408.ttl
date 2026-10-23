@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1012129408> a melod:Item;
+    rdfs:label "A cornucópia do amor — Partitura melodia (score_3429)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1882133960>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7d18e280-dc70-51fc-1f9b-64cbf0c88695;
+    melod:hasShelfmark "score_3429";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3429.pdf>;
+    melod:hasHand _:be52e47ab-b246-8950-d6ac-9f83834c569f;
+    dct:conformsTo melod:Item.
+
+_:b7d18e280-dc70-51fc-1f9b-64cbf0c88695 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3429".
+
+_:be52e47ab-b246-8950-d6ac-9f83834c569f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1400134864>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Claudio Monteiro".

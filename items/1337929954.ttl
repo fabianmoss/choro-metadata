@@ -1,0 +1,27 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1337929954> a melod:Item;
+    rdfs:label "Aí Morcego_BANDÃO — Partitura sax tenor 1 (score_16256)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1458579030>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b6a7b8476-9183-db56-4b49-ae49c7244b36;
+    melod:hasShelfmark "score_16256";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_16256.pdf>;
+    dct:conformsTo melod:Item.
+
+_:b6a7b8476-9183-db56-4b49-ae49c7244b36 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_16256".

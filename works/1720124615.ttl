@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1720124615> a melod:Work;
+    melod:hasTitle _:b3225b75c-6454-c1c2-6fce-f9bf2ba3b77a;
+    melod:hasIdentifier _:b00e7e983-9ba2-72e6-503d-09362839eeff;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9189>;
+    melod:hasContribution _:ba2916833-9497-6f74-7591-5fff32f08555;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1667139349>;
+    melod:hasAnnotation _:bff82acbe-59a0-9f3e-8656-70401c6e93b4;
+    dct:conformsTo melod:Work.
+
+_:b3225b75c-6454-c1c2-6fce-f9bf2ba3b77a a melod:Title;
+    rdfs:label "A mala foi meu tormento"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b00e7e983-9ba2-72e6-503d-09362839eeff a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9189".
+
+_:ba2916833-9497-6f74-7591-5fff32f08555 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1156560461>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bff82acbe-59a0-9f3e-8656-70401c6e93b4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9189\">https://acervo.casadochoro.com.br/works/view/9189</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

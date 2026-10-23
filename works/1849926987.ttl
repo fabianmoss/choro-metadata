@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1849926987> a melod:Work;
+    melod:hasTitle _:b1f5622ce-7101-537d-c19b-f0d7ea2ccfdc;
+    melod:hasIdentifier _:bce1d1b23-0868-d828-dcaa-9751e0b0d93c;
+    melod:hasClassification "Barcarola";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1766>;
+    melod:hasContribution _:b2678a98c-2cf3-1413-e93e-3b78c2d537f7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1031930231>;
+    melod:hasAnnotation _:b9a3ba81a-7c31-24f4-8009-e8a17a3c125c;
+    dct:conformsTo melod:Work.
+
+_:b1f5622ce-7101-537d-c19b-f0d7ea2ccfdc a melod:Title;
+    rdfs:label "A noite"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bce1d1b23-0868-d828-dcaa-9751e0b0d93c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1766".
+
+_:b2678a98c-2cf3-1413-e93e-3b78c2d537f7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1498051596>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9a3ba81a-7c31-24f4-8009-e8a17a3c125c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1766\">https://acervo.casadochoro.com.br/works/view/1766</a>. Gênero: Barcarola. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

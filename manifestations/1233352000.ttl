@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1233352000> a melod:Manifestation;
+    melod:hasTitle _:ba9995936-021c-1b14-5bab-72cc71619950;
+    lrmoo:R4_embodies <urn:uuid:expressions/1270460976>;
+    melod:hasClassificationOfManifestation "Partitura flauta", terms:Print;
+    melod:hasContribution _:bb398c8a0-5f56-f494-7f5d-49edc9f9ff2b;
+    schema:publication _:b39f9121b-fdaf-0002-75b3-a737920eb135;
+    dct:conformsTo melod:Manifestation.
+
+_:ba9995936-021c-1b14-5bab-72cc71619950 a melod:Title;
+    rdfs:label "Aí Morcego_BANDÃO — Partitura flauta (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb398c8a0-5f56-f494-7f5d-49edc9f9ff2b a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b39f9121b-fdaf-0002-75b3-a737920eb135 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

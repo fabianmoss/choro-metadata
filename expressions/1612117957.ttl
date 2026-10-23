@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1612117957> a melod:Expression;
+    rdfs:label "Adejos d'um anjo (arrangement by Marcílio Lopes)";
+    melod:hasClassification "Schottisch";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bac1721aa-4e77-978b-011b-6635710cf407;
+    melod:hasContribution _:b2a7a0543-bbde-739d-a7de-35659fab2b19;
+    dct:conformsTo melod:Expression.
+
+_:bac1721aa-4e77-978b-011b-6635710cf407 a melod:Meter;
+    melod:hasMeterCount "4"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "4/4".
+
+_:b2a7a0543-bbde-739d-a7de-35659fab2b19 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1378778470>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

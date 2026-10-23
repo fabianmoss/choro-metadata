@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1272643852> a melod:Item;
+    rdfs:label "Almofadinha — Partitura piano e letra (score_2975)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1466553984>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b8cbb421a-f96c-d0c5-9f86-6465f44f0c58;
+    melod:hasShelfmark "score_2975";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2975.pdf>;
+    melod:hasHand _:b81bab27d-e18c-e625-c9a0-62ab4b0cfc90;
+    melod:hasProvenance _:b2b308db4-350c-c10c-3663-b23a6f61f66e;
+    dct:conformsTo melod:Item.
+
+_:b8cbb421a-f96c-d0c5-9f86-6465f44f0c58 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2975".
+
+_:b81bab27d-e18c-e625-c9a0-62ab4b0cfc90 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b2b308db4-350c-c10c-3663-b23a6f61f66e a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b19668081-c3b1-94fd-2dcc-7ce1d2548117.
+
+_:b19668081-c3b1-94fd-2dcc-7ce1d2548117 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

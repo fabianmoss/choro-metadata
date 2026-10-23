@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1612770596> a melod:Work;
+    melod:hasTitle _:b914843f2-bd2e-085e-17ae-cab4eaf00d96;
+    melod:hasIdentifier _:bf8478392-3d1a-363f-947b-42d6678a5f5b;
+    melod:hasClassification "Canção Espanhola";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2893>;
+    melod:hasContribution _:b779327d6-235e-73c6-4d23-6e5b640d4d38;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1725380105>, <urn:uuid:expressions/1444855131>;
+    melod:hasAnnotation _:ba7a2ca9e-abb0-e7bf-e757-ca9db76515c1;
+    dct:conformsTo melod:Work.
+
+_:b914843f2-bd2e-085e-17ae-cab4eaf00d96 a melod:Title;
+    rdfs:label "Abacaxi"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf8478392-3d1a-363f-947b-42d6678a5f5b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2893".
+
+_:b779327d6-235e-73c6-4d23-6e5b640d4d38 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1437897367>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba7a2ca9e-abb0-e7bf-e757-ca9db76515c1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2893\">https://acervo.casadochoro.com.br/works/view/2893</a>. Gênero: Canção Espanhola. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

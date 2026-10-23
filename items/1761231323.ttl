@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1761231323> a melod:Item;
+    rdfs:label "Alice — Partitura melodia (score_8323)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1403137618>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba0fa4e28-2df4-8f49-023d-24f25a3755b3;
+    melod:hasShelfmark "score_8323";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8323.pdf>;
+    melod:hasHand _:b1eab312c-633a-c1f0-377e-d32cc3eda67c;
+    dct:conformsTo melod:Item.
+
+_:ba0fa4e28-2df4-8f49-023d-24f25a3755b3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8323".
+
+_:b1eab312c-633a-c1f0-377e-d32cc3eda67c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1096286736>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theodoro Aguilar".

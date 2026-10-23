@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1507091614> a melod:Work;
+    melod:hasTitle _:b41781404-4ada-e834-f833-20fb06d4ea48;
+    melod:hasIdentifier _:b7e7c26fc-1a55-7a14-f948-89af8001dba2;
+    melod:hasClassification "Mazurca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7073>;
+    melod:hasContribution _:baa545120-a88c-60b4-b2e4-84b8d0b8966c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1226637688>;
+    melod:hasAnnotation _:b3927f776-3816-9041-1583-9b90952f0485;
+    dct:conformsTo melod:Work.
+
+_:b41781404-4ada-e834-f833-20fb06d4ea48 a melod:Title;
+    rdfs:label "Abandonado"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b7e7c26fc-1a55-7a14-f948-89af8001dba2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7073".
+
+_:baa545120-a88c-60b4-b2e4-84b8d0b8966c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1689453575>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3927f776-3816-9041-1583-9b90952f0485 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7073\">https://acervo.casadochoro.com.br/works/view/7073</a>. Gênero: Mazurca. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

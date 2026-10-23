@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1354058819> a melod:Work;
+    melod:hasTitle _:be4e8414e-b77f-baa4-434a-70f313585686;
+    melod:hasIdentifier _:b3533e164-af1e-5aca-5c17-e361133480da;
+    melod:hasClassification "Noturno";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/398>;
+    melod:hasContribution _:b1fea4c42-41c8-12a7-e665-644f38c988c7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1288637513>;
+    melod:hasAnnotation _:b94d198c5-081d-2aae-cd93-c4688ba34321;
+    dct:conformsTo melod:Work.
+
+_:be4e8414e-b77f-baa4-434a-70f313585686 a melod:Title;
+    rdfs:label "A solidão"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3533e164-af1e-5aca-5c17-e361133480da a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "398".
+
+_:b1fea4c42-41c8-12a7-e665-644f38c988c7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007951212>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b94d198c5-081d-2aae-cd93-c4688ba34321 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/398\">https://acervo.casadochoro.com.br/works/view/398</a>. Gênero: Noturno. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

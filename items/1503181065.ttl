@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1503181065> a melod:Item;
+    rdfs:label "Ai, que gozos — Partitura arranjo (score_1249)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1285128512>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bc406f114-42cc-a8df-bf40-5674e3ced56e;
+    melod:hasShelfmark "score_1249";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1249.pdf>;
+    melod:hasProvenance _:b2e57aaac-c666-d882-9fea-2dabbd4e8812;
+    dct:conformsTo melod:Item.
+
+_:bc406f114-42cc-a8df-bf40-5674e3ced56e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1249".
+
+_:b2e57aaac-c666-d882-9fea-2dabbd4e8812 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb1adc860-ab7f-e548-4f1d-b83b2c0df07e.
+
+_:bb1adc860-ab7f-e548-4f1d-b83b2c0df07e a melod:ExactDate;
+    melod:isodate "2002-02-19"^^xsd:date;
+    schema:description "19.02.2002".

@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1499832428> a melod:Work;
+    melod:hasTitle _:b18b84ab6-2eef-0ba8-f42c-5c2b94a62a17;
+    melod:hasIdentifier _:b8d05f16c-822e-1015-4ad0-d9e0fbab4db7;
+    melod:hasClassification "Fado Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9241>;
+    melod:hasContribution _:b48311b90-df17-0dc2-540c-fdf421b3467f, _:b52e1e95a-f29d-8503-8479-8186b9ab8cf1;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1487641357>;
+    melod:hasAnnotation _:b76943663-ec1d-21aa-9a19-54b666a794ff;
+    dct:conformsTo melod:Work.
+
+_:b18b84ab6-2eef-0ba8-f42c-5c2b94a62a17 a melod:Title;
+    rdfs:label "A saudade"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8d05f16c-822e-1015-4ad0-d9e0fbab4db7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9241".
+
+_:b48311b90-df17-0dc2-540c-fdf421b3467f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b52e1e95a-f29d-8503-8479-8186b9ab8cf1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1504787951>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b76943663-ec1d-21aa-9a19-54b666a794ff a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9241\">https://acervo.casadochoro.com.br/works/view/9241</a>. Gênero: Fado Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

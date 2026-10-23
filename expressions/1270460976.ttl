@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1270460976> a melod:Expression;
+    rdfs:label "Aí Morcego_BANDÃO (arrangement by Marcílio Lopes)";
+    melod:hasClassification "Maxixe";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bca72535f-a392-f680-fe12-d5b7f8758cd7;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1835371568>;
+    melod:hasContribution _:b240be259-6311-4505-58b2-c4b488165acc;
+    dct:conformsTo melod:Expression.
+
+_:bca72535f-a392-f680-fe12-d5b7f8758cd7 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b240be259-6311-4505-58b2-c4b488165acc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1378778470>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

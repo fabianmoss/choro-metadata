@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1474420895> a melod:Work;
+    melod:hasTitle _:be062e4de-8643-c6cf-9b3e-aa7534fd4f19;
+    melod:hasIdentifier _:ba69eaa55-8dae-d0f7-d1d4-86b70d6e7bb2;
+    melod:hasClassification "Modinha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7680>;
+    melod:hasContribution _:beb9feb59-5dcc-2d2e-95e4-fc35a668a6df;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1204627278>;
+    melod:hasAnnotation _:b236c7433-4c39-f239-9dab-81908a295aec;
+    dct:conformsTo melod:Work.
+
+_:be062e4de-8643-c6cf-9b3e-aa7534fd4f19 a melod:Title;
+    rdfs:label "Adeus, Eulina"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba69eaa55-8dae-d0f7-d1d4-86b70d6e7bb2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7680".
+
+_:beb9feb59-5dcc-2d2e-95e4-fc35a668a6df a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1845553943>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b236c7433-4c39-f239-9dab-81908a295aec a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7680\">https://acervo.casadochoro.com.br/works/view/7680</a>. Gênero: Modinha. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

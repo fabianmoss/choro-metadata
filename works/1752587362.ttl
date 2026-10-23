@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1752587362> a melod:Work;
+    melod:hasTitle _:bef7448a2-de94-a066-ceba-189b6e101aea;
+    melod:hasIdentifier _:bae653f1f-ff9a-497e-efe9-b4dd44277063;
+    melod:hasClassification "Quadrilha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4742>;
+    melod:hasContribution _:b85984c8b-d0d2-37a3-7075-f1d565d6126a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1631207495>;
+    melod:hasAnnotation _:b817f1292-6eff-26ff-a3a0-2f03eb365f2a;
+    dct:conformsTo melod:Work.
+
+_:bef7448a2-de94-a066-ceba-189b6e101aea a melod:Title;
+    rdfs:label "Aida"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bae653f1f-ff9a-497e-efe9-b4dd44277063 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4742".
+
+_:b85984c8b-d0d2-37a3-7075-f1d565d6126a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1171878946>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b817f1292-6eff-26ff-a3a0-2f03eb365f2a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4742\">https://acervo.casadochoro.com.br/works/view/4742</a>. Gênero: Quadrilha. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

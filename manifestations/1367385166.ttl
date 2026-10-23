@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1367385166> a melod:Manifestation;
+    melod:hasTitle _:b399bba61-3b53-c04e-ad61-c4559888c889;
+    lrmoo:R4_embodies <urn:uuid:expressions/1038147695>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", terms:Print;
+    melod:hasContribution _:bfee374d1-e174-2cc8-1d72-b10fa1d68160;
+    dct:conformsTo melod:Manifestation.
+
+_:b399bba61-3b53-c04e-ad61-c4559888c889 a melod:Title;
+    rdfs:label "A vida é um samba — Partitura melodia, cifra e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bfee374d1-e174-2cc8-1d72-b10fa1d68160 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

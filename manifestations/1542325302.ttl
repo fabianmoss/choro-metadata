@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1542325302> a melod:Manifestation;
+    melod:hasTitle _:bf5543322-11bd-9a50-0c12-8593ff81b870;
+    lrmoo:R4_embodies <urn:uuid:expressions/1142582982>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b28e7fc90-fcb2-a123-16aa-4fdbf6a7f3d8;
+    schema:publication _:bb01c8bde-40ff-2aac-793f-8d8776ee0d85;
+    dct:conformsTo melod:Manifestation.
+
+_:bf5543322-11bd-9a50-0c12-8593ff81b870 a melod:Title;
+    rdfs:label "A favela vai abaixo — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b28e7fc90-fcb2-a123-16aa-4fdbf6a7f3d8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bb01c8bde-40ff-2aac-793f-8d8776ee0d85 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

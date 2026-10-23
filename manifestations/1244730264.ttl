@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1244730264> a melod:Manifestation;
+    melod:hasTitle _:b04e5b67c-5c5e-06c7-1787-66af858dc0aa;
+    lrmoo:R4_embodies <urn:uuid:expressions/1270460976>;
+    melod:hasClassificationOfManifestation "Partitura sax alto 2", terms:Print;
+    melod:hasContribution _:b3111ca82-5167-7bd1-ac3e-94612de2552d;
+    schema:publication _:b2105f9b1-841e-85e7-b16e-03f177f50cdf;
+    dct:conformsTo melod:Manifestation.
+
+_:b04e5b67c-5c5e-06c7-1787-66af858dc0aa a melod:Title;
+    rdfs:label "Aí Morcego_BANDÃO — Partitura sax alto 2 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b3111ca82-5167-7bd1-ac3e-94612de2552d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b2105f9b1-841e-85e7-b16e-03f177f50cdf a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

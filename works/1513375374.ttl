@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1513375374> a melod:Work;
+    melod:hasTitle _:b3e6253d0-4ed2-0d02-2d13-f813a07810ac;
+    melod:hasIdentifier _:bf78d2427-da07-7a54-e76f-9ebabaff3f43;
+    melod:hasClassification "Habanera";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/322>;
+    melod:hasContribution _:bd261a684-aa08-9b60-a335-da7cc5374be0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1285564190>;
+    melod:hasAnnotation _:b3dd23d49-573c-b1e8-68de-aa126469174a;
+    dct:conformsTo melod:Work.
+
+_:b3e6253d0-4ed2-0d02-2d13-f813a07810ac a melod:Title;
+    rdfs:label "A Riograndense"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf78d2427-da07-7a54-e76f-9ebabaff3f43 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "322".
+
+_:bd261a684-aa08-9b60-a335-da7cc5374be0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1314414854>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3dd23d49-573c-b1e8-68de-aa126469174a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/322\">https://acervo.casadochoro.com.br/works/view/322</a>. Gênero: Habanera. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

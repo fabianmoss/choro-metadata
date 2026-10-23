@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1772458304> a melod:Item;
+    rdfs:label "Adelina — Partitura melodia (score_7974)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1329688219>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7f9e069d-d786-a205-c55d-2da8e9e1b62d;
+    melod:hasShelfmark "score_7974";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7974.pdf>;
+    melod:hasHand _:b67342b41-8e92-4dea-6ba7-e94b0a3b90b0;
+    dct:conformsTo melod:Item.
+
+_:b7f9e069d-d786-a205-c55d-2da8e9e1b62d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7974".
+
+_:b67342b41-8e92-4dea-6ba7-e94b0a3b90b0 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1146702713>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Frederico de Jesus (Arquivo Donga)".

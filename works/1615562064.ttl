@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1615562064> a melod:Work;
+    melod:hasTitle _:bf0865f5c-3a55-c30f-55ea-715997089aa5;
+    melod:hasIdentifier _:b3a12989d-4697-5bc2-b9f5-eab3f04d91f8;
+    melod:hasClassification "Calango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9630>;
+    melod:hasContribution _:ba1710f90-6f49-e601-0a89-e1c4028babb1, _:b35b3c8ce-c2f6-5bd7-5d96-5be660d0a784;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1256824686>;
+    melod:hasAnnotation _:be2e380ad-f13d-e7b1-d3c2-d9563e3d51ac;
+    dct:conformsTo melod:Work.
+
+_:bf0865f5c-3a55-c30f-55ea-715997089aa5 a melod:Title;
+    rdfs:label "Ai, sanfona"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3a12989d-4697-5bc2-b9f5-eab3f04d91f8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9630".
+
+_:ba1710f90-6f49-e601-0a89-e1c4028babb1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1884463155>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b35b3c8ce-c2f6-5bd7-5d96-5be660d0a784 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1671531524>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be2e380ad-f13d-e7b1-d3c2-d9563e3d51ac a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9630\">https://acervo.casadochoro.com.br/works/view/9630</a>. Gênero: Calango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

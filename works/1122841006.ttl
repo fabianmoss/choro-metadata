@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1122841006> a melod:Work;
+    melod:hasTitle _:b4562f591-d61c-acef-7ae5-cd8dd3f9f350;
+    melod:hasIdentifier _:b37346448-3174-1d20-006b-4ed92ae12903;
+    melod:hasClassification "Fox";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9622>;
+    melod:hasContribution _:b2ac25c8c-138c-afbc-8ccd-4899a414b27a, _:b8e2d9b65-fff4-17f1-0832-ade38620579c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1267952767>;
+    melod:hasAnnotation _:bb0aac7af-09df-5f31-a55f-3eacd05a6a4c;
+    dct:conformsTo melod:Work.
+
+_:b4562f591-d61c-acef-7ae5-cd8dd3f9f350 a melod:Title;
+    rdfs:label "Agora é tarde"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b37346448-3174-1d20-006b-4ed92ae12903 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9622".
+
+_:b2ac25c8c-138c-afbc-8ccd-4899a414b27a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1715466671>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b8e2d9b65-fff4-17f1-0832-ade38620579c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201562957>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb0aac7af-09df-5f31-a55f-3eacd05a6a4c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9622\">https://acervo.casadochoro.com.br/works/view/9622</a>. Gênero: Fox. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

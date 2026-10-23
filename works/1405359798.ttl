@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1405359798> a melod:Work;
+    melod:hasTitle _:b334497e0-7a40-346e-4661-211d650c2dd2;
+    melod:hasIdentifier _:bb5b5633e-1bff-fc81-4352-7770f1ed5c26;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3432>;
+    melod:hasContribution _:bfabbcd92-3d16-c1fa-60cd-794a7687cacc;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1209524743>;
+    melod:hasAnnotation _:b763e8a30-adb9-7253-114a-e493fe678d05;
+    dct:conformsTo melod:Work.
+
+_:b334497e0-7a40-346e-4661-211d650c2dd2 a melod:Title;
+    rdfs:label "Abril"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb5b5633e-1bff-fc81-4352-7770f1ed5c26 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3432".
+
+_:bfabbcd92-3d16-c1fa-60cd-794a7687cacc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1206009044>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b763e8a30-adb9-7253-114a-e493fe678d05 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3432\">https://acervo.casadochoro.com.br/works/view/3432</a>. Gênero: Canção. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

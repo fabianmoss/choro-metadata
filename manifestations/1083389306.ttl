@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1083389306> a melod:Manifestation;
+    melod:hasTitle _:b8af6c334-e504-2fc5-317a-03f1b4c2eb4d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1132875062>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b4729e56b-1f88-946b-06d4-6b73c024c3d2;
+    dct:conformsTo melod:Manifestation.
+
+_:b8af6c334-e504-2fc5-317a-03f1b4c2eb4d a melod:Title;
+    rdfs:label "A corte na roça — Partitura piano (edition Buschmann & Guimarães)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b4729e56b-1f88-946b-06d4-6b73c024c3d2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1465829950>;
+    melod:hasRole terms:Publisher.

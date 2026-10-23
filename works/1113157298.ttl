@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1113157298> a melod:Work;
+    melod:hasTitle _:b5a37dabd-cc2f-68e4-0adc-c5003a944e5d;
+    melod:hasIdentifier _:b2d20b302-367c-025b-10a3-5a99f4b3bdd3;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7130>;
+    melod:hasContribution _:b721b4d2e-d5f2-9cf8-8a7c-1e7fb65fc3db;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1010219227>;
+    melod:hasAnnotation _:b04440740-06dc-5b75-4f52-0b96e94a577e;
+    dct:conformsTo melod:Work.
+
+_:b5a37dabd-cc2f-68e4-0adc-c5003a944e5d a melod:Title;
+    rdfs:label "Agora vai"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2d20b302-367c-025b-10a3-5a99f4b3bdd3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7130".
+
+_:b721b4d2e-d5f2-9cf8-8a7c-1e7fb65fc3db a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1014919308>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b04440740-06dc-5b75-4f52-0b96e94a577e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7130\">https://acervo.casadochoro.com.br/works/view/7130</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

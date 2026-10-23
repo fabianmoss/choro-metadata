@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1140149076> a melod:Manifestation;
+    melod:hasTitle _:b3100c03d-13d9-0176-65bc-92b901522b7f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1155461324>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bdaea046c-2faa-51b2-5540-77be5117e981;
+    dct:conformsTo melod:Manifestation.
+
+_:b3100c03d-13d9-0176-65bc-92b901522b7f a melod:Title;
+    rdfs:label "A vaidosa — Partitura piano (edition Buschmann & Guimarães)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bdaea046c-2faa-51b2-5540-77be5117e981 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1465829950>;
+    melod:hasRole terms:Publisher.

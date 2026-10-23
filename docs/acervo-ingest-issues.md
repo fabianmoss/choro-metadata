@@ -5,25 +5,30 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 
 ## Harvest
 
-- works harvested: 11
-- persons harvested: 2
-- works with digitised scores: 9
-- works modelled (including the curated sample): 10
-- persons modelled: 23
-- stale documents removed: 24
+- works harvested: 604
+- persons harvested: 0
+- works with digitised scores: 546
+- works modelled (including the curated sample): 549
+- persons modelled: 426
+- stale documents removed: 0
 
 ## Summary
 
 | Category | Count |
 | --- | ---: |
-| `instrumentation_without_label` | 5 |
-| `provisional_person` | 5 |
+| `composer_card_not_harvested` | 329 |
+| `publication_event_omitted` | 199 |
+| `derived_institution` | 81 |
+| `institution_without_location` | 81 |
+| `provisional_person` | 79 |
+| `unstructured_copy_note` | 70 |
+| `skipped_work_without_digitisation` | 58 |
+| `instrumentation_without_label` | 56 |
+| `instrument_without_loc_term` | 49 |
+| `curated_work` | 2 |
 | `place_not_identified` | 2 |
-| `skipped_work_without_digitisation` | 2 |
 | `ambiguous_person_name` | 1 |
 | `curated_work_without_digitisation` | 1 |
-| `instrument_without_loc_term` | 1 |
-| `unstructured_copy_note` | 1 |
 
 ## Details
 
@@ -31,40 +36,917 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 
 - **6266** — arranger 'Miguel Rabello' matches 2 person records: 2006, 2326
 
+### `composer_card_not_harvested` (329)
+
+- **84** — card 22 (Henrique Albertazzi)
+- **97** — card 36 (Irineu de Almeida)
+- **131** — card 46 (Mário Álvares)
+- **180** — card 53 (Aníbal do Amaral)
+- **231** — card 75 (José de Souza Aragão)
+- **242** — card 1304 (Não identificado)
+- **257** — card 94 (Januário da Silva Arvellos)
+- **286** — card 38 (João Francisco de Almeida)
+- **294** — card 295 (Castro Filho)
+- **303** — card 29 (Sabino Allegrini)
+- **315** — card 18 (Francisca Pinheiro d'Aguiar)
+- **316** — card 19 (João da Costa Aguiar)
+- **321** — card 23 (Felix Albini)
+- **322** — card 30 (Maria E. da Cruz Almada)
+- **358** — card 45 (Francisco d'Alvarenga)
+- **364** — card 54 (Ernesto Diniz do Amaral)
+- **373** — card 66 (L. R. Andrade)
+- **377** — card 70 (Alfredo Ângelo)
+- **390** — card 537 (João Gomes Júnior)
+- **430** — card 234 (M. J. Callado)
+- **432** — card 245 (Erotides Campos (pseudônimo: Jonas Neves))
+- **434** — card 860 (A. Oliveira)
+- **435** — card 85 (José Coelho da Silva Araújo)
+- **448** — card 185 (Aristides Borges)
+- **538** — card 178 (Branca Bilhar)
+- **573** — card 199 (Mauricio Braga)
+- **581** — card 204 (José Domingues Brandão)
+- **601** — card 1193 (José Brasilício de Sousa)
+- **628** — card 233 (Joaquim Callado)
+- **633** — card 1315 (J. E. S. Queiroz)
+- **707** — card 1841 (Joaquim Édson de Camargo)
+- **718** — card 1318 (Amaral Campos)
+- **951** — card 257 (Guilherme Cantalice)
+- **961** — card 268 (Luís Gonzaga Baptista Cardoso)
+- **971** — card 285 (Joubert de Carvalho)
+- **1006** — card 276 (Oscar Carvalho Filho)
+- **1023** — card 307 (Carlos Severiano Cavalier-Darbilly)
+- **1032** — card 119 (João Vicente de Torres Bandeira)
+- **1042** — card 133 (José Coelho Barbosa)
+- **1062** — card 151 (A. Bastos)
+- **1084** — card 191 (Camillo Bourroul)
+- **1095** — card 203 (Demétrio Brandão (D.A.C.B))
+- **1118** — card 231 (A. N. Caldas)
+- **1125** — card 239 (Pedro Angelo Camin (P. Nimac))
+- **1147** — card 267 (Heitor Cardoso)
+- **1149** — card 1328 (M. Cardoso)
+- **1165** — card 280 (Balduíno R. Carvalho)
+- **1168** — card 281 (Carlos Teixeira de Carvalho (Corujinha))
+- **1245** — card 1330 (Juca Castro)
+- **1248** — card 305 (João L.A. Caula)
+- **1249** — card 306 (Aurélio Cavalcanti)
+- **1442** — card 316 (I.A. César)
+- **1445** — card 320 (Chagas Júnior)
+- **1448** — card 329 (José Garcia de Christo)
+- **1566** — card 358 (Luís Martins Corrêa)
+- **1571** — card 364 (Américo Eugênio da Fonseca Costa)
+- **1585** — card 366 (Arthur Tolentino Costa)
+- **1632** — card 840 (Chico Neto)
+- **1670** — card 359 (Marcelino Corrêa)
+- **1740** — card 1339 (Carlos Cortez)
+- **1744** — card 382 (Costa Júnior)
+- **1794** — card 373 (Guaraci da Costa)
+- **1796** — card 374 (Costinha)
+- **1811** — card 1344 (João Luiz de Almeida Cunha)
+- **1850** — card 431 (Octávio Dutra)
+- **1908** — card 416 (Misael Domingues)
+- **1951** — card 1350 (F. Duarte)
+- **1971** — card 1710 (Domínio Público)
+- **2043** — card 457 (Lilinha Fernandes (pseudônimo: Beatriz Fernandes))
+- **2065** — card 471 (Fabião Figueira)
+- **2071** — card 476 (Luiz Filgueiras)
+- **2074** — card 480 (José Lino de A. Fleming)
+- **2092** — card 498 (Ch. Fradel)
+- **2135** — card 489 (José Agostinho da Fonseca)
+- **2208** — card 753 (Anacleto de Medeiros)
+- **2261** — card 137 (Galdino Barreto)
+- **2267** — card 934 (Albertino Pimentel (Carramona))
+- **2344** — card 598 (Frederico de Jesus)
+- **2369** — card 516 (Pedro Galdino)
+- **2455** — card 565 (Aurélio Gregori)
+- **2469** — card 522 (Alfredo Gama)
+- **2508** — card 540 (Carlos Gomes)
+- **2514** — card 545 (L.C. Vogeler Gomes)
+- **2518** — card 555 (Gonçalves Júnior)
+- **2523** — card 1372 (Pe. José Maurício)
+- **2540** — card 559 (Chiquinha Gonzaga)
+- **2743** — card 523 (Cláudio da Gama)
+- **2756** — card 534 (Waldemar Godinho)
+- **2792** — card 585 (Geraldo Antônio Horta)
+- **2800** — card 594 (Canhoto)
+- **2812** — card 260 (Capitão Rangel)
+- **2819** — card 609 (Adolfo J. Kaulfuss)
+- **2821** — card 1382 (Aldinho)
+- **2862** — card 633 (E. Leite)
+- **2868** — card 647 (Luiz Levy (Yvu Leliz))
+- **2893** — card 637 (Azevedo Lemos)
+- **2905** — card 644 (Mary Leoray)
+- **2956** — card 661 (Mazarino de Azevedo Lima)
+- **2995** — card 670 (Arthur Lobo)
+- **3007** — card 678 (Germano Eduardo Lopes)
+- **3012** — card 616 (Lourenço Lamartine)
+- **3034** — card 739 (João Martins)
+- **3043** — card 692 (V.F. Luz)
+- **3053** — card 705 (Antônio César Ferreira Maciel)
+- **3061** — card 706 (Argentina Barbosa Viana Maciel)
+- **3064** — card 708 (Condessa)
+- **3080** — card 744 (Virgínia Elisa Martins)
+- **3096** — card 263 (Antônio Frederico Cardoso de Meneses)
+- **3105** — card 775 (Gerardo Metallo)
+- **3111** — card 780 (Abdon Milanez)
+- **3242** — card 719 (Malaquias)
+- **3309** — card 771 (Cardoso de Menezes)
+- **3313** — card 773 (Henrique Alves de Mesquita)
+- **3354** — card 777 (Francisco Mignone (pseudônimo: Chico Bororó))
+- **3372** — card 788 (Mondego)
+- **3431** — card 805 (Luís Moreira)
+- **3432** — card 768 (Cupertino Marques de Meneses)
+- **3448** — card 819 (Joaquim Naegele)
+- **3474** — card 853 (Nola)
+- **3522** — card 833 (Ernesto Nazareth)
+- **3658** — card 1423 (Emada)
+- **3716** — card 1430 (Pedro Sergio)
+- **3770** — card 842 (Abelardo Neves)
+- **3776** — card 1477 (Eduardo das Neves)
+- **3849** — card 888 (Jaime Ovalle)
+- **3875** — card 601 (João Pernambuco)
+- **4024** — card 844 (Índio)
+- **4051** — card 978 (Domingos Primerano)
+- **4056** — card 444 (Mário São João Rabelo)
+- **4058** — card 991 (José Ferreira Ramos)
+- **4106** — card 1006 (José Regadas)
+- **4107** — card 1008 (A. S. Reis)
+- **4132** — card 1059 (J. C. de O. Rosário)
+- **4177** — card 143 (Joanna Leal de Barros)
+- **4219** — card 1101 (Tristão Pio dos Santos)
+- **4229** — card 1120 (Amaro Ferreira da Silva)
+- **4249** — card 1161 (José Marcelino da Silveira)
+- **4256** — card 1178 (Belmiro Soler)
+- **4284** — card 1198 (Eduardo Souto)
+- **4315** — card 1188 (Ernesto Fernandes de Sousa)
+- **4380** — card 1095 (João dos Santos)
+- **4385** — card 1104 (Saturnino)
+- **4387** — card 1483 (Ângelo Scorza Neto)
+- **4414** — card 1140 (Júlio Silva)
+- **4425** — card 1153 (Raul Silva)
+- **4441** — card 1159 (F. L. da Silveira)
+- **4475** — card 1168 (Sinhô)
+- **4527** — card 1491 (Bastos Tigre)
+- **4553** — card 1504 (J. Vert)
+- **4553** — card 1503 (R. Soutullo)
+- **4702** — card 1272 (Ludovina Villas-Boas)
+- **4742** — card 1247 (Miguel A. de Vasconcelos)
+- **4776** — card 1277 (Viúva Guerreiro)
+- **4795** — card 1276 (Gaudio Viotti)
+- **4858** — card 1571 (Waldir Azevedo)
+- **4954** — card 1411 (Altamiro Carrilho)
+- **5088** — card 1408 (João Adelino Leal Brito)
+- **5320** — card 1412 (Jacob do Bandolim)
+- **5469** — card 1617 (Dunga)
+- **5561** — card 1553 (João Carrasqueira)
+- **5609** — card 1606 (Ataulfo Alves)
+- **5821** — card 284 (Joaquim Alves de Carvalho)
+- **5905** — card 324 (Arthur Justino de Sá Chaves)
+- **5908** — card 336 (C. Cirne)
+- **5957** — card 440 (Evora Filho)
+- **5965** — card 507 (Freire Júnior)
+- **6022** — card 1671 (Lucio de Lauro)
+- **6039** — card 675 (Abel F. Lopes)
+- **6044** — card 714 (Luís Magno)
+- **6048** — card 728 (Domingos José Marques)
+- **6052** — card 732 (Vicente Marsicano)
+- **6060** — card 763 (Rosina Santos Lopes de Mendonça)
+- **6065** — card 796 (Benedito Montes)
+- **6069** — card 254 (Caninha)
+- **6108** — card 902 (H. Passos)
+- **6114** — card 927 (Archimedes de Magalhães Pery)
+- **6120** — card 945 (J.L Pinna)
+- **6121** — card 955 (Biblu)
+- **6124** — card 973 (C. Póvoa)
+- **6207** — card 1184 (Cincinato Souza)
+- **6208** — card 1189 (Evilasio Sousa)
+- **6216** — card 1216 (Augusto Telles)
+- **6229** — card 1245 (Joaquim Vasconcelos)
+- **6264** — card 376 (L.F. da Costa)
+- **6316** — card 1685 (Ademir Cândido)
+- **6398** — card 1707 (Ernesto Lecuona)
+- **6432** — card 1337 (Ignacio Cervantes)
+- **6623** — card 1747 (Kiko Horta)
+- **6651** — card 1756 (Alberto Parro)
+- **6736** — card 1777 (José Furlan)
+- **6805** — card 1795 (Fulgencio Garcia)
+- **6807** — card 1792 (Ernesto Sánchez Gómez)
+- **6929** — card 1817 (Dinarte Mello)
+- **6930** — card 1761 (Alfredo Del-Penho)
+- **6957** — card 1822 (Waldemar Henrique)
+- **7049** — card 1829 (Ana de Hollanda)
+- **7073** — card 1805 (Luciana Rabello)
+- **7094** — card 1832 (Nilton Rangel)
+- **7094** — card 1835 (Fernando Rangel)
+- **7130** — card 1317 (Antônio Rocha)
+- … and 129 more in `docs/acervo-ingest-issues.csv`.
+
+### `curated_work` (2)
+
+- **2394** — kept from the sample even though the harvest does not cover it
+- **29** — kept from the sample even though the harvest does not cover it
+
 ### `curated_work_without_digitisation` (1)
 
 - **6266** — kept from the sample although no Partitura has a PDF
 
-### `instrument_without_loc_term` (1)
+### `derived_institution` (81)
 
+- **84** — editor 'Victor Prèalle' has no institution record; created from the name
+- **286** — editor 'Casa Arthur Napoleão' has no institution record; created from the name
+- **316** — editor 'Arthur Napoleão' has no institution record; created from the name
+- **321** — editor 'Arthur Napoleão & Cia' has no institution record; created from the name
+- **359** — editor 'Beverly Ltda' has no institution record; created from the name
+- **430** — editor 'Narciso & Arthur Napoleão' has no institution record; created from the name
+- **432** — editor 'Campassi & Camin' has no institution record; created from the name
+- **448** — editor 'Viúva Guerreiro & C' has no institution record; created from the name
+- **538** — editor 'E. Bevilacqua & C' has no institution record; created from the name
+- **640** — editor 'Viúva Canongia' has no institution record; created from the name
+- **707** — editor 'G. Ricordi & C' has no institution record; created from the name
+- **1168** — editor 'Vieira Machado & Cia' has no institution record; created from the name
+- **1248** — editor 'I. Bevilacqua' has no institution record; created from the name
+- **1254** — editor 'Fertin de Vasconcelos & Morand' has no institution record; created from the name
+- **1442** — editor "A. J. d'Azevedo" has no institution record; created from the name
+- **1445** — editor 'Pedro Tomassi' has no institution record; created from the name
+- **1794** — editor 'Editora Musical Beverly' has no institution record; created from the name
+- **1908** — editor 'Préalle & Cia' has no institution record; created from the name
+- **1951** — editor 'Neuparth & Carneiro' has no institution record; created from the name
+- **1971** — editor 'Sampaio Araújo & Cia' has no institution record; created from the name
+- **2065** — editor 'Sasset & Cia' has no institution record; created from the name
+- **2074** — editor 'Narciso & C' has no institution record; created from the name
+- **2471** — editor 'Eduardo Paiva' has no institution record; created from the name
+- **2508** — editor 'Imperial' has no institution record; created from the name
+- **2541** — editor 'Manoel Antonio Guimarães (arquivo de Almirante)' has no institution record; created from the name
+- **2654** — editor 'Manoel Antonio Guimarães' has no institution record; created from the name
+- **2700** — editor 'Casa Bevilacqua' has no institution record; created from the name
+- **2738** — editor 'Buschmann & Guimarães' has no institution record; created from the name
+- **2756** — editor 'B.L. Bittencourt' has no institution record; created from the name
+- **2800** — editor 'Cembra' has no institution record; created from the name
+- **2800** — editor 'I. M. L' has no institution record; created from the name
+- **2819** — editor 'Thierry F' has no institution record; created from the name
+- **2868** — editor 'Casa Levy' has no institution record; created from the name
+- **2893** — editor 'Arthur Napoelão & C' has no institution record; created from the name
+- **3008** — editor 'T. H. Canongia' has no institution record; created from the name
+- **3080** — editor 'Fertin Morand' has no institution record; created from the name
+- **3111** — editor 'I. Bevilacqua & C' has no institution record; created from the name
+- **3332** — editor 'Narcizo & Arthur Napoleão' has no institution record; created from the name
+- **3431** — editor 'Sotero de Souza' has no institution record; created from the name
+- **3522** — editor 'Ernesto Augusto de Mattos' has no institution record; created from the name
+- **3523** — editor 'Bevilacqua & C' has no institution record; created from the name
+- **3590** — editor 'P. Braga & C' has no institution record; created from the name
+- **3592** — editor 'E. Bevilacqua & Cia' has no institution record; created from the name
+- **3594** — editor 'Pereira & Araújo' has no institution record; created from the name
+- **3776** — editor 'Quaresma & Cia' has no institution record; created from the name
+- **3875** — editor 'Funarte - Ministério da Cultura' has no institution record; created from the name
+- **3878** — editor 'Casa Viúva Guerreiro' has no institution record; created from the name
+- **4056** — editor 'Porfirio Martins' has no institution record; created from the name
+- **4301** — editor 'E.S. Mangione' has no institution record; created from the name
+- **4301** — editor 'Carlos Carlos Gomes' has no institution record; created from the name
+- **4387** — editor 'Fermata do Brasil' has no institution record; created from the name
+- **4475** — editor 'Carlos Wehrs & C' has no institution record; created from the name
+- **4476** — editor 'Casa Bethoveen - Nascimento e Silva & C' has no institution record; created from the name
+- **4526** — editor 'Casa Carlos Gomes' has no institution record; created from the name
+- **4694** — editor 'C.E.M.B S.Paulo' has no institution record; created from the name
+- **4858** — editor 'Editora Musical Brasileira Ltda' has no institution record; created from the name
+- **4954** — editor 'Bruno Quaino Material Cultural Ltda' has no institution record; created from the name
+- **4981** — editor 'Edições Intersong Ltda' has no institution record; created from the name
+- **5027** — editor 'Editora Musical Romance Ltda' has no institution record; created from the name
+- **5029** — editor 'Rio Musical Ltda (com cifra manuscrita)' has no institution record; created from the name
+- **5029** — editor 'Rio Musical Ltda' has no institution record; created from the name
+- **5320** — editor 'Editora Musical Victor Ltda' has no institution record; created from the name
+- **5821** — editor 'Viúva Canongia & Cia' has no institution record; created from the name
+- **5908** — editor 'Aurélio Cavalcanti Editor' has no institution record; created from the name
+- **5965** — editor 'Casa Viúva Guerreiro & Cia' has no institution record; created from the name
+- **5966** — editor 'Casa Carlos Gomes & Cia' has no institution record; created from the name
+- **5983** — editor 'Casa Beethoven - Nascimento Silva & Cia' has no institution record; created from the name
+- **6048** — editor 'Victor Prealle, Successor' has no institution record; created from the name
+- **6060** — editor 'Viriato Montenegro' has no institution record; created from the name
+- **6100** — editor 'C.E.M.B' has no institution record; created from the name
+- **6121** — editor 'Nascimento Silva & Cia' has no institution record; created from the name
+- **6207** — editor 'C. Abreu' has no institution record; created from the name
+- **6398** — editor 'Ediciones Quiroga' has no institution record; created from the name
+- **6651** — editor 'Bandeirante Editora Musical Ltda' has no institution record; created from the name
+- **6957** — editor 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no institution record; created from the name
+- **7461** — editor 'Universidade Federal de Santa Catarina - UFSC' has no institution record; created from the name
+- **7557** — editor 'Clube do Choro - Curitiba' has no institution record; created from the name
+- **7652** — editor 'Guitar Solo Publication' has no institution record; created from the name
+- **7965** — editor 'Viuva Guerreiro & Cia' has no institution record; created from the name
+- **9598** — editor 'Mangione' has no institution record; created from the name
+- **10681** — publisher 'C' has no institution record; created from the name
+
+### `institution_without_location` (81)
+
+- **A. J. d'Azevedo** — created from the name of an edition; the place is unknown
+- **Arthur Napoelão & C** — created from the name of an edition; the place is unknown
+- **Arthur Napoleão** — created from the name of an edition; the place is unknown
+- **Arthur Napoleão & Cia** — created from the name of an edition; the place is unknown
+- **Aurélio Cavalcanti Editor** — created from the name of an edition; the place is unknown
+- **B.L. Bittencourt** — created from the name of an edition; the place is unknown
+- **Bandeirante Editora Musical Ltda** — created from the name of an edition; the place is unknown
+- **Beverly Ltda** — created from the name of an edition; the place is unknown
+- **Bevilacqua & C** — created from the name of an edition; the place is unknown
+- **Bruno Quaino Material Cultural Ltda** — created from the name of an edition; the place is unknown
+- **Buschmann & Guimarães** — created from the name of an edition; the place is unknown
+- **C** — created from the name of an edition; the place is unknown
+- **C. Abreu** — created from the name of an edition; the place is unknown
+- **C.E.M.B** — created from the name of an edition; the place is unknown
+- **C.E.M.B S.Paulo** — created from the name of an edition; the place is unknown
+- **Campassi & Camin** — created from the name of an edition; the place is unknown
+- **Carlos Carlos Gomes** — created from the name of an edition; the place is unknown
+- **Carlos Wehrs & C** — created from the name of an edition; the place is unknown
+- **Casa Arthur Napoleão** — created from the name of an edition; the place is unknown
+- **Casa Beethoven - Nascimento Silva & Cia** — created from the name of an edition; the place is unknown
+- **Casa Bethoveen - Nascimento e Silva & C** — created from the name of an edition; the place is unknown
+- **Casa Bevilacqua** — created from the name of an edition; the place is unknown
+- **Casa Carlos Gomes** — created from the name of an edition; the place is unknown
+- **Casa Carlos Gomes & Cia** — created from the name of an edition; the place is unknown
+- **Casa Levy** — created from the name of an edition; the place is unknown
+- **Casa Viúva Guerreiro** — created from the name of an edition; the place is unknown
+- **Casa Viúva Guerreiro & Cia** — created from the name of an edition; the place is unknown
+- **Cembra** — created from the name of an edition; the place is unknown
+- **Clube do Choro - Curitiba** — created from the name of an edition; the place is unknown
+- **E. Bevilacqua & C** — created from the name of an edition; the place is unknown
+- **E. Bevilacqua & Cia** — created from the name of an edition; the place is unknown
+- **E.S. Mangione** — created from the name of an edition; the place is unknown
+- **Ediciones Quiroga** — created from the name of an edition; the place is unknown
+- **Edições Intersong Ltda** — created from the name of an edition; the place is unknown
+- **Editora Musical Beverly** — created from the name of an edition; the place is unknown
+- **Editora Musical Brasileira Ltda** — created from the name of an edition; the place is unknown
+- **Editora Musical Romance Ltda** — created from the name of an edition; the place is unknown
+- **Editora Musical Victor Ltda** — created from the name of an edition; the place is unknown
+- **Eduardo Paiva** — created from the name of an edition; the place is unknown
+- **Ernesto Augusto de Mattos** — created from the name of an edition; the place is unknown
+- **Fermata do Brasil** — created from the name of an edition; the place is unknown
+- **Fertin de Vasconcelos & Morand** — created from the name of an edition; the place is unknown
+- **Fertin Morand** — created from the name of an edition; the place is unknown
+- **Funarte - Ministério da Cultura** — created from the name of an edition; the place is unknown
+- **Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)** — created from the name of an edition; the place is unknown
+- **G. Ricordi & C** — created from the name of an edition; the place is unknown
+- **Guitar Solo Publication** — created from the name of an edition; the place is unknown
+- **I. Bevilacqua** — created from the name of an edition; the place is unknown
+- **I. Bevilacqua & C** — created from the name of an edition; the place is unknown
+- **I. M. L** — created from the name of an edition; the place is unknown
+- **Imperial** — created from the name of an edition; the place is unknown
+- **Mangione** — created from the name of an edition; the place is unknown
+- **Manoel Antonio Guimarães** — created from the name of an edition; the place is unknown
+- **Manoel Antonio Guimarães (arquivo de Almirante)** — created from the name of an edition; the place is unknown
+- **Narciso & Arthur Napoleão** — created from the name of an edition; the place is unknown
+- **Narciso & C** — created from the name of an edition; the place is unknown
+- **Narcizo & Arthur Napoleão** — created from the name of an edition; the place is unknown
+- **Nascimento Silva & Cia** — created from the name of an edition; the place is unknown
+- **Neuparth & Carneiro** — created from the name of an edition; the place is unknown
+- **P. Braga & C** — created from the name of an edition; the place is unknown
+- **Pedro Tomassi** — created from the name of an edition; the place is unknown
+- **Pereira & Araújo** — created from the name of an edition; the place is unknown
+- **Porfirio Martins** — created from the name of an edition; the place is unknown
+- **Préalle & Cia** — created from the name of an edition; the place is unknown
+- **Quaresma & Cia** — created from the name of an edition; the place is unknown
+- **Rio Musical Ltda** — created from the name of an edition; the place is unknown
+- **Rio Musical Ltda (com cifra manuscrita)** — created from the name of an edition; the place is unknown
+- **Sampaio Araújo & Cia** — created from the name of an edition; the place is unknown
+- **Sasset & Cia** — created from the name of an edition; the place is unknown
+- **Sotero de Souza** — created from the name of an edition; the place is unknown
+- **T. H. Canongia** — created from the name of an edition; the place is unknown
+- **Thierry F** — created from the name of an edition; the place is unknown
+- **Universidade Federal de Santa Catarina - UFSC** — created from the name of an edition; the place is unknown
+- **Victor Prèalle** — created from the name of an edition; the place is unknown
+- **Victor Prealle, Successor** — created from the name of an edition; the place is unknown
+- **Vieira Machado & Cia** — created from the name of an edition; the place is unknown
+- **Viriato Montenegro** — created from the name of an edition; the place is unknown
+- **Viúva Canongia** — created from the name of an edition; the place is unknown
+- **Viúva Canongia & Cia** — created from the name of an edition; the place is unknown
+- **Viúva Guerreiro & C** — created from the name of an edition; the place is unknown
+- **Viuva Guerreiro & Cia** — created from the name of an edition; the place is unknown
+
+### `instrument_without_loc_term` (49)
+
+- **acordeom** — no Library of Congress medium-of-performance term
+- **bateria** — no Library of Congress medium-of-performance term
+- **bombardino** — no Library of Congress medium-of-performance term
+- **flautim** — no Library of Congress medium-of-performance term
+- **requinta eb** — no Library of Congress medium-of-performance term
+- **bombardino c** — no Library of Congress medium-of-performance term
+- **saxofone** — no Library of Congress medium-of-performance term
+- **saxofone tenor** — no Library of Congress medium-of-performance term
+- **bandola** — no Library of Congress medium-of-performance term
+- **cavaquinho** — no Library of Congress medium-of-performance term
+- **percussao** — no Library of Congress medium-of-performance term
+- **violao 7 cordas** — no Library of Congress medium-of-performance term
+- **pandeiro** — no Library of Congress medium-of-performance term
+- **clarone bb** — no Library of Congress medium-of-performance term
+- **base** — no Library of Congress medium-of-performance term
+- **saxofone alto** — no Library of Congress medium-of-performance term
+- **tuba** — no Library of Congress medium-of-performance term
+- **piston** — no Library of Congress medium-of-performance term
+- **bombardino bb** — no Library of Congress medium-of-performance term
+- **bumbo** — no Library of Congress medium-of-performance term
+- **contrabaixo bb** — no Library of Congress medium-of-performance term
+- **contrabaixo eb** — no Library of Congress medium-of-performance term
+- **bombardino 1** — no Library of Congress medium-of-performance term
+- **bombardino 2** — no Library of Congress medium-of-performance term
+- **sax horn eb 1** — no Library of Congress medium-of-performance term
+- **sax horn eb 2** — no Library of Congress medium-of-performance term
+- **sax horn eb 3** — no Library of Congress medium-of-performance term
+- **flauta g** — no Library of Congress medium-of-performance term
+- **instrumento em clave de fa** — no Library of Congress medium-of-performance term
+- **instrumentos em bb** — no Library of Congress medium-of-performance term
 - **instrumentos em c** — no Library of Congress medium-of-performance term
+- **percussao 2** — no Library of Congress medium-of-performance term
+- **tenor bb** — no Library of Congress medium-of-performance term
+- **coro 1** — no Library of Congress medium-of-performance term
+- **coro 2** — no Library of Congress medium-of-performance term
+- **piano e canto** — no Library of Congress medium-of-performance term
+- **trombone c** — no Library of Congress medium-of-performance term
+- **sax tenor 1** — no Library of Congress medium-of-performance term
+- **sax tenor 2** — no Library of Congress medium-of-performance term
+- **clarinete eb** — no Library of Congress medium-of-performance term
+- **trombone (bomb)** — no Library of Congress medium-of-performance term
+- **tuba bb** — no Library of Congress medium-of-performance term
+- **tuba c** — no Library of Congress medium-of-performance term
+- **saxofone 1** — no Library of Congress medium-of-performance term
+- **saxofone 2** — no Library of Congress medium-of-performance term
+- **voz - baixo** — no Library of Congress medium-of-performance term
+- **voz - contralto** — no Library of Congress medium-of-performance term
+- **voz - soprano** — no Library of Congress medium-of-performance term
+- **voz - tenor** — no Library of Congress medium-of-performance term
 
-### `instrumentation_without_label` (5)
+### `instrumentation_without_label` (56)
 
-- **baixo + violao + flauta 1 + flauta 2 + flauta 3 + flauta 4** — the archive's words are used as the label
+- **acordeom** — the archive's words are used as the label
+- **baixo** — the archive's words are used as the label
+- **baixo + bateria + bombardino + clarinete bb 1 + clarinete bb 2 + clarinete bb 3 + flautim + piano + requinta eb + sax alto eb 1 + sax alto eb 2 + trompete bb** — the archive's words are used as the label
+- **baixo + bateria + cello + clarinete bb + flauta + piano + trombone + trompete bb + violino** — the archive's words are used as the label
+- **baixo + bateria + cello + clarinete bb + flauta + piano + trompete bb 1 + violino 1 + violino 2** — the archive's words are used as the label
+- **baixo + bateria + cello + clarinete bb + flauta + piano + violino 1 + violino 2** — the archive's words are used as the label
+- **baixo + bombardino c + clarinete + saxofone** — the archive's words are used as the label
+- **baixo + cello + clarinete + flauta + piano + violino** — the archive's words are used as the label
+- **baixo + cello + clarinete bb + flauta + violao 1 + violao 2** — the archive's words are used as the label
+- **baixo + cello + piano + viola + violino** — the archive's words are used as the label
+- **baixo + clarinete bb 1 + clarinete bb 2 + flauta + flautim + sax alto eb 1 + sax alto eb 2 + saxofone tenor + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
+- **baixo + piano + sax alto eb 1 + sax alto eb 2 + sax tenor bb + trombone + trompete bb 1 + trompete bb 2 + violino** — the archive's words are used as the label
+- **bandola** — the archive's words are used as the label
 - **bandolim** — the archive's words are used as the label
+- **bandolim + cavaquinho + clarinete + percussao + violao + violao 7 cordas** — the archive's words are used as the label
+- **bandolim + cavaquinho + pandeiro + violao + violao 7 cordas** — the archive's words are used as the label
+- **bandolim + clarone bb + flauta + violao** — the archive's words are used as the label
+- **bandolim + flauta** — the archive's words are used as the label
+- **bandolim + violao** — the archive's words are used as the label
+- **base** — the archive's words are used as the label
+- **bombardino + clarinete + saxofone alto + saxofone tenor + tuba + piston** — the archive's words are used as the label
+- **bombardino bb** — the archive's words are used as the label
+- **bombardino c + bumbo + contrabaixo bb + contrabaixo eb + bombardino 1 + bombardino 2 + clarinete bb 1 + clarinete bb 2 + sax horn eb 1 + sax horn eb 2 + sax horn eb 3 + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **canto + piano** — the archive's words are used as the label
+- **clarinete** — the archive's words are used as the label
+- **clarinete + piston + sax alto eb + sax tenor bb + trombone** — the archive's words are used as the label
+- **clarinete bb** — the archive's words are used as the label
 - **flauta** — the archive's words are used as the label
-- **instrumentos em c + violao** — the archive's words are used as the label
+- **flauta + clarinete bb** — the archive's words are used as the label
+- **flauta g** — the archive's words are used as the label
+- **flautim** — the archive's words are used as the label
+- **instrumento em clave de fa** — the archive's words are used as the label
+- **instrumento em clave de fa + instrumentos em bb** — the archive's words are used as the label
+- **instrumentos em bb** — the archive's words are used as the label
+- **instrumentos em c** — the archive's words are used as the label
+- **percussao** — the archive's words are used as the label
+- **percussao + percussao 2 + piano + sax tenor bb + trombone + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
+- **piano + baixo + sax alto eb 1 + sax alto eb 2 + tenor bb + trombone + trompete bb 1 + trompete bb 2 + violino 1 + violino 2** — the archive's words are used as the label
+- **piano + clarinete bb + flauta + piston + violino** — the archive's words are used as the label
+- **piano + coro 1 + coro 2** — the archive's words are used as the label
+- **piano e canto** — the archive's words are used as the label
+- **sax alto eb** — the archive's words are used as the label
+- **sax alto eb + trombone** — the archive's words are used as the label
+- **sax alto eb + trombone c** — the archive's words are used as the label
+- **sax tenor 1** — the archive's words are used as the label
+- **sax tenor 2** — the archive's words are used as the label
+- **sax tenor bb + clarinete bb + clarinete eb + sax alto eb + trombone (bomb) + trompete bb + tuba bb + tuba c** — the archive's words are used as the label
+- **saxofone 1** — the archive's words are used as the label
+- **saxofone 2** — the archive's words are used as the label
+- **trombone** — the archive's words are used as the label
+- **trompete bb** — the archive's words are used as the label
+- **trompete bb 1** — the archive's words are used as the label
+- **trompete bb 2** — the archive's words are used as the label
+- **violao** — the archive's words are used as the label
+- **violao 1 + violao 2** — the archive's words are used as the label
+- **voz - baixo + voz - contralto + voz - soprano + voz - tenor** — the archive's words are used as the label
 
 ### `place_not_identified` (2)
 
 - **110** — Local não identificado
 - **1899** — Compositor estrangeiro
 
-### `provisional_person` (5)
+### `provisional_person` (79)
 
 - **36** — lyricist 'Castello Netto' → urn:uuid:persons/1776520380
-- **78** — lyricist 'Eurico Barreiros' → urn:uuid:persons/1585893179
-- **78** — lyricist 'Dr. Eurico Barreiro' → urn:uuid:persons/1881306446
-- **78** — arranger 'Anna Paes' → urn:uuid:persons/1265036441
-- **2797** — copyist 'Mário Peixoto' → urn:uuid:persons/1265511671
+- **98** — lyricist 'Escola Portátil /2007' → urn:uuid:persons/1045566190
+- **98** — lyricist 'Manuscrito do arranjo original do autor p/ piano e quinteto clarinete, pistom, bombardino, baixo, sax' → urn:uuid:persons/1325564929
+- **132** — copyist 'Bide (Alcebíades Vieira Nunes)' → urn:uuid:persons/1679053332
+- **257** — lyricist 'È a resposta da polka para piano "Nhônhô fasenda"' → urn:uuid:persons/1788625718
+- **294** — lyricist 'do próprio autor' → urn:uuid:persons/1859927141
+- **359** — lyricist 'Pesquisa e restauração de Regis Duprat e Rogério Duprat' → urn:uuid:persons/1440910362
+- **373** — lyricist "Offerecida a seu amigo Laurindo D'Avellar e Almeida" → urn:uuid:persons/1385833068
+- **390** — lyricist 'Dedicada ao ilustrissemo Senr. Dr. Rodrigo Lobato Marcondes Machado' → urn:uuid:persons/1492969656
+- **432** — lyricist 'Jonas Neves' → urn:uuid:persons/1574739701
+- **448** — lyricist 'Versos de Gomes Junior' → urn:uuid:persons/1779627496
+- **573** — copyist 'Manuel Pedro Nascimento' → urn:uuid:persons/1472228247
+- **640** — copyist 'Azevedo Pimentel' → urn:uuid:persons/1017290919
+- **640** — copyist 'Oswaldo Bitelli' → urn:uuid:persons/1163490796
+- **641** — copyist 'Jacob Pick Bittencourt (Jacob do Bandolim)' → urn:uuid:persons/1216543244
+- **707** — lyricist 'Iamerô' → urn:uuid:persons/1001589712
+- **729** — lyricist 'G. Pesce' → urn:uuid:persons/1036512749
+- **745** — copyist 'Nascimento' → urn:uuid:persons/1720333196
+- **751** — copyist 'Jupyaçara' → urn:uuid:persons/1100959309
+- **751** — arranger 'Luiz Flávio Alcofra' → urn:uuid:persons/1337709055
+- **822** — copyist 'Candinho (Cândido Pereira da Silva)' → urn:uuid:persons/1756788531
+- **949** — copyist 'Candinho' → urn:uuid:persons/1643776192
+- **1168** — arranger 'Marcílio Lopes' → urn:uuid:persons/1378778470
+- **1249** — copyist 'Claudio Monteiro' → urn:uuid:persons/1400134864
+- **1249** — arranger 'Anna Paes' → urn:uuid:persons/1265036441
+- **1445** — lyricist 'J. Felizardo' → urn:uuid:persons/1134997419
+- **1566** — lyricist 'Francisco Telles' → urn:uuid:persons/1633998729
+- **1632** — copyist 'Sérgio Napoleão Belluco' → urn:uuid:persons/1237281820
+- **1632** — copyist 'Vadinho' → urn:uuid:persons/1104793099
+- **1632** — copyist 'Manoel Pedro Nascimento' → urn:uuid:persons/1664591566
+- **1670** — arranger 'Jayme Vignoli' → urn:uuid:persons/1009771273
+- **1740** — copyist 'Ruy Jorge da Costa' → urn:uuid:persons/1849380689
+- **1802** — copyist 'Theodoro Aguilar' → urn:uuid:persons/1096286736
+- **1818** — copyist 'Luiza Cardoso' → urn:uuid:persons/1472592061
+- **2135** — copyist 'Wilde Dias da Fonseca' → urn:uuid:persons/1306738344
+- **2216** — lyricist 'Ao Alferes Luiz Portugal' → urn:uuid:persons/1293266419
+- **2216** — copyist 'Cópia Theodoro Aguilar' → urn:uuid:persons/1024489725
+- **2216** — copyist 'Mário Peixoto' → urn:uuid:persons/1265511671
+- **2261** — copyist 'Candinho do Trombone' → urn:uuid:persons/1075494287
+- **2261** — copyist 'Arquivo de Gerson Ferreira Pinto' → urn:uuid:persons/1209217592
+- **2267** — copyist 'Arnaldo Corrêa' → urn:uuid:persons/1001596025
+- **2279** — copyist 'J. Cunha' → urn:uuid:persons/1588978446
+- **2279** — arranger 'Paula Borghi' → urn:uuid:persons/1663045432
+- **2514** — copyist 'Ilydio Nascimento' → urn:uuid:persons/1557429544
+- **2541** — lyricist 'Ernesto Mattoso' → urn:uuid:persons/1530523068
+- **2552** — lyricist 'Poema de Dr. Mario Monteiro' → urn:uuid:persons/1448825469
+- **2555** — lyricist 'Dr. Avelino de Andrande' → urn:uuid:persons/1814959265
+- **2556** — lyricist 'J. Senna' → urn:uuid:persons/1052814050
+- **2593** — lyricist 'Francisco Sodré' → urn:uuid:persons/1880390561
+- **2641** — lyricist 'Ernesto de Souza' → urn:uuid:persons/1484577311
+- **2654** — lyricist 'Patrocínio Filho' → urn:uuid:persons/1591004980
+- **2700** — lyricist 'Viriato Corrêa' → urn:uuid:persons/1776143228
+- **2868** — lyricist 'Arlindo Leal' → urn:uuid:persons/1821377127
+- **2893** — lyricist 'Brandão' → urn:uuid:persons/1821210586
+- **3012** — copyist 'Manuel Pedro do Nascimento' → urn:uuid:persons/1320280755
+- **3043** — copyist 'V. F. Luz' → urn:uuid:persons/1557453996
+- **3318** — arranger 'João Gabriel Souto' → urn:uuid:persons/1326114362
+- **3448** — copyist 'Voltaire Vogas' → urn:uuid:persons/1214116628
+- **3592** — lyricist 'Dedicada a sua filha Marietta' → urn:uuid:persons/1272306924
+- **3595** — lyricist 'A Antônio Carlos Gomes (o Gênio)' → urn:uuid:persons/1716559039
+- **3658** — copyist 'Bartholomeu Rosa (Caderno)' → urn:uuid:persons/1216242672
+- **4553** — copyist 'Sérgio Napoleão Belucco' → urn:uuid:persons/1567137601
+- **5088** — arranger 'Lucas Porto' → urn:uuid:persons/1129553018
+- **5822** — lyricist 'Olegario Mariano' → urn:uuid:persons/1260926021
+- **5983** — lyricist 'Raul Pederneiras' → urn:uuid:persons/1316333247
+- **6069** — lyricist 'Ary Kerner Veiga de Castro' → urn:uuid:persons/1574470419
+- **6623** — copyist 'José Mauricio B. P. Horta (Kiko Horta)' → urn:uuid:persons/1639064819
+- **7652** — arranger 'Carlos Barbosa-Lima' → urn:uuid:persons/1688150430
+- **7652** — arranger 'Nelson Piló' → urn:uuid:persons/1104916803
+- **9524** — arranger 'Alexandre G. de Almeida' → urn:uuid:persons/1489276218
+- **9551** — lyricist 'Mario Castellar' → urn:uuid:persons/1270189618
+- **9553** — lyricist 'Raymundo Chaves' → urn:uuid:persons/1423146943
+- **9554** — lyricist 'Arthur R. O. Filho' → urn:uuid:persons/1192492182
+- **9558** — arranger 'Arthur Abreu' → urn:uuid:persons/1064986841
+- **9558** — lyricist 'Thereza Kury' → urn:uuid:persons/1013113852
+- **9562** — lyricist 'em espanhol de Pedro Berrios' → urn:uuid:persons/1840697439
+- **9584** — arranger 'A. F. de Abreu' → urn:uuid:persons/1203198552
+- **9587** — arranger 'Marcelo Abdala' → urn:uuid:persons/1111070431
+- **9634** — lyricist ',' → urn:uuid:persons/1291307811
 
-### `skipped_work_without_digitisation` (2)
+### `publication_event_omitted` (199)
 
-- **25** — no Partitura has a PDF
-- **6266** — no Partitura has a PDF
+- **84** — publisher 'Victor Prèalle' has no known place of publication
+- **316** — publisher 'Arthur Napoleão' has no known place of publication
+- **321** — publisher 'Arthur Napoleão & Cia' has no known place of publication
+- **322** — publisher 'Arthur Napoleão & Cia' has no known place of publication
+- **359** — publisher 'Beverly Ltda' has no known place of publication
+- **421** — publisher 'Victor Prèalle' has no known place of publication
+- **430** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **432** — publisher 'Campassi & Camin' has no known place of publication
+- **435** — publisher 'Victor Prèalle' has no known place of publication
+- **633** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **640** — publisher 'Viúva Canongia' has no known place of publication
+- **729** — publisher 'Campassi & Camin' has no known place of publication
+- **971** — publisher 'Campassi & Camin' has no known place of publication
+- **1095** — publisher 'Victor Prèalle' has no known place of publication
+- **1125** — publisher 'Campassi & Camin' has no known place of publication
+- **1168** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1238** — publisher 'Campassi & Camin' has no known place of publication
+- **1248** — publisher 'I. Bevilacqua' has no known place of publication
+- **1249** — publisher 'I. Bevilacqua' has no known place of publication
+- **1253** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1254** — publisher 'Fertin de Vasconcelos & Morand' has no known place of publication
+- **1277** — publisher 'I. Bevilacqua' has no known place of publication
+- **1442** — publisher "A. J. d'Azevedo" has no known place of publication
+- **1445** — publisher 'Pedro Tomassi' has no known place of publication
+- **1448** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1566** — publisher 'Casa Arthur Napoleão' has no known place of publication
+- **1571** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1747** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1794** — publisher 'Editora Musical Beverly' has no known place of publication
+- **1908** — publisher 'Préalle & Cia' has no known place of publication
+- **1947** — publisher 'Préalle & Cia' has no known place of publication
+- **1951** — publisher 'Neuparth & Carneiro' has no known place of publication
+- **1971** — publisher 'Sampaio Araújo & Cia' has no known place of publication
+- **2065** — publisher 'Sasset & Cia' has no known place of publication
+- **2463** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **2469** — publisher 'Préalle & Cia' has no known place of publication
+- **2471** — publisher 'Eduardo Paiva' has no known place of publication
+- **2508** — publisher 'Imperial' has no known place of publication
+- **2541** — publisher 'Manoel Antonio Guimarães (arquivo de Almirante)' has no known place of publication
+- **2542** — publisher 'Casa Arthur Napoleão' has no known place of publication
+- **2654** — publisher 'Manoel Antonio Guimarães' has no known place of publication
+- **2700** — publisher 'Casa Bevilacqua' has no known place of publication
+- **2738** — publisher 'Buschmann & Guimarães' has no known place of publication
+- **2756** — publisher 'B.L. Bittencourt' has no known place of publication
+- **2800** — publisher 'Cembra' has no known place of publication
+- **2868** — publisher 'Casa Levy' has no known place of publication
+- **2905** — publisher 'I. Bevilacqua' has no known place of publication
+- **2956** — publisher 'Buschmann & Guimarães' has no known place of publication
+- **3008** — publisher 'T. H. Canongia' has no known place of publication
+- **3053** — publisher 'Arthur Napoleão' has no known place of publication
+- **3080** — publisher 'Fertin Morand' has no known place of publication
+- **3096** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **3097** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **3318** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **3319** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **3332** — publisher 'Narcizo & Arthur Napoleão' has no known place of publication
+- **3334** — publisher 'Buschmann & Guimarães' has no known place of publication
+- **3431** — publisher 'Sotero de Souza' has no known place of publication
+- **3522** — publisher 'Ernesto Augusto de Mattos' has no known place of publication
+- **3540** — publisher 'Arthur Napoleão' has no known place of publication
+- **3592** — publisher 'E. Bevilacqua & Cia' has no known place of publication
+- **3594** — publisher 'Pereira & Araújo' has no known place of publication
+- **3595** — publisher 'Sampaio Araújo & Cia' has no known place of publication
+- **3875** — publisher 'Funarte - Ministério da Cultura' has no known place of publication
+- **3878** — publisher 'Casa Viúva Guerreiro' has no known place of publication
+- **4056** — publisher 'Porfirio Martins' has no known place of publication
+- **4132** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **4249** — publisher 'Casa Levy' has no known place of publication
+- **4284** — publisher 'Campassi & Camin' has no known place of publication
+- **4301** — publisher 'E.S. Mangione' has no known place of publication
+- **4301** — publisher 'Carlos Carlos Gomes' has no known place of publication
+- **4387** — publisher 'Fermata do Brasil' has no known place of publication
+- **4526** — publisher 'Casa Carlos Gomes' has no known place of publication
+- **4527** — publisher 'Casa Carlos Gomes' has no known place of publication
+- **4550** — publisher 'Casa Carlos Gomes' has no known place of publication
+- **4694** — publisher 'C.E.M.B S.Paulo' has no known place of publication
+- **4702** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **4776** — publisher 'Casa Viúva Guerreiro' has no known place of publication
+- **4954** — publisher 'Bruno Quaino Material Cultural Ltda' has no known place of publication
+- **4981** — publisher 'Edições Intersong Ltda' has no known place of publication
+- **5027** — publisher 'Editora Musical Romance Ltda' has no known place of publication
+- **5029** — publisher 'Rio Musical Ltda (com cifra manuscrita)' has no known place of publication
+- **5469** — publisher 'Fermata do Brasil' has no known place of publication
+- **5823** — publisher 'E.S. Mangione' has no known place of publication
+- **5847** — publisher 'Campassi & Camin' has no known place of publication
+- **5908** — publisher 'Aurélio Cavalcanti Editor' has no known place of publication
+- **5966** — publisher 'Casa Carlos Gomes & Cia' has no known place of publication
+- **5983** — publisher 'Casa Beethoven - Nascimento Silva & Cia' has no known place of publication
+- **6022** — publisher 'I. Bevilacqua' has no known place of publication
+- **6048** — publisher 'Victor Prealle, Successor' has no known place of publication
+- **6060** — publisher 'Viriato Montenegro' has no known place of publication
+- **6108** — publisher 'Sampaio Araújo & Cia' has no known place of publication
+- **6114** — publisher 'Casa Viúva Guerreiro' has no known place of publication
+- **6124** — publisher 'Campassi & Camin' has no known place of publication
+- **6207** — publisher 'C. Abreu' has no known place of publication
+- **6216** — publisher 'Arthur Napoleão & Cia' has no known place of publication
+- **6230** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **6398** — publisher 'Ediciones Quiroga' has no known place of publication
+- **6957** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **6958** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **6959** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **6960** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **6961** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **6962** — publisher 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no known place of publication
+- **7461** — publisher 'Universidade Federal de Santa Catarina - UFSC' has no known place of publication
+- **7557** — publisher 'Clube do Choro - Curitiba' has no known place of publication
+- **7652** — publisher 'Guitar Solo Publication' has no known place of publication
+- **7652** — publisher 'Arthur Napoleão' has no known place of publication
+- **9550** — publisher 'E.S. Mangione' has no known place of publication
+- **9551** — publisher 'E.S. Mangione' has no known place of publication
+- **9552** — publisher 'E.S. Mangione' has no known place of publication
+- **9553** — publisher 'E.S. Mangione' has no known place of publication
+- **9554** — publisher 'E.S. Mangione' has no known place of publication
+- **9555** — publisher 'E.S. Mangione' has no known place of publication
+- **9556** — publisher 'E.S. Mangione' has no known place of publication
+- **9557** — publisher 'E.S. Mangione' has no known place of publication
+- **9558** — publisher 'E.S. Mangione' has no known place of publication
+- **9559** — publisher 'E.S. Mangione' has no known place of publication
+- **9560** — publisher 'E.S. Mangione' has no known place of publication
+- **9561** — publisher 'E.S. Mangione' has no known place of publication
+- **9562** — publisher 'E.S. Mangione' has no known place of publication
+- **9563** — publisher 'E.S. Mangione' has no known place of publication
+- **9564** — publisher 'E.S. Mangione' has no known place of publication
+- **9565** — publisher 'E.S. Mangione' has no known place of publication
+- **9566** — publisher 'E.S. Mangione' has no known place of publication
+- **9567** — publisher 'E.S. Mangione' has no known place of publication
+- **9568** — publisher 'E.S. Mangione' has no known place of publication
+- **9569** — publisher 'E.S. Mangione' has no known place of publication
+- **9570** — publisher 'E.S. Mangione' has no known place of publication
+- **9571** — publisher 'E.S. Mangione' has no known place of publication
+- **9572** — publisher 'E.S. Mangione' has no known place of publication
+- **9573** — publisher 'E.S. Mangione' has no known place of publication
+- **9574** — publisher 'E.S. Mangione' has no known place of publication
+- **9575** — publisher 'E.S. Mangione' has no known place of publication
+- **9576** — publisher 'E.S. Mangione' has no known place of publication
+- **9577** — publisher 'E.S. Mangione' has no known place of publication
+- **9578** — publisher 'E.S. Mangione' has no known place of publication
+- **9579** — publisher 'E.S. Mangione' has no known place of publication
+- **9580** — publisher 'E.S. Mangione' has no known place of publication
+- **9581** — publisher 'E.S. Mangione' has no known place of publication
+- **9582** — publisher 'E.S. Mangione' has no known place of publication
+- **9583** — publisher 'E.S. Mangione' has no known place of publication
+- **9584** — publisher 'E.S. Mangione' has no known place of publication
+- **9586** — publisher 'E.S. Mangione' has no known place of publication
+- **9587** — publisher 'E.S. Mangione' has no known place of publication
+- **9588** — publisher 'E.S. Mangione' has no known place of publication
+- **9589** — publisher 'E.S. Mangione' has no known place of publication
+- **9590** — publisher 'E.S. Mangione' has no known place of publication
+- **9591** — publisher 'E.S. Mangione' has no known place of publication
+- **9592** — publisher 'E.S. Mangione' has no known place of publication
+- **9593** — publisher 'E.S. Mangione' has no known place of publication
+- **9594** — publisher 'E.S. Mangione' has no known place of publication
+- **9595** — publisher 'E.S. Mangione' has no known place of publication
+- **9596** — publisher 'E.S. Mangione' has no known place of publication
+- **9597** — publisher 'E.S. Mangione' has no known place of publication
+- **9598** — publisher 'Mangione' has no known place of publication
+- **9599** — publisher 'E.S. Mangione' has no known place of publication
+- **9600** — publisher 'E.S. Mangione' has no known place of publication
+- **9601** — publisher 'E.S. Mangione' has no known place of publication
+- **9602** — publisher 'E.S. Mangione' has no known place of publication
+- **9603** — publisher 'E.S. Mangione' has no known place of publication
+- **9604** — publisher 'E.S. Mangione' has no known place of publication
+- **9605** — publisher 'E.S. Mangione' has no known place of publication
+- **9606** — publisher 'E.S. Mangione' has no known place of publication
+- **9607** — publisher 'E.S. Mangione' has no known place of publication
+- **9608** — publisher 'E.S. Mangione' has no known place of publication
+- **9609** — publisher 'E.S. Mangione' has no known place of publication
+- **9610** — publisher 'E.S. Mangione' has no known place of publication
+- **9611** — publisher 'E.S. Mangione' has no known place of publication
+- **9613** — publisher 'E.S. Mangione' has no known place of publication
+- **9614** — publisher 'E.S. Mangione' has no known place of publication
+- **9615** — publisher 'E.S. Mangione' has no known place of publication
+- **9616** — publisher 'E.S. Mangione' has no known place of publication
+- **9617** — publisher 'E.S. Mangione' has no known place of publication
+- **9618** — publisher 'E.S. Mangione' has no known place of publication
+- **9620** — publisher 'E.S. Mangione' has no known place of publication
+- **9621** — publisher 'E.S. Mangione' has no known place of publication
+- **9622** — publisher 'E.S. Mangione' has no known place of publication
+- **9623** — publisher 'E.S. Mangione' has no known place of publication
+- **9624** — publisher 'E.S. Mangione' has no known place of publication
+- **9625** — publisher 'E.S. Mangione' has no known place of publication
+- **9626** — publisher 'E.S. Mangione' has no known place of publication
+- **9627** — publisher 'E.S. Mangione' has no known place of publication
+- **9628** — publisher 'E.S. Mangione' has no known place of publication
+- **9629** — publisher 'E.S. Mangione' has no known place of publication
+- **9630** — publisher 'E.S. Mangione' has no known place of publication
+- **9631** — publisher 'E.S. Mangione' has no known place of publication
+- **9632** — publisher 'E.S. Mangione' has no known place of publication
+- **9633** — publisher 'E.S. Mangione' has no known place of publication
+- **9634** — publisher 'E.S. Mangione' has no known place of publication
+- **9635** — publisher 'E.S. Mangione' has no known place of publication
+- **9636** — publisher 'E.S. Mangione' has no known place of publication
+- **9637** — publisher 'E.S. Mangione' has no known place of publication
+- **9638** — publisher 'E.S. Mangione' has no known place of publication
+- **9639** — publisher 'E.S. Mangione' has no known place of publication
+- **9640** — publisher 'E.S. Mangione' has no known place of publication
+- **9641** — publisher 'E.S. Mangione' has no known place of publication
+- **10681** — publisher 'C' has no known place of publication
+- **10682** — publisher 'C' has no known place of publication
 
-### `unstructured_copy_note` (1)
+### `skipped_work_without_digitisation` (58)
 
-- **78** — manuscrita por
+- **6265** — no Partitura has a PDF
+- **5588** — no Partitura has a PDF
+- **6756** — no Partitura has a PDF
+- **9132** — no Partitura has a PDF
+- **166** — no Partitura has a PDF
+- **5175** — no Partitura has a PDF
+- **7888** — no Partitura has a PDF
+- **9215** — no Partitura has a PDF
+- **169** — no Partitura has a PDF
+- **6764** — no Partitura has a PDF
+- **5190** — no Partitura has a PDF
+- **8853** — no Partitura has a PDF
+- **5288** — no Partitura has a PDF
+- **5187** — no Partitura has a PDF
+- **9164** — no Partitura has a PDF
+- **978** — no Partitura has a PDF
+- **7209** — no Partitura has a PDF
+- **9216** — no Partitura has a PDF
+- **3847** — no Partitura has a PDF
+- **5485** — no Partitura has a PDF
+- **6496** — no Partitura has a PDF
+- **7600** — no Partitura has a PDF
+- **9391** — no Partitura has a PDF
+- **3473** — no Partitura has a PDF
+- **5140** — no Partitura has a PDF
+- **5284** — no Partitura has a PDF
+- **9090** — no Partitura has a PDF
+- **10645** — no Partitura has a PDF
+- **4635** — no Partitura has a PDF
+- **8825** — no Partitura has a PDF
+- **3274** — no Partitura has a PDF
+- **199** — no Partitura has a PDF
+- **5112** — no Partitura has a PDF
+- **9217** — no Partitura has a PDF
+- **5612** — no Partitura has a PDF
+- **7601** — no Partitura has a PDF
+- **9390** — no Partitura has a PDF
+- **9392** — no Partitura has a PDF
+- **10011** — no Partitura has a PDF
+- **10665** — no Partitura has a PDF
+- **5474** — no Partitura has a PDF
+- **7465** — no Partitura has a PDF
+- **6125** — no Partitura has a PDF
+- **7289** — no Partitura has a PDF
+- **7290** — no Partitura has a PDF
+- **7291** — no Partitura has a PDF
+- **9108** — no Partitura has a PDF
+- **8053** — no Partitura has a PDF
+- **9393** — no Partitura has a PDF
+- **5480** — no Partitura has a PDF
+- **22** — no Partitura has a PDF
+- **3208** — no Partitura has a PDF
+- **5439** — no Partitura has a PDF
+- **5473** — no Partitura has a PDF
+- **5928** — no Partitura has a PDF
+- **7934** — no Partitura has a PDF
+- **7292** — no Partitura has a PDF
+- **5116** — no Partitura has a PDF
+
+### `unstructured_copy_note` (70)
+
+- **98** — digitada
+- **98** — manuscrita por
+- **100** — digitada
+- **129** — digitada
+- **628** — digitada
+- **629** — digitada
+- **640** — digitada
+- **664** — digitada
+- **664** — digitada (com harmonia manuscrita)
+- **745** — manuscrita por
+- **750** — digitada por EPM - Escola Portátil de Música
+- **750** — digitada
+- **750** — manuscrita (arquivo de Gerson Ferreira Pinto)
+- **753** — digitada
+- **951** — digitada
+- **2216** — digitada
+- **2261** — digitada
+- **2267** — digitada
+- **2344** — digitada
+- **2540** — editada - arquivo do Almirante -
+- **2792** — tipografada
+- **3309** — editada Arquivo do Almirante
+- **3309** — digitada por EPM - Escola Portátil de Música
+- **3313** — digitada
+- **3372** — digitada
+- **4177** — digitada
+- **4425** — digitada
+- **4702** — digitada
+- **5088** — digitada
+- **5320** — digitada
+- **5561** — digitada por Alex Mendes
+- **5562** — digitada por Alex Mendes
+- **6208** — digitada por C.E.M.B.
+- **6316** — digitada
+- **6447** — digitada
+- **6805** — digitada por Manuel Bernal Matinez
+- **6807** — digitada por Manuel Bernal Martinez
+- **6930** — digitada
+- **7049** — digitada
+- **7130** — digitada
+- **7134** — digitada
+- **7135** — digitada
+- **7136** — digitada
+- **7170** — digitada
+- **7174** — digitada
+- **7625** — digitada
+- **7896** — digitada
+- **7908** — digitada
+- **9189** — editorada
+- **9524** — digitada
+- **9619** — editada Mangione
+- **9940** — digitada
+- **9972** — digitada
+- **10016** — edição digital por Daniel Lemos
+- **10046** — edição digital por Daniel Lemos
+- **10062** — edição digital por Daniel Lemos
+- **10133** — edição digital por Daniel Lemos
+- **10134** — edição digital por Daniel Lemos
+- **10153** — edição digital por Daniel Lemos
+- **10434** — edição digital
+- **10435** — edição digital
+- **10436** — edição digital
+- **10437** — edição digital
+- **10438** — edição digital
+- **10439** — edição digital
+- **10440** — edição digital
+- **10441** — edição digital
+- **10448** — edição digital
+- **10727** — editorada
+- **10728** — editorada

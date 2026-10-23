@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1269395193> a melod:Work;
+    melod:hasTitle _:be8ed72f7-1f42-bbf5-9bb5-a357b1f1a828;
+    melod:hasIdentifier _:b8e197fc8-dba8-f1da-5758-2e5aab6f455d;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9611>;
+    melod:hasContribution _:bc6988796-abe4-2a4b-2644-9ecccc1a9a1d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1520368004>;
+    melod:hasAnnotation _:b68e50f7b-a864-f95d-515f-40dfd30e61b3;
+    dct:conformsTo melod:Work.
+
+_:be8ed72f7-1f42-bbf5-9bb5-a357b1f1a828 a melod:Title;
+    rdfs:label "Adeus, Benedita"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8e197fc8-dba8-f1da-5758-2e5aab6f455d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9611".
+
+_:bc6988796-abe4-2a4b-2644-9ecccc1a9a1d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1350271227>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b68e50f7b-a864-f95d-515f-40dfd30e61b3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9611\">https://acervo.casadochoro.com.br/works/view/9611</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

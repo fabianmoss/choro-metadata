@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1563182116> a melod:Item;
+    rdfs:label "A dengosa — Partitura melodia (score_848)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1789653431>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b676d03e5-9527-f665-c8ab-11882c4f18b2;
+    melod:hasShelfmark "score_848";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_848.pdf>;
+    melod:hasHand _:bfe970fe2-301b-48d2-0e87-142708f87798;
+    melod:hasProvenance _:b9f62bef2-c120-49a0-507d-5cfcd0d04e0c;
+    dct:conformsTo melod:Item.
+
+_:b676d03e5-9527-f665-c8ab-11882c4f18b2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_848".
+
+_:bfe970fe2-301b-48d2-0e87-142708f87798 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1017290919>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Azevedo Pimentel".
+
+_:b9f62bef2-c120-49a0-507d-5cfcd0d04e0c a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b021cb90e-3c2f-727e-3eb6-9463013d401a.
+
+_:b021cb90e-3c2f-727e-3eb6-9463013d401a a melod:ExactDate;
+    melod:isodate "1915-10-27"^^xsd:date;
+    schema:description "27.10.1915".

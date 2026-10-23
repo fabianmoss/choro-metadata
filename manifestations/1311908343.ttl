@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1311908343> a melod:Manifestation;
+    melod:hasTitle _:bcfc62a3f-da78-4d7e-a0dd-c460d7335e5e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1870585631>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bf64f46fd-48bd-62ee-2196-218497bd1dfc;
+    dct:conformsTo melod:Manifestation.
+
+_:bcfc62a3f-da78-4d7e-a0dd-c460d7335e5e a melod:Title;
+    rdfs:label "Adalgisa Gabbi — Partitura piano (edition Vieira Machado & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf64f46fd-48bd-62ee-2196-218497bd1dfc a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1086272776>;
+    melod:hasRole terms:Publisher.

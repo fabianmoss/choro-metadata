@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1800048462> a melod:Item;
+    rdfs:label "Africano — Partitura melodia (score_11237)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1857049930>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b57b46e05-7e0d-96b8-1a2e-519e302d6d3b;
+    melod:hasShelfmark "score_11237";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11237.pdf>;
+    melod:hasHand _:b409fac6f-2f86-b421-3eca-a1c5b77803e1;
+    melod:hasProvenance _:b79a57a2a-d5eb-4f1a-1ea7-20d935a6dbf9;
+    dct:conformsTo melod:Item.
+
+_:b57b46e05-7e0d-96b8-1a2e-519e302d6d3b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11237".
+
+_:b409fac6f-2f86-b421-3eca-a1c5b77803e1 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b79a57a2a-d5eb-4f1a-1ea7-20d935a6dbf9 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bed866e45-e3c1-a731-bf8a-e306a71a9928.
+
+_:bed866e45-e3c1-a731-bf8a-e306a71a9928 a melod:ExactDate;
+    melod:isodate "1931-01-29"^^xsd:date;
+    schema:description "29.01.1931".

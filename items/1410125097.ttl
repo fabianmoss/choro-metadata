@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1410125097> a melod:Item;
+    rdfs:label "Abigail — Partitura melodia (score_789)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1337514481>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbbd4c8a0-efb8-2278-4d8d-8af2e4bdd8d6;
+    melod:hasShelfmark "score_789";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_789.pdf>;
+    melod:hasHand _:baf59a79d-9fa4-a609-9fdc-4f5de9508c25;
+    melod:hasProvenance _:bd4994bf7-b1ec-80b5-41ef-9356668228c4;
+    dct:conformsTo melod:Item.
+
+_:bbbd4c8a0-efb8-2278-4d8d-8af2e4bdd8d6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_789".
+
+_:baf59a79d-9fa4-a609-9fdc-4f5de9508c25 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1720333196>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Nascimento".
+
+_:bd4994bf7-b1ec-80b5-41ef-9356668228c4 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bae56379e-d218-345b-d312-19c10783ae02.
+
+_:bae56379e-d218-345b-d312-19c10783ae02 a melod:ExactDate;
+    melod:isodate "1931-01-15"^^xsd:date;
+    schema:description "15.01.1931".

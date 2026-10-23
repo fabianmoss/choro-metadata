@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1630122947> a melod:Manifestation;
+    melod:hasTitle _:b467aa65d-06ce-d4a3-7e67-631a8ab15fa7;
+    lrmoo:R4_embodies <urn:uuid:expressions/1270460976>;
+    melod:hasClassificationOfManifestation "Partitura base", terms:Print;
+    melod:hasContribution _:bf82b68f7-912c-2cdc-fe2e-a2018c9f8755;
+    schema:publication _:bc7a5cd70-9745-cc55-9bb3-2e3bace541dc;
+    dct:conformsTo melod:Manifestation.
+
+_:b467aa65d-06ce-d4a3-7e67-631a8ab15fa7 a melod:Title;
+    rdfs:label "Aí Morcego_BANDÃO — Partitura base (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf82b68f7-912c-2cdc-fe2e-a2018c9f8755 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bc7a5cd70-9745-cc55-9bb3-2e3bace541dc a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.
