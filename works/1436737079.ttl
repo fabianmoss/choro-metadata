@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1436737079> a melod:Work;
+    melod:hasTitle _:b4c80f47d-148f-8438-5d58-2eb1cc3f25cb;
+    melod:hasIdentifier _:b7fa2ce73-3b43-b081-5c12-d69019b411fd;
+    melod:hasClassification "Choro Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7352>;
+    melod:hasContribution _:ba32eafaf-9fe5-02db-23c3-677d06f84cfb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1455487368>;
+    melod:hasAnnotation _:bb5ea20a3-2e66-bc10-f659-47eff790ba2a;
+    dct:conformsTo melod:Work.
+
+_:b4c80f47d-148f-8438-5d58-2eb1cc3f25cb a melod:Title;
+    rdfs:label "Fulia no morro da boiada"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b7fa2ce73-3b43-b081-5c12-d69019b411fd a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7352".
+
+_:ba32eafaf-9fe5-02db-23c3-677d06f84cfb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1443901956>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb5ea20a3-2e66-bc10-f659-47eff790ba2a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7352\">https://acervo.casadochoro.com.br/works/view/7352</a>. Gênero: Choro Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

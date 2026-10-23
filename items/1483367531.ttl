@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1483367531> a melod:Item;
+    rdfs:label "Hino do colégio Barão do Rio Branco — Partitura melodia (score_2954)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1164796952>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b5434db8c-10ca-a73c-579d-27e9c0a8c250;
+    melod:hasShelfmark "score_2954";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2954.pdf>;
+    melod:hasHand _:b8b0ca60f-83b4-e185-ff72-ccad0eb1d718;
+    melod:hasProvenance _:b8565a150-7e86-a2f3-b7e0-d071fac65464;
+    dct:conformsTo melod:Item.
+
+_:b5434db8c-10ca-a73c-579d-27e9c0a8c250 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2954".
+
+_:b8b0ca60f-83b4-e185-ff72-ccad0eb1d718 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b8565a150-7e86-a2f3-b7e0-d071fac65464 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bda886165-8813-828b-3cf8-ec54bf8105f9.
+
+_:bda886165-8813-828b-3cf8-ec54bf8105f9 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

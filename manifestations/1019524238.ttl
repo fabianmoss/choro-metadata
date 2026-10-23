@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1019524238> a melod:Manifestation;
+    melod:hasTitle _:b3b9e8f55-cd9e-ca69-d8ee-bf224c79dab3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1236332208>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b5699bd36-4ae6-020f-34a9-fd48280a5299;
+    schema:publication _:b8e271d55-675c-7223-e585-d3aa1df5b04d;
+    dct:conformsTo melod:Manifestation.
+
+_:b3b9e8f55-cd9e-ca69-d8ee-bf224c79dab3 a melod:Title;
+    rdfs:label "Graças a Deus — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b5699bd36-4ae6-020f-34a9-fd48280a5299 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b8e271d55-675c-7223-e585-d3aa1df5b04d a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

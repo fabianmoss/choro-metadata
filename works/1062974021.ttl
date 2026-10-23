@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1062974021> a melod:Work;
+    melod:hasTitle _:b2e501f34-5816-ba00-f13e-77a3d218240d;
+    melod:hasIdentifier _:b832b82fe-4a5c-442b-65b7-0db95174f72b;
+    melod:hasClassification "Samba Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7739>;
+    melod:hasContribution _:bfdfbccce-406b-efef-79b9-50d87a14485d;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1114405319>;
+    melod:hasAnnotation _:bdddc015a-7973-e1a0-83e0-6e8afe089f59;
+    dct:conformsTo melod:Work.
+
+_:b2e501f34-5816-ba00-f13e-77a3d218240d a melod:Title;
+    rdfs:label "Gosto de beijo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b832b82fe-4a5c-442b-65b7-0db95174f72b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7739".
+
+_:bfdfbccce-406b-efef-79b9-50d87a14485d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bdddc015a-7973-e1a0-83e0-6e8afe089f59 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7739\">https://acervo.casadochoro.com.br/works/view/7739</a>. Gênero: Samba Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

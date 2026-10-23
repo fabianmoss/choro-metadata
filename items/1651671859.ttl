@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1651671859> a melod:Item;
+    rdfs:label "Gicéia — Partitura melodia (score_1990)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1448895477>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b91b04d35-4502-2f1f-411d-dc67e07e4cad;
+    melod:hasShelfmark "score_1990";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1990.pdf>;
+    melod:hasHand _:b27659fd7-b9d8-6042-5c66-ea9001d2a2e7;
+    melod:hasProvenance _:bd1e60806-bedf-52a3-fd22-65b143a7999a;
+    dct:conformsTo melod:Item.
+
+_:b91b04d35-4502-2f1f-411d-dc67e07e4cad a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1990".
+
+_:b27659fd7-b9d8-6042-5c66-ea9001d2a2e7 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:bd1e60806-bedf-52a3-fd22-65b143a7999a a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb56fce37-be67-1bdd-853e-4884f3fe796c.
+
+_:bb56fce37-be67-1bdd-853e-4884f3fe796c a melod:ExactDate;
+    melod:isodate "1940-12-16"^^xsd:date;
+    schema:description "16.12.1940".

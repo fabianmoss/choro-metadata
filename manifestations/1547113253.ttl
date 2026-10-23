@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1547113253> a melod:Manifestation;
+    melod:hasTitle _:b8846026d-217a-a014-4730-dec0eb2a210a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1734751283>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:beaed7ae1-eecb-d579-6226-b2e8fe819045;
+    schema:publication _:b7157ad5c-de15-6da3-edb0-2fd0034c0712;
+    dct:conformsTo melod:Manifestation.
+
+_:b8846026d-217a-a014-4730-dec0eb2a210a a melod:Title;
+    rdfs:label "Gibi Bacurau — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:beaed7ae1-eecb-d579-6226-b2e8fe819045 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b7157ad5c-de15-6da3-edb0-2fd0034c0712 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

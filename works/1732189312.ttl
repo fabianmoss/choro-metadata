@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1732189312> a melod:Work;
+    melod:hasTitle _:bb460da5a-6637-0844-e6ea-56c43673a573;
+    melod:hasIdentifier _:b89bfced9-9738-5d17-cc07-8f61f72ff85f;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9027>;
+    melod:hasContribution _:be8ae3240-56f1-3686-8af8-c64208b899ee;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1786373668>;
+    melod:hasAnnotation _:b8e3eb457-e89d-2469-dad1-5089d8617b7d;
+    dct:conformsTo melod:Work.
+
+_:bb460da5a-6637-0844-e6ea-56c43673a573 a melod:Title;
+    rdfs:label "Hermínia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b89bfced9-9738-5d17-cc07-8f61f72ff85f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9027".
+
+_:be8ae3240-56f1-3686-8af8-c64208b899ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b8e3eb457-e89d-2469-dad1-5089d8617b7d a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9027\">https://acervo.casadochoro.com.br/works/view/9027</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

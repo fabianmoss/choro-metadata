@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1556757499> a melod:Work;
+    melod:hasTitle _:bb5fdfa00-1a54-916f-dcb4-569a20091c4e;
+    melod:hasIdentifier _:b753c8f9e-aaeb-9dbf-f0c5-1660e0ce4357;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5069>;
+    melod:hasContribution _:b45fa1c29-ef31-dcda-0ab0-1ba5355d27e7, _:b6cf1ff4f-3bfe-d0d9-7492-6bee3f4dde5a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1326978550>;
+    melod:hasAnnotation _:b0b7b36f7-e8c6-9da8-14de-959509d3746f;
+    dct:conformsTo melod:Work.
+
+_:bb5fdfa00-1a54-916f-dcb4-569a20091c4e a melod:Title;
+    rdfs:label "Francesinha"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b753c8f9e-aaeb-9dbf-f0c5-1660e0ce4357 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5069".
+
+_:b45fa1c29-ef31-dcda-0ab0-1ba5355d27e7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6cf1ff4f-3bfe-d0d9-7492-6bee3f4dde5a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1812781905>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0b7b36f7-e8c6-9da8-14de-959509d3746f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5069\">https://acervo.casadochoro.com.br/works/view/5069</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

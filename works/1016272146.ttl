@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1016272146> a melod:Work;
+    melod:hasTitle _:be41b4c40-ad21-de09-bad9-1e5d63491e80;
+    melod:hasIdentifier _:b3832812e-ba1c-5196-3a27-92ef720f1e90;
+    melod:hasClassification "Rasguido Doble";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6720>;
+    melod:hasContribution _:ba1a79bad-7f6b-c0a2-ae9e-efe08affd7f7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1523911096>;
+    melod:hasAnnotation _:b53ddb39a-6199-b774-ceb6-06118895cc0e;
+    dct:conformsTo melod:Work.
+
+_:be41b4c40-ad21-de09-bad9-1e5d63491e80 a melod:Title;
+    rdfs:label "Fulgor de alborada"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3832812e-ba1c-5196-3a27-92ef720f1e90 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6720".
+
+_:ba1a79bad-7f6b-c0a2-ae9e-efe08affd7f7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1661806102>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b53ddb39a-6199-b774-ceb6-06118895cc0e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6720\">https://acervo.casadochoro.com.br/works/view/6720</a>. Gênero: Rasguido Doble. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

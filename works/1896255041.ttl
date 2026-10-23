@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1896255041> a melod:Work;
+    melod:hasTitle _:b3ea70e26-ec1d-5f65-6592-1bf76f9ce36c;
+    melod:hasIdentifier _:b1e2c4b3d-fca0-c8c1-2968-2e47bfe19760;
+    melod:hasClassification "Baião";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9974>;
+    melod:hasContribution _:b6477f841-4850-033d-1497-467949ae6787;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1316159858>;
+    melod:hasAnnotation _:b903ad268-c68d-99ea-b55e-ff110e4a12e6;
+    dct:conformsTo melod:Work.
+
+_:b3ea70e26-ec1d-5f65-6592-1bf76f9ce36c a melod:Title;
+    rdfs:label "Gororoba"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1e2c4b3d-fca0-c8c1-2968-2e47bfe19760 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9974".
+
+_:b6477f841-4850-033d-1497-467949ae6787 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1831756280>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b903ad268-c68d-99ea-b55e-ff110e4a12e6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9974\">https://acervo.casadochoro.com.br/works/view/9974</a>. Gênero: Baião. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1639035726> a melod:Manifestation;
+    melod:hasTitle _:b6c840d67-65f4-4649-ebd7-07d8b525d3dd;
+    lrmoo:R4_embodies <urn:uuid:expressions/1137625195>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b962a5f8d-6207-99dd-3559-9b9b0021e417;
+    schema:publication _:bb6a27f6d-44a9-508e-0b3a-4118f11c0686;
+    dct:conformsTo melod:Manifestation.
+
+_:b6c840d67-65f4-4649-ebd7-07d8b525d3dd a melod:Title;
+    rdfs:label "Idalcinda — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b962a5f8d-6207-99dd-3559-9b9b0021e417 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bb6a27f6d-44a9-508e-0b3a-4118f11c0686 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1891134572> a melod:Manifestation;
+    melod:hasTitle _:ba09fd01b-69c5-5cca-9132-a4cbe8ce253f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1240493889>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bb14ece27-2a32-c164-51e0-2d34875f3245;
+    dct:conformsTo melod:Manifestation.
+
+_:ba09fd01b-69c5-5cca-9132-a4cbe8ce253f a melod:Title;
+    rdfs:label "Gondoleiro de amor — Partitura piano e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb14ece27-2a32-c164-51e0-2d34875f3245 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

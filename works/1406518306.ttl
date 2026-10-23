@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1406518306> a melod:Work;
+    melod:hasTitle _:b0a140e88-fd92-679c-8cfb-11025a55c358;
+    melod:hasIdentifier _:b7d32ef20-05ad-7007-b8c1-45f83770cb27;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7395>;
+    melod:hasContribution _:ba9911f77-7c02-52a2-e964-89bfdef59b1a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1622700291>;
+    melod:hasAnnotation _:b241f4ed0-3666-0cbf-9e39-983e95e0b73f;
+    dct:conformsTo melod:Work.
+
+_:b0a140e88-fd92-679c-8cfb-11025a55c358 a melod:Title;
+    rdfs:label "Homenagem à Elizeth (à divina)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b7d32ef20-05ad-7007-b8c1-45f83770cb27 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7395".
+
+_:ba9911f77-7c02-52a2-e964-89bfdef59b1a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1193401467>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b241f4ed0-3666-0cbf-9e39-983e95e0b73f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7395\">https://acervo.casadochoro.com.br/works/view/7395</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

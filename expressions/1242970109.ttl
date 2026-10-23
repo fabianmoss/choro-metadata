@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1242970109> a melod:Expression;
+    rdfs:label "Forrobodó (original version, Partitura piano e letra)";
+    melod:hasClassification "Modinha";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:be1117973-99ab-002a-48e0-07f17937e7ce;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1052125462>;
+    melod:hasContribution _:ba8c8182a-0a6b-3f33-8fd9-312b5be20a64;
+    dct:conformsTo melod:Expression.
+
+_:be1117973-99ab-002a-48e0-07f17937e7ce a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:ba8c8182a-0a6b-3f33-8fd9-312b5be20a64 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1430319205>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

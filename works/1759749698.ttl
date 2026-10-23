@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1759749698> a melod:Work;
+    melod:hasTitle _:b6e19b987-339b-fef5-8998-415ad1fa3985;
+    melod:hasIdentifier _:bd0155f37-3b5b-9d37-eafb-c04f21dd3ba0;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4519>;
+    melod:hasContribution _:b806bec33-4357-dc93-3d96-babfe61a2764, _:b2d598b2a-caa9-4285-ef01-704372a91ca2;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1431357490>, <urn:uuid:expressions/1144992283>;
+    melod:hasAnnotation _:bd0979988-3f65-6175-6a72-a0fcea45723b;
+    dct:conformsTo melod:Work.
+
+_:b6e19b987-339b-fef5-8998-415ad1fa3985 a melod:Title;
+    rdfs:label "Ideal do caboclo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd0155f37-3b5b-9d37-eafb-c04f21dd3ba0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4519".
+
+_:b806bec33-4357-dc93-3d96-babfe61a2764 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1882510403>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2d598b2a-caa9-4285-ef01-704372a91ca2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd0979988-3f65-6175-6a72-a0fcea45723b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4519\">https://acervo.casadochoro.com.br/works/view/4519</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

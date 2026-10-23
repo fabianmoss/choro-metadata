@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1220539677> a melod:Item;
+    rdfs:label "Guaracy — Partitura cifra (score_6741)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1604163513>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b58832059-7f39-9496-986b-87cc7a898794;
+    melod:hasShelfmark "score_6741";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6741.pdf>;
+    melod:hasHand _:b6d3dabb9-7caf-4b2c-db32-89af897d50a6;
+    dct:conformsTo melod:Item.
+
+_:b58832059-7f39-9496-986b-87cc7a898794 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6741".
+
+_:b6d3dabb9-7caf-4b2c-db32-89af897d50a6 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

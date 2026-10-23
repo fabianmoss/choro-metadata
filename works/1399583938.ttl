@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1399583938> a melod:Work;
+    melod:hasTitle _:b56cdc27c-df91-e5ee-f2c9-7f4ee2cc0daf;
+    melod:hasIdentifier _:bcb49ad66-360f-5be5-0357-5d0276180761;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7740>;
+    melod:hasContribution _:b772f7378-fe5f-afd4-0d07-f38507abcd69;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1233108363>;
+    melod:hasAnnotation _:bdfe06e9d-19ee-da9e-de28-0146d3a3aa36;
+    dct:conformsTo melod:Work.
+
+_:b56cdc27c-df91-e5ee-f2c9-7f4ee2cc0daf a melod:Title;
+    rdfs:label "Gratas ilusões"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bcb49ad66-360f-5be5-0357-5d0276180761 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7740".
+
+_:b772f7378-fe5f-afd4-0d07-f38507abcd69 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bdfe06e9d-19ee-da9e-de28-0146d3a3aa36 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7740\">https://acervo.casadochoro.com.br/works/view/7740</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

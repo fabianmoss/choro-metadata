@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1386332138> a melod:Expression;
+    rdfs:label "Gaúcho (arrangement by Pedro Paes, Partitura melodia e cifra)";
+    melod:hasClassification "Tango";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b88778679-1672-1bfb-6401-fa4d6d764f13;
+    melod:hasContribution _:b3db6faf8-109f-0753-a6b4-c7a26a94fb60;
+    dct:conformsTo melod:Expression.
+
+_:b88778679-1672-1bfb-6401-fa4d6d764f13 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b3db6faf8-109f-0753-a6b4-c7a26a94fb60 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1331846641>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

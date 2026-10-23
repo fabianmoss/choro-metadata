@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1456263673> a melod:Manifestation;
+    melod:hasTitle _:b3b761fd0-1f77-34d8-d64c-7b28af1769cb;
+    lrmoo:R4_embodies <urn:uuid:expressions/1114007210>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", "Digital transcription";
+    dct:conformsTo melod:Manifestation.
+
+_:b3b761fd0-1f77-34d8-d64c-7b28af1769cb a melod:Title;
+    rdfs:label "Folha amarela — Partitura melodia, cifra e letra (digital transcription)";
+    melod:hasTitleType terms:MainTitle.

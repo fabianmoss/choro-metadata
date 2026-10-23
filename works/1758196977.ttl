@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1758196977> a melod:Work;
+    melod:hasTitle _:b9f49fdb1-0cd9-39b3-3244-cd413eb3b8f7;
+    melod:hasIdentifier _:b1b42a7e5-1fde-b11b-53cd-f98e7667351b;
+    melod:hasClassification "Gavota";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/739>;
+    melod:hasContribution _:b31593640-a1f3-0b4b-2ec7-ab7624a90e5f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1824941358>;
+    melod:hasAnnotation _:b9bfc5319-a41d-0754-8923-e24bc9199b0e;
+    dct:conformsTo melod:Work.
+
+_:b9f49fdb1-0cd9-39b3-3244-cd413eb3b8f7 a melod:Title;
+    rdfs:label "Gavota Livia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1b42a7e5-1fde-b11b-53cd-f98e7667351b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "739".
+
+_:b31593640-a1f3-0b4b-2ec7-ab7624a90e5f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1134892973>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9bfc5319-a41d-0754-8923-e24bc9199b0e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/739\">https://acervo.casadochoro.com.br/works/view/739</a>. Gênero: Gavota. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

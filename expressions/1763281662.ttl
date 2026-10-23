@@ -1,0 +1,37 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1763281662> a melod:Expression;
+    rdfs:label "Horas de amor (original version, Partitura piano e letra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bb9171eb4-d2bd-361b-16b3-4fb614ce00ee;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1052125462>;
+    melod:hasContribution _:b202edf6b-0c7e-b0f8-bee4-6bbf8aa862bf, _:b4d850777-6b81-dc9e-34fe-2f5e893ec6fc;
+    dct:conformsTo melod:Expression.
+
+_:bb9171eb4-d2bd-361b-16b3-4fb614ce00ee a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b202edf6b-0c7e-b0f8-bee4-6bbf8aa862bf a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1757902163>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.
+
+_:b4d850777-6b81-dc9e-34fe-2f5e893ec6fc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1757902163>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

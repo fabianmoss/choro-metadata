@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1514455072> a melod:Item;
+    rdfs:label "Galo Garnizé — Partitura cifra (score_9049)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1479720432>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7f848fb1-29b5-9b51-2a62-c871840dddad;
+    melod:hasShelfmark "score_9049";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9049.pdf>;
+    melod:hasHand _:bcfbf6374-d603-de5c-7c4d-eab94be6b29e;
+    dct:conformsTo melod:Item.
+
+_:b7f848fb1-29b5-9b51-2a62-c871840dddad a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9049".
+
+_:bcfbf6374-d603-de5c-7c4d-eab94be6b29e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Maurício Carrilho".

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1719005755> a melod:Item;
+    rdfs:label "Gosto mas não é muito — Partitura melodia (score_11432)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1054374885>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bfc03f47a-5df6-bc2e-71ea-6ed03865b7dc;
+    melod:hasShelfmark "score_11432";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11432.pdf>;
+    melod:hasHand _:b5585a6ce-b338-2a88-0def-75669b297565;
+    melod:hasProvenance _:b7a256f36-5dd9-d171-9ba1-cedbd18c7610;
+    dct:conformsTo melod:Item.
+
+_:bfc03f47a-5df6-bc2e-71ea-6ed03865b7dc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11432".
+
+_:b5585a6ce-b338-2a88-0def-75669b297565 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1664591566>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro Nascimento".
+
+_:b7a256f36-5dd9-d171-9ba1-cedbd18c7610 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bcb97552b-8d64-16aa-6a8d-0e463053c2b6.
+
+_:bcb97552b-8d64-16aa-6a8d-0e463053c2b6 a melod:ExactDate;
+    melod:isodate "1932-01-20"^^xsd:date;
+    schema:description "20.01.1932".

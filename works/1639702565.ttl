@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1639702565> a melod:Work;
+    melod:hasTitle _:b3b957a23-f758-b2d3-a4e1-a97ca6fb57d3;
+    melod:hasIdentifier _:bda84ebc1-7b1f-0013-6fdc-a7b06de1e59c;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10746>;
+    melod:hasContribution _:b1f8bf919-7a91-c86c-4a18-3248b1d8aa8d, _:bfc0d754f-7f9c-e99e-892c-b4caba3c4db4;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1879016891>;
+    melod:hasAnnotation _:b7047e6ca-4827-37ef-c918-213388464c48;
+    dct:conformsTo melod:Work.
+
+_:b3b957a23-f758-b2d3-a4e1-a97ca6fb57d3 a melod:Title;
+    rdfs:label "Fubá com goiabada"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bda84ebc1-7b1f-0013-6fdc-a7b06de1e59c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10746".
+
+_:b1f8bf919-7a91-c86c-4a18-3248b1d8aa8d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427434240>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfc0d754f-7f9c-e99e-892c-b4caba3c4db4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1693398207>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7047e6ca-4827-37ef-c918-213388464c48 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10746\">https://acervo.casadochoro.com.br/works/view/10746</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

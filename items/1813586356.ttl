@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1813586356> a melod:Item;
+    rdfs:label "Honória — Partitura melodia (score_1521)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590991860>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b81ef01cd-793f-5b8f-5482-d4c4d14d8af1;
+    melod:hasShelfmark "score_1521";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1521.pdf>;
+    melod:hasHand _:b797d1a95-3fe5-5cf9-22f8-cf3206db0ffc;
+    melod:hasProvenance _:b1c3c548c-8621-a7e8-2a47-c009a49b7d85;
+    dct:conformsTo melod:Item.
+
+_:b81ef01cd-793f-5b8f-5482-d4c4d14d8af1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1521".
+
+_:b797d1a95-3fe5-5cf9-22f8-cf3206db0ffc a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b1c3c548c-8621-a7e8-2a47-c009a49b7d85 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b8ea07738-ed58-d418-070f-b620bf79c93b.
+
+_:b8ea07738-ed58-d418-070f-b620bf79c93b a melod:ExactDate;
+    melod:isodate "1961-02-24"^^xsd:date;
+    schema:description "24.02.1961".

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1459273772> a melod:Work;
+    melod:hasTitle _:b4dc3d4fe-1562-91aa-2245-1276e0ccc5ce;
+    melod:hasIdentifier _:b772b5077-cbae-5e4e-5b74-0cef114b7a05;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5694>;
+    melod:hasContribution _:bdf94fbe6-1b5c-9291-ac5d-4fe2f601b174;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1495769358>, <urn:uuid:expressions/1194729920>;
+    melod:hasAnnotation _:bf37a6c02-462d-fb9e-fd09-41b0f8a06d4e;
+    dct:conformsTo melod:Work.
+
+_:b4dc3d4fe-1562-91aa-2245-1276e0ccc5ce a melod:Title;
+    rdfs:label "Ganha-se pouco mas é divertido"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b772b5077-cbae-5e4e-5b74-0cef114b7a05 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5694".
+
+_:bdf94fbe6-1b5c-9291-ac5d-4fe2f601b174 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1112306431>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf37a6c02-462d-fb9e-fd09-41b0f8a06d4e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5694\">https://acervo.casadochoro.com.br/works/view/5694</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

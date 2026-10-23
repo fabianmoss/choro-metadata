@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1417410930> a melod:Expression;
+    rdfs:label "Guayanazes_BANDÃO (arrangement by Marcílio Lopes, Partitura flauta)";
+    melod:hasClassification "Polca Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b586518aa-3887-00b3-6e54-297aafb3c0cb;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1008272219>;
+    melod:hasContribution _:b0d40ba4d-72e1-aa57-dc24-7fde556aff3a;
+    dct:conformsTo melod:Expression.
+
+_:b586518aa-3887-00b3-6e54-297aafb3c0cb a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b0d40ba4d-72e1-aa57-dc24-7fde556aff3a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1378778470>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

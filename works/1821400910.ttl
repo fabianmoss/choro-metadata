@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1821400910> a melod:Work;
+    melod:hasTitle _:ba613318d-b6c0-ab5a-8e11-135e74cafb86;
+    melod:hasIdentifier _:b7b7af96b-895d-a6ad-1123-8876f9e8aa19;
+    melod:hasClassification "Toada";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6978>;
+    melod:hasContribution _:bb731d0fa-1c81-0cc8-233a-5f83c79cf00c, _:b0777e674-70c1-3bce-e9dc-18ff84082993, _:be65fe7c2-bad1-2460-ab73-c13ea5036961;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1154911815>, <urn:uuid:expressions/1600167397>;
+    melod:hasAnnotation _:b28da3776-536f-a476-642c-80bdeec530a1;
+    dct:conformsTo melod:Work.
+
+_:ba613318d-b6c0-ab5a-8e11-135e74cafb86 a melod:Title;
+    rdfs:label "Foi Bôto, Sinhá! (Lenda Amazônica nº 1)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b7b7af96b-895d-a6ad-1123-8876f9e8aa19 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6978".
+
+_:bb731d0fa-1c81-0cc8-233a-5f83c79cf00c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1191415928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0777e674-70c1-3bce-e9dc-18ff84082993 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1413002268>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be65fe7c2-bad1-2460-ab73-c13ea5036961 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1593212753>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b28da3776-536f-a476-642c-80bdeec530a1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6978\">https://acervo.casadochoro.com.br/works/view/6978</a>. Gênero: Toada. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1657662798> a melod:Manifestation;
+    melod:hasTitle _:bd56a9b8a-e73f-e5fd-fdfa-352e6b55ea67;
+    lrmoo:R4_embodies <urn:uuid:expressions/1058060980>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", terms:Print;
+    melod:hasContribution _:b180db3b4-eab9-5b17-f01e-0699e58d5d97;
+    dct:conformsTo melod:Manifestation.
+
+_:bd56a9b8a-e73f-e5fd-fdfa-352e6b55ea67 a melod:Title;
+    rdfs:label "Florianópolis, meu torrão — Partitura melodia, cifra e letra (edition Universidade Federal de Santa Catarina)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b180db3b4-eab9-5b17-f01e-0699e58d5d97 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1523333470>;
+    melod:hasRole terms:Publisher.

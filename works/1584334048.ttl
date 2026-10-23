@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1584334048> a melod:Work;
+    melod:hasTitle _:b0bbb4f6b-9250-c0b0-e094-9525cb00019d;
+    melod:hasIdentifier _:b093d9fd3-6b42-ad9e-2cc3-8985fb3ac307;
+    melod:hasClassification "Tango Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9863>;
+    melod:hasContribution _:b961a64ec-ef61-579f-c28a-cebfdd3df7c8, _:be6e73acd-728c-7ef8-0da5-87b0701e9650;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1855008102>;
+    melod:hasAnnotation _:b2b0a5786-9c2e-2ea1-a5aa-c69abc718015;
+    dct:conformsTo melod:Work.
+
+_:b0bbb4f6b-9250-c0b0-e094-9525cb00019d a melod:Title;
+    rdfs:label "Força de expressão"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b093d9fd3-6b42-ad9e-2cc3-8985fb3ac307 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9863".
+
+_:b961a64ec-ef61-579f-c28a-cebfdd3df7c8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1729200523>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be6e73acd-728c-7ef8-0da5-87b0701e9650 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201562957>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2b0a5786-9c2e-2ea1-a5aa-c69abc718015 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9863\">https://acervo.casadochoro.com.br/works/view/9863</a>. Gênero: Tango Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

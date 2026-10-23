@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1425473033> a melod:Work;
+    melod:hasTitle _:b586c7bf5-5c6a-06a6-51a9-e25c16010e54;
+    melod:hasIdentifier _:bc03f4721-5941-f827-7334-04ab1542bcbc;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2642>;
+    melod:hasContribution _:b5c1cd069-06a3-1930-900e-05ee663dece9;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1001005577>, <urn:uuid:expressions/1865928533>, <urn:uuid:expressions/1724590357>, <urn:uuid:expressions/1540017373>;
+    melod:hasAnnotation _:bb05b92ec-1380-c8bd-8488-7b16c3216f7b;
+    dct:conformsTo melod:Work.
+
+_:b586c7bf5-5c6a-06a6-51a9-e25c16010e54 a melod:Title;
+    rdfs:label "Guayanazes"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc03f4721-5941-f827-7334-04ab1542bcbc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2642".
+
+_:b5c1cd069-06a3-1930-900e-05ee663dece9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb05b92ec-1380-c8bd-8488-7b16c3216f7b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2642\">https://acervo.casadochoro.com.br/works/view/2642</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

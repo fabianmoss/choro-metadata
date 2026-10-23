@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1791630406> a melod:Manifestation;
+    melod:hasTitle _:b236f9da9-18b2-b76f-9588-832d4e2b305c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1479241155>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b912a0312-e626-547c-894f-dbef902fbbfc;
+    schema:publication _:ba820a66c-9288-aa30-e8fc-5b64854e712f;
+    dct:conformsTo melod:Manifestation.
+
+_:b236f9da9-18b2-b76f-9588-832d4e2b305c a melod:Title;
+    rdfs:label "Ideal desfeito — Partitura piano e letra (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b912a0312-e626-547c-894f-dbef902fbbfc a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:ba820a66c-9288-aa30-e8fc-5b64854e712f a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

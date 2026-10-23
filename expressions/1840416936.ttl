@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1840416936> a melod:Expression;
+    rdfs:label "Galho de goiabeira (anonymous arrangement, Partitura arranjo com cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc6f849fa-e442-aecb-3e34-df3614655d52;
+    melod:hasContribution _:be3c3bf66-9de8-74c5-c8dd-7c057e1deec9;
+    dct:conformsTo melod:Expression.
+
+_:bc6f849fa-e442-aecb-3e34-df3614655d52 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:be3c3bf66-9de8-74c5-c8dd-7c057e1deec9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1188291165>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

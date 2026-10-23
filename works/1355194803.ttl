@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1355194803> a melod:Work;
+    melod:hasTitle _:be09ab5f7-b4ca-5844-d295-110ab81a2f6b;
+    melod:hasIdentifier _:bb74aa7c9-b02c-73b1-2081-9f4582883d40;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5080>;
+    melod:hasContribution _:b3fbfe8ff-5432-30ff-1d81-2ea9620f4800, _:b46c1213b-eb95-a3c5-cd33-9f9b82d0a3dc;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1705385461>, <urn:uuid:expressions/1601894958>;
+    melod:hasAnnotation _:ba5e48c07-b0ea-1fcd-b39a-e88809121ed5;
+    dct:conformsTo melod:Work.
+
+_:be09ab5f7-b4ca-5844-d295-110ab81a2f6b a melod:Title;
+    rdfs:label "Futuro amor"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb74aa7c9-b02c-73b1-2081-9f4582883d40 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5080".
+
+_:b3fbfe8ff-5432-30ff-1d81-2ea9620f4800 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1437242965>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b46c1213b-eb95-a3c5-cd33-9f9b82d0a3dc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1317373632>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba5e48c07-b0ea-1fcd-b39a-e88809121ed5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5080\">https://acervo.casadochoro.com.br/works/view/5080</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

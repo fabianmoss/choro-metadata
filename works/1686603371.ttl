@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1686603371> a melod:Work;
+    melod:hasTitle _:bd819c490-b9e8-7807-e7dc-4884f88a9935;
+    melod:hasIdentifier _:b35c0ff47-9d63-20b3-bf69-4db0aacb10f0;
+    melod:hasClassification "Quadrilha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2220>;
+    melod:hasContribution _:b4c052d22-5b94-3a62-1367-aa812e182ebd;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1627262380>, <urn:uuid:expressions/1413480365>;
+    melod:hasAnnotation _:b972f7d89-9a8d-2e96-6fe7-f2bb09b315ce;
+    dct:conformsTo melod:Work.
+
+_:bd819c490-b9e8-7807-e7dc-4884f88a9935 a melod:Title;
+    rdfs:label "Fluminense"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b35c0ff47-9d63-20b3-bf69-4db0aacb10f0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2220".
+
+_:b4c052d22-5b94-3a62-1367-aa812e182ebd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1313139067>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b972f7d89-9a8d-2e96-6fe7-f2bb09b315ce a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2220\">https://acervo.casadochoro.com.br/works/view/2220</a>. Gênero: Quadrilha. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1788903898> a melod:Item;
+    rdfs:label "Graças a Deus — Partitura melodia (score_9680)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1346252134>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2631bc68-4ba7-6546-e0a3-4164011d40e2;
+    melod:hasShelfmark "score_9680";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9680.pdf>;
+    melod:hasHand _:b990cfbe4-ecb6-1ac1-834a-86c5e98235c5;
+    melod:hasProvenance _:b9b257b2c-2b80-e844-685b-cac200ccb4ba;
+    dct:conformsTo melod:Item.
+
+_:b2631bc68-4ba7-6546-e0a3-4164011d40e2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9680".
+
+_:b990cfbe4-ecb6-1ac1-834a-86c5e98235c5 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cândido Pereira da Silva (Candinho do Trombone)".
+
+_:b9b257b2c-2b80-e844-685b-cac200ccb4ba a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b192c11e0-bfed-02e2-7a76-4f0c9624046d.
+
+_:b192c11e0-bfed-02e2-7a76-4f0c9624046d a melod:ExactDate;
+    melod:isodate "1951-03-16"^^xsd:date;
+    schema:description "16.03.1951".

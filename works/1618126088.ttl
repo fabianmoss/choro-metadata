@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1618126088> a melod:Work;
+    melod:hasTitle _:b84193e20-ba97-00cf-ca70-6b329a47cd03;
+    melod:hasIdentifier _:bbc1c75e4-1ba1-135c-6f5f-3470459a33b6;
+    melod:hasClassification "Hino";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9877>;
+    melod:hasContribution _:b4b7f2109-fa94-65b5-507b-b1cb461f27b4, _:b0fc9ee87-3975-ca12-87d3-d72035fa6680;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1549833759>;
+    melod:hasAnnotation _:bc5ec6cf0-de00-3ce9-3a6c-fc210686768b;
+    dct:conformsTo melod:Work.
+
+_:b84193e20-ba97-00cf-ca70-6b329a47cd03 a melod:Title;
+    rdfs:label "Hino comemorativo do 1º Centenário da Força Pública de São Paulo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bbc1c75e4-1ba1-135c-6f5f-3470459a33b6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9877".
+
+_:b4b7f2109-fa94-65b5-507b-b1cb461f27b4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1124028163>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0fc9ee87-3975-ca12-87d3-d72035fa6680 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1490097457>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc5ec6cf0-de00-3ce9-3a6c-fc210686768b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9877\">https://acervo.casadochoro.com.br/works/view/9877</a>. Gênero: Hino. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

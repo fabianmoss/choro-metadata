@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1622816185> a melod:Manifestation;
+    melod:hasTitle _:b47a7b379-812b-db38-3c04-7d5c8d50b477;
+    lrmoo:R4_embodies <urn:uuid:expressions/1845185762>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b86410511-d98b-4623-1285-4f5f42632f16;
+    dct:conformsTo melod:Manifestation.
+
+_:b47a7b379-812b-db38-3c04-7d5c8d50b477 a melod:Title;
+    rdfs:label "Grata — Partitura piano (edition Lambertini)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b86410511-d98b-4623-1285-4f5f42632f16 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1207594786>;
+    melod:hasRole terms:Publisher.

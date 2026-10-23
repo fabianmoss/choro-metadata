@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1726982935> a melod:Manifestation;
+    melod:hasTitle _:bda1eec67-9f23-5400-4187-34f395c1f94b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1369893975>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bb3758a60-7dca-3516-929b-35576a7397c6;
+    schema:publication _:b951eb488-bc29-59d8-dd66-b264d40a9669;
+    dct:conformsTo melod:Manifestation.
+
+_:bda1eec67-9f23-5400-4187-34f395c1f94b a melod:Title;
+    rdfs:label "Henrique Dourado — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb3758a60-7dca-3516-929b-35576a7397c6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b951eb488-bc29-59d8-dd66-b264d40a9669 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

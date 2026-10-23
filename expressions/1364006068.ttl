@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1364006068> a melod:Expression;
+    rdfs:label "Glória Brasileira (original version, Partitura piano)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b98c5e66f-dc04-32ef-3691-0c714124f971;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:ba8c28a92-f885-90d8-3b77-b84fcbf01bf8;
+    dct:conformsTo melod:Expression.
+
+_:b98c5e66f-dc04-32ef-3691-0c714124f971 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:ba8c28a92-f885-90d8-3b77-b84fcbf01bf8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1070091861>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

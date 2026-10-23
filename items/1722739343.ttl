@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1722739343> a melod:Item;
+    rdfs:label "Idílio do infinito — Partitura melodia (score_2927)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818766748>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b94fe40fd-8ae7-7329-3c42-e45583b41baa;
+    melod:hasShelfmark "score_2927";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2927.pdf>;
+    melod:hasHand _:b2cda52fe-1590-8030-a106-6d229bcf68f1;
+    melod:hasProvenance _:b2be9b36f-6054-75fd-fd65-73ad0bcda98d;
+    dct:conformsTo melod:Item.
+
+_:b94fe40fd-8ae7-7329-3c42-e45583b41baa a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2927".
+
+_:b2cda52fe-1590-8030-a106-6d229bcf68f1 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b2be9b36f-6054-75fd-fd65-73ad0bcda98d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b6b767f96-d131-dc9d-f466-d01f49365cdf.
+
+_:b6b767f96-d131-dc9d-f466-d01f49365cdf a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

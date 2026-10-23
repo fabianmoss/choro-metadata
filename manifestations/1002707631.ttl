@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1002707631> a melod:Manifestation;
+    melod:hasTitle _:bbe14eabe-5e1c-5c6c-2fe3-a446481c2003;
+    lrmoo:R4_embodies <urn:uuid:expressions/1075559099>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", terms:Print;
+    melod:hasContribution _:b3d1749ae-ff6d-7412-cb63-03e8a0b42d6c;
+    dct:conformsTo melod:Manifestation.
+
+_:bbe14eabe-5e1c-5c6c-2fe3-a446481c2003 a melod:Title;
+    rdfs:label "Foi só maldade — Partitura melodia, cifra e letra (edition Universidade Federal de Santa Catarina)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b3d1749ae-ff6d-7412-cb63-03e8a0b42d6c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1523333470>;
+    melod:hasRole terms:Publisher.

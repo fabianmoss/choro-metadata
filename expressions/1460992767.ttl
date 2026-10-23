@@ -27,6 +27,6 @@ _:bc9b90933-746f-b2f0-b7a4-b63628e202da a melod:Meter;
     schema:description "2/4".
 
 _:b22bd41c8-f3a0-6017-6644-83e1a6e439c8 a melod:Contribution;
-    melod:hasAgent <urn:uuid:persons/1821377127>;
+    melod:hasAgent <urn:uuid:persons/1366496114>;
     melod:hasRole terms:Librettist;
     melod:hasCertainty terms:MediumCertainty.

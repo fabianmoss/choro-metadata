@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1533764650> a melod:Manifestation;
+    melod:hasTitle _:b129f8b7f-3952-063a-f16e-43aa1251dd6a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1314622255>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:b1a6aa36b-f63e-4940-2e4b-46cb5b129aa7;
+    dct:conformsTo melod:Manifestation.
+
+_:b129f8b7f-3952-063a-f16e-43aa1251dd6a a melod:Title;
+    rdfs:label "Graveto no choro — Partitura melodia (edition Bandeirante Editora Musical Ltda)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b1a6aa36b-f63e-4940-2e4b-46cb5b129aa7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1451983860>;
+    melod:hasRole terms:Publisher.

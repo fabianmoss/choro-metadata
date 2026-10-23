@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1485427427> a melod:Work;
+    melod:hasTitle _:b7a0f51d1-dba0-7414-b4fd-cdda5fd385d2;
+    melod:hasIdentifier _:b163d5514-f0e5-e1f3-e6f9-517bd102c5a8;
+    melod:hasClassification "Marcha Patriótica";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9289>;
+    melod:hasContribution _:b20a59c6e-bdda-39c1-a66e-e97dd1b11f11, _:b05722e82-8146-5455-869c-7d531a6e9020;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1580326763>;
+    melod:hasAnnotation _:b544de4d1-40eb-7a5c-38dd-3f9195f0844e;
+    dct:conformsTo melod:Work.
+
+_:b7a0f51d1-dba0-7414-b4fd-cdda5fd385d2 a melod:Title;
+    rdfs:label "Hino a João Pessoa"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b163d5514-f0e5-e1f3-e6f9-517bd102c5a8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9289".
+
+_:b20a59c6e-bdda-39c1-a66e-e97dd1b11f11 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1196079590>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b05722e82-8146-5455-869c-7d531a6e9020 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b544de4d1-40eb-7a5c-38dd-3f9195f0844e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9289\">https://acervo.casadochoro.com.br/works/view/9289</a>. Gênero: Marcha Patriótica. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

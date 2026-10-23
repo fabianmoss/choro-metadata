@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1393068273> a melod:Manifestation;
+    melod:hasTitle _:bc3117958-7456-82cc-eb71-3404c5124bf0;
+    lrmoo:R4_embodies <urn:uuid:expressions/1361408929>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b1a5c6ccc-318a-ea3a-01a2-4cdbbf255be8;
+    schema:publication _:b5a55e9be-cd70-873c-9223-5d0f663ee696;
+    dct:conformsTo melod:Manifestation.
+
+_:bc3117958-7456-82cc-eb71-3404c5124bf0 a melod:Title;
+    rdfs:label "Gato preto — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b1a5c6ccc-318a-ea3a-01a2-4cdbbf255be8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b5a55e9be-cd70-873c-9223-5d0f663ee696 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

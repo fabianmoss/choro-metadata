@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1854374863> a melod:Manifestation;
+    melod:hasTitle _:b3aad8c35-c55d-9c0d-90ae-17b29c36f607;
+    lrmoo:R4_embodies <urn:uuid:expressions/1229726021>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b9e8ce672-5a7f-41fa-3af0-81059c2b4d20;
+    schema:publication _:bb4b3b208-74cd-2cae-7de0-6639d75dc62a;
+    dct:conformsTo melod:Manifestation.
+
+_:b3aad8c35-c55d-9c0d-90ae-17b29c36f607 a melod:Title;
+    rdfs:label "Gol de placa — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9e8ce672-5a7f-41fa-3af0-81059c2b4d20 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bb4b3b208-74cd-2cae-7de0-6639d75dc62a a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

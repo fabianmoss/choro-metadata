@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1814675459> a melod:Manifestation;
+    melod:hasTitle _:b0ab3a1ef-7b15-292e-42ee-ec4bae597452;
+    lrmoo:R4_embodies <urn:uuid:expressions/1257785853>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b24aa3b16-fbbb-3f20-b4a8-c6bf5b23495f;
+    schema:publication _:b157a121d-b7ab-383c-9193-347e1680eb4d;
+    dct:conformsTo melod:Manifestation.
+
+_:b0ab3a1ef-7b15-292e-42ee-ec4bae597452 a melod:Title;
+    rdfs:label "Fonógrafo — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b24aa3b16-fbbb-3f20-b4a8-c6bf5b23495f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b157a121d-b7ab-383c-9193-347e1680eb4d a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

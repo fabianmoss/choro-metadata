@@ -1,0 +1,72 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1502454053> a melod:Instrumentation;
+    rdfs:label "baixo, clarinete Bb, flauta, piston, sax horn Eb, sax tenor Bb, trombone, violino"@pt;
+    melod:hasInstrumentationDetail _:bb33ecd37-72c3-1510-97a3-1724a8fc261f, _:beeadc6cc-2367-a8c8-1b10-c87c4d5b6ed7, _:b4ea8f828-c707-fc2e-df3b-5a887f3e992b, _:bf1beda0e-437f-b185-a8c7-2fa393fc2c32, _:b6ab57238-ca03-04aa-bdf9-922b8d572517, _:b34cc0184-5ad5-1cd6-e5db-c0e67a9b81a5, _:b4ec5df0e-489e-8b2b-f413-54302a04c8bb, _:b8525c672-503e-2701-9fd2-d344acd1521f.
+
+_:bb33ecd37-72c3-1510-97a3-1724a8fc261f a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "baixo";
+    mus:U2_foresees_use_of_medium_of_performance terms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:beeadc6cc-2367-a8c8-1b10-c87c4d5b6ed7 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "clarinete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b4ea8f828-c707-fc2e-df3b-5a887f3e992b a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bf1beda0e-437f-b185-a8c7-2fa393fc2c32 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "piston";
+    mus:U2_foresees_use_of_medium_of_performance terms:Cornet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b6ab57238-ca03-04aa-bdf9-922b8d572517 a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "sax horn Eb";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b34cc0184-5ad5-1cd6-e5db-c0e67a9b81a5 a melod:InstrumentationDetail;
+    schema:position "6"^^xsd:integer;
+    schema:description "sax tenor Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b4ec5df0e-489e-8b2b-f413-54302a04c8bb a melod:InstrumentationDetail;
+    schema:position "7"^^xsd:integer;
+    schema:description "trombone";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trombone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b8525c672-503e-2701-9fd2-d344acd1521f a melod:InstrumentationDetail;
+    schema:position "8"^^xsd:integer;
+    schema:description "violino";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

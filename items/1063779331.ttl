@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1063779331> a melod:Item;
+    rdfs:label "Hilário Patureba — Partitura piano e letra (score_2974)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1060453635>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b93ca52ff-3c1a-8215-ae66-8760af638bb8;
+    melod:hasShelfmark "score_2974";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2974.pdf>;
+    melod:hasHand _:bc9687add-c443-3c98-c86e-03db37a1fafd;
+    melod:hasProvenance _:bcaff8343-d827-df9a-8698-73d391ddfe6b;
+    dct:conformsTo melod:Item.
+
+_:b93ca52ff-3c1a-8215-ae66-8760af638bb8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2974".
+
+_:bc9687add-c443-3c98-c86e-03db37a1fafd a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:bcaff8343-d827-df9a-8698-73d391ddfe6b a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b0600a71d-eaef-634f-e435-1a2d6aafd1b6.
+
+_:b0600a71d-eaef-634f-e435-1a2d6aafd1b6 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

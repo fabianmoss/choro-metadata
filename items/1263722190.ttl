@@ -1,0 +1,27 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1263722190> a melod:Item;
+    rdfs:label "Guayanazes_BANDÃO — Partitura sax alto 1 (score_16731)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1807122033>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b226a607d-fe8d-7b4b-5c37-2f9e575a392e;
+    melod:hasShelfmark "score_16731";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_16731.pdf>;
+    dct:conformsTo melod:Item.
+
+_:b226a607d-fe8d-7b4b-5c37-2f9e575a392e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_16731".

@@ -1,0 +1,27 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1790893547> a melod:Item;
+    rdfs:label "Girondinos — Partitura melodia e cifra (score_13785)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1433499575>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b76804a5b-f141-f5db-a709-b4b63ea0749c;
+    melod:hasShelfmark "score_13785";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_13785.pdf>;
+    dct:conformsTo melod:Item.
+
+_:b76804a5b-f141-f5db-a709-b4b63ea0749c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_13785".

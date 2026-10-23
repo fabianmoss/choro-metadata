@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1266440995> a melod:Work;
+    melod:hasTitle _:b5f2912d2-b9bc-23d3-3915-58c9f7e4fd8b;
+    melod:hasIdentifier _:baaf0042a-5b41-603a-dbb9-63aec40593a1;
+    melod:hasClassification "Samba sincopado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8591>;
+    melod:hasContribution _:bd5225a4b-b696-f3e1-acb4-b69236bc896a, _:b2e1f6bca-afcd-4a91-eabb-3ef32ff2bb31;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1573163821>;
+    melod:hasAnnotation _:b3a6f3400-d174-4df4-1979-496bca51c003;
+    dct:conformsTo melod:Work.
+
+_:b5f2912d2-b9bc-23d3-3915-58c9f7e4fd8b a melod:Title;
+    rdfs:label "Grave e agudo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:baaf0042a-5b41-603a-dbb9-63aec40593a1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8591".
+
+_:bd5225a4b-b696-f3e1-acb4-b69236bc896a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201183453>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2e1f6bca-afcd-4a91-eabb-3ef32ff2bb31 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3a6f3400-d174-4df4-1979-496bca51c003 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8591\">https://acervo.casadochoro.com.br/works/view/8591</a>. Gênero: Samba sincopado. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

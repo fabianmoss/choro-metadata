@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1318089611> a melod:Expression;
+    rdfs:label "Fura-barreira (arrangement by Mauricio Carrilho, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bd76369ab-4cc1-3eb5-333c-e543d22f94d5;
+    melod:hasContribution _:b28f0c1ea-e4e7-8ed4-f877-2dbc92e5f8fb;
+    dct:conformsTo melod:Expression.
+
+_:bd76369ab-4cc1-3eb5-333c-e543d22f94d5 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b28f0c1ea-e4e7-8ed4-f877-2dbc92e5f8fb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

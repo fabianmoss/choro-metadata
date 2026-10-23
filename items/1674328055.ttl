@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1674328055> a melod:Item;
+    rdfs:label "Genéa — Partitura melodia e cifra (score_3709)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1237704617>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b1c1ea572-009c-19f5-1f2a-50bb8244f2f0;
+    melod:hasShelfmark "score_3709";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3709.pdf>;
+    melod:hasHand _:b0d3351df-65e7-43a8-0f9a-1b32686bac99;
+    melod:hasProvenance _:bd1bda4f7-c321-b3a7-bdb5-d6d519c7e3b2;
+    dct:conformsTo melod:Item.
+
+_:b1c1ea572-009c-19f5-1f2a-50bb8244f2f0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3709".
+
+_:b0d3351df-65e7-43a8-0f9a-1b32686bac99 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1567137601>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Sérgio Napoleão Belucco".
+
+_:bd1bda4f7-c321-b3a7-bdb5-d6d519c7e3b2 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b0c71e116-331d-d651-d1de-91dc041ea6a2.
+
+_:b0c71e116-331d-d651-d1de-91dc041ea6a2 a melod:ExactDate;
+    melod:isodate "1987-12-01"^^xsd:date;
+    schema:description "01.12.1987".

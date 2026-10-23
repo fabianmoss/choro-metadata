@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1783927964> a melod:Work;
+    melod:hasTitle _:b4a60edbe-0d22-8a0d-08be-f74620c72d68;
+    melod:hasIdentifier _:b68cb5345-551e-6593-b40a-22efde14254f;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6813>;
+    melod:hasContribution _:b176ade5c-eee8-cb30-3a43-26b6ab9e3f0a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1075775616>;
+    melod:hasAnnotation _:bfb2b2a0a-001c-a12e-881a-2343e53d1271;
+    dct:conformsTo melod:Work.
+
+_:b4a60edbe-0d22-8a0d-08be-f74620c72d68 a melod:Title;
+    rdfs:label "Fuga da África"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b68cb5345-551e-6593-b40a-22efde14254f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6813".
+
+_:b176ade5c-eee8-cb30-3a43-26b6ab9e3f0a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1197690255>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfb2b2a0a-001c-a12e-881a-2343e53d1271 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6813\">https://acervo.casadochoro.com.br/works/view/6813</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

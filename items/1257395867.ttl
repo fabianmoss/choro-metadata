@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1257395867> a melod:Item;
+    rdfs:label "Gardênia — Partitura melodia (score_2938)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1797880738>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b44c812d4-ca8b-3965-0b91-d908e7779e5b;
+    melod:hasShelfmark "score_2938";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2938.pdf>;
+    melod:hasHand _:bcc324b62-fdce-945d-7675-59ec2bf9416f;
+    melod:hasProvenance _:b4ded5359-a8f8-1467-f75f-68cdcad2e215;
+    dct:conformsTo melod:Item.
+
+_:b44c812d4-ca8b-3965-0b91-d908e7779e5b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2938".
+
+_:bcc324b62-fdce-945d-7675-59ec2bf9416f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b4ded5359-a8f8-1467-f75f-68cdcad2e215 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b4ae69f2c-9190-1bf8-fed2-bca3d3fcb1d2.
+
+_:b4ae69f2c-9190-1bf8-fed2-bca3d3fcb1d2 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

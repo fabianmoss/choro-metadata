@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1356923750> a melod:Work;
+    melod:hasTitle _:be0ad38bf-90da-b068-4a46-785c57dd6ee0;
+    melod:hasIdentifier _:be19d67c1-8080-19ec-bcca-ceaef464b748;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4278>;
+    melod:hasContribution _:b2a1f7f98-5192-4df4-c34e-30837fe9803d, _:bf672047c-da69-37ed-ce59-c744e3f5def4;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1060267166>, <urn:uuid:expressions/1186515614>, <urn:uuid:expressions/1719557109>;
+    melod:hasAnnotation _:b3937557b-a376-871f-bce4-f740cc98eab8;
+    dct:conformsTo melod:Work.
+
+_:be0ad38bf-90da-b068-4a46-785c57dd6ee0 a melod:Title;
+    rdfs:label "Fogo de \"paia\""@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be19d67c1-8080-19ec-bcca-ceaef464b748 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4278".
+
+_:b2a1f7f98-5192-4df4-c34e-30837fe9803d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf672047c-da69-37ed-ce59-c744e3f5def4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1366496114>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3937557b-a376-871f-bce4-f740cc98eab8 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4278\">https://acervo.casadochoro.com.br/works/view/4278</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

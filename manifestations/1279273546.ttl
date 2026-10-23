@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1279273546> a melod:Manifestation;
+    melod:hasTitle _:b527ddf28-3d4d-d097-8ef9-5c0e91b2636f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1561114538>;
+    melod:hasClassificationOfManifestation "Partitura clarinete", terms:Print;
+    melod:hasContribution _:b572069a7-746c-5345-00e8-4596f12dc224;
+    schema:publication _:bcae8193f-2d6d-ca2d-ec25-19acb6839cb0;
+    dct:conformsTo melod:Manifestation.
+
+_:b527ddf28-3d4d-d097-8ef9-5c0e91b2636f a melod:Title;
+    rdfs:label "Guayanazes_BANDÃO — Partitura clarinete (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b572069a7-746c-5345-00e8-4596f12dc224 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bcae8193f-2d6d-ca2d-ec25-19acb6839cb0 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

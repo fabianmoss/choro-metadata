@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1198662642> a melod:Manifestation;
+    melod:hasTitle _:b96a5e689-cd31-adbb-aa82-3826aba4df7f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1693592384>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bd8762ce5-1eef-fa2a-8d2f-89fed349898a;
+    dct:conformsTo melod:Manifestation.
+
+_:b96a5e689-cd31-adbb-aa82-3826aba4df7f a melod:Title;
+    rdfs:label "Gorgeio da primavera — Partitura piano (edition Casa Bevilacqua)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd8762ce5-1eef-fa2a-8d2f-89fed349898a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1477204031>;
+    melod:hasRole terms:Publisher.

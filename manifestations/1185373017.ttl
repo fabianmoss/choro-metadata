@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1185373017> a melod:Manifestation;
+    melod:hasTitle _:b7cb0ac0f-25c0-a3b1-baf5-aa353a8792f4;
+    lrmoo:R4_embodies <urn:uuid:expressions/1121705640>;
+    melod:hasClassificationOfManifestation "Partitura melodia, cifra e letra", terms:Print;
+    melod:hasContribution _:b94540ba5-7cef-b74e-8274-80c7c7bad9fa;
+    dct:conformsTo melod:Manifestation.
+
+_:b7cb0ac0f-25c0-a3b1-baf5-aa353a8792f4 a melod:Title;
+    rdfs:label "Galho de goiabeira — Partitura melodia, cifra e letra (edition EPM)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b94540ba5-7cef-b74e-8274-80c7c7bad9fa a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1240550851>;
+    melod:hasRole terms:Publisher.

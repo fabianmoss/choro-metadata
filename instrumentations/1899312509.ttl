@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1899312509> a melod:Instrumentation;
+    rdfs:label "cello, flauta, violão, violino"@pt;
+    melod:hasInstrumentationDetail _:bada29911-7e40-9dc8-1a85-91e98c1b792c, _:b607da060-e0bb-98cf-d236-241544b7418b, _:b46dee24d-beec-84cd-9cae-b440178ee87c, _:b271d4881-7146-873f-ec50-4618ffb5d8cb.
+
+_:bada29911-7e40-9dc8-1a85-91e98c1b792c a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "cello";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violoncello;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b607da060-e0bb-98cf-d236-241544b7418b a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b46dee24d-beec-84cd-9cae-b440178ee87c a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "violão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b271d4881-7146-873f-ec50-4618ffb5d8cb a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "violino";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

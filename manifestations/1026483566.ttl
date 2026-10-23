@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1026483566> a melod:Manifestation;
+    melod:hasTitle _:b8196114d-7afa-909b-2114-5433bcd13f49;
+    lrmoo:R4_embodies <urn:uuid:expressions/1556234713>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bcf2a67ba-1fc8-c7e7-e1a4-933e6ce28c93;
+    schema:publication _:bdb69a2ba-87d7-0d8e-f2b3-3fe2a7fe6993;
+    dct:conformsTo melod:Manifestation.
+
+_:b8196114d-7afa-909b-2114-5433bcd13f49 a melod:Title;
+    rdfs:label "Guarda de baixo — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bcf2a67ba-1fc8-c7e7-e1a4-933e6ce28c93 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bdb69a2ba-87d7-0d8e-f2b3-3fe2a7fe6993 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1715654359> a melod:Manifestation;
+    melod:hasTitle _:b80ec1eb0-0646-966a-f2b7-f5f6d627095d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1811133561>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b1e2ef8d1-afc0-eeb5-4703-332f6deb454a;
+    schema:publication _:b9cc141c0-d8b5-f014-1696-b01e5b80ac34;
+    dct:conformsTo melod:Manifestation.
+
+_:b80ec1eb0-0646-966a-f2b7-f5f6d627095d a melod:Title;
+    rdfs:label "Grotão do Jequiá — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b1e2ef8d1-afc0-eeb5-4703-332f6deb454a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b9cc141c0-d8b5-f014-1696-b01e5b80ac34 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

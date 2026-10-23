@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1350350864> a melod:Item;
+    rdfs:label "Gemido d'alma — Partitura melodia (score_5246)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1564064568>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b5a02e04f-8910-3b8a-61ae-28a7a155d920;
+    melod:hasShelfmark "score_5246";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5246.pdf>;
+    melod:hasProvenance _:b62e0de83-6c3e-b29a-c37a-98d0c3b87d02;
+    dct:conformsTo melod:Item.
+
+_:b5a02e04f-8910-3b8a-61ae-28a7a155d920 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5246".
+
+_:b62e0de83-6c3e-b29a-c37a-98d0c3b87d02 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b51761a9b-411a-979b-5a29-89de0c83b44c.
+
+_:b51761a9b-411a-979b-5a29-89de0c83b44c a melod:ExactDate;
+    melod:isodate "1966-12-01"^^xsd:date;
+    schema:description "01.12.1966".

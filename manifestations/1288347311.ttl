@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1288347311> a melod:Manifestation;
+    melod:hasTitle _:b42bb2c53-42d4-9b77-f268-60d1afed2bec;
+    lrmoo:R4_embodies <urn:uuid:expressions/1261911282>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b19441fe4-9a1d-e1e8-8e39-c16177f1f82f;
+    dct:conformsTo melod:Manifestation.
+
+_:b42bb2c53-42d4-9b77-f268-60d1afed2bec a melod:Title;
+    rdfs:label "Guerreiro — Partitura piano (edition Sampaio Araújo & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b19441fe4-9a1d-e1e8-8e39-c16177f1f82f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1206727235>;
+    melod:hasRole terms:Publisher.

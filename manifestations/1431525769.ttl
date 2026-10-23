@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1431525769> a melod:Manifestation;
+    melod:hasTitle _:b35322502-a283-4ddc-72c7-340ab5bb3c1d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1480746369>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:b08101b66-f0b7-d708-733a-b28a73cc41b8;
+    dct:conformsTo melod:Manifestation.
+
+_:b35322502-a283-4ddc-72c7-340ab5bb3c1d a melod:Title;
+    rdfs:label "Gaúcha — Partitura melodia (edition A Melodia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b08101b66-f0b7-d708-733a-b28a73cc41b8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1404776138>;
+    melod:hasRole terms:Publisher.

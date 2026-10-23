@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1818259264> a melod:Item;
+    rdfs:label "Gadú namorando — Partitura melodia (score_6410)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1217493111>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:beca262be-7893-dcf7-e703-efe2a665fd56;
+    melod:hasShelfmark "score_6410";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6410.pdf>;
+    melod:hasHand _:b156b6c15-1be4-de24-8aa8-bad2fffcd5f0;
+    dct:conformsTo melod:Item.
+
+_:beca262be-7893-dcf7-e703-efe2a665fd56 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6410".
+
+_:b156b6c15-1be4-de24-8aa8-bad2fffcd5f0 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1771246809>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Biliano de Oliveira".

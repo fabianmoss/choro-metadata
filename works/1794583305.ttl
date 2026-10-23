@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1794583305> a melod:Work;
+    melod:hasTitle _:bf4f44a65-3337-dc56-5c6c-6919102526ee;
+    melod:hasIdentifier _:ba13e51e2-3ac9-8afe-86d5-98b13568f16e;
+    melod:hasClassification "Hino";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2131>;
+    melod:hasContribution _:b5e9da132-f59b-d88d-e3cf-edc6c2539db5;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1095074571>;
+    melod:hasAnnotation _:b850953c7-a76f-d120-1e07-47c0a73c0a58;
+    dct:conformsTo melod:Work.
+
+_:bf4f44a65-3337-dc56-5c6c-6919102526ee a melod:Title;
+    rdfs:label "Hino à árvore"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba13e51e2-3ac9-8afe-86d5-98b13568f16e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2131".
+
+_:b5e9da132-f59b-d88d-e3cf-edc6c2539db5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1752102057>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b850953c7-a76f-d120-1e07-47c0a73c0a58 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2131\">https://acervo.casadochoro.com.br/works/view/2131</a>. Gênero: Hino. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.
