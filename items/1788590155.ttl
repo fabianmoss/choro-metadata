@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1788590155> a melod:Item;
+    rdfs:label "Canção da Saudade — Partitura piano e letra (score_2998)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1060562575>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb460082a-0050-c3f8-429b-f21a8d7bb19d;
+    melod:hasShelfmark "score_2998";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2998.pdf>;
+    melod:hasHand _:b627357fc-ea13-e173-3ceb-cdb40e16be8c;
+    melod:hasProvenance _:baa29b725-5fdb-2c18-16dc-ac7264f89d66;
+    dct:conformsTo melod:Item.
+
+_:bb460082a-0050-c3f8-429b-f21a8d7bb19d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2998".
+
+_:b627357fc-ea13-e173-3ceb-cdb40e16be8c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:baa29b725-5fdb-2c18-16dc-ac7264f89d66 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:be3267d11-9a3b-6cb0-9faa-d97caf8b7f46.
+
+_:be3267d11-9a3b-6cb0-9faa-d97caf8b7f46 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

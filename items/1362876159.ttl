@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1362876159> a melod:Item;
+    rdfs:label "Boas vidas — Partitura melodia (score_7244)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1799023686>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbd91dcf1-1740-2635-4ac3-a1893c937469;
+    melod:hasShelfmark "score_7244";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7244.pdf>;
+    melod:hasProvenance _:ba8bbf878-88ca-ddaa-d2ca-1ef7cae6de44;
+    dct:conformsTo melod:Item.
+
+_:bbd91dcf1-1740-2635-4ac3-a1893c937469 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7244".
+
+_:ba8bbf878-88ca-ddaa-d2ca-1ef7cae6de44 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bf5ef210d-3d28-5b50-e427-152ba75cac41.
+
+_:bf5ef210d-3d28-5b50-e427-152ba75cac41 a melod:ExactDate;
+    melod:isodate "1964-01-05"^^xsd:date;
+    schema:description "05.01.1964".

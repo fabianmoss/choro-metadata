@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1888111563> a melod:Instrumentation;
+    rdfs:label "piano, piston"@pt;
+    melod:hasInstrumentationDetail _:b38b1bb3f-4a23-4162-5d0a-83a6120d84a6, _:bae6b821b-9816-b178-6eb7-e9e036cca332.
+
+_:b38b1bb3f-4a23-4162-5d0a-83a6120d84a6 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "piano";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piano;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ka>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bae6b821b-9816-b178-6eb7-e9e036cca332 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "piston";
+    mus:U2_foresees_use_of_medium_of_performance terms:Cornet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

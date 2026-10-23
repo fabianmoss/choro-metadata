@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1876432133> a melod:Item;
+    rdfs:label "Antonico — Partitura cifra (score_11599)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1447329582>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb286df8a-86eb-b083-b8cb-91cff72b49de;
+    melod:hasShelfmark "score_11599";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11599.pdf>;
+    melod:hasHand _:b8491a2c9-6bce-333a-8c6a-bbe155c77a92;
+    dct:conformsTo melod:Item.
+
+_:bb286df8a-86eb-b083-b8cb-91cff72b49de a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11599".
+
+_:b8491a2c9-6bce-333a-8c6a-bbe155c77a92 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".

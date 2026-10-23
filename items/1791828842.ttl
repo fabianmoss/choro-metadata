@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1791828842> a melod:Item;
+    rdfs:label "Boêmia Terra — Partitura cifra (score_11125)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1013110897>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2b51e363-ed45-5795-ff2e-c977d24ce238;
+    melod:hasShelfmark "score_11125";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11125.pdf>;
+    melod:hasHand _:bac53c2d8-fd97-bfa6-c5f8-c621ba5c1bd3;
+    dct:conformsTo melod:Item.
+
+_:b2b51e363-ed45-5795-ff2e-c977d24ce238 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11125".
+
+_:bac53c2d8-fd97-bfa6-c5f8-c621ba5c1bd3 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

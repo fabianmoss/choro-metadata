@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1496215831> a melod:Item;
+    rdfs:label "Benguelê — Partitura melodia (no digitisation)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1728784058>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasHand _:b4d67037c-7979-edec-e8cc-da40a716ca52;
+    melod:hasProvenance _:b0d16eaec-436f-f8b2-05dc-8bfbb0b582a6;
+    melod:hasAnnotation _:b451b6f99-efd7-b7a1-c166-d3d5b8c91936;
+    dct:conformsTo melod:Item.
+
+_:b4d67037c-7979-edec-e8cc-da40a716ca52 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1201773863>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Pixinguinha".
+
+_:b0d16eaec-436f-f8b2-05dc-8bfbb0b582a6 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b5a0d0d41-be49-0d68-2f88-1173f012d244.
+
+_:b5a0d0d41-be49-0d68-2f88-1173f012d244 a melod:ExactDate;
+    melod:isodate "1950-03-03"^^xsd:date;
+    schema:description "03.03.1950".
+
+_:b451b6f99-efd7-b7a1-c166-d3d5b8c91936 a melod:Annotation;
+    rdfs:label "Access restriction";
+    melod:paragraph "<p>Visualização e consulta não autorizadas pela editora. Disponível somente na Casa do Choro.</p>"^^rdf:HTML.

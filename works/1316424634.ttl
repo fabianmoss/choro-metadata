@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1316424634> a melod:Work;
+    melod:hasTitle _:b695cfb9d-907f-6721-7950-bfa70085dc81;
+    melod:hasIdentifier _:be10b8c3f-816a-bd1b-dbfa-9b89b85e85d0;
+    melod:hasClassification "Choro Coco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8035>;
+    melod:hasContribution _:b0121d51f-d07a-8e4a-0e46-7c5a3124a062;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1010522362>;
+    melod:hasAnnotation _:b4bd714b3-ded5-9f74-2eaa-b04d2836501b;
+    dct:conformsTo melod:Work.
+
+_:b695cfb9d-907f-6721-7950-bfa70085dc81 a melod:Title;
+    rdfs:label "Arranha-gato"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be10b8c3f-816a-bd1b-dbfa-9b89b85e85d0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8035".
+
+_:b0121d51f-d07a-8e4a-0e46-7c5a3124a062 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4bd714b3-ded5-9f74-2eaa-b04d2836501b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8035\">https://acervo.casadochoro.com.br/works/view/8035</a>. Gênero: Choro Coco. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

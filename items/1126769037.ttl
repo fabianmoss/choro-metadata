@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1126769037> a melod:Item;
     rdfs:label "Alguém diz Maya — Partitura melodia e cifra (score_8443)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1212129001>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1097127353>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3e5d6e6e-5241-1c76-81e3-0b844c4f6d3b;

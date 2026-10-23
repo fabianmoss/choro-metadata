@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1790453152> a melod:Item;
+    rdfs:label "Cabelo de Fogo — Partitura melodia (score_7756)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1511650113>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba5293cf1-b79e-2833-5c12-7152ed7e503c;
+    melod:hasShelfmark "score_7756";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7756.pdf>;
+    melod:hasHand _:b642b7574-89b6-bac1-c9c7-4714c69e6d1c;
+    melod:hasProvenance _:b9ee9cd04-77b6-a459-b0dd-57992016d299;
+    dct:conformsTo melod:Item.
+
+_:ba5293cf1-b79e-2833-5c12-7152ed7e503c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7756".
+
+_:b642b7574-89b6-bac1-c9c7-4714c69e6d1c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1764723253>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por João Teles dos Santos".
+
+_:b9ee9cd04-77b6-a459-b0dd-57992016d299 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bf9350bb7-ad04-3601-191f-898913550370.
+
+_:bf9350bb7-ad04-3601-191f-898913550370 a melod:ExactDate;
+    melod:isodate "1959-09-15"^^xsd:date;
+    schema:description "15.09.1959".

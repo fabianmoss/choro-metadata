@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1753080745> a melod:Work;
+    melod:hasTitle _:b09a3d4cb-c2df-3350-e953-5183810195d1;
+    melod:hasIdentifier _:b64700bb2-ea42-fe57-7965-c3c4383f62a8;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5062>;
+    melod:hasContribution _:bcebcffbd-f9fc-f5d3-2c02-b1a327d4629a, _:b095910ba-e356-85bf-bbe5-4907b1668b58;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1167910792>;
+    melod:hasAnnotation _:b3540b0f4-53cb-bb92-21b2-afadecff6c52;
+    dct:conformsTo melod:Work.
+
+_:b09a3d4cb-c2df-3350-e953-5183810195d1 a melod:Title;
+    rdfs:label "Brincando de roda"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b64700bb2-ea42-fe57-7965-c3c4383f62a8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5062".
+
+_:bcebcffbd-f9fc-f5d3-2c02-b1a327d4629a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1291015942>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b095910ba-e356-85bf-bbe5-4907b1668b58 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1725379665>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3540b0f4-53cb-bb92-21b2-afadecff6c52 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5062\">https://acervo.casadochoro.com.br/works/view/5062</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

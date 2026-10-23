@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1388975348> a melod:Manifestation;
+    melod:hasTitle _:b32b11b74-afc9-d7e3-bba0-f21bf1c7576c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1026853772>;
+    melod:hasClassificationOfManifestation "Partitura violão", terms:Print;
+    melod:hasContribution _:b546ad2a0-72d5-5449-5dd6-c77a2365b533;
+    dct:conformsTo melod:Manifestation.
+
+_:b32b11b74-afc9-d7e3-bba0-f21bf1c7576c a melod:Title;
+    rdfs:label "Choro nº6 — Partitura violão (edition Clube do Choro de São Paulo)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b546ad2a0-72d5-5449-5dd6-c77a2365b533 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1083673399>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1793606288> a melod:Manifestation;
+    melod:hasTitle _:be4d5820b-52ec-573d-a4bd-60084a4e671f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1431888805>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b59542562-393c-8ab0-3e4b-ab70a9908733;
+    dct:conformsTo melod:Manifestation.
+
+_:be4d5820b-52ec-573d-a4bd-60084a4e671f a melod:Title;
+    rdfs:label "Andante expressivo — Partitura piano (edition Divisão de Música e Arquivo Sonoro Biblioteca Nacional)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b59542562-393c-8ab0-3e4b-ab70a9908733 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1342452964>;
+    melod:hasRole terms:Publisher.

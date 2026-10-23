@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1179427757> a melod:Expression;
+    rdfs:label "Canção do centenário (original version)";
+    melod:hasClassification "Marcha Rancho";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b8a9fcd0a-4d73-1e0b-4e31-9394210f1788;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:baf94a1f4-662f-aac4-e02b-c9159490b6ad;
+    dct:conformsTo melod:Expression.
+
+_:b8a9fcd0a-4d73-1e0b-4e31-9394210f1788 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:baf94a1f4-662f-aac4-e02b-c9159490b6ad a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1083898018>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

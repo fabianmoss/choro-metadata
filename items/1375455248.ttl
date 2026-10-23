@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1375455248> a melod:Item;
     rdfs:label "A variante do Carrilho — Partitura melodia e cifra (score_9415)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1247800811>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1701069851>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60b79b50-ddfd-722a-af94-d40fcb869339;

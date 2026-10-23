@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1110788321> a melod:Work;
+    melod:hasTitle _:b7e5d87d6-6534-7ad0-82c3-468cf05ce3f4;
+    melod:hasIdentifier _:b64f27faa-0daf-cdd6-560e-76b4f1e7ae9c;
+    melod:hasClassification "Lundu";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4239>;
+    melod:hasContribution _:ba91c0b31-1122-4fae-0d6c-d30ea768da3c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1754742556>;
+    melod:hasAnnotation _:bb95b9175-997e-7e30-2ec6-f17d2791a542;
+    dct:conformsTo melod:Work.
+
+_:b7e5d87d6-6534-7ad0-82c3-468cf05ce3f4 a melod:Title;
+    rdfs:label "As moças da época"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b64f27faa-0daf-cdd6-560e-76b4f1e7ae9c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4239".
+
+_:ba91c0b31-1122-4fae-0d6c-d30ea768da3c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1507877267>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb95b9175-997e-7e30-2ec6-f17d2791a542 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4239\">https://acervo.casadochoro.com.br/works/view/4239</a>. Gênero: Lundu. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

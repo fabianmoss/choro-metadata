@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1548324929> a melod:Item;
+    rdfs:label "Arnolina — Partitura melodia (score_437)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1341864635>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7a577b11-758c-01ce-766c-9b47d821c043;
+    melod:hasShelfmark "score_437";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_437.pdf>;
+    melod:hasHand _:b05a6248a-7a33-aec1-3ac1-80ab77995609;
+    dct:conformsTo melod:Item.
+
+_:b7a577b11-758c-01ce-766c-9b47d821c043 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_437".
+
+_:b05a6248a-7a33-aec1-3ac1-80ab77995609 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1736493321>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theodoro Aguilar (Caderno de Alfredo Vianna)".

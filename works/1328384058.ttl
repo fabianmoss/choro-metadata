@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1328384058> a melod:Work;
+    melod:hasTitle _:ba4420cf1-0770-b6e6-79e4-524a53297952;
+    melod:hasIdentifier _:b47430d44-2f29-96bb-f5bf-48b0d4cc420a;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9752>;
+    melod:hasContribution _:b4a056075-2b9d-2e3f-07aa-2a9d44a5e433, _:be76b4e82-de67-9e2e-decc-4975203f7771;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1388238423>;
+    melod:hasAnnotation _:b19cffb07-4e23-73ee-56f1-8acdccfa2bb0;
+    dct:conformsTo melod:Work.
+
+_:ba4420cf1-0770-b6e6-79e4-524a53297952 a melod:Title;
+    rdfs:label "Canto dos índios pescadores à Tupã"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b47430d44-2f29-96bb-f5bf-48b0d4cc420a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9752".
+
+_:b4a056075-2b9d-2e3f-07aa-2a9d44a5e433 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1330891175>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be76b4e82-de67-9e2e-decc-4975203f7771 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1852274687>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b19cffb07-4e23-73ee-56f1-8acdccfa2bb0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9752\">https://acervo.casadochoro.com.br/works/view/9752</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,51 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1074345491> a melod:Instrumentation;
+    rdfs:label "cavaquinho, flauta, percussão, violão, violão 7 cordas"@pt;
+    melod:hasInstrumentationDetail _:bb8695b25-0552-7e46-0f0f-1b56c555ebe2, _:bda04a735-e432-9b09-2caa-6ecf8dbc5203, _:b81ccd275-2dfd-3c0a-eedb-2b2eb75a6be1, _:bb19d538f-f134-04cd-3b86-990519e1de07, _:bf6727edc-4d69-b74e-1215-a9f57c1b7234.
+
+_:bb8695b25-0552-7e46-0f0f-1b56c555ebe2 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "cavaquinho";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tz>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bda04a735-e432-9b09-2caa-6ecf8dbc5203 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b81ccd275-2dfd-3c0a-eedb-2b2eb75a6be1 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "percussão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Percussion;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pn>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bb19d538f-f134-04cd-3b86-990519e1de07 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "violão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bf6727edc-4d69-b74e-1215-a9f57c1b7234 a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "violão 7 cordas";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

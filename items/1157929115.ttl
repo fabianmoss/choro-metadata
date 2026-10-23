@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1157929115> a melod:Item;
     rdfs:label "Ai ai — Partitura piano (score_15133)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1819983734>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1185745393>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3688cce5-b9b4-20ea-3bd7-d906e61e6077;
     melod:hasShelfmark "score_15133";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15133.pdf>;
+    melod:hasProvenance _:b2b0bad8a-bbd5-d962-7a18-6d1b7c70002d;
     dct:conformsTo melod:Item.
 
 _:b3688cce5-b9b4-20ea-3bd7-d906e61e6077 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15133".
+
+_:b2b0bad8a-bbd5-d962-7a18-6d1b7c70002d a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b6ae6473e-7199-c22e-443e-aae494197ac6.
+
+_:b6ae6473e-7199-c22e-443e-aae494197ac6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

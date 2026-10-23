@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1786878397> a melod:Item;
     rdfs:label "Abigail — Partitura melodia (score_788)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1519644617>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1337514481>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6685a272-66ac-fb76-7c26-4c513758e87f;
     melod:hasShelfmark "score_788";

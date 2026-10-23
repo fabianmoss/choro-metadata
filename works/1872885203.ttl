@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1872885203> a melod:Work;
+    melod:hasTitle _:b65b4a3c9-f41e-1713-0534-27db60037e0d;
+    melod:hasIdentifier _:bbc238fc7-51cc-e3ec-826d-0a83b5d58d18;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/765>;
+    melod:hasContribution _:bcbca27f3-1f8e-9c9d-b6d7-648129aa212a;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1272860514>, <urn:uuid:expressions/1445637168>;
+    melod:hasAnnotation _:be926c533-6188-541b-4b50-20ebdd18d2cb;
+    dct:conformsTo melod:Work.
+
+_:b65b4a3c9-f41e-1713-0534-27db60037e0d a melod:Title;
+    rdfs:label "Arnaldo Corrêa"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bbc238fc7-51cc-e3ec-826d-0a83b5d58d18 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "765".
+
+_:bcbca27f3-1f8e-9c9d-b6d7-648129aa212a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be926c533-6188-541b-4b50-20ebdd18d2cb a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/765\">https://acervo.casadochoro.com.br/works/view/765</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

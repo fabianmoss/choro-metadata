@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1444295731> a melod:Work;
+    melod:hasTitle _:be4a6e8bc-d501-62ba-d256-9784937a4d7d;
+    melod:hasIdentifier _:b22200d90-12ab-6c9c-e7e4-86255b669479;
+    melod:hasClassification "Fox";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9648>;
+    melod:hasContribution _:bab1a10d1-2a34-4aac-1224-9b59cf35ed1d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1704478851>;
+    melod:hasAnnotation _:b2c2acb6f-9f8d-51f6-d43b-5052df11749b;
+    dct:conformsTo melod:Work.
+
+_:be4a6e8bc-d501-62ba-d256-9784937a4d7d a melod:Title;
+    rdfs:label "Amor fatal"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b22200d90-12ab-6c9c-e7e4-86255b669479 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9648".
+
+_:bab1a10d1-2a34-4aac-1224-9b59cf35ed1d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1379303776>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2c2acb6f-9f8d-51f6-d43b-5052df11749b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9648\">https://acervo.casadochoro.com.br/works/view/9648</a>. Gênero: Fox. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

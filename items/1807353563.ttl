@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1807353563> a melod:Item;
+    rdfs:label "Arnolina — Partitura melodia (score_438)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1341864635>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd07e817a-f419-ec76-e4e7-727fbb8fa053;
+    melod:hasShelfmark "score_438";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_438.pdf>;
+    melod:hasHand _:b242d60fd-d949-05c4-4089-d51707916e09;
+    dct:conformsTo melod:Item.
+
+_:bd07e817a-f419-ec76-e4e7-727fbb8fa053 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_438".
+
+_:b242d60fd-d949-05c4-4089-d51707916e09 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1313789123>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Frederico de Jesus (arquivo Donga) - Caderno de Alfredo Vianna".

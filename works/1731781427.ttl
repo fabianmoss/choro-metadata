@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1731781427> a melod:Work;
+    melod:hasTitle _:b966a70fd-ab5f-22d8-7b68-332ec6408ace;
+    melod:hasIdentifier _:b402b569c-bdcb-4713-f03a-5a0eb486fc1c;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7943>;
+    melod:hasContribution _:b04876a21-8ca6-c739-ef55-cb61c6a1e0eb, _:bef37cb7d-d6fd-16a7-eb53-9bef3ad8a8b8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1719132125>;
+    melod:hasAnnotation _:be3d228e8-d278-52c3-85f3-2764a6b64a19;
+    dct:conformsTo melod:Work.
+
+_:b966a70fd-ab5f-22d8-7b68-332ec6408ace a melod:Title;
+    rdfs:label "Batina saindo do trem bala"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b402b569c-bdcb-4713-f03a-5a0eb486fc1c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7943".
+
+_:b04876a21-8ca6-c739-ef55-cb61c6a1e0eb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1258068928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bef37cb7d-d6fd-16a7-eb53-9bef3ad8a8b8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be3d228e8-d278-52c3-85f3-2764a6b64a19 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7943\">https://acervo.casadochoro.com.br/works/view/7943</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

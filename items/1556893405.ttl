@@ -28,6 +28,6 @@ _:ba023be39-c2a8-c61d-e55d-cd10eecb4b46 a melod:Identifier;
     owl:hasValue "score_222".
 
 _:b358024f3-5c30-8b0d-1e7a-ea7335c599d5 a melod:Hand;
-    melod:hasAgent <urn:uuid:persons/1679053332>;
+    melod:hasAgent <urn:uuid:persons/1588544340>;
     melod:hasHandType terms:Writer;
     schema:description "manuscrita por Bide (Alcebíades Vieira Nunes)".

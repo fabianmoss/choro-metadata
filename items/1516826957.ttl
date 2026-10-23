@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1516826957> a melod:Item;
     rdfs:label "Acalentando — Partitura melodia e cifra (score_16805)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545079077>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1019921551>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6903c9e4-6959-4c71-c2a1-ff3ea0f91385;
     melod:hasShelfmark "score_16805";

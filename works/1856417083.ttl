@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1856417083> a melod:Work;
+    melod:hasTitle _:b6413a24d-52f6-bbe8-3943-a254c82951e7;
+    melod:hasIdentifier _:b7af33a89-b552-81f4-4570-c8e3f017852e;
+    melod:hasClassification "Frevo";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9663>;
+    melod:hasContribution _:bf028a11f-928e-aff8-3461-aac56160091b, _:ba8c4430e-f2f7-4312-4919-acffe78c7993, _:bcea23a7f-46a3-a36c-4d13-47cc83318dca;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1631943842>;
+    melod:hasAnnotation _:b9a370c18-2c89-a212-cb73-7f890b427c8e;
+    dct:conformsTo melod:Work.
+
+_:b6413a24d-52f6-bbe8-3943-a254c82951e7 a melod:Title;
+    rdfs:label "Arigó no metro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b7af33a89-b552-81f4-4570-c8e3f017852e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9663".
+
+_:bf028a11f-928e-aff8-3461-aac56160091b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1309265999>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba8c4430e-f2f7-4312-4919-acffe78c7993 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1504983469>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcea23a7f-46a3-a36c-4d13-47cc83318dca a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1566356903>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9a370c18-2c89-a212-cb73-7f890b427c8e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9663\">https://acervo.casadochoro.com.br/works/view/9663</a>. Gênero: Frevo. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

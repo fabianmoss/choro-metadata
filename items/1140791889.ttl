@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1140791889> a melod:Item;
+    rdfs:label "As proezas do Bellinho — Partitura melodia (score_6452)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1408146122>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba020d83e-e3ba-0b6e-0c23-2f435794308d;
+    melod:hasShelfmark "score_6452";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6452.pdf>;
+    melod:hasHand _:b8f752ed9-f881-82de-cecb-bdd5d728271e;
+    melod:hasProvenance _:b4e427a78-41b2-8587-f675-2871f4432a7e;
+    dct:conformsTo melod:Item.
+
+_:ba020d83e-e3ba-0b6e-0c23-2f435794308d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6452".
+
+_:b8f752ed9-f881-82de-cecb-bdd5d728271e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b4e427a78-41b2-8587-f675-2871f4432a7e a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b620362da-dcc9-c036-8447-8f33b0a2b328.
+
+_:b620362da-dcc9-c036-8447-8f33b0a2b328 a melod:ExactDate;
+    melod:isodate "1929-11-12"^^xsd:date;
+    schema:description "12.11.1929".

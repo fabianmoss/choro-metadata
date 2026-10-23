@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1420077104> a melod:Work;
+    melod:hasTitle _:beb100305-30f2-e4dd-0fbf-ed6bd81ee2c2;
+    melod:hasIdentifier _:b545292bb-8d26-0243-7136-256ffb916a6a;
+    melod:hasClassification "Tango Brasileiro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3532>;
+    melod:hasContribution _:b5ec6ff1f-9555-8e70-cc59-357294289d1e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1194369395>, <urn:uuid:expressions/1046829931>;
+    melod:hasAnnotation _:b90396775-5fdb-7950-cd53-e8be9de18eef;
+    dct:conformsTo melod:Work.
+
+_:beb100305-30f2-e4dd-0fbf-ed6bd81ee2c2 a melod:Title;
+    rdfs:label "Atlântico"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b545292bb-8d26-0243-7136-256ffb916a6a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3532".
+
+_:b5ec6ff1f-9555-8e70-cc59-357294289d1e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b90396775-5fdb-7950-cd53-e8be9de18eef a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3532\">https://acervo.casadochoro.com.br/works/view/3532</a>. Gênero: Tango Brasileiro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1850211368> a melod:Item;
     rdfs:label "A ginga do Mané — Partitura melodia (score_7255)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1888940254>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1744721170>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf81cdfa1-26b7-db30-8544-de1779a0bd34;

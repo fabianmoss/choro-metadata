@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1477409509> a melod:Item;
     rdfs:label "Adelaide — Partitura arranjo (score_1237)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1706577634>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1350307653>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b53e623b0-7d19-9999-6550-fbbfae8a269a;

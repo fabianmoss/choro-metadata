@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1598537446> a melod:Manifestation;
+    melod:hasTitle _:b62a1bf3e-1712-b6d3-1984-9f67f0f9f1f0;
+    lrmoo:R4_embodies <urn:uuid:expressions/1467540464>;
+    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
+    melod:hasContribution _:b31da516c-a6f1-0d85-4fd4-161f0720c5f0;
+    schema:publication _:b2227e146-4c2e-8db3-7dc2-5bcae5e43d04;
+    dct:conformsTo melod:Manifestation.
+
+_:b62a1bf3e-1712-b6d3-1984-9f67f0f9f1f0 a melod:Title;
+    rdfs:label "Branca — Partitura melodia e letra (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b31da516c-a6f1-0d85-4fd4-161f0720c5f0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b2227e146-4c2e-8db3-7dc2-5bcae5e43d04 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

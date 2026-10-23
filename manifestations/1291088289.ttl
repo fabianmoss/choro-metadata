@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1291088289> a melod:Manifestation;
+    melod:hasTitle _:b35dcab37-de0a-9add-0743-74230113f31c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1164379806>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bfd738b60-4ac3-0f57-a202-2e32deb77793;
+    schema:publication _:b84132699-50a1-0034-215b-7380bb908958;
+    dct:conformsTo melod:Manifestation.
+
+_:b35dcab37-de0a-9add-0743-74230113f31c a melod:Title;
+    rdfs:label "Audaz conquista — Partitura piano e letra (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bfd738b60-4ac3-0f57-a202-2e32deb77793 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b84132699-50a1-0034-215b-7380bb908958 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

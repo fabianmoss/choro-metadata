@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1442379421> a melod:Item;
+    rdfs:label "Chorinho — Partitura melodia (score_2014)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1174875544>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b400c9e07-f0b7-7fa7-114a-9f98ed7f5562;
+    melod:hasShelfmark "score_2014";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2014.pdf>;
+    melod:hasHand _:b5073697e-35cc-0b80-1b84-fb3aee3eb6e0;
+    melod:hasProvenance _:bd4470d29-55a0-27b5-a75d-7b062bf2fcc5;
+    dct:conformsTo melod:Item.
+
+_:b400c9e07-f0b7-7fa7-114a-9f98ed7f5562 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2014".
+
+_:b5073697e-35cc-0b80-1b84-fb3aee3eb6e0 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:bd4470d29-55a0-27b5-a75d-7b062bf2fcc5 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b316f8425-3e16-9968-a5fc-f5bd6e1ef912.
+
+_:b316f8425-3e16-9968-a5fc-f5bd6e1ef912 a melod:ExactDate;
+    melod:isodate "1931-12-16"^^xsd:date;
+    schema:description "16.12.1931".

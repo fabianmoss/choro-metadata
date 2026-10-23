@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1837517988> a melod:Work;
+    melod:hasTitle _:bedf39102-b19d-60bc-075d-7b4b3e6911a4;
+    melod:hasIdentifier _:ba185d83f-02e4-9d57-4c56-56d1ee34b7df;
+    melod:hasClassification "Tango Brasileiro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/973>;
+    melod:hasContribution _:bac6d27ef-4767-e080-ad21-0c0e1f84ed01;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1361356922>;
+    melod:hasAnnotation _:bd1fc15e4-7be3-50b0-eddc-738a66417ca8;
+    dct:conformsTo melod:Work.
+
+_:bedf39102-b19d-60bc-075d-7b4b3e6911a4 a melod:Title;
+    rdfs:label "Canarinho"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba185d83f-02e4-9d57-4c56-56d1ee34b7df a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "973".
+
+_:bac6d27ef-4767-e080-ad21-0c0e1f84ed01 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1504760884>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd1fc15e4-7be3-50b0-eddc-738a66417ca8 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/973\">https://acervo.casadochoro.com.br/works/view/973</a>. Gênero: Tango Brasileiro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1644678968> a melod:Work;
+    melod:hasTitle _:b580c076f-99d5-51fb-e0e9-649b7668d293;
+    melod:hasIdentifier _:b39fd64af-7c23-a7d1-d5b6-dfe44c78976e;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6222>;
+    melod:hasContribution _:b3e52880a-7780-5394-c953-5b2728bc0234;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1526770282>, <urn:uuid:expressions/1264909887>;
+    melod:hasAnnotation _:b562c7f43-0a3a-1757-e0ec-352381a6da2f;
+    dct:conformsTo melod:Work.
+
+_:b580c076f-99d5-51fb-e0e9-649b7668d293 a melod:Title;
+    rdfs:label "Castelo de cartas"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b39fd64af-7c23-a7d1-d5b6-dfe44c78976e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6222".
+
+_:b3e52880a-7780-5394-c953-5b2728bc0234 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b562c7f43-0a3a-1757-e0ec-352381a6da2f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6222\">https://acervo.casadochoro.com.br/works/view/6222</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

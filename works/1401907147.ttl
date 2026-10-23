@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1401907147> a melod:Work;
+    melod:hasTitle _:beea043a4-e48b-d793-6037-adc34fc026ff;
+    melod:hasIdentifier _:b2d200871-d716-50d7-ce02-5b08a2de1303;
+    melod:hasClassification "Cançoneta";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6964>;
+    melod:hasContribution _:b9b2b721f-0935-e67a-b2db-53fed3df8eaa;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1105689211>;
+    melod:hasAnnotation _:b35156479-1d79-6532-a522-40b8dfbf1afa;
+    dct:conformsTo melod:Work.
+
+_:beea043a4-e48b-d793-6037-adc34fc026ff a melod:Title;
+    rdfs:label "Bôto"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2d200871-d716-50d7-ce02-5b08a2de1303 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6964".
+
+_:b9b2b721f-0935-e67a-b2db-53fed3df8eaa a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1191415928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b35156479-1d79-6532-a522-40b8dfbf1afa a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6964\">https://acervo.casadochoro.com.br/works/view/6964</a>. Gênero: Cançoneta. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

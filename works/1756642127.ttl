@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1756642127> a melod:Work;
+    melod:hasTitle _:bb0c4c5c1-c0a6-b0a0-2026-96b7f8dc3fb5;
+    melod:hasIdentifier _:b8b0b1959-2020-0d64-2e8f-56862ea03c1e;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2565>;
+    melod:hasContribution _:b5cfbd09e-c5ed-5f95-1196-7dcbaab64381;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1893036905>;
+    melod:hasAnnotation _:bdcb98c4a-a8e7-df15-b8ae-c82df058c86e;
+    dct:conformsTo melod:Work.
+
+_:bb0c4c5c1-c0a6-b0a0-2026-96b7f8dc3fb5 a melod:Title;
+    rdfs:label "Canção dos pastores"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8b0b1959-2020-0d64-2e8f-56862ea03c1e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2565".
+
+_:b5cfbd09e-c5ed-5f95-1196-7dcbaab64381 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bdcb98c4a-a8e7-df15-b8ae-c82df058c86e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2565\">https://acervo.casadochoro.com.br/works/view/2565</a>. Gênero: Canção. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

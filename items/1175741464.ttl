@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1175741464> a melod:Item;
     rdfs:label "A lua e o conhaque — Partitura melodia e cifra (score_10379)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1468632247>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1673396009>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b204d62f2-fb92-9f4b-2241-d8e1b6e91ba3;

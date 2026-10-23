@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1219164517> a melod:Item;
     rdfs:label "À luz do luar — Partitura piano (score_15277)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590761111>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1635621207>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9e89d0ee-1170-cf12-7741-5e0ece9d770d;
     melod:hasShelfmark "score_15277";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15277.pdf>;
+    melod:hasProvenance _:be837ef1f-76de-0171-676f-15c03c16fcd0;
     dct:conformsTo melod:Item.
 
 _:b9e89d0ee-1170-cf12-7741-5e0ece9d770d a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15277".
+
+_:be837ef1f-76de-0171-676f-15c03c16fcd0 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b52b406a4-c03d-ee57-6046-01dee6398b30.
+
+_:b52b406a4-c03d-ee57-6046-01dee6398b30 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1308253830> a melod:Item;
+    rdfs:label "Capim cheiroso — Partitura melodia (score_6415)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1097008686>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3e2a33b1-6d12-bc24-6633-5d341d7e0097;
+    melod:hasShelfmark "score_6415";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6415.pdf>;
+    melod:hasHand _:b31f86ee9-f7dd-007d-fa5b-b51cf8dc6cd8;
+    melod:hasProvenance _:b47d3f882-4cc3-5c1f-9a83-273846f06964;
+    dct:conformsTo melod:Item.
+
+_:b3e2a33b1-6d12-bc24-6633-5d341d7e0097 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6415".
+
+_:b31f86ee9-f7dd-007d-fa5b-b51cf8dc6cd8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b47d3f882-4cc3-5c1f-9a83-273846f06964 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd3970a35-632f-7a28-5ae1-7ed8425b58d2.
+
+_:bd3970a35-632f-7a28-5ae1-7ed8425b58d2 a melod:ExactDate;
+    melod:isodate "1929-07-30"^^xsd:date;
+    schema:description "30.07.1929".

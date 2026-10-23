@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1559096946> a melod:Item;
     rdfs:label "A mulher do bode — Partitura melodia e cifra (score_10966)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1553560568>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1343752166>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6dfa3325-c462-0ae4-c54c-a9aa92f9d5e9;
     melod:hasShelfmark "score_10966";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10966.pdf>;
+    melod:hasProvenance _:bd4179c06-03f0-5fa7-70e3-ba2ed201338b;
     dct:conformsTo melod:Item.
 
 _:b6dfa3325-c462-0ae4-c54c-a9aa92f9d5e9 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_10966".
+
+_:bd4179c06-03f0-5fa7-70e3-ba2ed201338b a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:bdca8b393-b083-6b7a-03d5-ee03c93750bc.
+
+_:bdca8b393-b083-6b7a-03d5-ee03c93750bc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

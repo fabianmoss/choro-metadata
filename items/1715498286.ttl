@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1715498286> a melod:Item;
+    rdfs:label "Arrependimento — Partitura melodia (score_4092)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1112005764>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf2ee3442-8dd3-3f70-5efb-e33fdb4c8e0e;
+    melod:hasShelfmark "score_4092";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4092.pdf>;
+    melod:hasHand _:b3f93051b-df7e-6f97-a46f-3f7ac8a5a4fc;
+    melod:hasProvenance _:b8ba091e0-6d70-0a36-2ab6-9b6e3c4762b4;
+    dct:conformsTo melod:Item.
+
+_:bf2ee3442-8dd3-3f70-5efb-e33fdb4c8e0e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4092".
+
+_:b3f93051b-df7e-6f97-a46f-3f7ac8a5a4fc a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b8ba091e0-6d70-0a36-2ab6-9b6e3c4762b4 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b418da4c1-1fac-3c60-0dac-17c85ac9f631.
+
+_:b418da4c1-1fac-3c60-0dac-17c85ac9f631 a melod:ExactDate;
+    melod:isodate "1931-05-03"^^xsd:date;
+    schema:description "03.05.1931".

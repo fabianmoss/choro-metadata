@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1462820629> a melod:Item;
+    rdfs:label "Canta o Yapurú — Partitura melodia (score_7629)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1603567055>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bec546bbc-0e86-45d2-0b06-4a7e3de33d1a;
+    melod:hasShelfmark "score_7629";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7629.pdf>;
+    melod:hasProvenance _:b01afbf32-aa74-b4b8-9b76-d426af986b56;
+    dct:conformsTo melod:Item.
+
+_:bec546bbc-0e86-45d2-0b06-4a7e3de33d1a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7629".
+
+_:b01afbf32-aa74-b4b8-9b76-d426af986b56 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb9fc6d8e-6774-8f41-0c38-135563026f98;
+    melod:hasContribution _:b34b8af53-8ff5-a36b-b9fd-4e573fb23018.
+
+_:bb9fc6d8e-6774-8f41-0c38-135563026f98 a melod:ExactDate;
+    melod:isodate "2003-12-30"^^xsd:date;
+    schema:description "30.12.2003".
+
+_:b34b8af53-8ff5-a36b-b9fd-4e573fb23018 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

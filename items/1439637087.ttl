@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1439637087> a melod:Item;
+    rdfs:label "Bagulhando — Partitura melodia (score_5068)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430106781>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b632c968c-0773-a4b5-5c26-30935a2b4240;
+    melod:hasShelfmark "score_5068";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5068.pdf>;
+    melod:hasHand _:b47dc27da-c0a7-fa52-e615-cf44b2897f9f;
+    melod:hasProvenance _:b65233cd4-5b73-248c-a3ec-b73983c20827;
+    dct:conformsTo melod:Item.
+
+_:b632c968c-0773-a4b5-5c26-30935a2b4240 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5068".
+
+_:b47dc27da-c0a7-fa52-e615-cf44b2897f9f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b65233cd4-5b73-248c-a3ec-b73983c20827 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b83faecd2-2924-106f-17d1-879f5e94b11e.
+
+_:b83faecd2-2924-106f-17d1-879f5e94b11e a melod:ExactDate;
+    melod:isodate "1962-12-26"^^xsd:date;
+    schema:description "26.12.1962".

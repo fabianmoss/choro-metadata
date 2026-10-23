@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1438969052> a melod:Item;
+    rdfs:label "Artística Paraense — Partitura piano (score_15176)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1351508778>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf9a68b02-801a-5108-99ef-eb0f4e3ed2fa;
+    melod:hasShelfmark "score_15176";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15176.pdf>;
+    melod:hasProvenance _:b270aef84-0789-8730-a186-c835c62bbcbd;
+    dct:conformsTo melod:Item.
+
+_:bf9a68b02-801a-5108-99ef-eb0f4e3ed2fa a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15176".
+
+_:b270aef84-0789-8730-a186-c835c62bbcbd a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b6c25a171-5056-d111-2b24-523b78ddf137.
+
+_:b6c25a171-5056-d111-2b24-523b78ddf137 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

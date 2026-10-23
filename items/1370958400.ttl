@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1370958400> a melod:Item;
+    rdfs:label "Arco — Partitura melodia e cifra (score_9853)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1809621756>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdf7f5bd0-4d0c-67af-4298-fd272189fa54;
+    melod:hasShelfmark "score_9853";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9853.pdf>;
+    melod:hasProvenance _:bc19fe269-d12b-cdce-b3f3-facf559cf055;
+    dct:conformsTo melod:Item.
+
+_:bdf7f5bd0-4d0c-67af-4298-fd272189fa54 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9853".
+
+_:bc19fe269-d12b-cdce-b3f3-facf559cf055 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b8168f73f-aedb-fa57-9926-c2f0854640fd.
+
+_:b8168f73f-aedb-fa57-9926-c2f0854640fd a melod:ExactDate;
+    melod:isodate "2001-12-10"^^xsd:date;
+    schema:description "10.12.2001".

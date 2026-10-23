@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1464475958> a melod:Work;
+    melod:hasTitle _:b874fdccb-0c39-d269-6b2f-efec9b2d468a;
+    melod:hasIdentifier _:b30fdff73-6523-f70f-10cc-8454c7e8b1db;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2100>;
+    melod:hasContribution _:b1e403eb0-50d1-34ba-6249-3a817b39ab59;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1275417130>;
+    melod:hasAnnotation _:bbc0d94bf-5647-a642-af7c-e42a789d3e50;
+    dct:conformsTo melod:Work.
+
+_:b874fdccb-0c39-d269-6b2f-efec9b2d468a a melod:Title;
+    rdfs:label "Amélia Lopiccolo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b30fdff73-6523-f70f-10cc-8454c7e8b1db a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2100".
+
+_:b1e403eb0-50d1-34ba-6249-3a817b39ab59 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1598038216>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bbc0d94bf-5647-a642-af7c-e42a789d3e50 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2100\">https://acervo.casadochoro.com.br/works/view/2100</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

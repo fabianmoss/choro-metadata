@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1704849758> a melod:Item;
     rdfs:label "Agonia — Partitura melodia e cifra (score_9381)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025013050>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1225657068>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd6d3d896-a524-4ad0-8937-62090f4d21b9;

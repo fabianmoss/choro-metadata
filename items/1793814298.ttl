@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1793814298> a melod:Item;
+    rdfs:label "Céus de Alfena — Partitura melodia (score_6234)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1725491441>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bec02cb4b-e47e-9cad-89ec-638a09c749f9;
+    melod:hasShelfmark "score_6234";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6234.pdf>;
+    melod:hasHand _:bf8c91496-e7df-5a4b-03da-6aec56f07d81;
+    melod:hasProvenance _:bdb1277d2-f7e9-cda0-c124-7a77d75ec113;
+    dct:conformsTo melod:Item.
+
+_:bec02cb4b-e47e-9cad-89ec-638a09c749f9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6234".
+
+_:bf8c91496-e7df-5a4b-03da-6aec56f07d81 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1122689035>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theo Venturelli".
+
+_:bdb1277d2-f7e9-cda0-c124-7a77d75ec113 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bf07fc113-9f96-5da1-0b51-072271dbf99c.
+
+_:bf07fc113-9f96-5da1-0b51-072271dbf99c a melod:ExactDate;
+    melod:isodate "1946-09-14"^^xsd:date;
+    schema:description "14.09.1946".

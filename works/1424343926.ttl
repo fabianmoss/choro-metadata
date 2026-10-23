@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1424343926> a melod:Work;
+    melod:hasTitle _:ba69c3e58-1889-ad31-06e3-ab764943600c;
+    melod:hasIdentifier _:bc7bbec08-236f-4e5e-cfe3-2df57d97e724;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6753>;
+    melod:hasContribution _:b8cd1bb5c-89f8-afcd-3a6f-7afcd6adcf29, _:b77c85c40-e45b-059a-8f47-751c53279dc0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1835905379>;
+    melod:hasAnnotation _:bb13a44d4-b83d-9acf-a826-609f3bf696ee;
+    dct:conformsTo melod:Work.
+
+_:ba69c3e58-1889-ad31-06e3-ab764943600c a melod:Title;
+    rdfs:label "Balancê"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc7bbec08-236f-4e5e-cfe3-2df57d97e724 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6753".
+
+_:b8cd1bb5c-89f8-afcd-3a6f-7afcd6adcf29 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1401633436>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b77c85c40-e45b-059a-8f47-751c53279dc0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1085977146>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb13a44d4-b83d-9acf-a826-609f3bf696ee a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6753\">https://acervo.casadochoro.com.br/works/view/6753</a>. Gênero: Marcha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

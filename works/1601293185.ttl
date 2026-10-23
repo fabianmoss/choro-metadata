@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1601293185> a melod:Work;
+    melod:hasTitle _:bb900722d-87d8-13c7-3c42-c7ecace754fb;
+    melod:hasIdentifier _:b52585c60-311c-8759-f99e-01a01b86ee8c;
+    melod:hasClassification "Bossamba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9910>;
+    melod:hasContribution _:b5ec7ae53-44e5-a74d-595b-0f3e926c8832;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1777227688>;
+    melod:hasAnnotation _:bfc46eb63-b8be-c861-bdd2-f7447a431b4b;
+    dct:conformsTo melod:Work.
+
+_:bb900722d-87d8-13c7-3c42-c7ecace754fb a melod:Title;
+    rdfs:label "Balançando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b52585c60-311c-8759-f99e-01a01b86ee8c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9910".
+
+_:b5ec7ae53-44e5-a74d-595b-0f3e926c8832 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1831756280>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfc46eb63-b8be-c861-bdd2-f7447a431b4b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9910\">https://acervo.casadochoro.com.br/works/view/9910</a>. Gênero: Bossamba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

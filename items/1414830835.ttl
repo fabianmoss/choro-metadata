@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1414830835> a melod:Item;
+    rdfs:label "Bachorando — Partitura melodia e cifra (score_10138)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1320266943>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf8819396-e486-4f93-6682-00fb3a614c71;
+    melod:hasShelfmark "score_10138";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10138.pdf>;
+    melod:hasHand _:b62b1344a-6057-3c30-742d-50a99b5a0a57;
+    melod:hasProvenance _:b2d14a8ed-1a0a-dc5e-8c0a-47ae73decf1d;
+    dct:conformsTo melod:Item.
+
+_:bf8819396-e486-4f93-6682-00fb3a614c71 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_10138".
+
+_:b62b1344a-6057-3c30-742d-50a99b5a0a57 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1032506567>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Sergio Napoleão Belluco".
+
+_:b2d14a8ed-1a0a-dc5e-8c0a-47ae73decf1d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b3362360a-12ea-f403-78c1-69451be1f152.
+
+_:b3362360a-12ea-f403-78c1-69451be1f152 a melod:ExactDate;
+    melod:isodate "1977-05-07"^^xsd:date;
+    schema:description "07.05.1977".

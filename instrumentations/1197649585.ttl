@@ -1,0 +1,52 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1197649585> a melod:Instrumentation;
+    rdfs:label "piano, voz - baixo, voz - contralto, voz - soprano, voz - tenor"@pt;
+    melod:hasInstrumentationDetail _:be00761cf-6599-543c-2510-fe86a3572a36, _:b7071f327-5542-6cd9-780b-58486d573a12, _:bf111ecd0-d688-7465-d5c2-159545903664, _:be21d05d4-1043-0d18-1ffd-9779ee1d7982, _:b6ebfebde-08ce-5881-bebe-b0fed9949a32.
+
+_:be00761cf-6599-543c-2510-fe86a3572a36 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "piano";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piano;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ka>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b7071f327-5542-6cd9-780b-58486d573a12 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "voz - baixo";
+    mus:U2_foresees_use_of_medium_of_performance terms:Bass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vf>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bf111ecd0-d688-7465-d5c2-159545903664 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "voz - contralto";
+    mus:U2_foresees_use_of_medium_of_performance terms:Alto;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:be21d05d4-1043-0d18-1ffd-9779ee1d7982 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "voz - soprano";
+    mus:U2_foresees_use_of_medium_of_performance terms:Soprano;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#va>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b6ebfebde-08ce-5881-bebe-b0fed9949a32 a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "voz - tenor";
+    mus:U2_foresees_use_of_medium_of_performance terms:Tenor;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

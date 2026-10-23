@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1320822858> a melod:Item;
     rdfs:label "Albina — Partitura arranjo (score_108)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1164355897>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1385287003>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b36e7a538-4032-9473-b6c9-e68eed1ceaed;

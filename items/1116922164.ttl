@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1116922164> a melod:Item;
     rdfs:label "Abolengo — Partitura melodia e cifra (score_9044)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1446026839>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1464268962>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b212c9add-f8cf-c7f8-feaf-828110ad488c;
     melod:hasShelfmark "score_9044";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9044.pdf>;
+    melod:hasProvenance _:bd4919c04-2c8e-d280-f23b-988effd2efa7;
     dct:conformsTo melod:Item.
 
 _:b212c9add-f8cf-c7f8-feaf-828110ad488c a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_9044".
+
+_:bd4919c04-2c8e-d280-f23b-988effd2efa7 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:bf9a35bdb-e710-d0bb-24c6-8d6d31f3e535.
+
+_:bf9a35bdb-e710-d0bb-24c6-8d6d31f3e535 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1288806850>;
+    melod:hasRole terms:Transcriber.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1029944287> a melod:Manifestation;
+    melod:hasTitle _:b4f048f8a-8959-808c-9a37-59260336812c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1179427757>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:be8d3e865-b63a-cc98-2f3e-3410bf58da75;
+    dct:conformsTo melod:Manifestation.
+
+_:b4f048f8a-8959-808c-9a37-59260336812c a melod:Title;
+    rdfs:label "Canção do centenário — Partitura piano e letra (edition Casa Carlos Gomes & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:be8d3e865-b63a-cc98-2f3e-3410bf58da75 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1108521816>;
+    melod:hasRole terms:Publisher.

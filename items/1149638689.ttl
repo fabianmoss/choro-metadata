@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1149638689> a melod:Item;
     rdfs:label "A sonhar — Partitura melodia (score_7625)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1429623511>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1476979938>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd14d9737-67a7-9b93-135d-17a623e8bbcc;
@@ -29,8 +29,13 @@ _:bd14d9737-67a7-9b93-135d-17a623e8bbcc a melod:Identifier;
 
 _:b5f8c2219-c3c3-a5dc-6186-04a4aa994194 a melod:Event;
     rdfs:label "Provenance of the copy";
-    melod:hasEventDate _:b3ed51907-c9f4-30b7-f538-a3c98d4ce9ae.
+    melod:hasEventDate _:b3ed51907-c9f4-30b7-f538-a3c98d4ce9ae;
+    melod:hasContribution _:b9418931d-c84d-abf2-b85d-3f337999b990.
 
 _:b3ed51907-c9f4-30b7-f538-a3c98d4ce9ae a melod:ExactDate;
     melod:isodate "2004-01-12"^^xsd:date;
     schema:description "12.01.2004".
+
+_:b9418931d-c84d-abf2-b85d-3f337999b990 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1893885267> a melod:Manifestation;
+    melod:hasTitle _:b07f4c90a-e94f-37b1-bc84-34424378c08d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1641621489>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b9bb6ac2f-e08d-5d32-2d5d-bd3b042929dc;
+    schema:publication _:b2ac6f07d-83dc-ab5d-9460-4369c3276fd4;
+    dct:conformsTo melod:Manifestation.
+
+_:b07f4c90a-e94f-37b1-bc84-34424378c08d a melod:Title;
+    rdfs:label "Bebericando — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9bb6ac2f-e08d-5d32-2d5d-bd3b042929dc a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b2ac6f07d-83dc-ab5d-9460-4369c3276fd4 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

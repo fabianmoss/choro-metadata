@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1353532177> a melod:Manifestation;
+    melod:hasTitle _:b988af046-3281-41dc-197e-9c9ca04bf400;
+    lrmoo:R4_embodies <urn:uuid:expressions/1311114714>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra para pequena orquestra", terms:Print;
+    melod:hasContribution _:bf60a515e-6130-e17a-9334-6b78b3e1ef82;
+    dct:conformsTo melod:Manifestation.
+
+_:b988af046-3281-41dc-197e-9c9ca04bf400 a melod:Title;
+    rdfs:label "Chorão — Partitura arranjo com letra para pequena orquestra (edition C.E.M.B S.Paulo)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf60a515e-6130-e17a-9334-6b78b3e1ef82 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1685886416>;
+    melod:hasRole terms:Publisher.

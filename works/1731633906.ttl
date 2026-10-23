@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1731633906> a melod:Work;
+    melod:hasTitle _:bfa323a76-6cf3-3f4e-4351-b20921c9b8f5;
+    melod:hasIdentifier _:b14954dd4-46fe-ceb0-6ef4-cc0c29577cb1;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7724>;
+    melod:hasContribution _:b8f5c9e7a-7290-0ba9-bd02-aed545b3bd47;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1309263497>;
+    melod:hasAnnotation _:bf9281146-e95d-d6c4-be4d-2fe8167c125a;
+    dct:conformsTo melod:Work.
+
+_:bfa323a76-6cf3-3f4e-4351-b20921c9b8f5 a melod:Title;
+    rdfs:label "Cabeça virada"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b14954dd4-46fe-ceb0-6ef4-cc0c29577cb1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7724".
+
+_:b8f5c9e7a-7290-0ba9-bd02-aed545b3bd47 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf9281146-e95d-d6c4-be4d-2fe8167c125a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7724\">https://acervo.casadochoro.com.br/works/view/7724</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

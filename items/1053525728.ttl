@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1053525728> a melod:Item;
+    rdfs:label "Annen Walzer — Partitura melodia (score_2932)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1515453747>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9fe21f0b-c210-c3c9-654a-28b41e16bfc7;
+    melod:hasShelfmark "score_2932";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2932.pdf>;
+    melod:hasHand _:b150985d3-a385-3b9f-6699-3f2973524a83;
+    melod:hasProvenance _:b134aed7e-2101-8286-5237-47b07f5133e7;
+    dct:conformsTo melod:Item.
+
+_:b9fe21f0b-c210-c3c9-654a-28b41e16bfc7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2932".
+
+_:b150985d3-a385-3b9f-6699-3f2973524a83 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b134aed7e-2101-8286-5237-47b07f5133e7 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b25cd645f-dd9f-fc0f-7e3a-fe8a5ad19b9b.
+
+_:b25cd645f-dd9f-fc0f-7e3a-fe8a5ad19b9b a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

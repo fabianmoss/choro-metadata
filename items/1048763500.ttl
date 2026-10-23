@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1048763500> a melod:Item;
+    rdfs:label "Carolina — Partitura arranjo (score_5403)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1368689082>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b931083e9-fdfd-4e97-a733-775ae0678c8d;
+    melod:hasShelfmark "score_5403";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5403.pdf>;
+    melod:hasProvenance _:b4da49ba1-d6c5-d4ae-1798-013350ec604d;
+    dct:conformsTo melod:Item.
+
+_:b931083e9-fdfd-4e97-a733-775ae0678c8d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5403".
+
+_:b4da49ba1-d6c5-d4ae-1798-013350ec604d a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:be54b29e0-8220-631d-cd74-01d9bfbcdf57.
+
+_:be54b29e0-8220-631d-cd74-01d9bfbcdf57 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

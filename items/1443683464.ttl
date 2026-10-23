@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1443683464> a melod:Item;
+    rdfs:label "Chorando sem motivo — Partitura melodia e cifra (score_14237)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1190630767>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb528cbe4-5231-2552-3575-72fcd5da8743;
+    melod:hasShelfmark "score_14237";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_14237.pdf>;
+    melod:hasProvenance _:b78bdff2f-08f7-aacd-a09d-656e323835e7;
+    dct:conformsTo melod:Item.
+
+_:bb528cbe4-5231-2552-3575-72fcd5da8743 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_14237".
+
+_:b78bdff2f-08f7-aacd-a09d-656e323835e7 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b3936526b-32b3-2161-52b5-2de76230137e.
+
+_:b3936526b-32b3-2161-52b5-2de76230137e a melod:ExactDate;
+    melod:isodate "2017-05-14"^^xsd:date;
+    schema:description "14.05.2017".

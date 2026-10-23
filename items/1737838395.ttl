@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1737838395> a melod:Item;
     rdfs:label "Adonae — Partitura piano (score_15257)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1528938754>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1415605954>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcfce993e-f0ff-b9b2-281f-0b673c1f9ca8;
     melod:hasShelfmark "score_15257";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15257.pdf>;
+    melod:hasProvenance _:ba9824a11-ccd9-84b4-1459-a9fd8a1f7493;
     dct:conformsTo melod:Item.
 
 _:bcfce993e-f0ff-b9b2-281f-0b673c1f9ca8 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15257".
+
+_:ba9824a11-ccd9-84b4-1459-a9fd8a1f7493 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b0653783c-4574-b30f-dd9e-45b6c054dd23.
+
+_:b0653783c-4574-b30f-dd9e-45b6c054dd23 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

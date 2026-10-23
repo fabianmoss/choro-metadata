@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1003484181> a melod:Work;
+    melod:hasTitle _:bff21f9ae-4575-225c-09ef-ba8e15bc3d47;
+    melod:hasIdentifier _:bcd29423f-5bf5-686b-1995-83631e3a4f52;
+    melod:hasClassification "Bolero";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9913>;
+    melod:hasContribution _:bf3c3799f-1b9b-e0c0-b873-3c49afb0af04;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1725778210>;
+    melod:hasAnnotation _:b12382f5a-8ae3-70e6-de58-2fb8467dec6f;
+    dct:conformsTo melod:Work.
+
+_:bff21f9ae-4575-225c-09ef-ba8e15bc3d47 a melod:Title;
+    rdfs:label "Bolero"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bcd29423f-5bf5-686b-1995-83631e3a4f52 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9913".
+
+_:bf3c3799f-1b9b-e0c0-b873-3c49afb0af04 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1831756280>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b12382f5a-8ae3-70e6-de58-2fb8467dec6f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9913\">https://acervo.casadochoro.com.br/works/view/9913</a>. Gênero: Bolero. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -26,4 +26,6 @@ _:bf24ba031-79db-b49b-4b51-03d4ea8c10fd a melod:InstrumentationDetail;
 _:be6e4a0d0-bdfa-1120-8acd-de70d00d1645 a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "trombone C";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trombone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

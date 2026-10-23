@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1881545688> a melod:Work;
+    melod:hasTitle _:bd29fa488-3b4d-b41a-da40-a9e47b25169b;
+    melod:hasIdentifier _:b926d96cc-564e-25ed-e2f8-1ed67606cf43;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8013>;
+    melod:hasContribution _:b1c1f0552-88eb-640c-13da-38f7e00825ce, _:b4da547b1-250f-b5f0-8c99-2576948e5cce;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1712355689>;
+    melod:hasAnnotation _:b79ad5654-b3d8-d834-7388-d9b2604a8430;
+    dct:conformsTo melod:Work.
+
+_:bd29fa488-3b4d-b41a-da40-a9e47b25169b a melod:Title;
+    rdfs:label "Amorosa"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b926d96cc-564e-25ed-e2f8-1ed67606cf43 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8013".
+
+_:b1c1f0552-88eb-640c-13da-38f7e00825ce a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201183453>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4da547b1-250f-b5f0-8c99-2576948e5cce a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b79ad5654-b3d8-d834-7388-d9b2604a8430 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8013\">https://acervo.casadochoro.com.br/works/view/8013</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -26,9 +26,11 @@ _:b3283ad09-c936-0f2f-2735-e13e05e9df82 a melod:InstrumentationDetail;
 _:b9c67c9f1-44f6-5a2e-19fc-470cf9089d0c a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "coro 1";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ca>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b113aace4-db7d-70cb-bc63-de893fc06916 a melod:InstrumentationDetail;
     schema:position "3"^^xsd:integer;
     schema:description "coro 2";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ca>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

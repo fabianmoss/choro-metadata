@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1662234604> a melod:Item;
+    rdfs:label "Chinela e Xodó — Partitura piano e letra (score_2976)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1124546914>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7eb2ebad-8ae7-3dc2-f5bd-67c03dee0477;
+    melod:hasShelfmark "score_2976";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2976.pdf>;
+    melod:hasHand _:b6252cf3a-7824-5590-ce7b-5f17aaa69c90;
+    melod:hasProvenance _:b51505570-1ea2-c381-4d4f-53799cee1f09;
+    dct:conformsTo melod:Item.
+
+_:b7eb2ebad-8ae7-3dc2-f5bd-67c03dee0477 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2976".
+
+_:b6252cf3a-7824-5590-ce7b-5f17aaa69c90 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b51505570-1ea2-c381-4d4f-53799cee1f09 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b66aea8c2-84b0-7260-a3f2-ac3ab61688bf.
+
+_:b66aea8c2-84b0-7260-a3f2-ac3ab61688bf a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

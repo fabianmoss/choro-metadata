@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1379459231> a melod:Work;
+    melod:hasTitle _:be83c6fc5-d515-1dff-f539-f8d6fc695d17;
+    melod:hasIdentifier _:bbf0a63a3-b1fa-956b-7ece-fb20a91c47fc;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8808>;
+    melod:hasContribution _:b269abd76-63c7-dfe0-76a0-6a631a6a92a3;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1043549607>;
+    melod:hasAnnotation _:ba4d9166e-bbb4-83d5-a074-e06d51bb4e84;
+    dct:conformsTo melod:Work.
+
+_:be83c6fc5-d515-1dff-f539-f8d6fc695d17 a melod:Title;
+    rdfs:label "Beijo de amor"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bbf0a63a3-b1fa-956b-7ece-fb20a91c47fc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8808".
+
+_:b269abd76-63c7-dfe0-76a0-6a631a6a92a3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1498051596>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba4d9166e-bbb4-83d5-a074-e06d51bb4e84 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8808\">https://acervo.casadochoro.com.br/works/view/8808</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

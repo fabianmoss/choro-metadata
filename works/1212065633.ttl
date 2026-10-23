@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1212065633> a melod:Work;
+    melod:hasTitle _:b3170fc7c-69eb-5fe9-e5cf-3472b01240a5;
+    melod:hasIdentifier _:b58f6bceb-95d8-e101-0e2d-4633645ed581;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/861>;
+    melod:hasContribution _:bf075e47c-a133-a3c9-47d8-b1b7cef29f5f;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1596160313>, <urn:uuid:expressions/1010998103>;
+    melod:hasAnnotation _:b825a3150-327d-f1e1-5e5e-7d6340cbd7db;
+    dct:conformsTo melod:Work.
+
+_:b3170fc7c-69eb-5fe9-e5cf-3472b01240a5 a melod:Title;
+    rdfs:label "As mágoas do velho Geraldo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b58f6bceb-95d8-e101-0e2d-4633645ed581 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "861".
+
+_:bf075e47c-a133-a3c9-47d8-b1b7cef29f5f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b825a3150-327d-f1e1-5e5e-7d6340cbd7db a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/861\">https://acervo.casadochoro.com.br/works/view/861</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

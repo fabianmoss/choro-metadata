@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1877755446> a melod:Manifestation;
+    melod:hasTitle _:bf40bdc2f-c352-e4b2-c7a9-0c87132d596f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1177631415>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b3c5b9662-e00b-827c-a28c-08e38f617ece;
+    dct:conformsTo melod:Manifestation.
+
+_:bf40bdc2f-c352-e4b2-c7a9-0c87132d596f a melod:Title;
+    rdfs:label "Bela fluminense — Partitura piano (edition Narciso & Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b3c5b9662-e00b-827c-a28c-08e38f617ece a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1384331214>;
+    melod:hasRole terms:Publisher.

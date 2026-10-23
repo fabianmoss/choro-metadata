@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1214116447> a melod:Expression;
+    rdfs:label "Casar não é casaca!... (original version)";
+    melod:hasClassification "Maxixe";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b8dd3aab9-a90d-7f66-af9f-779870db2660;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1052125462>;
+    melod:hasContribution _:b5168c298-0e19-003a-6303-e2d669390553;
+    dct:conformsTo melod:Expression.
+
+_:b8dd3aab9-a90d-7f66-af9f-779870db2660 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b5168c298-0e19-003a-6303-e2d669390553 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1223911954>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1592889542> a melod:Work;
+    melod:hasTitle _:b0bcde3c9-ffd0-cbab-0c87-1f43a6a451b7;
+    melod:hasIdentifier _:b4c11be9e-9b39-8c25-a4cd-b5017c9650a0;
+    melod:hasClassification "Barcarola";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4530>;
+    melod:hasContribution _:bc1461485-d591-33a7-022e-e4d0267bfed2, _:bc75d1eb0-0f67-9a0c-2818-1a4764633bbb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1512761876>, <urn:uuid:expressions/1439835406>;
+    melod:hasAnnotation _:b98e305e0-d63a-388a-d0e8-861907d4e8c1;
+    dct:conformsTo melod:Work.
+
+_:b0bcde3c9-ffd0-cbab-0c87-1f43a6a451b7 a melod:Title;
+    rdfs:label "Canção dos pescadores"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4c11be9e-9b39-8c25-a4cd-b5017c9650a0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4530".
+
+_:bc1461485-d591-33a7-022e-e4d0267bfed2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1326988482>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc75d1eb0-0f67-9a0c-2818-1a4764633bbb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b98e305e0-d63a-388a-d0e8-861907d4e8c1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4530\">https://acervo.casadochoro.com.br/works/view/4530</a>. Gênero: Barcarola. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

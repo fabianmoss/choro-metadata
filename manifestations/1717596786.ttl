@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1717596786> a melod:Manifestation;
+    melod:hasTitle _:bbe19e99d-a7b1-0af4-3d9d-37219cc8c272;
+    lrmoo:R4_embodies <urn:uuid:expressions/1302834796>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra", terms:Print;
+    melod:hasContribution _:b6f54e6dd-d302-4400-2b49-ef328c3c4996;
+    dct:conformsTo melod:Manifestation.
+
+_:bbe19e99d-a7b1-0af4-3d9d-37219cc8c272 a melod:Title;
+    rdfs:label "Amor que triunfa — Partitura arranjo com letra (edition Campassi & Camin)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6f54e6dd-d302-4400-2b49-ef328c3c4996 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1303311434>;
+    melod:hasRole terms:Publisher.

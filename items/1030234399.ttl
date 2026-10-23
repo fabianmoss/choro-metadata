@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1030234399> a melod:Item;
+    rdfs:label "Betina — Partitura piano (score_2967)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1356301100>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b66e2970e-e003-9118-bf9c-274e3cca388c;
+    melod:hasShelfmark "score_2967";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2967.pdf>;
+    melod:hasHand _:b700cf1c1-90db-06e0-3d4e-d45beaf9ff98;
+    melod:hasProvenance _:b000ed8ca-b0e3-2ef9-3960-72fe8559017d;
+    dct:conformsTo melod:Item.
+
+_:b66e2970e-e003-9118-bf9c-274e3cca388c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2967".
+
+_:b700cf1c1-90db-06e0-3d4e-d45beaf9ff98 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b000ed8ca-b0e3-2ef9-3960-72fe8559017d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9c558215-c547-775f-5d9c-d3cea147247d.
+
+_:b9c558215-c547-775f-5d9c-d3cea147247d a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

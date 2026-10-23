@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1106225605> a melod:Item;
+    rdfs:label "Brincando com o amor — Partitura melodia (score_7628)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1797502934>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bef8ff27e-611e-27d3-f935-49db4e599836;
+    melod:hasShelfmark "score_7628";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7628.pdf>;
+    melod:hasProvenance _:b6378ec57-dc52-db03-db22-c663a7fe0902;
+    dct:conformsTo melod:Item.
+
+_:bef8ff27e-611e-27d3-f935-49db4e599836 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7628".
+
+_:b6378ec57-dc52-db03-db22-c663a7fe0902 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b336963d9-f7ad-ec82-1fb1-6d259f46e48a;
+    melod:hasContribution _:b17690df9-8c51-862a-ee81-08a6b33bf10c.
+
+_:b336963d9-f7ad-ec82-1fb1-6d259f46e48a a melod:ExactDate;
+    melod:isodate "2003-12-30"^^xsd:date;
+    schema:description "30.12.2003".
+
+_:b17690df9-8c51-862a-ee81-08a6b33bf10c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

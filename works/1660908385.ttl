@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1660908385> a melod:Work;
+    melod:hasTitle _:b38606c5b-8fc5-ef33-930f-6de16c558969;
+    melod:hasIdentifier _:b8052d41b-8489-0c7e-8e10-a0f4daba82e3;
+    melod:hasClassification "Cake Walk";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1285>;
+    melod:hasContribution _:b3a5628c0-f14a-375e-7661-73063147bec4;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1041267065>;
+    melod:hasAnnotation _:b743c264b-38f1-5e31-633c-9875a1d1aefc;
+    dct:conformsTo melod:Work.
+
+_:b38606c5b-8fc5-ef33-930f-6de16c558969 a melod:Title;
+    rdfs:label "Cake-walk"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8052d41b-8489-0c7e-8e10-a0f4daba82e3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1285".
+
+_:b3a5628c0-f14a-375e-7661-73063147bec4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1528821735>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b743c264b-38f1-5e31-633c-9875a1d1aefc a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1285\">https://acervo.casadochoro.com.br/works/view/1285</a>. Gênero: Cake Walk. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

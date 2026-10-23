@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1073690312> a melod:Work;
+    melod:hasTitle _:b43cf1ab0-cf50-bf76-2f71-f609272eaf08;
+    melod:hasIdentifier _:b647b7cd5-524e-135f-44f4-1985c415ba5a;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9743>;
+    melod:hasContribution _:b22970119-6198-e88c-4d09-6b0774ee79ae;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1633656457>;
+    melod:hasAnnotation _:b150c1e13-da2e-4149-d7b7-6b6da26cc41f;
+    dct:conformsTo melod:Work.
+
+_:b43cf1ab0-cf50-bf76-2f71-f609272eaf08 a melod:Title;
+    rdfs:label "Calvário (Boca de rosa)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b647b7cd5-524e-135f-44f4-1985c415ba5a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9743".
+
+_:b22970119-6198-e88c-4d09-6b0774ee79ae a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1729200523>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b150c1e13-da2e-4149-d7b7-6b6da26cc41f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9743\">https://acervo.casadochoro.com.br/works/view/9743</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

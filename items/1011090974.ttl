@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1011090974> a melod:Item;
     rdfs:label "Acuatá — Partitura melodia (score_9041)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1503696660>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1549787053>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd9f87256-8b05-9fc8-d4d6-192f6359769c;
     melod:hasShelfmark "score_9041";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9041.pdf>;
+    melod:hasProvenance _:b30fbd4b7-460b-e56e-35d1-6c9d434d1c2e;
     dct:conformsTo melod:Item.
 
 _:bd9f87256-8b05-9fc8-d4d6-192f6359769c a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_9041".
+
+_:b30fbd4b7-460b-e56e-35d1-6c9d434d1c2e a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b880f3467-603f-364f-8fb9-6a09bf5b8fd5.
+
+_:b880f3467-603f-364f-8fb9-6a09bf5b8fd5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1750676347>;
+    melod:hasRole terms:Transcriber.

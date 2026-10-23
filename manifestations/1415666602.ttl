@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1415666602> a melod:Manifestation;
+    melod:hasTitle _:bbeb5abd8-4af4-9cb9-3364-fdf200be2415;
+    lrmoo:R4_embodies <urn:uuid:expressions/1873596879>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b3ae74c81-f182-4bfa-e6a9-5a09bcfdad84;
+    schema:publication _:bb02b717c-da7a-27e6-923c-a00c3fbb31fd;
+    dct:conformsTo melod:Manifestation.
+
+_:bbeb5abd8-4af4-9cb9-3364-fdf200be2415 a melod:Title;
+    rdfs:label "Carolina — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b3ae74c81-f182-4bfa-e6a9-5a09bcfdad84 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bb02b717c-da7a-27e6-923c-a00c3fbb31fd a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

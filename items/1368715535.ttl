@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1368715535> a melod:Item;
     rdfs:label "A luz — Partitura piano (score_15256)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1230353671>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841613425>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b29d1f053-caaf-b3da-9cdc-d6cc03464743;
     melod:hasShelfmark "score_15256";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15256.pdf>;
+    melod:hasProvenance _:b3a023ba5-77d2-a91a-d725-306a1b3bc776;
     dct:conformsTo melod:Item.
 
 _:b29d1f053-caaf-b3da-9cdc-d6cc03464743 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15256".
+
+_:b3a023ba5-77d2-a91a-d725-306a1b3bc776 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b99eab2b8-3d7b-bcf3-b6b4-90f84cd665d5.
+
+_:b99eab2b8-3d7b-bcf3-b6b4-90f84cd665d5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

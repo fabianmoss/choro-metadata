@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1094409647> a melod:Work;
+    melod:hasTitle _:bf0e9a55f-79e8-3018-6598-5542c181cb5b;
+    melod:hasIdentifier _:b5442f915-22d2-906a-4723-720c1e415989;
+    melod:hasClassification "Arrasta Pé";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3449>;
+    melod:hasContribution _:bcb892ef7-be2e-2963-05db-78005255887c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1554015006>;
+    melod:hasAnnotation _:bc5231380-45b5-05ca-c479-0ca715af45cc;
+    dct:conformsTo melod:Work.
+
+_:bf0e9a55f-79e8-3018-6598-5542c181cb5b a melod:Title;
+    rdfs:label "Buraco quente"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b5442f915-22d2-906a-4723-720c1e415989 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3449".
+
+_:bcb892ef7-be2e-2963-05db-78005255887c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1105246920>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc5231380-45b5-05ca-c479-0ca715af45cc a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3449\">https://acervo.casadochoro.com.br/works/view/3449</a>. Gênero: Arrasta Pé. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

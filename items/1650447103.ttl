@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1650447103> a melod:Item;
+    rdfs:label "Celeste — Partitura cifra (score_1251)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1035689318>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b4c98e156-2264-7e09-a58c-e5f0301b7536;
+    melod:hasShelfmark "score_1251";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1251.pdf>;
+    melod:hasHand _:b276b2934-947f-cfab-c725-fe7945481034;
+    dct:conformsTo melod:Item.
+
+_:b4c98e156-2264-7e09-a58c-e5f0301b7536 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1251".
+
+_:b276b2934-947f-cfab-c725-fe7945481034 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Maurício Carrilho".

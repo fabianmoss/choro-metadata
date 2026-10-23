@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1055295637> a melod:Manifestation;
+    melod:hasTitle _:b89eec3d0-1f4e-2cc4-65fc-1c3e2139a70d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1836421367>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b563ea510-76bd-2ee7-d29d-ac22e0846860;
+    dct:conformsTo melod:Manifestation.
+
+_:b89eec3d0-1f4e-2cc4-65fc-1c3e2139a70d a melod:Title;
+    rdfs:label "Amapá — Partitura piano (edition Francis Salabert)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b563ea510-76bd-2ee7-d29d-ac22e0846860 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1229970129>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,44 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1144302153> a melod:Instrumentation;
+    rdfs:label "cavaquinho, clarinete Bb, flauta, violão"@pt;
+    melod:hasInstrumentationDetail _:b915f8e33-16b7-3319-34e2-6da6c5cdde44, _:b44d6cfdc-e452-dd71-6d65-4135abb86522, _:beb24a430-8099-d2fc-d72e-37841e98dddb, _:bc9ce8dc6-85ad-e6bc-8ed8-4990ad05d058.
+
+_:b915f8e33-16b7-3319-34e2-6da6c5cdde44 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "cavaquinho";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tz>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b44d6cfdc-e452-dd71-6d65-4135abb86522 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "clarinete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:beb24a430-8099-d2fc-d72e-37841e98dddb a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bc9ce8dc6-85ad-e6bc-8ed8-4990ad05d058 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "violão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

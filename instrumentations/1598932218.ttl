@@ -1,0 +1,52 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1598932218> a melod:Instrumentation;
+    rdfs:label "clarinete Bb, fagote, flautim, oboé, trompa F"@pt;
+    melod:hasInstrumentationDetail _:b80925947-ebec-1960-f1fa-81454ec91392, _:b76e4e776-7bcc-f9e3-7df6-fef5334c0dc9, _:beb5849f6-a88a-3a0d-0f37-188e518e68c7, _:be95f821d-3ef0-4786-3ad5-0bdd6f4629f6, _:b8f88a872-6c83-c550-be74-08d59ab54b50.
+
+_:b80925947-ebec-1960-f1fa-81454ec91392 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "clarinete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b76e4e776-7bcc-f9e3-7df6-fef5334c0dc9 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "fagote";
+    mus:U2_foresees_use_of_medium_of_performance terms:Bassoon;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:beb5849f6-a88a-3a0d-0f37-188e518e68c7 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "flautim";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piccolo;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#we>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:be95f821d-3ef0-4786-3ad5-0bdd6f4629f6 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "oboé";
+    mus:U2_foresees_use_of_medium_of_performance terms:Oboe;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b8f88a872-6c83-c550-be74-08d59ab54b50 a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "trompa F";
+    mus:U2_foresees_use_of_medium_of_performance terms:Horn;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ba>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

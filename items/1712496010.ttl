@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1712496010> a melod:Item;
     rdfs:label "A torre em concurso — Partitura piano (score_15181)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1121888454>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1367724024>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc3c76256-254e-7608-e4ff-73329796890e;
     melod:hasShelfmark "score_15181";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15181.pdf>;
+    melod:hasProvenance _:bc014a94d-d8e7-42a4-0975-a3f948b4cb88;
     dct:conformsTo melod:Item.
 
 _:bc3c76256-254e-7608-e4ff-73329796890e a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15181".
+
+_:bc014a94d-d8e7-42a4-0975-a3f948b4cb88 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b2ad69b46-e198-bf8d-6117-d7385f01f3bd.
+
+_:b2ad69b46-e198-bf8d-6117-d7385f01f3bd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

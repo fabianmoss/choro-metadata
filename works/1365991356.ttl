@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1365991356> a melod:Work;
+    melod:hasTitle _:b3cc9bf22-bb9f-af4d-0a66-cd092244159f;
+    melod:hasIdentifier _:bef7a320b-bb24-6dbb-f70f-c9b25196714a;
+    melod:hasClassification "Romance";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1055>;
+    melod:hasContribution _:bb43f4726-3066-873e-4bdd-5dff3789327d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1711441956>;
+    melod:hasAnnotation _:bbc35b94d-f139-ce7b-b15d-c47552fa60a9;
+    dct:conformsTo melod:Work.
+
+_:b3cc9bf22-bb9f-af4d-0a66-cd092244159f a melod:Title;
+    rdfs:label "Amor"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bef7a320b-bb24-6dbb-f70f-c9b25196714a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1055".
+
+_:bb43f4726-3066-873e-4bdd-5dff3789327d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1670379989>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bbc35b94d-f139-ce7b-b15d-c47552fa60a9 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1055\">https://acervo.casadochoro.com.br/works/view/1055</a>. Gênero: Romance. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

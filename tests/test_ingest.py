@@ -16,7 +16,7 @@ import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
 
-from tools.acervo import ids, ingest
+from tools.acervo import fetch, ids, ingest
 
 
 def work_record() -> dict:
@@ -168,6 +168,13 @@ class IngestionTest(unittest.TestCase):
         stale.write_text("# stale\n", encoding="utf-8")
         self.run_ingest(prune=False)
         self.assertTrue(stale.exists())
+
+    def test_digital_transcription(self) -> None:
+        copy = fetch.parse_copy("digitada por EPM - Escola Portátil de Música")
+        self.assertEqual(copy["kind"], "digital")
+        self.assertEqual(copy["transcriber"], "EPM - Escola Portátil de Música")
+        self.assertEqual(fetch.parse_copy("digitada")["kind"], "digital")
+        self.assertEqual(fetch.parse_copy("edição digital")["kind"], "digital")
 
     def test_harvest_complete_requires_every_listed_record(self) -> None:
         self.assertFalse(ingest.harvest_complete(self.harvest))

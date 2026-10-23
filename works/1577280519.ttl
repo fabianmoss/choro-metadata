@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1577280519> a melod:Work;
+    melod:hasTitle _:b3597cc49-4644-352f-fcdc-08b6c85fc061;
+    melod:hasIdentifier _:b527f1f1e-cb2d-f5db-f3e0-7f65b724788b;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4235>;
+    melod:hasContribution _:bd656b1dd-7e5d-a124-eeb4-6ad34f7d595c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1075922116>;
+    melod:hasAnnotation _:b03e92063-b5a4-82a6-7eec-dbae206f2c7f;
+    dct:conformsTo melod:Work.
+
+_:b3597cc49-4644-352f-fcdc-08b6c85fc061 a melod:Title;
+    rdfs:label "As proesas de Athaide"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b527f1f1e-cb2d-f5db-f3e0-7f65b724788b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4235".
+
+_:bd656b1dd-7e5d-a124-eeb4-6ad34f7d595c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1428215725>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b03e92063-b5a4-82a6-7eec-dbae206f2c7f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4235\">https://acervo.casadochoro.com.br/works/view/4235</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -28,6 +28,6 @@ _:b970409f9-ab0a-2760-f084-202fcf403bb4 a melod:Identifier;
     owl:hasValue "score_6425".
 
 _:b46380f73-3634-d4e5-c094-1d50f85b26d3 a melod:Hand;
-    melod:hasAgent <urn:uuid:persons/1237281820>;
+    melod:hasAgent <urn:uuid:persons/1032506567>;
     melod:hasHandType terms:Writer;
     schema:description "manuscrita por Sérgio Napoleão Belluco".

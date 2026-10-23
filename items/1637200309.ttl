@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1637200309> a melod:Item;
+    rdfs:label "Candinho no choro — Partitura melodia (score_901)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717751158>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b33940cf5-bbe5-f758-d9e0-97eac6cf7046;
+    melod:hasShelfmark "score_901";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_901.pdf>;
+    melod:hasHand _:b51f88d8b-8171-f4fe-d07f-fe3536db4b02;
+    melod:hasProvenance _:bb7d017fa-b934-c3d2-0ac5-8d73e01c494e;
+    dct:conformsTo melod:Item.
+
+_:b33940cf5-bbe5-f758-d9e0-97eac6cf7046 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_901".
+
+_:b51f88d8b-8171-f4fe-d07f-fe3536db4b02 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:bb7d017fa-b934-c3d2-0ac5-8d73e01c494e a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bacf95254-0e28-35bd-3bc7-d9355c554988.
+
+_:bacf95254-0e28-35bd-3bc7-d9355c554988 a melod:ExactDate;
+    melod:isodate "1937-03-31"^^xsd:date;
+    schema:description "31.03.1937".

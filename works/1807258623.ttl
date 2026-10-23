@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1807258623> a melod:Work;
+    melod:hasTitle _:bafc256b0-b0d8-5387-5515-d587e6aa11b1;
+    melod:hasIdentifier _:bdd7f06e5-35d5-8b5e-ea1f-139c31b19a24;
+    melod:hasClassification "Tango Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2906>;
+    melod:hasContribution _:b7a5a62cd-8eb6-8fa9-c4c1-ef76507332a2;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1292119112>;
+    melod:hasAnnotation _:b2184d61e-42bc-fd2d-7b3b-0901edd611ac;
+    dct:conformsTo melod:Work.
+
+_:bafc256b0-b0d8-5387-5515-d587e6aa11b1 a melod:Title;
+    rdfs:label "Billie Ritchie"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bdd7f06e5-35d5-8b5e-ea1f-139c31b19a24 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2906".
+
+_:b7a5a62cd-8eb6-8fa9-c4c1-ef76507332a2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1760607917>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2184d61e-42bc-fd2d-7b3b-0901edd611ac a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2906\">https://acervo.casadochoro.com.br/works/view/2906</a>. Gênero: Tango Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

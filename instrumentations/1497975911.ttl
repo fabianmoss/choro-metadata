@@ -19,11 +19,15 @@
 _:b36254f91-30e3-740e-e2ee-63a4b527244a a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "percussão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Percussion;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pn>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bf3902091-f22e-0405-dcfb-a162167a7008 a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "percussão 2";
+    mus:U2_foresees_use_of_medium_of_performance terms:Percussion;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pn>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bd883da85-efcb-2f65-ffe0-a1c44737afca a melod:InstrumentationDetail;
@@ -36,8 +40,8 @@ _:bd883da85-efcb-2f65-ffe0-a1c44737afca a melod:InstrumentationDetail;
 _:b52dcfce4-22a1-b59a-db48-88b823dea898 a melod:InstrumentationDetail;
     schema:position "4"^^xsd:integer;
     schema:description "sax tenor Bb";
-    mus:U2_foresees_use_of_medium_of_performance terms:Tenor;
-    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vd>;
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b4ae08127-5096-5296-9dca-f80edf9a0a57 a melod:InstrumentationDetail;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1238944176> a melod:Item;
     rdfs:label "Altair — Partitura melodia (score_7626)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1500875561>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1629279274>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b356abc36-d11f-0a3b-732d-537405480509;
@@ -29,8 +29,13 @@ _:b356abc36-d11f-0a3b-732d-537405480509 a melod:Identifier;
 
 _:b34b1473c-66bb-9c63-4b98-949d79512736 a melod:Event;
     rdfs:label "Provenance of the copy";
-    melod:hasEventDate _:b9c6af0cc-357b-bf24-7398-41e323fb7221.
+    melod:hasEventDate _:b9c6af0cc-357b-bf24-7398-41e323fb7221;
+    melod:hasContribution _:b859549c8-71d4-0f3d-9cb7-858ddeb554ee.
 
 _:b9c6af0cc-357b-bf24-7398-41e323fb7221 a melod:ExactDate;
     melod:isodate "1940-08-07"^^xsd:date;
     schema:description "07.08.1940".
+
+_:b859549c8-71d4-0f3d-9cb7-858ddeb554ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

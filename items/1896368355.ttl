@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1896368355> a melod:Item;
     rdfs:label "Aí, Morcego! — Partitura arranjo (score_94)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1592025927>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1876983387>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2f99eeaa-9df6-0ccf-c36d-df789e21d1d6;
     melod:hasShelfmark "score_94";

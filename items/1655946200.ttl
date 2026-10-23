@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1655946200> a melod:Item;
+    rdfs:label "Amor e lágrimas (Dinorah) — Partitura melodia (score_4068)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1323082161>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba0efb7db-9128-7da2-999e-2374da5c3018;
+    melod:hasShelfmark "score_4068";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4068.pdf>;
+    melod:hasProvenance _:bf6bc284d-8f23-9fe0-edbc-c2502aafdb87;
+    dct:conformsTo melod:Item.
+
+_:ba0efb7db-9128-7da2-999e-2374da5c3018 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4068".
+
+_:bf6bc284d-8f23-9fe0-edbc-c2502aafdb87 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b1d75d66c-27a1-ecdd-3c8c-b7a17c969dd7.
+
+_:b1d75d66c-27a1-ecdd-3c8c-b7a17c969dd7 a melod:ExactDate;
+    melod:isodate "1935-06-06"^^xsd:date;
+    schema:description "06.06.1935".

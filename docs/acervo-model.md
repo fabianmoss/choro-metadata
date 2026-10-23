@@ -166,6 +166,14 @@ unpacks it:
 | `editorada X`                                               | print, publisher X                    |
 | `editada por X`                                             | print, editor X                       |
 | `editada`                                                   | print, unknown publisher              |
+| `digitada`, `edição digital`                                | digital transcription                 |
+| `digitada por X`, `edição digital por X`                    | digital transcription by X            |
+
+A digital transcription is a Manifestation of its own: the acervo's
+typescript of a manuscript or print is neither that manuscript nor that
+print.  Its classification is the literal “Digital transcription”, because
+the MeLODy vocabulary has no term for it, and the person who made it is a
+`terms:Transcriber` contribution of the item's provenance event.
 
 ### 4.6 Publishing houses
 

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1781231644> a melod:Work;
+    melod:hasTitle _:b6c3084a4-2641-2da4-a084-348eafddb810;
+    melod:hasIdentifier _:b0c98de76-c1ce-dcdb-b3cf-db8a7ff22c4e;
+    melod:hasClassification "Samba Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4477>;
+    melod:hasContribution _:ba20a7574-e8fb-9591-6498-9766b21290fd;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1786134128>, <urn:uuid:expressions/1859892278>;
+    melod:hasAnnotation _:bba918b88-5f70-7177-a981-e93d14845c83;
+    dct:conformsTo melod:Work.
+
+_:b6c3084a4-2641-2da4-a084-348eafddb810 a melod:Title;
+    rdfs:label "Amar, a uma só mulher"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0c98de76-c1ce-dcdb-b3cf-db8a7ff22c4e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4477".
+
+_:ba20a7574-e8fb-9591-6498-9766b21290fd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1588445482>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bba918b88-5f70-7177-a981-e93d14845c83 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4477\">https://acervo.casadochoro.com.br/works/view/4477</a>. Gênero: Samba Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1304294108> a melod:Manifestation;
+    melod:hasTitle _:bd1f8d1e4-e4f2-7b7b-1a75-40af9da9b556;
+    lrmoo:R4_embodies <urn:uuid:expressions/1042919601>;
+    melod:hasClassificationOfManifestation "Partitura arranjo para pequena orquestra", terms:Print;
+    melod:hasContribution _:ba89eb35e-4e34-6089-3df1-1bdae6853918;
+    dct:conformsTo melod:Manifestation.
+
+_:bd1f8d1e4-e4f2-7b7b-1a75-40af9da9b556 a melod:Title;
+    rdfs:label "Castelo de luar — Partitura arranjo para pequena orquestra (edition Campassi & Camin)";
+    melod:hasTitleType terms:MainTitle.
+
+_:ba89eb35e-4e34-6089-3df1-1bdae6853918 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1303311434>;
+    melod:hasRole terms:Publisher.

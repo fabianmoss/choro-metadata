@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1168902317> a melod:Work;
+    melod:hasTitle _:bf9a4811b-b88d-3d3b-85c4-3ec44de8e746;
+    melod:hasIdentifier _:b6dfd6d56-813d-b924-0a55-e31862a9f820;
+    melod:hasClassification "Fantasia";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9678>;
+    melod:hasContribution _:b4b95b5bf-cab7-572e-2311-48eb7af2d103;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1874076274>;
+    melod:hasAnnotation _:bd71be204-3469-83d5-14c7-dfd286081970;
+    dct:conformsTo melod:Work.
+
+_:bf9a4811b-b88d-3d3b-85c4-3ec44de8e746 a melod:Title;
+    rdfs:label "Bambina mia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6dfd6d56-813d-b924-0a55-e31862a9f820 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9678".
+
+_:b4b95b5bf-cab7-572e-2311-48eb7af2d103 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1330891175>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd71be204-3469-83d5-14c7-dfd286081970 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9678\">https://acervo.casadochoro.com.br/works/view/9678</a>. Gênero: Fantasia. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

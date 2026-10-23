@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1575878459> a melod:Item;
     rdfs:label "Albertina — Partitura melodia e cifra (score_101)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1445128345>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1136285282>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b53a7b8ae-4efc-9b08-74c4-195ac60e1dfb;

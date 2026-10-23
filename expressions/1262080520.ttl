@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1262080520> a melod:Expression;
+    rdfs:label "Beijo perfumado (arrangement by José Garcia de Christo)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:be05dcf0c-b870-8e35-8e45-723d6230a75d;
+    melod:hasContribution _:bde728733-5d45-6238-1549-833ae95d0ae8;
+    dct:conformsTo melod:Expression.
+
+_:be05dcf0c-b870-8e35-8e45-723d6230a75d a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:bde728733-5d45-6238-1549-833ae95d0ae8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427198017>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

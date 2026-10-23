@@ -47,6 +47,8 @@ _:b94d5068c-c99e-38ee-b79a-70cc98f0cf00 a melod:InstrumentationDetail;
 _:ba3346362-a13d-ad75-8713-0f7f2f5b3348 a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "flautim";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piccolo;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#we>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bfd1b8a5e-e2dc-6123-f62f-5d016a863cc1 a melod:InstrumentationDetail;
@@ -66,6 +68,8 @@ _:b61f392c2-7aec-3541-7d68-8e388b9c55c9 a melod:InstrumentationDetail;
 _:bcf44c0ed-ca29-c331-12a3-bbe45312c361 a melod:InstrumentationDetail;
     schema:position "8"^^xsd:integer;
     schema:description "saxofone tenor";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b45f685cc-509a-d7d6-5236-354d7ca67486 a melod:InstrumentationDetail;

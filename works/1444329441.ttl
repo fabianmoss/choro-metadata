@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1444329441> a melod:Work;
+    melod:hasTitle _:b06f56c97-49f6-a00a-3265-5abfcde5851b;
+    melod:hasIdentifier _:b1854a4f2-1147-abe6-6583-53360e222d80;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3492>;
+    melod:hasContribution _:b9bf30570-91c8-1017-7745-603e17d5314c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1303969420>;
+    melod:hasAnnotation _:b97fda57a-02dd-78e0-ac06-18913ed1c674;
+    dct:conformsTo melod:Work.
+
+_:b06f56c97-49f6-a00a-3265-5abfcde5851b a melod:Title;
+    rdfs:label "Canarinho teimoso"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1854a4f2-1147-abe6-6583-53360e222d80 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3492".
+
+_:b9bf30570-91c8-1017-7745-603e17d5314c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b97fda57a-02dd-78e0-ac06-18913ed1c674 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3492\">https://acervo.casadochoro.com.br/works/view/3492</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

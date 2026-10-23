@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1565026826> a melod:Item;
+    rdfs:label "Ângela — Partitura melodia (score_5061)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1311490899>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3d15e8ab-86c7-5461-13ef-a0050606f975;
+    melod:hasShelfmark "score_5061";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5061.pdf>;
+    melod:hasHand _:b7e4c171e-e00b-cfb2-e3b1-1153393fd312;
+    melod:hasProvenance _:baba4d881-0fba-8869-c1ef-1454065b4b7a;
+    dct:conformsTo melod:Item.
+
+_:b3d15e8ab-86c7-5461-13ef-a0050606f975 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5061".
+
+_:b7e4c171e-e00b-cfb2-e3b1-1153393fd312 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:baba4d881-0fba-8869-c1ef-1454065b4b7a a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bcb342202-70cc-15c8-8695-fccc3cd7cff5.
+
+_:bcb342202-70cc-15c8-8695-fccc3cd7cff5 a melod:ExactDate;
+    melod:isodate "1962-06-27"^^xsd:date;
+    schema:description "27.06.1962".

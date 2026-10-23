@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1176572807> a melod:Item;
     rdfs:label "Adejos — Partitura piano (score_15164)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1536214987>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1217451500>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b89958031-4b66-a368-5967-2465d19cda93;
     melod:hasShelfmark "score_15164";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15164.pdf>;
+    melod:hasProvenance _:b8ab2e0f8-3c29-1729-0830-3c584fb38813;
     dct:conformsTo melod:Item.
 
 _:b89958031-4b66-a368-5967-2465d19cda93 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_15164".
+
+_:b8ab2e0f8-3c29-1729-0830-3c584fb38813 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:beb7c88da-cdd9-b4d4-edd0-9481ccd929a9.
+
+_:beb7c88da-cdd9-b4d4-edd0-9481ccd929a9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

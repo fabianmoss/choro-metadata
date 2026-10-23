@@ -447,8 +447,14 @@ class Builder:
                 # the instrument itself
                 term = self.instrument_terms.get(re.sub(r"\s+\d+$", "", normalize(name)))
             if term:
-                graph.add(detail, "mus:U2_foresees_use_of_medium_of_performance",
-                          Prefixed(term[0]))
+                # The instrument may have no term in the MeLODy vocabulary
+                # (the accordion, for example): the Library of Congress code
+                # is still recorded; the shape allows a custom instrument as
+                # a string or another SKOS concept, but terms:Choir is a
+                # Classification, not an Instrument.
+                if term[0] and term[0] != "terms:Choir":
+                    graph.add(detail, "mus:U2_foresees_use_of_medium_of_performance",
+                              Prefixed(term[0]))
                 graph.add(detail, "owl:sameAs", IRI(
                     "https://www.loc.gov/standards/valuelist/marcmusperf.html#"
                     + term[1]))
@@ -743,6 +749,9 @@ class WorkBuilder:
         elif copy.get("kind") == "print":
             graph.add(iri, "melod:hasClassificationOfManifestation",
                       Prefixed("terms:Print"))
+        elif copy.get("kind") == "digital":
+            graph.add(iri, "melod:hasClassificationOfManifestation",
+                      Literal("Digital transcription"))
 
         publisher = self.publisher(copy)
         if publisher:
@@ -790,6 +799,8 @@ class WorkBuilder:
             suffix = " (manuscript)"
         elif copy.get("kind") == "print":
             suffix = " (printed edition)"
+        elif copy.get("kind") == "digital":
+            suffix = " (digital transcription)"
         else:
             suffix = ""
         return f"{work['title']} — {score_type}{suffix}"
@@ -847,10 +858,13 @@ class WorkBuilder:
 
         date = (score.get("details", {}).get("Data") or [None])[0]
         iso = parse_date(date) if date else None
-        if iso or copy.get("former_owner"):
+        transcriber = copy.get("transcriber")
+        if iso or copy.get("former_owner") or transcriber:
             event = blank_node(f"{iri}#provenance")
             graph.type(event, "melod:Event")
-            graph.add(event, "rdfs:label", Literal("Provenance of the copy"))
+            label = ("Provenance of the copy" if iso or copy.get("former_owner")
+                     else "Digital transcription")
+            graph.add(event, "rdfs:label", Literal(label))
             if iso:
                 exact = blank_node(f"{event}#date")
                 graph.type(exact, "melod:ExactDate")
@@ -859,18 +873,19 @@ class WorkBuilder:
                 graph.add(event, "melod:hasEventDate", exact)
             if copy.get("former_owner"):
                 graph.add(event, "schema:description", Literal(copy.get("note") or ""))
-                for role, name in (("terms:FormerOwner", copy.get("former_owner")),
-                                   ("terms:Donor", copy.get("donor"))):
-                    if not name:
-                        continue
-                    key = self.people.resolve(name)
-                    if not key:
-                        continue
-                    node = blank_node(f"{event}#{role.rsplit(':', 1)[-1]}")
-                    graph.type(node, "melod:Contribution")
-                    graph.add(node, "melod:hasAgent", IRI(self.people.iri(key)))
-                    graph.add(node, "melod:hasRole", Prefixed(role))
-                    graph.add(event, "melod:hasContribution", node)
+            for role, name in (("terms:FormerOwner", copy.get("former_owner")),
+                               ("terms:Donor", copy.get("donor")),
+                               ("terms:Transcriber", transcriber)):
+                if not name:
+                    continue
+                key = self.people.resolve(name)
+                if not key:
+                    continue
+                node = blank_node(f"{event}#{role.rsplit(':', 1)[-1]}")
+                graph.type(node, "melod:Contribution")
+                graph.add(node, "melod:hasAgent", IRI(self.people.iri(key)))
+                graph.add(node, "melod:hasRole", Prefixed(role))
+                graph.add(event, "melod:hasContribution", node)
             graph.add(iri, "melod:hasProvenance", event)
 
         if score.get("restriction"):

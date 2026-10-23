@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1412913979> a melod:Item;
+    rdfs:label "Baião do Rei — Partitura melodia e cifra (score_8578)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1780725718>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdecfb978-7c31-f401-cadc-7e3b9b9e3092;
+    melod:hasShelfmark "score_8578";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8578.pdf>;
+    melod:hasHand _:b33c78bf5-ae44-2619-770e-546592303061;
+    dct:conformsTo melod:Item.
+
+_:bdecfb978-7c31-f401-cadc-7e3b9b9e3092 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8578".
+
+_:b33c78bf5-ae44-2619-770e-546592303061 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1045923876>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Horondino Silva (Dino 7 Cordas)".

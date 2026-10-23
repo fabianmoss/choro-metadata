@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1694673953> a melod:Work;
+    melod:hasTitle _:b927ddedd-2bc0-b0a4-27f9-0d6ee0711b52;
+    melod:hasIdentifier _:b4c244968-ce3a-bd3a-5d93-5085340460e2;
+    melod:hasClassification "Pas de Quatre";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10032>;
+    melod:hasContribution _:bb042a8dc-8d70-aec9-036f-3dbd916294e8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1018357508>;
+    melod:hasAnnotation _:b028d2e61-79d1-18b4-e111-80a5689ef059;
+    dct:conformsTo melod:Work.
+
+_:b927ddedd-2bc0-b0a4-27f9-0d6ee0711b52 a melod:Title;
+    rdfs:label "Beijos de amor"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4c244968-ce3a-bd3a-5d93-5085340460e2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10032".
+
+_:bb042a8dc-8d70-aec9-036f-3dbd916294e8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1865849392>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b028d2e61-79d1-18b4-e111-80a5689ef059 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10032\">https://acervo.casadochoro.com.br/works/view/10032</a>. Gênero: Pas de Quatre. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

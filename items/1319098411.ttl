@@ -14,14 +14,23 @@
 
 <urn:uuid:items/1319098411> a melod:Item;
     rdfs:label "Adeus, mocidade — Partitura arranjo com letra (score_9775)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1130828429>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1504623936>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9c6a8561-0d3b-e8c4-20c5-20b989fae2c3;
     melod:hasShelfmark "score_9775";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9775.pdf>;
+    melod:hasProvenance _:bbbdedb88-9d70-47c2-7f63-b730c749bcd9;
     dct:conformsTo melod:Item.
 
 _:b9c6a8561-0d3b-e8c4-20c5-20b989fae2c3 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_9775".
+
+_:bbbdedb88-9d70-47c2-7f63-b730c749bcd9 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:bac2d9a8f-5a95-513a-2fe6-75144e930a6e.
+
+_:bac2d9a8f-5a95-513a-2fe6-75144e930a6e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1081663678>;
+    melod:hasRole terms:Transcriber.

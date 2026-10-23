@@ -16,8 +16,14 @@
     melod:hasTitle _:b3d70c942-eb97-f89f-186c-ea25081ce87a;
     lrmoo:R4_embodies <urn:uuid:expressions/1865643159>;
     melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b33be698c-7cbb-6165-a191-373dde971ead;
     dct:conformsTo melod:Manifestation.
 
 _:b3d70c942-eb97-f89f-186c-ea25081ce87a a melod:Title;
     rdfs:label "Abigail — Partitura piano (edition by C.E.M.B.)";
     melod:hasTitleType terms:MainTitle.
+
+_:b33be698c-7cbb-6165-a191-373dde971ead a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1081663678>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

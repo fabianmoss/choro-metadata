@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1642568502> a melod:Work;
+    melod:hasTitle _:b0aaf47c6-0ef2-0aef-1f35-3463d84cd3bb;
+    melod:hasIdentifier _:b00003618-b9d3-8f05-9a67-4f55f1c13342;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4671>;
+    melod:hasContribution _:bbb0f0968-2bb8-cf0a-edc3-a7850dbe1587;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1181447024>, <urn:uuid:expressions/1812076517>;
+    melod:hasAnnotation _:b62f38ea7-6b09-2ed1-7571-e29d18370d96;
+    dct:conformsTo melod:Work.
+
+_:b0aaf47c6-0ef2-0aef-1f35-3463d84cd3bb a melod:Title;
+    rdfs:label "Ao som da viola"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b00003618-b9d3-8f05-9a67-4f55f1c13342 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4671".
+
+_:bbb0f0968-2bb8-cf0a-edc3-a7850dbe1587 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b62f38ea7-6b09-2ed1-7571-e29d18370d96 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4671\">https://acervo.casadochoro.com.br/works/view/4671</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

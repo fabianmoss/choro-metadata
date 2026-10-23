@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1338118420> a melod:Item;
+    rdfs:label "Ao luar — Partitura melodia (score_5491)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470826341>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b615e3086-a417-633e-bfaf-de17bac48881;
+    melod:hasShelfmark "score_5491";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5491.pdf>;
+    melod:hasHand _:b5c33b3ad-d8ee-924f-6b8d-c6d3951704eb;
+    melod:hasProvenance _:b9d04f78a-1908-7907-1328-d022f02eaa68;
+    dct:conformsTo melod:Item.
+
+_:b615e3086-a417-633e-bfaf-de17bac48881 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5491".
+
+_:b5c33b3ad-d8ee-924f-6b8d-c6d3951704eb a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b9d04f78a-1908-7907-1328-d022f02eaa68 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b3769507e-2000-3f4a-e789-30951aa8d2ee.
+
+_:b3769507e-2000-3f4a-e789-30951aa8d2ee a melod:ExactDate;
+    melod:isodate "1933-12-19"^^xsd:date;
+    schema:description "19.12.1933".

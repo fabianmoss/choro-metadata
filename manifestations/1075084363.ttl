@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1075084363> a melod:Manifestation;
+    melod:hasTitle _:b7f05c6a3-519d-6d3b-adce-89a7bd5f5117;
+    lrmoo:R4_embodies <urn:uuid:expressions/1623298976>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bf18ef563-5964-5967-7ebe-4bb6d6f38f07;
+    dct:conformsTo melod:Manifestation.
+
+_:b7f05c6a3-519d-6d3b-adce-89a7bd5f5117 a melod:Title;
+    rdfs:label "Chorinho — Partitura piano (edition Sociedade Artística Internacional)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf18ef563-5964-5967-7ebe-4bb6d6f38f07 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1047062986>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1644950082> a melod:Work;
+    melod:hasTitle _:b50568330-a842-2ec4-2d56-9237ca43af71;
+    melod:hasIdentifier _:b8834498b-9fe1-c7ab-bf91-c902e6f8cb66;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6605>;
+    melod:hasContribution _:b64f79658-96ab-260a-848b-14775324daba;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1453271478>;
+    melod:hasAnnotation _:bb4d941ae-f369-cfdd-3579-80fe223b8247;
+    dct:conformsTo melod:Work.
+
+_:b50568330-a842-2ec4-2d56-9237ca43af71 a melod:Title;
+    rdfs:label "Brasil novo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8834498b-9fe1-c7ab-bf91-c902e6f8cb66 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6605".
+
+_:b64f79658-96ab-260a-848b-14775324daba a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1261983240>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb4d941ae-f369-cfdd-3579-80fe223b8247 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6605\">https://acervo.casadochoro.com.br/works/view/6605</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

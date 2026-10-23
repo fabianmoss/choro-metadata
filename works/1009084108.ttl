@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1009084108> a melod:Work;
+    melod:hasTitle _:bbf064f5f-40f0-8a08-e6e1-c26398252c29;
+    melod:hasIdentifier _:bd49efc47-1bc4-a0a6-94cc-bb8746495bfb;
+    melod:hasClassification "Choro Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7054>;
+    melod:hasContribution _:b5a9b4ba6-e92b-3d52-7e61-6c7e3dfec307;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1274611891>;
+    melod:hasAnnotation _:bf82bca83-bf42-cad4-a4ac-df243ef99da1;
+    dct:conformsTo melod:Work.
+
+_:bbf064f5f-40f0-8a08-e6e1-c26398252c29 a melod:Title;
+    rdfs:label "Choro por um silêncio"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd49efc47-1bc4-a0a6-94cc-bb8746495bfb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7054".
+
+_:b5a9b4ba6-e92b-3d52-7e61-6c7e3dfec307 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1493543356>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf82bca83-bf42-cad4-a4ac-df243ef99da1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7054\">https://acervo.casadochoro.com.br/works/view/7054</a>. Gênero: Choro Canção. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

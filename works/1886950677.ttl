@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1886950677> a melod:Work;
+    melod:hasTitle _:bd17fb10c-39ca-efaa-4cbe-c663e2907ad0;
+    melod:hasIdentifier _:b642e2f7b-e1fd-d755-7327-a99bb4fb76a6;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7958>;
+    melod:hasContribution _:b221ec08c-6800-88dc-6d6d-715ec6ec84cb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1188094671>;
+    melod:hasAnnotation _:b3de48530-48a8-66c0-e687-0e198d2a5ad9;
+    dct:conformsTo melod:Work.
+
+_:bd17fb10c-39ca-efaa-4cbe-c663e2907ad0 a melod:Title;
+    rdfs:label "Barcarola Op. 14 nº4"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b642e2f7b-e1fd-d755-7327-a99bb4fb76a6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7958".
+
+_:b221ec08c-6800-88dc-6d6d-715ec6ec84cb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1655161566>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3de48530-48a8-66c0-e687-0e198d2a5ad9 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7958\">https://acervo.casadochoro.com.br/works/view/7958</a>. Gênero: Não informado. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -26,6 +26,8 @@ _:b9c3fc930-0b2c-1962-a336-1386838a0738 a melod:InstrumentationDetail;
 _:b4c1aec2e-833b-969b-aa10-c750b81fc781 a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "piston";
+    mus:U2_foresees_use_of_medium_of_performance terms:Cornet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bc>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b06b6e343-5b59-33c5-d95c-f50bd686fbd4 a melod:InstrumentationDetail;
@@ -38,8 +40,8 @@ _:b06b6e343-5b59-33c5-d95c-f50bd686fbd4 a melod:InstrumentationDetail;
 _:b34900279-e889-d1eb-f887-0b92c36aacac a melod:InstrumentationDetail;
     schema:position "4"^^xsd:integer;
     schema:description "sax tenor Bb";
-    mus:U2_foresees_use_of_medium_of_performance terms:Tenor;
-    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vd>;
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b56a4d039-d688-7543-c534-7c1486df75b5 a melod:InstrumentationDetail;

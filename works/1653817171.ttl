@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1653817171> a melod:Work;
+    melod:hasTitle _:b2fc9bacc-105e-4ae6-bf01-8542afd845ee;
+    melod:hasIdentifier _:bfa778804-3cd9-3f1e-b60e-ac43db795bc9;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3018>;
+    melod:hasContribution _:bbaa6fc36-cc82-5eb2-e636-d759cbd08346;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1831718489>, <urn:uuid:expressions/1604357601>;
+    melod:hasAnnotation _:bcaea84a5-e9ac-6af4-93e5-185f44a72b35;
+    dct:conformsTo melod:Work.
+
+_:b2fc9bacc-105e-4ae6-bf01-8542afd845ee a melod:Title;
+    rdfs:label "Catinga de mulato"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bfa778804-3cd9-3f1e-b60e-ac43db795bc9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3018".
+
+_:bbaa6fc36-cc82-5eb2-e636-d759cbd08346 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1870945945>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcaea84a5-e9ac-6af4-93e5-185f44a72b35 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3018\">https://acervo.casadochoro.com.br/works/view/3018</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

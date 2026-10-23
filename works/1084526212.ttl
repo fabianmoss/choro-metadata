@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1084526212> a melod:Work;
+    melod:hasTitle _:bdb6500a7-d8b7-9712-bbbe-147a913f6ed4;
+    melod:hasIdentifier _:b2191da2a-7814-e819-4a11-65738ab2876a;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7654>;
+    melod:hasContribution _:b66f73737-383a-75c1-5519-955f33b766bb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1799863824>, <urn:uuid:expressions/1245061628>;
+    melod:hasAnnotation _:b7d382cb2-337b-f5f4-2626-f5923ee28ef9;
+    dct:conformsTo melod:Work.
+
+_:bdb6500a7-d8b7-9712-bbbe-147a913f6ed4 a melod:Title;
+    rdfs:label "Cabocla bonita"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2191da2a-7814-e819-4a11-65738ab2876a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7654".
+
+_:b66f73737-383a-75c1-5519-955f33b766bb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1845553943>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7d382cb2-337b-f5f4-2626-f5923ee28ef9 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7654\">https://acervo.casadochoro.com.br/works/view/7654</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

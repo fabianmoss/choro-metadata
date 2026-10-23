@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1795016869> a melod:Item;
+    rdfs:label "Bancando o cabrito — Partitura melodia (score_1627)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1125418997>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbd26aa8b-afa3-216c-fdf0-709d71f84884;
+    melod:hasShelfmark "score_1627";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1627.pdf>;
+    melod:hasHand _:b1804fd70-7f03-a96a-565b-4016b7099a7c;
+    melod:hasProvenance _:bd449af49-a75b-6cab-f074-a2f6cb1ad6df;
+    dct:conformsTo melod:Item.
+
+_:bbd26aa8b-afa3-216c-fdf0-709d71f84884 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1627".
+
+_:b1804fd70-7f03-a96a-565b-4016b7099a7c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1100959309>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Jupyaçara".
+
+_:bd449af49-a75b-6cab-f074-a2f6cb1ad6df a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b1799a48d-1e1c-6e15-129a-debdb12b4093.
+
+_:b1799a48d-1e1c-6e15-129a-debdb12b4093 a melod:ExactDate;
+    melod:isodate "1936-08-15"^^xsd:date;
+    schema:description "15.08.1936".

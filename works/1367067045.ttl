@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1367067045> a melod:Work;
+    melod:hasTitle _:b115d3623-967e-ce60-816c-a20145ff6b41;
+    melod:hasIdentifier _:b84e36319-b491-4cf3-ef87-0a01a4773196;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4948>;
+    melod:hasContribution _:bba9b34c1-1eb4-3ead-8f49-3826044797af;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1482321747>;
+    melod:hasAnnotation _:b2a060949-680b-ce84-33f6-08920bf5d5f4;
+    dct:conformsTo melod:Work.
+
+_:b115d3623-967e-ce60-816c-a20145ff6b41 a melod:Title;
+    rdfs:label "Chorinhos didáticos nº10"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b84e36319-b491-4cf3-ef87-0a01a4773196 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4948".
+
+_:bba9b34c1-1eb4-3ead-8f49-3826044797af a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2a060949-680b-ce84-33f6-08920bf5d5f4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4948\">https://acervo.casadochoro.com.br/works/view/4948</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

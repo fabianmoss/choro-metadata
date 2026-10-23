@@ -431,14 +431,38 @@ COPY_PATTERNS = [
     #  groups, the others are literals)
     (re.compile(r"^manuscrita\s*-\s*Obtida do Sr\.\s*(.+?)\s*\((?:arquivo de|acervo de)\s*(.+?)\)\s*$", re.I),
      {"kind": "manuscript", "former_owner": 1, "donor": 2}),
+    (re.compile(r"^manuscrita\s*-\s*(?:arquivo|acervo)\s+d[oa]\s+(.+?)\s*-?\s*$", re.I),
+     {"kind": "manuscript", "former_owner": 1}),
+    (re.compile(r"^manuscrita\s*\((?:arquivo|acervo)\s+d[oa]\s+(.+?)\)\s*$", re.I),
+     {"kind": "manuscript", "former_owner": 1}),
+    (re.compile(r"^editada\s*-\s*(?:arquivo|acervo)\s+d[oa]\s+(.+?)\s*-?\s*$", re.I),
+     {"kind": "print", "former_owner": 1}),
+    (re.compile(r"^editada\s+(?:arquivo|acervo)\s+d[oa]\s+(.+)$", re.I),
+     {"kind": "print", "former_owner": 1}),
     (re.compile(r"^c[oó]pia\s+de\s+(.+?)(?:\s*\([^)]*\))?\s*$", re.I),
      {"kind": "manuscript", "copyist": 1}),
     (re.compile(r"^manuscrita\s+por\s+(.+)$", re.I),
      {"kind": "manuscript", "copyist": 1}),
+    (re.compile(r"^manuscrita\s+por\s*$", re.I),
+     {"kind": "manuscript"}),
     (re.compile(r"^manuscrita\s*$", re.I),
      {"kind": "manuscript"}),
+    (re.compile(r"^edi[cç][aã]o\s+digital(?:\s+por\s+(.+?))?\s*$", re.I),
+     {"kind": "digital", "transcriber": 1}),
+    (re.compile(r"^digitada(?:\s+por\s+(.+?))?\s*$", re.I),
+     {"kind": "digital", "transcriber": 1}),
+    (re.compile(r"^piano\s+e\s+canto\s*$", re.I),
+     {"kind": "instrumental"}),
+    (re.compile(r"^instrumentos\s+em\s+clave\s+de\s+f[aá]\s*$", re.I),
+     {"kind": "instrumental"}),
+    (re.compile(r"^instrumentos\s+em\s+(?:bb|c)\s*$", re.I),
+     {"kind": "instrumental"}),
+    (re.compile(r"^base\s*$", re.I),
+     {"kind": "instrumental"}),
     (re.compile(r"^editorada\s+(.+)$", re.I),
      {"kind": "print", "publisher": 1}),
+    (re.compile(r"^editorada\s*$", re.I),
+     {"kind": "print"}),
     (re.compile(r"^editada\s+por\s+(.+)$", re.I),
      {"kind": "print", "editor": 1}),
     (re.compile(r"^editada\s*$", re.I),
@@ -459,6 +483,7 @@ def parse_copy(text: str) -> dict:
         "copyist": None,
         "publisher": None,
         "editor": None,
+        "transcriber": None,
         "former_owner": None,
         "donor": None,
         "note": (text or "").strip(),
@@ -470,10 +495,15 @@ def parse_copy(text: str) -> dict:
         match = pattern.match(stripped)
         if not match:
             continue
-        for key, value in fields.items():
+        updates = {"kind": None, "copyist": None, "publisher": None, "editor": None,
+                  "transcriber": None, "former_owner": None, "donor": None}
+        updates.update(fields)
+        for key, value in updates.items():
             if isinstance(value, int):
-                result[key] = match.group(value).strip()
-            else:
+                group = match.group(value)
+                if group is not None:
+                    result[key] = group.strip()
+            elif isinstance(value, str):
                 result[key] = value
         break
     return result

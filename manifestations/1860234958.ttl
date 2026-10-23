@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1860234958> a melod:Manifestation;
+    melod:hasTitle _:b1b9e3545-5c71-9ff1-805d-a8882d36cde5;
+    lrmoo:R4_embodies <urn:uuid:expressions/1645602260>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b42f5bc48-76eb-7c80-1bc8-02cf0826d5df;
+    dct:conformsTo melod:Manifestation.
+
+_:b1b9e3545-5c71-9ff1-805d-a8882d36cde5 a melod:Title;
+    rdfs:label "Boas festas — Partitura piano (edition L. Levy & Irmãos)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b42f5bc48-76eb-7c80-1bc8-02cf0826d5df a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1520843723>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1685177147> a melod:Manifestation;
+    melod:hasTitle _:bc57eb568-e8b4-1dbb-a30e-921f6b5c8fa5;
+    lrmoo:R4_embodies <urn:uuid:expressions/1021130753>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b05cc1a72-a1ad-6bc4-add4-af70667cfbbe;
+    dct:conformsTo melod:Manifestation.
+
+_:bc57eb568-e8b4-1dbb-a30e-921f6b5c8fa5 a melod:Title;
+    rdfs:label "Arabesque — Partitura piano (edition Ediciones Quiroga)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b05cc1a72-a1ad-6bc4-add4-af70667cfbbe a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1480030992>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1863233473> a melod:Manifestation;
+    melod:hasTitle _:be23a9557-9a0b-b579-e2e2-7f43c7c8fac8;
+    lrmoo:R4_embodies <urn:uuid:expressions/1060670988>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bf7d22115-66db-0435-68b3-c0a9418f9cd2;
+    schema:publication _:b20b8c52b-0c10-7ab6-a8eb-ff64a8aafa3c;
+    dct:conformsTo melod:Manifestation.
+
+_:be23a9557-9a0b-b579-e2e2-7f43c7c8fac8 a melod:Title;
+    rdfs:label "Bandeirantes — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf7d22115-66db-0435-68b3-c0a9418f9cd2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b20b8c52b-0c10-7ab6-a8eb-ff64a8aafa3c a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

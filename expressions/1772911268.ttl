@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1772911268> a melod:Expression;
+    rdfs:label "Chegou a hora da fogueira (arrangement by Mario Mascarenhas)";
+    melod:hasClassification "Marcha";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b0a809dd4-1824-6469-e200-0f010e9ed40e;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1640612903>;
+    melod:hasContribution _:b3a2ec20d-633b-100e-5820-099ae32366b6;
+    dct:conformsTo melod:Expression.
+
+_:b0a809dd4-1824-6469-e200-0f010e9ed40e a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b3a2ec20d-633b-100e-5820-099ae32366b6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1555072889>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

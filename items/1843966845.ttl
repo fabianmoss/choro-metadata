@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1843966845> a melod:Item;
+    rdfs:label "Cadê balanço? — Partitura melodia (score_6774)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1443347313>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf3983647-48c2-64e9-9c33-9ac2cd83292a;
+    melod:hasShelfmark "score_6774";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6774.pdf>;
+    melod:hasHand _:b92fc379c-220a-f0cf-f825-c85e2accd566;
+    dct:conformsTo melod:Item.
+
+_:bf3983647-48c2-64e9-9c33-9ac2cd83292a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6774".
+
+_:b92fc379c-220a-f0cf-f825-c85e2accd566 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Altamiro Carrilho".

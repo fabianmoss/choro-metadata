@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1446242741> a melod:Item;
+    rdfs:label "Cachorro de cartola — Partitura cifra (score_11170)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1159860671>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b32360564-3126-3f4f-7090-e4a4782e8ef6;
+    melod:hasShelfmark "score_11170";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11170.pdf>;
+    melod:hasHand _:b856b7c5f-005d-2e53-03ce-5b9f642b4ea2;
+    dct:conformsTo melod:Item.
+
+_:b32360564-3126-3f4f-7090-e4a4782e8ef6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11170".
+
+_:b856b7c5f-005d-2e53-03ce-5b9f642b4ea2 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Maurício Carrilho".

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1204886367> a melod:Manifestation;
+    melod:hasTitle _:be1f654d3-828a-e3c7-f362-4e80da8ec63b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1332221407>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:b8d8cc3ca-19d2-bfad-66a7-1c695378863f;
+    dct:conformsTo melod:Manifestation.
+
+_:be1f654d3-828a-e3c7-f362-4e80da8ec63b a melod:Title;
+    rdfs:label "Balançadinho — Partitura melodia (edition pelo autor)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8d8cc3ca-19d2-bfad-66a7-1c695378863f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094875110>;
+    melod:hasRole terms:Publisher.

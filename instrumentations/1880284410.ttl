@@ -19,4 +19,5 @@
 _:be8c7e2e4-5bde-61e6-58da-b724dac0f706 a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "bandola";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

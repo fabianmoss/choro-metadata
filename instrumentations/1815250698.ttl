@@ -47,8 +47,8 @@ _:b25610745-dd65-6e06-b7f7-bfb58be77ff7 a melod:InstrumentationDetail;
 _:b6cbfb26e-2547-eb81-402b-28981ce1d4b3 a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "sax tenor Bb";
-    mus:U2_foresees_use_of_medium_of_performance terms:Tenor;
-    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#vd>;
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bb9e38b6d-3f99-662b-5da4-2caa336bea98 a melod:InstrumentationDetail;

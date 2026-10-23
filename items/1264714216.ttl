@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1264714216> a melod:Item;
+    rdfs:label "Celeste — Partitura melodia (score_758)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1888896620>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bc4a54464-1672-d58b-7b92-1e09377a7fd8;
+    melod:hasShelfmark "score_758";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_758.pdf>;
+    melod:hasProvenance _:bb8cc2dbd-8937-89c6-6639-ea398a93fd13;
+    dct:conformsTo melod:Item.
+
+_:bc4a54464-1672-d58b-7b92-1e09377a7fd8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_758".
+
+_:bb8cc2dbd-8937-89c6-6639-ea398a93fd13 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bff7b2ccc-06a8-e439-bb82-3472b00d9797.
+
+_:bff7b2ccc-06a8-e439-bb82-3472b00d9797 a melod:ExactDate;
+    melod:isodate "1976-12-23"^^xsd:date;
+    schema:description "23.12.1976".

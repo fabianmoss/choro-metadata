@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1617913886> a melod:Work;
+    melod:hasTitle _:bd042c5f7-d7f5-09a5-39b0-216a3f2001af;
+    melod:hasIdentifier _:bd79fa052-4f93-ff5a-b699-6348605c14d3;
+    melod:hasClassification "Cateretê Paulista";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4261>;
+    melod:hasContribution _:bc8e3080e-3921-0e67-52f8-2fc54cb79071, _:b9d9044c3-d61f-15a2-bf2f-d93a83aef10c, _:bd1641856-9dcf-af58-8d8b-39b428c496b3;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1516318326>, <urn:uuid:expressions/1572230721>;
+    melod:hasAnnotation _:b9b8e4c7f-b8c8-17c0-ecd4-f08cea50ec54;
+    dct:conformsTo melod:Work.
+
+_:bd042c5f7-d7f5-09a5-39b0-216a3f2001af a melod:Title;
+    rdfs:label "Caboclo magoado..."@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd79fa052-4f93-ff5a-b699-6348605c14d3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4261".
+
+_:bc8e3080e-3921-0e67-52f8-2fc54cb79071 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9d9044c3-d61f-15a2-bf2f-d93a83aef10c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1523790669>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd1641856-9dcf-af58-8d8b-39b428c496b3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1326988482>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9b8e4c7f-b8c8-17c0-ecd4-f08cea50ec54 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4261\">https://acervo.casadochoro.com.br/works/view/4261</a>. Gênero: Cateretê Paulista. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -19,4 +19,6 @@
 _:b7d4cb8aa-f95a-fc3c-aa80-2906e9311e4f a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "flauta G";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

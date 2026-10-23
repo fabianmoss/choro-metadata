@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1102738021> a melod:Item;
+    rdfs:label "Audi Precor — Partitura arranjo para coro (score_3011)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1513252425>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b51aabbc4-64b6-742f-779e-c93defaf0c20;
+    melod:hasShelfmark "score_3011";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3011.pdf>;
+    melod:hasHand _:b11638940-d29d-f789-240b-043439faea4d;
+    melod:hasProvenance _:bcc95cef5-c72a-cb2a-f89e-0fe4f06161a2;
+    dct:conformsTo melod:Item.
+
+_:b51aabbc4-64b6-742f-779e-c93defaf0c20 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3011".
+
+_:b11638940-d29d-f789-240b-043439faea4d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:bcc95cef5-c72a-cb2a-f89e-0fe4f06161a2 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b2aa202e4-a48d-cf15-e349-97666815d552.
+
+_:b2aa202e4-a48d-cf15-e349-97666815d552 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

@@ -19,4 +19,6 @@
 _:b67027325-b009-bd98-30a4-e8e42e01c8de a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "flautim";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piccolo;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#we>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

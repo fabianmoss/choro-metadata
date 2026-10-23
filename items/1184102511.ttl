@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1184102511> a melod:Item;
+    rdfs:label "Catinga de mulato — Partitura melodia (score_4284)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1438316242>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b27fea7af-1977-d53f-f090-14838ea7ced3;
+    melod:hasShelfmark "score_4284";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4284.pdf>;
+    melod:hasHand _:bf5149fc4-6522-3c43-4ba7-0b8831288b3b;
+    melod:hasProvenance _:bf2b80438-9856-f95d-1362-ae1f33a4819c;
+    dct:conformsTo melod:Item.
+
+_:b27fea7af-1977-d53f-f090-14838ea7ced3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4284".
+
+_:bf5149fc4-6522-3c43-4ba7-0b8831288b3b a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bf2b80438-9856-f95d-1362-ae1f33a4819c a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b2d6750b6-4be7-24cd-a574-6c87d4529da3.
+
+_:b2d6750b6-4be7-24cd-a574-6c87d4529da3 a melod:ExactDate;
+    melod:isodate "1959-11-23"^^xsd:date;
+    schema:description "23.11.1959".

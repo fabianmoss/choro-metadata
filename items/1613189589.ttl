@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1613189589> a melod:Item;
+    rdfs:label "Carolina Correia — Partitura melodia (score_6451)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1477683682>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b04e63056-ca08-91cb-0c0a-5a6957ae40e0;
+    melod:hasShelfmark "score_6451";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6451.pdf>;
+    melod:hasHand _:b1a78b98d-d0e6-731f-144c-b65fa60fc19d;
+    melod:hasProvenance _:b72977fdc-c263-7431-d3cf-4865b61e21a5;
+    dct:conformsTo melod:Item.
+
+_:b04e63056-ca08-91cb-0c0a-5a6957ae40e0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6451".
+
+_:b1a78b98d-d0e6-731f-144c-b65fa60fc19d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b72977fdc-c263-7431-d3cf-4865b61e21a5 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b752bb376-1f62-de63-e26b-bd136a47eda8.
+
+_:b752bb376-1f62-de63-e26b-bd136a47eda8 a melod:ExactDate;
+    melod:isodate "1934-08-02"^^xsd:date;
+    schema:description "02.08.1934".

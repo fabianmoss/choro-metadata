@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1814960143> a melod:Item;
+    rdfs:label "Bric-a-brac — Partitura piano (score_15211)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1254897273>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bc387987f-368e-07a2-8411-43fc45e116c7;
+    melod:hasShelfmark "score_15211";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15211.pdf>;
+    melod:hasProvenance _:b4899fb4a-9ddb-270c-73b1-e17bdaab6fee;
+    dct:conformsTo melod:Item.
+
+_:bc387987f-368e-07a2-8411-43fc45e116c7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15211".
+
+_:b4899fb4a-9ddb-270c-73b1-e17bdaab6fee a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b0e93a8af-2f8a-a021-2740-b896509882fd.
+
+_:b0e93a8af-2f8a-a021-2740-b896509882fd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

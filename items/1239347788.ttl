@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1239347788> a melod:Item;
+    rdfs:label "Cariocando — Partitura melodia e cifra (score_8611)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1491989287>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bcc759453-6f31-ed14-cd82-cc10e8f80096;
+    melod:hasShelfmark "score_8611";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8611.pdf>;
+    melod:hasProvenance _:bc5c5a8f3-1df0-28e3-081c-938606e23e78;
+    dct:conformsTo melod:Item.
+
+_:bcc759453-6f31-ed14-cd82-cc10e8f80096 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8611".
+
+_:bc5c5a8f3-1df0-28e3-081c-938606e23e78 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b5366d81b-b463-cacb-02f2-99807747ca79.
+
+_:b5366d81b-b463-cacb-02f2-99807747ca79 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1231076300>;
+    melod:hasRole terms:Transcriber.

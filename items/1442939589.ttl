@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1442939589> a melod:Item;
     rdfs:label "A mulher do bode — Partitura piano (score_4652)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1845346543>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1860118889>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb5b664b2-c1bd-e123-72b0-83b89398923d;
     melod:hasShelfmark "score_4652";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4652.pdf>;
+    melod:hasProvenance _:ba92cfd21-8f60-937b-c430-b3f164563935;
     dct:conformsTo melod:Item.
 
 _:bb5b664b2-c1bd-e123-72b0-83b89398923d a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_4652".
+
+_:ba92cfd21-8f60-937b-c430-b3f164563935 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "editada Arquivo do Almirante";
+    melod:hasContribution _:babeeb500-130d-d684-ec6e-48b8bac5b875.
+
+_:babeeb500-130d-d684-ec6e-48b8bac5b875 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1757297218>;
+    melod:hasRole terms:FormerOwner.

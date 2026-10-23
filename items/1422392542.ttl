@@ -1,0 +1,25 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1422392542> a melod:Item;
+    rdfs:label "Arte-e-manhas do Marquinho — Partitura melodia (no digitisation)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1296019410>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasAnnotation _:bc4792daf-ee78-e9a8-e0d6-ee6cd70e0cfd;
+    dct:conformsTo melod:Item.
+
+_:bc4792daf-ee78-e9a8-e0d6-ee6cd70e0cfd a melod:Annotation;
+    rdfs:label "Access restriction";
+    melod:paragraph "<p>Visualização e consulta não autorizadas pela editora. Disponível somente na Casa do Choro.</p>"^^rdf:HTML.

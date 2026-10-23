@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1149421564> a melod:Item;
+    rdfs:label "Aquela história — Partitura melodia (score_7627)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1234034102>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:baf034cbc-2b12-89d4-5b64-1179c31483c5;
+    melod:hasShelfmark "score_7627";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7627.pdf>;
+    melod:hasProvenance _:b98a20baa-1d27-402e-3f97-2ba79c3de8f5;
+    dct:conformsTo melod:Item.
+
+_:baf034cbc-2b12-89d4-5b64-1179c31483c5 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7627".
+
+_:b98a20baa-1d27-402e-3f97-2ba79c3de8f5 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b5459ba2c-c385-6644-21d5-a5c476804892;
+    melod:hasContribution _:b10cf1a64-9be4-533f-1093-4b348004fcf8.
+
+_:b5459ba2c-c385-6644-21d5-a5c476804892 a melod:ExactDate;
+    melod:isodate "2003-12-30"^^xsd:date;
+    schema:description "30.12.2003".
+
+_:b10cf1a64-9be4-533f-1093-4b348004fcf8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

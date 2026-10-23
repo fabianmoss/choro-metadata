@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1354181243> a melod:Work;
+    melod:hasTitle _:b99e2a631-c527-a8fd-09d3-3ce0a9f55300;
+    melod:hasIdentifier _:b798fb195-8122-4e7b-41ec-b8453f65112f;
+    melod:hasClassification "Modinha Sertaneja";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4674>;
+    melod:hasContribution _:b68c5914d-df2f-9d70-3f84-35961242c966;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1581797082>;
+    melod:hasAnnotation _:b5bccc598-3dab-3cfe-d7a3-1a20d571be65;
+    dct:conformsTo melod:Work.
+
+_:b99e2a631-c527-a8fd-09d3-3ce0a9f55300 a melod:Title;
+    rdfs:label "Barbuleta, barbuleta!.."@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b798fb195-8122-4e7b-41ec-b8453f65112f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4674".
+
+_:b68c5914d-df2f-9d70-3f84-35961242c966 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b5bccc598-3dab-3cfe-d7a3-1a20d571be65 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4674\">https://acervo.casadochoro.com.br/works/view/4674</a>. Gênero: Modinha Sertaneja. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

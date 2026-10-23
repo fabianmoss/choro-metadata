@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1095541290> a melod:Item;
     rdfs:label "Alice — Partitura melodia (score_5498)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1035327870>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1011560065>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b53c64b32-8fbf-b0ab-63fa-3eb6a9ab872c;

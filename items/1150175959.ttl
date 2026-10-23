@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1150175959> a melod:Item;
+    rdfs:label "Angela — Partitura melodia (score_4260)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1397829400>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b561c788f-d002-8016-fc27-0795d051e04d;
+    melod:hasShelfmark "score_4260";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4260.pdf>;
+    melod:hasHand _:b28046f64-9636-cd3b-7808-eedb432b47c0;
+    melod:hasProvenance _:b701f4f5c-400e-4972-4f84-ca443e400e18;
+    dct:conformsTo melod:Item.
+
+_:b561c788f-d002-8016-fc27-0795d051e04d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4260".
+
+_:b28046f64-9636-cd3b-7808-eedb432b47c0 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1316908485>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Felinto Lobo".
+
+_:b701f4f5c-400e-4972-4f84-ca443e400e18 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b56f22926-c515-4779-bf6e-6e35840233d0.
+
+_:b56f22926-c515-4779-bf6e-6e35840233d0 a melod:ExactDate;
+    melod:isodate "1961-04-28"^^xsd:date;
+    schema:description "28.04.1961".

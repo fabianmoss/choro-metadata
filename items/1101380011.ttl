@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1101380011> a melod:Item;
     rdfs:label "Aida — Partitura melodia (score_796)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1111012856>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1568507563>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba6af8544-f552-a839-4a7c-4f6cfc8f3c12;

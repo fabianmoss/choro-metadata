@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1154239882> a melod:Item;
+    rdfs:label "Chorinho na praia — Partitura melodia e cifra (score_7261)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199702105>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b33ae5067-bbe0-64d9-d4bf-4b74373de7f9;
+    melod:hasShelfmark "score_7261";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7261.pdf>;
+    melod:hasHand _:b01fa348a-ebc3-66a2-b592-1f5259198c2f;
+    melod:hasProvenance _:b1f3eb076-e3bd-69b8-f481-7214743cc39b;
+    dct:conformsTo melod:Item.
+
+_:b33ae5067-bbe0-64d9-d4bf-4b74373de7f9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7261".
+
+_:b01fa348a-ebc3-66a2-b592-1f5259198c2f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1032506567>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Sérgio Napoleão Belluco".
+
+_:b1f3eb076-e3bd-69b8-f481-7214743cc39b a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:be05049cb-3489-9798-1366-cff4af5503cf.
+
+_:be05049cb-3489-9798-1366-cff4af5503cf a melod:ExactDate;
+    melod:isodate "1981-08-10"^^xsd:date;
+    schema:description "10.08.1981".

@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1878785357> a melod:Manifestation;
+    melod:hasTitle _:be78e41e8-5c86-8746-f8dd-f83012e15030;
+    lrmoo:R4_embodies <urn:uuid:expressions/1731096311>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bf40b3c61-6232-65e7-7d0d-1d855b3b1a02;
+    dct:conformsTo melod:Manifestation.
+
+_:be78e41e8-5c86-8746-f8dd-f83012e15030 a melod:Title;
+    rdfs:label "Chora cabôco — Partitura piano e letra (edition by A. Di Franco)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf40b3c61-6232-65e7-7d0d-1d855b3b1a02 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1635252664>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

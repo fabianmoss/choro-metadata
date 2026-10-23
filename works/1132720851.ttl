@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1132720851> a melod:Work;
+    melod:hasTitle _:b64cea8f8-43e5-5a26-6045-8d09296916f6;
+    melod:hasIdentifier _:bc7a1e96b-a1c9-bd24-6c1f-a80924e54c4c;
+    melod:hasClassification "Fox Charleston";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9745>;
+    melod:hasContribution _:b34793597-5f5f-d8b9-a7d7-b66e3e065f8e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1233073006>;
+    melod:hasAnnotation _:baa9f8ed4-0f95-da64-7ebd-3e1ae9a0a5ce;
+    dct:conformsTo melod:Work.
+
+_:b64cea8f8-43e5-5a26-6045-8d09296916f6 a melod:Title;
+    rdfs:label "Canção pra inglês ver"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc7a1e96b-a1c9-bd24-6c1f-a80924e54c4c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9745".
+
+_:b34793597-5f5f-d8b9-a7d7-b66e3e065f8e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1077634451>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:baa9f8ed4-0f95-da64-7ebd-3e1ae9a0a5ce a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9745\">https://acervo.casadochoro.com.br/works/view/9745</a>. Gênero: Fox Charleston. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1241117160> a melod:Item;
+    rdfs:label "Cadência — Partitura melodia e cifra (score_7354)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1406063541>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf0fddb21-9e3b-1344-3fdd-8a1479e64883;
+    melod:hasShelfmark "score_7354";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7354.pdf>;
+    melod:hasHand _:bbaaee3f2-9f7b-bd54-f8a4-3717d6b89356;
+    melod:hasProvenance _:b7dd8eb11-809d-a187-69be-9efad6a2ce1e;
+    dct:conformsTo melod:Item.
+
+_:bf0fddb21-9e3b-1344-3fdd-8a1479e64883 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7354".
+
+_:bbaaee3f2-9f7b-bd54-f8a4-3717d6b89356 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1032506567>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Sérgio Napoleão Belluco".
+
+_:b7dd8eb11-809d-a187-69be-9efad6a2ce1e a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bc5569cc3-ab9a-be1c-4010-71651211661d.
+
+_:bc5569cc3-ab9a-be1c-4010-71651211661d a melod:ExactDate;
+    melod:isodate "1985-12-16"^^xsd:date;
+    schema:description "16.12.1985".

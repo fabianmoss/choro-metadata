@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1708124533> a melod:Work;
+    melod:hasTitle _:b6a987866-ccdb-e26a-c5f1-fd0d43f3a5ee;
+    melod:hasIdentifier _:bd25ba319-6d7f-59c6-31ae-21ecb159c198;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4420>;
+    melod:hasContribution _:bad65791a-ab94-ea4b-bed0-482da6b2e593;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1870894334>, <urn:uuid:expressions/1744774722>, <urn:uuid:expressions/1648678036>;
+    melod:hasAnnotation _:b7b31ff2f-b569-4d1b-48ec-fb5567994c84;
+    dct:conformsTo melod:Work.
+
+_:b6a987866-ccdb-e26a-c5f1-fd0d43f3a5ee a melod:Title;
+    rdfs:label "Choro da roça"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd25ba319-6d7f-59c6-31ae-21ecb159c198 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4420".
+
+_:bad65791a-ab94-ea4b-bed0-482da6b2e593 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1637164735>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7b31ff2f-b569-4d1b-48ec-fb5567994c84 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4420\">https://acervo.casadochoro.com.br/works/view/4420</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

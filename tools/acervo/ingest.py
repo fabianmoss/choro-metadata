@@ -318,7 +318,8 @@ def mentions(work: dict) -> list[tuple[str, str, str, bool]]:
             raw = re.sub(r"^Letra de\s+", "", first(details["Letra"])).rstrip(".")
             found.append(("lyricist", raw, clean_name(raw), True))
         copy = parse_copy(first(details.get("Cópia")) or "")
-        for role, field in (("copyist", "copyist"), ("former owner", "former_owner"),
+        for role, field in (("copyist", "copyist"), ("transcriber", "transcriber"),
+                            ("former owner", "former_owner"),
                             ("donor", "donor"), ("editor", "editor")):
             raw = copy.get(field)
             if raw:

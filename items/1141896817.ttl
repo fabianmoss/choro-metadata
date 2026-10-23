@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1141896817> a melod:Item;
+    rdfs:label "Cavaquinho na tipóia — Partitura melodia (score_3581)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1479650613>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b42d064f2-f1fc-b621-c516-ce7617093188;
+    melod:hasShelfmark "score_3581";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3581.pdf>;
+    melod:hasHand _:b7c2f360e-ba95-ddb1-bac3-19496d31ce32;
+    melod:hasProvenance _:b10cb2f6d-8e29-0731-478e-27c0e32e35de;
+    dct:conformsTo melod:Item.
+
+_:b42d064f2-f1fc-b621-c516-ce7617093188 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3581".
+
+_:b7c2f360e-ba95-ddb1-bac3-19496d31ce32 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:b10cb2f6d-8e29-0731-478e-27c0e32e35de a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b654905f9-d626-32e5-7dd0-9469fa49dd1e.
+
+_:b654905f9-d626-32e5-7dd0-9469fa49dd1e a melod:ExactDate;
+    melod:isodate "1952-04-27"^^xsd:date;
+    schema:description "27.04.1952".

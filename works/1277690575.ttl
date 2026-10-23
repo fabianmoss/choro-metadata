@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1277690575> a melod:Work;
+    melod:hasTitle _:badaea470-18fd-b8f6-91ce-3d51e1111047;
+    melod:hasIdentifier _:ba76e8723-3190-7c6e-9f7f-764b32543293;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/505>;
+    melod:hasContribution _:bbf431862-4ded-7604-3c50-217cc38ae29f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1028549242>;
+    melod:hasAnnotation _:bfac57ca6-63f9-b500-5411-2176eef9973b;
+    dct:conformsTo melod:Work.
+
+_:badaea470-18fd-b8f6-91ce-3d51e1111047 a melod:Title;
+    rdfs:label "Caminho da roça"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba76e8723-3190-7c6e-9f7f-764b32543293 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "505".
+
+_:bbf431862-4ded-7604-3c50-217cc38ae29f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfac57ca6-63f9-b500-5411-2176eef9973b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/505\">https://acervo.casadochoro.com.br/works/view/505</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

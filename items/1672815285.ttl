@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1672815285> a melod:Item;
+    rdfs:label "Até amanhã — Partitura melodia (score_11434)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1398398348>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb47e5c11-18a2-2598-6efe-a714c6cff8be;
+    melod:hasShelfmark "score_11434";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11434.pdf>;
+    melod:hasHand _:bfacf0f03-42e3-2a06-7660-35cee00165fd;
+    melod:hasProvenance _:b5ab09745-5d90-8485-62f5-e3086c52886a;
+    dct:conformsTo melod:Item.
+
+_:bb47e5c11-18a2-2598-6efe-a714c6cff8be a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11434".
+
+_:bfacf0f03-42e3-2a06-7660-35cee00165fd a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1664591566>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro Nascimento".
+
+_:b5ab09745-5d90-8485-62f5-e3086c52886a a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b346bf387-4afe-900a-b4c7-b2da09fbba23.
+
+_:b346bf387-4afe-900a-b4c7-b2da09fbba23 a melod:ExactDate;
+    melod:isodate "1933-01-22"^^xsd:date;
+    schema:description "22.01.1933".

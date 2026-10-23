@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1168149401> a melod:Work;
+    melod:hasTitle _:bc8a5e05d-192f-9990-4e4f-8c3f9e491377;
+    melod:hasIdentifier _:b97cf3d83-57b9-372b-58e0-93e2817794fb;
+    melod:hasClassification "Toada";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7726>;
+    melod:hasContribution _:b0619c4ab-e629-b170-1744-5575797ef6c3;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1328716627>;
+    melod:hasAnnotation _:bde55da26-f657-7faf-7223-10e0df58366e;
+    dct:conformsTo melod:Work.
+
+_:bc8a5e05d-192f-9990-4e4f-8c3f9e491377 a melod:Title;
+    rdfs:label "Cafuné"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b97cf3d83-57b9-372b-58e0-93e2817794fb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7726".
+
+_:b0619c4ab-e629-b170-1744-5575797ef6c3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bde55da26-f657-7faf-7223-10e0df58366e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7726\">https://acervo.casadochoro.com.br/works/view/7726</a>. Gênero: Toada. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

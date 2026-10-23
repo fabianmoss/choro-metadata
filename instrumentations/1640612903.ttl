@@ -19,4 +19,5 @@
 _:bdf3e384a-4ed7-aa0c-7846-9505cdb85532 a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "acordeom";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#zn>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

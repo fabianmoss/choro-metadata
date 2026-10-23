@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1212705064> a melod:Item;
+    rdfs:label "Canhoto sempre Garoto — Partitura melodia e cifra (score_8570)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1657561301>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbeefc766-2931-e58c-ef6d-62017c063551;
+    melod:hasShelfmark "score_8570";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8570.pdf>;
+    melod:hasHand _:bfb0ef1e0-7ee7-3090-fdbb-9a765830b49a;
+    melod:hasProvenance _:b3d0b1155-6151-5a6f-f4e9-028cc5a43fcc;
+    dct:conformsTo melod:Item.
+
+_:bbeefc766-2931-e58c-ef6d-62017c063551 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8570".
+
+_:bfb0ef1e0-7ee7-3090-fdbb-9a765830b49a a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1457642848>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Lyzias R. de Oliveira (Cidinho 7 Cordas)".
+
+_:b3d0b1155-6151-5a6f-f4e9-028cc5a43fcc a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b062868dd-0c14-4493-f7c0-00f128cd9920.
+
+_:b062868dd-0c14-4493-f7c0-00f128cd9920 a melod:ExactDate;
+    melod:isodate "1984-10-10"^^xsd:date;
+    schema:description "10.10.1984".

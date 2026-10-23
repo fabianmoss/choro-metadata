@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1162753545> a melod:Item;
+    rdfs:label "Arthur virou bode — Partitura melodia (score_818)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1295057433>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb3d9e8e4-d932-9ea1-6526-8a51c9eddb9d;
+    melod:hasShelfmark "score_818";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_818.pdf>;
+    melod:hasHand _:bc960450e-8cc2-f8de-432a-19eac4c617f2;
+    melod:hasProvenance _:b15f0cb0d-d108-5254-c716-cdef531b7c5a;
+    dct:conformsTo melod:Item.
+
+_:bb3d9e8e4-d932-9ea1-6526-8a51c9eddb9d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_818".
+
+_:bc960450e-8cc2-f8de-432a-19eac4c617f2 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Manoel Pedro do Nascimento".
+
+_:b15f0cb0d-d108-5254-c716-cdef531b7c5a a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b833213e2-3465-8192-0df2-7f6c0400b913.
+
+_:b833213e2-3465-8192-0df2-7f6c0400b913 a melod:ExactDate;
+    melod:isodate "1930-02-26"^^xsd:date;
+    schema:description "26.02.1930".

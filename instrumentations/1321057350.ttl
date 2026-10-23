@@ -19,31 +19,40 @@
 _:bb8048683-b652-2c27-f4c1-2b9436fa46a4 a melod:InstrumentationDetail;
     schema:position "1"^^xsd:integer;
     schema:description "bombardino C";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b550f6249-ba1f-497b-e160-76a1e5f255d7 a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "bumbo";
+    mus:U2_foresees_use_of_medium_of_performance terms:Drum;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b02d46f04-164f-f410-1a27-be139e04d414 a melod:InstrumentationDetail;
     schema:position "3"^^xsd:integer;
     schema:description "contrabaixo Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b39ab8f8d-84f5-26e7-977f-432ad0dbbab9 a melod:InstrumentationDetail;
     schema:position "4"^^xsd:integer;
     schema:description "contrabaixo Eb";
+    mus:U2_foresees_use_of_medium_of_performance terms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b6b83b786-fee4-5bcf-b92e-16f98fe0b98f a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "bombardino 1";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:baed28a90-2d70-51ae-e911-ce11b67b112e a melod:InstrumentationDetail;
     schema:position "6"^^xsd:integer;
     schema:description "bombardino 2";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b7e773943-bb50-0ae6-6e2a-2ca1b3559c69 a melod:InstrumentationDetail;
@@ -63,16 +72,19 @@ _:b8e9a4199-07de-f503-49ba-f87c6a05fcce a melod:InstrumentationDetail;
 _:b88149d10-ab9b-9453-422d-31d296b4479d a melod:InstrumentationDetail;
     schema:position "9"^^xsd:integer;
     schema:description "sax horn Eb 1";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b2b09bf7d-29c8-a256-5ef4-63cd54d4fcee a melod:InstrumentationDetail;
     schema:position "10"^^xsd:integer;
     schema:description "sax horn Eb 2";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bd30b20ff-8f24-cfc3-2061-5d292c296e56 a melod:InstrumentationDetail;
     schema:position "11"^^xsd:integer;
     schema:description "sax horn Eb 3";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b0101f1b7-4aab-07f9-0309-14a052eff1d9 a melod:InstrumentationDetail;

@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1752974340> a melod:Item;
+    rdfs:label "Anita sapeca — Partitura melodia e cifra (score_6885)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841149493>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9cb8f117-86f4-2c74-f04a-5d10dfe378c7;
+    melod:hasShelfmark "score_6885";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6885.pdf>;
+    melod:hasProvenance _:bf4263204-ac8f-f6a3-422f-180bf4d7dc1c;
+    dct:conformsTo melod:Item.
+
+_:b9cb8f117-86f4-2c74-f04a-5d10dfe378c7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6885".
+
+_:bf4263204-ac8f-f6a3-422f-180bf4d7dc1c a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b0303bba8-c935-69b4-31bf-1018d09d1998.
+
+_:b0303bba8-c935-69b4-31bf-1018d09d1998 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

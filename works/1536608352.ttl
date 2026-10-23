@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1536608352> a melod:Work;
+    melod:hasTitle _:bfe568b28-edd4-6301-f887-cf3b2d523609;
+    melod:hasIdentifier _:bac4661dc-0f6d-9bf2-b3b1-4f15d272e40c;
+    melod:hasClassification "Habanera";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/260>;
+    melod:hasContribution _:b22d5e308-ba2a-5cae-469f-141192b1b774;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1462156159>;
+    melod:hasAnnotation _:bcf9784d2-1e84-b5ee-51c1-9db8f0e0e475;
+    dct:conformsTo melod:Work.
+
+_:bfe568b28-edd4-6301-f887-cf3b2d523609 a melod:Title;
+    rdfs:label "As priminhas de Marocas (Série - Flores do Baile)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bac4661dc-0f6d-9bf2-b3b1-4f15d272e40c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "260".
+
+_:b22d5e308-ba2a-5cae-469f-141192b1b774 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1310806124>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcf9784d2-1e84-b5ee-51c1-9db8f0e0e475 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/260\">https://acervo.casadochoro.com.br/works/view/260</a>. Gênero: Habanera. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

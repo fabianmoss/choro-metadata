@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1732159037> a melod:Work;
+    melod:hasTitle _:bc2f11ecb-c34a-48f9-231d-62debd083157;
+    melod:hasIdentifier _:b9ec12aa7-586c-86d9-ee7f-98aafd8fcf82;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9662>;
+    melod:hasContribution _:b55792037-d3ea-76b4-eec7-eec92e4a64b8, _:b8ecd09cd-a6e4-d5af-e057-09d633569be8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1845820211>;
+    melod:hasAnnotation _:b0b42bb80-cb62-18c7-89db-18505435b489;
+    dct:conformsTo melod:Work.
+
+_:bc2f11ecb-c34a-48f9-231d-62debd083157 a melod:Title;
+    rdfs:label "Aquele amor foi um sonho"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9ec12aa7-586c-86d9-ee7f-98aafd8fcf82 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9662".
+
+_:b55792037-d3ea-76b4-eec7-eec92e4a64b8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1156384526>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b8ecd09cd-a6e4-d5af-e057-09d633569be8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1148219020>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0b42bb80-cb62-18c7-89db-18505435b489 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9662\">https://acervo.casadochoro.com.br/works/view/9662</a>. Gênero: Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

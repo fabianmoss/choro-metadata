@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1646523330> a melod:Work;
+    melod:hasTitle _:b8d32b2d2-9c27-afeb-bf5d-a26c588f1dc6;
+    melod:hasIdentifier _:b23e3b122-ede0-9d43-9aea-29749bb08fdf;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1673>;
+    melod:hasContribution _:b57fd18ab-a89a-5c81-a5e4-10499ecd1a2b;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1627578446>, <urn:uuid:expressions/1340196396>;
+    melod:hasAnnotation _:b6ff8cfc8-4c08-c5c5-f4be-faa6ed1c03f3;
+    dct:conformsTo melod:Work.
+
+_:b8d32b2d2-9c27-afeb-bf5d-a26c588f1dc6 a melod:Title;
+    rdfs:label "Antes tarde do que nunca"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b23e3b122-ede0-9d43-9aea-29749bb08fdf a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1673".
+
+_:b57fd18ab-a89a-5c81-a5e4-10499ecd1a2b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1219302179>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6ff8cfc8-4c08-c5c5-f4be-faa6ed1c03f3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1673\">https://acervo.casadochoro.com.br/works/view/1673</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

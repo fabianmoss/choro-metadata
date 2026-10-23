@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1028081196> a melod:Item;
+    rdfs:label "Ao voltar do samba — Partitura melodia, cifra e letra (score_9907)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1618447339>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb66a06e1-2172-b230-ae2b-02f81053da6a;
+    melod:hasShelfmark "score_9907";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9907.pdf>;
+    melod:hasProvenance _:b15026695-d936-c41c-a362-b53c86caa530;
+    dct:conformsTo melod:Item.
+
+_:bb66a06e1-2172-b230-ae2b-02f81053da6a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9907".
+
+_:b15026695-d936-c41c-a362-b53c86caa530 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:ba31f07da-c046-1270-4e7a-4ecf966a9729.
+
+_:ba31f07da-c046-1270-4e7a-4ecf966a9729 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

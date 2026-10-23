@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1045636347> a melod:Item;
+    rdfs:label "Às três da manhã — Partitura melodia (score_5366)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1085653293>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba610c6d9-1dc2-780f-e714-874fecc1f50a;
+    melod:hasShelfmark "score_5366";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5366.pdf>;
+    melod:hasProvenance _:b9d3f2255-1708-b77d-adea-7109410f21af;
+    dct:conformsTo melod:Item.
+
+_:ba610c6d9-1dc2-780f-e714-874fecc1f50a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5366".
+
+_:b9d3f2255-1708-b77d-adea-7109410f21af a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b710f0d68-9cd5-fe1c-8a07-fc64f61720c0.
+
+_:b710f0d68-9cd5-fe1c-8a07-fc64f61720c0 a melod:ExactDate;
+    melod:isodate "1946-06-25"^^xsd:date;
+    schema:description "25.06.1946".

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1317077845> a melod:Work;
+    melod:hasTitle _:b8fc80676-81fc-a184-d255-0117a8afc9e7;
+    melod:hasIdentifier _:bf15a17c8-6071-4dfb-2ed2-4c61efa0e28f;
+    melod:hasClassification "Bambuco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6803>;
+    melod:hasContribution _:b69721bcb-b602-11f7-e263-a0b8e1023e40;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1132566659>;
+    melod:hasAnnotation _:bb5ec5199-5b66-3ee7-0b85-450c97d8f44e;
+    dct:conformsTo melod:Work.
+
+_:b8fc80676-81fc-a184-d255-0117a8afc9e7 a melod:Title;
+    rdfs:label "Bacatá"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf15a17c8-6071-4dfb-2ed2-4c61efa0e28f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6803".
+
+_:b69721bcb-b602-11f7-e263-a0b8e1023e40 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1484410194>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb5ec5199-5b66-3ee7-0b85-450c97d8f44e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6803\">https://acervo.casadochoro.com.br/works/view/6803</a>. Gênero: Bambuco. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

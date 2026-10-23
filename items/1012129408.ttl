@@ -28,6 +28,6 @@ _:b7d18e280-dc70-51fc-1f9b-64cbf0c88695 a melod:Identifier;
     owl:hasValue "score_3429".
 
 _:be52e47ab-b246-8950-d6ac-9f83834c569f a melod:Hand;
-    melod:hasAgent <urn:uuid:persons/1400134864>;
+    melod:hasAgent <urn:uuid:persons/1887498720>;
     melod:hasHandType terms:Writer;
     schema:description "manuscrita por Claudio Monteiro".

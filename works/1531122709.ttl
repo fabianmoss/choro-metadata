@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1531122709> a melod:Work;
+    melod:hasTitle _:b73ec17e9-9460-2c34-dd8c-b08ee613479d;
+    melod:hasIdentifier _:b5f5ec3a5-6234-e4f9-1c96-bdd8083a0b52;
+    melod:hasClassification "Two-step";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1573>;
+    melod:hasContribution _:bd02f0c2f-f90c-ed3a-76df-fb2a5432d614;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1032893374>;
+    melod:hasAnnotation _:bf171f311-8e36-74dc-1856-fa729c72ada1;
+    dct:conformsTo melod:Work.
+
+_:b73ec17e9-9460-2c34-dd8c-b08ee613479d a melod:Title;
+    rdfs:label "Bonito"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b5f5ec3a5-6234-e4f9-1c96-bdd8083a0b52 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1573".
+
+_:bd02f0c2f-f90c-ed3a-76df-fb2a5432d614 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1552305620>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf171f311-8e36-74dc-1856-fa729c72ada1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1573\">https://acervo.casadochoro.com.br/works/view/1573</a>. Gênero: Two-step. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

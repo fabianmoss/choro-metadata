@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1001912407> a melod:Work;
+    melod:hasTitle _:b99e5663e-5468-3fe9-c029-cb25ab28987a;
+    melod:hasIdentifier _:bac4a2964-e6bb-6d3f-c7e3-cd9d8a0d91b7;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9754>;
+    melod:hasContribution _:bb1a9587b-6b47-d276-5b52-210f3304164f, _:bac667455-93d0-f410-0e57-beb64334ceb5, _:bccddd972-9616-f2bf-643b-6f1b6070b793;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1080117610>;
+    melod:hasAnnotation _:bd26d6122-8ea6-084e-ecfe-33e015475258;
+    dct:conformsTo melod:Work.
+
+_:b99e5663e-5468-3fe9-c029-cb25ab28987a a melod:Title;
+    rdfs:label "Cantores de rádio"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bac4a2964-e6bb-6d3f-c7e3-cd9d8a0d91b7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9754".
+
+_:bb1a9587b-6b47-d276-5b52-210f3304164f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1077634451>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bac667455-93d0-f410-0e57-beb64334ceb5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1401633436>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bccddd972-9616-f2bf-643b-6f1b6070b793 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1085977146>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd26d6122-8ea6-084e-ecfe-33e015475258 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9754\">https://acervo.casadochoro.com.br/works/view/9754</a>. Gênero: Marcha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.
