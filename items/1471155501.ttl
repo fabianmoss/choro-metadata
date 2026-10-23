@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1471155501> a melod:Item;
+    rdfs:label "Flor do mal — Partitura melodia (score_6431)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700752941>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb3dfd9f5-0b9a-030f-2a81-a69bed8cfaeb;
+    melod:hasShelfmark "score_6431";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6431.pdf>;
+    melod:hasHand _:b39fcc2c8-1a39-f18b-764c-bf54a6092001;
+    melod:hasProvenance _:b7e45dc58-fa5a-26f8-dc42-5cf75ee502ad;
+    dct:conformsTo melod:Item.
+
+_:bb3dfd9f5-0b9a-030f-2a81-a69bed8cfaeb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6431".
+
+_:b39fcc2c8-1a39-f18b-764c-bf54a6092001 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1504133236>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Afonso Machado".
+
+_:b7e45dc58-fa5a-26f8-dc42-5cf75ee502ad a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bcce5a621-db0b-40e0-5929-33e0aadb129e.
+
+_:bcce5a621-db0b-40e0-5929-33e0aadb129e a melod:ExactDate;
+    melod:isodate "1984-10-01"^^xsd:date;
+    schema:description "01.10.1984".

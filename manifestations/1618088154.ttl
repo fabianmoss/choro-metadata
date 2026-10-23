@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1618088154> a melod:Manifestation;
+    melod:hasTitle _:b0004a1de-b92c-d3c5-0d57-a06a29b7fef2;
+    lrmoo:R4_embodies <urn:uuid:expressions/1429320209>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:ba869cbd2-fede-9f60-6d64-5ca508a73ea2;
+    dct:conformsTo melod:Manifestation.
+
+_:b0004a1de-b92c-d3c5-0d57-a06a29b7fef2 a melod:Title;
+    rdfs:label "Estão verdes! — Partitura piano (edition Casa Carlos Gomes)";
+    melod:hasTitleType terms:MainTitle.
+
+_:ba869cbd2-fede-9f60-6d64-5ca508a73ea2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1450885394>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1575181129> a melod:Expression;
+    rdfs:label "Falando de amor_BANDÃO (arrangement by Bia Paes Leme, Partitura sax alto 2)";
+    melod:hasClassification "Choro Canção";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b7f1784f4-dfcc-3a07-9c8b-04c1a13371f4;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1305377863>;
+    melod:hasContribution _:b3f765060-a4a4-f2cb-230d-c0a7cb39eafe;
+    dct:conformsTo melod:Expression.
+
+_:b7f1784f4-dfcc-3a07-9c8b-04c1a13371f4 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b3f765060-a4a4-f2cb-230d-c0a7cb39eafe a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1576847074>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

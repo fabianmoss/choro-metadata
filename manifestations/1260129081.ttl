@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1260129081> a melod:Manifestation;
+    melod:hasTitle _:b681f4d95-d81d-b81e-cf32-2f17ebe16fa9;
+    lrmoo:R4_embodies <urn:uuid:expressions/1371409860>;
+    melod:hasClassificationOfManifestation "Partitura clarinete", terms:Print;
+    melod:hasContribution _:b8392c74f-a5d2-96b0-910a-21688d39ea14;
+    schema:publication _:bf929ecb0-89aa-c7f6-4911-e655593df37e;
+    dct:conformsTo melod:Manifestation.
+
+_:b681f4d95-d81d-b81e-cf32-2f17ebe16fa9 a melod:Title;
+    rdfs:label "Flausina_BANDÃO — Partitura clarinete (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8392c74f-a5d2-96b0-910a-21688d39ea14 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bf929ecb0-89aa-c7f6-4911-e655593df37e a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

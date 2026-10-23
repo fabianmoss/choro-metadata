@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1635480813> a melod:Work;
+    melod:hasTitle _:bf5d38a26-09c4-0735-a5b3-2fefbe8ecd98;
+    melod:hasIdentifier _:b2505db46-a8c3-6556-b01a-8e7ad2daecdc;
+    melod:hasClassification "Romance";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4467>;
+    melod:hasContribution _:bd8074a09-5fdd-3170-64b7-94fad0533bc6;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1868492423>, <urn:uuid:expressions/1272220265>, <urn:uuid:expressions/1635725771>, <urn:uuid:expressions/1543198014>;
+    melod:hasAnnotation _:b4d3df2f5-4d8c-d05e-3e49-262d8db7a48b;
+    dct:conformsTo melod:Work.
+
+_:bf5d38a26-09c4-0735-a5b3-2fefbe8ecd98 a melod:Title;
+    rdfs:label "Evocação"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2505db46-a8c3-6556-b01a-8e7ad2daecdc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4467".
+
+_:bd8074a09-5fdd-3170-64b7-94fad0533bc6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1180391144>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4d3df2f5-4d8c-d05e-3e49-262d8db7a48b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4467\">https://acervo.casadochoro.com.br/works/view/4467</a>. Gênero: Romance. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1219383847> a melod:Work;
+    melod:hasTitle _:b1cc578be-a441-ba70-321e-4e7264219eab;
+    melod:hasIdentifier _:b4f006c30-720d-654e-7743-08e2f21be016;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10744>;
+    melod:hasContribution _:b54c128a6-ee2b-2a9e-a654-cd8a9f4ec363, _:b7f871c80-36a3-0892-80ec-0ee35496e2a7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1118731823>;
+    melod:hasAnnotation _:be2bf2854-c5d8-f703-0443-7c5890c3d14d;
+    dct:conformsTo melod:Work.
+
+_:b1cc578be-a441-ba70-321e-4e7264219eab a melod:Title;
+    rdfs:label "Esse choro eu conheço"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4f006c30-720d-654e-7743-08e2f21be016 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10744".
+
+_:b54c128a6-ee2b-2a9e-a654-cd8a9f4ec363 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427434240>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7f871c80-36a3-0892-80ec-0ee35496e2a7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1309483919>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be2bf2854-c5d8-f703-0443-7c5890c3d14d a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10744\">https://acervo.casadochoro.com.br/works/view/10744</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

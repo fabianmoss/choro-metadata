@@ -1,0 +1,37 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1293869152> a melod:Expression;
+    rdfs:label "Flor amorosa (arrangement by Carlos Barbosa-Lima, Partitura violão)";
+    melod:hasClassification "Polca";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b6a1d2f3e-770d-013d-2651-e5891b16dce6;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1514345597>;
+    melod:hasContribution _:bbd3c953a-f9cc-3578-aa0d-9733659c7cdc, _:b105405f3-5ce8-fc5a-ffc2-bb43dc525fd2;
+    dct:conformsTo melod:Expression.
+
+_:b6a1d2f3e-770d-013d-2651-e5891b16dce6 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bbd3c953a-f9cc-3578-aa0d-9733659c7cdc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1688150430>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.
+
+_:b105405f3-5ce8-fc5a-ffc2-bb43dc525fd2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1845553943>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

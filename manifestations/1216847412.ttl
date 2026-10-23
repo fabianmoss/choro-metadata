@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1216847412> a melod:Manifestation;
+    melod:hasTitle _:b0cd7f9be-365b-ae96-9129-0848f2d865af;
+    lrmoo:R4_embodies <urn:uuid:expressions/1615834894>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b8e8e60e1-1ee8-64ab-6904-13091b51758b;
+    dct:conformsTo melod:Manifestation.
+
+_:b0cd7f9be-365b-ae96-9129-0848f2d865af a melod:Title;
+    rdfs:label "Energia, minha filha — Partitura piano (edition The Financial Residency)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8e8e60e1-1ee8-64ab-6904-13091b51758b a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1471507141>;
+    melod:hasRole terms:Publisher.

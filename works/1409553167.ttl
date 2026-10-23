@@ -1,0 +1,46 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1409553167> a melod:Work;
+    melod:hasTitle _:bbec27477-a138-584c-1563-7e55e0653839;
+    melod:hasIdentifier _:b75edcb01-9209-e027-277e-2a4b073f54bd;
+    melod:hasClassification "Valsa Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9857>;
+    melod:hasContribution _:b266f9891-ee67-a209-d807-6734f9f247a5, _:b1d8c660b-6ccf-a873-6891-424356034b7d;
+    schema:citation <urn:uuid:bibliography/1704822924>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1712240999>;
+    melod:hasAnnotation _:bf89fdc30-573b-cdee-58a1-0c419e241cb7;
+    dct:conformsTo melod:Work.
+
+_:bbec27477-a138-584c-1563-7e55e0653839 a melod:Title;
+    rdfs:label "Fim de romance"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b75edcb01-9209-e027-277e-2a4b073f54bd a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9857".
+
+_:b266f9891-ee67-a209-d807-6734f9f247a5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1182012213>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1d8c660b-6ccf-a873-6891-424356034b7d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1578140713>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf89fdc30-573b-cdee-58a1-0c419e241cb7 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9857\">https://acervo.casadochoro.com.br/works/view/9857</a>. Gênero: Valsa Canção. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

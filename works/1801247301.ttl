@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1801247301> a melod:Work;
+    melod:hasTitle _:b1bb3ade6-416b-c05f-d84c-892078d8970f;
+    melod:hasIdentifier _:b64c9dad1-b243-0a71-3510-a6ce3147c7d6;
+    melod:hasClassification "Cantiga";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4275>;
+    melod:hasContribution _:bb84e8de1-a0e2-0221-a9c3-1dd9046e4cb1, _:b33b2af5a-68be-0101-bcb8-a37903247f2d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1298776936>, <urn:uuid:expressions/1582905451>;
+    melod:hasAnnotation _:beda4951c-9ba5-2841-f31f-a80105fc9199;
+    dct:conformsTo melod:Work.
+
+_:b1bb3ade6-416b-c05f-d84c-892078d8970f a melod:Title;
+    rdfs:label "Eu vou-me embora"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b64c9dad1-b243-0a71-3510-a6ce3147c7d6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4275".
+
+_:bb84e8de1-a0e2-0221-a9c3-1dd9046e4cb1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b33b2af5a-68be-0101-bcb8-a37903247f2d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1326988482>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:beda4951c-9ba5-2841-f31f-a80105fc9199 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4275\">https://acervo.casadochoro.com.br/works/view/4275</a>. Gênero: Cantiga. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1064864792> a melod:Work;
+    melod:hasTitle _:b91a826d3-d365-b2d9-5a03-fb465188f3cc;
+    melod:hasIdentifier _:bc0460e57-9d18-7f12-e051-df7af1195b3e;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/142>;
+    melod:hasContribution _:b35e04f16-8964-74e2-273d-9e2ce5174fb2;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1776037656>, <urn:uuid:expressions/1694027111>, <urn:uuid:expressions/1340563100>;
+    melod:hasAnnotation _:b10eb900a-f652-f209-0525-839b9ec30950;
+    dct:conformsTo melod:Work.
+
+_:b91a826d3-d365-b2d9-5a03-fb465188f3cc a melod:Title;
+    rdfs:label "Falando às Flores"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc0460e57-9d18-7f12-e051-df7af1195b3e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "142".
+
+_:b35e04f16-8964-74e2-273d-9e2ce5174fb2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1172996647>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b10eb900a-f652-f209-0525-839b9ec30950 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/142\">https://acervo.casadochoro.com.br/works/view/142</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

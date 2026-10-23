@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1539369883> a melod:Work;
+    melod:hasTitle _:b7b7a9c6e-4581-dcd0-7b4f-d658e4f4a6f9;
+    melod:hasIdentifier _:b55a926c9-544d-54e2-44b8-5ec303ea313c;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9430>;
+    melod:hasContribution _:b6bc5541f-8c73-f86d-dea1-57e8a1751553;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1447169440>;
+    melod:hasAnnotation _:b924a8117-9895-f5a0-9cb6-e686dfabc14b;
+    dct:conformsTo melod:Work.
+
+_:b7b7a9c6e-4581-dcd0-7b4f-d658e4f4a6f9 a melod:Title;
+    rdfs:label "Este Leo é pau"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b55a926c9-544d-54e2-44b8-5ec303ea313c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9430".
+
+_:b6bc5541f-8c73-f86d-dea1-57e8a1751553 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1899399168>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b924a8117-9895-f5a0-9cb6-e686dfabc14b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9430\">https://acervo.casadochoro.com.br/works/view/9430</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

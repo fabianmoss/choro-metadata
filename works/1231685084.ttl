@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1231685084> a melod:Work;
+    melod:hasTitle _:b07b05bdd-8b05-04da-086b-3ef2dab5ce9c;
+    melod:hasIdentifier _:bd690e56f-c07b-285e-aa87-54b7bab0de34;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2401>;
+    melod:hasContribution _:b1bcc44ff-c228-c30d-9db1-827de282e31e;
+    schema:citation <urn:uuid:bibliography/1503929089>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1165694482>, <urn:uuid:expressions/1000182954>;
+    melod:hasAnnotation _:bba7d5244-d62e-6398-53b3-bdf51e14f3b6;
+    dct:conformsTo melod:Work.
+
+_:b07b05bdd-8b05-04da-086b-3ef2dab5ce9c a melod:Title;
+    rdfs:label "Então, não é!"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd690e56f-c07b-285e-aa87-54b7bab0de34 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2401".
+
+_:b1bcc44ff-c228-c30d-9db1-827de282e31e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1181305027>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bba7d5244-d62e-6398-53b3-bdf51e14f3b6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2401\">https://acervo.casadochoro.com.br/works/view/2401</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

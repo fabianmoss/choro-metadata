@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1713850677> a melod:Work;
+    melod:hasTitle _:bcc82e1a2-f2ea-a7e5-862c-63fffb2d33ed;
+    melod:hasIdentifier _:b4e089fce-5dbc-bdde-29ae-80157ceb6743;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3320>;
+    melod:hasContribution _:b59419923-aa6f-8133-57b1-69a5dbcd25ee;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1084874819>, <urn:uuid:expressions/1484189574>;
+    melod:hasAnnotation _:b607fb5c4-4bd6-a1e4-d745-10c303c71172;
+    dct:conformsTo melod:Work.
+
+_:bcc82e1a2-f2ea-a7e5-862c-63fffb2d33ed a melod:Title;
+    rdfs:label "Figueira de Mello"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4e089fce-5dbc-bdde-29ae-80157ceb6743 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3320".
+
+_:b59419923-aa6f-8133-57b1-69a5dbcd25ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1112620882>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b607fb5c4-4bd6-a1e4-d745-10c303c71172 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3320\">https://acervo.casadochoro.com.br/works/view/3320</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

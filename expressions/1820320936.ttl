@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1820320936> a melod:Expression;
+    rdfs:label "Escola antiga (arrangement by Lucas Porto, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b2bff0941-ee9c-58cd-08ae-386716c5d90c;
+    melod:hasContribution _:b8f17ab2c-8bba-9a06-e84b-e4ebf2f41c08;
+    dct:conformsTo melod:Expression.
+
+_:b2bff0941-ee9c-58cd-08ae-386716c5d90c a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b8f17ab2c-8bba-9a06-e84b-e4ebf2f41c08 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1435793668>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

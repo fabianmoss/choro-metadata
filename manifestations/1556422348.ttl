@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1556422348> a melod:Manifestation;
+    melod:hasTitle _:b19ac5c76-6142-0b47-b0b0-ba0113fbd474;
+    lrmoo:R4_embodies <urn:uuid:expressions/1173183634>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b048ce8e5-78fd-b321-8c89-207842ac448a;
+    dct:conformsTo melod:Manifestation.
+
+_:b19ac5c76-6142-0b47-b0b0-ba0113fbd474 a melod:Title;
+    rdfs:label "Exaltação — Partitura piano e letra (edition Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém))";
+    melod:hasTitleType terms:MainTitle.
+
+_:b048ce8e5-78fd-b321-8c89-207842ac448a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1641381299>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1882607667> a melod:Work;
+    melod:hasTitle _:bce04de13-f793-7683-a027-44ce824da597;
+    melod:hasIdentifier _:b2594497b-65f0-3231-bb15-10665f3bb450;
+    melod:hasClassification "Cateretê Carnavalesco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4287>;
+    melod:hasContribution _:bbd1a126a-1bce-74e8-0f5a-41ae93fad151;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1423695106>, <urn:uuid:expressions/1307188497>;
+    melod:hasAnnotation _:be83b114d-578d-5d15-766d-2e0df7ec57f7;
+    dct:conformsTo melod:Work.
+
+_:bce04de13-f793-7683-a027-44ce824da597 a melod:Title;
+    rdfs:label "Eu só quero é beliscar"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2594497b-65f0-3231-bb15-10665f3bb450 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4287".
+
+_:bbd1a126a-1bce-74e8-0f5a-41ae93fad151 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be83b114d-578d-5d15-766d-2e0df7ec57f7 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4287\">https://acervo.casadochoro.com.br/works/view/4287</a>. Gênero: Cateretê Carnavalesco. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

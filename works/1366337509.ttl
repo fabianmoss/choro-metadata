@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1366337509> a melod:Work;
+    melod:hasTitle _:b1451f34a-48fb-eb57-0e6d-d27a310de9a5;
+    melod:hasIdentifier _:bba09e8af-39ac-ed0d-b9ca-94096d95c6a8;
+    melod:hasClassification "Tango Brasileiro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1081>;
+    melod:hasContribution _:be4b000bd-8dc3-561a-64b6-5b4f2be67d84;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1349947670>;
+    melod:hasAnnotation _:bbc5e6d24-08de-38d4-89ed-6b0412551fde;
+    dct:conformsTo melod:Work.
+
+_:b1451f34a-48fb-eb57-0e6d-d27a310de9a5 a melod:Title;
+    rdfs:label "Escapei da morte"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bba09e8af-39ac-ed0d-b9ca-94096d95c6a8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1081".
+
+_:be4b000bd-8dc3-561a-64b6-5b4f2be67d84 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1839788697>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bbc5e6d24-08de-38d4-89ed-6b0412551fde a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1081\">https://acervo.casadochoro.com.br/works/view/1081</a>. Gênero: Tango Brasileiro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

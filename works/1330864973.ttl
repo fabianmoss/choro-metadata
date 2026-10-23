@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1330864973> a melod:Work;
+    melod:hasTitle _:bfb0cdce0-f759-bed2-dece-fd995b0c9398;
+    melod:hasIdentifier _:bf1949a62-e21e-b414-4cbf-f6fa5639f38f;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4358>;
+    melod:hasContribution _:b46a2d92c-7291-7829-b1e5-ad976545292d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1615509960>, <urn:uuid:expressions/1157063627>, <urn:uuid:expressions/1598842843>;
+    melod:hasAnnotation _:b6f0eda30-6b1e-36b0-22e3-1855ef053b0b;
+    dct:conformsTo melod:Work.
+
+_:bfb0cdce0-f759-bed2-dece-fd995b0c9398 a melod:Title;
+    rdfs:label "Flor do abacate"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf1949a62-e21e-b414-4cbf-f6fa5639f38f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4358".
+
+_:b46a2d92c-7291-7829-b1e5-ad976545292d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1714885805>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6f0eda30-6b1e-36b0-22e3-1855ef053b0b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4358\">https://acervo.casadochoro.com.br/works/view/4358</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

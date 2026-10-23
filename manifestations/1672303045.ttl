@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1672303045> a melod:Manifestation;
+    melod:hasTitle _:bc561b0de-817e-0c2d-17fa-cd27da3aa18b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1635725771>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:bb97f33ce-a687-1676-c400-75965a49a2da;
+    schema:publication _:b9105cc96-5ca5-dd09-7471-197681efd7c7;
+    dct:conformsTo melod:Manifestation.
+
+_:bc561b0de-817e-0c2d-17fa-cd27da3aa18b a melod:Title;
+    rdfs:label "Evocação — Partitura melodia (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb97f33ce-a687-1676-c400-75965a49a2da a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b9105cc96-5ca5-dd09-7471-197681efd7c7 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

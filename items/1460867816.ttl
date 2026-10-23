@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1460867816> a melod:Item;
+    rdfs:label "Ernestina — Partitura melodia (score_857)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1628403813>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b38c642fb-e5f4-7ccc-1ca2-d488c39f3ed8;
+    melod:hasShelfmark "score_857";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_857.pdf>;
+    melod:hasProvenance _:b0ed573ed-c5e3-aa42-314b-4f3b7f5eb27c;
+    dct:conformsTo melod:Item.
+
+_:b38c642fb-e5f4-7ccc-1ca2-d488c39f3ed8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_857".
+
+_:b0ed573ed-c5e3-aa42-314b-4f3b7f5eb27c a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b172d8238-bb51-c687-85c3-bc1c99484d45.
+
+_:b172d8238-bb51-c687-85c3-bc1c99484d45 a melod:ExactDate;
+    melod:isodate "1936-08-05"^^xsd:date;
+    schema:description "05.08.1936".

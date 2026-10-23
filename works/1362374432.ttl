@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1362374432> a melod:Work;
+    melod:hasTitle _:b5f7ab822-106f-1e58-ec1a-09b3782495ee;
+    melod:hasIdentifier _:b268f27c7-88ef-7aca-86c2-3dd7200e0e56;
+    melod:hasClassification "Choro Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10776>;
+    melod:hasContribution _:bc9056f9e-5c2b-10b0-a826-3c369193abf2;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1120848832>, <urn:uuid:expressions/1082075950>, <urn:uuid:expressions/1113443714>, <urn:uuid:expressions/1575181129>, <urn:uuid:expressions/1886247443>, <urn:uuid:expressions/1706296708>, <urn:uuid:expressions/1771295178>, <urn:uuid:expressions/1781770345>, <urn:uuid:expressions/1162860172>, <urn:uuid:expressions/1792681310>, <urn:uuid:expressions/1008230418>, <urn:uuid:expressions/1818613540>;
+    melod:hasAnnotation _:ba27b7c04-40ce-9bef-61e8-d31f6a9efd50;
+    dct:conformsTo melod:Work.
+
+_:b5f7ab822-106f-1e58-ec1a-09b3782495ee a melod:Title;
+    rdfs:label "Falando de amor_BANDÃO"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b268f27c7-88ef-7aca-86c2-3dd7200e0e56 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10776".
+
+_:bc9056f9e-5c2b-10b0-a826-3c369193abf2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1663007803>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba27b7c04-40ce-9bef-61e8-d31f6a9efd50 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10776\">https://acervo.casadochoro.com.br/works/view/10776</a>. Gênero: Choro Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

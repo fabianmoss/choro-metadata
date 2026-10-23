@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1772947591> a melod:Expression;
+    rdfs:label "Farfalhar do baile (arrangement by Mauricio Carrilho, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc64bad8a-37b5-cc1c-5f32-f09b282b568e;
+    melod:hasContribution _:b7535b201-aa4e-b16e-53c1-9616f48f678d;
+    dct:conformsTo melod:Expression.
+
+_:bc64bad8a-37b5-cc1c-5f32-f09b282b568e a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b7535b201-aa4e-b16e-53c1-9616f48f678d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

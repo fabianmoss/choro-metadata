@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1220076059> a melod:Item;
+    rdfs:label "Filó querida — Partitura melodia e cifra (score_6657)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1304420520>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b0802396d-706b-d13c-1278-00c52caf6b96;
+    melod:hasShelfmark "score_6657";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6657.pdf>;
+    melod:hasHand _:bbdf10ec0-d9c5-67f1-92ac-f23fd2860e7d;
+    melod:hasProvenance _:b887950dd-8d41-0b94-903d-d1f5a219aa3d;
+    dct:conformsTo melod:Item.
+
+_:b0802396d-706b-d13c-1278-00c52caf6b96 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6657".
+
+_:bbdf10ec0-d9c5-67f1-92ac-f23fd2860e7d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1244400084>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por João Dias Carrasqueira".
+
+_:b887950dd-8d41-0b94-903d-d1f5a219aa3d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b6238e97c-b9e9-82e4-733b-d654f64e871c.
+
+_:b6238e97c-b9e9-82e4-733b-d654f64e871c a melod:ExactDate;
+    melod:isodate "1994-11-17"^^xsd:date;
+    schema:description "17.11.1994".

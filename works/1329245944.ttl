@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1329245944> a melod:Work;
+    melod:hasTitle _:b943fe568-90d4-2544-c8bb-fc0a99b6fdd6;
+    melod:hasIdentifier _:bb5560ac4-fd57-f746-d88f-fcc05ddf8d0d;
+    melod:hasClassification "Polca Ligeira";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9017>;
+    melod:hasContribution _:b6558370a-0cba-eacd-c413-1ec3a0415d73;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1343855114>;
+    melod:hasAnnotation _:b978eb829-c8e0-82a2-779d-ea264dadc121;
+    dct:conformsTo melod:Work.
+
+_:b943fe568-90d4-2544-c8bb-fc0a99b6fdd6 a melod:Title;
+    rdfs:label "Felicidades"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb5560ac4-fd57-f746-d88f-fcc05ddf8d0d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9017".
+
+_:b6558370a-0cba-eacd-c413-1ec3a0415d73 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b978eb829-c8e0-82a2-779d-ea264dadc121 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9017\">https://acervo.casadochoro.com.br/works/view/9017</a>. Gênero: Polca Ligeira. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

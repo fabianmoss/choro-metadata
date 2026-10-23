@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1781141898> a melod:Work;
+    melod:hasTitle _:b7fcee42f-62f0-0da8-5f85-094d6e23a272;
+    melod:hasIdentifier _:bb18bb540-6f2b-839f-f73d-f0d09f893c76;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4159>;
+    melod:hasContribution _:b051510ce-eaaa-a514-0612-218bbe11ac2e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1262126355>, <urn:uuid:expressions/1291609323>;
+    melod:hasAnnotation _:bb66c1518-b3e6-07a6-e304-626602e54b83;
+    dct:conformsTo melod:Work.
+
+_:b7fcee42f-62f0-0da8-5f85-094d6e23a272 a melod:Title;
+    rdfs:label "Eu sou baianinha"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb18bb540-6f2b-839f-f73d-f0d09f893c76 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4159".
+
+_:b051510ce-eaaa-a514-0612-218bbe11ac2e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1662737173>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb66c1518-b3e6-07a6-e304-626602e54b83 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4159\">https://acervo.casadochoro.com.br/works/view/4159</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

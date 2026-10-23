@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1807171951> a melod:Manifestation;
+    melod:hasTitle _:b22e95766-6871-17c3-3b98-0a0b8c70d3da;
+    lrmoo:R4_embodies <urn:uuid:expressions/1448917587>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bb2197696-806c-47f0-0529-3afc6f1cfa17;
+    dct:conformsTo melod:Manifestation.
+
+_:b22e95766-6871-17c3-3b98-0a0b8c70d3da a melod:Title;
+    rdfs:label "Fechou-se o tempo — Partitura piano (edition Victor Prèalle Sucessor)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb2197696-806c-47f0-0529-3afc6f1cfa17 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1054130945>;
+    melod:hasRole terms:Publisher.

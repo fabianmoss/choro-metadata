@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1843496246> a melod:Work;
+    melod:hasTitle _:bc27ffad9-9065-80e6-9f11-787f3399a107;
+    melod:hasIdentifier _:b677673bc-31c2-d84c-0fc7-00fc15e630c9;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3204>;
+    melod:hasContribution _:b495feb22-58f0-432d-ce9e-e73c049fa927;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1612758090>;
+    melod:hasAnnotation _:b3391e47d-91db-ebbe-75bf-93e1b0173e2d;
+    dct:conformsTo melod:Work.
+
+_:bc27ffad9-9065-80e6-9f11-787f3399a107 a melod:Title;
+    rdfs:label "Flor linda"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b677673bc-31c2-d84c-0fc7-00fc15e630c9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3204".
+
+_:b495feb22-58f0-432d-ce9e-e73c049fa927 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1562527296>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3391e47d-91db-ebbe-75bf-93e1b0173e2d a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3204\">https://acervo.casadochoro.com.br/works/view/3204</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

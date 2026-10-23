@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1285604701> a melod:Work;
+    melod:hasTitle _:b004a0fe1-da09-e815-e93c-9af872ff48d7;
+    melod:hasIdentifier _:bd0b89d3b-0623-3d9b-29d5-d54421fe47a1;
+    melod:hasClassification "Fado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2476>;
+    melod:hasContribution _:bf3f584ac-ecdc-78c0-c576-bb0e0969086f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1371090908>;
+    melod:hasAnnotation _:b482ce84c-0b93-913e-63b4-93e4b0934c10;
+    dct:conformsTo melod:Work.
+
+_:b004a0fe1-da09-e815-e93c-9af872ff48d7 a melod:Title;
+    rdfs:label "Fado da saudade"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd0b89d3b-0623-3d9b-29d5-d54421fe47a1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2476".
+
+_:bf3f584ac-ecdc-78c0-c576-bb0e0969086f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1101088739>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b482ce84c-0b93-913e-63b4-93e4b0934c10 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2476\">https://acervo.casadochoro.com.br/works/view/2476</a>. Gênero: Fado. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

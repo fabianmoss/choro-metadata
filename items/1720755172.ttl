@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1720755172> a melod:Item;
+    rdfs:label "Eu não sou daqui — Partitura cifra (score_7797)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1474668664>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b1d1b72be-94c3-225c-54ee-3b0cc7a7a100;
+    melod:hasShelfmark "score_7797";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7797.pdf>;
+    melod:hasHand _:b188a3dec-3936-d817-a4da-a43d17b29c60;
+    dct:conformsTo melod:Item.
+
+_:b1d1b72be-94c3-225c-54ee-3b0cc7a7a100 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7797".
+
+_:b188a3dec-3936-d817-a4da-a43d17b29c60 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

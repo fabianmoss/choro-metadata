@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1759445312> a melod:Work;
+    melod:hasTitle _:b98e5e362-adf1-fcd4-ac73-0fa922e44ec2;
+    melod:hasIdentifier _:bf631c101-e9e1-8131-4c69-7399a88364e7;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10710>;
+    melod:hasContribution _:b549d4654-8f1e-58dd-391b-ae7bf66e7efd;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1566782366>, <urn:uuid:expressions/1371409860>, <urn:uuid:expressions/1893264926>, <urn:uuid:expressions/1221518170>, <urn:uuid:expressions/1181218474>, <urn:uuid:expressions/1337554688>, <urn:uuid:expressions/1832888561>, <urn:uuid:expressions/1105246335>, <urn:uuid:expressions/1374326992>, <urn:uuid:expressions/1348556331>, <urn:uuid:expressions/1184030676>, <urn:uuid:expressions/1299478637>;
+    melod:hasAnnotation _:b277731f8-d02e-f2d2-5c2b-fa8d13d487a1;
+    dct:conformsTo melod:Work.
+
+_:b98e5e362-adf1-fcd4-ac73-0fa922e44ec2 a melod:Title;
+    rdfs:label "Flausina_BANDÃO"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf631c101-e9e1-8131-4c69-7399a88364e7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10710".
+
+_:b549d4654-8f1e-58dd-391b-ae7bf66e7efd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1489279617>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b277731f8-d02e-f2d2-5c2b-fa8d13d487a1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10710\">https://acervo.casadochoro.com.br/works/view/10710</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

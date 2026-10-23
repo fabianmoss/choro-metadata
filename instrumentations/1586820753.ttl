@@ -1,0 +1,35 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1586820753> a melod:Instrumentation;
+    rdfs:label "bandola, violão, tiple"@pt;
+    melod:hasInstrumentationDetail _:bbf0115d6-0b3e-a086-18ed-8858ca9239f3, _:b14e09967-ff48-322e-6140-c2303fd42872, _:b6f2aef0f-903c-06fd-6bd6-865b61ff7858.
+
+_:bbf0115d6-0b3e-a086-18ed-8858ca9239f3 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "bandola";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tz>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b14e09967-ff48-322e-6140-c2303fd42872 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "violão";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b6f2aef0f-903c-06fd-6bd6-865b61ff7858 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "tiple";
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

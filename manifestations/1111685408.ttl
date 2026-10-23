@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1111685408> a melod:Manifestation;
+    melod:hasTitle _:b0a602eb2-4e54-1f42-6d55-fe993f5a3155;
+    lrmoo:R4_embodies <urn:uuid:expressions/1496812394>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:b4e01ed86-b6dc-dc5b-ed91-78457bf12452;
+    dct:conformsTo melod:Manifestation.
+
+_:b0a602eb2-4e54-1f42-6d55-fe993f5a3155 a melod:Title;
+    rdfs:label "Fim da serenata — Partitura melodia (edition A Melodia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b4e01ed86-b6dc-dc5b-ed91-78457bf12452 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1404776138>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1203992192> a melod:Expression;
+    rdfs:label "Estela (arrangement by Anna Paes, Partitura melodia e cifra)";
+    melod:hasClassification "Modinha";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bd17bf41a-5385-6e7d-441c-76f1eb876269;
+    melod:hasContribution _:bccf65785-de48-ca58-8725-8a8e25673c81;
+    dct:conformsTo melod:Expression.
+
+_:bd17bf41a-5385-6e7d-441c-76f1eb876269 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bccf65785-de48-ca58-8725-8a8e25673c81 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1265036441>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

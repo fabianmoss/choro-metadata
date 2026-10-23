@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1579429701> a melod:Expression;
+    rdfs:label "Festa de Nanã_BANDÃO (arrangement by Pixinguinha, Partitura clarinete 2)";
+    melod:hasClassification "Lundu Africano";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:ba6d03ff4-b30b-d026-bd67-983aab10f05f;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1511572259>;
+    melod:hasContribution _:b898328eb-99fa-c480-b6e4-c9b76352e629;
+    dct:conformsTo melod:Expression.
+
+_:ba6d03ff4-b30b-d026-bd67-983aab10f05f a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b898328eb-99fa-c480-b6e4-c9b76352e629 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201773863>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

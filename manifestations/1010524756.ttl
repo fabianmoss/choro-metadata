@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1010524756> a melod:Manifestation;
+    melod:hasTitle _:bff55ecd1-fd76-d9fb-739e-4458086d03ae;
+    lrmoo:R4_embodies <urn:uuid:expressions/1045352761>;
+    melod:hasClassificationOfManifestation "Partitura trompete 1", terms:Print;
+    melod:hasContribution _:b66dec273-d451-7967-5ae5-a1d44f5e0ab0;
+    schema:publication _:bbcd8148b-e81f-495e-59b0-46a1ffce4ffe;
+    dct:conformsTo melod:Manifestation.
+
+_:bff55ecd1-fd76-d9fb-739e-4458086d03ae a melod:Title;
+    rdfs:label "Festa de Nanã_BANDÃO — Partitura trompete 1 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b66dec273-d451-7967-5ae5-a1d44f5e0ab0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bbcd8148b-e81f-495e-59b0-46a1ffce4ffe a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

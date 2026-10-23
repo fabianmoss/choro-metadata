@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1185673220> a melod:Manifestation;
+    melod:hasTitle _:b7e9415bd-8bb3-ac6d-6d1c-4710cc06bb55;
+    lrmoo:R4_embodies <urn:uuid:expressions/1162860172>;
+    melod:hasClassificationOfManifestation "Partitura percussão", terms:Print;
+    melod:hasContribution _:b64956af9-a6c8-ebe8-9222-2e5549d3c755;
+    schema:publication _:b9e540a0d-6282-ff4d-d750-162759b960c6;
+    dct:conformsTo melod:Manifestation.
+
+_:b7e9415bd-8bb3-ac6d-6d1c-4710cc06bb55 a melod:Title;
+    rdfs:label "Falando de amor_BANDÃO — Partitura percussão (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b64956af9-a6c8-ebe8-9222-2e5549d3c755 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b9e540a0d-6282-ff4d-d750-162759b960c6 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

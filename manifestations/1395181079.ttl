@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1395181079> a melod:Manifestation;
+    melod:hasTitle _:bbc82ab80-0845-2bef-f62a-65a5620de485;
+    lrmoo:R4_embodies <urn:uuid:expressions/1221518170>;
+    melod:hasClassificationOfManifestation "Partitura sax alto 2", terms:Print;
+    melod:hasContribution _:bae679e58-3c63-cead-7220-cfa3e14804b2;
+    schema:publication _:b598a82ac-4baf-ebcf-f5b5-8dc32e3ded38;
+    dct:conformsTo melod:Manifestation.
+
+_:bbc82ab80-0845-2bef-f62a-65a5620de485 a melod:Title;
+    rdfs:label "Flausina_BANDÃO — Partitura sax alto 2 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bae679e58-3c63-cead-7220-cfa3e14804b2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b598a82ac-4baf-ebcf-f5b5-8dc32e3ded38 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

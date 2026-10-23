@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1506263281> a melod:Manifestation;
+    melod:hasTitle _:b4d6d8b7b-fc7a-7882-615c-469b8b8ece7d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1870644228>;
+    melod:hasClassificationOfManifestation "Partitura arranjo para dois violões", terms:Manuscript;
+    dct:conformsTo melod:Manifestation.
+
+_:b4d6d8b7b-fc7a-7882-615c-469b8b8ece7d a melod:Title;
+    rdfs:label "Floraux — Partitura arranjo para dois violões (manuscript)";
+    melod:hasTitleType terms:MainTitle.

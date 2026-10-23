@@ -1,0 +1,73 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1487497444> a melod:Instrumentation;
+    rdfs:label "baixo, trombone, violino, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, trompete Bb 1, trompete Bb 2"@pt;
+    melod:hasInstrumentationDetail _:b19987f40-fc52-18e0-3d62-8e16793e822f, _:ba299413a-4887-2e8e-92a1-331ec508f888, _:b5ecd07ed-3ae7-538a-13db-e94d288f8d8d, _:bb3ec8961-cc3b-eab7-0ccd-5dd25bb83cee, _:bbdb48df5-51b9-216e-44c8-4fec104fcc82, _:b6da55ac7-0f78-6930-144a-3904c5684cdc, _:b4776f74c-477f-127b-56e2-241992cfeb50, _:b42550112-4715-7665-3624-621e83af8780.
+
+_:b19987f40-fc52-18e0-3d62-8e16793e822f a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "baixo";
+    mus:U2_foresees_use_of_medium_of_performance terms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:ba299413a-4887-2e8e-92a1-331ec508f888 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "trombone";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trombone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b5ecd07ed-3ae7-538a-13db-e94d288f8d8d a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "violino";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bb3ec8961-cc3b-eab7-0ccd-5dd25bb83cee a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "sax alto Eb 1";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bbdb48df5-51b9-216e-44c8-4fec104fcc82 a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "sax alto Eb 3";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b6da55ac7-0f78-6930-144a-3904c5684cdc a melod:InstrumentationDetail;
+    schema:position "6"^^xsd:integer;
+    schema:description "sax tenor Bb 2";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b4776f74c-477f-127b-56e2-241992cfeb50 a melod:InstrumentationDetail;
+    schema:position "7"^^xsd:integer;
+    schema:description "trompete Bb 1";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b42550112-4715-7665-3624-621e83af8780 a melod:InstrumentationDetail;
+    schema:position "8"^^xsd:integer;
+    schema:description "trompete Bb 2";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

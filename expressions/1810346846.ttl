@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1810346846> a melod:Expression;
+    rdfs:label "Flamengo_BANDÃO (arrangement by Lucas Porto, Partitura trombone 2)";
+    melod:hasClassification "Maxixe";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bfa2a4daf-cd6e-ba52-9812-474baa8bc447;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1695949461>;
+    melod:hasContribution _:b196f18e2-c76b-4701-41a5-b93b75a2cd92;
+    dct:conformsTo melod:Expression.
+
+_:bfa2a4daf-cd6e-ba52-9812-474baa8bc447 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b196f18e2-c76b-4701-41a5-b93b75a2cd92 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1435793668>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

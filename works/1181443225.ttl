@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1181443225> a melod:Work;
+    melod:hasTitle _:ba380018d-56c9-268f-2fc3-24f3ac7fe739;
+    melod:hasIdentifier _:b5bd83bd5-4ec5-dee7-a32b-ac2086a3808a;
+    melod:hasClassification "Rancheira";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9838>;
+    melod:hasContribution _:ba44c8d7b-0c76-c4ba-5d62-59728fb6a583, _:bf7d3e956-f78c-e6a9-ac8a-8f0485346c0b;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1021805618>;
+    melod:hasAnnotation _:b188223ed-c44f-03b6-fba8-e081c75089f4;
+    dct:conformsTo melod:Work.
+
+_:ba380018d-56c9-268f-2fc3-24f3ac7fe739 a melod:Title;
+    rdfs:label "Eu sou festeiro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b5bd83bd5-4ec5-dee7-a32b-ac2086a3808a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9838".
+
+_:ba44c8d7b-0c76-c4ba-5d62-59728fb6a583 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1528908043>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf7d3e956-f78c-e6a9-ac8a-8f0485346c0b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1829113128>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b188223ed-c44f-03b6-fba8-e081c75089f4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9838\">https://acervo.casadochoro.com.br/works/view/9838</a>. Gênero: Rancheira. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

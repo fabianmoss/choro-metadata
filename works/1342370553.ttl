@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1342370553> a melod:Work;
+    melod:hasTitle _:b893be0f1-7f24-962d-4ddc-84ece4d9e06c;
+    melod:hasIdentifier _:b3ba8a957-e9d1-37af-919c-facca5403fff;
+    melod:hasClassification "Fado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7969>;
+    melod:hasContribution _:b534ac0b6-8443-bbde-b4bb-3de9ef9e9d61;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1362705434>;
+    melod:hasAnnotation _:b3a8932bb-c1e7-0e94-6d54-6b783df9ebd1;
+    dct:conformsTo melod:Work.
+
+_:b893be0f1-7f24-962d-4ddc-84ece4d9e06c a melod:Title;
+    rdfs:label "Fado da sebenta"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3ba8a957-e9d1-37af-919c-facca5403fff a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7969".
+
+_:b534ac0b6-8443-bbde-b4bb-3de9ef9e9d61 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1499439546>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3a8932bb-c1e7-0e94-6d54-6b783df9ebd1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7969\">https://acervo.casadochoro.com.br/works/view/7969</a>. Gênero: Fado. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

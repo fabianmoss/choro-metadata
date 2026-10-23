@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1692420380> a melod:Manifestation;
+    melod:hasTitle _:b7281c8c7-b040-4f87-e13e-4c0330609444;
+    lrmoo:R4_embodies <urn:uuid:expressions/1371820271>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra Bb", terms:Print;
+    melod:hasContribution _:bf22daedb-ecba-148b-5833-24cd583dfc66;
+    schema:publication _:ba6f3de6e-e275-b421-303e-fa4acd0b2cbd;
+    dct:conformsTo melod:Manifestation.
+
+_:b7281c8c7-b040-4f87-e13e-4c0330609444 a melod:Title;
+    rdfs:label "Felicidade — Partitura melodia e cifra Bb (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf22daedb-ecba-148b-5833-24cd583dfc66 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:ba6f3de6e-e275-b421-303e-fa4acd0b2cbd a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

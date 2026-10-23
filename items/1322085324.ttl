@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1322085324> a melod:Item;
+    rdfs:label "Esaumar — Partitura piano (score_15168)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1106339565>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba3b7e8f7-9c6a-1406-fb3f-935c07e599f3;
+    melod:hasShelfmark "score_15168";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15168.pdf>;
+    melod:hasProvenance _:b9432d477-645b-9055-2320-058ce043c2d1;
+    dct:conformsTo melod:Item.
+
+_:ba3b7e8f7-9c6a-1406-fb3f-935c07e599f3 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15168".
+
+_:b9432d477-645b-9055-2320-058ce043c2d1 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:bb231aae4-a729-cece-b22d-7f3fd193f4a6.
+
+_:bb231aae4-a729-cece-b22d-7f3fd193f4a6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

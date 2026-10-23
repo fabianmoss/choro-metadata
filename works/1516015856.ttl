@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1516015856> a melod:Work;
+    melod:hasTitle _:b03d1bd5c-239f-8a5d-a305-b2eea30d547b;
+    melod:hasIdentifier _:baa7bac5b-6598-2c01-c041-1b2308fe8685;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9824>;
+    melod:hasContribution _:b293d0849-1e27-46ed-0eb4-3e6ba305bafb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1746511564>;
+    melod:hasAnnotation _:b4594b352-c485-7a1f-ece6-969e444959e5;
+    dct:conformsTo melod:Work.
+
+_:b03d1bd5c-239f-8a5d-a305-b2eea30d547b a melod:Title;
+    rdfs:label "Enchente da maré"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:baa7bac5b-6598-2c01-c041-1b2308fe8685 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9824".
+
+_:b293d0849-1e27-46ed-0eb4-3e6ba305bafb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1757089196>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4594b352-c485-7a1f-ece6-969e444959e5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9824\">https://acervo.casadochoro.com.br/works/view/9824</a>. Gênero: Marcha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

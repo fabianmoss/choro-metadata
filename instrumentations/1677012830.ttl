@@ -1,0 +1,43 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1677012830> a melod:Instrumentation;
+    rdfs:label "base, clarinete, saxofone tenor, trompete Bb"@pt;
+    melod:hasInstrumentationDetail _:bfcb16015-b509-9981-d2e5-c85279e33560, _:bb014f78f-e5cc-1d35-937a-100ab971cd9f, _:bc3dce4c0-c61c-9d17-7946-27aa7e587b9a, _:b0376f949-6bcd-1e39-92e3-25856692c4c1.
+
+_:bfcb16015-b509-9981-d2e5-c85279e33560 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "base";
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bb014f78f-e5cc-1d35-937a-100ab971cd9f a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "clarinete";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bc3dce4c0-c61c-9d17-7946-27aa7e587b9a a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "saxofone tenor";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b0376f949-6bcd-1e39-92e3-25856692c4c1 a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "trompete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

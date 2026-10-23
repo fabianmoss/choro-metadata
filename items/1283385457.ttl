@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1283385457> a melod:Item;
+    rdfs:label "Favorito — Partitura melodia (score_4927)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1514527331>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7b3cd7aa-9ae3-2d9a-25e6-a10de04ce283;
+    melod:hasShelfmark "score_4927";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4927.pdf>;
+    melod:hasProvenance _:b9e0c2cf9-3420-7484-9e48-2ea5020b4797;
+    dct:conformsTo melod:Item.
+
+_:b7b3cd7aa-9ae3-2d9a-25e6-a10de04ce283 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4927".
+
+_:b9e0c2cf9-3420-7484-9e48-2ea5020b4797 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:badbc1d73-37c6-9330-47f1-9b35acdae797.
+
+_:badbc1d73-37c6-9330-47f1-9b35acdae797 a melod:ExactDate;
+    melod:isodate "1960-07-18"^^xsd:date;
+    schema:description "18.07.1960".

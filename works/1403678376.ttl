@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1403678376> a melod:Work;
+    melod:hasTitle _:b17a30264-0023-3850-8629-81090bdee78d;
+    melod:hasIdentifier _:b800dcee8-4480-6088-5ca4-2145c36486dc;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1695>;
+    melod:hasContribution _:b69e67fb5-c4fe-5da4-12c7-48f737b3fcaa;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1386839041>, <urn:uuid:expressions/1274846988>;
+    melod:hasAnnotation _:b7cc2d0f2-b065-13b9-b3c1-653aebcc374b;
+    dct:conformsTo melod:Work.
+
+_:b17a30264-0023-3850-8629-81090bdee78d a melod:Title;
+    rdfs:label "Esperando de plantão"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b800dcee8-4480-6088-5ca4-2145c36486dc a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1695".
+
+_:b69e67fb5-c4fe-5da4-12c7-48f737b3fcaa a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1219302179>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7cc2d0f2-b065-13b9-b3c1-653aebcc374b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1695\">https://acervo.casadochoro.com.br/works/view/1695</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1743115541> a melod:Work;
+    melod:hasTitle _:ba74e5766-03c5-439b-1d2f-383c98989e54;
+    melod:hasIdentifier _:ba0e29e8c-0161-41c8-e140-97dfd217f660;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7125>;
+    melod:hasContribution _:ba12dd673-ae26-af5a-8881-2f149ead4dd8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1445237977>;
+    melod:hasAnnotation _:b2741faa1-2119-35f6-7843-270a4b9d72fd;
+    dct:conformsTo melod:Work.
+
+_:ba74e5766-03c5-439b-1d2f-383c98989e54 a melod:Title;
+    rdfs:label "Fim de um tempo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba0e29e8c-0161-41c8-e140-97dfd217f660 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7125".
+
+_:ba12dd673-ae26-af5a-8881-2f149ead4dd8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1014919308>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2741faa1-2119-35f6-7843-270a4b9d72fd a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7125\">https://acervo.casadochoro.com.br/works/view/7125</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

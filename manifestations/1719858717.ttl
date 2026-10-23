@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1719858717> a melod:Manifestation;
+    melod:hasTitle _:ba6d3a4ab-afcf-681f-103f-919d19d23d80;
+    lrmoo:R4_embodies <urn:uuid:expressions/1496108373>;
+    melod:hasClassificationOfManifestation "Partitura sax tenor", terms:Print;
+    melod:hasContribution _:b94994882-c478-9528-e20b-e1bee46b6ac3;
+    schema:publication _:b853ffd93-ca65-b292-24dc-9f395003ac84;
+    dct:conformsTo melod:Manifestation.
+
+_:ba6d3a4ab-afcf-681f-103f-919d19d23d80 a melod:Title;
+    rdfs:label "Festa de Nanã_BANDÃO — Partitura sax tenor (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b94994882-c478-9528-e20b-e1bee46b6ac3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b853ffd93-ca65-b292-24dc-9f395003ac84 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

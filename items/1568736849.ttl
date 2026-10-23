@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1568736849> a melod:Item;
+    rdfs:label "Filhinha — Partitura melodia (score_1516)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1513893237>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b8355a9ad-0c45-74b4-d3d8-b7272b4758c6;
+    melod:hasShelfmark "score_1516";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1516.pdf>;
+    melod:hasHand _:b36785ac8-6759-55cb-03dc-1082c0884efb;
+    melod:hasProvenance _:b2b73e416-7869-125f-a10b-7d2c6c55d8a0;
+    dct:conformsTo melod:Item.
+
+_:b8355a9ad-0c45-74b4-d3d8-b7272b4758c6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1516".
+
+_:b36785ac8-6759-55cb-03dc-1082c0884efb a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1238349161>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Honório P. de Mattos".
+
+_:b2b73e416-7869-125f-a10b-7d2c6c55d8a0 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd604e4dc-8dbf-e5d8-e6b7-9282a982c1b5.
+
+_:bd604e4dc-8dbf-e5d8-e6b7-9282a982c1b5 a melod:ExactDate;
+    melod:isodate "1970-02-22"^^xsd:date;
+    schema:description "22.02.1970".

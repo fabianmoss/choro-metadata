@@ -5,28 +5,28 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 
 ## Harvest
 
-- works harvested: 3449
+- works harvested: 4024
 - persons harvested: 0
-- works with digitised scores: 2976
-- works modelled (including the curated sample): 2978
-- persons modelled: 1197
-- stale documents removed: 5220
+- works with digitised scores: 3474
+- works modelled (including the curated sample): 3476
+- persons modelled: 1302
+- stale documents removed: 0
 
 ## Summary
 
 | Category | Count |
 | --- | ---: |
-| `composer_card_not_harvested` | 965 |
-| `publication_event_omitted` | 827 |
-| `skipped_work_without_digitisation` | 473 |
-| `derived_institution` | 219 |
-| `institution_without_location` | 219 |
-| `provisional_person` | 214 |
-| `instrumentation_without_label` | 213 |
-| `arrangement_without_arranger` | 182 |
-| `unstructured_copy_note` | 44 |
-| `instrument_without_loc_term` | 24 |
-| `work_without_composer` | 6 |
+| `composer_card_not_harvested` | 1046 |
+| `publication_event_omitted` | 969 |
+| `skipped_work_without_digitisation` | 550 |
+| `derived_institution` | 244 |
+| `institution_without_location` | 244 |
+| `provisional_person` | 238 |
+| `instrumentation_without_label` | 231 |
+| `arrangement_without_arranger` | 204 |
+| `unstructured_copy_note` | 52 |
+| `instrument_without_loc_term` | 25 |
+| `work_without_composer` | 7 |
 | `place_not_identified` | 2 |
 | `ambiguous_person_name` | 1 |
 | `curated_work` | 1 |
@@ -39,7 +39,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 
 - **6266** — arranger 'Miguel Rabello' matches 2 person records: 2006, 2326
 
-### `arrangement_without_arranger` (182)
+### `arrangement_without_arranger` (204)
 
 - **98** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **98** — score 4 (Partitura arranjo): the type declares an arrangement without naming an arranger
@@ -47,20 +47,26 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **100** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **125** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **232** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **302** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **304** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **309** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **443** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **449** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
 - **449** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **465** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **611** — score 0 (Partitura arranjo para pequena orquestra): the type declares an arrangement without naming an arranger
 - **628** — score 4 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **629** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **631** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **632** — score 3 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **634** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **636** — score 9 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **640** — score 3 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **644** — score 4 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **805** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **969** — score 0 (Partitura arranjo para violão): the type declares an arrangement without naming an arranger
 - **976** — score 1 (Partitura arranjo com letra): the type declares an arrangement without naming an arranger
+- **1081** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
 - **1292** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **1573** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **1971** — score 0 (Partitura arranjo para coro): the type declares an arrangement without naming an arranger
@@ -100,6 +106,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **3449** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
 - **3450** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
 - **3553** — score 4 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **3580** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **3584** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **3587** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **3587** — score 4 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **3591** — score 1 (Partitura arranjo para dois violões): the type declares an arrangement without naming an arranger
 - **3722** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **3722** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **3809** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
@@ -133,6 +144,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **4845** — score 0 (Partitura arranjo para dois violões): the type declares an arrangement without naming an arranger
 - **4910** — score 0 (Partitura arranjo para trio): the type declares an arrangement without naming an arranger
 - **4911** — score 0 (Partitura arranjo para duo de flautas): the type declares an arrangement without naming an arranger
+- **4922** — score 0 (Partitura arranjo para duo de flautas): the type declares an arrangement without naming an arranger
 - **4937** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **4987** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5088** — score 0 (Partitura arranjo para dois violões): the type declares an arrangement without naming an arranger
@@ -147,7 +159,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **5351** — score 3 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5354** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5354** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **5359** — score 1 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5362** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **5367** — score 0 (Partitura arranjo com letra): the type declares an arrangement without naming an arranger
+- **5392** — score 1 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
+- **5535** — score 3 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5667** — score 1 (Partitura arranjo para orquestra): the type declares an arrangement without naming an arranger
 - **5700** — score 3 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **5706** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
@@ -181,22 +197,28 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **6785** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **6791** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **6795** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
+- **6806** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **6817** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **6831** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **6831** — score 1 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **6831** — score 2 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **6896** — score 0 (Partitura arranjo para regional): the type declares an arrangement without naming an arranger
+- **6931** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **7022** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7064** — score 0 (Partitura arranjo para bandolim, quinteto de cordas e quinteto de sopros): the type declares an arrangement without naming an arranger
+- **7069** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7072** — score 0 (Partitura arranjo com letra): the type declares an arrangement without naming an arranger
 - **7075** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7077** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **7079** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7130** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7301** — score 0 (Partitura arranjo com letra): the type declares an arrangement without naming an arranger
 - **7301** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7327** — score 0 (Partitura arranjo para pequena orquestra): the type declares an arrangement without naming an arranger
 - **7344** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
 - **7350** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **7353** — score 0 (Partitura arranjo): the type declares an arrangement without naming an arranger
+- **7382** — score 0 (Partitura arranjo para dois bandolins): the type declares an arrangement without naming an arranger
 - **7470** — score 0 (Partitura arranjo para banda): the type declares an arrangement without naming an arranger
 - **7647** — score 0 (Partitura arranjo para orquestra): the type declares an arrangement without naming an arranger
 - **7899** — score 2 (Partitura arranjo): the type declares an arrangement without naming an arranger
@@ -219,13 +241,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **9967** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
 - **9968** — score 0 (Partitura arranjo para trio): the type declares an arrangement without naming an arranger
 - **9969** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
-- **9970** — score 0 (Partitura arranjo para trio): the type declares an arrangement without naming an arranger
-- **9971** — score 0 (Partitura arranjo com cifra): the type declares an arrangement without naming an arranger
-- **9972** — score 0 (Partitura arranjo para trio): the type declares an arrangement without naming an arranger
-- **10455** — score 0 (Partitura melodia - arranjo): the type declares an arrangement without naming an arranger
+- … and 4 more in `docs/acervo-ingest-issues.csv`.
 
-### `composer_card_not_harvested` (965)
+### `composer_card_not_harvested` (1046)
 
+- **63** — card 233 (Joaquim Callado)
 - **84** — card 22 (Henrique Albertazzi)
 - **88** — card 25 (Pedro de Alcântara)
 - **89** — card 27 (Alem)
@@ -235,6 +255,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **97** — card 36 (Irineu de Almeida)
 - **104** — card 1304 (Não identificado)
 - **125** — card 37 (J. C. Mendes de Almeida (Quinote))
+- **127** — card 38 (João Francisco de Almeida)
 - **131** — card 46 (Mário Álvares)
 - **180** — card 53 (Aníbal do Amaral)
 - **184** — card 55 (J. Amaral)
@@ -243,13 +264,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **230** — card 74 (R. Apolônio)
 - **231** — card 75 (José de Souza Aragão)
 - **241** — card 92 (Arminda)
-- **251** — card 94 (Januário da Silva Arvellos)
+- **248** — card 94 (Januário da Silva Arvellos)
 - **263** — card 95 (Moreira de Assis)
 - **266** — card 97 (Fausto da Assumpção)
 - **270** — card 103 (J. J. Azevedo Júnior)
 - **277** — card 104 (Betinho)
 - **284** — card 96 (Pedro de Assis)
-- **286** — card 38 (João Francisco de Almeida)
 - **294** — card 295 (Castro Filho)
 - **296** — card 238 (Arthur Camilo)
 - **303** — card 29 (Sabino Allegrini)
@@ -266,6 +286,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **355** — card 42 (P. Bailão de Almeida)
 - **357** — card 12 (Waldemar de Almeida)
 - **358** — card 45 (Francisco d'Alvarenga)
+- **362** — card 47 (Manoel José Alves)
 - **363** — card 52 (Arthur Alvim)
 - **364** — card 54 (Ernesto Diniz do Amaral)
 - **370** — card 61 (Arthur Jayme de Andrade)
@@ -279,9 +300,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **389** — card 537 (João Gomes Júnior)
 - **403** — card 1295 (Wenceslau de Araujo)
 - **406** — card 93 (Luiz Arnedo)
+- **408** — card 4 (Carlos de Abreu)
 - **425** — card 39 (Mathias d'Almeida)
 - **429** — card 800 (Raul C. de Moraes)
 - **430** — card 234 (M. J. Callado)
+- **431** — card 242 (A. Souza Campos Júnior)
 - **432** — card 245 (Erotides Campos (pseudônimo: Jonas Neves))
 - **433** — card 340 (Marcelino Cleto)
 - **434** — card 860 (A. Oliveira)
@@ -289,13 +312,14 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **436** — card 1310 (Mozart de Araújo)
 - **439** — card 99 (Olga B. P. de Assumpção)
 - **442** — card 159 (José Belisário)
+- **443** — card 163 (Germano Benencase)
 - **448** — card 185 (Aristides Borges)
 - **449** — card 189 (Firmino Borrajo)
 - **451** — card 1107 (Scylla e Carlindo Borralho)
 - **456** — card 1679 (Vidal Assis)
 - **465** — card 274 (Oscar Carneiro)
 - **466** — card 1261 (Carlos A. Vieira)
-- **515** — card 152 (Francisco de Paula Bastos)
+- **514** — card 152 (Francisco de Paula Bastos)
 - **517** — card 158 (Ernesto Becucci)
 - **525** — card 161 (João F. R. de Belmar)
 - **535** — card 174 (Bichara)
@@ -303,13 +327,13 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **538** — card 178 (Branca Bilhar)
 - **552** — card 182 (Santos Bocot)
 - **564** — card 190 (Antenor Botelho)
+- **571** — card 198 (Júlio Braga)
 - **573** — card 199 (Mauricio Braga)
 - **581** — card 204 (José Domingues Brandão)
 - **585** — card 1193 (José Brasilício de Sousa)
 - **603** — card 211 (Ernestina Índia do Brazil)
 - **610** — card 222 (José Carvalho de Bulhões)
 - **626** — card 1314 (Edú Fontes)
-- **628** — card 233 (Joaquim Callado)
 - **633** — card 1315 (J. E. S. Queiroz)
 - **707** — card 1841 (Joaquim Édson de Camargo)
 - **718** — card 1318 (Amaral Campos)
@@ -330,6 +354,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1029** — card 117 (Sydney Baines)
 - **1031** — card 119 (João Vicente de Torres Bandeira)
 - **1036** — card 124 (Barbieri)
+- **1040** — card 127 (Alfredo Simões Barbosa)
 - **1042** — card 133 (José Coelho Barbosa)
 - **1046** — card 135 (Sebastião da Fonseca Barbosa)
 - **1055** — card 1293 (Homero de Sá Barreto)
@@ -343,8 +368,10 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1085** — card 192 (Arthur Braga)
 - **1090** — card 197 (José Ferreira Braga)
 - **1092** — card 206 (Alexandre Brandão Filho)
+- **1094** — card 202 (Cecília S. Brandão)
 - **1095** — card 203 (Demétrio Brandão (D.A.C.B))
 - **1097** — card 212 (Antônio Brito)
+- **1098** — card 213 (Eurico de C. Brito)
 - **1105** — card 217 (R. Alberto Lopez Buchardo)
 - **1107** — card 219 (Vasco L. Pereira Bueno e Creso Pindahyba)
 - **1111** — card 228 (Pedro Cabral)
@@ -382,8 +409,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1588** — card 375 (José Gabriel Costa)
 - **1591** — card 378 (Maria Isabel Guimarães Costa)
 - **1593** — card 380 (Raymundo Olegário da Costa)
+- **1594** — card 381 (Valentim Costa)
 - **1600** — card 386 (Ernesto Couto)
 - **1605** — card 1336 (João Cruz)
+- **1610** — card 395 (Eugênio Cunha)
+- **1612** — card 398 (João Elias da Cunha)
 - **1618** — card 401 (Maria Amélia Cunha)
 - **1619** — card 402 (Targino Carneiro da Cunha)
 - **1621** — card 312 (Vincenzo Cernicchiaro)
@@ -392,6 +422,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1632** — card 840 (Chico Neto)
 - **1639** — card 326 (China)
 - **1641** — card 1102 (Santos Coelho)
+- **1644** — card 348 (F. Conti)
 - **1645** — card 345 (Leviano Albano da Conceição)
 - **1662** — card 351 (Adelman Brasil Corrêa)
 - **1665** — card 354 (André Vitor Corrêa)
@@ -408,25 +439,13 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1812** — card 1345 (Sebastião Cyrino)
 - **1815** — card 412 (José Carlos Dias)
 - **1838** — card 424 (Henriquinho)
+- **1847** — card 426 (Pedro Duarte)
 - **1850** — card 431 (Octávio Dutra)
 - **1867** — card 403 (Severo Dantas)
 - **1892** — card 408 (T. Denisto)
 - **1896** — card 415 (Romeo Dionesi)
 - **1908** — card 416 (Misael Domingues)
-- **1951** — card 1350 (F. Duarte)
-- **1956** — card 1353 (Mary Earl)
-- **1960** — card 1355 (João Evangelista)
-- **1964** — card 1357 (Bernardo van Erven)
-- **1965** — card 436 (Raphael Esnaty)
-- **1968** — card 450 (Carlos Dias de Farias)
-- **1971** — card 1710 (Domínio Público)
-- **1993** — card 495 (Antônio Fontes)
-- **1995** — card 496 (José Fontes)
-- **1997** — card 501 (Marcos José Francisco)
-- **2001** — card 507 (Freire Júnior)
-- **2010** — card 511 (Freitinhas)
-- **2031** — card 1361 (José Soares de Freitas)
-- … and 765 more in `docs/acervo-ingest-issues.csv`.
+- … and 846 more in `docs/acervo-ingest-issues.csv`.
 
 ### `curated_work` (1)
 
@@ -436,13 +455,16 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 
 - **6266** — kept from the sample although no Partitura has a PDF
 
-### `derived_institution` (219)
+### `derived_institution` (244)
 
+- **63** — editor 'Narciso, Arthur Napoleão e Miguez' has no institution record; created from the name
+- **63** — editor 'Editora Musical Brasileira Ltda' has no institution record; created from the name
+- **63** — editor 'Guitar Solo Publication' has no institution record; created from the name
+- **63** — editor 'Arthur Napoleão' has no institution record; created from the name
 - **80** — editor 'Victor Prèalle' has no institution record; created from the name
 - **94** — editor 'E. Bevilacqua & C' has no institution record; created from the name
 - **105** — editor 'M.F' has no institution record; created from the name
 - **125** — editor 'Campassi & Camin' has no institution record; created from the name
-- **254** — editor 'Arthur Napoleão' has no institution record; created from the name
 - **286** — editor 'Casa Arthur Napoleão' has no institution record; created from the name
 - **321** — editor 'Arthur Napoleão & Cia' has no institution record; created from the name
 - **328** — editor 'Sampaio Araújo & Cia' has no institution record; created from the name
@@ -454,14 +476,16 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **371** — editor 'Buschmann & Guimarães' has no institution record; created from the name
 - **382** — editor 'Propriedade reservada' has no institution record; created from the name
 - **384** — editor 'Narcizo & Arthur Napoleão' has no institution record; created from the name
+- **392** — editor 'L. Parent' has no institution record; created from the name
 - **403** — editor 'Propriedade do autor' has no institution record; created from the name
+- **431** — editor 'Semanário Humorístico' has no institution record; created from the name
 - **436** — editor 'Mozart de Araújo - 1949' has no institution record; created from the name
 - **442** — editor 'Manoel Antonio Gomes Guimarães' has no institution record; created from the name
 - **448** — editor 'Viúva Guerreiro & C' has no institution record; created from the name
 - **451** — editor 'F. R. Guedes da Costa' has no institution record; created from the name
 - **467** — editor 'Narciso & C' has no institution record; created from the name
+- **519** — editor 'Vieira Machado & Cia' has no institution record; created from the name
 - **537** — editor 'Casa A. Di Franco' has no institution record; created from the name
-- **541** — editor 'Vieira Machado & Cia' has no institution record; created from the name
 - **556** — editor 'Casa Viúva Guerreiro' has no institution record; created from the name
 - **626** — editor 'Casa Mozart' has no institution record; created from the name
 - **627** — editor 'Sampaio Araújo & C' has no institution record; created from the name
@@ -480,14 +504,15 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1072** — editor 'Casa Bevilacqua' has no institution record; created from the name
 - **1075** — editor 'L. Bevilacqua' has no institution record; created from the name
 - **1078** — editor 'Heaton e Hensburg' has no institution record; created from the name
+- **1094** — editor 'Prealle & C' has no institution record; created from the name
+- **1098** — editor 'Victor Prèalle Sucessor' has no institution record; created from the name
 - **1105** — editor 'The Library' has no institution record; created from the name
 - **1111** — editor 'Casa Carlos Gomes' has no institution record; created from the name
 - **1115** — editor 'Quirino Irmãos & C' has no institution record; created from the name
 - **1119** — editor 'Carlos Wehrs' has no institution record; created from the name
-- **1120** — editor 'Prealle & C' has no institution record; created from the name
 - **1127** — editor 'E. Hollende' has no institution record; created from the name
 - **1128** — editor 'I. Bevilacqua' has no institution record; created from the name
-- **1138** — editor 'L. Parent' has no institution record; created from the name
+- **1156** — editor 'I. Bevilacqua & C' has no institution record; created from the name
 - **1171** — editor 'Casa Bethoveen - Nascimento e Silva & C' has no institution record; created from the name
 - **1254** — editor 'Fertin de Vasconcelos & Morand' has no institution record; created from the name
 - **1272** — editor 'J. Filippone' has no institution record; created from the name
@@ -505,9 +530,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1920** — editor 'Victor Préalle, Sucessor' has no institution record; created from the name
 - **1951** — editor 'Neuparth & Carneiro' has no institution record; created from the name
 - **1956** — editor 'Casa Levy' has no institution record; created from the name
+- **1958** — editor 'ARS' has no institution record; created from the name
 - **1960** — editor 'Editora Musical Beverly Ltda' has no institution record; created from the name
 - **2001** — editor 'Porfirio Martins e C' has no institution record; created from the name
 - **2010** — editor 'C. Carlos J. Wehrs' has no institution record; created from the name
+- **2017** — editor 'C.Carlos J. Wehrs' has no institution record; created from the name
+- **2047** — editor 'Thetoro Borges Diniz' has no institution record; created from the name
 - **2052** — editor 'Pará - Chic' has no institution record; created from the name
 - **2053** — editor 'R. L. Bittencourt' has no institution record; created from the name
 - **2062** — editor 'Vieira Machado & C' has no institution record; created from the name
@@ -533,20 +561,20 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2856** — editor 'Casa Wagner' has no institution record; created from the name
 - **2893** — editor 'Arthur Napoelão & C' has no institution record; created from the name
 - **2907** — editor 'Irmão Vitale' has no institution record; created from the name
-- **2917** — editor 'L. Levy & Irmãos' has no institution record; created from the name
+- **2911** — editor 'L. Levy & Irmãos' has no institution record; created from the name
 - **2918** — editor 'Levy Filhos' has no institution record; created from the name
+- **2943** — editor 'Préalle & Comp' has no institution record; created from the name
 - **2946** — editor 'Sotero de Souza' has no institution record; created from the name
 - **2947** — editor 'Novas Metas' has no institution record; created from the name
-- **2954** — editor 'Préalle & Comp' has no institution record; created from the name
 - **2959** — editor 'Biblioteca Fernando Amaral' has no institution record; created from the name
 - **2985** — editor 'Radio Educadora Paulista' has no institution record; created from the name
 - **2990** — editor 'Porfirio Martins & Cia' has no institution record; created from the name
 - **3008** — editor 'T. H. Canongia' has no institution record; created from the name
 - **3052** — editor 'Buschamann & Guimarães' has no institution record; created from the name
-- **3065** — editor 'I. Bevilacqua & C' has no institution record; created from the name
 - **3080** — editor 'Fertin Morand' has no institution record; created from the name
 - **3156** — editor 'Casa Goudard' has no institution record; created from the name
 - **3201** — editor 'Prèalle & Comp. (coleção C. Guerra Peixe)' has no institution record; created from the name
+- **3204** — editor 'Augusto Neuparth' has no institution record; created from the name
 - **3294** — editor 'Delhas Music Publishing Co' has no institution record; created from the name
 - **3314** — editor 'Narcizo J. P. Braga' has no institution record; created from the name
 - **3392** — editor 'Fermata' has no institution record; created from the name
@@ -555,21 +583,31 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **3538** — editor 'Viúva Fillipone & Filha' has no institution record; created from the name
 - **3541** — editor 'BME' has no institution record; created from the name
 - **3548** — editor 'E. S. Magione' has no institution record; created from the name
+- **3575** — editor 'Ernesto Araujo & Cia' has no institution record; created from the name
+- **3576** — editor 'Brazilian Music Enterprises' has no institution record; created from the name
+- **3576** — editor 'Ernesto Augusto Mattos' has no institution record; created from the name
+- **3585** — editor 'E. Bevilacqua' has no institution record; created from the name
+- **3587** — editor 'Carlos Webers' has no institution record; created from the name
 - **3590** — editor 'P. Braga & C' has no institution record; created from the name
 - **3594** — editor 'Pereira & Araújo' has no institution record; created from the name
+- **3680** — editor 'Irmãos Vilale' has no institution record; created from the name
 - **3717** — editor 'Divisão de Música e Arquivo Sonoro Biblioteca Nacional' has no institution record; created from the name
 - **3776** — editor 'Quaresma & Cia' has no institution record; created from the name
 - **3875** — editor 'Funarte - Ministério da Cultura' has no institution record; created from the name
-- **3915** — editor 'Editora Musical Brasileira Ltda' has no institution record; created from the name
+- **3885** — editor 'Viúva Guerreiro & C. (Arquivo do Almirante)' has no institution record; created from the name
 - **3987** — editor 'Corcovado Ltda' has no institution record; created from the name
 - **4056** — editor 'Porfirio Martins' has no institution record; created from the name
 - **4103** — editor 'Ricordi Brasileira S.A' has no institution record; created from the name
+- **4109** — editor 'Vieira Machado & C. Editores' has no institution record; created from the name
 - **4171** — editor 'Murano & Salerno Editores' has no institution record; created from the name
 - **4183** — editor 'Carlos Wehrs & C' has no institution record; created from the name
 - **4239** — editor 'J. S. N' has no institution record; created from the name
 - **4250** — editor 'Edições Lupy' has no institution record; created from the name
 - **4263** — editor 'Eduardo Souto & Cia' has no institution record; created from the name
+- **4276** — editor 'Edições Musicais' has no institution record; created from the name
+- **4287** — editor 'Casa Carlos Gomes & Cia' has no institution record; created from the name
 - **4301** — editor 'Carlos Carlos Gomes' has no institution record; created from the name
+- **4352** — editor 'The Financial Residency' has no institution record; created from the name
 - **4387** — editor 'Fermata do Brasil' has no institution record; created from the name
 - **4415** — editor 'Funarte - MINC' has no institution record; created from the name
 - **4429** — editor 'Bandeirante Editora' has no institution record; created from the name
@@ -580,6 +618,8 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **4697** — editor 'I.M.L. S.Paulo' has no institution record; created from the name
 - **4699** — editor 'I. M. L. S.Paulo' has no institution record; created from the name
 - **4766** — editor 'A.R.S' has no institution record; created from the name
+- **4801** — editor 'Sistema Taquigráfico Tessaro' has no institution record; created from the name
+- **4803** — editor 'Emporio Musical' has no institution record; created from the name
 - **4828** — editor 'Ricordi Brasileira S. A' has no institution record; created from the name
 - **4889** — editor 'Melodias Populares Ltda' has no institution record; created from the name
 - **4931** — editor 'Bandeirante Editora Musical Ltda' has no institution record; created from the name
@@ -594,6 +634,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **5317** — editor 'Editora Clave Musical Ltda' has no institution record; created from the name
 - **5320** — editor 'Editora Musical Victor Ltda' has no institution record; created from the name
 - **5350** — editor 'Cruzeiro Musical Ltda' has no institution record; created from the name
+- **5359** — editor 'Editora Rio Musical Ltda' has no institution record; created from the name
 - **5420** — editor 'Mangione S.A' has no institution record; created from the name
 - **5690** — editor 'Editora Litero Musical Tupy Ltda' has no institution record; created from the name
 - **5762** — editor 'Seresta Music Ltda' has no institution record; created from the name
@@ -609,39 +650,18 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **5955** — editor 'F. D. Marchetti' has no institution record; created from the name
 - **5961** — editor 'Arthur & Ribas' has no institution record; created from the name
 - **5965** — editor 'Casa Viúva Guerreiro & Cia' has no institution record; created from the name
-- **5966** — editor 'Casa Carlos Gomes & Cia' has no institution record; created from the name
 - **5973** — editor 'Casa Beethoven - Nascimento Silva & Cia' has no institution record; created from the name
 - **6009** — editor 'Casa Bevilacqua & Cia' has no institution record; created from the name
 - **6017** — editor 'C.E.M.B.S' has no institution record; created from the name
+- **6038** — editor 'Narciso, Arthur Napoleão & Miguez' has no institution record; created from the name
 - **6048** — editor 'Victor Prealle, Successor' has no institution record; created from the name
 - **6060** — editor 'Viriato Montenegro' has no institution record; created from the name
 - **6073** — editor 'Secção Chopin - Cordas para instrumentos musicais' has no institution record; created from the name
-- **6094** — editor 'Manoel de Faria' has no institution record; created from the name
-- **6097** — editor 'Belém Pará' has no institution record; created from the name
-- **6187** — editor 'Arthur Napoleão & Miguez' has no institution record; created from the name
-- **6207** — editor 'C. Abreu' has no institution record; created from the name
-- **6218** — editor 'Buschmann, Guimarães & Irmãos' has no institution record; created from the name
-- **6234** — editor 'José Mendes Leite' has no institution record; created from the name
-- **6239** — editor 'Azevedo Junior & Cia' has no institution record; created from the name
-- **6249** — editor 'Funarte' has no institution record; created from the name
-- **6344** — editor 'MINC - FUNARTE' has no institution record; created from the name
-- **6395** — editor 'Ediciones Quiroga' has no institution record; created from the name
-- **6539** — editor 'Bosworth & Cia' has no institution record; created from the name
-- **6588** — editor 'Clube do Choro de São Paulo' has no institution record; created from the name
-- **6602** — editor 'Dois de Ouro Produções Ltda' has no institution record; created from the name
-- **6753** — editor 'Mangione Filhos & Cia' has no institution record; created from the name
-- **6783** — editor 'Euterpe Ltda' has no institution record; created from the name
-- **6957** — editor 'Fundação Carlos Gomes. Imprensa Oficial do Estado (Belém)' has no institution record; created from the name
-- **7008** — editor 'Suite Brasil Prod. Ltda' has no institution record; created from the name
-- **7021** — editor 'Editorial Lagos' has no institution record; created from the name
-- **7022** — editor 'Editorial Pigal' has no institution record; created from the name
-- **7030** — editor 'Editora Musical Arlequim Ltda' has no institution record; created from the name
-- **7107** — editor "Edição Goyana - Edilberto de Sant'Anna" has no institution record; created from the name
-- **7321** — editor 'Sociedade Artística Internacional' has no institution record; created from the name
-- … and 19 more in `docs/acervo-ingest-issues.csv`.
+- … and 44 more in `docs/acervo-ingest-issues.csv`.
 
-### `institution_without_location` (219)
+### `institution_without_location` (244)
 
+- **A Guitarra de Prata** — created from the name of an edition; the place is unknown
 - **A Melodia** — created from the name of an edition; the place is unknown
 - **A. de Franco** — created from the name of an edition; the place is unknown
 - **A. Guigon & C** — created from the name of an edition; the place is unknown
@@ -649,11 +669,13 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **A. J. de Azevedo** — created from the name of an edition; the place is unknown
 - **A.R.S** — created from the name of an edition; the place is unknown
 - **Acari Produções** — created from the name of an edition; the place is unknown
+- **ARS** — created from the name of an edition; the place is unknown
 - **Arthur & Ribas** — created from the name of an edition; the place is unknown
 - **Arthur Napoelão & C** — created from the name of an edition; the place is unknown
 - **Arthur Napoleão** — created from the name of an edition; the place is unknown
 - **Arthur Napoleão & Cia** — created from the name of an edition; the place is unknown
 - **Arthur Napoleão & Miguez** — created from the name of an edition; the place is unknown
+- **Augusto Neuparth** — created from the name of an edition; the place is unknown
 - **Aurélio Cavalcanti Editor** — created from the name of an edition; the place is unknown
 - **Azevedo Junior & Cia** — created from the name of an edition; the place is unknown
 - **B.L. Bittencourt** — created from the name of an edition; the place is unknown
@@ -666,6 +688,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Biblioteca Fernando Amaral** — created from the name of an edition; the place is unknown
 - **BME** — created from the name of an edition; the place is unknown
 - **Bosworth & Cia** — created from the name of an edition; the place is unknown
+- **Brazilian Music Enterprises** — created from the name of an edition; the place is unknown
 - **Bruno Quaino Material Cultural Ltda** — created from the name of an edition; the place is unknown
 - **Buschaman & Guimarães** — created from the name of an edition; the place is unknown
 - **Buschamann & Guimarães** — created from the name of an edition; the place is unknown
@@ -674,10 +697,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **C** — created from the name of an edition; the place is unknown
 - **C. Abreu** — created from the name of an edition; the place is unknown
 - **C. Carlos J. Wehrs** — created from the name of an edition; the place is unknown
+- **C.Carlos J. Wehrs** — created from the name of an edition; the place is unknown
 - **C.E.M.B S.Paulo** — created from the name of an edition; the place is unknown
 - **C.E.M.B.S** — created from the name of an edition; the place is unknown
 - **Campassi & Camin** — created from the name of an edition; the place is unknown
 - **Carlos Carlos Gomes** — created from the name of an edition; the place is unknown
+- **Carlos Webers** — created from the name of an edition; the place is unknown
 - **Carlos Wehrs** — created from the name of an edition; the place is unknown
 - **Carlos Wehrs & C** — created from the name of an edition; the place is unknown
 - **Carlos Wehrs & Cia** — created from the name of an edition; the place is unknown
@@ -693,6 +718,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Casa J. Filippone** — created from the name of an edition; the place is unknown
 - **Casa Levy** — created from the name of an edition; the place is unknown
 - **Casa Mignon** — created from the name of an edition; the place is unknown
+- **Casa Moreira de Sá** — created from the name of an edition; the place is unknown
 - **Casa Mozart** — created from the name of an edition; the place is unknown
 - **Casa Ribas - Arthur Aroxa** — created from the name of an edition; the place is unknown
 - **Casa Victor Prealle & Cia** — created from the name of an edition; the place is unknown
@@ -715,19 +741,23 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Delhas Music Publishing Co** — created from the name of an edition; the place is unknown
 - **Divisão de Música e Arquivo Sonoro Biblioteca Nacional** — created from the name of an edition; the place is unknown
 - **Dois de Ouro Produções Ltda** — created from the name of an edition; the place is unknown
+- **E. Bevilacqua** — created from the name of an edition; the place is unknown
 - **E. Bevilacqua & C** — created from the name of an edition; the place is unknown
 - **E. Bevilacqua & C. (Coleção de C. Guerra Peixe)** — created from the name of an edition; the place is unknown
 - **E. Bevilacqua & Cia** — created from the name of an edition; the place is unknown
 - **E. Hollende** — created from the name of an edition; the place is unknown
 - **E. S. Magione** — created from the name of an edition; the place is unknown
 - **E.S. Mangione** — created from the name of an edition; the place is unknown
+- **Ebrau - Editora Brasileira Autores Unidos** — created from the name of an edition; the place is unknown
 - **Edição ARS** — created from the name of an edition; the place is unknown
 - **Edição Bevilacqua** — created from the name of an edition; the place is unknown
+- **Edição Campassi e Camin** — created from the name of an edition; the place is unknown
 - **Edição Goyana - Edilberto de Sant'Anna** — created from the name of an edition; the place is unknown
 - **Ediciones Quiroga** — created from the name of an edition; the place is unknown
 - **Edições ARS** — created from the name of an edition; the place is unknown
 - **Edições Intersong Ltda** — created from the name of an edition; the place is unknown
 - **Edições Lupy** — created from the name of an edition; the place is unknown
+- **Edições Musicais** — created from the name of an edition; the place is unknown
 - **Edições Musicais Corcovado** — created from the name of an edition; the place is unknown
 - **Editora Clave Musical Ltda** — created from the name of an edition; the place is unknown
 - **Editora Guanabara (sob a direção de Eduardo Souto)** — created from the name of an edition; the place is unknown
@@ -740,13 +770,17 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Editora Musical Brasileira Ltda** — created from the name of an edition; the place is unknown
 - **Editora Musical Romance Ltda** — created from the name of an edition; the place is unknown
 - **Editora Musical Victor Ltda** — created from the name of an edition; the place is unknown
+- **Editora Rio Musical Ltda** — created from the name of an edition; the place is unknown
 - **Editorial Lagos** — created from the name of an edition; the place is unknown
 - **Editorial Musical Korn S.A.I.C** — created from the name of an edition; the place is unknown
 - **Editorial Pigal** — created from the name of an edition; the place is unknown
 - **Eduardo L. da Silva Ribeiro** — created from the name of an edition; the place is unknown
 - **Eduardo Paiva** — created from the name of an edition; the place is unknown
 - **Eduardo Souto & Cia** — created from the name of an edition; the place is unknown
+- **Emporio Musical** — created from the name of an edition; the place is unknown
+- **Ernesto Araujo & Cia** — created from the name of an edition; the place is unknown
 - **Ernesto Augusto de Mattos** — created from the name of an edition; the place is unknown
+- **Ernesto Augusto Mattos** — created from the name of an edition; the place is unknown
 - **Euclides Aquino Fonseca** — created from the name of an edition; the place is unknown
 - **EULENSTEIN MÚSICA S.A** — created from the name of an edition; the place is unknown
 - **Euterpe Ltda** — created from the name of an edition; the place is unknown
@@ -774,6 +808,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **I.M.L. S.Paulo** — created from the name of an edition; the place is unknown
 - **Imperial** — created from the name of an edition; the place is unknown
 - **Irmão Vitale** — created from the name of an edition; the place is unknown
+- **Irmãos Vilale** — created from the name of an edition; the place is unknown
 - **J. Filippone** — created from the name of an edition; the place is unknown
 - **J. S. N** — created from the name of an edition; the place is unknown
 - **José Mendes Leite** — created from the name of an edition; the place is unknown
@@ -802,6 +837,8 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Murano & Salerno Editores** — created from the name of an edition; the place is unknown
 - **Narciso & Arthur Napoleão** — created from the name of an edition; the place is unknown
 - **Narciso & C** — created from the name of an edition; the place is unknown
+- **Narciso, Arthur Napoleão & Miguez** — created from the name of an edition; the place is unknown
+- **Narciso, Arthur Napoleão e Miguez** — created from the name of an edition; the place is unknown
 - **Narcizo & Arthur Napoleão** — created from the name of an edition; the place is unknown
 - **Narcizo J. P. Braga** — created from the name of an edition; the place is unknown
 - **Nascimento Silva & Cia** — created from the name of an edition; the place is unknown
@@ -824,27 +861,9 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **Propriedade do autor** — created from the name of an edition; the place is unknown
 - **Propriedade reservada** — created from the name of an edition; the place is unknown
 - **Quaresma & Cia** — created from the name of an edition; the place is unknown
-- **Quirino Irmãos & C** — created from the name of an edition; the place is unknown
-- **R. L. Bittencourt** — created from the name of an edition; the place is unknown
-- **Radio Educadora Paulista** — created from the name of an edition; the place is unknown
-- **Ricordi Brasileira** — created from the name of an edition; the place is unknown
-- **Ricordi Brasileira S. A** — created from the name of an edition; the place is unknown
-- **Ricordi Brasileira S.A** — created from the name of an edition; the place is unknown
-- **Ricordi Brasileira S.A.E.C** — created from the name of an edition; the place is unknown
-- **Ricordi Buenos Aires** — created from the name of an edition; the place is unknown
-- **Rio Musical Ltda** — created from the name of an edition; the place is unknown
-- **Rio Musical Ltda (com cifra manuscrita)** — created from the name of an edition; the place is unknown
-- **Sampaio Araújo & C** — created from the name of an edition; the place is unknown
-- **Sampaio Araújo & Cia** — created from the name of an edition; the place is unknown
-- **Sasset & Cia** — created from the name of an edition; the place is unknown
-- **Secção Chopin - Cordas para instrumentos musicais** — created from the name of an edition; the place is unknown
-- **Seresta Music Ltda** — created from the name of an edition; the place is unknown
-- **Sociedade Artística Internacional** — created from the name of an edition; the place is unknown
-- **Sotero de Souza** — created from the name of an edition; the place is unknown
-- **Suite Brasil Prod. Ltda** — created from the name of an edition; the place is unknown
-- … and 19 more in `docs/acervo-ingest-issues.csv`.
+- … and 44 more in `docs/acervo-ingest-issues.csv`.
 
-### `instrument_without_loc_term` (24)
+### `instrument_without_loc_term` (25)
 
 - **base** — no Library of Congress medium-of-performance term
 - **corn f** — no Library of Congress medium-of-performance term
@@ -852,7 +871,9 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **cello ou sax eb** — no Library of Congress medium-of-performance term
 - **baixo ou tuba** — no Library of Congress medium-of-performance term
 - **trombone ou cello** — no Library of Congress medium-of-performance term
+- **tiple** — no Library of Congress medium-of-performance term
 - **contrabaixo c** — no Library of Congress medium-of-performance term
+- **instrumento em clave de fa** — no Library of Congress medium-of-performance term
 - **trombone de canto bb** — no Library of Congress medium-of-performance term
 - **caixeta** — no Library of Congress medium-of-performance term
 - **violino ou bandolim** — no Library of Congress medium-of-performance term
@@ -863,7 +884,6 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **sax alto eb solo** — no Library of Congress medium-of-performance term
 - **flauta iniciante** — no Library of Congress medium-of-performance term
 - **gaita** — no Library of Congress medium-of-performance term
-- **instrumento em clave de fa** — no Library of Congress medium-of-performance term
 - **instrumentos em bb** — no Library of Congress medium-of-performance term
 - **instrumentos em c** — no Library of Congress medium-of-performance term
 - **instrumentos em eb** — no Library of Congress medium-of-performance term
@@ -871,13 +891,14 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **piano e canto** — no Library of Congress medium-of-performance term
 - **voz** — no Library of Congress medium-of-performance term
 
-### `instrumentation_without_label` (213)
+### `instrumentation_without_label` (231)
 
 - **acordeom** — the archive's words are used as the label
 - **acordeom + bandolim + base + clarinete bb 1 + clarinete bb 2 + flauta 1 + flauta 2 + sax alto eb 1 + sax alto eb 2 + saxofone baritono + saxofone tenor + trombone + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **baixo** — the archive's words are used as the label
 - **baixo + bandolim + base + clarinete + flauta + sax alto eb 1 + sax alto eb 2 + saxofone tenor + trombone + trompete bb** — the archive's words are used as the label
 - **baixo + bandolim + caixa surda + cavaquinho + clarinete bb 1 + clarinete bb 2 + flauta 1 + flauta 2 + flautim + pandeiro + percussao + sax alto eb 1 + sax alto eb 2 + sax tenor bb + sax tenor bb 2 + saxofone baritono + trombone 1 + trombone 2 + trompa 1 + trompa 2 + trompete bb 1 + trompete bb 2 + tuba + violao + caixa clara + surdo** — the archive's words are used as the label
+- **baixo + base + flauta** — the archive's words are used as the label
 - **baixo + bateria + bombardino + clarinete + saxofone + trombone + trompete bb** — the archive's words are used as the label
 - **baixo + bateria + bombardino + clarinete bb 1 + clarinete bb 2 + clarinete bb 3 + flautim + piano + requinta eb + sax alto eb 1 + sax alto eb 2 + trompete bb** — the archive's words are used as the label
 - **baixo + bateria + cello + clarinete bb + contra fagote + corn f + fagote + flauta + flautim + oboe + timpano + trombone + trompete bb + tuba + viola + violino 1 + violino 2 + celesta xilofone + corn ingles** — the archive's words are used as the label
@@ -903,15 +924,18 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **baixo + cello + clarinete bb + flauta + piano + violino** — the archive's words are used as the label
 - **baixo + cello + clarinete bb + flauta + violao 1 + violao 2** — the archive's words are used as the label
 - **baixo + cello + clarinete bb + flauta + violino 1 + violino 2** — the archive's words are used as the label
+- **baixo + cello + clarinete bb + trombone + trompete bb + violino 1 + violino 2** — the archive's words are used as the label
 - **baixo + cello + clarinete bb 1 + clarinete bb 2 + fagote 1 + fagote 2 + flauta 1 + flauta 2 + oboe 1 + oboe 2 + timpano + trompa f 1 + trompa f 2 + trompete bb 1 + trompete bb 2 + viola + violao solo + violino 1 + violino 2** — the archive's words are used as the label
 - **baixo + cello + clarinete bb 1 + clarinete bb 2 + fagote 1 + fagote 2 + flauta 1 + flauta 2 + oboe 1 + oboe 2 + timpano + trompa f 1 + trompa f 2 + trompete bb 1 + trompete bb 2 + viola + violino 1 + violino 2** — the archive's words are used as the label
 - **baixo + cello + clarinete bb 1 + clarinete bb 2 + fagote 1 + fagote 2 + flauta 1 + flauta 2 + oboe 1 + oboe 2 + timpano + trompete bb 1 + trompete bb 2 + viola + violino 1 + violino 2 + trompa f 1 + trompa f 2 + violao solo** — the archive's words are used as the label
 - **baixo + cello + flauta + piano + clarinete a + violino 1 + violino 2** — the archive's words are used as the label
+- **baixo + cello + flauta + piano + trombone + trompete bb + violino + clarinete bb** — the archive's words are used as the label
 - **baixo + cello + flauta + piano + viola + violino 1 + violino 2** — the archive's words are used as the label
 - **baixo + cello + piano + viola + violino** — the archive's words are used as the label
 - **baixo + cello + piano + viola + violino 1 + violino 2 + violino 3** — the archive's words are used as the label
 - **baixo + cello + viola + violino 1 + violino 2** — the archive's words are used as the label
 - **baixo + cello ou sax eb + clarinete bb + flauta + piano + trombone + trompete bb + violino 1 + violino 2** — the archive's words are used as the label
+- **baixo + clarinete bb + flauta + percussao + piano + sax alto eb + sax tenor bb + trombone + trompete bb 1 + trompete bb 2 + percussao 2** — the archive's words are used as the label
 - **baixo + clarinete bb + flauta + piano + piston + sax alto eb + sax tenor bb + trombone** — the archive's words are used as the label
 - **baixo + clarinete bb + piano + saxofone tenor + trombone + trompete bb** — the archive's words are used as the label
 - **baixo + clarinete bb 1 + clarinete bb 2 + flauta + flautim + sax alto eb 1 + sax alto eb 2 + saxofone tenor + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
@@ -927,8 +951,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **baixo + piano + sax alto eb 1 + sax alto eb 3 + sax tenor bb 2 + trombone + trompete bb 1 + trompete bb 2 + violino** — the archive's words are used as the label
 - **baixo + piano + sax alto eb 1 + sax alto eb 3 + sax tenor bb 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **baixo + trombone + bombardino eb + clarinete bb 1 + clarinete bb 2 + sax alto eb 1 + sax alto eb 2 + sax alto eb 3 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
+- **baixo + trombone + violino + sax alto eb 1 + sax alto eb 3 + sax tenor bb 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **baixo ou tuba + clarinete bb + flauta + piano + sax alto eb + sax tenor bb + trombone ou cello + trompete bb + violino** — the archive's words are used as the label
 - **bandola** — the archive's words are used as the label
+- **bandola + tiple + violao + bandola 2 + bandola 3** — the archive's words are used as the label
+- **bandola + violao + tiple** — the archive's words are used as the label
 - **bandolim** — the archive's words are used as the label
 - **bandolim + base** — the archive's words are used as the label
 - **bandolim + canto + cavaquinho + clarinete bb + percussao + violao + violao 7 cordas** — the archive's words are used as the label
@@ -942,19 +969,26 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **bandolim + clarone bb + flauta + violao** — the archive's words are used as the label
 - **bandolim + flauta** — the archive's words are used as the label
 - **bandolim + violao** — the archive's words are used as the label
+- **bandolim + violao 7 cordas** — the archive's words are used as the label
+- **bandolim 1 + bandolim 2** — the archive's words are used as the label
 - **base** — the archive's words are used as the label
+- **base + clarinete + saxofone tenor + trompete bb** — the archive's words are used as the label
 - **base + clarinete bb 1 + clarinete bb 2 + flauta 1 + flauta 2 + percussao + sax alto eb 1 + sax alto eb 2 + sax tenor bb + sax tenor bb 2 + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **base + clarinete bb 1 + clarinete bb 2 + flauta 1 + flauta 2 + sax alto eb 1 + sax alto eb 2 + sax tenor bb + sax tenor bb 2 + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **base + fagote + flauta** — the archive's words are used as the label
+- **base + instrumento em clave de fa** — the archive's words are used as the label
 - **bateria + clarinete + piano + sax alto eb + trombone + trompete bb + tuba bb + tuba eb** — the archive's words are used as the label
 - **bombardino + clarinete + requinta + trombone + bombardino eb + sax alto eb 1 + sax alto eb 2 + trompete bb** — the archive's words are used as the label
 - **bombardino + clarinete + requinta + trombone 1 + trombone 2 + trompete bb 1 + trompete bb 2 + trombone 3 + trompas** — the archive's words are used as the label
 - **bombardino + clarinete + saxofone alto + saxofone tenor + trombone + baixo + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **bombardino + clarinete + saxofone alto + saxofone tenor + tuba + piston** — the archive's words are used as the label
+- **bombardino + clarinete bb 1 + clarinete bb 2 + flautim + sax alto eb + sax soprano + sax tenor bb + trombone 1 + trombone 2 + trompa 1 + trompa 2 + trompa 3 + trompete bb 1 + trompete bb 2 + trompete bb 3 + tuba** — the archive's words are used as the label
 - **bombardino + contrabaixo eb + requinta + clarinete bb 1 + clarinete bb 2 + trombone 1 + trombone 2 + trombone 3 + trompas + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
 - **bombardino + trombone** — the archive's words are used as the label
 - **bombardino bb** — the archive's words are used as the label
 - **bombardino bb + bombardino c + bumbo + caixa + clarinete bb 1 + clarinete bb 2 + clarinete bb 3 + flauta + prato + requinta eb + sax alto eb + sax baritono 5 eb + sax horn eb 1 + sax horn eb 2 + sax horn eb 3 + sax tenor bb + trombone c 1 + trombone c 2 + trombone c 3 + trombone de canto bb + trompete bb 1 + trompete bb 2 + trompete bb 3 + tuba bb + tuba eb** — the archive's words are used as the label
+- **bombardino bb + bombardino c + clarinete + clarone bb + trombone** — the archive's words are used as the label
+- **bombardino bb + clarinete bb + piano** — the archive's words are used as the label
 - **bombardino bb + flauta** — the archive's words are used as the label
 - **bombardino c + bumbo + caixa + contrabaixo bb + contrabaixo eb + flautim + prato + requinta eb + clarinete bb 1 + clarinete bb 2 + clarinete bb 3 + sax horn eb 1 + sax horn eb 2 + sax horn eb 3 + trombone 1 + trombone 2 + trombone c 1 + trombone c 2 + trombone de canto bb + trompete bb 1 + trompete bb 2 + sax alto eb + saxofone tenor** — the archive's words are used as the label
 - **bombardino c + bumbo + clarinete bb + contrabaixo eb + requinta eb + sax alto eb 1 + sax alto eb 3 + trombone + trompete bb** — the archive's words are used as the label
@@ -978,6 +1012,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **cello + clarinete bb + piano + baixo + flauta + violino 1 + violino 2** — the archive's words are used as the label
 - **cello + trombone + trompete bb + violino + baixo + clarinete bb + flauta + piano + sax alto eb** — the archive's words are used as the label
 - **clarinete** — the archive's words are used as the label
+- **clarinete + fagote + flauta + oboe + trompa** — the archive's words are used as the label
 - **clarinete + flauta** — the archive's words are used as the label
 - **clarinete + flauta + flauta g + piano + sax tenor bb** — the archive's words are used as the label
 - **clarinete + flauta + piano + violino ou bandolim** — the archive's words are used as the label
@@ -1007,6 +1042,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **clarone bb + flugel** — the archive's words are used as the label
 - **clarone bb + requinta eb** — the archive's words are used as the label
 - **clarone bb + sax alto eb + trombone + trompete bb** — the archive's words are used as the label
+- **contrabaixo eb + requinta + trombone 1 + trombone 2 + trombone 3 + trompete bb 1 + trompete bb 2 + clarinete bb 1 + clarinete bb 2 + trompa 1 + trompa 2 + trompa 3** — the archive's words are used as the label
 - **cordas + flauta g** — the archive's words are used as the label
 - **eufonio + tuba** — the archive's words are used as the label
 - **flauta** — the archive's words are used as the label
@@ -1039,6 +1075,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **piano + clarinete bb + flauta + piston + violino** — the archive's words are used as the label
 - **piano + coro 1 + coro 2** — the archive's words are used as the label
 - **piano + piston** — the archive's words are used as the label
+- **piano + sax alto eb** — the archive's words are used as the label
 - **piano + sax alto eb 1 + sax alto eb 3 + sax tenor bb 2 + sax tenor bb 4 + trombone + trompete bb 1 + trompete bb 2 + trompete bb 3 + baixo** — the archive's words are used as the label
 - **piano + viola** — the archive's words are used as the label
 - **piano + violao** — the archive's words are used as the label
@@ -1051,36 +1088,19 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **requinta eb + trombone c** — the archive's words are used as the label
 - **sax alto eb** — the archive's words are used as the label
 - **sax alto eb + trombone** — the archive's words are used as the label
+- **sax alto eb + trombone + trompete bb** — the archive's words are used as the label
 - **sax alto eb + trombone c** — the archive's words are used as the label
 - **sax alto eb 1** — the archive's words are used as the label
 - **sax alto eb 2** — the archive's words are used as the label
 - **sax tenor 1** — the archive's words are used as the label
-- **sax tenor 2** — the archive's words are used as the label
-- **sax tenor bb** — the archive's words are used as the label
-- **sax tenor bb + clarinete bb + clarinete eb + sax alto eb + trombone (bomb) + trompete bb + tuba bb + tuba c** — the archive's words are used as the label
-- **saxofone 1** — the archive's words are used as the label
-- **saxofone 2** — the archive's words are used as the label
-- **saxofone alto + saxofone tenor + trombone + trompete bb 1 + trompete bb 2** — the archive's words are used as the label
-- **saxofone baritono** — the archive's words are used as the label
-- **saxofone tenor** — the archive's words are used as the label
-- **surdo** — the archive's words are used as the label
-- **trombone** — the archive's words are used as the label
-- **trombone 1** — the archive's words are used as the label
-- **trombone 2** — the archive's words are used as the label
-- **trompete** — the archive's words are used as the label
-- **trompete bb** — the archive's words are used as the label
-- **trompete bb + baixo + piano + sax alto eb 1 + sax alto eb 3 + sax tenor bb 2 + sax tenor bb 4** — the archive's words are used as the label
-- **trompete bb 1** — the archive's words are used as the label
-- **trompete bb 2** — the archive's words are used as the label
-- **tuba** — the archive's words are used as the label
-- … and 13 more in `docs/acervo-ingest-issues.csv`.
+- … and 31 more in `docs/acervo-ingest-issues.csv`.
 
 ### `place_not_identified` (2)
 
 - **110** — Local não identificado
 - **1899** — Compositor estrangeiro
 
-### `provisional_person` (214)
+### `provisional_person` (238)
 
 - **24** — lyricist 'DINO CASTELLO' → urn:uuid:persons/1416529698
 - **28** — lyricist 'Satulan' → urn:uuid:persons/1227255152
@@ -1089,6 +1109,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **32** — arranger 'Marcílio Lopes' → urn:uuid:persons/1378778470
 - **34** — lyricist 'do Marquez de Ripafloxa' → urn:uuid:persons/1223911954
 - **36** — lyricist 'Castello Netto' → urn:uuid:persons/1776520380
+- **39** — lyricist 'Marquês de Ripafloxa' → urn:uuid:persons/1190985169
+- **63** — copyist 'Azevedo Pimentel' → urn:uuid:persons/1017290919
+- **63** — arranger 'José Maria de Abreu' → urn:uuid:persons/1868056445
+- **63** — arranger 'Isaias Ferreira' → urn:uuid:persons/1192684791
+- **63** — arranger 'Carlos Barbosa-Lima' → urn:uuid:persons/1688150430
+- **63** — arranger 'Nelson Piló' → urn:uuid:persons/1104916803
 - **88** — copyist 'Souza' → urn:uuid:persons/1298930666
 - **89** — copyist 'Abelardo Pires' → urn:uuid:persons/1605369732
 - **98** — lyricist 'Escola Portátil /2007' → urn:uuid:persons/1045566190
@@ -1101,6 +1127,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **105** — arranger 'Luiz Flávio Alcofra' → urn:uuid:persons/1337709055
 - **134** — copyist 'Jupyaçara' → urn:uuid:persons/1100959309
 - **135** — copyist 'Arnaldo Corrêa' → urn:uuid:persons/1001596025
+- **142** — copyist 'Figueiredo (Frederico de Souza Figueiredo)' → urn:uuid:persons/1436274363
 - **184** — copyist 'Nascimento' → urn:uuid:persons/1720333196
 - **223** — copyist 'Theodoro Aguilar' → urn:uuid:persons/1096286736
 - **257** — lyricist 'È a resposta da polka para piano "Nhônhô fasenda"' → urn:uuid:persons/1788625718
@@ -1117,6 +1144,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **373** — lyricist "Offerecida a seu amigo Laurindo D'Avellar e Almeida" → urn:uuid:persons/1385833068
 - **384** — lyricist 'Oferecida á sua amiga D. Joanna Francisca da Silveira no seu anniversario natalicio 5 de Dezembro de 1872' → urn:uuid:persons/1790351003
 - **390** — lyricist 'Dedicada ao ilustrissemo Senr. Dr. Rodrigo Lobato Marcondes Machado' → urn:uuid:persons/1492969656
+- **391** — lyricist 'Offerecida a Exma Senra D. Carlota Cardozo' → urn:uuid:persons/1330347469
 - **411** — lyricist 'Dino' → urn:uuid:persons/1741313544
 - **432** — lyricist 'Jonas Neves' → urn:uuid:persons/1574739701
 - **442** — copyist 'Mário Peixoto' → urn:uuid:persons/1265511671
@@ -1124,8 +1152,6 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **465** — copyist 'Casa Falhauber' → urn:uuid:persons/1834661451
 - **552** — copyist 'João Cunha' → urn:uuid:persons/1768102334
 - **635** — transcriber 'Alessandro Valente' → urn:uuid:persons/1086127522
-- **637** — copyist 'Azevedo Pimentel' → urn:uuid:persons/1017290919
-- **637** — copyist 'Figueiredo (Frederico de Souza Figueiredo)' → urn:uuid:persons/1436274363
 - **638** — copyist 'Gilberto Mattos' → urn:uuid:persons/1785308059
 - **640** — copyist 'Oswaldo Bitelli' → urn:uuid:persons/1163490796
 - **641** — copyist 'Jacob Pick Bittencourt (Jacob do Bandolim)' → urn:uuid:persons/1216543244
@@ -1139,6 +1165,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **798** — copyist 'Manuel Pedro do Nascimento' → urn:uuid:persons/1320280755
 - **801** — lyricist 'A Leoncis Ribeiro de Souza, oferta de Candinho' → urn:uuid:persons/1786654195
 - **804** — lyricist 'um manuscrito do Jacob em 25/07/1976' → urn:uuid:persons/1232292364
+- **819** — copyist 'Paulo Fasanaro' → urn:uuid:persons/1275892445
 - **949** — copyist 'Candinho' → urn:uuid:persons/1643776192
 - **965** — copyist 'Joaquim A. Fernandes' → urn:uuid:persons/1658969642
 - **976** — lyricist 'Olegario Mariano' → urn:uuid:persons/1260926021
@@ -1153,17 +1180,23 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1740** — copyist 'Ruy Jorge da Costa' → urn:uuid:persons/1849380689
 - **1815** — lyricist 'Gravado por Regis Duprat e Rogério Duprat em discos Copacabana' → urn:uuid:persons/1000005410
 - **1818** — copyist 'Luiza Cardoso' → urn:uuid:persons/1472592061
+- **1847** — copyist 'Ramos Flauta' → urn:uuid:persons/1760517893
+- **1926** — lyricist 'Desenhado por Renato Domingues da Silva' → urn:uuid:persons/1189963590
 - **2107** — copyist 'Wilde Dias da Fonseca' → urn:uuid:persons/1306738344
 - **2190** — arranger 'Glauber Seixas' → urn:uuid:persons/1463719014
+- **2192** — lyricist 'Acervo de Gerson Ferreira Pinto' → urn:uuid:persons/1803427845
 - **2212** — copyist 'Anibal Candido Viana (transportada de uma orquestração por Jacob)' → urn:uuid:persons/1863935627
 - **2213** — former owner 'Almirante' → urn:uuid:persons/1757297218
 - **2213** — copyist 'Lanara' → urn:uuid:persons/1023340611
 - **2216** — lyricist 'Ao Alferes Luiz Portugal' → urn:uuid:persons/1293266419
 - **2216** — copyist 'Cópia Theodoro Aguilar' → urn:uuid:persons/1024489725
+- **2218** — lyricist 'Cop. Jupyaçara' → urn:uuid:persons/1221831478
+- **2256** — copyist 'Honório P. de Mattos' → urn:uuid:persons/1238349161
 - **2261** — copyist 'Candinho do Trombone' → urn:uuid:persons/1075494287
 - **2261** — copyist 'Arquivo de Gerson Ferreira Pinto' → urn:uuid:persons/1209217592
 - **2271** — copyist 'J. Cunha' → urn:uuid:persons/1588978446
 - **2279** — arranger 'Paula Borghi' → urn:uuid:persons/1663045432
+- **2378** — copyist 'Antenor Teixeira (propriedade de Jupyaçara)' → urn:uuid:persons/1805311032
 - **2400** — lyricist 'um manuscrito de Arnaldo Corrêa (MIS) 19/09/1976. Recebido de Paulo Fasanaro 26/08/1977' → urn:uuid:persons/1703791259
 - **2400** — copyist 'Paulo Fasanaro (Arquivo de Gerson Ferreira Pinto)' → urn:uuid:persons/1381238787
 - **2456** — lyricist 'João do Sul' → urn:uuid:persons/1801836348
@@ -1179,6 +1212,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2584** — lyricist 'Patrocínio Filho' → urn:uuid:persons/1591004980
 - **2592** — lyricist 'Bruno Nunes' → urn:uuid:persons/1402679473
 - **2593** — lyricist 'Francisco Sodré' → urn:uuid:persons/1880390561
+- **2599** — lyricist 'Cardoso Junior' → urn:uuid:persons/1522780490
 - **2641** — lyricist 'Ernesto de Souza' → urn:uuid:persons/1484577311
 - **2700** — lyricist 'Viriato Corrêa' → urn:uuid:persons/1776143228
 - **2811** — copyist 'Jorge Whiteman' → urn:uuid:persons/1753431310
@@ -1187,6 +1221,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2867** — lyricist 'Arlindo Leal' → urn:uuid:persons/1821377127
 - **2893** — lyricist 'Brandão' → urn:uuid:persons/1821210586
 - **2916** — lyricist 'Ópera cômica de L. Vapney' → urn:uuid:persons/1586926380
+- **2919** — lyricist 'Excelsior - Bailado de Manzotti (Musica de Marenco)' → urn:uuid:persons/1755442157
 - **2964** — copyist 'Angenor de Oliveira' → urn:uuid:persons/1267155593
 - **2968** — copyist 'Abelardo Pires (caderno)' → urn:uuid:persons/1412926785
 - **2988** — lyricist 'Copiado de Arnaldo Corrêa Conferido por Candinho' → urn:uuid:persons/1031022196
@@ -1196,9 +1231,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **3156** — lyricist 'Leocádio Correia' → urn:uuid:persons/1240041061
 - **3157** — lyricist 'Heitor Stockler' → urn:uuid:persons/1004473938
 - **3158** — lyricist 'Alberico Figueira' → urn:uuid:persons/1856891076
+- **3161** — lyricist 'Correia Junior' → urn:uuid:persons/1715074698
 - **3244** — copyist 'Casa Faulhaber' → urn:uuid:persons/1604172970
 - **3270** — copyist 'J. A. Fernandes' → urn:uuid:persons/1368716706
 - **3298** — copyist 'Nory' → urn:uuid:persons/1576084099
+- **3300** — lyricist 'Obtida do Sr. Berredo em 28/10/1976' → urn:uuid:persons/1118070100
+- **3300** — copyist 'R. J. Costa' → urn:uuid:persons/1143241919
 - **3301** — copyist 'Sérgio Napoleão Belucco' → urn:uuid:persons/1567137601
 - **3318** — arranger 'João Gabriel Souto' → urn:uuid:persons/1326114362
 - **3379** — lyricist 'Luiz e Calixto' → urn:uuid:persons/1423153002
@@ -1212,11 +1250,18 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **3553** — copyist 'Theo Venturelli' → urn:uuid:persons/1122689035
 - **3553** — copyist 'Paulo Fasssanaro' → urn:uuid:persons/1581157101
 - **3569** — lyricist 'A sua generosa esposa Theodora Amalia de Meirelles Nazareth' → urn:uuid:persons/1696754364
+- **3577** — lyricist 'Ao irmãozinho Fernando Nazareth' → urn:uuid:persons/1496176362
+- **3580** — copyist 'Nicanor Nascimento' → urn:uuid:persons/1431947682
+- **3580** — lyricist 'A gentil Francisca Gonzaga' → urn:uuid:persons/1769397443
+- **3581** — lyricist 'Dedicada a sua filhilnha' → urn:uuid:persons/1369736532
+- **3582** — lyricist 'Transcrição para dois pianos de Helza Camêu - 1949' → urn:uuid:persons/1001366383
 - **3592** — lyricist 'Dedicada a sua filha Marietta' → urn:uuid:persons/1272306924
 - **3595** — lyricist 'A Antônio Carlos Gomes (o Gênio)' → urn:uuid:persons/1716559039
+- **3680** — lyricist 'Penelope' → urn:uuid:persons/1067688229
 - **3778** — copyist 'Frederico Souza Figueiredo' → urn:uuid:persons/1154550982
 - **3880** — lyricist 'Castro Alves' → urn:uuid:persons/1294752493
 - **3880** — copyist 'Ponte' → urn:uuid:persons/1271016958
+- **3885** — lyricist 'Severino Peixoto' → urn:uuid:persons/1154582077
 - **3923** — copyist 'Heitor Ribeiro' → urn:uuid:persons/1057520695
 - **3928** — lyricist 'Marques Porto e Ary Pavão' → urn:uuid:persons/1638985940
 - **3948** — copyist 'Arquetrillino Costa Pinto' → urn:uuid:persons/1842624661
@@ -1225,7 +1270,6 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **4383** — copyist 'Frederico de Jesus (Arquivo Donga) - incompleto' → urn:uuid:persons/1470370221
 - **4411** — copyist 'Luperce Miranda' → urn:uuid:persons/1406593052
 - **4447** — lyricist 'Cop. Geraldo Franciso dos Santos / Conf. Candinho / Conf. Figueiredo' → urn:uuid:persons/1835777616
-- **4638** — arranger 'Nelson Piló' → urn:uuid:persons/1104916803
 - **4641** — lyricist 'Obtida do Sr, Berredo em 28/10/76 (arquivo Gerson Ferreira Pinto)' → urn:uuid:persons/1337372221
 - **4911** — copyist 'João Dias Carrasqueira' → urn:uuid:persons/1244400084
 - **4925** — copyist 'Isaías do Bandolim' → urn:uuid:persons/1717619886
@@ -1240,9 +1284,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **5690** — copyist 'Paurillo Barroso' → urn:uuid:persons/1644775016
 - **5826** — lyricist 'Sadi' → urn:uuid:persons/1380819200
 - **5948** — lyricist 'Martinez Grau (A. Paraguassú)' → urn:uuid:persons/1641893535
+- **5964** — lyricist 'Eustórgio Wanderley' → urn:uuid:persons/1192667803
 - **5973** — lyricist 'J. Carioca' → urn:uuid:persons/1362621733
 - **5983** — lyricist 'Raul Pederneiras' → urn:uuid:persons/1316333247
 - **6001** — lyricist 'Dr. Oscar Pederneiras Filho' → urn:uuid:persons/1833890846
+- **6006** — lyricist 'B' → urn:uuid:persons/1568819611
 - **6009** — lyricist 'Raymundo Corrêa' → urn:uuid:persons/1710510404
 - **6015** — copyist 'P. R. C' → urn:uuid:persons/1487649930
 - **6069** — lyricist 'Ary Kerner Veiga de Castro' → urn:uuid:persons/1574470419
@@ -1256,36 +1302,13 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **6241** — copyist 'Henrique Martins' → urn:uuid:persons/1718651997
 - **6343** — copyist 'Adalberto Cavalcante (Beto do Bandolim)' → urn:uuid:persons/1078561496
 - **6354** — copyist 'Lyzias R. de Oliveira (Cidinho 7 Cordas)' → urn:uuid:persons/1457642848
-- **6371** — transcriber 'Eliana Fonseca' → urn:uuid:persons/1231076300
-- **6623** — copyist 'José Mauricio B. P. Horta (Kiko Horta)' → urn:uuid:persons/1639064819
-- **6629** — copyist 'Horondino Silva (Dino 7 Cordas)' → urn:uuid:persons/1045923876
-- **6682** — copyist 'Pedro Pereira' → urn:uuid:persons/1576728125
-- **6784** — copyist 'Bilinho Teixeira' → urn:uuid:persons/1520445868
-- **6803** — transcriber 'Manuel Bernal Matinez' → urn:uuid:persons/1750676347
-- **6807** — transcriber 'Manuel Bernal Martinez' → urn:uuid:persons/1288806850
-- **6939** — copyist 'Sylvio Bigani' → urn:uuid:persons/1430390917
-- **7021** — lyricist 'Horacio Ferrer' → urn:uuid:persons/1430377740
-- **7070** — transcriber 'Lúcia Uchôa' → urn:uuid:persons/1830795199
-- **7072** — lyricist 'Joaquim Gomes Diniz' → urn:uuid:persons/1227697833
-- **7107** — lyricist 'Iamerê' → urn:uuid:persons/1098598780
-- **7342** — copyist 'Aquiles Moraes' → urn:uuid:persons/1250581260
-- **7445** — copyist 'Paulo Fasanaro' → urn:uuid:persons/1275892445
-- **7472** — copyist 'Oswaldo Marques da Silva' → urn:uuid:persons/1609440262
-- **7632** — transcriber 'Rafael Ferrari' → urn:uuid:persons/1305702746
-- **7652** — arranger 'Carlos Barbosa-Lima' → urn:uuid:persons/1688150430
-- **7686** — arranger 'Juan Jose Oliva' → urn:uuid:persons/1422981519
-- **7690** — arranger 'Alberto Amendola Heinzl' → urn:uuid:persons/1118209839
-- **7953** — arranger 'Fumagalli' → urn:uuid:persons/1424931742
-- **7956** — lyricist 'Prof. Jorge Pires de Godoy' → urn:uuid:persons/1655357984
-- **7960** — lyricist 'F. Corrêa da Silva' → urn:uuid:persons/1352159007
-- **7961** — lyricist 'Menotti del Picchia' → urn:uuid:persons/1227447737
-- **9551** — lyricist 'Mario Castellar' → urn:uuid:persons/1270189618
-- **9553** — lyricist 'Raymundo Chaves' → urn:uuid:persons/1423146943
-- **9554** — lyricist 'Arthur R. O. Filho' → urn:uuid:persons/1192492182
-- … and 14 more in `docs/acervo-ingest-issues.csv`.
+- … and 38 more in `docs/acervo-ingest-issues.csv`.
 
-### `publication_event_omitted` (827)
+### `publication_event_omitted` (969)
 
+- **63** — publisher 'Narciso, Arthur Napoleão e Miguez' has no known place of publication
+- **63** — publisher 'Guitar Solo Publication' has no known place of publication
+- **63** — publisher 'Arthur Napoleão' has no known place of publication
 - **80** — publisher 'Victor Prèalle' has no known place of publication
 - **84** — publisher 'Victor Prèalle' has no known place of publication
 - **125** — publisher 'Campassi & Camin' has no known place of publication
@@ -1302,9 +1325,12 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **382** — publisher 'Propriedade reservada' has no known place of publication
 - **384** — publisher 'Narcizo & Arthur Napoleão' has no known place of publication
 - **389** — publisher 'Campassi & Camin' has no known place of publication
+- **391** — publisher 'Narcizo & Arthur Napoleão' has no known place of publication
+- **392** — publisher 'L. Parent' has no known place of publication
 - **403** — publisher 'Propriedade do autor' has no known place of publication
 - **421** — publisher 'Victor Prèalle' has no known place of publication
 - **430** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
+- **431** — publisher 'Semanário Humorístico' has no known place of publication
 - **432** — publisher 'Campassi & Camin' has no known place of publication
 - **435** — publisher 'Victor Prèalle' has no known place of publication
 - **451** — publisher 'F. R. Guedes da Costa' has no known place of publication
@@ -1316,6 +1342,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **557** — publisher 'Casa Viúva Guerreiro' has no known place of publication
 - **604** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
 - **610** — publisher 'Casa Viúva Guerreiro' has no known place of publication
+- **611** — publisher 'Campassi & Camin' has no known place of publication
 - **612** — publisher 'Casa Viúva Guerreiro' has no known place of publication
 - **626** — publisher 'Casa Mozart' has no known place of publication
 - **633** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
@@ -1344,6 +1371,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1092** — publisher "A. J. d'Azevedo" has no known place of publication
 - **1095** — publisher 'Victor Prèalle' has no known place of publication
 - **1097** — publisher 'Casa Arthur Napoleão' has no known place of publication
+- **1098** — publisher 'Victor Prèalle Sucessor' has no known place of publication
 - **1105** — publisher 'The Library' has no known place of publication
 - **1107** — publisher 'Campassi & Camin' has no known place of publication
 - **1111** — publisher 'Casa Carlos Gomes' has no known place of publication
@@ -1360,6 +1388,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1175** — publisher 'Carlos Wehrs' has no known place of publication
 - **1176** — publisher 'Vieira Machado & Cia' has no known place of publication
 - **1181** — publisher 'Casa Bevilacqua' has no known place of publication
+- **1187** — publisher 'Vieira Machado & Cia' has no known place of publication
 - **1238** — publisher 'Campassi & Camin' has no known place of publication
 - **1241** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
 - **1248** — publisher 'I. Bevilacqua' has no known place of publication
@@ -1378,6 +1407,10 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1301** — publisher 'Vieira Machado & Cia' has no known place of publication
 - **1309** — publisher 'Casa Mozart' has no known place of publication
 - **1310** — publisher 'J. Filippone' has no known place of publication
+- **1315** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1319** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1320** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1323** — publisher 'J. Filippone' has no known place of publication
 - **1442** — publisher "A. J. d'Azevedo" has no known place of publication
 - **1445** — publisher 'Pedro Tomassi' has no known place of publication
 - **1447** — publisher 'I. Bevilacqua' has no known place of publication
@@ -1386,6 +1419,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1455** — publisher 'Fertin de Vasconcelos & Morand' has no known place of publication
 - **1458** — publisher 'Fertin de Vasconcelos & Morand' has no known place of publication
 - **1464** — publisher 'Fertin de Vasconcelos & Morand' has no known place of publication
+- **1469** — publisher 'Vieira Machado & Cia' has no known place of publication
 - **1518** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
 - **1519** — publisher 'Vieira Machado & Cia' has no known place of publication
 - **1520** — publisher 'Vieira Machado & Cia' has no known place of publication
@@ -1400,6 +1434,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1564** — publisher 'Casa Viúva Guerreiro' has no known place of publication
 - **1566** — publisher 'Casa Arthur Napoleão' has no known place of publication
 - **1571** — publisher 'Vieira Machado & Cia' has no known place of publication
+- **1612** — publisher 'Buschmann & Guimarães' has no known place of publication
 - **1618** — publisher 'Belem Musical' has no known place of publication
 - **1630** — publisher 'Francis Salabert' has no known place of publication
 - **1639** — publisher 'Carlos Wehrs' has no known place of publication
@@ -1426,6 +1461,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **1947** — publisher 'Préalle & Cia' has no known place of publication
 - **1951** — publisher 'Neuparth & Carneiro' has no known place of publication
 - **1956** — publisher 'Casa Levy' has no known place of publication
+- **1958** — publisher 'ARS' has no known place of publication
 - **1960** — publisher 'Editora Musical Beverly Ltda' has no known place of publication
 - **1965** — publisher 'Préalle & Cia' has no known place of publication
 - **1971** — publisher 'Sampaio Araújo & Cia' has no known place of publication
@@ -1435,7 +1471,9 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2014** — publisher 'C. Carlos J. Wehrs' has no known place of publication
 - **2015** — publisher 'C. Carlos J. Wehrs' has no known place of publication
 - **2016** — publisher 'C. Carlos J. Wehrs' has no known place of publication
+- **2017** — publisher 'C.Carlos J. Wehrs' has no known place of publication
 - **2042** — publisher 'Casa Bevilacqua' has no known place of publication
+- **2047** — publisher 'Thetoro Borges Diniz' has no known place of publication
 - **2052** — publisher 'Pará - Chic' has no known place of publication
 - **2053** — publisher 'R. L. Bittencourt' has no known place of publication
 - **2058** — publisher 'Buschmann & Guimarães' has no known place of publication
@@ -1456,6 +1494,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2469** — publisher 'Préalle & Cia' has no known place of publication
 - **2471** — publisher 'Eduardo Paiva' has no known place of publication
 - **2472** — publisher 'Dantas Bastos & Cia' has no known place of publication
+- **2475** — publisher 'Préalle & Cia' has no known place of publication
 - **2508** — publisher 'Imperial' has no known place of publication
 - **2509** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
 - **2541** — publisher 'Manoel Antonio Guimarães (arquivo de Almirante)' has no known place of publication
@@ -1467,28 +1506,9 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **2568** — publisher 'Buschmann & Guimarães' has no known place of publication
 - **2572** — publisher 'Buschmann & Guimarães' has no known place of publication
 - **2575** — publisher 'Ernesto Augusto de Mattos' has no known place of publication
-- **2581** — publisher 'Vieira Machado & Cia' has no known place of publication
-- **2584** — publisher 'Manoel Antonio Guimarães' has no known place of publication
-- **2654** — publisher 'Manoel Antonio Guimarães' has no known place of publication
-- **2700** — publisher 'Casa Bevilacqua' has no known place of publication
-- **2738** — publisher 'Buschmann & Guimarães' has no known place of publication
-- **2755** — publisher 'Narciso & Arthur Napoleão' has no known place of publication
-- **2756** — publisher 'B.L. Bittencourt' has no known place of publication
-- **2780** — publisher 'Buschmann & Guimarães' has no known place of publication
-- **2800** — publisher 'Cembra' has no known place of publication
-- **2801** — publisher 'A. de Franco' has no known place of publication
-- **2811** — publisher 'France melodie' has no known place of publication
-- **2811** — publisher 'E.S. Mangione' has no known place of publication
-- **2856** — publisher 'Casa Wagner' has no known place of publication
-- **2867** — publisher 'Casa Levy' has no known place of publication
-- **2868** — publisher 'Casa Levy' has no known place of publication
-- **2869** — publisher 'Casa Levy' has no known place of publication
-- **2905** — publisher 'I. Bevilacqua' has no known place of publication
-- **2906** — publisher 'Casa Levy' has no known place of publication
-- **2907** — publisher 'Irmão Vitale' has no known place of publication
-- … and 627 more in `docs/acervo-ingest-issues.csv`.
+- … and 769 more in `docs/acervo-ingest-issues.csv`.
 
-### `skipped_work_without_digitisation` (473)
+### `skipped_work_without_digitisation` (550)
 
 - **6265** — no Partitura has a PDF
 - **5588** — no Partitura has a PDF
@@ -1690,13 +1710,13 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **6269** — no Partitura has a PDF
 - **6439** — no Partitura has a PDF
 - **6455** — no Partitura has a PDF
-- … and 273 more in `docs/acervo-ingest-issues.csv`.
+- … and 350 more in `docs/acervo-ingest-issues.csv`.
 
 ### `unparsed_date` (1)
 
 - **7119** — 30.11.-0001
 
-### `unstructured_copy_note` (44)
+### `unstructured_copy_note` (52)
 
 - **354** — editada na Bahia
 - **635** — manuscrita (cópia de um manuscrito de Jacob do Bandolim)
@@ -1705,9 +1725,11 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **3516** — manuscrita Manuel Pedro Nascimento
 - **3535** — manuscrita Mauricio Carrilho
 - **3535** — manuscrita Paulo Fassanaro
+- **3586** — manuscrita Ilydio Nascimento
 - **3798** — manuscrita Manoel Pedro do Nascimento
 - **3913** — manuscrita Arquivo de Gerson Ferreira Pinto
 - **3929** — manuscrita Propriedade da Casa Faulhaber
+- **4216** — editada Coleção de C. Guerra Peixe
 - **4427** — editada Gomes Wellich & Cia.
 - **4480** — editada Casa do Choro
 - **4674** — manuscrita (incompleta)
@@ -1717,6 +1739,8 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **6484** — manuscrita Jacob Pick Bittencourt (Jacob do Bandolim)
 - **6732** — editada Thalma Music Edições Musicais
 - **6788** — editada com cifras manuscritas
+- **8543** — editada Casa do Choro
+- **9516** — doc. Estatuto ICC
 - **9517** — doc. Ata ICC 2018
 - **9518** — doc. BNDES 2013
 - **9518** — doc. Declaração 2013
@@ -1729,6 +1753,7 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **9894** — doc. Grade CC 2019_2
 - **9894** — doc. Calendário 2021-1
 - **9985** — doc. Contrato Petrobras 2010
+- **9986** — doc. Estatuto ICC 2018
 - **9992** — editada Em C
 - **9992** — editada Em G
 - **10168** — edição digital pelo autor
@@ -1741,13 +1766,17 @@ The complete list is in `docs/acervo-ingest-issues.csv`.
 - **10175** — edição digital pelo autor
 - **10176** — edição digital pelo autor
 - **10177** — edição digital pelo autor
+- **10178** — edição digital pelo autor
+- **10179** — edição digital pelo autor
+- **10180** — edição digital pelo autor
 - **10466** — edição digital Melodia em Fá
 
-### `work_without_composer` (6)
+### `work_without_composer` (7)
 
 - **9057** — the record has no composer
 - **9519** — the record has no composer
 - **9653** — the record has no composer
 - **9894** — the record has no composer
 - **9985** — the record has no composer
+- **9986** — the record has no composer
 - **10638** — the record has no composer

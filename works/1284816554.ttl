@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1284816554> a melod:Work;
+    melod:hasTitle _:b40b51c13-6016-5e7e-aa24-bfe997f4854e;
+    melod:hasIdentifier _:b4b244147-2920-78f5-159b-6de72bfd53b1;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9005>;
+    melod:hasContribution _:bdad153d5-86c0-da55-c8dc-be2cabd32639;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1112572877>;
+    melod:hasAnnotation _:b85404edf-3ecf-6c8d-aa6b-81d9b8a69192;
+    dct:conformsTo melod:Work.
+
+_:b40b51c13-6016-5e7e-aa24-bfe997f4854e a melod:Title;
+    rdfs:label "Esteja quieto, Seu Prudente"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4b244147-2920-78f5-159b-6de72bfd53b1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9005".
+
+_:bdad153d5-86c0-da55-c8dc-be2cabd32639 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b85404edf-3ecf-6c8d-aa6b-81d9b8a69192 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9005\">https://acervo.casadochoro.com.br/works/view/9005</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

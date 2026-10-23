@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1749213871> a melod:Item;
+    rdfs:label "Espera-me na saída — Partitura melodia (score_1510)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1485608882>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bba565fcd-0424-659e-2719-c8777f59f937;
+    melod:hasShelfmark "score_1510";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1510.pdf>;
+    melod:hasHand _:b3740a635-12f1-a90f-33aa-bb626e0a179c;
+    melod:hasProvenance _:bb42b61d8-0671-04e6-d39c-08d89da70bac;
+    dct:conformsTo melod:Item.
+
+_:bba565fcd-0424-659e-2719-c8777f59f937 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1510".
+
+_:b3740a635-12f1-a90f-33aa-bb626e0a179c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Manuel Pedro Nascimento".
+
+_:bb42b61d8-0671-04e6-d39c-08d89da70bac a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b56eb0909-1518-de18-56d8-8fdcaad2529d.
+
+_:b56eb0909-1518-de18-56d8-8fdcaad2529d a melod:ExactDate;
+    melod:isodate "1936-08-01"^^xsd:date;
+    schema:description "01.08.1936".

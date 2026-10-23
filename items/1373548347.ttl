@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1373548347> a melod:Item;
+    rdfs:label "Fantaisie — Partitura piano (score_5435)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1874880149>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b94a98fbc-31b6-5d18-12ac-3e6423568433;
+    melod:hasShelfmark "score_5435";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5435.pdf>;
+    melod:hasProvenance _:b19e7d934-e5ab-3b89-4e8e-16c1b58e49fc;
+    dct:conformsTo melod:Item.
+
+_:b94a98fbc-31b6-5d18-12ac-3e6423568433 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5435".
+
+_:b19e7d934-e5ab-3b89-4e8e-16c1b58e49fc a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bcd0f8194-d974-c8ae-d77b-0fabc2e30074.
+
+_:bcd0f8194-d974-c8ae-d77b-0fabc2e30074 a melod:ExactDate;
+    melod:isodate "1870-08-24"^^xsd:date;
+    schema:description "24.08.1870".
