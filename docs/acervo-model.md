@@ -371,10 +371,12 @@ instruments without a controlled term.  A problem never stops the ingestion.
 Because the ingestion deletes the documents it no longer generates — for
 example a provisional person that a later harvest replaced with the real
 record — pruning only happens on the canonical harvest directory
-(`.cache/acervo`) and never with `--limit`.  `--no-prune` keeps everything;
-`--prune` forces the deletion when a different `--harvest` directory is used
-deliberately.  The template documents that come from MerMEId are never
-deleted (`tools/acervo/template_files.txt`).
+(`.cache/acervo`) once every id of the listings has a record.  While the
+harvest is still growing, a work that has not been collected yet keeps the
+documents of the earlier batches.  `--no-prune` keeps everything; `--prune`
+forces the deletion when a different `--harvest` directory is used
+deliberately, and `--limit` never prunes.  The template documents that come
+from MerMEId are never deleted (`tools/acervo/template_files.txt`).
 
 ## 7. What is missing
 

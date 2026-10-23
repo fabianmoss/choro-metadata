@@ -193,7 +193,7 @@ def parse_work(work_id: str, page: str | None = None) -> dict:
     record["fields"].pop("Dica de uso", None)
 
     record["composers"] = [
-        {"card": card, "name": name.strip()}
+        {"card": card, "name": _text(name)}
         for card, name in re.findall(r'/cards/view/(\d+)">\s*([^<]*?)\s*<', page)
     ]
 

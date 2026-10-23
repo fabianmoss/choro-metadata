@@ -169,6 +169,14 @@ class IngestionTest(unittest.TestCase):
         self.run_ingest(prune=False)
         self.assertTrue(stale.exists())
 
+    def test_harvest_complete_requires_every_listed_record(self) -> None:
+        self.assertFalse(ingest.harvest_complete(self.harvest))
+        (self.harvest / "work_ids.txt").write_text("1\n", encoding="utf-8")
+        (self.harvest / "card_ids.txt").write_text("1\n", encoding="utf-8")
+        self.assertTrue(ingest.harvest_complete(self.harvest))
+        (self.harvest / "work_ids.txt").write_text("1\n2\n", encoding="utf-8")
+        self.assertFalse(ingest.harvest_complete(self.harvest))
+
     def test_missing_cards_are_reported_in_english(self) -> None:
         with open(self.harvest / "cards.jsonl", "w", encoding="utf-8"):
             pass

@@ -72,6 +72,43 @@ PUBLISHER_ALIASES = {
     "instituto casa do choro": KEEPER,
 }
 
+#: Spellings of the same publishing house in the acervo.  The key is the
+#: normalised name; the value is the name under which the house is modelled.
+#: The houses that are not curated are derived from the name, so the value
+#: must be the canonical spelling that becomes the institution.
+INSTITUTION_ALIASES = {
+    "e. s. mangione": "E.S. Mangione",
+    "narciso e arthur napoleao": "Narciso & Arthur Napoleão",
+    "arthur napoleao & c": "Arthur Napoleão & Cia",
+    "por victor prealle": "Victor Préalle",
+}
+
+
+def institution_name(name: str) -> str:
+    """The canonical spelling of a publishing house."""
+    return INSTITUTION_ALIASES.get(normalize(name), name.strip())
+
+
+def publisher_name(copy: dict, institutions_by_name: dict) -> str | None:
+    """The publishing house of an edition, if its name is known.
+
+    The acervo writes in the field “Cópia” the name of the editor, which may
+    be a person (“editada por A. Di Franco”) or a publishing house (“editada
+    por Irmãos Vitale”).  A name that is registered as an institution of the
+    dataset is a publisher, not an editor.
+    """
+    for name in (copy.get("publisher"), copy.get("editor")):
+        if not name:
+            continue
+        canonical = institution_name(name)
+        alias = PUBLISHER_ALIASES.get(normalize(canonical))
+        if alias:
+            return alias
+        institution = institutions_by_name.get(normalize(canonical))
+        if institution:
+            return institution["name"]
+    return None
+
 
 # ---------------------------------------------------------------------------
 # utilities
@@ -724,13 +761,17 @@ class WorkBuilder:
                     "terms:MediumCertainty", f"{iri}#editor"))
 
         if publisher:
-            publication = blank_node(f"{iri}#publication")
-            graph.type(publication, "schema:PublicationEvent")
-            graph.add(publication, "schema:publishedBy", IRI(ids.institution(publisher)))
+            # The shape of the publication event requires both the publisher
+            # and the place; without a place the event cannot be modelled, so
+            # only the publisher contribution is written (see § 4.6).
             location = self.builder.institution_location(publisher)
             if location:
+                publication = blank_node(f"{iri}#publication")
+                graph.type(publication, "schema:PublicationEvent")
+                graph.add(publication, "schema:publishedBy",
+                          IRI(ids.institution(publisher)))
                 graph.add(publication, "schema:location", IRI(ids.place(location)))
-            graph.add(iri, "schema:publication", publication)
+                graph.add(iri, "schema:publication", publication)
 
         graph.add(iri, "dct:conformsTo", Prefixed("melod:Manifestation"))
         self.builder.write("manifestations", iri, graph)
@@ -756,21 +797,10 @@ class WorkBuilder:
     def publisher(self, copy: dict) -> str | None:
         """The publishing house of an edition.
 
-        The acervo writes in the field “Cópia” the name of the editor,
-        which may be a person (“editada por A. Di Franco”) or a publishing
-        house (“editada por Irmãos Vitale”).  A name that is registered as
-        an institution of the dataset is a publisher, not an editor.
+        The names are resolved against the institutions of the dataset (see
+        :func:`publisher_name`).
         """
-        for name in (copy.get("publisher"), copy.get("editor")):
-            if not name:
-                continue
-            alias = PUBLISHER_ALIASES.get(normalize(name))
-            if alias:
-                return alias
-            institution = self.builder.institution_by_name(name)
-            if institution:
-                return institution["name"]
-        return None
+        return publisher_name(copy, self.builder.institutions)
 
     # -- item --------------------------------------------------------------
     def item(self, work: dict, manifestation: dict, score: dict) -> None:

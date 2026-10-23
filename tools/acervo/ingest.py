@@ -32,6 +32,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import html
 import json
 import os
 import re
@@ -44,9 +45,11 @@ from .sample import (
     PUBLISHER_ALIASES,
     People,
     build,
+    institution_name,
     normalize,
     parse_date,
     place_key,
+    publisher_name,
 )
 from .sample_data import (
     ALIASES,
@@ -180,6 +183,25 @@ class Issues:
 # reading the harvest
 # ---------------------------------------------------------------------------
 
+def harvest_complete(harvest_dir: str | Path) -> bool:
+    """True when the harvest holds every record of the listings.
+
+    Pruning is only safe on a complete harvest: while the harvest grows, the
+    documents of a work that has not been collected yet must be kept.
+    """
+    harvest = Path(harvest_dir)
+    for listing, kind in (("work_ids.txt", "works"), ("card_ids.txt", "cards")):
+        ids_path = harvest / listing
+        if not ids_path.exists():
+            return False
+        wanted = {line.strip() for line in
+                  ids_path.read_text(encoding="utf-8").splitlines() if line.strip()}
+        records, _ = read_jsonl(harvest / f"{kind}.jsonl")
+        if not wanted.issubset(records):
+            return False
+    return True
+
+
 def read_jsonl(path: Path) -> tuple[dict[str, dict], list[dict]]:
     """Reads a harvest file, deduplicated by id.
 
@@ -268,6 +290,8 @@ def clean_name(value: str | None) -> str | None:
     if not value:
         return None
     text = NAME_PREFIXES.sub("", value).strip().rstrip(".").strip()
+    # "editada por por Victor Préalle" repeats the particle.
+    text = re.sub(r"^por\s+(?=\S)", "", text, flags=re.I)
     # "Letra de de Castello Netto" is a typo of the archive; the lower-case
     # particle at the beginning is not part of the name.
     text = re.sub(r"^de\s+(?=\S)", "", text)
@@ -453,6 +477,7 @@ def prepare_institutions(works: list[dict], people: People, issues: Issues) -> l
                 name = clean_name(raw)
                 if not name:
                     continue
+                name = institution_name(name)
                 norm = normalize(name)
                 if norm in PUBLISHER_ALIASES or norm in known or norm in derived:
                     continue
@@ -504,13 +529,18 @@ def prepare_works(works: list[dict], issues: Issues) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def ingest(harvest_dir: str, out_dir: str, issues_md: str, issues_csv: str,
-           limit: int = 0, verbose: bool = False, prune: bool = True) -> dict:
+           limit: int = 0, verbose: bool = False, prune: bool = False) -> dict:
     """Builds the entity files from the harvest and writes the report."""
     harvest = Path(harvest_dir)
     issues = Issues()
 
     harvested_works, work_errors = read_jsonl(harvest / "works.jsonl")
     harvested_cards, card_errors = read_jsonl(harvest / "cards.jsonl")
+    # The names of the composer links are HTML-escaped in the page.
+    for work in harvested_works.values():
+        for composer in work.get("composers", []):
+            if composer.get("name"):
+                composer["name"] = html.unescape(composer["name"]).strip()
     for error in work_errors:
         issues.add("harvest_error_work", error.get("id"), str(error.get("error")))
     for error in card_errors:
@@ -603,6 +633,21 @@ def ingest(harvest_dir: str, out_dir: str, issues_md: str, issues_csv: str,
             issues.add("institution_without_location", institution["key"],
                        "created from the name of an edition; the place is unknown")
 
+    # The publication event requires a publishing place, which the acervo
+    # does not record; when the house has no place, the event is omitted and
+    # the publisher stays linked by the contribution of the manifestation.
+    by_name = {normalize(institution["name"]): institution
+               for institution in institutions}
+    for work in works:
+        for score in work.get("scores", []):
+            copy = parse_copy(first(score.get("details", {}).get("Cópia")) or "")
+            name = publisher_name(copy, by_name)
+            if name and not by_name[normalize(name)].get("location"):
+                issues.add(
+                    "publication_event_omitted", work["id"],
+                    f"publisher {name!r} has no known place of publication",
+                )
+
     works = prepare_works(works, issues)
 
     # The instrumentation of the archive uses many spellings; every
@@ -688,10 +733,16 @@ def main(argv=None) -> int:
     parser.add_argument("--quiet", action="store_true")
     arguments = parser.parse_args(argv)
 
-    # Pruning is only safe when the run covers the canonical harvest: a run
-    # against a partial directory must not delete the rest of the repository.
+    # Pruning is only safe when the run covers the whole harvest: while the
+    # harvest grows, a work that has not been collected yet must keep the
+    # documents of the earlier batches.
     canonical = os.path.abspath(arguments.harvest) == os.path.abspath(default_harvest)
-    prune = not arguments.limit and not arguments.no_prune and (canonical or arguments.prune)
+    prune = (
+        not arguments.limit
+        and not arguments.no_prune
+        and harvest_complete(arguments.harvest)
+        and (canonical or arguments.prune)
+    )
 
     ingest(
         arguments.harvest,

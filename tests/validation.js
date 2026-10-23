@@ -202,6 +202,10 @@ for (const [folder, shapeFile] of Object.entries(FOLDER_TO_SHAPE)) {
 
 // ── Phase 4: report ──────────────────────────────────────────────────────────
 
+// A SHACL violation is a failure of the suite, like a malformed document:
+// the editor would refuse the data or store it in an invalid state.
+if (violationsByFile.size > 0) hasErrors = true
+
 for (const folder of Object.keys(FOLDER_TO_SHAPE)) {
     const folderPath = join(REPO_ROOT, folder)
     let files
