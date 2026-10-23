@@ -504,7 +504,7 @@ def prepare_works(works: list[dict], issues: Issues) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def ingest(harvest_dir: str, out_dir: str, issues_md: str, issues_csv: str,
-           limit: int = 0, verbose: bool = False) -> dict:
+           limit: int = 0, verbose: bool = False, prune: bool = True) -> dict:
     """Builds the entity files from the harvest and writes the report."""
     harvest = Path(harvest_dir)
     issues = Issues()
@@ -642,9 +642,10 @@ def ingest(harvest_dir: str, out_dir: str, issues_md: str, issues_csv: str,
     )
 
     # A limited run is a test or the first batch of a longer harvest: it must
-    # not delete the documents of the batches that are not in memory.
+    # not delete the documents of the batches that are not in memory.  The
+    # caller decides, because only it knows whether the harvest is canonical.
     generated = {f"{folder}/{name}.ttl" for folder, name in files}
-    removed = 0 if limit else prune_documents(out_dir, generated)
+    removed = prune_documents(out_dir, generated) if prune else 0
 
     context = {
         "works_total": len(harvested_works),
@@ -668,16 +669,29 @@ def ingest(harvest_dir: str, out_dir: str, issues_md: str, issues_csv: str,
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--harvest", default=os.environ.get("ACERVO_DATA", ".cache/acervo"),
+    default_harvest = os.environ.get("ACERVO_DATA", ".cache/acervo")
+    parser = argparse.ArgumentParser(
+        description="Map the harvested acervo records to the MeLODy entity files.",
+        epilog="The problems found are reported in docs/acervo-ingest-issues.md.",
+    )
+    parser.add_argument("--harvest", default=default_harvest,
                         help="directory with works.jsonl and cards.jsonl")
     parser.add_argument("--out", default=".", help="target directory")
     parser.add_argument("--issues", default="docs/acervo-ingest-issues.md")
     parser.add_argument("--issues-csv", default="docs/acervo-ingest-issues.csv")
     parser.add_argument("--limit", type=int, default=0,
                         help="model only the first N works (for testing)")
+    parser.add_argument("--no-prune", action="store_true",
+                        help="keep the documents that the current run does not generate")
+    parser.add_argument("--prune", action="store_true",
+                        help="also prune when --harvest is not the default directory")
     parser.add_argument("--quiet", action="store_true")
     arguments = parser.parse_args(argv)
+
+    # Pruning is only safe when the run covers the canonical harvest: a run
+    # against a partial directory must not delete the rest of the repository.
+    canonical = os.path.abspath(arguments.harvest) == os.path.abspath(default_harvest)
+    prune = not arguments.limit and not arguments.no_prune and (canonical or arguments.prune)
 
     ingest(
         arguments.harvest,
@@ -686,6 +700,7 @@ def main(argv=None) -> int:
         arguments.issues_csv,
         limit=arguments.limit,
         verbose=not arguments.quiet,
+        prune=prune,
     )
     return 0
 

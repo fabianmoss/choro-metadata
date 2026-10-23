@@ -28,6 +28,7 @@ import html
 import json
 import os
 import re
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -80,6 +81,17 @@ def _cache_path(url: str) -> str:
     return os.path.join(CACHE_DIR, f"{digest}.html")
 
 
+def is_cached(url: str) -> bool:
+    """True when the page is already in the local cache."""
+    return os.path.exists(_cache_path(url))
+
+
+#: Per-thread mark of whether the last :func:`get` went to the network.  The
+#: workers use it to apply the crawl delay only to real requests: replaying a
+#: cached harvest must not wait ten seconds per page.
+_fetch_state = threading.local()
+
+
 def get(url: str, timeout: int = 60, cache: bool = True,
         attempts: int = 3) -> str:
     """Downloads a page and returns the decoded HTML.
@@ -91,9 +103,11 @@ def get(url: str, timeout: int = 60, cache: bool = True,
     """
     path = _cache_path(url)
     if cache and os.path.exists(path):
+        _fetch_state.downloaded = False
         with open(path, encoding="utf-8") as handle:
             return handle.read()
 
+    _fetch_state.downloaded = True
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     for attempt in range(attempts):
         try:
@@ -309,23 +323,17 @@ def _parallel_pages(urls: list[str], workers: int, delay: float) -> Iterator[str
     """Downloads the listing pages in parallel, with the interval between them.
 
     Each thread waits ``delay`` seconds between its requests; the total
-    stays around ``workers / delay`` requests per second.
+    stays around ``workers / delay`` requests per second.  Pages that are
+    already cached are replayed without any pause.
     """
-    def worker(batch: list[str]) -> list[str]:
-        pages = []
-        for url in batch:
-            pages.append(get(url))
+    def worker(url: str) -> str:
+        page = get(url)
+        if getattr(_fetch_state, "downloaded", True):
             time.sleep(delay)
-        return pages
-
-    batches: list[list[str]] = [[] for _ in range(workers)]
-    for i, url in enumerate(urls):
-        batches[i % workers].append(url)
+        return page
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        for pages in pool.map(worker, batches):
-            for page in pages:
-                yield page
+        yield from pool.map(worker, urls)
 
 
 def iter_work_ids(letter: str | None = None, workers: int = WORKERS,
@@ -389,23 +397,17 @@ def iter_details(ids: Iterable[str], parser, workers: int = WORKERS,
     """
     items = list(ids)
 
-    def worker(batch: list[str]) -> list[dict]:
-        out = []
-        for item_id in batch:
-            try:
-                out.append(parser(item_id))
-            except Exception as error:  # noqa: BLE001 - the harvest must not abort
-                out.append({"id": item_id, "error": str(error)})
+    def worker(item_id: str) -> dict:
+        try:
+            record = parser(item_id)
+        except Exception as error:  # noqa: BLE001 - the harvest must not abort
+            record = {"id": item_id, "error": str(error)}
+        if getattr(_fetch_state, "downloaded", True):
             time.sleep(delay)
-        return out
-
-    batches: list[list[str]] = [[] for _ in range(workers)]
-    for i, item_id in enumerate(items):
-        batches[i % workers].append(item_id)
+        return record
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        for result in pool.map(worker, batches):
-            yield from result
+        yield from pool.map(worker, items)
 
 
 def iter_works(work_ids: Iterable[str], workers: int = WORKERS,
