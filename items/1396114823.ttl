@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1396114823> a melod:Item;
+    rdfs:label "Jovelina — Partitura melodia (score_5589)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1631288664>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bfd682954-3e1f-e19e-8f58-b4547c24467d;
+    melod:hasShelfmark "score_5589";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5589.pdf>;
+    melod:hasHand _:b6cf5fb70-7d23-9806-09a3-06b97c9d8462;
+    melod:hasProvenance _:bcb3aa7b1-0559-7624-1e21-854e3822734f;
+    dct:conformsTo melod:Item.
+
+_:bfd682954-3e1f-e19e-8f58-b4547c24467d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5589".
+
+_:b6cf5fb70-7d23-9806-09a3-06b97c9d8462 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bcb3aa7b1-0559-7624-1e21-854e3822734f a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd181ed70-51d7-9286-5a8d-efe368b3a4d0.
+
+_:bd181ed70-51d7-9286-5a8d-efe368b3a4d0 a melod:ExactDate;
+    melod:isodate "1941-03-20"^^xsd:date;
+    schema:description "20.03.1941".

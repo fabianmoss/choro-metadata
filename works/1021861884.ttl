@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1021861884> a melod:Work;
+    melod:hasTitle _:b8738092f-6d02-6a87-41ce-6c6e25f010f6;
+    melod:hasIdentifier _:b96fd2816-488f-a80f-8f92-814e90db4026;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10187>;
+    melod:hasContribution _:be05e62e6-d982-efca-349c-c4c08f9bcefb, _:b22e7e34c-4494-8a94-001d-22241a8ad16d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1804530158>;
+    melod:hasAnnotation _:b31ce306e-d45f-96d3-5aee-c1bcbadbb7e0;
+    dct:conformsTo melod:Work.
+
+_:b8738092f-6d02-6a87-41ce-6c6e25f010f6 a melod:Title;
+    rdfs:label "Lábios que beijei"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b96fd2816-488f-a80f-8f92-814e90db4026 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10187".
+
+_:be05e62e6-d982-efca-349c-c4c08f9bcefb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1568894086>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b22e7e34c-4494-8a94-001d-22241a8ad16d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1284949677>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b31ce306e-d45f-96d3-5aee-c1bcbadbb7e0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10187\">https://acervo.casadochoro.com.br/works/view/10187</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

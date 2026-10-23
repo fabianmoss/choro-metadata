@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1893401714> a melod:Work;
+    melod:hasTitle _:be909ec84-97ae-9f08-5b84-86efad148f4e;
+    melod:hasIdentifier _:b133fa9f1-4d9d-d358-b633-e23c14e6c061;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4472>;
+    melod:hasContribution _:ba3601304-e839-3a25-a760-5392db37876f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1794877708>, <urn:uuid:expressions/1788586295>;
+    melod:hasAnnotation _:b4222c716-8736-f86e-68b9-35cbdf8544e2;
+    dct:conformsTo melod:Work.
+
+_:be909ec84-97ae-9f08-5b84-86efad148f4e a melod:Title;
+    rdfs:label "La serenata"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b133fa9f1-4d9d-d358-b633-e23c14e6c061 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4472".
+
+_:ba3601304-e839-3a25-a760-5392db37876f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1142854284>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4222c716-8736-f86e-68b9-35cbdf8544e2 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4472\">https://acervo.casadochoro.com.br/works/view/4472</a>. Gênero: Não informado. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

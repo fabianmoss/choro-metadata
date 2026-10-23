@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1299354186> a melod:Manifestation;
+    melod:hasTitle _:bcdfb1b41-3fc4-de14-0392-2dd1533b68a5;
+    lrmoo:R4_embodies <urn:uuid:expressions/1192639313>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b64a3a7ab-0969-88c1-bc89-34622801eae2;
+    dct:conformsTo melod:Manifestation.
+
+_:bcdfb1b41-3fc4-de14-0392-2dd1533b68a5 a melod:Title;
+    rdfs:label "Itália — Partitura piano (edition Fermata do Brasil)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b64a3a7ab-0969-88c1-bc89-34622801eae2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094092957>;
+    melod:hasRole terms:Publisher.

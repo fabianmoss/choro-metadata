@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1764650949> a melod:Expression;
+    rdfs:label "Lacráia (arrangement by José Marcílio, Partitura arranjo com letra)";
+    melod:hasClassification "Marcha";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b54a741fd-953a-fe12-f04c-6c9a0f9e6c9c;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1269212614>;
+    melod:hasContribution _:bb9e777af-51d6-73cf-5069-95bca0b857c0;
+    dct:conformsTo melod:Expression.
+
+_:b54a741fd-953a-fe12-f04c-6c9a0f9e6c9c a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bb9e777af-51d6-73cf-5069-95bca0b857c0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1087882743>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

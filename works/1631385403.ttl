@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1631385403> a melod:Work;
+    melod:hasTitle _:b3bc0c59f-0f05-3276-727e-d1224fc4d051;
+    melod:hasIdentifier _:b8c2b1b0c-a2c3-4894-76ed-c4327cccce88;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9918>;
+    melod:hasContribution _:be6e11761-dafe-4523-3d99-3c7b972a4e31;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1695003067>;
+    melod:hasAnnotation _:be3d506e0-7240-4770-3839-5f3a43fccb8a;
+    dct:conformsTo melod:Work.
+
+_:b3bc0c59f-0f05-3276-727e-d1224fc4d051 a melod:Title;
+    rdfs:label "Kristal"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8c2b1b0c-a2c3-4894-76ed-c4327cccce88 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9918".
+
+_:be6e11761-dafe-4523-3d99-3c7b972a4e31 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1831756280>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be3d506e0-7240-4770-3839-5f3a43fccb8a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9918\">https://acervo.casadochoro.com.br/works/view/9918</a>. Gênero: Não informado. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

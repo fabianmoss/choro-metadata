@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1715988820> a melod:Item;
+    rdfs:label "Improviso — Partitura melodia (score_879)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1297665841>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdae7991b-4f37-aa83-8876-94b3aa178ede;
+    melod:hasShelfmark "score_879";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_879.pdf>;
+    melod:hasHand _:b55d4bbd3-e658-cda8-d03d-a175609665db;
+    dct:conformsTo melod:Item.
+
+_:bdae7991b-4f37-aa83-8876-94b3aa178ede a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_879".
+
+_:b55d4bbd3-e658-cda8-d03d-a175609665db a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1146702713>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Frederico de Jesus (Acervo Donga)".

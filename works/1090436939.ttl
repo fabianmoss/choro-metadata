@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1090436939> a melod:Work;
+    melod:hasTitle _:bd18bb9e1-3811-40ba-34e0-a14ce6cb9c8c;
+    melod:hasIdentifier _:bde7a34df-d30f-2305-bf97-2e1b74efd0e1;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4192>;
+    melod:hasContribution _:b2193b90e-7640-c754-c632-2f5a071712a3;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1228465260>, <urn:uuid:expressions/1056412302>;
+    melod:hasAnnotation _:bfc75fd99-cc04-e48e-362e-d375f549c2db;
+    dct:conformsTo melod:Work.
+
+_:bd18bb9e1-3811-40ba-34e0-a14ce6cb9c8c a melod:Title;
+    rdfs:label "La coquette (a faceira)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bde7a34df-d30f-2305-bf97-2e1b74efd0e1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4192".
+
+_:b2193b90e-7640-c754-c632-2f5a071712a3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1636314549>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfc75fd99-cc04-e48e-362e-d375f549c2db a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4192\">https://acervo.casadochoro.com.br/works/view/4192</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

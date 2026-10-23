@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1483608928> a melod:Work;
+    melod:hasTitle _:bb0ca066c-e3e5-fb67-40ef-c0ba73262af2;
+    melod:hasIdentifier _:b60eac058-56da-6c81-e672-d8b7cff88944;
+    melod:hasClassification "Foxtrote";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9461>;
+    melod:hasContribution _:b79c5c135-5d7f-d780-e48b-9c3ab0dfecc6;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1595719914>;
+    melod:hasAnnotation _:b7b0e4657-a696-e663-b595-63e821c91b8f;
+    dct:conformsTo melod:Work.
+
+_:bb0ca066c-e3e5-fb67-40ef-c0ba73262af2 a melod:Title;
+    rdfs:label "Ilusões do amor"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b60eac058-56da-6c81-e672-d8b7cff88944 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9461".
+
+_:b79c5c135-5d7f-d780-e48b-9c3ab0dfecc6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1594724870>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7b0e4657-a696-e663-b595-63e821c91b8f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9461\">https://acervo.casadochoro.com.br/works/view/9461</a>. Gênero: Foxtrote. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

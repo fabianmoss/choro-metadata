@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1553022038> a melod:Item;
+    rdfs:label "Jacoleto — Partitura melodia e cifra (score_10080)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590634076>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf27a0c2b-e56b-1c0d-5fe2-0d4f49bad2c8;
+    melod:hasShelfmark "score_10080";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10080.pdf>;
+    melod:hasProvenance _:b468ff309-b305-16fc-b0b7-024043608bf6;
+    dct:conformsTo melod:Item.
+
+_:bf27a0c2b-e56b-1c0d-5fe2-0d4f49bad2c8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_10080".
+
+_:b468ff309-b305-16fc-b0b7-024043608bf6 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b0bb16219-3fb1-1099-7bba-fc8da45d9adb.
+
+_:b0bb16219-3fb1-1099-7bba-fc8da45d9adb a melod:ExactDate;
+    melod:isodate "2003-01-30"^^xsd:date;
+    schema:description "30.01.2003".

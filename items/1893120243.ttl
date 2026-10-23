@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1893120243> a melod:Item;
+    rdfs:label "Jalde — Partitura piano (score_15169)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1725428519>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3f6b0731-f453-5a45-8b84-01e8bcaeb183;
+    melod:hasShelfmark "score_15169";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15169.pdf>;
+    melod:hasProvenance _:bc4af74ff-4171-8ef4-58c0-e3e3a77ce335;
+    dct:conformsTo melod:Item.
+
+_:b3f6b0731-f453-5a45-8b84-01e8bcaeb183 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15169".
+
+_:bc4af74ff-4171-8ef4-58c0-e3e3a77ce335 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b98761d06-c687-d306-054e-6f9556a80639.
+
+_:b98761d06-c687-d306-054e-6f9556a80639 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

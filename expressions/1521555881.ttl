@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1521555881> a melod:Expression;
+    rdfs:label "Juriti - Canção do Corcundinha (original version, Partitura piano e letra)";
+    melod:hasClassification "Canção";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:be6f5d6aa-76c8-c014-7ca8-381344e90eb4;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1052125462>;
+    melod:hasContribution _:b71f7e900-a858-2626-bea2-e7abca28f44c;
+    dct:conformsTo melod:Expression.
+
+_:be6f5d6aa-76c8-c014-7ca8-381344e90eb4 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b71f7e900-a858-2626-bea2-e7abca28f44c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1776143228>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

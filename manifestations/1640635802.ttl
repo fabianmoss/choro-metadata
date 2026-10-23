@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1640635802> a melod:Manifestation;
+    melod:hasTitle _:bafe9b7fa-ce78-9ad4-3b4b-6bb4b5349331;
+    lrmoo:R4_embodies <urn:uuid:expressions/1227356305>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b7e5acc0b-9d70-7ab3-525a-99d538f29a3a;
+    schema:publication _:b4c5227bc-6918-e23a-9bb6-8b5ed1c4c413;
+    dct:conformsTo melod:Manifestation.
+
+_:bafe9b7fa-ce78-9ad4-3b4b-6bb4b5349331 a melod:Title;
+    rdfs:label "Indelével — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b7e5acc0b-9d70-7ab3-525a-99d538f29a3a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b4c5227bc-6918-e23a-9bb6-8b5ed1c4c413 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

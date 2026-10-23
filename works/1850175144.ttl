@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1850175144> a melod:Work;
+    melod:hasTitle _:b94e47b09-6dc2-7fa9-0641-607eadd82892;
+    melod:hasIdentifier _:b79da3040-4bfa-ed28-599e-1416082ac195;
+    melod:hasClassification "Habanera";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/569>;
+    melod:hasContribution _:b9099129f-fa78-3bf3-e10e-e1dfc303986e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1715086992>;
+    melod:hasAnnotation _:b36a9cc76-c39a-1d73-ff08-6a41fd5f0bc1;
+    dct:conformsTo melod:Work.
+
+_:b94e47b09-6dc2-7fa9-0641-607eadd82892 a melod:Title;
+    rdfs:label "La Maritana"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b79da3040-4bfa-ed28-599e-1416082ac195 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "569".
+
+_:b9099129f-fa78-3bf3-e10e-e1dfc303986e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1310340695>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b36a9cc76-c39a-1d73-ff08-6a41fd5f0bc1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/569\">https://acervo.casadochoro.com.br/works/view/569</a>. Gênero: Habanera. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

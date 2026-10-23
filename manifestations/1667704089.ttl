@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1667704089> a melod:Manifestation;
+    melod:hasTitle _:b2063edf7-3af8-47e4-c091-90e228cfc72b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1258033277>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra Bb", terms:Print;
+    melod:hasContribution _:bc4465c88-af9a-0dba-6018-b8824e42d292;
+    dct:conformsTo melod:Manifestation.
+
+_:b2063edf7-3af8-47e4-c091-90e228cfc72b a melod:Title;
+    rdfs:label "Indecisa — Partitura melodia e cifra Bb (edition C)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bc4465c88-af9a-0dba-6018-b8824e42d292 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1374915598>;
+    melod:hasRole terms:Publisher.

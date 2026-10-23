@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1385346850> a melod:Item;
+    rdfs:label "Jacinto não falha — Partitura melodia (score_1393)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1801938787>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf2d63926-f697-1620-ff63-2fd555782515;
+    melod:hasShelfmark "score_1393";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1393.pdf>;
+    melod:hasHand _:b4aca71ec-72c2-8cf0-6d71-ba011945103e;
+    melod:hasProvenance _:b1c99ef58-bdee-9808-ddf9-bad7e3ac6f32;
+    dct:conformsTo melod:Item.
+
+_:bf2d63926-f697-1620-ff63-2fd555782515 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1393".
+
+_:b4aca71ec-72c2-8cf0-6d71-ba011945103e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b1c99ef58-bdee-9808-ddf9-bad7e3ac6f32 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:ba69bebbb-48e6-dd17-38af-14c4d6141410.
+
+_:ba69bebbb-48e6-dd17-38af-14c4d6141410 a melod:ExactDate;
+    melod:isodate "1930-09-29"^^xsd:date;
+    schema:description "29.09.1930".

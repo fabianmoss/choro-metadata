@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1341704878> a melod:Work;
+    melod:hasTitle _:bea2b9b41-8767-5926-0113-0ccc1d04e596;
+    melod:hasIdentifier _:bc035afae-59da-8bf5-3831-42163877c5bb;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/447>;
+    melod:hasContribution _:b6ce9d756-06eb-cdb6-57c6-1938818945f5;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1385971809>;
+    melod:hasAnnotation _:b03bbd731-d5e3-a636-1f50-89b3aaecc11e;
+    dct:conformsTo melod:Work.
+
+_:bea2b9b41-8767-5926-0113-0ccc1d04e596 a melod:Title;
+    rdfs:label "La Mattchiche"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc035afae-59da-8bf5-3831-42163877c5bb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "447".
+
+_:b6ce9d756-06eb-cdb6-57c6-1938818945f5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1089900775>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b03bbd731-d5e3-a636-1f50-89b3aaecc11e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/447\">https://acervo.casadochoro.com.br/works/view/447</a>. Gênero: Marcha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

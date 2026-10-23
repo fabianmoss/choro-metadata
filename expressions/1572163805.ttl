@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1572163805> a melod:Expression;
+    rdfs:label "Isto é lá com Santo Antonio (arrangement by A. Franceschini, Partitura arranjo com letra)";
+    melod:hasClassification "Marcha";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bd9111cc9-f9b8-2f5d-da5f-b78257e9629d;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1640612903>;
+    melod:hasContribution _:b09d5a0e0-f8e9-da2f-28fa-d61b6c54d399;
+    dct:conformsTo melod:Expression.
+
+_:bd9111cc9-f9b8-2f5d-da5f-b78257e9629d a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b09d5a0e0-f8e9-da2f-28fa-d61b6c54d399 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1685188372>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1620793897> a melod:Work;
+    melod:hasTitle _:b62b61556-2c97-f616-0bf6-2beee34547b7;
+    melod:hasIdentifier _:b4ce5684b-11ac-6326-bfa9-7a788804e3cd;
+    melod:hasClassification "Batucada";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5942>;
+    melod:hasContribution _:b82322697-3530-5822-0972-59540c31a29e, _:b673884cb-103c-be38-41bc-2e1764a76592, _:b524eb8af-3360-8a39-2405-9ce6897a6da1;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1778589361>;
+    melod:hasAnnotation _:bb3915bad-20d8-41c8-baed-2857574c92e0;
+    dct:conformsTo melod:Work.
+
+_:b62b61556-2c97-f616-0bf6-2beee34547b7 a melod:Title;
+    rdfs:label "Já andei..."@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4ce5684b-11ac-6326-bfa9-7a788804e3cd a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5942".
+
+_:b82322697-3530-5822-0972-59540c31a29e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1612354907>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b673884cb-103c-be38-41bc-2e1764a76592 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201773863>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b524eb8af-3360-8a39-2405-9ce6897a6da1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1571769460>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb3915bad-20d8-41c8-baed-2857574c92e0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5942\">https://acervo.casadochoro.com.br/works/view/5942</a>. Gênero: Batucada. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

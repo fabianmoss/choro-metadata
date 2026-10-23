@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1272225345> a melod:Work;
+    melod:hasTitle _:bb932ac02-dda8-8933-898a-edae9efcbb88;
+    melod:hasIdentifier _:b6d51c9e5-c180-10b2-b916-7be43ee5354a;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2431>;
+    melod:hasContribution _:b11f1539f-b8f6-60be-9821-62008649c2ee;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1500722705>;
+    melod:hasAnnotation _:bd31835ab-3bed-6b89-958d-8525b2a087db;
+    dct:conformsTo melod:Work.
+
+_:bb932ac02-dda8-8933-898a-edae9efcbb88 a melod:Title;
+    rdfs:label "La Colombe (The Dove)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6d51c9e5-c180-10b2-b916-7be43ee5354a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2431".
+
+_:b11f1539f-b8f6-60be-9821-62008649c2ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1140669963>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd31835ab-3bed-6b89-958d-8525b2a087db a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2431\">https://acervo.casadochoro.com.br/works/view/2431</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

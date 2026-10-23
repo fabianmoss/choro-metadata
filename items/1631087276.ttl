@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1631087276> a melod:Item;
+    rdfs:label "Joir — Partitura melodia (score_1406)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1346318151>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdf310b28-a671-ca73-7d0d-c2eb709a8bc9;
+    melod:hasShelfmark "score_1406";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1406.pdf>;
+    melod:hasHand _:bda3a7a90-6c31-a67d-6648-2a0f9cba32b3;
+    melod:hasProvenance _:ba1bdd5b3-380c-9538-248f-ea010bfaa371;
+    dct:conformsTo melod:Item.
+
+_:bdf310b28-a671-ca73-7d0d-c2eb709a8bc9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1406".
+
+_:bda3a7a90-6c31-a67d-6648-2a0f9cba32b3 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1113574567>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por M. Souza".
+
+_:ba1bdd5b3-380c-9538-248f-ea010bfaa371 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd69e233a-d91d-f15f-247b-dbc884e47e18.
+
+_:bd69e233a-d91d-f15f-247b-dbc884e47e18 a melod:ExactDate;
+    melod:isodate "1951-07-02"^^xsd:date;
+    schema:description "02.07.1951".

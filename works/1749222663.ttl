@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1749222663> a melod:Work;
+    melod:hasTitle _:be8bb63f7-9550-88fc-f031-f3a878767939;
+    melod:hasIdentifier _:bc0bb11bf-bdec-70a7-c1e3-f2ab252f472d;
+    melod:hasClassification "Tango Carnavalesco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3623>;
+    melod:hasContribution _:ba6ec5509-c7c1-956c-c353-04dd18e087c8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1103824823>;
+    melod:hasAnnotation _:b85ca0b46-2ad0-c802-4cd7-9263583fb23e;
+    dct:conformsTo melod:Work.
+
+_:be8bb63f7-9550-88fc-f031-f3a878767939 a melod:Title;
+    rdfs:label "Jacaré"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc0bb11bf-bdec-70a7-c1e3-f2ab252f472d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3623".
+
+_:ba6ec5509-c7c1-956c-c353-04dd18e087c8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b85ca0b46-2ad0-c802-4cd7-9263583fb23e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3623\">https://acervo.casadochoro.com.br/works/view/3623</a>. Gênero: Tango Carnavalesco. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1663002830> a melod:Work;
+    melod:hasTitle _:bf2e25fb8-99f1-b356-7d1b-2b3146101223;
+    melod:hasIdentifier _:bf340e6d6-4968-5f45-c690-d7216eb8abd2;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4957>;
+    melod:hasContribution _:b9b49b5e6-b5df-b3fd-246f-721c4633b033;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1696058520>, <urn:uuid:expressions/1366243337>;
+    melod:hasAnnotation _:bb60e953e-9f1e-078f-aff8-82adeb297d07;
+    dct:conformsTo melod:Work.
+
+_:bf2e25fb8-99f1-b356-7d1b-2b3146101223 a melod:Title;
+    rdfs:label "João teimoso"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf340e6d6-4968-5f45-c690-d7216eb8abd2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4957".
+
+_:b9b49b5e6-b5df-b3fd-246f-721c4633b033 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb60e953e-9f1e-078f-aff8-82adeb297d07 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4957\">https://acervo.casadochoro.com.br/works/view/4957</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

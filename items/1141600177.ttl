@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1141600177> a melod:Item;
+    rdfs:label "Jeca Tatu — Partitura piano (score_2963)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1621710717>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2dbe5da5-dd7e-39bd-3917-932433ca4819;
+    melod:hasShelfmark "score_2963";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2963.pdf>;
+    melod:hasHand _:bed0828da-51b2-53f1-2f03-046699292941;
+    melod:hasProvenance _:b5c0b6352-060c-5866-07df-481355409462;
+    dct:conformsTo melod:Item.
+
+_:b2dbe5da5-dd7e-39bd-3917-932433ca4819 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2963".
+
+_:bed0828da-51b2-53f1-2f03-046699292941 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b5c0b6352-060c-5866-07df-481355409462 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:ba81d783a-f2e8-946c-8a70-c8adb48a080e.
+
+_:ba81d783a-f2e8-946c-8a70-c8adb48a080e a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

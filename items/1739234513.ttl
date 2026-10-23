@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1739234513> a melod:Item;
+    rdfs:label "Indo pra Ibitipoca — Partitura melodia e cifra (score_9847)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1662968294>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b103ce4ca-c9f0-5ab9-8810-c3a2c3db9ed6;
+    melod:hasShelfmark "score_9847";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9847.pdf>;
+    melod:hasProvenance _:b724c2505-a35c-aed2-7ebf-185ba9a01d22;
+    dct:conformsTo melod:Item.
+
+_:b103ce4ca-c9f0-5ab9-8810-c3a2c3db9ed6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9847".
+
+_:b724c2505-a35c-aed2-7ebf-185ba9a01d22 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bbfdafc74-9294-8ec2-05ec-496768ab038e.
+
+_:bbfdafc74-9294-8ec2-05ec-496768ab038e a melod:ExactDate;
+    melod:isodate "2001-12-10"^^xsd:date;
+    schema:description "10.12.2001".

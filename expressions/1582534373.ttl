@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1582534373> a melod:Expression;
+    rdfs:label "Jesuína (arrangement by Jayme Vignoli, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b758111a1-c09d-0b78-ac87-e1c09d6e95b2;
+    melod:hasContribution _:bb60b7c5e-fc20-cdda-11f1-fd8ae59767b7;
+    dct:conformsTo melod:Expression.
+
+_:b758111a1-c09d-0b78-ac87-e1c09d6e95b2 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:bb60b7c5e-fc20-cdda-11f1-fd8ae59767b7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1114549214>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

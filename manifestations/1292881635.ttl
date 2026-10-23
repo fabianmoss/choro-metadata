@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1292881635> a melod:Manifestation;
+    melod:hasTitle _:ba26da425-8c36-e258-d86c-b1b18358ef51;
+    lrmoo:R4_embodies <urn:uuid:expressions/1573281263>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra funcional", terms:Print;
+    melod:hasContribution _:bcefbca11-0113-d432-f72b-218e289183aa;
+    schema:publication _:b9351c8dc-cc46-ad15-112d-66274809b88d;
+    dct:conformsTo melod:Manifestation.
+
+_:ba26da425-8c36-e258-d86c-b1b18358ef51 a melod:Title;
+    rdfs:label "Já vais chorar? — Partitura melodia e cifra funcional (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bcefbca11-0113-d432-f72b-218e289183aa a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b9351c8dc-cc46-ad15-112d-66274809b88d a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

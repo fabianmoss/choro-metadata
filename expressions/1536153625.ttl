@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1536153625> a melod:Expression;
+    rdfs:label "Laços de amor (arrangement by Anna Paes, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b6f199a3d-5d03-3351-5a47-0a1cc123e526;
+    melod:hasContribution _:b0aa4c85e-0739-8164-5d27-5c7818766afd;
+    dct:conformsTo melod:Expression.
+
+_:b6f199a3d-5d03-3351-5a47-0a1cc123e526 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b0aa4c85e-0739-8164-5d27-5c7818766afd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1265036441>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

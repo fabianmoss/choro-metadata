@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1053903251> a melod:Work;
+    melod:hasTitle _:b4813b982-8e64-2345-acd6-a4d0c84ebaca;
+    melod:hasIdentifier _:bc340e436-37c5-2ace-eef7-784b36a151ff;
+    melod:hasClassification "Estudo para Concerto";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3617>;
+    melod:hasContribution _:b9cb1ba9a-16b0-5aaa-398a-553f4f1af80d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1530751448>;
+    melod:hasAnnotation _:b33075041-0a62-97fd-bf1b-301990b3d26a;
+    dct:conformsTo melod:Work.
+
+_:b4813b982-8e64-2345-acd6-a4d0c84ebaca a melod:Title;
+    rdfs:label "Improviso"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc340e436-37c5-2ace-eef7-784b36a151ff a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3617".
+
+_:b9cb1ba9a-16b0-5aaa-398a-553f4f1af80d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b33075041-0a62-97fd-bf1b-301990b3d26a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3617\">https://acervo.casadochoro.com.br/works/view/3617</a>. Gênero: Estudo para Concerto. Compasso: 3/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1884477003> a melod:Work;
+    melod:hasTitle _:b178a50d6-e42b-878d-2793-d240785603de;
+    melod:hasIdentifier _:bb83a7635-499d-8bcd-68ce-00dca6442093;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9040>;
+    melod:hasContribution _:be8bccafe-587d-2c17-aa56-57b9a219a08b;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1623646184>;
+    melod:hasAnnotation _:b1fab0491-428f-e44d-96e6-be2558e1b651;
+    dct:conformsTo melod:Work.
+
+_:b178a50d6-e42b-878d-2793-d240785603de a melod:Title;
+    rdfs:label "Invocando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb83a7635-499d-8bcd-68ce-00dca6442093 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9040".
+
+_:be8bccafe-587d-2c17-aa56-57b9a219a08b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1fab0491-428f-e44d-96e6-be2558e1b651 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9040\">https://acervo.casadochoro.com.br/works/view/9040</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

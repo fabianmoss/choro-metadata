@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1045702601> a melod:Work;
+    melod:hasTitle _:b8d636e29-70b6-7c96-baaa-81d462e39044;
+    melod:hasIdentifier _:bdb7768ae-6973-7abb-8fae-74bde7c28efe;
+    melod:hasClassification "Fantasia";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6474>;
+    melod:hasContribution _:b20904b24-ee1a-479c-637d-447b5d3780d2;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1715568061>;
+    melod:hasAnnotation _:b4e937329-5b62-c772-57c9-8fe66f5257d4;
+    dct:conformsTo melod:Work.
+
+_:b8d636e29-70b6-7c96-baaa-81d462e39044 a melod:Title;
+    rdfs:label "Jardins da primavera (fantasia nº1)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bdb7768ae-6973-7abb-8fae-74bde7c28efe a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6474".
+
+_:b20904b24-ee1a-479c-637d-447b5d3780d2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1120853005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4e937329-5b62-c772-57c9-8fe66f5257d4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6474\">https://acervo.casadochoro.com.br/works/view/6474</a>. Gênero: Fantasia. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

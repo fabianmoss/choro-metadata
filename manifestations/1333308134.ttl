@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1333308134> a melod:Manifestation;
+    melod:hasTitle _:b95e01fad-b479-c2c8-c75e-d3927ee914e3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1530751448>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b9009cb2c-a528-266a-0f0c-aa9bd1783d27;
+    dct:conformsTo melod:Manifestation.
+
+_:b95e01fad-b479-c2c8-c75e-d3927ee914e3 a melod:Title;
+    rdfs:label "Improviso — Partitura piano (edition Sampaio Araújo & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9009cb2c-a528-266a-0f0c-aa9bd1783d27 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1206727235>;
+    melod:hasRole terms:Publisher.

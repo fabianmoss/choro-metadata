@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1338948525> a melod:Item;
+    rdfs:label "Implorando — Partitura melodia (score_1088)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1635181663>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2f188b1a-fc91-1fe1-1f13-09069dccdfe1;
+    melod:hasShelfmark "score_1088";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1088.pdf>;
+    melod:hasHand _:b20e5b4d2-4c8c-95a0-7178-9853843845f0;
+    melod:hasProvenance _:bff1bd326-50dd-c8e3-3e4e-b037aca62e5c;
+    dct:conformsTo melod:Item.
+
+_:b2f188b1a-fc91-1fe1-1f13-09069dccdfe1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1088".
+
+_:b20e5b4d2-4c8c-95a0-7178-9853843845f0 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bff1bd326-50dd-c8e3-3e4e-b037aca62e5c a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b607ea309-d087-ff64-415d-7ef76fc39290.
+
+_:b607ea309-d087-ff64-415d-7ef76fc39290 a melod:ExactDate;
+    melod:isodate "1936-04-20"^^xsd:date;
+    schema:description "20.04.1936".

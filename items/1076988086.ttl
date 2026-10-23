@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1076988086> a melod:Item;
+    rdfs:label "L'ultima neve di primavera — Partitura melodia e cifra (score_11108)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1242545825>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf352af9c-9176-307a-d375-6b79b0a781de;
+    melod:hasShelfmark "score_11108";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11108.pdf>;
+    melod:hasProvenance _:b22527ce1-fce3-fed8-ea0f-eb15763d1f2c;
+    dct:conformsTo melod:Item.
+
+_:bf352af9c-9176-307a-d375-6b79b0a781de a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11108".
+
+_:b22527ce1-fce3-fed8-ea0f-eb15763d1f2c a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b249537c2-02e8-aa36-52d1-bfc33bd328cf.
+
+_:b249537c2-02e8-aa36-52d1-bfc33bd328cf a melod:ExactDate;
+    melod:isodate "1977-05-07"^^xsd:date;
+    schema:description "07.05.1977".

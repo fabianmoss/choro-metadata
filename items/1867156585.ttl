@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1867156585> a melod:Item;
+    rdfs:label "Inspirada — Partitura melodia (score_5995)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1189203663>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:baac7fd18-af34-97fe-9ccb-91b63b0acbd8;
+    melod:hasShelfmark "score_5995";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5995.pdf>;
+    melod:hasHand _:bec0baa55-aa90-e77f-477e-6ba4f66818d5;
+    melod:hasProvenance _:be70ee5dd-5b7b-5db0-8eca-939b097bdf6d;
+    dct:conformsTo melod:Item.
+
+_:baac7fd18-af34-97fe-9ccb-91b63b0acbd8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5995".
+
+_:bec0baa55-aa90-e77f-477e-6ba4f66818d5 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1549644372>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por J. J. Souza".
+
+_:be70ee5dd-5b7b-5db0-8eca-939b097bdf6d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b31013d7c-3b1e-8401-a3fe-243b047181bd.
+
+_:b31013d7c-3b1e-8401-a3fe-243b047181bd a melod:ExactDate;
+    melod:isodate "1909-07-03"^^xsd:date;
+    schema:description "03.07.1909".

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1456143580> a melod:Work;
+    melod:hasTitle _:ba0777d35-3b8f-d419-2614-08b208a5abbe;
+    melod:hasIdentifier _:b1f04da11-62c7-eecd-e3b6-663627b82c88;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1761>;
+    melod:hasContribution _:b2c0cd463-ccca-0637-084e-2ca171c137ef;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1371287360>, <urn:uuid:expressions/1523976597>;
+    melod:hasAnnotation _:bf489e6f1-3ee1-dcc2-89d3-8c976b1b5f4b;
+    dct:conformsTo melod:Work.
+
+_:ba0777d35-3b8f-d419-2614-08b208a5abbe a melod:Title;
+    rdfs:label "Lágrimas de saudades"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1f04da11-62c7-eecd-e3b6-663627b82c88 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1761".
+
+_:b2c0cd463-ccca-0637-084e-2ca171c137ef a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1498051596>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf489e6f1-3ee1-dcc2-89d3-8c976b1b5f4b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1761\">https://acervo.casadochoro.com.br/works/view/1761</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

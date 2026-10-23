@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1726991261> a melod:Manifestation;
+    melod:hasTitle _:b54b45bde-c218-a625-d3e7-aa0e17b7b82e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1715568061>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:b50d28935-6bf9-8c35-5418-be07ed80c0fa;
+    dct:conformsTo melod:Manifestation.
+
+_:b54b45bde-c218-a625-d3e7-aa0e17b7b82e a melod:Title;
+    rdfs:label "Jardins da primavera (fantasia nº1) — Partitura arranjo (edition Fundação José Augusto)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b50d28935-6bf9-8c35-5418-be07ed80c0fa a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1756135658>;
+    melod:hasRole terms:Publisher.

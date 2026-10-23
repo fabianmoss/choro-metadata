@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1174433266> a melod:Work;
+    melod:hasTitle _:b1fa11304-eb48-3eef-45f4-e3943b440f1d;
+    melod:hasIdentifier _:b12016863-9196-cb17-2d78-82911cd17965;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/847>;
+    melod:hasContribution _:b0c4c5d2f-e9e4-c350-c1b6-411ff9166a75;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1089460097>, <urn:uuid:expressions/1401841898>;
+    melod:hasAnnotation _:b279bffe1-9490-733c-f3f2-073e41138475;
+    dct:conformsTo melod:Work.
+
+_:b1fa11304-eb48-3eef-45f4-e3943b440f1d a melod:Title;
+    rdfs:label "Juvenil"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b12016863-9196-cb17-2d78-82911cd17965 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "847".
+
+_:b0c4c5d2f-e9e4-c350-c1b6-411ff9166a75 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b279bffe1-9490-733c-f3f2-073e41138475 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/847\">https://acervo.casadochoro.com.br/works/view/847</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

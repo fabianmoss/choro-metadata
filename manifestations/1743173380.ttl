@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1743173380> a melod:Manifestation;
+    melod:hasTitle _:b57ef21be-c625-08df-7622-38ed08d139e3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1435407192>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bb231b081-19ac-a2ef-9bc2-5039cba3e975;
+    dct:conformsTo melod:Manifestation.
+
+_:b57ef21be-c625-08df-7622-38ed08d139e3 a melod:Title;
+    rdfs:label "Jane — Partitura piano (edition Castro Lima & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb231b081-19ac-a2ef-9bc2-5039cba3e975 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1222262872>;
+    melod:hasRole terms:Publisher.

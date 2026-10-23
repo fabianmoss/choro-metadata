@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1516209207> a melod:Item;
+    rdfs:label "Ilka — Partitura cifra (score_11115)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1884885053>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b88f1648c-ecb3-750b-fdb1-cb945f3f6a83;
+    melod:hasShelfmark "score_11115";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11115.pdf>;
+    melod:hasHand _:b90912cb5-23ac-6176-7fe2-6607acded439;
+    dct:conformsTo melod:Item.
+
+_:b88f1648c-ecb3-750b-fdb1-cb945f3f6a83 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11115".
+
+_:b90912cb5-23ac-6176-7fe2-6607acded439 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

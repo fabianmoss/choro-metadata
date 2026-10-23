@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1475567502> a melod:Work;
+    melod:hasTitle _:bc9a142d1-2086-5107-f65b-f34f6d4eed9b;
+    melod:hasIdentifier _:b4d0b9987-751f-e697-bce2-06bc6660a933;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4197>;
+    melod:hasContribution _:bdb34f0c1-9bfa-b334-b227-4800e584c7fb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1668356570>, <urn:uuid:expressions/1269765546>;
+    melod:hasAnnotation _:b9ab946b7-0518-b71b-7656-9d21e516805b;
+    dct:conformsTo melod:Work.
+
+_:bc9a142d1-2086-5107-f65b-f34f6d4eed9b a melod:Title;
+    rdfs:label "Introduction et variations brillantes sur le thême du Carneval de Venise"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4d0b9987-751f-e697-bce2-06bc6660a933 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4197".
+
+_:bdb34f0c1-9bfa-b334-b227-4800e584c7fb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1636314549>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9ab946b7-0518-b71b-7656-9d21e516805b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4197\">https://acervo.casadochoro.com.br/works/view/4197</a>. Gênero: Não informado. Compasso: 3/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

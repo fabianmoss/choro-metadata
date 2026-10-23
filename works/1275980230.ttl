@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1275980230> a melod:Work;
+    melod:hasTitle _:bd2622d3c-124d-9a7c-b6e8-8926d3edaad1;
+    melod:hasIdentifier _:b59138b12-d675-5f6f-75f6-4288151f2537;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7906>;
+    melod:hasContribution _:ba4bf5346-bd96-01a0-a13d-8779aa7481e1;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1388923986>;
+    melod:hasAnnotation _:bf8ee2a70-1c97-75f0-bdfe-d56313b6f0ba;
+    dct:conformsTo melod:Work.
+
+_:bd2622d3c-124d-9a7c-b6e8-8926d3edaad1 a melod:Title;
+    rdfs:label "L'ultima neve di primavera"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b59138b12-d675-5f6f-75f6-4288151f2537 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7906".
+
+_:ba4bf5346-bd96-01a0-a13d-8779aa7481e1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1048067239>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf8ee2a70-1c97-75f0-bdfe-d56313b6f0ba a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7906\">https://acervo.casadochoro.com.br/works/view/7906</a>. Gênero: Não informado. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

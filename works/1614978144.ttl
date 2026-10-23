@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1614978144> a melod:Work;
+    melod:hasTitle _:bdab46ad0-08ba-1a66-521f-31f5c1ef5fd0;
+    melod:hasIdentifier _:b24268453-e079-edae-b1e2-65baeade4b8c;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5703>;
+    melod:hasContribution _:be80fd728-4c57-4f46-e853-0bffbd6cc572;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1015393634>;
+    melod:hasAnnotation _:b53397be1-7d9a-d8c4-984e-729838db6292;
+    dct:conformsTo melod:Work.
+
+_:bdab46ad0-08ba-1a66-521f-31f5c1ef5fd0 a melod:Title;
+    rdfs:label "Lá vem mangueira/Cabo Laurindo/Comicio em mangueira"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b24268453-e079-edae-b1e2-65baeade4b8c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5703".
+
+_:be80fd728-4c57-4f46-e853-0bffbd6cc572 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1112306431>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b53397be1-7d9a-d8c4-984e-729838db6292 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5703\">https://acervo.casadochoro.com.br/works/view/5703</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

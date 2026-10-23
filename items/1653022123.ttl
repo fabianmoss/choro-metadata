@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1653022123> a melod:Item;
+    rdfs:label "Lágrima de Marte — Partitura melodia (score_1944)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1133455205>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2dff60ca-9325-ea56-3630-ccc8370f0b66;
+    melod:hasShelfmark "score_1944";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1944.pdf>;
+    melod:hasHand _:bd4a7bf75-b6ba-48a4-c4b4-2e148250b753;
+    dct:conformsTo melod:Item.
+
+_:b2dff60ca-9325-ea56-3630-ccc8370f0b66 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1944".
+
+_:bd4a7bf75-b6ba-48a4-c4b4-2e148250b753 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1096286736>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theodoro Aguilar".

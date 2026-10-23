@@ -32,6 +32,10 @@
 <urn:uuid:institutions/1040063878> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biblioteca Fernando Amaral" .
 <urn:uuid:institutions/1040714476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1040714476> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Guitarra de Prata" .
+<urn:uuid:institutions/1043686560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1043686560> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secretaria Geral de Educação e Cultura - Prefeitura D.F" .
+<urn:uuid:institutions/1046428313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1046428313> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adolf Kunz" .
 <urn:uuid:institutions/1047062986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1047062986> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sociedade Artística Internacional" .
 <urn:uuid:institutions/1048465894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -72,6 +76,8 @@
 <urn:uuid:institutions/1088288338> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro Tomassi" .
 <urn:uuid:institutions/1089895064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1089895064> <http://www.w3.org/2004/02/skos/core#prefLabel> "DeRosa" .
+<urn:uuid:institutions/1090325397> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1090325397> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sociedade Brasileira de Autores Teatrais" .
 <urn:uuid:institutions/1093013466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1093013466> <http://www.w3.org/2004/02/skos/core#prefLabel> "Préalle & Cia" .
 <urn:uuid:institutions/1094092957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -80,6 +86,8 @@
 <urn:uuid:institutions/1094800454> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edições Cembra" .
 <urn:uuid:institutions/1094875110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1094875110> <http://www.w3.org/2004/02/skos/core#prefLabel> "pelo autor" .
+<urn:uuid:institutions/1102578442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1102578442> <http://www.w3.org/2004/02/skos/core#prefLabel> "Todamérica Música Ltda" .
 <urn:uuid:institutions/1102747879> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1102747879> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casa Vieira Machado" .
 <urn:uuid:institutions/1104160097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -106,8 +114,12 @@
 <urn:uuid:institutions/1116637535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edição ARS" .
 <urn:uuid:institutions/1117713342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1117713342> <http://www.w3.org/2004/02/skos/core#prefLabel> "A.R.S" .
+<urn:uuid:institutions/1126434099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1126434099> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos J. Wehrs & Cia" .
 <urn:uuid:institutions/1126899734> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1126899734> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mangione S.A" .
+<urn:uuid:institutions/1129070032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1129070032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casa Barreto" .
 <urn:uuid:institutions/1129352787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1129352787> <http://www.w3.org/2004/02/skos/core#prefLabel> "Semanário Humorístico" .
 <urn:uuid:institutions/1133560579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -160,6 +172,8 @@
 <urn:uuid:institutions/1207594786> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lambertini" .
 <urn:uuid:institutions/1209026346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1209026346> <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Hollende" .
+<urn:uuid:institutions/1211234631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1211234631> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choudens" .
 <urn:uuid:institutions/1213797432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1213797432> <http://www.w3.org/2004/02/skos/core#prefLabel> "CEMB - Casa Editora Musical Brasileira" .
 <urn:uuid:institutions/1216146320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -267,6 +281,8 @@
 <urn:uuid:institutions/1378992545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Victor Prèalle" .
 <urn:uuid:institutions/1379696016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1379696016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Antonio Guimarães" .
+<urn:uuid:institutions/1381254478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1381254478> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santos, Silveira & C" .
 <urn:uuid:institutions/1383559540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1383559540> <http://www.w3.org/2004/02/skos/core#prefLabel> "EULENSTEIN MÚSICA S.A" .
 <urn:uuid:institutions/1384331214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -309,6 +325,8 @@
 <urn:uuid:institutions/1412862412> <http://www.w3.org/2004/02/skos/core#prefLabel> "Préalle & Comp" .
 <urn:uuid:institutions/1414122840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1414122840> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pereira & Araújo" .
+<urn:uuid:institutions/1418595725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1418595725> <http://www.w3.org/2004/02/skos/core#prefLabel> "Viúva Fillipone" .
 <urn:uuid:institutions/1426051842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1426051842> <http://www.w3.org/2004/02/skos/core#prefLabel> "Editions Salabert S/A" .
 <urn:uuid:institutions/1430658729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -355,6 +373,8 @@
 <urn:uuid:institutions/1501362299> <http://www.w3.org/2004/02/skos/core#prefLabel> "C.E.M.B.S" .
 <urn:uuid:institutions/1505138759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1505138759> <http://www.w3.org/2004/02/skos/core#prefLabel> "BME" .
+<urn:uuid:institutions/1514352249> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1514352249> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Antonio Guerreiro" .
 <urn:uuid:institutions/1520843723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1520843723> <http://www.w3.org/2004/02/skos/core#prefLabel> "L. Levy & Irmãos" .
 <urn:uuid:institutions/1522548084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -385,10 +405,16 @@
 <urn:uuid:institutions/1549339200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quaresma & Cia" .
 <urn:uuid:institutions/1549696603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1549696603> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prèalle & Comp. (coleção C. Guerra Peixe)" .
+<urn:uuid:institutions/1550944787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1550944787> <http://www.w3.org/2004/02/skos/core#prefLabel> "G. Ricordi & Co" .
 <urn:uuid:institutions/1557110577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1557110577> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edição Bevilacqua" .
+<urn:uuid:institutions/1559822802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1559822802> <http://www.w3.org/2004/02/skos/core#prefLabel> "André A. da Costa" .
 <urn:uuid:institutions/1562383696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1562383696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brazilian Music Enterprises" .
+<urn:uuid:institutions/1566959259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1566959259> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fertin de Vasconcellos, Morand & C" .
 <urn:uuid:institutions/1568771155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1568771155> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thierry F" .
 <urn:uuid:institutions/1574160984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -447,10 +473,14 @@
 <urn:uuid:institutions/1677863612> <http://www.w3.org/2004/02/skos/core#prefLabel> "I. M. L" .
 <urn:uuid:institutions/1685886416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1685886416> <http://www.w3.org/2004/02/skos/core#prefLabel> "C.E.M.B S.Paulo" .
+<urn:uuid:institutions/1692698171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1692698171> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lombaerts & C" .
 <urn:uuid:institutions/1694029657> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1694029657> <http://www.w3.org/2004/02/skos/core#prefLabel> "Narciso & C" .
 <urn:uuid:institutions/1704358312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1704358312> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buschmann, Guimarães & Irmãos" .
+<urn:uuid:institutions/1705812888> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1705812888> <http://www.w3.org/2004/02/skos/core#prefLabel> "V. Durdilly" .
 <urn:uuid:institutions/1709774756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1709774756> <http://www.w3.org/2004/02/skos/core#prefLabel> "I. Bevilacqua & C" .
 <urn:uuid:institutions/1712305143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -479,6 +509,8 @@
 <urn:uuid:institutions/1751621554> <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Bevilacqua & C" .
 <urn:uuid:institutions/1752992028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1752992028> <http://www.w3.org/2004/02/skos/core#prefLabel> "C. Abreu" .
+<urn:uuid:institutions/1756135658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1756135658> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fundação José Augusto" .
 <urn:uuid:institutions/1759206735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1759206735> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. S. N" .
 <urn:uuid:institutions/1759358639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -513,6 +545,8 @@
 <urn:uuid:institutions/1799829116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Editora Litero Musical Tupy Ltda" .
 <urn:uuid:institutions/1800577424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1800577424> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secção Chopin - Cordas para instrumentos musicais" .
+<urn:uuid:institutions/1804767203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1804767203> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chiquinha Gonzaga para a 1a série Canções Brasileiras" .
 <urn:uuid:institutions/1820927141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1820927141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buschamann & Guimarães" .
 <urn:uuid:institutions/1833313710> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -523,6 +557,8 @@
 <urn:uuid:institutions/1835748786> <http://www.w3.org/2004/02/skos/core#prefLabel> "Viúva Guerreiro & Cia" .
 <urn:uuid:institutions/1838559649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1838559649> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ernesto Augusto Mattos" .
+<urn:uuid:institutions/1844421315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1844421315> <http://www.w3.org/2004/02/skos/core#prefLabel> "C.M.M.A" .
 <urn:uuid:institutions/1844549585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1844549585> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pará-Brazil" .
 <urn:uuid:institutions/1846512213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
@@ -541,6 +577,8 @@
 <urn:uuid:institutions/1870692715> <http://www.w3.org/2004/02/skos/core#prefLabel> "The Composers Press" .
 <urn:uuid:institutions/1878556301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1878556301> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. J. de Azevedo" .
+<urn:uuid:institutions/1880273533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
+<urn:uuid:institutions/1880273533> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo Souto & C" .
 <urn:uuid:institutions/1885600819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .
 <urn:uuid:institutions/1885600819> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sociedade Mútua de Pecúlios e Crédito Popular" .
 <urn:uuid:institutions/1886020917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstitutionEntity> .

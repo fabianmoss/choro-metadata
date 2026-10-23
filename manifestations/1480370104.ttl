@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1480370104> a melod:Manifestation;
+    melod:hasTitle _:b835217c2-3109-8dd1-3773-de1b74c4a33b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1178979626>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bfecfc9b8-bef2-e0f1-0963-3a8b356f9700;
+    dct:conformsTo melod:Manifestation.
+
+_:b835217c2-3109-8dd1-3773-de1b74c4a33b a melod:Title;
+    rdfs:label "Lá vai obra — Partitura piano (edition Narciso & Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bfecfc9b8-bef2-e0f1-0963-3a8b356f9700 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1384331214>;
+    melod:hasRole terms:Publisher.

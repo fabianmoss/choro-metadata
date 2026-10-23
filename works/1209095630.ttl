@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1209095630> a melod:Work;
+    melod:hasTitle _:b94e30b1e-69a7-4f73-398c-c4057f35efa6;
+    melod:hasIdentifier _:b85a8ba8a-6895-0169-3fb5-8a678ad2c964;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1346>;
+    melod:hasContribution _:b3332d316-3c8b-3812-b413-f9a3ae6b6449;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1659374599>, <urn:uuid:expressions/1808986997>;
+    melod:hasAnnotation _:b5db00f23-6d13-71a9-c628-f68202125265;
+    dct:conformsTo melod:Work.
+
+_:b94e30b1e-69a7-4f73-398c-c4057f35efa6 a melod:Title;
+    rdfs:label "Jovial"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b85a8ba8a-6895-0169-3fb5-8a678ad2c964 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1346".
+
+_:b3332d316-3c8b-3812-b413-f9a3ae6b6449 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1528821735>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b5db00f23-6d13-71a9-c628-f68202125265 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1346\">https://acervo.casadochoro.com.br/works/view/1346</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.
