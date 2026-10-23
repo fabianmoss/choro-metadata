@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choro acervo graph</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="brand">
+      <span class="brand-mark">◈</span>
+      <div>
+        <h1>Choro acervo graph</h1>
+        <p>FRBR hierarchy · drag nodes · double-click to collapse or expand</p>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <label class="visually-hidden" for="search">Search an entity</label>
+      <input id="search" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search a person, work, title…">
+      <div id="search-results" class="search-results" hidden></div>
+    </div>
+
+    <div class="actions">
+      <button id="expand-all" type="button">Expand all</button>
+      <button id="collapse-all" type="button">Collapse all</button>
+      <button id="fit" type="button">Fit</button>
+      <label class="check">
+        <input id="show-cross-links" type="checkbox" checked>
+        Cross-links
+      </label>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <section class="graph-pane" aria-label="Graph">
+      <svg id="graph" role="img" aria-label="FRBR hierarchy graph">
+        <defs>
+          <marker id="arrow-tree" viewBox="0 -5 10 10" refX="9" refY="0"
+                  markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+            <path d="M0,-5L10,0L0,5" fill="#8a6d3b"></path>
+          </marker>
+          <marker id="arrow-cross" viewBox="0 -5 10 10" refX="9" refY="0"
+                  markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,-5L10,0L0,5" fill="#a4a4a4"></path>
+          </marker>
+        </defs>
+        <g id="viewport"></g>
+      </svg>
+      <div id="status" class="status" role="status"></div>
+      <div class="legend" aria-label="Legend">
+        <span><i class="swatch person"></i>Person</span>
+        <span><i class="swatch work"></i>Work</span>
+        <span><i class="swatch expression"></i>Expression</span>
+        <span><i class="swatch manifestation"></i>Manifestation</span>
+        <span><i class="swatch item"></i>Item</span>
+        <span class="legend-note">Solid: hierarchy · dashed: cross-link · arrows follow RDF direction</span>
+      </div>
+    </section>
+
+    <aside id="details" class="details" aria-label="Entity details">
+      <div class="empty-details">
+        <h2>Select a node</h2>
+        <p>Click a node to read its complete Turtle record. Use the search box to start from any person or work.</p>
+      </div>
+    </aside>
+  </main>
+
+  <noscript>This viewer needs JavaScript.</noscript>
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="vendor/n3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -64,6 +64,22 @@ document with two types on the entity IRI, and the `*Entity` classes belong to
 the generated indexes only.  `npm test` enforces this contract as well; see
 § 4.12 of [docs/acervo-model.md](docs/acervo-model.md).
 
+## Local graph viewer
+
+The repository also contains a local interactive graph viewer in `viewer/`.
+It shows the hierarchy from a Person or a Work, follows the FRBR chain through
+expressions and manifestations to items, and displays all other relationships
+as cross-links.  Start it with:
+
+```bash
+python3 tools/viewer_data.py
+python3 -m http.server 8000
+```
+
+Then open <http://localhost:8000/viewer/>.  Click a node for its complete
+record, double-click to collapse or expand, and drag nodes to arrange them.
+The viewer is documented in [viewer/README.md](viewer/README.md).
+
 
 ## Data Validation
 
