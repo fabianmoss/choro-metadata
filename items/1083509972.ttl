@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1083509972> a melod:Item;
     rdfs:label "Ata ICC — Partitura documentos (score_16014)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1885681607>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1885284524>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba5e72d5b-09cb-342b-77a1-c749325ab8fa;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1095638772> a melod:Item;
     rdfs:label "Bicho de pé — Partitura melodia e cifra (score_8893)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1528571456>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1503733269>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd1c003aa-e9f1-baf0-f1ca-7f8d20290502;

@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1276217434> a melod:Item;
     rdfs:label "A alegria do coração — Partitura piano (score_4039)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1292281095>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1320971613>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4f00696d-61e0-7741-4a6a-903fce41388e;
     melod:hasShelfmark "score_4039";

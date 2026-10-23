@@ -26,4 +26,6 @@ _:ba8a95200-0091-2a50-7066-e2f7a87b17f7 a melod:InstrumentationDetail;
 _:b6c4327ea-a59d-4c4e-85de-e925bee4769f a melod:InstrumentationDetail;
     schema:position "2"^^xsd:integer;
     schema:description "bandoleom";
+    mus:U2_foresees_use_of_medium_of_performance terms:Mandolin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#td>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

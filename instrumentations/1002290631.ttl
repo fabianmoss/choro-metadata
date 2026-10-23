@@ -47,6 +47,8 @@ _:bf08fc0a6-5e34-947e-0191-19d41e80cf6b a melod:InstrumentationDetail;
 _:bcad89612-1a04-dd4c-95d7-cd6aec6d4947 a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "clarinete A";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:be0feed62-41e3-ef26-d627-417872e3ed4e a melod:InstrumentationDetail;

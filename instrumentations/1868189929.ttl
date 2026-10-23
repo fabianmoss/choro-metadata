@@ -145,4 +145,6 @@ _:b5b888d17-3ad9-4ece-8102-9b8d8463b65a a melod:InstrumentationDetail;
 _:bd4cd4483-b935-c298-122d-e53246e7ef35 a melod:InstrumentationDetail;
     schema:position "19"^^xsd:integer;
     schema:description "violão solo";
+    mus:U2_foresees_use_of_medium_of_performance terms:Guitar;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#tb>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

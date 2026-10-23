@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1733683327> a melod:Item;
     rdfs:label "Apetitosa — Partitura melodia (score_1955)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1491030472>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1291722806>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcc855974-6b1f-a4e8-7bac-0f24b6922694;
     melod:hasShelfmark "score_1955";

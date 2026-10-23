@@ -74,4 +74,6 @@ _:b0ad53a7b-502d-7b46-f3d4-46ccc0d69160 a melod:InstrumentationDetail;
 _:b964cb5f1-9f25-06db-869a-17ea3e7176de a melod:InstrumentationDetail;
     schema:position "9"^^xsd:integer;
     schema:description "trompas";
+    mus:U2_foresees_use_of_medium_of_performance terms:Horn;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ba>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

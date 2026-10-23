@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1303362731> a melod:Item;
+    rdfs:label "Choropolkeado — Partitura melodia (score_8535)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1740225344>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b1a82da3b-ba51-b6fc-bd8d-d56e78463542;
+    melod:hasShelfmark "score_8535";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8535.pdf>;
+    melod:hasHand _:b1a7e9c4a-b418-cbb3-3bf9-557e8b06185c;
+    melod:hasProvenance _:b713d8baf-16dc-734f-2940-66b849dec07d;
+    dct:conformsTo melod:Item.
+
+_:b1a82da3b-ba51-b6fc-bd8d-d56e78463542 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8535".
+
+_:b1a7e9c4a-b418-cbb3-3bf9-557e8b06185c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1078561496>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Adalberto Cavalcante (Beto do Bandolim)".
+
+_:b713d8baf-16dc-734f-2940-66b849dec07d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9f65f3da-3ade-026e-3063-95421f4dc65e.
+
+_:b9f65f3da-3ade-026e-3063-95421f4dc65e a melod:ExactDate;
+    melod:isodate "2002-02-24"^^xsd:date;
+    schema:description "24.02.2002".

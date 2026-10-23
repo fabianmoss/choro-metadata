@@ -13,6 +13,11 @@
 <urn:uuid:works/1001696105> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bambolêo" .
 <urn:uuid:works/1001696105> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1737401418> .
 <urn:uuid:works/1001696105> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
+<urn:uuid:works/1001772157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1001772157> <http://www.w3.org/2004/02/skos/core#broader> "Baião Ciranda" .
+<urn:uuid:works/1001772157> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cirandeiro" .
+<urn:uuid:works/1001772157> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1466143752> .
+<urn:uuid:works/1001772157> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1261983240> .
 <urn:uuid:works/1001912407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1001912407> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
 <urn:uuid:works/1001912407> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cantores de rádio" .
@@ -265,6 +270,12 @@
 <urn:uuid:works/1018860237> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anacleto de Medeiros" .
 <urn:uuid:works/1018860237> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1530973236> .
 <urn:uuid:works/1018860237> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1019109880> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1019109880> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1019109880> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco de abril" .
+<urn:uuid:works/1019109880> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1037880874> .
+<urn:uuid:works/1019109880> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1377177557> .
+<urn:uuid:works/1019109880> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1219807451> .
 <urn:uuid:works/1019473549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1019473549> <http://www.w3.org/2004/02/skos/core#broader> "Quadrilha" .
 <urn:uuid:works/1019473549> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnaval de 1867" .
@@ -417,6 +428,11 @@
 <urn:uuid:works/1030274800> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bola na trave" .
 <urn:uuid:works/1030274800> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1536634971> .
 <urn:uuid:works/1030274800> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1569167162> .
+<urn:uuid:works/1030440015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1030440015> <http://www.w3.org/2004/02/skos/core#broader> "Choro Canção" .
+<urn:uuid:works/1030440015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro-canção" .
+<urn:uuid:works/1030440015> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1646710624> .
+<urn:uuid:works/1030440015> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1001342905> .
 <urn:uuid:works/1030756715> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1030756715> <http://www.w3.org/2004/02/skos/core#broader> "Mazurca" .
 <urn:uuid:works/1030756715> <http://www.w3.org/2004/02/skos/core#prefLabel> "A brilhante aurora" .
@@ -631,6 +647,11 @@
 <urn:uuid:works/1047232047> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro" .
 <urn:uuid:works/1047232047> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1664218596> .
 <urn:uuid:works/1047232047> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1543654470> .
+<urn:uuid:works/1047983367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1047983367> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1047983367> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chumbita" .
+<urn:uuid:works/1047983367> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1785385333> .
+<urn:uuid:works/1047983367> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1569705837> .
 <urn:uuid:works/1048792171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1048792171> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
 <urn:uuid:works/1048792171> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinho Toccatina" .
@@ -878,6 +899,11 @@
 <urn:uuid:works/1072081685> <http://www.w3.org/2004/02/skos/core#prefLabel> "Café do comércio" .
 <urn:uuid:works/1072081685> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1124353677> .
 <urn:uuid:works/1072081685> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1632981112> .
+<urn:uuid:works/1072148531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1072148531> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1072148531> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de pérolas" .
+<urn:uuid:works/1072148531> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1094173513> .
+<urn:uuid:works/1072148531> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1802837359> .
 <urn:uuid:works/1072322956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1072322956> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
 <urn:uuid:works/1072322956> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bouquet de noiva" .
@@ -919,6 +945,11 @@
 <urn:uuid:works/1074581838> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriguinha de freira" .
 <urn:uuid:works/1074581838> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1419681254> .
 <urn:uuid:works/1074581838> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1074833204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1074833204> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1074833204> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinzas no coração" .
+<urn:uuid:works/1074833204> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1612415254> .
+<urn:uuid:works/1074833204> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
 <urn:uuid:works/1074959345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1074959345> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1074959345> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao som dos violões" .
@@ -976,6 +1007,12 @@
 <urn:uuid:works/1080263185> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinho" .
 <urn:uuid:works/1080263185> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1212898465> .
 <urn:uuid:works/1080263185> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1587836764> .
+<urn:uuid:works/1081356301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1081356301> <http://www.w3.org/2004/02/skos/core#broader> "Choro Canção" .
+<urn:uuid:works/1081356301> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Luizinho" .
+<urn:uuid:works/1081356301> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1072918014> .
+<urn:uuid:works/1081356301> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1266008399> .
+<urn:uuid:works/1081356301> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1284668412> .
 <urn:uuid:works/1081509280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1081509280> <http://www.w3.org/2004/02/skos/core#broader> "Samba" .
 <urn:uuid:works/1081509280> <http://www.w3.org/2004/02/skos/core#prefLabel> "Benguelê" .
@@ -1048,6 +1085,12 @@
 <urn:uuid:works/1087261095> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1424069208> .
 <urn:uuid:works/1087261095> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1759021189> .
 <urn:uuid:works/1087261095> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1219302179> .
+<urn:uuid:works/1087291219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1087291219> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
+<urn:uuid:works/1087291219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinza" .
+<urn:uuid:works/1087291219> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1461650675> .
+<urn:uuid:works/1087291219> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1699111906> .
+<urn:uuid:works/1087291219> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1114549214> .
 <urn:uuid:works/1087496342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1087496342> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1087496342> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bella fanciulla lo t'amo" .
@@ -1142,6 +1185,11 @@
 <urn:uuid:works/1094546075> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1104984806> .
 <urn:uuid:works/1094546075> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1555000120> .
 <urn:uuid:works/1094546075> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1195513886> .
+<urn:uuid:works/1094549332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1094549332> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1094549332> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro torto" .
+<urn:uuid:works/1094549332> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1359973067> .
+<urn:uuid:works/1094549332> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1291015942> .
 <urn:uuid:works/1094702398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1094702398> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1094702398> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adolescente" .
@@ -1191,6 +1239,11 @@
 <urn:uuid:works/1097003312> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabelos brancos" .
 <urn:uuid:works/1097003312> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1517876137> .
 <urn:uuid:works/1097003312> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1147629102> .
+<urn:uuid:works/1097664582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1097664582> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1097664582> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro sem nome" .
+<urn:uuid:works/1097664582> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1775856533> .
+<urn:uuid:works/1097664582> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1505856545> .
 <urn:uuid:works/1098465477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1098465477> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1098465477> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor eterno" .
@@ -1425,6 +1478,11 @@
 <urn:uuid:works/1117839071> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor molhado" .
 <urn:uuid:works/1117839071> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1575549029> .
 <urn:uuid:works/1117839071> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1115626965> .
+<urn:uuid:works/1117878299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1117878299> <http://www.w3.org/2004/02/skos/core#broader> "Tango Brasileiro" .
+<urn:uuid:works/1117878299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco de janeiro" .
+<urn:uuid:works/1117878299> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1668838259> .
+<urn:uuid:works/1117878299> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1504760884> .
 <urn:uuid:works/1117895180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1117895180> <http://www.w3.org/2004/02/skos/core#broader> "Marcha Rancho" .
 <urn:uuid:works/1117895180> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canção do centenário" .
@@ -1488,6 +1546,11 @@
 <urn:uuid:works/1124313880> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boca pintada" .
 <urn:uuid:works/1124313880> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1021960911> .
 <urn:uuid:works/1124313880> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1504760884> .
+<urn:uuid:works/1124782426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1124782426> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1124782426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro típico nº2" .
+<urn:uuid:works/1124782426> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1478502632> .
+<urn:uuid:works/1124782426> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1626286343> .
 <urn:uuid:works/1124994026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1124994026> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1124994026> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro do Biso" .
@@ -1537,6 +1600,11 @@
 <urn:uuid:works/1128721935> <http://www.w3.org/2004/02/skos/core#prefLabel> "Batuquinho clássico" .
 <urn:uuid:works/1128721935> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1573180617> .
 <urn:uuid:works/1128721935> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1013082189> .
+<urn:uuid:works/1129151178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1129151178> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1129151178> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro só" .
+<urn:uuid:works/1129151178> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1272826899> .
+<urn:uuid:works/1129151178> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
 <urn:uuid:works/1129308904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1129308904> <http://www.w3.org/2004/02/skos/core#broader> "Tango Brasileiro" .
 <urn:uuid:works/1129308904> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chave de ouro" .
@@ -1627,6 +1695,11 @@
 <urn:uuid:works/1134980155> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro do Malaquias" .
 <urn:uuid:works/1134980155> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1159913552> .
 <urn:uuid:works/1134980155> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1083898018> .
+<urn:uuid:works/1136056401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1136056401> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1136056401> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chove chuva" .
+<urn:uuid:works/1136056401> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1444215252> .
+<urn:uuid:works/1136056401> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1521394884> .
 <urn:uuid:works/1136212979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1136212979> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1136212979> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cananéa" .
@@ -1673,6 +1746,11 @@
 <urn:uuid:works/1140592410> <http://www.w3.org/2004/02/skos/core#prefLabel> "As Lidas Acadêmicas" .
 <urn:uuid:works/1140592410> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1239337385> .
 <urn:uuid:works/1140592410> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1092364566> .
+<urn:uuid:works/1140769976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1140769976> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1140769976> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vermelho" .
+<urn:uuid:works/1140769976> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1820752144> .
+<urn:uuid:works/1140769976> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1586774833> .
 <urn:uuid:works/1140966630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1140966630> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
 <urn:uuid:works/1140966630> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balão...balão!" .
@@ -1898,6 +1976,11 @@
 <urn:uuid:works/1159103905> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai, ai, ai meu Deus" .
 <urn:uuid:works/1159103905> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1113021531> .
 <urn:uuid:works/1159103905> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160892483> .
+<urn:uuid:works/1160365575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1160365575> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1160365575> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Márcio" .
+<urn:uuid:works/1160365575> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1408299683> .
+<urn:uuid:works/1160365575> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1363359381> .
 <urn:uuid:works/1160605234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1160605234> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1160605234> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bruno no choro" .
@@ -2304,6 +2387,11 @@
 <urn:uuid:works/1192992479> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1305586393> .
 <urn:uuid:works/1192992479> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1755342492> .
 <urn:uuid:works/1192992479> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1180391144> .
+<urn:uuid:works/1193333246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1193333246> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1193333246> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro sem nome" .
+<urn:uuid:works/1193333246> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1161064877> .
+<urn:uuid:works/1193333246> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1510284477> .
 <urn:uuid:works/1193421816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1193421816> <http://www.w3.org/2004/02/skos/core#broader> "Maxixe" .
 <urn:uuid:works/1193421816> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aí, Horacio" .
@@ -2481,6 +2569,12 @@
 <urn:uuid:works/1210864700> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinhos didáticos nº7" .
 <urn:uuid:works/1210864700> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1573629170> .
 <urn:uuid:works/1210864700> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1510284477> .
+<urn:uuid:works/1211218242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1211218242> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1211218242> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante" .
+<urn:uuid:works/1211218242> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1448970979> .
+<urn:uuid:works/1211218242> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1568068030> .
+<urn:uuid:works/1211218242> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1097011883> .
 <urn:uuid:works/1211560765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1211560765> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
 <urn:uuid:works/1211560765> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canto d'amor" .
@@ -2503,6 +2597,11 @@
 <urn:uuid:works/1213450642> <http://www.w3.org/2004/02/skos/core#prefLabel> "A primavera" .
 <urn:uuid:works/1213450642> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1765135942> .
 <urn:uuid:works/1213450642> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1498051596> .
+<urn:uuid:works/1214084824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1214084824> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1214084824> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chrysanthemo" .
+<urn:uuid:works/1214084824> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1655058366> .
+<urn:uuid:works/1214084824> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1088052444> .
 <urn:uuid:works/1214149161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1214149161> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1214149161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achou-se a chave" .
@@ -2599,6 +2698,12 @@
 <urn:uuid:works/1223238032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beco das horas" .
 <urn:uuid:works/1223238032> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1789608529> .
 <urn:uuid:works/1223238032> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1831756280> .
+<urn:uuid:works/1223258488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1223258488> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
+<urn:uuid:works/1223258488> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade de Santos" .
+<urn:uuid:works/1223258488> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1547468850> .
+<urn:uuid:works/1223258488> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1249020452> .
+<urn:uuid:works/1223258488> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1250326522> .
 <urn:uuid:works/1223592090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1223592090> <http://www.w3.org/2004/02/skos/core#broader> "Samba" .
 <urn:uuid:works/1223592090> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acorda Escola de Samba" .
@@ -2828,6 +2933,12 @@
 <urn:uuid:works/1239087497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1010515979> .
 <urn:uuid:works/1239087497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309483919> .
 <urn:uuid:works/1239087497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1427434240> .
+<urn:uuid:works/1239538733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1239538733> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1239538733> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vivo" .
+<urn:uuid:works/1239538733> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1259427209> .
+<urn:uuid:works/1239538733> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1656004033> .
+<urn:uuid:works/1239538733> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1314819170> .
 <urn:uuid:works/1239814714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1239814714> <http://www.w3.org/2004/02/skos/core#broader> "Foxtrote" .
 <urn:uuid:works/1239814714> <http://www.w3.org/2004/02/skos/core#prefLabel> "All right" .
@@ -2969,6 +3080,11 @@
 <urn:uuid:works/1249927204> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cavucando o coco" .
 <urn:uuid:works/1249927204> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1142366799> .
 <urn:uuid:works/1249927204> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1261983240> .
+<urn:uuid:works/1250250182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1250250182> <http://www.w3.org/2004/02/skos/core#broader> "Choro Canção" .
+<urn:uuid:works/1250250182> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro-canção" .
+<urn:uuid:works/1250250182> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1038502376> .
+<urn:uuid:works/1250250182> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1504133236> .
 <urn:uuid:works/1250946122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1250946122> <http://www.w3.org/2004/02/skos/core#broader> "Frevo" .
 <urn:uuid:works/1250946122> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrepiando" .
@@ -3052,6 +3168,16 @@
 <urn:uuid:works/1261740525> <http://www.w3.org/2004/02/skos/core#prefLabel> "Altair" .
 <urn:uuid:works/1261740525> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1354422345> .
 <urn:uuid:works/1261740525> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1752102057> .
+<urn:uuid:works/1262116835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1262116835> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1262116835> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pros ingênuos" .
+<urn:uuid:works/1262116835> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1435174721> .
+<urn:uuid:works/1262116835> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1363359381> .
+<urn:uuid:works/1262297775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1262297775> <http://www.w3.org/2004/02/skos/core#broader> "Toada" .
+<urn:uuid:works/1262297775> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cisma do caboclo" .
+<urn:uuid:works/1262297775> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1683478261> .
+<urn:uuid:works/1262297775> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1602017999> .
 <urn:uuid:works/1262884379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1262884379> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1262884379> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bela harmonia" .
@@ -3142,6 +3268,11 @@
 <urn:uuid:works/1267248716> <http://www.w3.org/2004/02/skos/core#prefLabel> "A morena" .
 <urn:uuid:works/1267248716> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1261441875> .
 <urn:uuid:works/1267248716> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1007313521> .
+<urn:uuid:works/1267539704> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1267539704> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
+<urn:uuid:works/1267539704> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade maravilhosa" .
+<urn:uuid:works/1267539704> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1626071062> .
+<urn:uuid:works/1267539704> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
 <urn:uuid:works/1268353156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1268353156> <http://www.w3.org/2004/02/skos/core#broader> "Choro Sambado" .
 <urn:uuid:works/1268353156> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brasileiro bandolim" .
@@ -3195,6 +3326,11 @@
 <urn:uuid:works/1271725400> <http://www.w3.org/2004/02/skos/core#prefLabel> "À beira-mar" .
 <urn:uuid:works/1271725400> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1308507390> .
 <urn:uuid:works/1271725400> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1255878613> .
+<urn:uuid:works/1271753520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1271753520> <http://www.w3.org/2004/02/skos/core#broader> "Maxixe" .
+<urn:uuid:works/1271753520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuane" .
+<urn:uuid:works/1271753520> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1606352204> .
+<urn:uuid:works/1271753520> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1752102057> .
 <urn:uuid:works/1271793776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1271793776> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1271793776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro em sol menor" .
@@ -3256,16 +3392,33 @@
 <urn:uuid:works/1277346866> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chegou a tempo" .
 <urn:uuid:works/1277346866> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1302550060> .
 <urn:uuid:works/1277346866> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1829207230> .
+<urn:uuid:works/1277666474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1277666474> <http://www.w3.org/2004/02/skos/core#broader> "Choro Canção" .
+<urn:uuid:works/1277666474> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro suave" .
+<urn:uuid:works/1277666474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332439637> .
+<urn:uuid:works/1277666474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309483919> .
 <urn:uuid:works/1277690575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1277690575> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1277690575> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caminho da roça" .
 <urn:uuid:works/1277690575> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1028549242> .
 <urn:uuid:works/1277690575> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1277861232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1277861232> <http://www.w3.org/2004/02/skos/core#broader> "Quadrilha" .
+<urn:uuid:works/1277861232> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco deusas" .
+<urn:uuid:works/1277861232> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1471489349> .
+<urn:uuid:works/1277861232> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1540102668> .
 <urn:uuid:works/1278212628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1278212628> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1278212628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao \"Son\" do bandolim" .
 <urn:uuid:works/1278212628> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1068681415> .
 <urn:uuid:works/1278212628> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309483919> .
+<urn:uuid:works/1278902368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#broader> "Canção Modinha" .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuá! Chuá!" .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1120409664> .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1501337655> .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1599807196> .
+<urn:uuid:works/1278902368> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1884700139> .
 <urn:uuid:works/1279346414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1279346414> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1279346414> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beth" .
@@ -3339,11 +3492,26 @@
 <urn:uuid:works/1284502963> <http://www.w3.org/2004/02/skos/core#prefLabel> "A tu puerta estan cantando" .
 <urn:uuid:works/1284502963> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1779479036> .
 <urn:uuid:works/1284502963> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1890282519> .
+<urn:uuid:works/1284883740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1284883740> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1284883740> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana" .
+<urn:uuid:works/1284883740> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318491508> .
+<urn:uuid:works/1284883740> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1838485959> .
+<urn:uuid:works/1285111705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1285111705> <http://www.w3.org/2004/02/skos/core#broader> "Choro Polca" .
+<urn:uuid:works/1285111705> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choropolkeado" .
+<urn:uuid:works/1285111705> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1469678280> .
+<urn:uuid:works/1285111705> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1843631391> .
 <urn:uuid:works/1285215392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1285215392> <http://www.w3.org/2004/02/skos/core#broader> "Maxixe" .
 <urn:uuid:works/1285215392> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acayaca é bom cognac" .
 <urn:uuid:works/1285215392> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1020998517> .
 <urn:uuid:works/1285215392> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1104702085> .
+<urn:uuid:works/1285244873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1285244873> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1285244873> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de amores" .
+<urn:uuid:works/1285244873> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1841882190> .
+<urn:uuid:works/1285244873> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1850771425> .
 <urn:uuid:works/1285382662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1285382662> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1285382662> <http://www.w3.org/2004/02/skos/core#prefLabel> "A bela jardineira" .
@@ -3441,6 +3609,12 @@
 <urn:uuid:works/1291713983> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barrigudo não dança" .
 <urn:uuid:works/1291713983> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1527735454> .
 <urn:uuid:works/1291713983> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1189424234> .
+<urn:uuid:works/1292441466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1292441466> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1292441466> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinema" .
+<urn:uuid:works/1292441466> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1000038595> .
+<urn:uuid:works/1292441466> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1059413796> .
+<urn:uuid:works/1292441466> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1065938450> .
 <urn:uuid:works/1293915270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1293915270> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1293915270> <http://www.w3.org/2004/02/skos/core#prefLabel> "Camões" .
@@ -3689,6 +3863,11 @@
 <urn:uuid:works/1312451555> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bruxinha" .
 <urn:uuid:works/1312451555> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1799501905> .
 <urn:uuid:works/1312451555> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1312496459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1312496459> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1312496459> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de pedra" .
+<urn:uuid:works/1312496459> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1076671253> .
+<urn:uuid:works/1312496459> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1197569670> .
 <urn:uuid:works/1312652098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1312652098> <http://www.w3.org/2004/02/skos/core#broader> "Choro Canção" .
 <urn:uuid:works/1312652098> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorando para Irene" .
@@ -3755,11 +3934,22 @@
 <urn:uuid:works/1317077845> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bacatá" .
 <urn:uuid:works/1317077845> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1132566659> .
 <urn:uuid:works/1317077845> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1484410194> .
+<urn:uuid:works/1317125341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1317125341> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1317125341> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cibelle" .
+<urn:uuid:works/1317125341> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1367560044> .
+<urn:uuid:works/1317125341> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1104259801> .
 <urn:uuid:works/1318248404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1318248404> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1318248404> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusta" .
 <urn:uuid:works/1318248404> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1074931378> .
 <urn:uuid:works/1318248404> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1049169951> .
+<urn:uuid:works/1318392776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1318392776> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1318392776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Circumscis flautica" .
+<urn:uuid:works/1318392776> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1159908460> .
+<urn:uuid:works/1318392776> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1380184105> .
+<urn:uuid:works/1318392776> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1335282382> .
 <urn:uuid:works/1318477326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1318477326> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1318477326> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Edmilson" .
@@ -3891,6 +4081,11 @@
 <urn:uuid:works/1326449122> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bate-bola" .
 <urn:uuid:works/1326449122> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1126718380> .
 <urn:uuid:works/1326449122> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1326980811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1326980811> <http://www.w3.org/2004/02/skos/core#broader> "Canção" .
+<urn:uuid:works/1326980811> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinderela" .
+<urn:uuid:works/1326980811> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1080904339> .
+<urn:uuid:works/1326980811> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1838485959> .
 <urn:uuid:works/1327318650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1327318650> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1327318650> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicho" .
@@ -4043,6 +4238,11 @@
 <urn:uuid:works/1337458136> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor sacrificado" .
 <urn:uuid:works/1337458136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1794720813> .
 <urn:uuid:works/1337458136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1083898018> .
+<urn:uuid:works/1337788308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1337788308> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1337788308> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinamomo" .
+<urn:uuid:works/1337788308> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1513320553> .
+<urn:uuid:works/1337788308> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1662617475> .
 <urn:uuid:works/1338040638> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1338040638> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
 <urn:uuid:works/1338040638> <http://www.w3.org/2004/02/skos/core#prefLabel> "Almendares" .
@@ -4447,6 +4647,11 @@
 <urn:uuid:works/1368580038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bataclan" .
 <urn:uuid:works/1368580038> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1681564600> .
 <urn:uuid:works/1368580038> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1625483521> .
+<urn:uuid:works/1368678751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1368678751> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1368678751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Círio de Nazaré" .
+<urn:uuid:works/1368678751> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1406784913> .
+<urn:uuid:works/1368678751> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1756987768> .
 <urn:uuid:works/1368788517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1368788517> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1368788517> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinho triste" .
@@ -4658,6 +4863,11 @@
 <urn:uuid:works/1386572473> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branquinha" .
 <urn:uuid:works/1386572473> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1414792893> .
 <urn:uuid:works/1386572473> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1176356934> .
+<urn:uuid:works/1387046349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1387046349> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1387046349> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Luis" .
+<urn:uuid:works/1387046349> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1590336933> .
+<urn:uuid:works/1387046349> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1435793668> .
 <urn:uuid:works/1387337803> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1387337803> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1387337803> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alma resignada" .
@@ -5026,11 +5236,21 @@
 <urn:uuid:works/1416316167> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adelaide" .
 <urn:uuid:works/1416316167> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1519695044> .
 <urn:uuid:works/1416316167> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1540102668> .
+<urn:uuid:works/1416368198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1416368198> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1416368198> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro torturado" .
+<urn:uuid:works/1416368198> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1702139085> .
+<urn:uuid:works/1416368198> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1884280116> .
 <urn:uuid:works/1417115233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1417115233> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
 <urn:uuid:works/1417115233> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canção do escoteiro" .
 <urn:uuid:works/1417115233> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1291237795> .
 <urn:uuid:works/1417115233> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1051141802> .
+<urn:uuid:works/1417249634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1417249634> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1417249634> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choros" .
+<urn:uuid:works/1417249634> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1189168711> .
+<urn:uuid:works/1417249634> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1882592164> .
 <urn:uuid:works/1417891248> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1417891248> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1417891248> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carinhosa" .
@@ -5414,6 +5634,17 @@
 <urn:uuid:works/1451891378> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquelas horas no Sumaré" .
 <urn:uuid:works/1451891378> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1213457900> .
 <urn:uuid:works/1451891378> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1021130890> .
+<urn:uuid:works/1452393007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1452393007> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1452393007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante" .
+<urn:uuid:works/1452393007> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1006743751> .
+<urn:uuid:works/1452393007> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1364309338> .
+<urn:uuid:works/1452398671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1452398671> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1452398671> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cicy chorando" .
+<urn:uuid:works/1452398671> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1078540910> .
+<urn:uuid:works/1452398671> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1420763587> .
+<urn:uuid:works/1452398671> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1434790733> .
 <urn:uuid:works/1452560100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1452560100> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1452560100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Almiscarado" .
@@ -5637,6 +5868,11 @@
 <urn:uuid:works/1475893128> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boneca" .
 <urn:uuid:works/1475893128> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1534559298> .
 <urn:uuid:works/1475893128> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1219769675> .
+<urn:uuid:works/1476486474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1476486474> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1476486474> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco lagos" .
+<urn:uuid:works/1476486474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1260869276> .
+<urn:uuid:works/1476486474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1352654201> .
 <urn:uuid:works/1477100486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1477100486> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1477100486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Capivara no coreto" .
@@ -5733,6 +5969,11 @@
 <urn:uuid:works/1485819245> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bella Hesperia" .
 <urn:uuid:works/1485819245> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1603738765> .
 <urn:uuid:works/1485819245> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1095498957> .
+<urn:uuid:works/1485890436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1485890436> <http://www.w3.org/2004/02/skos/core#broader> "Choro Sambado" .
+<urn:uuid:works/1485890436> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorombiano" .
+<urn:uuid:works/1485890436> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1404676249> .
+<urn:uuid:works/1485890436> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1266008399> .
 <urn:uuid:works/1486935624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1486935624> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1486935624> <http://www.w3.org/2004/02/skos/core#prefLabel> "A tela e o pandeiro" .
@@ -5775,6 +6016,11 @@
 <urn:uuid:works/1488993761> <http://www.w3.org/2004/02/skos/core#prefLabel> "A bicada de tico-tico" .
 <urn:uuid:works/1488993761> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1667640554> .
 <urn:uuid:works/1488993761> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1476072842> .
+<urn:uuid:works/1489354809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1489354809> <http://www.w3.org/2004/02/skos/core#broader> "Quadrilha" .
+<urn:uuid:works/1489354809> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco jovens" .
+<urn:uuid:works/1489354809> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1625640399> .
+<urn:uuid:works/1489354809> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1060313929> .
 <urn:uuid:works/1489395393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1489395393> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
 <urn:uuid:works/1489395393> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bolo de cenoura" .
@@ -5897,6 +6143,10 @@
 <urn:uuid:works/1496718927> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ansiosa" .
 <urn:uuid:works/1496718927> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1341616177> .
 <urn:uuid:works/1496718927> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1497199837> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1497199837> <http://www.w3.org/2004/02/skos/core#broader> "Aboio" .
+<urn:uuid:works/1497199837> <http://www.w3.org/2004/02/skos/core#prefLabel> "Circuito Tiradentes Cultural" .
+<urn:uuid:works/1497199837> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1184833929> .
 <urn:uuid:works/1497631600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1497631600> <http://www.w3.org/2004/02/skos/core#broader> "Samba" .
 <urn:uuid:works/1497631600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baluartes" .
@@ -5947,6 +6197,12 @@
 <urn:uuid:works/1500972014> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1678028146> .
 <urn:uuid:works/1500972014> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1722187525> .
 <urn:uuid:works/1500972014> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1489279617> .
+<urn:uuid:works/1501284752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1501284752> <http://www.w3.org/2004/02/skos/core#broader> "Allegro" .
+<urn:uuid:works/1501284752> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chupando rolha" .
+<urn:uuid:works/1501284752> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1009011599> .
+<urn:uuid:works/1501284752> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1473400724> .
+<urn:uuid:works/1501284752> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1420559868> .
 <urn:uuid:works/1501421006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1501421006> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1501421006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aruê!...Aruá" .
@@ -5973,6 +6229,11 @@
 <urn:uuid:works/1503776623> <http://www.w3.org/2004/02/skos/core#prefLabel> "A corte na roça" .
 <urn:uuid:works/1503776623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1172578798> .
 <urn:uuid:works/1503776623> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1007313521> .
+<urn:uuid:works/1503947350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1503947350> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1503947350> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro xará" .
+<urn:uuid:works/1503947350> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1293109378> .
+<urn:uuid:works/1503947350> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1227220344> .
 <urn:uuid:works/1503996360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1503996360> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1503996360> <http://www.w3.org/2004/02/skos/core#prefLabel> "A decadência vem aí" .
@@ -6009,6 +6270,11 @@
 <urn:uuid:works/1505978520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afoito" .
 <urn:uuid:works/1505978520> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1635282944> .
 <urn:uuid:works/1505978520> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1506286424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1506286424> <http://www.w3.org/2004/02/skos/core#broader> "Lundu" .
+<urn:uuid:works/1506286424> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinema Olympia" .
+<urn:uuid:works/1506286424> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1188249811> .
+<urn:uuid:works/1506286424> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1220200166> .
 <urn:uuid:works/1507091614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1507091614> <http://www.w3.org/2004/02/skos/core#broader> "Mazurca" .
 <urn:uuid:works/1507091614> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abandonado" .
@@ -6089,6 +6355,11 @@
 <urn:uuid:works/1512441827> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abaxo ó Piques" .
 <urn:uuid:works/1512441827> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1809139573> .
 <urn:uuid:works/1512441827> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1890282519> .
+<urn:uuid:works/1512926055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1512926055> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1512926055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinira" .
+<urn:uuid:works/1512926055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1716939944> .
+<urn:uuid:works/1512926055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1685800450> .
 <urn:uuid:works/1512999732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1512999732> <http://www.w3.org/2004/02/skos/core#broader> "Samba" .
 <urn:uuid:works/1512999732> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bate palmas" .
@@ -6229,6 +6500,11 @@
 <urn:uuid:works/1524369102> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carequinha" .
 <urn:uuid:works/1524369102> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1124194397> .
 <urn:uuid:works/1524369102> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1524900462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1524900462> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1524900462> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choroso" .
+<urn:uuid:works/1524900462> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1175959614> .
+<urn:uuid:works/1524900462> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1197569670> .
 <urn:uuid:works/1524988895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1524988895> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1524988895> <http://www.w3.org/2004/02/skos/core#prefLabel> "A lâmpada e a ancora" .
@@ -6633,6 +6909,12 @@
 <urn:uuid:works/1555601070> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1410419528> .
 <urn:uuid:works/1555601070> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1109008199> .
 <urn:uuid:works/1555601070> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1619964663> .
+<urn:uuid:works/1556233738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1556233738> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1556233738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante" .
+<urn:uuid:works/1556233738> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1312845304> .
+<urn:uuid:works/1556233738> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1381103279> .
+<urn:uuid:works/1556233738> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1885169357> .
 <urn:uuid:works/1556252884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1556252884> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1556252884> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur virou bode" .
@@ -7128,6 +7410,13 @@
 <urn:uuid:works/1594045638> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1383631782> .
 <urn:uuid:works/1594045638> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1165494322> .
 <urn:uuid:works/1594045638> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1368440593> .
+<urn:uuid:works/1594140196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#broader> "Maxixe" .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chororó" .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1425172023> .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1313347005> .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1387248889> .
+<urn:uuid:works/1594140196> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1372428005> .
 <urn:uuid:works/1594682360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1594682360> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1594682360> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alma em flor" .
@@ -7322,6 +7611,11 @@
 <urn:uuid:works/1606456390> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorando 'Frank'amente" .
 <urn:uuid:works/1606456390> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1792335097> .
 <urn:uuid:works/1606456390> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309483919> .
+<urn:uuid:works/1606623207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1606623207> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1606623207> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chumbinha" .
+<urn:uuid:works/1606623207> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1419113951> .
+<urn:uuid:works/1606623207> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1266008399> .
 <urn:uuid:works/1606635204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1606635204> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1606635204> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sertaneja" .
@@ -7392,6 +7686,11 @@
 <urn:uuid:works/1613567717> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amanhecer" .
 <urn:uuid:works/1613567717> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1671913270> .
 <urn:uuid:works/1613567717> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1329023453> .
+<urn:uuid:works/1613793048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1613793048> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1613793048> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro verde" .
+<urn:uuid:works/1613793048> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1281757650> .
+<urn:uuid:works/1613793048> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1586774833> .
 <urn:uuid:works/1614174889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1614174889> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1614174889> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bobochoro" .
@@ -7539,11 +7838,21 @@
 <urn:uuid:works/1622089176> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1187592005> .
 <urn:uuid:works/1622089176> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309265999> .
 <urn:uuid:works/1622089176> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1861606916> .
+<urn:uuid:works/1622200168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1622200168> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1622200168> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro simples" .
+<urn:uuid:works/1622200168> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1007745038> .
+<urn:uuid:works/1622200168> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1176356934> .
 <urn:uuid:works/1622693881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1622693881> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1622693881> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cachorro vai, cachorro vem" .
 <urn:uuid:works/1622693881> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1526002477> .
 <urn:uuid:works/1622693881> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1147818987> .
+<urn:uuid:works/1623262547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1623262547> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1623262547> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cici" .
+<urn:uuid:works/1623262547> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1283665195> .
+<urn:uuid:works/1623262547> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1656057255> .
 <urn:uuid:works/1623477061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1623477061> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
 <urn:uuid:works/1623477061> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bocaiuva" .
@@ -7668,6 +7977,12 @@
 <urn:uuid:works/1638695782> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguenta firme" .
 <urn:uuid:works/1638695782> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1673299601> .
 <urn:uuid:works/1638695782> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1309483919> .
+<urn:uuid:works/1639347934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1639347934> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1639347934> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cismando" .
+<urn:uuid:works/1639347934> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1169750419> .
+<urn:uuid:works/1639347934> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1812839873> .
+<urn:uuid:works/1639347934> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1097011883> .
 <urn:uuid:works/1639446616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1639446616> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1639446616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Capacete" .
@@ -8022,6 +8337,11 @@
 <urn:uuid:works/1666008108> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1351703295> .
 <urn:uuid:works/1666008108> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1247887367> .
 <urn:uuid:works/1666008108> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1760512740> .
+<urn:uuid:works/1668150616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1668150616> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1668150616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana" .
+<urn:uuid:works/1668150616> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1844452126> .
+<urn:uuid:works/1668150616> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1475506359> .
 <urn:uuid:works/1668725018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1668725018> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
 <urn:uuid:works/1668725018> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branca de neve" .
@@ -8039,12 +8359,22 @@
 <urn:uuid:works/1669664138> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1679789239> .
 <urn:uuid:works/1669664138> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1260005968> .
 <urn:uuid:works/1669664138> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1725752483> .
+<urn:uuid:works/1669836068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1669836068> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1669836068> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choros nº7" .
+<urn:uuid:works/1669836068> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1577488927> .
+<urn:uuid:works/1669836068> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1389512623> .
 <urn:uuid:works/1670024631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1670024631> <http://www.w3.org/2004/02/skos/core#broader> "Choro Sambado" .
 <urn:uuid:works/1670024631> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cansei!" .
 <urn:uuid:works/1670024631> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1373284916> .
 <urn:uuid:works/1670024631> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1446274524> .
 <urn:uuid:works/1670024631> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1588445482> .
+<urn:uuid:works/1670677929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1670677929> <http://www.w3.org/2004/02/skos/core#broader> "Dobrado" .
+<urn:uuid:works/1670677929> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade de Diadema" .
+<urn:uuid:works/1670677929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1069654254> .
+<urn:uuid:works/1670677929> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1327404919> .
 <urn:uuid:works/1672467520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1672467520> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1672467520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choramingando" .
@@ -8215,6 +8545,11 @@
 <urn:uuid:works/1688088302> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arsene" .
 <urn:uuid:works/1688088302> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1812334212> .
 <urn:uuid:works/1688088302> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1313293451> .
+<urn:uuid:works/1689182970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1689182970> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
+<urn:uuid:works/1689182970> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cismando" .
+<urn:uuid:works/1689182970> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1427429011> .
+<urn:uuid:works/1689182970> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1300595590> .
 <urn:uuid:works/1689723435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1689723435> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
 <urn:uuid:works/1689723435> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro de domingo" .
@@ -8340,6 +8675,11 @@
 <urn:uuid:works/1696771618> <http://www.w3.org/2004/02/skos/core#prefLabel> "A estrela do norte" .
 <urn:uuid:works/1696771618> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1470481607> .
 <urn:uuid:works/1696771618> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1182921930> .
+<urn:uuid:works/1697128214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1697128214> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
+<urn:uuid:works/1697128214> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ciganinha, do meu coração" .
+<urn:uuid:works/1697128214> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1119200608> .
+<urn:uuid:works/1697128214> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
 <urn:uuid:works/1697713168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1697713168> <http://www.w3.org/2004/02/skos/core#broader> "Tango" .
 <urn:uuid:works/1697713168> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brumas" .
@@ -8351,6 +8691,11 @@
 <urn:uuid:works/1697903136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1704822924> .
 <urn:uuid:works/1697903136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1622341688> .
 <urn:uuid:works/1697903136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1182012213> .
+<urn:uuid:works/1698397116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1698397116> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1698397116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ciao Brasil" .
+<urn:uuid:works/1698397116> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1296506506> .
+<urn:uuid:works/1698397116> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1416856854> .
 <urn:uuid:works/1699544096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1699544096> <http://www.w3.org/2004/02/skos/core#broader> "Samba Choro" .
 <urn:uuid:works/1699544096> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choramingando" .
@@ -8417,6 +8762,12 @@
 <urn:uuid:works/1705282283> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bar Brasil" .
 <urn:uuid:works/1705282283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1423514737> .
 <urn:uuid:works/1705282283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
+<urn:uuid:works/1705603393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1705603393> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
+<urn:uuid:works/1705603393> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorosa" .
+<urn:uuid:works/1705603393> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1177007826> .
+<urn:uuid:works/1705603393> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1430307953> .
+<urn:uuid:works/1705603393> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1528821735> .
 <urn:uuid:works/1705711370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1705711370> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1705711370> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alice" .
@@ -8671,6 +9022,11 @@
 <urn:uuid:works/1722655620> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:bibliography/1704822924> .
 <urn:uuid:works/1722655620> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1624218000> .
 <urn:uuid:works/1722655620> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1182012213> .
+<urn:uuid:works/1724871945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1724871945> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1724871945> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro triste" .
+<urn:uuid:works/1724871945> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318193477> .
+<urn:uuid:works/1724871945> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1030404518> .
 <urn:uuid:works/1725301837> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1725301837> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
 <urn:uuid:works/1725301837> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aniversariana" .
@@ -8770,6 +9126,16 @@
 <urn:uuid:works/1732159037> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1845820211> .
 <urn:uuid:works/1732159037> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1148219020> .
 <urn:uuid:works/1732159037> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1156384526> .
+<urn:uuid:works/1732188394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1732188394> <http://www.w3.org/2004/02/skos/core#broader> "Não informado" .
+<urn:uuid:works/1732188394> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cine" .
+<urn:uuid:works/1732188394> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1373605062> .
+<urn:uuid:works/1732188394> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1569167162> .
+<urn:uuid:works/1732219978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1732219978> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1732219978> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro_2" .
+<urn:uuid:works/1732219978> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1214529573> .
+<urn:uuid:works/1732219978> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1001342905> .
 <urn:uuid:works/1732458240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1732458240> <http://www.w3.org/2004/02/skos/core#broader> "Valsa" .
 <urn:uuid:works/1732458240> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor feliz" .
@@ -9220,6 +9586,11 @@
 <urn:uuid:works/1765890408> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1515781908> .
 <urn:uuid:works/1765890408> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1201562957> .
 <urn:uuid:works/1765890408> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1837671110> .
+<urn:uuid:works/1766564375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1766564375> <http://www.w3.org/2004/02/skos/core#broader> "Maxixe" .
+<urn:uuid:works/1766564375> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO" .
+<urn:uuid:works/1766564375> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:works/1766564375> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1096737797> .
 <urn:uuid:works/1766918084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1766918084> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
 <urn:uuid:works/1766918084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carruagem" .
@@ -9594,6 +9965,11 @@
 <urn:uuid:works/1796365747> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beijos de amor" .
 <urn:uuid:works/1796365747> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1306825348> .
 <urn:uuid:works/1796365747> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1552305620> .
+<urn:uuid:works/1796831303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1796831303> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1796831303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorões e seresteiros" .
+<urn:uuid:works/1796831303> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1564068831> .
+<urn:uuid:works/1796831303> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1160114887> .
 <urn:uuid:works/1797023119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1797023119> <http://www.w3.org/2004/02/skos/core#broader> "Schottisch" .
 <urn:uuid:works/1797023119> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor vadio" .
@@ -9867,6 +10243,11 @@
 <urn:uuid:works/1824043212> <http://www.w3.org/2004/02/skos/core#prefLabel> "A vida é um samba" .
 <urn:uuid:works/1824043212> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1038147695> .
 <urn:uuid:works/1824043212> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
+<urn:uuid:works/1824117831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1824117831> <http://www.w3.org/2004/02/skos/core#broader> "Choro" .
+<urn:uuid:works/1824117831> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorões do Bandolim de Ouro" .
+<urn:uuid:works/1824117831> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1062764281> .
+<urn:uuid:works/1824117831> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1176356934> .
 <urn:uuid:works/1824214111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1824214111> <http://www.w3.org/2004/02/skos/core#broader> "Pas de Quatre" .
 <urn:uuid:works/1824214111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor filial" .
@@ -9939,6 +10320,11 @@
 <urn:uuid:works/1831057653> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ali Babá (ou Os quarenta ladrões)" .
 <urn:uuid:works/1831057653> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1725080314> .
 <urn:uuid:works/1831057653> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1112620882> .
+<urn:uuid:works/1831225872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1831225872> <http://www.w3.org/2004/02/skos/core#broader> "Marcha" .
+<urn:uuid:works/1831225872> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade do sonho" .
+<urn:uuid:works/1831225872> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1832034528> .
+<urn:uuid:works/1831225872> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1166895404> .
 <urn:uuid:works/1831402311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1831402311> <http://www.w3.org/2004/02/skos/core#broader> "Pas de Quatre" .
 <urn:uuid:works/1831402311> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amo e sofro" .
@@ -10497,6 +10883,11 @@
 <urn:uuid:works/1876397310> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1551087721> .
 <urn:uuid:works/1876397310> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1581466074> .
 <urn:uuid:works/1876397310> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1594724870> .
+<urn:uuid:works/1876584758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1876584758> <http://www.w3.org/2004/02/skos/core#broader> "Quadrilha" .
+<urn:uuid:works/1876584758> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco tacadas" .
+<urn:uuid:works/1876584758> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1523816078> .
+<urn:uuid:works/1876584758> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1146702713> .
 <urn:uuid:works/1876719163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1876719163> <http://www.w3.org/2004/02/skos/core#broader> "Tango" .
 <urn:uuid:works/1876719163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Catedrático" .
@@ -10518,6 +10909,11 @@
 <urn:uuid:works/1878192446> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aparatosa" .
 <urn:uuid:works/1878192446> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1508140400> .
 <urn:uuid:works/1878192446> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1528821735> .
+<urn:uuid:works/1878401639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
+<urn:uuid:works/1878401639> <http://www.w3.org/2004/02/skos/core#broader> "Polca" .
+<urn:uuid:works/1878401639> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cine Cassino" .
+<urn:uuid:works/1878401639> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1568079562> .
+<urn:uuid:works/1878401639> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1230377685> .
 <urn:uuid:works/1878500171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#WorkEntity> .
 <urn:uuid:works/1878500171> <http://www.w3.org/2004/02/skos/core#broader> "Samba Choro" .
 <urn:uuid:works/1878500171> <http://www.w3.org/2004/02/skos/core#prefLabel> "Batucado" .

@@ -54,4 +54,6 @@ _:b26eb5519-00b9-38f4-41b3-6070e93e397f a melod:InstrumentationDetail;
 _:b33e5b6fc-5933-7f16-3ea9-cbd4fac5472c a melod:InstrumentationDetail;
     schema:position "6"^^xsd:integer;
     schema:description "voz - soprano solo";
+    mus:U2_foresees_use_of_medium_of_performance terms:Soprano;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#va>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

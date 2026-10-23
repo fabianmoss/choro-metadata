@@ -96,4 +96,6 @@ _:b50196b8b-6988-e664-9fc6-4f4b77919225 a melod:InstrumentationDetail;
 _:b58f1f3c8-59f0-dce0-a3bf-854b6e57eb0d a melod:InstrumentationDetail;
     schema:position "12"^^xsd:integer;
     schema:description "sax barítono 5 Eb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Saxophone;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wi>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

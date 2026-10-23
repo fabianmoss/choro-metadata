@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1684772844> a melod:Item;
     rdfs:label "Apaixonada — Partitura melodia (score_88)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090629782>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1001759996>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b124b1c24-a99b-d8cf-25fe-c72c0dd8b53c;
     melod:hasShelfmark "score_88";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_88.pdf>;
+    melod:hasProvenance _:bdef34b5a-3d40-b3f1-218a-9d20af019067;
     dct:conformsTo melod:Item.
 
 _:b124b1c24-a99b-d8cf-25fe-c72c0dd8b53c a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_88".
+
+_:bdef34b5a-3d40-b3f1-218a-9d20af019067 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita - arquivo de Gerson Ferreira Pinto -";
+    melod:hasContribution _:ba09af37d-1e22-b1da-1ff1-b6039610bb4a.
+
+_:ba09af37d-1e22-b1da-1ff1-b6039610bb4a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1589418829>;
+    melod:hasRole terms:FormerOwner.

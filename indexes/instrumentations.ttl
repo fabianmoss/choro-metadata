@@ -60,6 +60,8 @@
 <urn:uuid:instrumentations/1195293993> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Bb 1, clarinete Bb 2"@pt .
 <urn:uuid:instrumentations/1197649585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1197649585> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, voz - baixo, voz - contralto, voz - soprano, voz - tenor"@pt .
+<urn:uuid:instrumentations/1203613963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1203613963> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, cello, clarinete Bb, flauta, piano, trompete Bb, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1218354513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1218354513> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, flauta, piano, violino ou bandolim"@pt .
 <urn:uuid:instrumentations/1231276731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -74,6 +76,8 @@
 <urn:uuid:instrumentations/1264483689> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, cello, clarinete Bb, contra fagote, corn F, fagote, flauta, flautim, oboé, tímpano, trombone, trompete Bb, tuba, viola, violino 1, violino 2, celesta xilofone, corn inglês"@pt .
 <urn:uuid:instrumentations/1274367869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1274367869> <http://www.w3.org/2004/02/skos/core#prefLabel> "canto"@pt .
+<urn:uuid:instrumentations/1280098724> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1280098724> <http://www.w3.org/2004/02/skos/core#prefLabel> "cello, clarinete, fagote, flauta, oboé, sax alto Eb, violino"@pt .
 <urn:uuid:instrumentations/1281464218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1281464218> <http://www.w3.org/2004/02/skos/core#prefLabel> "violão 7 cordas"@pt .
 <urn:uuid:instrumentations/1285370801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .

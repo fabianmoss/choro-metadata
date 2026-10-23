@@ -68,4 +68,6 @@ _:bd05d4fc6-4ee9-aa94-87fe-6dbcd782ae70 a melod:InstrumentationDetail;
 _:b1ed29c92-9b95-1a58-efd7-c8bbba970ad0 a melod:InstrumentationDetail;
     schema:position "8"^^xsd:integer;
     schema:description "tuba Eb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Tuba;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#be>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

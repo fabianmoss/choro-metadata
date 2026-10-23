@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1209200059> a melod:Item;
     rdfs:label "Abraçando um Kalut — Partitura melodia (score_793)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1697646414>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1442966417>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0b0fb534-7b0e-e1cb-abd6-4688fc8b97f5;
     melod:hasShelfmark "score_793";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_793.pdf>;
+    melod:hasProvenance _:b1cb3f571-1224-bd8b-8113-95a66666ac65;
     dct:conformsTo melod:Item.
 
 _:b0b0fb534-7b0e-e1cb-abd6-4688fc8b97f5 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_793".
+
+_:b1cb3f571-1224-bd8b-8113-95a66666ac65 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita (arquivo de Gerson Ferreira Pinto)";
+    melod:hasContribution _:bc439f2eb-8b76-12c3-4e32-847b2df6d881.
+
+_:bc439f2eb-8b76-12c3-4e32-847b2df6d881 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1589418829>;
+    melod:hasRole terms:FormerOwner.

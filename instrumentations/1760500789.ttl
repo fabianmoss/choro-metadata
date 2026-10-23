@@ -193,4 +193,6 @@ _:b9824af8d-fafd-b2ec-e1fa-9c918f234fa3 a melod:InstrumentationDetail;
 _:b38b16982-3f7c-19fb-acda-3ebb96059dcf a melod:InstrumentationDetail;
     schema:position "26"^^xsd:integer;
     schema:description "surdo";
+    mus:U2_foresees_use_of_medium_of_performance terms:Drum;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

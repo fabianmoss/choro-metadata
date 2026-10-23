@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1172167910> a melod:Item;
     rdfs:label "Bem-te-vi tristonho — Partitura melodia e cifra (score_6765)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1171320042>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1239689105>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b31141c67-d32d-af71-d421-1be00d42424a;
     melod:hasShelfmark "score_6765";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6765.pdf>;
+    melod:hasProvenance _:b1abebc29-8f99-3a0a-0b83-20d2ac30d8f9;
     dct:conformsTo melod:Item.
 
 _:b31141c67-d32d-af71-d421-1be00d42424a a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_6765".
+
+_:b1abebc29-8f99-3a0a-0b83-20d2ac30d8f9 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita - arquivo de Vadinho";
+    melod:hasContribution _:b4cde19e0-e280-5d01-b24c-c585c4870c88.
+
+_:b4cde19e0-e280-5d01-b24c-c585c4870c88 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1104793099>;
+    melod:hasRole terms:FormerOwner.

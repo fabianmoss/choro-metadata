@@ -16,6 +16,9 @@
 <urn:uuid:manifestations/1001400230> <http://www.w3.org/2004/02/skos/core#prefLabel> "A caridade — Partitura piano (edition B.L. Bittencourt)" .
 <urn:uuid:manifestations/1001400230> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1115449121> .
 <urn:uuid:manifestations/1001400230> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1597815545> .
+<urn:uuid:manifestations/1001759996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1001759996> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apaixonada — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1001759996> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1100532536> .
 <urn:uuid:manifestations/1002719642> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1002719642> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro do luar — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1002719642> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1236289620> .
@@ -57,6 +60,9 @@
 <urn:uuid:manifestations/1009528208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1009528208> <http://www.w3.org/2004/02/skos/core#prefLabel> "As pombas — Partitura piano e letra (edition by Casa Bevilacqua & Cia.)" .
 <urn:uuid:manifestations/1009528208> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1875804881> .
+<urn:uuid:manifestations/1009717863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1009717863> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco tacadas — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1009717863> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1523816078> .
 <urn:uuid:manifestations/1010195868> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1010195868> <http://www.w3.org/2004/02/skos/core#prefLabel> "A nova era — Partitura piano (edition Narciso & Arthur Napoleão)" .
 <urn:uuid:manifestations/1010195868> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1433161701> .
@@ -357,6 +363,10 @@
 <urn:uuid:manifestations/1035327870> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1035327870> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alice — Partitura melodia" .
 <urn:uuid:manifestations/1035327870> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1597463507> .
+<urn:uuid:manifestations/1035359183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1035359183> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cismando — Partitura piano (edition Casa Viúva Guerreiro)" .
+<urn:uuid:manifestations/1035359183> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1427429011> .
+<urn:uuid:manifestations/1035359183> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1652795271> .
 <urn:uuid:manifestations/1035412335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1035412335> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canção de amor — Partitura melodia, violão e letra (manuscript)" .
 <urn:uuid:manifestations/1035412335> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1266151221> .
@@ -436,6 +446,11 @@
 <urn:uuid:manifestations/1043195498> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinhos didáticos nº4 — Partitura melodia e cifra (edition Bruno Quaino Material Cultural Ltda)" .
 <urn:uuid:manifestations/1043195498> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1721920406> .
 <urn:uuid:manifestations/1043195498> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1008158415> .
+<urn:uuid:manifestations/1043420497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1043420497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cici — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1043420497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1283665195> .
+<urn:uuid:manifestations/1043420497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1043420497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1044417174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1044417174> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branca de neve — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1044417174> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1730715147> .
@@ -461,6 +476,9 @@
 <urn:uuid:manifestations/1046797874> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1046797874> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ari na Fandanga! — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1046797874> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1665998942> .
+<urn:uuid:manifestations/1046982508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1046982508> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro triste — Partitura arranjo para dois violões (digital transcription)" .
+<urn:uuid:manifestations/1046982508> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318193477> .
 <urn:uuid:manifestations/1047226429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1047226429> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorando de saudade — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1047226429> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1327765990> .
@@ -575,6 +593,11 @@
 <urn:uuid:manifestations/1052530251> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1497661383> .
 <urn:uuid:manifestations/1052530251> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1052530251> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1053373417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1053373417> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorosa — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1053373417> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1430307953> .
+<urn:uuid:manifestations/1053373417> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1053373417> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1053981674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1053981674> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caminhador — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1053981674> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1210338272> .
@@ -661,6 +684,11 @@
 <urn:uuid:manifestations/1062075202> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asa negra — Partitura arranjo (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1062075202> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1219570232> .
 <urn:uuid:manifestations/1062075202> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1062110821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1062110821> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura tuba (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1062110821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1062110821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1062110821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1062360909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1062360909> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canto do Rio_BANDÃO — Partitura trompete 1 (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1062360909> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1447349591> .
@@ -829,6 +857,11 @@
 <urn:uuid:manifestations/1078896892> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1172849496> .
 <urn:uuid:manifestations/1078896892> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1078896892> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1079026084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1079026084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1079026084> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1312845304> .
+<urn:uuid:manifestations/1079026084> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1079026084> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1079298406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1079298406> <http://www.w3.org/2004/02/skos/core#prefLabel> "A estação — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1079298406> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1364614955> .
@@ -1106,9 +1139,15 @@
 <urn:uuid:manifestations/1105203475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1105203475> <http://www.w3.org/2004/02/skos/core#prefLabel> "As andorinhas de Campinas — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1105203475> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1249479656> .
+<urn:uuid:manifestations/1105751450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1105751450> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cine Cassino — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1105751450> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1568079562> .
 <urn:uuid:manifestations/1106044654> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1106044654> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlântico — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1106044654> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1194369395> .
+<urn:uuid:manifestations/1106114364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1106114364> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorosa — Partitura piano (printed edition)" .
+<urn:uuid:manifestations/1106114364> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1177007826> .
 <urn:uuid:manifestations/1106399223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1106399223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arte-e-manhas do Marquinho — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1106399223> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1107696537> .
@@ -1455,6 +1494,9 @@
 <urn:uuid:manifestations/1134201186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1134201186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabrião — Partitura piano (edition by Arthur Napoleão & Cia.)" .
 <urn:uuid:manifestations/1134201186> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1062030401> .
+<urn:uuid:manifestations/1134574312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1134574312> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro sem nome — Partitura cifra (manuscript)" .
+<urn:uuid:manifestations/1134574312> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1775856533> .
 <urn:uuid:manifestations/1134807769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1134807769> <http://www.w3.org/2004/02/skos/core#prefLabel> "A florista — Partitura piano e letra (edition E. Bevilacqua & Cia)" .
 <urn:uuid:manifestations/1134807769> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1482299999> .
@@ -1529,6 +1571,9 @@
 <urn:uuid:manifestations/1141072334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1141072334> <http://www.w3.org/2004/02/skos/core#prefLabel> "Andrey no choro — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1141072334> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1174779315> .
+<urn:uuid:manifestations/1141292490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1141292490> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro sem nome — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1141292490> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1161064877> .
 <urn:uuid:manifestations/1142848701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1142848701> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura cifrada" .
 <urn:uuid:manifestations/1142848701> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389952506> .
@@ -1536,6 +1581,11 @@
 <urn:uuid:manifestations/1143059139> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguenta — Partitura melodia (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1143059139> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1067332505> .
 <urn:uuid:manifestations/1143059139> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1143270584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1143270584> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura sax tenor (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1143270584> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1143270584> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1143270584> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1143443195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1143443195> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sabina — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1143443195> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1314143368> .
@@ -1591,6 +1641,14 @@
 <urn:uuid:manifestations/1146367362> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bachareis do amor — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1146367362> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1352601276> .
 <urn:uuid:manifestations/1146367362> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1146618059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1146618059> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chupando rolha — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1146618059> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1009011599> .
+<urn:uuid:manifestations/1147376191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1147376191> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura base (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1147376191> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1147376191> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1147376191> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1147403490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1147403490> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carico — Partitura melodia (edition by Corcovado Ltda.)" .
 <urn:uuid:manifestations/1147403490> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1453272456> .
@@ -1632,6 +1690,9 @@
 <urn:uuid:manifestations/1153117077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1153117077> <http://www.w3.org/2004/02/skos/core#prefLabel> "As proezas do Henrique — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1153117077> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1195303094> .
+<urn:uuid:manifestations/1153177421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1153177421> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnaval de 1867 — Partitura arranjo (digital transcription)" .
+<urn:uuid:manifestations/1153177421> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1809649732> .
 <urn:uuid:manifestations/1153575019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1153575019> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alma volúvel — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1153575019> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1033458028> .
@@ -1717,6 +1778,9 @@
 <urn:uuid:manifestations/1160582092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1160582092> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apenas as estrelas — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1160582092> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1174184596> .
+<urn:uuid:manifestations/1160907497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1160907497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choros — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1160907497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1189168711> .
 <urn:uuid:manifestations/1161034496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1161034496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor que chora — Partitura piano (edition Casa Mignon)" .
 <urn:uuid:manifestations/1161034496> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1063352179> .
@@ -1799,6 +1863,9 @@
 <urn:uuid:manifestations/1171821927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1171821927> <http://www.w3.org/2004/02/skos/core#prefLabel> "Camarim — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1171821927> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1337083438> .
+<urn:uuid:manifestations/1171895114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1171895114> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinema Olympia — Partitura piano (digital transcription)" .
+<urn:uuid:manifestations/1171895114> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1188249811> .
 <urn:uuid:manifestations/1172356650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1172356650> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beija-flor, colibri — Partitura letra (digital transcription)" .
 <urn:uuid:manifestations/1172356650> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1874484487> .
@@ -1997,6 +2064,11 @@
 <urn:uuid:manifestations/1186518777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1186518777> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai! Ai! — Partitura arranjo para banda (manuscript)" .
 <urn:uuid:manifestations/1186518777> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1579665026> .
+<urn:uuid:manifestations/1186832748> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1186832748> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vivo — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1186832748> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1656004033> .
+<urn:uuid:manifestations/1186832748> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1186832748> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1186864735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1186864735> <http://www.w3.org/2004/02/skos/core#prefLabel> "A reconhecida — Partitura piano (edition by Arthur Napoleão & Cia.)" .
 <urn:uuid:manifestations/1186864735> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1892095508> .
@@ -2009,6 +2081,9 @@
 <urn:uuid:manifestations/1187749625> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1868522040> .
 <urn:uuid:manifestations/1187749625> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1187749625> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1187782040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1187782040> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuane — Partitura piano e letra (manuscript)" .
+<urn:uuid:manifestations/1187782040> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1606352204> .
 <urn:uuid:manifestations/1188766098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1188766098> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrebatadora — Partitura piano (edition Buschmann & Guimarães)" .
 <urn:uuid:manifestations/1188766098> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1044369515> .
@@ -2097,6 +2172,10 @@
 <urn:uuid:manifestations/1195789436> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aniversariana — Partitura piano (edition Casa Arthur Napoleão)" .
 <urn:uuid:manifestations/1195789436> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1239826171> .
 <urn:uuid:manifestations/1195789436> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1582051513> .
+<urn:uuid:manifestations/1195839346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1195839346> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinzas no coração — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1195839346> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1612415254> .
+<urn:uuid:manifestations/1195839346> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1195923235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1195923235> <http://www.w3.org/2004/02/skos/core#prefLabel> "Avante seu Clemente — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1195923235> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1448645771> .
@@ -2228,6 +2307,9 @@
 <urn:uuid:manifestations/1204886367> <http://www.w3.org/2004/02/skos/core#prefLabel> "Balançadinho — Partitura melodia (edition pelo autor)" .
 <urn:uuid:manifestations/1204886367> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332221407> .
 <urn:uuid:manifestations/1204886367> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1094875110> .
+<urn:uuid:manifestations/1205155894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1205155894> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro sem nome — Partitura melodia (digital transcription)" .
+<urn:uuid:manifestations/1205155894> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1161064877> .
 <urn:uuid:manifestations/1205601417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1205601417> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boa onda — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1205601417> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1434548660> .
@@ -2277,6 +2359,9 @@
 <urn:uuid:manifestations/1209941780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1209941780> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sedutora — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1209941780> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1041923848> .
+<urn:uuid:manifestations/1210228832> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1210228832> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro torturado — Partitura piano (manuscript)" .
+<urn:uuid:manifestations/1210228832> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1702139085> .
 <urn:uuid:manifestations/1210345645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1210345645> <http://www.w3.org/2004/02/skos/core#prefLabel> "Birinight — Partitura cifra (manuscript)" .
 <urn:uuid:manifestations/1210345645> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1523243362> .
@@ -2389,6 +2474,10 @@
 <urn:uuid:manifestations/1221768492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1221768492> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caprichosa — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1221768492> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1403581395> .
+<urn:uuid:manifestations/1221941399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1221941399> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinema — Partitura piano (edition Casa Levy)" .
+<urn:uuid:manifestations/1221941399> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1059413796> .
+<urn:uuid:manifestations/1221941399> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1373143376> .
 <urn:uuid:manifestations/1222063429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1222063429> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cesteiro — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1222063429> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1645590997> .
@@ -2424,6 +2513,9 @@
 <urn:uuid:manifestations/1223771692> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1261417441> .
 <urn:uuid:manifestations/1223771692> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1223771692> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1224032507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1224032507> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cicy chorando — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1224032507> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1420763587> .
 <urn:uuid:manifestations/1224524410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1224524410> <http://www.w3.org/2004/02/skos/core#prefLabel> "A dama de ouros — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1224524410> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1626808310> .
@@ -2514,6 +2606,9 @@
 <urn:uuid:manifestations/1232050981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1232050981> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ar de verão — Partitura arranjo (digital transcription)" .
 <urn:uuid:manifestations/1232050981> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1162267641> .
+<urn:uuid:manifestations/1232143044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1232143044> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro xará — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1232143044> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1293109378> .
 <urn:uuid:manifestations/1232403048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1232403048> <http://www.w3.org/2004/02/skos/core#prefLabel> "A nenhum — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1232403048> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1426305674> .
@@ -2626,6 +2721,9 @@
 <urn:uuid:manifestations/1239522447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1239522447> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acabei de crer — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1239522447> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1576563557> .
+<urn:uuid:manifestations/1239689105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1239689105> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bem-te-vi tristonho — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1239689105> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1899883052> .
 <urn:uuid:manifestations/1239784303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1239784303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Às clarinhas e às moreninhas — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1239784303> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1724645064> .
@@ -2740,6 +2838,9 @@
 <urn:uuid:manifestations/1247878057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1247878057> <http://www.w3.org/2004/02/skos/core#prefLabel> "As duas flores — Partitura piano (edition by E. Bevilacqua & Cia.)" .
 <urn:uuid:manifestations/1247878057> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1011587107> .
+<urn:uuid:manifestations/1248072561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1248072561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco de abril — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1248072561> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1037880874> .
 <urn:uuid:manifestations/1248075614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1248075614> <http://www.w3.org/2004/02/skos/core#prefLabel> "A noite — Partitura arranjo para pequena orquestra (manuscript)" .
 <urn:uuid:manifestations/1248075614> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883531813> .
@@ -2899,6 +3000,9 @@
 <urn:uuid:manifestations/1264717671> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cá entre nós — Partitura melodia e cifra (edition by Acari Records)" .
 <urn:uuid:manifestations/1264717671> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1451817237> .
 <urn:uuid:manifestations/1264717671> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:persons/1116373450> .
+<urn:uuid:manifestations/1264747645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1264747645> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro triste — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1264747645> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318193477> .
 <urn:uuid:manifestations/1264839227> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1264839227> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cecilia Cavalcanti — Partitura arranjo para orquestra (edition MINC - FUNARTE)" .
 <urn:uuid:manifestations/1264839227> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1793032308> .
@@ -3061,6 +3165,9 @@
 <urn:uuid:manifestations/1280919148> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adeus boemia — Partitura melodia e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1280919148> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1840448483> .
 <urn:uuid:manifestations/1280919148> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1281013123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1281013123> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chove chuva — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1281013123> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1444215252> .
 <urn:uuid:manifestations/1281371184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1281371184> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aniversário do Heitor Corrêa — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1281371184> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1257841152> .
@@ -3149,6 +3256,9 @@
 <urn:uuid:manifestations/1289289350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1289289350> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aguenta, seu Fulgêncio / Aguenta a mão, seu Fulgêncio — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1289289350> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1111986777> .
+<urn:uuid:manifestations/1289806443> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1289806443> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chororó — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1289806443> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1313347005> .
 <urn:uuid:manifestations/1289957810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1289957810> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carequinha — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1289957810> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1124194397> .
@@ -3198,6 +3308,9 @@
 <urn:uuid:manifestations/1294770113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1294770113> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angá-catu-rama — Partitura cifra (manuscript)" .
 <urn:uuid:manifestations/1294770113> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1385496819> .
+<urn:uuid:manifestations/1295013255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1295013255> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco deusas — Partitura arranjo (manuscript)" .
+<urn:uuid:manifestations/1295013255> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1471489349> .
 <urn:uuid:manifestations/1295057433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1295057433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur virou bode — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1295057433> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1121644307> .
@@ -3267,6 +3380,9 @@
 <urn:uuid:manifestations/1300331057> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1208895951> .
 <urn:uuid:manifestations/1300331057> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1300331057> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1300638086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1300638086> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cine — Partitura melodia e cifra (printed edition)" .
+<urn:uuid:manifestations/1300638086> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1373605062> .
 <urn:uuid:manifestations/1300998208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1300998208> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor profano — Partitura piano e letra (edition Vieira Machado & Cia)" .
 <urn:uuid:manifestations/1300998208> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1416767441> .
@@ -3399,6 +3515,9 @@
 <urn:uuid:manifestations/1313241844> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1313241844> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agora vai — Partitura arranjo (digital transcription)" .
 <urn:uuid:manifestations/1313241844> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1010219227> .
+<urn:uuid:manifestations/1313304793> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1313304793> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cismando — Partitura piano (printed edition)" .
+<urn:uuid:manifestations/1313304793> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1169750419> .
 <urn:uuid:manifestations/1313475138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1313475138> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pastorinha — Partitura piano (edition by Narciso & C.)" .
 <urn:uuid:manifestations/1313475138> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1389230223> .
@@ -3433,6 +3552,9 @@
 <urn:uuid:manifestations/1315206618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adriana — Partitura melodia e cifra (edition Universidade Federal de Santa Catarina - UFSC)" .
 <urn:uuid:manifestations/1315206618> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1469867717> .
 <urn:uuid:manifestations/1315206618> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1085108804> .
+<urn:uuid:manifestations/1317096039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1317096039> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chumbita — Partitura piano (edition by Castro Lima & Cia.)" .
+<urn:uuid:manifestations/1317096039> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1785385333> .
 <urn:uuid:manifestations/1317183561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1317183561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai... se tu soubesses! — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1317183561> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1679789239> .
@@ -3474,6 +3596,9 @@
 <urn:uuid:manifestations/1320835325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1320835325> <http://www.w3.org/2004/02/skos/core#prefLabel> "Às três da manhã — Partitura melodia (printed edition)" .
 <urn:uuid:manifestations/1320835325> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1276184369> .
+<urn:uuid:manifestations/1320944576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1320944576> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorombiano — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1320944576> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1404676249> .
 <urn:uuid:manifestations/1320957393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1320957393> <http://www.w3.org/2004/02/skos/core#prefLabel> "Altiva — Partitura piano (edition by E. Bevilacqua & C.)" .
 <urn:uuid:manifestations/1320957393> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1386625783> .
@@ -3511,6 +3636,10 @@
 <urn:uuid:manifestations/1325266551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1325266551> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sertaneja — Partitura arranjo (printed edition)" .
 <urn:uuid:manifestations/1325266551> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1242877933> .
+<urn:uuid:manifestations/1325267178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1325267178> <http://www.w3.org/2004/02/skos/core#prefLabel> "Circumscis flautica — Partitura piano (edition Arthur Napoleão)" .
+<urn:uuid:manifestations/1325267178> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1380184105> .
+<urn:uuid:manifestations/1325267178> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1113102569> .
 <urn:uuid:manifestations/1325521444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1325521444> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abigail — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1325521444> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883794415> .
@@ -3591,6 +3720,9 @@
 <urn:uuid:manifestations/1330837500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1330837500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carnaval de 1867 — Partitura cifra (manuscript)" .
 <urn:uuid:manifestations/1330837500> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1858364132> .
+<urn:uuid:manifestations/1331737294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1331737294> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante — Partitura piano (printed edition)" .
+<urn:uuid:manifestations/1331737294> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1448970979> .
 <urn:uuid:manifestations/1332963432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1332963432> <http://www.w3.org/2004/02/skos/core#prefLabel> "A borboleta azul — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1332963432> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1363350154> .
@@ -3622,6 +3754,9 @@
 <urn:uuid:manifestations/1334680058> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1173178259> .
 <urn:uuid:manifestations/1334680058> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1334680058> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1334967540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1334967540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante — Partitura piano (printed edition)" .
+<urn:uuid:manifestations/1334967540> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1381103279> .
 <urn:uuid:manifestations/1335507574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1335507574> <http://www.w3.org/2004/02/skos/core#prefLabel> "A luz e a escuridão — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1335507574> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1881314563> .
@@ -3694,6 +3829,11 @@
 <urn:uuid:manifestations/1342207162> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1800694633> .
 <urn:uuid:manifestations/1342207162> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1342207162> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1342436199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1342436199> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura trombone (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1342436199> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1342436199> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1342436199> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1342817499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1342817499> <http://www.w3.org/2004/02/skos/core#prefLabel> "A estrela do norte — Partitura piano (edition Victor Prèalle)" .
 <urn:uuid:manifestations/1342817499> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1470481607> .
@@ -3890,6 +4030,9 @@
 <urn:uuid:manifestations/1362444221> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883073122> .
 <urn:uuid:manifestations/1362444221> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1362444221> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1362840914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1362840914> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro_2 — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1362840914> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1214529573> .
 <urn:uuid:manifestations/1362955592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1362955592> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angelica aparição — Partitura piano (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1362955592> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1672481179> .
@@ -4061,6 +4204,10 @@
 <urn:uuid:manifestations/1377963214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1377963214> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castelo de cartas — Partitura melodia e cifra funcional (printed edition)" .
 <urn:uuid:manifestations/1377963214> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1526770282> .
+<urn:uuid:manifestations/1378118474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1378118474> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuá! Chuá! — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1378118474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1120409664> .
+<urn:uuid:manifestations/1378118474> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1378599440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1378599440> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aniversário de Garcia — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1378599440> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1375956187> .
@@ -4191,6 +4338,9 @@
 <urn:uuid:manifestations/1389032981> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1425636142> .
 <urn:uuid:manifestations/1389032981> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1389032981> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1389159687> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1389159687> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cirandeiro — Partitura melodia e cifra (edition by Dois de Ouro Produções Ltda.)" .
+<urn:uuid:manifestations/1389159687> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1466143752> .
 <urn:uuid:manifestations/1389618607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1389618607> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bate palmas — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1389618607> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1111287326> .
@@ -4222,6 +4372,10 @@
 <urn:uuid:manifestations/1390538160> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1732191664> .
 <urn:uuid:manifestations/1390538160> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1390538160> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1391147377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1391147377> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade maravilhosa — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1391147377> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1626071062> .
+<urn:uuid:manifestations/1391147377> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1391217639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1391217639> <http://www.w3.org/2004/02/skos/core#prefLabel> "A periquita — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1391217639> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1768596946> .
@@ -4308,6 +4462,9 @@
 <urn:uuid:manifestations/1399438030> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1130975562> .
 <urn:uuid:manifestations/1399438030> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1399438030> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1399486172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1399486172> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinderela — Partitura melodia e cifra" .
+<urn:uuid:manifestations/1399486172> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1080904339> .
 <urn:uuid:manifestations/1399547712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1399547712> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apaixonado — Partitura melodia e cifra (edition Universidade Federal de Santa Catarina - UFSC)" .
 <urn:uuid:manifestations/1399547712> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1635917899> .
@@ -4388,9 +4545,17 @@
 <urn:uuid:manifestations/1407823958> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1691464123> .
 <urn:uuid:manifestations/1407823958> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1407823958> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1407847696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1407847696> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura trompete 1 (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1407847696> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1407847696> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1407847696> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1408146122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1408146122> <http://www.w3.org/2004/02/skos/core#prefLabel> "As proezas do Bellinho — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1408146122> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1794276110> .
+<urn:uuid:manifestations/1408756557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1408756557> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana — Partitura cifra (manuscript)" .
+<urn:uuid:manifestations/1408756557> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1844452126> .
 <urn:uuid:manifestations/1409123681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1409123681> <http://www.w3.org/2004/02/skos/core#prefLabel> "A fementida — Partitura melodia (printed edition)" .
 <urn:uuid:manifestations/1409123681> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1543412518> .
@@ -4472,6 +4637,9 @@
 <urn:uuid:manifestations/1413387089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1413387089> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cheirava-te — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1413387089> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1266494665> .
+<urn:uuid:manifestations/1414850496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1414850496> <http://www.w3.org/2004/02/skos/core#prefLabel> "César, o Belo — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1414850496> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1842168979> .
 <urn:uuid:manifestations/1415180024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1415180024> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusta — Partitura piano (edition Narciso & Arthur Napoleão)" .
 <urn:uuid:manifestations/1415180024> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1074931378> .
@@ -4494,6 +4662,11 @@
 <urn:uuid:manifestations/1416410862> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1416410862> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ave Maria — Partitura grade (digital transcription)" .
 <urn:uuid:manifestations/1416410862> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1398753094> .
+<urn:uuid:manifestations/1417044092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1417044092> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chororó — Partitura piano e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1417044092> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1387248889> .
+<urn:uuid:manifestations/1417044092> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1417044092> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1417828074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1417828074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brincadeirinha — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1417828074> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1374252341> .
@@ -4519,6 +4692,11 @@
 <urn:uuid:manifestations/1419535426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1419535426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amistad — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1419535426> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1300181763> .
+<urn:uuid:manifestations/1420159509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1420159509> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura trompete 2 (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1420159509> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1420159509> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1420159509> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1420163304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1420163304> <http://www.w3.org/2004/02/skos/core#prefLabel> "A variante do Carrilho — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1420163304> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1263356056> .
@@ -4557,6 +4735,9 @@
 <urn:uuid:manifestations/1422423427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1422423427> <http://www.w3.org/2004/02/skos/core#prefLabel> "A bota do diabo — Partitura piano e letra (printed edition)" .
 <urn:uuid:manifestations/1422423427> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1667153868> .
+<urn:uuid:manifestations/1423422219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1423422219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vivo — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1423422219> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1259427209> .
 <urn:uuid:manifestations/1423560036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1423560036> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabeça de porco — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1423560036> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1169409009> .
@@ -4585,6 +4766,10 @@
 <urn:uuid:manifestations/1424985439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1424985439> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cair das folhas — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1424985439> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1899616317> .
+<urn:uuid:manifestations/1425402754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1425402754> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco de janeiro — Partitura piano (edition Campassi & Camin)" .
+<urn:uuid:manifestations/1425402754> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1668838259> .
+<urn:uuid:manifestations/1425402754> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1303311434> .
 <urn:uuid:manifestations/1426333141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1426333141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aracy — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1426333141> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1844450477> .
@@ -4911,6 +5096,9 @@
 <urn:uuid:manifestations/1452639584> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abre a janela — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1452639584> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1705621952> .
 <urn:uuid:manifestations/1452639584> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1452683072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1452683072> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pros ingênuos — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1452683072> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1435174721> .
 <urn:uuid:manifestations/1453154655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1453154655> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pra Serli — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1453154655> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1241241025> .
@@ -4937,6 +5125,9 @@
 <urn:uuid:manifestations/1453961442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1453961442> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apaixonada — Partitura piano (edition by E. Bevilacqua & C.)" .
 <urn:uuid:manifestations/1453961442> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1100532536> .
+<urn:uuid:manifestations/1454058984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1454058984> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de pedra — Partitura melodia (edition by Corcovado Ltda.)" .
+<urn:uuid:manifestations/1454058984> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1076671253> .
 <urn:uuid:manifestations/1454712418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1454712418> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assim, sim — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1454712418> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1110530472> .
@@ -4954,6 +5145,9 @@
 <urn:uuid:manifestations/1456913808> <http://www.w3.org/2004/02/skos/core#prefLabel> "Berceuse — Partitura melodia e piano (edition Campassi & Camin)" .
 <urn:uuid:manifestations/1456913808> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1853810475> .
 <urn:uuid:manifestations/1456913808> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1303311434> .
+<urn:uuid:manifestations/1457535481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1457535481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ciao Brasil — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1457535481> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1296506506> .
 <urn:uuid:manifestations/1457658065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1457658065> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beijinhos — Partitura piano (edition Casa Arthur Napoleão)" .
 <urn:uuid:manifestations/1457658065> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1871239695> .
@@ -5176,6 +5370,11 @@
 <urn:uuid:manifestations/1476979938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1476979938> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sonhar — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1476979938> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1870197659> .
+<urn:uuid:manifestations/1477615054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1477615054> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cismando — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1477615054> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1812839873> .
+<urn:uuid:manifestations/1477615054> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1477615054> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1477683682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1477683682> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carolina Correia — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1477683682> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1826452886> .
@@ -5188,6 +5387,11 @@
 <urn:uuid:manifestations/1478160779> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1892212666> .
 <urn:uuid:manifestations/1478160779> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1478160779> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1478355647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1478355647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura sax alto 1 (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1478355647> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1478355647> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1478355647> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1478503814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1478503814> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argentina — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1478503814> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1320738820> .
@@ -5235,6 +5439,11 @@
 <urn:uuid:manifestations/1480953983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1480953983> <http://www.w3.org/2004/02/skos/core#prefLabel> "Batuque — Partitura piano (edition by Vieira Machado & C.)" .
 <urn:uuid:manifestations/1480953983> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1814652675> .
+<urn:uuid:manifestations/1481162133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1481162133> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura clarinete (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1481162133> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1481162133> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1481162133> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1481344269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1481344269> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bem-te-vi manhoso — Partitura melodia (edition A Melodia)" .
 <urn:uuid:manifestations/1481344269> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1170913787> .
@@ -5489,6 +5698,9 @@
 <urn:uuid:manifestations/1501489890> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai! Amor... — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1501489890> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1024102508> .
 <urn:uuid:manifestations/1501489890> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1501593473> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1501593473> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro-canção — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1501593473> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1038502376> .
 <urn:uuid:manifestations/1502211059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1502211059> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baião cigano — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1502211059> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1334935648> .
@@ -5512,6 +5724,9 @@
 <urn:uuid:manifestations/1503696660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1503696660> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acuatá — Partitura melodia" .
 <urn:uuid:manifestations/1503696660> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1564258803> .
+<urn:uuid:manifestations/1503733269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1503733269> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicho de pé — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1503733269> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1090871540> .
 <urn:uuid:manifestations/1503740189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1503740189> <http://www.w3.org/2004/02/skos/core#prefLabel> "Buena Vista Juiz de Fora — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1503740189> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1081235564> .
@@ -5784,6 +5999,11 @@
 <urn:uuid:manifestations/1526194386> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor molhado — Partitura piano (edition Casa Levy)" .
 <urn:uuid:manifestations/1526194386> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1853058108> .
 <urn:uuid:manifestations/1526194386> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1373143376> .
+<urn:uuid:manifestations/1526721533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1526721533> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Luis — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1526721533> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1590336933> .
+<urn:uuid:manifestations/1526721533> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1526721533> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1527174243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1527174243> <http://www.w3.org/2004/02/skos/core#prefLabel> "César, o belo_BANDÃO — Partitura trompete (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1527174243> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1425469768> .
@@ -5801,6 +6021,11 @@
 <urn:uuid:manifestations/1528571456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1528571456> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicho de pé — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1528571456> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1090871540> .
+<urn:uuid:manifestations/1528734470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1528734470> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura contrabaixo (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1528734470> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1528734470> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1528734470> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1528822686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1528822686> <http://www.w3.org/2004/02/skos/core#prefLabel> "A boro-boracica — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1528822686> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1886406439> .
@@ -5844,6 +6069,9 @@
 <urn:uuid:manifestations/1532317824> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1749762755> .
 <urn:uuid:manifestations/1532317824> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1532317824> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1532524141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1532524141> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicicleta — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1532524141> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1590672439> .
 <urn:uuid:manifestations/1533173510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1533173510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aliança liberal — Partitura piano (edition Casa Viúva Guerreiro)" .
 <urn:uuid:manifestations/1533173510> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1780995243> .
@@ -5854,6 +6082,10 @@
 <urn:uuid:manifestations/1533732286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1533732286> <http://www.w3.org/2004/02/skos/core#prefLabel> "A boa roda do Parangolé — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1533732286> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1888981902> .
+<urn:uuid:manifestations/1534248821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1534248821> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade de Diadema — Partitura arranjo para banda (edition Funarte)" .
+<urn:uuid:manifestations/1534248821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1069654254> .
+<urn:uuid:manifestations/1534248821> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1522548084> .
 <urn:uuid:manifestations/1534335301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1534335301> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorei por teu amor... — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1534335301> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1863890168> .
@@ -5924,6 +6156,11 @@
 <urn:uuid:manifestations/1539427497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1539427497> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chiquita — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1539427497> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1417407056> .
+<urn:uuid:manifestations/1539995461> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1539995461> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura flauta (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1539995461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1539995461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1539995461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1540472293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1540472293> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bangu_BANDÃO VIRTUAL — Partitura base simplificada (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1540472293> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883073122> .
@@ -5932,6 +6169,11 @@
 <urn:uuid:manifestations/1540493206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1540493206> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bugrinha — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1540493206> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1587968213> .
+<urn:uuid:manifestations/1541025280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1541025280> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura bandolim (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1541025280> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1541025280> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1541025280> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1541559163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1541559163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Araguaya — Partitura piano (edition Francis Salabert)" .
 <urn:uuid:manifestations/1541559163> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1710530672> .
@@ -5973,6 +6215,9 @@
 <urn:uuid:manifestations/1543902127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1543902127> <http://www.w3.org/2004/02/skos/core#prefLabel> "A menina dos meus olhos — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1543902127> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1766601672> .
+<urn:uuid:manifestations/1544596135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1544596135> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro simples — Partitura melodia e cifra (printed edition)" .
+<urn:uuid:manifestations/1544596135> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1007745038> .
 <urn:uuid:manifestations/1544617297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1544617297> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bouquet de noiva — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1544617297> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1607200650> .
@@ -6033,12 +6278,19 @@
 <urn:uuid:manifestations/1548831372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1548831372> <http://www.w3.org/2004/02/skos/core#prefLabel> "Celeste — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1548831372> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1085018394> .
+<urn:uuid:manifestations/1549691084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1549691084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinira — Partitura piano (edition by A. Guigon & C.)" .
+<urn:uuid:manifestations/1549691084> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1716939944> .
 <urn:uuid:manifestations/1549787053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1549787053> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acuatá — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1549787053> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1564258803> .
 <urn:uuid:manifestations/1551008817> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1551008817> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor com amor se paga — Partitura piano (manuscript)" .
 <urn:uuid:manifestations/1551008817> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1646038937> .
+<urn:uuid:manifestations/1551304925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1551304925> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro verde — Partitura piano (edition Campassi & Camin)" .
+<urn:uuid:manifestations/1551304925> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1281757650> .
+<urn:uuid:manifestations/1551304925> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1303311434> .
 <urn:uuid:manifestations/1551481351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1551481351> <http://www.w3.org/2004/02/skos/core#prefLabel> "César, o belo_BANDÃO — Partitura sax alto 2 (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1551481351> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1425469768> .
@@ -6123,6 +6375,9 @@
 <urn:uuid:manifestations/1560159005> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1328716627> .
 <urn:uuid:manifestations/1560159005> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1560159005> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1560171561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1560171561> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1560171561> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1006743751> .
 <urn:uuid:manifestations/1560884074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1560884074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adernado — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1560884074> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1135177293> .
@@ -6140,6 +6395,11 @@
 <urn:uuid:manifestations/1562006327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1562006327> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro e Poesia — Partitura piano (manuscript)" .
 <urn:uuid:manifestations/1562006327> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1591496083> .
+<urn:uuid:manifestations/1562044027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1562044027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro só — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1562044027> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1272826899> .
+<urn:uuid:manifestations/1562044027> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1562044027> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1562095210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1562095210> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arranha-gato — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1562095210> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1010522362> .
@@ -6268,6 +6528,11 @@
 <urn:uuid:manifestations/1574279839> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1764369109> .
 <urn:uuid:manifestations/1574279839> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1574279839> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1574710357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1574710357> <http://www.w3.org/2004/02/skos/core#prefLabel> "Circumscis flautica — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1574710357> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1159908460> .
+<urn:uuid:manifestations/1574710357> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1574710357> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1575078245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1575078245> <http://www.w3.org/2004/02/skos/core#prefLabel> "A cara do Brasil — Partitura melodia, cifra e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1575078245> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1385337907> .
@@ -6328,6 +6593,11 @@
 <urn:uuid:manifestations/1578807583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1578807583> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bola na trave — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1578807583> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1536634971> .
+<urn:uuid:manifestations/1579122979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1579122979> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinema — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1579122979> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1000038595> .
+<urn:uuid:manifestations/1579122979> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1579122979> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1579958392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1579958392> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor não se compra — Partitura melodia (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1579958392> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1698535972> .
@@ -6411,6 +6681,9 @@
 <urn:uuid:manifestations/1585715441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1585715441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1585715441> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1815706178> .
+<urn:uuid:manifestations/1586223003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1586223003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de pérolas — Partitura arranjo (edition by C.E.M.B.S.)" .
+<urn:uuid:manifestations/1586223003> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1094173513> .
 <urn:uuid:manifestations/1586498190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1586498190> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai Marica — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1586498190> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1538756414> .
@@ -6454,6 +6727,9 @@
 <urn:uuid:manifestations/1588726641> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acorde filhinho, acorde — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1588726641> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1571106420> .
 <urn:uuid:manifestations/1588726641> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1589031166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1589031166> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chupando rolha — Partitura cifra (manuscript)" .
+<urn:uuid:manifestations/1589031166> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1473400724> .
 <urn:uuid:manifestations/1589338518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1589338518> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agustin Valido — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1589338518> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1626417870> .
@@ -6605,6 +6881,9 @@
 <urn:uuid:manifestations/1602615698> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1817448122> .
 <urn:uuid:manifestations/1602615698> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1602615698> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1602661182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1602661182> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco lagos — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1602661182> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1260869276> .
 <urn:uuid:manifestations/1603567055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1603567055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canta o Yapurú — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1603567055> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1397163568> .
@@ -6659,6 +6938,9 @@
 <urn:uuid:manifestations/1606988321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1606988321> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anésio Orientado — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1606988321> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1444112712> .
+<urn:uuid:manifestations/1606989042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1606989042> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro torto — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1606989042> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1359973067> .
 <urn:uuid:manifestations/1607012738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1607012738> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adelia — Partitura piano (edition by E. Bevilacqua & Cia.)" .
 <urn:uuid:manifestations/1607012738> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1081737562> .
@@ -6672,6 +6954,11 @@
 <urn:uuid:manifestations/1607875922> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1574879111> .
 <urn:uuid:manifestations/1607875922> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1607875922> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1608116596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1608116596> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana do Catumby_BANDÃO — Partitura sax alto 2 (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1608116596> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1449298678> .
+<urn:uuid:manifestations/1608116596> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1608116596> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1608291742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1608291742> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adelyr — Partitura piano (edition Casa Viúva Guerreiro)" .
 <urn:uuid:manifestations/1608291742> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1715977589> .
@@ -6750,6 +7037,14 @@
 <urn:uuid:manifestations/1615563495> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brahma — Partitura piano (edition Narciso & Arthur Napoleão)" .
 <urn:uuid:manifestations/1615563495> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1512305786> .
 <urn:uuid:manifestations/1615563495> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1384331214> .
+<urn:uuid:manifestations/1615742467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1615742467> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro típico nº2 — Partitura violão (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1615742467> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1478502632> .
+<urn:uuid:manifestations/1615742467> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1615840789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1615840789> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade do sonho — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1615840789> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1832034528> .
+<urn:uuid:manifestations/1615840789> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1616995376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1616995376> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cem anos de choro — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1616995376> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1604185573> .
@@ -7009,6 +7304,11 @@
 <urn:uuid:manifestations/1632842583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1632842583> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bolero — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1632842583> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1740503719> .
+<urn:uuid:manifestations/1633359911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1633359911> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro suave — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1633359911> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1332439637> .
+<urn:uuid:manifestations/1633359911> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1633359911> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1633363236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1633363236> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bom mesmo é dinheiro — Partitura melodia e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1633363236> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1377918146> .
@@ -7088,6 +7388,11 @@
 <urn:uuid:manifestations/1637059135> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1593554999> .
 <urn:uuid:manifestations/1637059135> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1637059135> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1637474355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1637474355> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cicy chorando — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1637474355> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1078540910> .
+<urn:uuid:manifestations/1637474355> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1637474355> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1638087371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1638087371> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canarinho teimoso — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1638087371> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1303969420> .
@@ -7130,6 +7435,11 @@
 <urn:uuid:manifestations/1641314597> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agora é tarde — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1641314597> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1267952767> .
 <urn:uuid:manifestations/1641314597> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1641325721> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1641325721> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cintilante — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1641325721> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1568068030> .
+<urn:uuid:manifestations/1641325721> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1641325721> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1641938852> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1641938852> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canção pra inglês ver — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1641938852> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1233073006> .
@@ -7154,6 +7464,9 @@
 <urn:uuid:manifestations/1643092907> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caprichos do destino — Partitura violão (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1643092907> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1680474758> .
 <urn:uuid:manifestations/1643092907> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1643253903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1643253903> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Márcio — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1643253903> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1408299683> .
 <urn:uuid:manifestations/1643325916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1643325916> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorando no Campeche — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1643325916> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1296488598> .
@@ -7328,6 +7641,9 @@
 <urn:uuid:manifestations/1660128579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1660128579> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apologia — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1660128579> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1062735976> .
+<urn:uuid:manifestations/1660193250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1660193250> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chumbinha — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1660193250> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1419113951> .
 <urn:uuid:manifestations/1660517718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1660517718> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro na Denmark Radio — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1660517718> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1813258392> .
@@ -7369,6 +7685,10 @@
 <urn:uuid:manifestations/1664241701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1664241701> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bismarck brincando — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1664241701> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1645151391> .
+<urn:uuid:manifestations/1664374501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1664374501> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuá! Chuá! — Partitura piano e letra (edition Viúva Guerreiro & C)" .
+<urn:uuid:manifestations/1664374501> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1120409664> .
+<urn:uuid:manifestations/1664374501> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1009256354> .
 <urn:uuid:manifestations/1664944987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1664944987> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angá — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1664944987> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1587756282> .
@@ -7477,6 +7797,9 @@
 <urn:uuid:manifestations/1674101106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1674101106> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boêmia Terra — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1674101106> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1555000120> .
+<urn:uuid:manifestations/1674114083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1674114083> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco jovens — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1674114083> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1625640399> .
 <urn:uuid:manifestations/1675919396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1675919396> <http://www.w3.org/2004/02/skos/core#prefLabel> "Catinga dos mulatos — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1675919396> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1328779409> .
@@ -7501,6 +7824,9 @@
 <urn:uuid:manifestations/1677123096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1677123096> <http://www.w3.org/2004/02/skos/core#prefLabel> "A força do hábito — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1677123096> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1010328562> .
+<urn:uuid:manifestations/1677968711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1677968711> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cigana — Partitura melodia e cifra" .
+<urn:uuid:manifestations/1677968711> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318491508> .
 <urn:uuid:manifestations/1678500167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1678500167> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alcebíades no choro — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1678500167> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1133766475> .
@@ -7625,6 +7951,11 @@
 <urn:uuid:manifestations/1687232608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1687232608> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baião para Jacob do Bandolim — Partitura cifra (manuscript)" .
 <urn:uuid:manifestations/1687232608> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1224355408> .
+<urn:uuid:manifestations/1687325461> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1687325461> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorões e seresteiros — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1687325461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1564068831> .
+<urn:uuid:manifestations/1687325461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1687325461> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1687815377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1687815377> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apanhei-te cavaquinho — Partitura piano, letra e cifra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1687815377> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1002949157> .
@@ -7647,6 +7978,9 @@
 <urn:uuid:manifestations/1688640553> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883073122> .
 <urn:uuid:manifestations/1688640553> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1688640553> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1689189953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1689189953> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinza — Partitura violão (digital transcription)" .
+<urn:uuid:manifestations/1689189953> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1699111906> .
 <urn:uuid:manifestations/1689383241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1689383241> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arrastando a asa — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1689383241> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1055871242> .
@@ -7682,6 +8016,9 @@
 <urn:uuid:manifestations/1691449803> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1691449803> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabo Pitanga — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1691449803> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1641428441> .
+<urn:uuid:manifestations/1691824602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1691824602> <http://www.w3.org/2004/02/skos/core#prefLabel> "Circuito Tiradentes Cultural — Partitura 2a voz (digital transcription)" .
+<urn:uuid:manifestations/1691824602> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1184833929> .
 <urn:uuid:manifestations/1692384111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1692384111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alô Bateria !!! — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1692384111> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1211990240> .
@@ -7740,6 +8077,9 @@
 <urn:uuid:manifestations/1697725675> <http://www.w3.org/2004/02/skos/core#prefLabel> "A borboleta de ouro — Partitura piano (edition Vieira Machado & Cia)" .
 <urn:uuid:manifestations/1697725675> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1294177099> .
 <urn:uuid:manifestations/1697725675> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1086272776> .
+<urn:uuid:manifestations/1698297611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1698297611> <http://www.w3.org/2004/02/skos/core#prefLabel> "As andorinhas de Campinas — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1698297611> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1249479656> .
 <urn:uuid:manifestations/1698773674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1698773674> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aperta o botão — Partitura melodia" .
 <urn:uuid:manifestations/1698773674> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1152939899> .
@@ -7772,6 +8112,9 @@
 <urn:uuid:manifestations/1700691524> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agarradinho — Partitura melodia e cifra (edition Bruno Quaino Material Cultural Ltda)" .
 <urn:uuid:manifestations/1700691524> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1623834067> .
 <urn:uuid:manifestations/1700691524> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1008158415> .
+<urn:uuid:manifestations/1700945889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1700945889> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro da oficina — Partitura melodia (digital transcription)" .
+<urn:uuid:manifestations/1700945889> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1370378883> .
 <urn:uuid:manifestations/1701069851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1701069851> <http://www.w3.org/2004/02/skos/core#prefLabel> "A variante do Carrilho — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1701069851> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1263356056> .
@@ -8007,6 +8350,9 @@
 <urn:uuid:manifestations/1719924727> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cavaquinho, por que choras? — Partitura piano (edition E. S. Magione)" .
 <urn:uuid:manifestations/1719924727> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1538268853> .
 <urn:uuid:manifestations/1719924727> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1361713394> .
+<urn:uuid:manifestations/1720607210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1720607210> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro triste — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1720607210> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1318193477> .
 <urn:uuid:manifestations/1720792038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1720792038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor extremoso — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1720792038> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1482261689> .
@@ -8064,6 +8410,9 @@
 <urn:uuid:manifestations/1724806679> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1130244618> .
 <urn:uuid:manifestations/1724806679> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1724806679> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1725082469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1725082469> <http://www.w3.org/2004/02/skos/core#prefLabel> "Círio de Nazaré — Partitura cifra (manuscript)" .
+<urn:uuid:manifestations/1725082469> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1406784913> .
 <urn:uuid:manifestations/1725465263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1725465263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chimpanzé — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1725465263> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1493364289> .
@@ -8126,6 +8475,9 @@
 <urn:uuid:manifestations/1730637232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1730637232> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abigail — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1730637232> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1760318708> .
+<urn:uuid:manifestations/1730775126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1730775126> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco deusas — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1730775126> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1471489349> .
 <urn:uuid:manifestations/1730968395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1730968395> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bijuquinha — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1730968395> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1638891945> .
@@ -8198,6 +8550,9 @@
 <urn:uuid:manifestations/1736936492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1736936492> <http://www.w3.org/2004/02/skos/core#prefLabel> "Catando conchinhas — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1736936492> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1198037425> .
+<urn:uuid:manifestations/1736973167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1736973167> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choroso — Partitura melodia (edition by Corcovado Ltda.)" .
+<urn:uuid:manifestations/1736973167> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1175959614> .
 <urn:uuid:manifestations/1737031471> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1737031471> <http://www.w3.org/2004/02/skos/core#prefLabel> "César, o Belo — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1737031471> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1842168979> .
@@ -8240,6 +8595,9 @@
 <urn:uuid:manifestations/1740129906> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1883073122> .
 <urn:uuid:manifestations/1740129906> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1740129906> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1740225344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1740225344> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choropolkeado — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1740225344> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1469678280> .
 <urn:uuid:manifestations/1740629503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1740629503> <http://www.w3.org/2004/02/skos/core#prefLabel> "A pequena valsa — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1740629503> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1466492497> .
@@ -8343,6 +8701,10 @@
 <urn:uuid:manifestations/1748318438> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1123031799> .
 <urn:uuid:manifestations/1748318438> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1748318438> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1748707726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1748707726> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vermelho — Partitura piano (edition Campassi & Camin)" .
+<urn:uuid:manifestations/1748707726> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1820752144> .
+<urn:uuid:manifestations/1748707726> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1303311434> .
 <urn:uuid:manifestations/1748725228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1748725228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor e pranto — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1748725228> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1703395883> .
@@ -8360,6 +8722,9 @@
 <urn:uuid:manifestations/1749441115> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor fatal — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1749441115> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1704478851> .
 <urn:uuid:manifestations/1749441115> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1749733669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1749733669> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco deusas — Partitura cifra (manuscript)" .
+<urn:uuid:manifestations/1749733669> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1471489349> .
 <urn:uuid:manifestations/1749957647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1749957647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorando difícil — Partitura melodia (digital transcription)" .
 <urn:uuid:manifestations/1749957647> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1412640703> .
@@ -8542,6 +8907,11 @@
 <urn:uuid:manifestations/1765080050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1765080050> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alma saudosa — Partitura piano (manuscript)" .
 <urn:uuid:manifestations/1765080050> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1205677711> .
+<urn:uuid:manifestations/1765606358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1765606358> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco de abril — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1765606358> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1377177557> .
+<urn:uuid:manifestations/1765606358> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1765606358> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1766501409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1766501409> <http://www.w3.org/2004/02/skos/core#prefLabel> "Albertina — Partitura piano (edition by por Casa Arthur Napoleão)" .
 <urn:uuid:manifestations/1766501409> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1653705739> .
@@ -8574,6 +8944,11 @@
 <urn:uuid:manifestations/1769135136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1697870829> .
 <urn:uuid:manifestations/1769135136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1769135136> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1769180570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1769180570> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinza — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
+<urn:uuid:manifestations/1769180570> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1461650675> .
+<urn:uuid:manifestations/1769180570> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
+<urn:uuid:manifestations/1769180570> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
 <urn:uuid:manifestations/1769383325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1769383325> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agradável — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1769383325> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1670371555> .
@@ -8674,6 +9049,9 @@
 <urn:uuid:manifestations/1779575158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1779575158> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro n.18 (Abm) — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1779575158> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1729284221> .
+<urn:uuid:manifestations/1780563739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1780563739> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cibelle — Partitura melodia e cifra (printed edition)" .
+<urn:uuid:manifestations/1780563739> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1367560044> .
 <urn:uuid:manifestations/1780725718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1780725718> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baião do Rei — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1780725718> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1781586692> .
@@ -8685,6 +9063,10 @@
 <urn:uuid:manifestations/1781169661> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1453136539> .
 <urn:uuid:manifestations/1781169661> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1781169661> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1781251760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1781251760> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chuva de amores — Partitura piano (edition L. Parent)" .
+<urn:uuid:manifestations/1781251760> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1841882190> .
+<urn:uuid:manifestations/1781251760> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1106890429> .
 <urn:uuid:manifestations/1781302320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1781302320> <http://www.w3.org/2004/02/skos/core#prefLabel> "Camuflado — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1781302320> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1649454681> .
@@ -8824,6 +9206,9 @@
 <urn:uuid:manifestations/1793606288> <http://www.w3.org/2004/02/skos/core#prefLabel> "Andante expressivo — Partitura piano (edition Divisão de Música e Arquivo Sonoro Biblioteca Nacional)" .
 <urn:uuid:manifestations/1793606288> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1431888805> .
 <urn:uuid:manifestations/1793606288> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1342452964> .
+<urn:uuid:manifestations/1794412235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1794412235> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro vivo — Partitura melodia e cifra (manuscript)" .
+<urn:uuid:manifestations/1794412235> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1259427209> .
 <urn:uuid:manifestations/1795418747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1795418747> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorinho faceiro — Partitura melodia e cifra (printed edition)" .
 <urn:uuid:manifestations/1795418747> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1346913462> .
@@ -8833,6 +9218,9 @@
 <urn:uuid:manifestations/1796345898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1796345898> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cananéa — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1796345898> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1109822420> .
+<urn:uuid:manifestations/1796688312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1796688312> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinco deusas — Partitura melodia (digital transcription)" .
+<urn:uuid:manifestations/1796688312> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1471489349> .
 <urn:uuid:manifestations/1796719229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1796719229> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro e garoa — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1796719229> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1116063229> .
@@ -8912,6 +9300,9 @@
 <urn:uuid:manifestations/1800307656> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1043050971> .
 <urn:uuid:manifestations/1800307656> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1800307656> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1800968545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1800968545> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chorões do Bandolim de Ouro — Partitura melodia e cifra (printed edition)" .
+<urn:uuid:manifestations/1800968545> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1062764281> .
 <urn:uuid:manifestations/1801291779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1801291779> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agora sim — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1801291779> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1499469817> .
@@ -8937,6 +9328,10 @@
 <urn:uuid:manifestations/1803720630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1803720630> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alzira — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1803720630> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1634038016> .
+<urn:uuid:manifestations/1804649879> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1804649879> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cidade de Santos — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1804649879> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1547468850> .
+<urn:uuid:manifestations/1804649879> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1804753352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1804753352> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alegre em Acari — Partitura melodia e cifra" .
 <urn:uuid:manifestations/1804753352> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1515920151> .
@@ -8972,6 +9367,10 @@
 <urn:uuid:manifestations/1808496962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1808496962> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carolina — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1808496962> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1044461216> .
+<urn:uuid:manifestations/1808830853> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1808830853> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cisma do caboclo — Partitura piano e letra (edition Casa Carlos Gomes)" .
+<urn:uuid:manifestations/1808830853> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1683478261> .
+<urn:uuid:manifestations/1808830853> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1450885394> .
 <urn:uuid:manifestations/1808995009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1808995009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ai, sanfona — Partitura piano e letra (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1808995009> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1256824686> .
@@ -9072,6 +9471,9 @@
 <urn:uuid:manifestations/1816671500> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1177802045> .
 <urn:uuid:manifestations/1816671500> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1816671500> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1816979685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1816979685> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinza — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1816979685> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1699111906> .
 <urn:uuid:manifestations/1817321593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1817321593> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tico-tico no fubá — Partitura melodia e cifra (edition Instituto Casa do Choro)" .
 <urn:uuid:manifestations/1817321593> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1534990820> .
@@ -9322,6 +9724,10 @@
 <urn:uuid:manifestations/1840588296> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1270460976> .
 <urn:uuid:manifestations/1840588296> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1466939823> .
 <urn:uuid:manifestations/1840588296> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:places/1800036311> .
+<urn:uuid:manifestations/1840791643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1840791643> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choros nº7 — Partitura arranjo para orquestra (edition MAX ESCHIG)" .
+<urn:uuid:manifestations/1840791643> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1577488927> .
+<urn:uuid:manifestations/1840791643> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1769441550> .
 <urn:uuid:manifestations/1841009283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1841009283> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bingo — Partitura melodia (edition Editora Musical Brasileira)" .
 <urn:uuid:manifestations/1841009283> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1878496587> .
@@ -9413,10 +9819,17 @@
 <urn:uuid:manifestations/1846794473> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Influenza — Partitura piano (edition Buschmann & Guimarães)" .
 <urn:uuid:manifestations/1846794473> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1843680081> .
 <urn:uuid:manifestations/1846794473> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1465829950> .
+<urn:uuid:manifestations/1846938503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1846938503> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro pro Luizinho — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1846938503> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1072918014> .
 <urn:uuid:manifestations/1847817663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1847817663> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amor selvagem — Partitura piano (edition E.S. Mangione)" .
 <urn:uuid:manifestations/1847817663> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1455979003> .
 <urn:uuid:manifestations/1847817663> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
+<urn:uuid:manifestations/1848040916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1848040916> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ciganinha, do meu coração — Partitura piano e letra (edition E.S. Mangione)" .
+<urn:uuid:manifestations/1848040916> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1119200608> .
+<urn:uuid:manifestations/1848040916> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:institutions/1297834093> .
 <urn:uuid:manifestations/1848334172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1848334172> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aniversário do Gustavo — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1848334172> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1218101848> .
@@ -9517,6 +9930,9 @@
 <urn:uuid:manifestations/1855956464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1855956464> <http://www.w3.org/2004/02/skos/core#prefLabel> "As pensões — Partitura melodia e letra (manuscript)" .
 <urn:uuid:manifestations/1855956464> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1370338036> .
+<urn:uuid:manifestations/1856078891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1856078891> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cinamomo — Partitura melodia e cifra (digital transcription)" .
+<urn:uuid:manifestations/1856078891> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1513320553> .
 <urn:uuid:manifestations/1856166643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1856166643> <http://www.w3.org/2004/02/skos/core#prefLabel> "Candinho, Dê suas ordens — Partitura melodia (manuscript)" .
 <urn:uuid:manifestations/1856166643> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1302223476> .
@@ -9600,6 +10016,9 @@
 <urn:uuid:manifestations/1862149591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1862149591> <http://www.w3.org/2004/02/skos/core#prefLabel> "A sereia — Partitura piano e letra (printed edition)" .
 <urn:uuid:manifestations/1862149591> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1408455108> .
+<urn:uuid:manifestations/1862384321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1862384321> <http://www.w3.org/2004/02/skos/core#prefLabel> "Choro-canção — Partitura melodia (manuscript)" .
+<urn:uuid:manifestations/1862384321> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1646710624> .
 <urn:uuid:manifestations/1862432466> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1862432466> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brasil — Partitura melodia e cifra (manuscript)" .
 <urn:uuid:manifestations/1862432466> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1454616857> .
@@ -9938,6 +10357,9 @@
 <urn:uuid:manifestations/1891674332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1891674332> <http://www.w3.org/2004/02/skos/core#prefLabel> "A desejada — Partitura piano (printed edition)" .
 <urn:uuid:manifestations/1891674332> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1127388083> .
+<urn:uuid:manifestations/1891758333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
+<urn:uuid:manifestations/1891758333> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chrysanthemo — Partitura piano (edition by Vieira Machado & C.)" .
+<urn:uuid:manifestations/1891758333> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1655058366> .
 <urn:uuid:manifestations/1892681900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#ManifestationEntity> .
 <urn:uuid:manifestations/1892681900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caminho do meio — Partitura melodia e cifra (digital transcription)" .
 <urn:uuid:manifestations/1892681900> <http://www.w3.org/2004/02/skos/core#related> <urn:uuid:expressions/1797983735> .

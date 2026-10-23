@@ -46,6 +46,7 @@ _:b5f96d535-bb52-9872-a52b-bfc208aed991 a melod:InstrumentationDetail;
 _:b8808ff0b-35d0-cdf6-90d7-1fedda4c132b a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "bombardino Eb";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b814bd7c0-904a-d7af-48ea-90bae5dc25ef a melod:InstrumentationDetail;

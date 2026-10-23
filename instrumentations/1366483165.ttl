@@ -99,6 +99,7 @@ _:b049d1902-530c-8e40-bae6-1e89972489cd a melod:InstrumentationDetail;
 _:b775714fd-2872-4180-55c2-10165eb13384 a melod:InstrumentationDetail;
     schema:position "13"^^xsd:integer;
     schema:description "saxhorn barítono Bb";
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b85179188-5f04-3eeb-adc5-1e198a4e6524 a melod:InstrumentationDetail;
@@ -125,4 +126,6 @@ _:b8773f40e-8d40-481d-ea79-bda969457090 a melod:InstrumentationDetail;
 _:bfcca87d6-d84b-b7e0-9f26-1d1dcbc38834 a melod:InstrumentationDetail;
     schema:position "17"^^xsd:integer;
     schema:description "tuba Eb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Tuba;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#be>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

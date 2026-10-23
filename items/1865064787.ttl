@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1865064787> a melod:Item;
     rdfs:label "Aniversário de casamento — Partitura piano e letra (score_14390)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1726698857>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1340714659>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b634d0bf0-2ba7-71eb-5b8b-c77c8c1c4fb0;
     melod:hasShelfmark "score_14390";

@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1776678964> a melod:Item;
     rdfs:label "As andorinhas de Campinas — Partitura melodia e cifra (score_6753)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1105203475>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1698297611>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b98d143bb-039a-6355-2827-694826538a18;
     melod:hasShelfmark "score_6753";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6753.pdf>;
+    melod:hasProvenance _:b50315611-c0ce-3b4b-bf39-61bac31ec5cc;
     dct:conformsTo melod:Item.
 
 _:b98d143bb-039a-6355-2827-694826538a18 a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_6753".
+
+_:b50315611-c0ce-3b4b-bf39-61bac31ec5cc a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita - arquivo de Vadinho";
+    melod:hasContribution _:b0219d46d-73ae-d190-55c8-6a3b7c638372.
+
+_:b0219d46d-73ae-d190-55c8-6a3b7c638372 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1104793099>;
+    melod:hasRole terms:FormerOwner.

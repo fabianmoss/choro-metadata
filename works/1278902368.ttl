@@ -1,0 +1,50 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1278902368> a melod:Work;
+    melod:hasTitle _:b82b7b5ad-8747-333b-7da5-e7f5993bc9c5;
+    melod:hasIdentifier _:b08cbc10c-2a2a-0489-7f2a-6183c44a8b1f;
+    melod:hasClassification "Canção Modinha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3928>;
+    melod:hasContribution _:b27da1355-dc45-f318-6cf4-abe3504f94fd, _:b0de876c1-2864-70cc-2fce-58d2aa10cf7c, _:be3bfc230-b732-7a78-5ccd-80ef25524a5d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1120409664>;
+    melod:hasAnnotation _:baf77c604-3d3c-ab38-f693-c098cdce6828;
+    dct:conformsTo melod:Work.
+
+_:b82b7b5ad-8747-333b-7da5-e7f5993bc9c5 a melod:Title;
+    rdfs:label "Chuá! Chuá!"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b08cbc10c-2a2a-0489-7f2a-6183c44a8b1f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3928".
+
+_:b27da1355-dc45-f318-6cf4-abe3504f94fd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1501337655>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0de876c1-2864-70cc-2fce-58d2aa10cf7c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1599807196>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be3bfc230-b732-7a78-5ccd-80ef25524a5d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1884700139>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:baf77c604-3d3c-ab38-f693-c098cdce6828 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3928\">https://acervo.casadochoro.com.br/works/view/3928</a>. Gênero: Canção Modinha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

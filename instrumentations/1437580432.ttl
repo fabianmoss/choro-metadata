@@ -61,6 +61,8 @@ _:bf007d026-6cee-2639-6f26-17c37599ebd7 a melod:InstrumentationDetail;
 _:b67e3dbe6-1f5e-4199-0228-5dd76045a20f a melod:InstrumentationDetail;
     schema:position "7"^^xsd:integer;
     schema:description "trompa Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Horn;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ba>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b8cfb879d-8832-6841-a9f0-feccb2aea39f a melod:InstrumentationDetail;

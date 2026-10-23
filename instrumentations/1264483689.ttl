@@ -47,6 +47,8 @@ _:b8d114517-cf11-e697-f287-c0cfcd3d5da6 a melod:InstrumentationDetail;
 _:b37c0a877-e549-071b-9ab5-31865536b2d2 a melod:InstrumentationDetail;
     schema:position "5"^^xsd:integer;
     schema:description "contra fagote";
+    mus:U2_foresees_use_of_medium_of_performance terms:Bassoon;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:be27bb77f-fdcd-3aa2-e0e0-11369ee7ed82 a melod:InstrumentationDetail;
@@ -139,4 +141,6 @@ _:ba6fb3bde-a3cc-4cf3-6cd7-1a24005b525e a melod:InstrumentationDetail;
 _:b2521b8c6-7b4f-f4ee-3e2a-9f98e3788ab5 a melod:InstrumentationDetail;
     schema:position "19"^^xsd:integer;
     schema:description "corn inglês";
+    mus:U2_foresees_use_of_medium_of_performance terms:EnglishHorn;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wf>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

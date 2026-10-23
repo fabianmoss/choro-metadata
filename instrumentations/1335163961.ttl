@@ -32,6 +32,8 @@ _:b691ced77-3ed9-9c84-7920-110655217384 a melod:InstrumentationDetail;
 _:bbd82194e-f98b-a029-e54d-e1a53b3bd692 a melod:InstrumentationDetail;
     schema:position "3"^^xsd:integer;
     schema:description "caixa";
+    mus:U2_foresees_use_of_medium_of_performance terms:Drum;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pd>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:b09bccf50-c929-7ca1-5cc0-530d1fedd603 a melod:InstrumentationDetail;
@@ -58,6 +60,8 @@ _:bc3da6212-1cc3-96a3-9384-cf5431431546 a melod:InstrumentationDetail;
 _:ba55c0a0e-a88b-1567-8cb0-b40dc5ac2818 a melod:InstrumentationDetail;
     schema:position "7"^^xsd:integer;
     schema:description "prato";
+    mus:U2_foresees_use_of_medium_of_performance terms:Cymbal;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#pz>;
     mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
 
 _:bd891da1d-9b1d-76ed-8eef-cfd069682345 a melod:InstrumentationDetail;

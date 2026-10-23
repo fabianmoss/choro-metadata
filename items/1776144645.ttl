@@ -14,14 +14,24 @@
 
 <urn:uuid:items/1776144645> a melod:Item;
     rdfs:label "Ari na Fandanga! — Partitura melodia (score_814)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1830257165>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046797874>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1d1926a9-6f22-1d96-f790-33200f2cf47c;
     melod:hasShelfmark "score_814";
     owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_814.pdf>;
+    melod:hasProvenance _:b8e20810e-0c6a-9091-f6f3-2dad6e3772a4;
     dct:conformsTo melod:Item.
 
 _:b1d1926a9-6f22-1d96-f790-33200f2cf47c a melod:Identifier;
     rdfs:label "Acervo Casa do Choro — digitised score";
     owl:hasValue "score_814".
+
+_:b8e20810e-0c6a-9091-f6f3-2dad6e3772a4 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita - arquivo de Gerson Ferreira Pinto -";
+    melod:hasContribution _:b25f81422-9077-c2b5-5ffb-cf2f8cfbc445.
+
+_:b25f81422-9077-c2b5-5ffb-cf2f8cfbc445 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1589418829>;
+    melod:hasRole terms:FormerOwner.

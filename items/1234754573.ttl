@@ -14,8 +14,8 @@
 
 <urn:uuid:items/1234754573> a melod:Item;
     rdfs:label "Aperta o botão — Partitura melodia (score_1906)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1698773674>;
-    melod:hasClassificationOfManifestation "Copy";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1288553910>;
+    melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b581614f7-9aa1-54a9-0a62-2e3914c767b4;
     melod:hasShelfmark "score_1906";
