@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1417885162> a melod:Work;
+    melod:hasTitle _:b44b4a16b-e1e7-b734-f117-8f7537044138;
+    melod:hasIdentifier _:b9fd31f32-0c1a-6bb4-f12b-d95fcf99a9d2;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/182>;
+    melod:hasContribution _:b28fe7706-e405-eed6-fd4c-df7f981ff9c6;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1733780502>;
+    melod:hasAnnotation _:bfb56d332-5d33-7b15-54eb-fb09cdc19023;
+    dct:conformsTo melod:Work.
+
+_:b44b4a16b-e1e7-b734-f117-8f7537044138 a melod:Title;
+    rdfs:label "Le premier amour"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9fd31f32-0c1a-6bb4-f12b-d95fcf99a9d2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "182".
+
+_:b28fe7706-e405-eed6-fd4c-df7f981ff9c6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1535025733>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfb56d332-5d33-7b15-54eb-fb09cdc19023 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/182\">https://acervo.casadochoro.com.br/works/view/182</a>. Gênero: Valsa. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

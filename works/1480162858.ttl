@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1480162858> a melod:Work;
+    melod:hasTitle _:b75f1bb58-3503-77cc-50d0-68affbdadac9;
+    melod:hasIdentifier _:b4402cae2-a129-074d-762a-61f6db93222a;
+    melod:hasClassification "Quadrilha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2397>;
+    melod:hasContribution _:ba425aff9-e9ec-9aac-b8a0-980c5aab7845;
+    schema:citation <urn:uuid:bibliography/1503929089>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1134275498>, <urn:uuid:expressions/1189475421>;
+    melod:hasAnnotation _:b5648ea0b-ce9f-9f6a-617c-5d7bb462ff4b;
+    dct:conformsTo melod:Work.
+
+_:b75f1bb58-3503-77cc-50d0-68affbdadac9 a melod:Title;
+    rdfs:label "Lucinda"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4402cae2-a129-074d-762a-61f6db93222a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2397".
+
+_:ba425aff9-e9ec-9aac-b8a0-980c5aab7845 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1181305027>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b5648ea0b-ce9f-9f6a-617c-5d7bb462ff4b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2397\">https://acervo.casadochoro.com.br/works/view/2397</a>. Gênero: Quadrilha. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

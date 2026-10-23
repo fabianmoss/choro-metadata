@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1400454921> a melod:Work;
+    melod:hasTitle _:b11d3fa65-9b22-2387-ebce-03a9c49a375c;
+    melod:hasIdentifier _:b519e8b99-e946-9860-eda1-f0caa06c2d8f;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5406>;
+    melod:hasContribution _:bd40b10a7-0a03-2a7b-63e9-6573f1506975, _:b109fc07a-7b88-007a-9bc0-d67041a56c5a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1884387157>, <urn:uuid:expressions/1616175525>;
+    melod:hasAnnotation _:b32b0e2c7-c704-cae4-0293-03ebca4ec61c;
+    dct:conformsTo melod:Work.
+
+_:b11d3fa65-9b22-2387-ebce-03a9c49a375c a melod:Title;
+    rdfs:label "Lembrança de Noel"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b519e8b99-e946-9860-eda1-f0caa06c2d8f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5406".
+
+_:bd40b10a7-0a03-2a7b-63e9-6573f1506975 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1516693640>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b109fc07a-7b88-007a-9bc0-d67041a56c5a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1322548296>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b32b0e2c7-c704-cae4-0293-03ebca4ec61c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5406\">https://acervo.casadochoro.com.br/works/view/5406</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1724211749> a melod:Work;
+    melod:hasTitle _:b515846a0-b3fa-e78c-25c1-56cfe4206ce0;
+    melod:hasIdentifier _:b8914d429-06fc-271b-cb94-6c9c00a507f9;
+    melod:hasClassification "Madrigal";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10214>;
+    melod:hasContribution _:ba75a1147-c13c-4d8d-d976-e47de9797769;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1522772397>;
+    melod:hasAnnotation _:b1f7cbd6d-15a2-0398-081c-d688fd30ce1c;
+    dct:conformsTo melod:Work.
+
+_:b515846a0-b3fa-e78c-25c1-56cfe4206ce0 a melod:Title;
+    rdfs:label "Madrigal em Itapetininga"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8914d429-06fc-271b-cb94-6c9c00a507f9 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10214".
+
+_:ba75a1147-c13c-4d8d-d976-e47de9797769 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1659663953>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1f7cbd6d-15a2-0398-081c-d688fd30ce1c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10214\">https://acervo.casadochoro.com.br/works/view/10214</a>. Gênero: Madrigal. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

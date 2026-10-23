@@ -26,6 +26,6 @@ _:bf9da4baa-8ede-ff8b-59fb-4e6c3016313c a melod:Meter;
     schema:description "2/4".
 
 _:b56ecd634-555f-0ebe-d36e-274127c03bd2 a melod:Contribution;
-    melod:hasAgent <urn:uuid:persons/1378778470>;
+    melod:hasAgent <urn:uuid:persons/1621190449>;
     melod:hasRole terms:Arranger;
     melod:hasCertainty terms:MediumCertainty.

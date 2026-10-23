@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1631005378> a melod:Work;
+    melod:hasTitle _:b816f9eb1-f4ed-d41f-0e69-5f2a22cc8f86;
+    melod:hasIdentifier _:b73d19cf7-21c9-c669-c426-1db5669caf48;
+    melod:hasClassification "Seresta";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5692>;
+    melod:hasContribution _:b1c4e9199-4d92-78a3-4310-84ae026a7c98;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1252401259>;
+    melod:hasAnnotation _:b69e645b3-7026-facf-cc56-9ddc1692b2ec;
+    dct:conformsTo melod:Work.
+
+_:b816f9eb1-f4ed-d41f-0e69-5f2a22cc8f86 a melod:Title;
+    rdfs:label "Lembras-te"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b73d19cf7-21c9-c669-c426-1db5669caf48 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5692".
+
+_:b1c4e9199-4d92-78a3-4310-84ae026a7c98 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1158373799>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b69e645b3-7026-facf-cc56-9ddc1692b2ec a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5692\">https://acervo.casadochoro.com.br/works/view/5692</a>. Gênero: Seresta. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

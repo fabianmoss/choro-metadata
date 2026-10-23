@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1492037054> a melod:Item;
+    rdfs:label "Maracujá — Partitura melodia e cifra (score_11535)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1252836821>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b73c0a4ad-748d-bea8-824a-c0f461bd2040;
+    melod:hasShelfmark "score_11535";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11535.pdf>;
+    melod:hasProvenance _:b4b9256a4-ecb7-605f-37d6-35ee73af7e26;
+    dct:conformsTo melod:Item.
+
+_:b73c0a4ad-748d-bea8-824a-c0f461bd2040 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11535".
+
+_:b4b9256a4-ecb7-605f-37d6-35ee73af7e26 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b2e4dec13-35e1-3b8d-3503-5e04eaad6d1a.
+
+_:b2e4dec13-35e1-3b8d-3503-5e04eaad6d1a a melod:ExactDate;
+    melod:isodate "2005-08-07"^^xsd:date;
+    schema:description "07.08.2005".

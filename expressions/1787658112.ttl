@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1787658112> a melod:Expression;
+    rdfs:label "Lourdes (arrangement by Pedro Paes, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b237a5696-5396-2847-42fa-c8e58ecc3af2;
+    melod:hasContribution _:b071b6e6a-bd31-6984-9e78-d07228e72f31;
+    dct:conformsTo melod:Expression.
+
+_:b237a5696-5396-2847-42fa-c8e58ecc3af2 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b071b6e6a-bd31-6984-9e78-d07228e72f31 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1331846641>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

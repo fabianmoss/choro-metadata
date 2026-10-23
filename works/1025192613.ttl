@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1025192613> a melod:Work;
+    melod:hasTitle _:bcf5bde32-e116-7329-42ed-6d7fc022dd9c;
+    melod:hasIdentifier _:bde518ab6-c6a5-1264-c017-8cdf7214d754;
+    melod:hasClassification "Habanera";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3104>;
+    melod:hasContribution _:bf12384e8-4acd-207c-2ff3-f87436b5c24a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1218146197>;
+    melod:hasAnnotation _:b76abe0ca-6fcb-d42c-1372-9c3076e8b01e;
+    dct:conformsTo melod:Work.
+
+_:bcf5bde32-e116-7329-42ed-6d7fc022dd9c a melod:Title;
+    rdfs:label "Los amores de um negro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bde518ab6-c6a5-1264-c017-8cdf7214d754 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3104".
+
+_:bf12384e8-4acd-207c-2ff3-f87436b5c24a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1468307414>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b76abe0ca-6fcb-d42c-1372-9c3076e8b01e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3104\">https://acervo.casadochoro.com.br/works/view/3104</a>. Gênero: Habanera. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

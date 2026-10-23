@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1450386545> a melod:Item;
+    rdfs:label "Magdalena — Partitura melodia e cifra (score_10666)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1811797856>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b92e72448-4fa2-f957-6b8f-129b0145295d;
+    melod:hasShelfmark "score_10666";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10666.pdf>;
+    melod:hasProvenance _:b2dcdf09d-4954-522e-1a06-7b24801bac0c;
+    dct:conformsTo melod:Item.
+
+_:b92e72448-4fa2-f957-6b8f-129b0145295d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_10666".
+
+_:b2dcdf09d-4954-522e-1a06-7b24801bac0c a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b3f0dfc99-9d4e-4b78-b3a3-679f8fcd7c80.
+
+_:b3f0dfc99-9d4e-4b78-b3a3-679f8fcd7c80 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1560551844>;
+    melod:hasRole terms:Transcriber.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1122539204> a melod:Work;
+    melod:hasTitle _:bc08472a2-b135-2fef-3c47-248663d480fc;
+    melod:hasIdentifier _:bf4db944d-da5d-141f-9c5c-214ee89e0a3f;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3792>;
+    melod:hasContribution _:b5b4d1faf-3683-41a5-fce8-f6dcfe9df75f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1136481095>;
+    melod:hasAnnotation _:b525786a9-0142-fe14-7421-112250c262d6;
+    dct:conformsTo melod:Work.
+
+_:bc08472a2-b135-2fef-3c47-248663d480fc a melod:Title;
+    rdfs:label "Luciano brincando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf4db944d-da5d-141f-9c5c-214ee89e0a3f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3792".
+
+_:b5b4d1faf-3683-41a5-fce8-f6dcfe9df75f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1588544340>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b525786a9-0142-fe14-7421-112250c262d6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3792\">https://acervo.casadochoro.com.br/works/view/3792</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

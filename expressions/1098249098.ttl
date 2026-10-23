@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1098249098> a melod:Expression;
+    rdfs:label "Mal de amor (original version, Partitura piano e letra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc5c06911-b652-331d-ece8-20714c3b22d9;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:bb3ad5cfb-19c8-5914-4afd-9aa34512f48b;
+    dct:conformsTo melod:Expression.
+
+_:bc5c06911-b652-331d-ece8-20714c3b22d9 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:bb3ad5cfb-19c8-5914-4afd-9aa34512f48b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201562957>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

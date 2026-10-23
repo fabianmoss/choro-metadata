@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1540275091> a melod:Work;
+    melod:hasTitle _:be04b011b-a47d-d292-0761-a46b308529d4;
+    melod:hasIdentifier _:b52a32eab-1a72-c4fe-2cfb-ebf2185fc646;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2505>;
+    melod:hasContribution _:b43ac0e5c-e8fd-b8e8-8c79-a863663b93be;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1254502932>;
+    melod:hasAnnotation _:ba3a516d3-4cb5-7071-c253-498a012b58b3;
+    dct:conformsTo melod:Work.
+
+_:be04b011b-a47d-d292-0761-a46b308529d4 a melod:Title;
+    rdfs:label "Madrugada chegou"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b52a32eab-1a72-c4fe-2cfb-ebf2185fc646 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2505".
+
+_:b43ac0e5c-e8fd-b8e8-8c79-a863663b93be a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1513387210>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba3a516d3-4cb5-7071-c253-498a012b58b3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2505\">https://acervo.casadochoro.com.br/works/view/2505</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

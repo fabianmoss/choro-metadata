@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1756135359> a melod:Expression;
+    rdfs:label "Manhãs de abril (arrangement by Paulo Aragão, Partitura melodia e cifra)";
+    melod:hasClassification "Schottisch";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b303d8b57-3a27-7206-41b2-a186da6bb119;
+    melod:hasContribution _:b16b37fab-ebf4-0c88-d54d-3e83bcee268b;
+    dct:conformsTo melod:Expression.
+
+_:b303d8b57-3a27-7206-41b2-a186da6bb119 a melod:Meter;
+    melod:hasMeterCount "4"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "4/4".
+
+_:b16b37fab-ebf4-0c88-d54d-3e83bcee268b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1774983067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

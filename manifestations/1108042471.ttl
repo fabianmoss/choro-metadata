@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1108042471> a melod:Manifestation;
+    melod:hasTitle _:b67ac15fa-4d7f-c8bf-4cbb-06e487cd945e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1465960382>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b969190be-61e5-6350-ca47-50448057706d;
+    dct:conformsTo melod:Manifestation.
+
+_:b67ac15fa-4d7f-c8bf-4cbb-06e487cd945e a melod:Title;
+    rdfs:label "Luiza — Partitura melodia e cifra (edition by Acari Records)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b969190be-61e5-6350-ca47-50448057706d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1116373450>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

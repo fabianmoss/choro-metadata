@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1834465395> a melod:Manifestation;
+    melod:hasTitle _:b21c88138-792b-3a3a-54d2-2b42873b3f56;
+    lrmoo:R4_embodies <urn:uuid:expressions/1185058938>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bdbd1d27b-cb63-4ca0-b09d-6483b7781bf5;
+    dct:conformsTo melod:Manifestation.
+
+_:b21c88138-792b-3a3a-54d2-2b42873b3f56 a melod:Title;
+    rdfs:label "Manhoso — Partitura melodia e cifra (edition Fermata do Brasil)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bdbd1d27b-cb63-4ca0-b09d-6483b7781bf5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094092957>;
+    melod:hasRole terms:Publisher.

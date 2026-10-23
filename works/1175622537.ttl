@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1175622537> a melod:Work;
+    melod:hasTitle _:b632b8a23-3946-275d-b4e4-03e2d53d3446;
+    melod:hasIdentifier _:b727353de-63ac-366e-0f7a-5afe7b218a99;
+    melod:hasClassification "Valsa Lenta";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7882>;
+    melod:hasContribution _:b0f0e3e83-8c46-44ca-70ee-e3caef53980d, _:befa929ac-f422-61b4-fdd3-8a1f12359470;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1826739502>;
+    melod:hasAnnotation _:b17de8bb2-9570-6d58-8c48-a5b35176aa7f;
+    dct:conformsTo melod:Work.
+
+_:b632b8a23-3946-275d-b4e4-03e2d53d3446 a melod:Title;
+    rdfs:label "Lágrima que rola"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b727353de-63ac-366e-0f7a-5afe7b218a99 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7882".
+
+_:b0f0e3e83-8c46-44ca-70ee-e3caef53980d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1179400872>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:befa929ac-f422-61b4-fdd3-8a1f12359470 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1264250508>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b17de8bb2-9570-6d58-8c48-a5b35176aa7f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7882\">https://acervo.casadochoro.com.br/works/view/7882</a>. Gênero: Valsa Lenta. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

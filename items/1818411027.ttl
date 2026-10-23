@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1818411027> a melod:Item;
+    rdfs:label "Lamentando — Partitura melodia e cifra (score_1018)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1013064214>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba1e3ea8e-745a-7d29-8e23-c64367289329;
+    melod:hasShelfmark "score_1018";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1018.pdf>;
+    melod:hasProvenance _:b912f9bab-92d5-5c3e-cf74-dda83811be79;
+    dct:conformsTo melod:Item.
+
+_:ba1e3ea8e-745a-7d29-8e23-c64367289329 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1018".
+
+_:b912f9bab-92d5-5c3e-cf74-dda83811be79 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:be0b11289-a317-b9eb-9572-e91c84ca9895.
+
+_:be0b11289-a317-b9eb-9572-e91c84ca9895 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

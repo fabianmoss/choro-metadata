@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1454528842> a melod:Work;
+    melod:hasTitle _:b0c5b61fe-1e3c-b11f-664f-71b8e6c50449;
+    melod:hasIdentifier _:b4f6cbba4-5456-d177-3f96-22c859871846;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3965>;
+    melod:hasContribution _:b0f7dd683-b948-9206-48a9-0658509a5a67, _:b33a26848-e13a-5cbc-0df2-57886631d5b7;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1878429111>, <urn:uuid:expressions/1015444739>, <urn:uuid:expressions/1262161604>;
+    melod:hasAnnotation _:b77e627af-dce7-ec96-879a-d372e8bf85cd;
+    dct:conformsTo melod:Work.
+
+_:b0c5b61fe-1e3c-b11f-664f-71b8e6c50449 a melod:Title;
+    rdfs:label "Lela"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b4f6cbba4-5456-d177-3f96-22c859871846 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3965".
+
+_:b0f7dd683-b948-9206-48a9-0658509a5a67 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1703630577>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b33a26848-e13a-5cbc-0df2-57886631d5b7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1701771184>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b77e627af-dce7-ec96-879a-d372e8bf85cd a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3965\">https://acervo.casadochoro.com.br/works/view/3965</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

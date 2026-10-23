@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1556342094> a melod:Work;
+    melod:hasTitle _:bc170f0d8-c963-9407-be24-52d7a4bca744;
+    melod:hasIdentifier _:b0867c084-f7b8-8859-a485-6f9b0fc2bd63;
+    melod:hasClassification "Tango Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10085>;
+    melod:hasContribution _:bee4f6da8-e9a7-c45f-363b-bca528735617;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1621108139>;
+    melod:hasAnnotation _:b980bec80-451c-4c9a-a776-cc6ea5188605;
+    dct:conformsTo melod:Work.
+
+_:bc170f0d8-c963-9407-be24-52d7a4bca744 a melod:Title;
+    rdfs:label "Machuca Martins"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0867c084-f7b8-8859-a485-6f9b0fc2bd63 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10085".
+
+_:bee4f6da8-e9a7-c45f-363b-bca528735617 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1527172261>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b980bec80-451c-4c9a-a776-cc6ea5188605 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10085\">https://acervo.casadochoro.com.br/works/view/10085</a>. Gênero: Tango Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

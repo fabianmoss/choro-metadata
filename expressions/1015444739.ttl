@@ -1,0 +1,37 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1015444739> a melod:Expression;
+    rdfs:label "Lela (original version, Partitura piano e letra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b15109138-0a50-4c42-bba0-82f2be9b24e7;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:b0b0228eb-cf64-862a-a54d-4b1fc08b7c3c, _:be4e245f4-c36f-d835-3039-3abcf329be71;
+    dct:conformsTo melod:Expression.
+
+_:b15109138-0a50-4c42-bba0-82f2be9b24e7 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b0b0228eb-cf64-862a-a54d-4b1fc08b7c3c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1255138047>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.
+
+_:be4e245f4-c36f-d835-3039-3abcf329be71 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1701771184>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

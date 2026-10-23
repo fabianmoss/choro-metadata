@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1262914580> a melod:Item;
+    rdfs:label "Lembrança da Ilha do Governador — Partitura melodia (score_1709)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1713337380>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b283f7986-3aa4-fdc9-189f-5ed4a2b83c90;
+    melod:hasShelfmark "score_1709";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1709.pdf>;
+    melod:hasProvenance _:bd5e6a34f-1cd0-4b65-1948-ca278fa3aa0f;
+    dct:conformsTo melod:Item.
+
+_:b283f7986-3aa4-fdc9-189f-5ed4a2b83c90 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1709".
+
+_:bd5e6a34f-1cd0-4b65-1948-ca278fa3aa0f a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bc02179ff-1f64-9634-ebd9-c1a5e1e997f3.
+
+_:bc02179ff-1f64-9634-ebd9-c1a5e1e997f3 a melod:ExactDate;
+    melod:isodate "1895-12-20"^^xsd:date;
+    schema:description "20.12.1895".

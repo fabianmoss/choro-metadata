@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1162621889> a melod:Work;
+    melod:hasTitle _:bdfe8c2ae-36b6-d73f-ac4e-72101bb9db3d;
+    melod:hasIdentifier _:b9b210e71-9dd6-9c5d-f9bd-7114cabafe8a;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3739>;
+    melod:hasContribution _:b09310fc9-14d3-258b-dfab-b3cdbb4a36c8;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1827212996>, <urn:uuid:expressions/1563847060>;
+    melod:hasAnnotation _:bbcfa72b0-31d1-0a74-9693-207e704bd274;
+    dct:conformsTo melod:Work.
+
+_:bdfe8c2ae-36b6-d73f-ac4e-72101bb9db3d a melod:Title;
+    rdfs:label "Marcha heróica aos dezoito do Forte"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9b210e71-9dd6-9c5d-f9bd-7114cabafe8a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3739".
+
+_:b09310fc9-14d3-258b-dfab-b3cdbb4a36c8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bbcfa72b0-31d1-0a74-9693-207e704bd274 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3739\">https://acervo.casadochoro.com.br/works/view/3739</a>. Gênero: Marcha. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1079287124> a melod:Work;
+    melod:hasTitle _:b208a84ad-5593-077e-7562-eaaa6694b7f6;
+    melod:hasIdentifier _:b89617258-c4d7-0eb1-650d-08711e74df0e;
+    melod:hasClassification "Choro Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1858>;
+    melod:hasContribution _:baf700e3c-bb68-8f3c-24ee-6c57702bd899;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1686210054>, <urn:uuid:expressions/1162452066>;
+    melod:hasAnnotation _:bab0c00d5-b0b0-ccf8-6573-d115285aacc0;
+    dct:conformsTo melod:Work.
+
+_:b208a84ad-5593-077e-7562-eaaa6694b7f6 a melod:Title;
+    rdfs:label "Mágoas do violão"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b89617258-c4d7-0eb1-650d-08711e74df0e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1858".
+
+_:baf700e3c-bb68-8f3c-24ee-6c57702bd899 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1123638987>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bab0c00d5-b0b0-ccf8-6573-d115285aacc0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1858\">https://acervo.casadochoro.com.br/works/view/1858</a>. Gênero: Choro Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1637657091> a melod:Work;
+    melod:hasTitle _:b5b3bc9b2-4790-cda4-51e3-9b21d16e843e;
+    melod:hasIdentifier _:b8f93d691-b392-fbee-4c58-89c9ec91d5be;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4343>;
+    melod:hasContribution _:b4f86d36b-f391-e051-58dc-44ef2a2f9fbb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1855256384>, <urn:uuid:expressions/1422953423>;
+    melod:hasAnnotation _:bcb48bdc9-8393-87b9-b29c-ac68188b71cd;
+    dct:conformsTo melod:Work.
+
+_:b5b3bc9b2-4790-cda4-51e3-9b21d16e843e a melod:Title;
+    rdfs:label "Lili"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8f93d691-b392-fbee-4c58-89c9ec91d5be a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4343".
+
+_:b4f86d36b-f391-e051-58dc-44ef2a2f9fbb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1478402148>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcb48bdc9-8393-87b9-b29c-ac68188b71cd a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4343\">https://acervo.casadochoro.com.br/works/view/4343</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

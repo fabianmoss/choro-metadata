@@ -1,0 +1,37 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1778674618> a melod:Item;
+    rdfs:label "Lidia — Partitura melodia (score_1356)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046409092>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b33d647f7-30ca-71ca-ab52-70242f42082d;
+    melod:hasShelfmark "score_1356";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1356.pdf>;
+    melod:hasProvenance _:b186b3409-6b1e-9be5-2d33-5e18243df2c1;
+    dct:conformsTo melod:Item.
+
+_:b33d647f7-30ca-71ca-ab52-70242f42082d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1356".
+
+_:b186b3409-6b1e-9be5-2d33-5e18243df2c1 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    schema:description "manuscrita (arquivo de Gerson Ferreira Pinto)";
+    melod:hasContribution _:b842a13e5-dcc2-eaf3-0092-3b2fcb8eab74.
+
+_:b842a13e5-dcc2-eaf3-0092-3b2fcb8eab74 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1589418829>;
+    melod:hasRole terms:FormerOwner.

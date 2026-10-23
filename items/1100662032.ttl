@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1100662032> a melod:Item;
+    rdfs:label "Magdala — Partitura piano (score_15171)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1140417756>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b48975002-daba-b339-ff2c-0d69e8595d5f;
+    melod:hasShelfmark "score_15171";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15171.pdf>;
+    melod:hasProvenance _:bb38c276c-1d5a-104c-3f9a-e40a1f185594;
+    dct:conformsTo melod:Item.
+
+_:b48975002-daba-b339-ff2c-0d69e8595d5f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15171".
+
+_:bb38c276c-1d5a-104c-3f9a-e40a1f185594 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b7b45777f-dd1f-c829-aaba-4efac5efa6ef.
+
+_:b7b45777f-dd1f-c829-aaba-4efac5efa6ef a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

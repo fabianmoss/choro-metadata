@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1212051021> a melod:Item;
+    rdfs:label "Leonor — Partitura melodia e cifra (score_1026)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1648577332>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd392b64f-273e-9d1d-42a4-b0e9891b2621;
+    melod:hasShelfmark "score_1026";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1026.pdf>;
+    melod:hasProvenance _:be7c71063-286b-6706-fbaa-67d7639cb188;
+    dct:conformsTo melod:Item.
+
+_:bd392b64f-273e-9d1d-42a4-b0e9891b2621 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1026".
+
+_:be7c71063-286b-6706-fbaa-67d7639cb188 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b7584ba08-fedb-99df-bd5a-d7e27bc3ddc3.
+
+_:b7584ba08-fedb-99df-bd5a-d7e27bc3ddc3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1420151893>;
+    melod:hasRole terms:Transcriber.

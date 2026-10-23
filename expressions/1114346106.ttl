@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1114346106> a melod:Expression;
+    rdfs:label "Lalá e Lélé (original version, Partitura piano e letra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bde59f221-ee7c-9c8f-707e-ba37351d5f2e;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:b3c7baeec-14ee-e42d-3bdb-7f9deeb47ddb;
+    dct:conformsTo melod:Expression.
+
+_:bde59f221-ee7c-9c8f-707e-ba37351d5f2e a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b3c7baeec-14ee-e42d-3bdb-7f9deeb47ddb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1572308518>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

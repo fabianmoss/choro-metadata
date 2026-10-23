@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1249354455> a melod:Work;
+    melod:hasTitle _:b61d5da59-cc9c-d798-beed-08884999551a;
+    melod:hasIdentifier _:b1d5e1150-865c-45de-7183-626f6ad69475;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/654>;
+    melod:hasContribution _:b8308239f-0a75-24cc-6cb4-6648cb965bae;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1406861914>, <urn:uuid:expressions/1322139988>, <urn:uuid:expressions/1199789392>;
+    melod:hasAnnotation _:bd0ad8152-8ba6-5a3b-c996-d813b2c31524;
+    dct:conformsTo melod:Work.
+
+_:b61d5da59-cc9c-d798-beed-08884999551a a melod:Title;
+    rdfs:label "Linguagem do coração"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1d5e1150-865c-45de-7183-626f6ad69475 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "654".
+
+_:b8308239f-0a75-24cc-6cb4-6648cb965bae a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1540102668>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd0ad8152-8ba6-5a3b-c996-d813b2c31524 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/654\">https://acervo.casadochoro.com.br/works/view/654</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

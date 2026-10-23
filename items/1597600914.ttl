@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1597600914> a melod:Item;
+    rdfs:label "Ludmila — Partitura melodia (score_4613)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1398432245>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b70b855f2-b91c-c575-24e3-c4ac09203492;
+    melod:hasShelfmark "score_4613";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4613.pdf>;
+    melod:hasHand _:b55f25a3d-9b18-043f-4644-2389fed89b5d;
+    dct:conformsTo melod:Item.
+
+_:b70b855f2-b91c-c575-24e3-c4ac09203492 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4613".
+
+_:b55f25a3d-9b18-043f-4644-2389fed89b5d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1412926785>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Abelardo Pires (caderno)".

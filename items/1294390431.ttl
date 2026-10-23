@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1294390431> a melod:Item;
+    rdfs:label "Machucando — Partitura cifra (score_10278)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1731143349>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b35d22901-a5c0-6bf5-611b-64d0c28f23e0;
+    melod:hasShelfmark "score_10278";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10278.pdf>;
+    melod:hasHand _:b729692b5-e49c-576b-7c7c-f45b74a4e59d;
+    dct:conformsTo melod:Item.
+
+_:b35d22901-a5c0-6bf5-611b-64d0c28f23e0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_10278".
+
+_:b729692b5-e49c-576b-7c7c-f45b74a4e59d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1791084454> a melod:Item;
+    rdfs:label "Mandarine — Partitura melodia e cifra (score_11532)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1251043804>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bfdf5e6ab-2e2e-d261-e54e-cfa0d860aa22;
+    melod:hasShelfmark "score_11532";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11532.pdf>;
+    melod:hasProvenance _:b3393e513-b0d8-cef9-df74-3ab821eccc01;
+    dct:conformsTo melod:Item.
+
+_:bfdf5e6ab-2e2e-d261-e54e-cfa0d860aa22 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11532".
+
+_:b3393e513-b0d8-cef9-df74-3ab821eccc01 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b26feac71-2365-ac94-34fb-60079b24613f.
+
+_:b26feac71-2365-ac94-34fb-60079b24613f a melod:ExactDate;
+    melod:isodate "2005-05-12"^^xsd:date;
+    schema:description "12.05.2005".

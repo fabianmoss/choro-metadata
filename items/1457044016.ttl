@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1457044016> a melod:Item;
+    rdfs:label "Lopes subindo o morro — Partitura melodia (score_3253)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1510409917>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bcc07eae9-c825-56df-e1a4-9e19c90a946f;
+    melod:hasShelfmark "score_3253";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3253.pdf>;
+    melod:hasHand _:b98083022-35a9-c50b-0679-29d5e2b6e7f9;
+    melod:hasProvenance _:bac3cb906-a15a-e844-229f-e1d279c334b9;
+    dct:conformsTo melod:Item.
+
+_:bcc07eae9-c825-56df-e1a4-9e19c90a946f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3253".
+
+_:b98083022-35a9-c50b-0679-29d5e2b6e7f9 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:bac3cb906-a15a-e844-229f-e1d279c334b9 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bcceecfc9-bf9b-4b05-5ad1-38ed11b6d610.
+
+_:bcceecfc9-bf9b-4b05-5ad1-38ed11b6d610 a melod:ExactDate;
+    melod:isodate "1963-12-03"^^xsd:date;
+    schema:description "03.12.1963".

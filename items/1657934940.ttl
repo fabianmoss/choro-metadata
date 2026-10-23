@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1657934940> a melod:Item;
+    rdfs:label "Macia — Partitura melodia (score_1767)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1057882426>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdc55bb22-0ee9-7a81-9d67-433f2ee7affb;
+    melod:hasShelfmark "score_1767";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1767.pdf>;
+    melod:hasHand _:bf440d8a7-39d2-0e75-19bd-fa1301e535d7;
+    melod:hasProvenance _:bde05d178-6390-6f80-1a32-4a3a46f54de2;
+    dct:conformsTo melod:Item.
+
+_:bdc55bb22-0ee9-7a81-9d67-433f2ee7affb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1767".
+
+_:bf440d8a7-39d2-0e75-19bd-fa1301e535d7 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1100959309>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Jupyaçara".
+
+_:bde05d178-6390-6f80-1a32-4a3a46f54de2 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bad45201e-a097-9d1b-6c97-b731b04204e0.
+
+_:bad45201e-a097-9d1b-6c97-b731b04204e0 a melod:ExactDate;
+    melod:isodate "1940-03-19"^^xsd:date;
+    schema:description "19.03.1940".

@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1582386825> a melod:Instrumentation;
+    rdfs:label "bandolim, base, clarinete Bb"@pt;
+    melod:hasInstrumentationDetail _:b2c20482c-d70c-0a98-386f-e0fdd5bb3823, _:b2e4ec425-efbb-05f1-9321-bbe984797c57, _:bd4e8cdae-2394-df29-cff0-281a575b3962.
+
+_:b2c20482c-d70c-0a98-386f-e0fdd5bb3823 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "bandolim";
+    mus:U2_foresees_use_of_medium_of_performance terms:Mandolin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#td>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b2e4ec425-efbb-05f1-9321-bbe984797c57 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "base";
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bd4e8cdae-2394-df29-cff0-281a575b3962 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "clarinete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1179622809> a melod:Manifestation;
+    melod:hasTitle _:b21e14b1a-7089-d4f6-47b9-79a4405141f4;
+    lrmoo:R4_embodies <urn:uuid:expressions/1030720229>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bc0854194-819c-9df5-f49c-6261df06398a;
+    dct:conformsTo melod:Manifestation.
+
+_:b21e14b1a-7089-d4f6-47b9-79a4405141f4 a melod:Title;
+    rdfs:label "Lindo presente — Partitura piano e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bc0854194-819c-9df5-f49c-6261df06398a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

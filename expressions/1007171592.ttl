@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1007171592> a melod:Expression;
+    rdfs:label "Mágoas (arrangement by Marcílio Lopes, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bd3120dd8-24ff-8638-2d11-3595ec17b5dd;
+    melod:hasContribution _:bd0d6704c-712d-e5fd-9278-cc2a6e2e60dd;
+    dct:conformsTo melod:Expression.
+
+_:bd3120dd8-24ff-8638-2d11-3595ec17b5dd a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:bd0d6704c-712d-e5fd-9278-cc2a6e2e60dd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1621190449>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1701430434> a melod:Item;
+    rdfs:label "Malandro — Partitura melodia (score_3382)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1893401770>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3a20bd44-3e9e-0e6e-a0fa-fdecd3793ab6;
+    melod:hasShelfmark "score_3382";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_3382.pdf>;
+    melod:hasProvenance _:be4be6a08-013e-b9cb-4bb4-7f3273db95f1;
+    dct:conformsTo melod:Item.
+
+_:b3a20bd44-3e9e-0e6e-a0fa-fdecd3793ab6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_3382".
+
+_:be4be6a08-013e-b9cb-4bb4-7f3273db95f1 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bc731b9ec-65e4-379e-0e9d-58d3527d2abc.
+
+_:bc731b9ec-65e4-379e-0e9d-58d3527d2abc a melod:ExactDate;
+    melod:isodate "1956-05-18"^^xsd:date;
+    schema:description "18.05.1956".

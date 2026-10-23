@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1071516879> a melod:Item;
+    rdfs:label "Manivela — Partitura melodia e cifra (score_11534)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1622536920>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd58c85ca-e175-ed80-604f-35842ae3779f;
+    melod:hasShelfmark "score_11534";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11534.pdf>;
+    melod:hasProvenance _:b7d4387dd-4603-6ce5-9004-9b4e3b926f1f;
+    dct:conformsTo melod:Item.
+
+_:bd58c85ca-e175-ed80-604f-35842ae3779f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11534".
+
+_:b7d4387dd-4603-6ce5-9004-9b4e3b926f1f a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bc94ca096-8043-bac1-3e8b-510adba05ea5.
+
+_:bc94ca096-8043-bac1-3e8b-510adba05ea5 a melod:ExactDate;
+    melod:isodate "2005-05-11"^^xsd:date;
+    schema:description "11.05.2005".

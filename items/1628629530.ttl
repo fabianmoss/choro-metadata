@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1628629530> a melod:Item;
+    rdfs:label "Louvação — Partitura melodia e letra (score_2985)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1457064869>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9cc5f5ed-ad4e-a275-30c6-964dfe00d8dd;
+    melod:hasShelfmark "score_2985";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2985.pdf>;
+    melod:hasHand _:bd59f589f-ae29-09d2-f578-bbe5b4283f7f;
+    melod:hasProvenance _:b3468601d-3e77-1df9-2db4-47726adbfeed;
+    dct:conformsTo melod:Item.
+
+_:b9cc5f5ed-ad4e-a275-30c6-964dfe00d8dd a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2985".
+
+_:bd59f589f-ae29-09d2-f578-bbe5b4283f7f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b3468601d-3e77-1df9-2db4-47726adbfeed a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b94cf40fb-1dbb-b479-dfc9-a16ee6a2865d.
+
+_:b94cf40fb-1dbb-b479-dfc9-a16ee6a2865d a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

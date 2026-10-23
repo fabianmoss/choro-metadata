@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1722775152> a melod:Expression;
+    rdfs:label "Língua de preto (original version, Partitura melodia)";
+    melod:hasClassification "Lundu";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bb2bf3d3a-f84d-b5fc-3a3c-c9d01e3fdfea;
+    melod:hasContribution _:bb6d40b7d-e4a8-13ad-3c52-b158baebb4d0;
+    dct:conformsTo melod:Expression.
+
+_:bb2bf3d3a-f84d-b5fc-3a3c-c9d01e3fdfea a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bb6d40b7d-e4a8-13ad-3c52-b158baebb4d0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1139060312>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

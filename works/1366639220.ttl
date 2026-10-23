@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1366639220> a melod:Work;
+    melod:hasTitle _:b80cd1ae0-02a6-b9c5-1ff4-0bcccd1a10e6;
+    melod:hasIdentifier _:bc0ee8480-ec7b-b158-6032-e17e05c32bc1;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9357>;
+    melod:hasContribution _:b737768b0-6649-d779-2597-c9ad60210013;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1332870255>;
+    melod:hasAnnotation _:bf47965ae-01a6-166e-d075-db94fef0856e;
+    dct:conformsTo melod:Work.
+
+_:b80cd1ae0-02a6-b9c5-1ff4-0bcccd1a10e6 a melod:Title;
+    rdfs:label "Leonôr"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc0ee8480-ec7b-b158-6032-e17e05c32bc1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9357".
+
+_:b737768b0-6649-d779-2597-c9ad60210013 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1656057255>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf47965ae-01a6-166e-d075-db94fef0856e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9357\">https://acervo.casadochoro.com.br/works/view/9357</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

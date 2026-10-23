@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1414929511> a melod:Work;
+    melod:hasTitle _:b9fb5e85a-9650-47ee-3b94-9aa0e369581b;
+    melod:hasIdentifier _:b0359b306-8c83-90dd-a548-ce511d3f7252;
+    melod:hasClassification "Foxtrote Oriental";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5841>;
+    melod:hasContribution _:b682bded0-274e-c1eb-e92e-09981d4a17ec;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1310668925>;
+    melod:hasAnnotation _:be8ec88ee-933f-3ddf-be48-8191aa0031b6;
+    dct:conformsTo melod:Work.
+
+_:b9fb5e85a-9650-47ee-3b94-9aa0e369581b a melod:Title;
+    rdfs:label "Luxo asiático"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0359b306-8c83-90dd-a548-ce511d3f7252 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5841".
+
+_:b682bded0-274e-c1eb-e92e-09981d4a17ec a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1504760884>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be8ec88ee-933f-3ddf-be48-8191aa0031b6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5841\">https://acervo.casadochoro.com.br/works/view/5841</a>. Gênero: Foxtrote Oriental. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

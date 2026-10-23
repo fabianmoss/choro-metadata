@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1158978942> a melod:Item;
+    rdfs:label "Linguagem do coração — Partitura melodia (score_921)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1187282135>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b37650f5e-b874-e7ce-06d0-efb29f7b7922;
+    melod:hasShelfmark "score_921";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_921.pdf>;
+    melod:hasHand _:b3c99525b-7cf8-aa59-cec0-5ed10b4ac12e;
+    dct:conformsTo melod:Item.
+
+_:b37650f5e-b874-e7ce-06d0-efb29f7b7922 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_921".
+
+_:b3c99525b-7cf8-aa59-cec0-5ed10b4ac12e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1436274363>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Figueiredo (Frederico de Souza Figueiredo)".

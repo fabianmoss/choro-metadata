@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1555430025> a melod:Manifestation;
+    melod:hasTitle _:ba87c0d79-c6ae-6b09-4cc9-ede5eff2c0eb;
+    lrmoo:R4_embodies <urn:uuid:expressions/1198588849>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:becbb189c-3748-3782-86a4-cd31451704cf;
+    dct:conformsTo melod:Manifestation.
+
+_:ba87c0d79-c6ae-6b09-4cc9-ede5eff2c0eb a melod:Title;
+    rdfs:label "Lamento — Partitura piano (edition Casa Bevilacqua)";
+    melod:hasTitleType terms:MainTitle.
+
+_:becbb189c-3748-3782-86a4-cd31451704cf a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1477204031>;
+    melod:hasRole terms:Publisher.

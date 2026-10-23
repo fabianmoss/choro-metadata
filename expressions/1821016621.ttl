@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1821016621> a melod:Expression;
+    rdfs:label "Linda flor/Yayá (arrangement by Dilermando Reis, Partitura violão e letra)";
+    melod:hasClassification "Samba Canção";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b52545a8e-214a-2413-5fa3-cc68b9129305;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1514345597>;
+    melod:hasContribution _:b2760d200-a5ab-097d-95d6-cee0b288d064;
+    dct:conformsTo melod:Expression.
+
+_:b52545a8e-214a-2413-5fa3-cc68b9129305 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b2760d200-a5ab-097d-95d6-cee0b288d064 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1536170825>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

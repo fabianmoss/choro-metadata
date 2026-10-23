@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1125556570> a melod:Work;
+    melod:hasTitle _:be5d08fe8-adc5-0798-2fa9-83a4fac885e4;
+    melod:hasIdentifier _:b59795395-d510-e1cc-929b-753c842c332e;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/849>;
+    melod:hasContribution _:b6eb79006-6fa9-c229-0515-5daf7e8c0351;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1138617908>, <urn:uuid:expressions/1335122237>, <urn:uuid:expressions/1179061517>;
+    melod:hasAnnotation _:b6555177b-8b1f-33b0-7ec7-dca3afc5c5d6;
+    dct:conformsTo melod:Work.
+
+_:be5d08fe8-adc5-0798-2fa9-83a4fac885e4 a melod:Title;
+    rdfs:label "Lamentando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b59795395-d510-e1cc-929b-753c842c332e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "849".
+
+_:b6eb79006-6fa9-c229-0515-5daf7e8c0351 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6555177b-8b1f-33b0-7ec7-dca3afc5c5d6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/849\">https://acervo.casadochoro.com.br/works/view/849</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

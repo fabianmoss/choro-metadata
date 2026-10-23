@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1236677823> a melod:Work;
+    melod:hasTitle _:bb3364212-7a30-448d-80d3-191bb641b4e4;
+    melod:hasIdentifier _:b8dac3f34-9c4f-918f-3e7a-a0437470dcd4;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10104>;
+    melod:hasContribution _:b187212c1-d9b6-6ca7-8cec-9fbd74a42035;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1448145664>;
+    melod:hasAnnotation _:b7893332f-faae-2b36-bb78-1cfd16e106c2;
+    dct:conformsTo melod:Work.
+
+_:bb3364212-7a30-448d-80d3-191bb641b4e4 a melod:Title;
+    rdfs:label "Les harmonies de la Cathédrale"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8dac3f34-9c4f-918f-3e7a-a0437470dcd4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10104".
+
+_:b187212c1-d9b6-6ca7-8cec-9fbd74a42035 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1819302397>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7893332f-faae-2b36-bb78-1cfd16e106c2 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10104\">https://acervo.casadochoro.com.br/works/view/10104</a>. Gênero: Não informado. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

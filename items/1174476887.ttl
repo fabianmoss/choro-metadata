@@ -28,6 +28,6 @@ _:bc881034e-b803-299a-8d01-296e02475f92 a melod:Identifier;
     owl:hasValue "score_5526".
 
 _:bc61a294c-fd60-1068-5c30-d87da6fba54d a melod:Hand;
-    melod:hasAgent <urn:uuid:persons/1001596025>;
+    melod:hasAgent <urn:uuid:persons/1606846957>;
     melod:hasHandType terms:Writer;
     schema:description "manuscrita por Arnaldo Corrêa".

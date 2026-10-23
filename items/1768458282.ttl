@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1768458282> a melod:Item;
+    rdfs:label "Lyra — Partitura melodia (score_2621)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1787944239>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bcd9bc8bc-d3e1-08e8-3068-b2f1b2f22654;
+    melod:hasShelfmark "score_2621";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2621.pdf>;
+    melod:hasHand _:b8540d21e-c89c-cea9-b9ed-1d0970f1ff9d;
+    melod:hasProvenance _:bf6581da9-7957-e4e2-00a9-b7f87d391b32;
+    dct:conformsTo melod:Item.
+
+_:bcd9bc8bc-d3e1-08e8-3068-b2f1b2f22654 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2621".
+
+_:b8540d21e-c89c-cea9-b9ed-1d0970f1ff9d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1402372658>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Ramos Flauta (incompleto) - Arquivo Gerson Ferreira Pinto".
+
+_:bf6581da9-7957-e4e2-00a9-b7f87d391b32 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9666a1f6-211d-d306-690a-1535380aeeaa.
+
+_:b9666a1f6-211d-d306-690a-1535380aeeaa a melod:ExactDate;
+    melod:isodate "1924-09-05"^^xsd:date;
+    schema:description "05.09.1924".

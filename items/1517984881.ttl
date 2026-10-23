@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1517984881> a melod:Item;
+    rdfs:label "Lundu dos Progressistas da Cidade Nova — Partitura piano (score_15243)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1875575615>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd8a7d40f-d8b6-6700-8042-8172ce148909;
+    melod:hasShelfmark "score_15243";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15243.pdf>;
+    melod:hasProvenance _:b131852e0-c287-c2d2-5150-4836445c59bd;
+    dct:conformsTo melod:Item.
+
+_:bd8a7d40f-d8b6-6700-8042-8172ce148909 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15243".
+
+_:b131852e0-c287-c2d2-5150-4836445c59bd a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b48280c2d-da38-2963-f67d-22ce88c9a8ea.
+
+_:b48280c2d-da38-2963-f67d-22ce88c9a8ea a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

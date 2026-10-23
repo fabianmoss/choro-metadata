@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1169002689> a melod:Work;
+    melod:hasTitle _:b3ba8e7ae-aa02-c1d1-92fa-8050625a43e0;
+    melod:hasIdentifier _:bcc154845-30ed-da54-a145-b0df0e440254;
+    melod:hasClassification "Foxtrote";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10208>;
+    melod:hasContribution _:b8c28195b-ee28-f3bc-e770-ddab7dd9dc1e, _:be2ca81a0-8cd3-2c3f-46ad-e19ccd590d9c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1875126979>;
+    melod:hasAnnotation _:bea6d0b76-71c9-a3ad-79fb-67ee8b07ba12;
+    dct:conformsTo melod:Work.
+
+_:b3ba8e7ae-aa02-c1d1-92fa-8050625a43e0 a melod:Title;
+    rdfs:label "Loura ou morena"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bcc154845-30ed-da54-a145-b0df0e440254 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10208".
+
+_:b8c28195b-ee28-f3bc-e770-ddab7dd9dc1e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1471116846>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be2ca81a0-8cd3-2c3f-46ad-e19ccd590d9c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1572471992>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bea6d0b76-71c9-a3ad-79fb-67ee8b07ba12 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10208\">https://acervo.casadochoro.com.br/works/view/10208</a>. Gênero: Foxtrote. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

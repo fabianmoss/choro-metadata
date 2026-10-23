@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1616349553> a melod:Manifestation;
+    melod:hasTitle _:b084588bd-7d49-d8f6-d5d6-ad29075b8945;
+    lrmoo:R4_embodies <urn:uuid:expressions/1310668925>;
+    melod:hasClassificationOfManifestation "Partitura arranjo para pequena orquestra", terms:Print;
+    melod:hasContribution _:b2ad782d5-04b4-0931-7e76-7c0d5a6b3ca3;
+    dct:conformsTo melod:Manifestation.
+
+_:b084588bd-7d49-d8f6-d5d6-ad29075b8945 a melod:Title;
+    rdfs:label "Luxo asiático — Partitura arranjo para pequena orquestra (edition Campassi & Camin)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b2ad782d5-04b4-0931-7e76-7c0d5a6b3ca3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1303311434>;
+    melod:hasRole terms:Publisher.

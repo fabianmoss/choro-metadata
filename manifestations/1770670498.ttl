@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1770670498> a melod:Manifestation;
+    melod:hasTitle _:b69f5ec4f-4ba0-05dc-a2ff-4f704008b873;
+    lrmoo:R4_embodies <urn:uuid:expressions/1316171105>;
+    melod:hasClassificationOfManifestation "Partitura trombone 2", terms:Print;
+    melod:hasContribution _:bf1f1e65d-a83d-fae9-17b7-74648d4841ec;
+    schema:publication _:bcad2d36a-8d47-1136-d4c3-b60bb83a0261;
+    dct:conformsTo melod:Manifestation.
+
+_:b69f5ec4f-4ba0-05dc-a2ff-4f704008b873 a melod:Title;
+    rdfs:label "Lamentos_BANDÃO — Partitura trombone 2 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf1f1e65d-a83d-fae9-17b7-74648d4841ec a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bcad2d36a-8d47-1136-d4c3-b60bb83a0261 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1616567777> a melod:Work;
+    melod:hasTitle _:b704c02f8-5a35-1095-884d-04fce90707d7;
+    melod:hasIdentifier _:b039438b6-49f3-416d-2b56-e2433bb27e35;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3162>;
+    melod:hasContribution _:bde3ab301-5ed6-4c77-800d-d9ea7871ba93;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1611409544>;
+    melod:hasAnnotation _:b662f08bc-1f7c-628e-647d-2fc21178dc04;
+    dct:conformsTo melod:Work.
+
+_:b704c02f8-5a35-1095-884d-04fce90707d7 a melod:Title;
+    rdfs:label "Marcha da cidade de Curitiba"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b039438b6-49f3-416d-2b56-e2433bb27e35 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3162".
+
+_:bde3ab301-5ed6-4c77-800d-d9ea7871ba93 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1563831784>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b662f08bc-1f7c-628e-647d-2fc21178dc04 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3162\">https://acervo.casadochoro.com.br/works/view/3162</a>. Gênero: Marcha. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1414488598> a melod:Expression;
+    rdfs:label "Lyra de Orion (arrangement by Mauricio Carrilho, Partitura melodia e cifra)";
+    melod:hasClassification "Tango";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bd38f6c28-b68c-e62b-6d51-4ebdfd03a9b8;
+    melod:hasContribution _:b80a67f33-ad32-c130-9b99-a3b00785add0;
+    dct:conformsTo melod:Expression.
+
+_:bd38f6c28-b68c-e62b-6d51-4ebdfd03a9b8 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b80a67f33-ad32-c130-9b99-a3b00785add0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

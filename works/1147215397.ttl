@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1147215397> a melod:Work;
+    melod:hasTitle _:bf7abc556-2e3a-2b7d-3094-536a469caeb4;
+    melod:hasIdentifier _:b9ce6e08b-0768-a80b-524e-78495e9f2141;
+    melod:hasClassification "Tango Brasileiro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10211>;
+    melod:hasContribution _:b5706077c-b482-f7ec-6e58-6879ea91e09e, _:be2a24ca6-5aaf-20cf-7d52-547b4634d438;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1061075299>;
+    melod:hasAnnotation _:b4a30cdfc-c1b2-72e4-3b25-f48261ab6f47;
+    dct:conformsTo melod:Work.
+
+_:bf7abc556-2e3a-2b7d-3094-536a469caeb4 a melod:Title;
+    rdfs:label "Luz dos meus olhos"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9ce6e08b-0768-a80b-524e-78495e9f2141 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10211".
+
+_:b5706077c-b482-f7ec-6e58-6879ea91e09e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1729200523>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be2a24ca6-5aaf-20cf-7d52-547b4634d438 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201562957>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4a30cdfc-c1b2-72e4-3b25-f48261ab6f47 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10211\">https://acervo.casadochoro.com.br/works/view/10211</a>. Gênero: Tango Brasileiro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1006993628> a melod:Item;
+    rdfs:label "Lembro-me ainda — Partitura melodia (score_9835)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1083608588>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3719bf34-036a-6281-deea-0a2dd9c327b8;
+    melod:hasShelfmark "score_9835";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9835.pdf>;
+    melod:hasHand _:b6d1962b1-f97c-b549-935a-e913c451f141;
+    melod:hasProvenance _:b0dc4e71f-7f20-aa39-a09c-d57860a06176;
+    dct:conformsTo melod:Item.
+
+_:b3719bf34-036a-6281-deea-0a2dd9c327b8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9835".
+
+_:b6d1962b1-f97c-b549-935a-e913c451f141 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1275892445>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Paulo Fasanaro".
+
+_:b0dc4e71f-7f20-aa39-a09c-d57860a06176 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b0c4477ec-4545-4ed1-a7da-ead8938dff3a.
+
+_:b0c4477ec-4545-4ed1-a7da-ead8938dff3a a melod:ExactDate;
+    melod:isodate "1976-09-22"^^xsd:date;
+    schema:description "22.09.1976".

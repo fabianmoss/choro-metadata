@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1243993278> a melod:Manifestation;
+    melod:hasTitle _:bf1eee052-b20d-c1ca-cac4-f9299f6392cc;
+    lrmoo:R4_embodies <urn:uuid:expressions/1179592987>;
+    melod:hasClassificationOfManifestation "Partitura sax alto 2", terms:Print;
+    melod:hasContribution _:b12dddce9-c8e6-daaa-23d8-75e98fadb94e;
+    schema:publication _:b6106adad-9bb5-0940-d95f-0f209a52e8ee;
+    dct:conformsTo melod:Manifestation.
+
+_:bf1eee052-b20d-c1ca-cac4-f9299f6392cc a melod:Title;
+    rdfs:label "Lamentos_BANDÃO — Partitura sax alto 2 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b12dddce9-c8e6-daaa-23d8-75e98fadb94e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b6106adad-9bb5-0940-d95f-0f209a52e8ee a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

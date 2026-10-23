@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1401416797> a melod:Work;
+    melod:hasTitle _:bcfe8324e-8ba7-9e3a-bd76-5c3af568ebff;
+    melod:hasIdentifier _:bf6e7f9bc-1f69-9162-6fbb-ae7a44a6fa70;
+    melod:hasClassification "Pas de Quatre";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1477>;
+    melod:hasContribution _:b909cadcb-3648-e530-a33e-78f4f6faaa49;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1883745287>, <urn:uuid:expressions/1311691383>;
+    melod:hasAnnotation _:b1f0e8f10-7876-3b30-82ae-a58406a3037f;
+    dct:conformsTo melod:Work.
+
+_:bcfe8324e-8ba7-9e3a-bd76-5c3af568ebff a melod:Title;
+    rdfs:label "Lalaid"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf6e7f9bc-1f69-9162-6fbb-ae7a44a6fa70 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1477".
+
+_:b909cadcb-3648-e530-a33e-78f4f6faaa49 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427198017>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1f0e8f10-7876-3b30-82ae-a58406a3037f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1477\">https://acervo.casadochoro.com.br/works/view/1477</a>. Gênero: Pas de Quatre. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

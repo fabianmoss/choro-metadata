@@ -20,6 +20,6 @@
     dct:conformsTo melod:Expression.
 
 _:b644add2f-5b76-e7c8-7d52-03d9ac7cc750 a melod:Contribution;
-    melod:hasAgent <urn:uuid:persons/1378778470>;
+    melod:hasAgent <urn:uuid:persons/1621190449>;
     melod:hasRole terms:Arranger;
     melod:hasCertainty terms:MediumCertainty.
