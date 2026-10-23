@@ -8,9 +8,10 @@ score.  The mapping below reorganises those records into the MeLODy chain:
     The composition.  One work per record of the acervo.
 
 ``expression`` (*melod:Expression*)
-    A version of the work.  Scores with different arrangers are different
-    expressions of the same work; scores with no declared arrangement form
-    the "original" expression.
+    A version of the work.  Scores with different arrangers or different
+    score types (piano, melody, cifra…) are different expressions; a type
+    that declares an arrangement without naming its arranger forms an
+    anonymous arrangement.  The other scores form the "original" expression.
 
 ``manifestation`` (*melod:Manifestation*)
     An edition.  Scores of the same format and the same edition — for
@@ -507,35 +508,40 @@ class WorkBuilder:
     def expressions(self, work: dict) -> list[dict]:
         """Groups the scores of the work into expressions.
 
-        The grouping key is the declared arranger: scores with different
-        arrangers are different expressions of the same work.
+        Scores with different declared arrangers are different expressions.
+        Scores with no declared arranger are the original version, unless
+        their type declares an anonymous arrangement ("Partitura arranjo").
+        The score type is part of the expression as well: a piano score and
+        a melody score are different versions, not two manifestations of the
+        same version.
         """
-        groups: dict[str, list[dict]] = {}
+        groups: dict[tuple[str, str], dict] = {}
         for score in work["scores"]:
             arranger = (score.get("details", {}).get("Arranjo") or [None])[0]
-            groups.setdefault(arranger or "original", []).append(score)
-        result = []
-        for key, scores in groups.items():
-            if key == "original":
-                descriptor = self.original_descriptor(scores)
+            score_type = score.get("type") or ""
+            if arranger:
+                variant = f"arranger:{arranger}"
+                descriptor = f"arrangement by {arranger}"
+            elif "arranjo" in score_type.lower():
+                variant = "anonymous-arrangement"
+                descriptor = "anonymous arrangement"
             else:
-                descriptor = f"arrangement by {key}"
+                variant = "original"
+                descriptor = "original version"
+            group = groups.setdefault(
+                (variant, score_type),
+                {"arranger": arranger, "descriptor": descriptor, "scores": []},
+            )
+            group["scores"].append(score)
+        result = []
+        for (variant, score_type), group in groups.items():
             result.append({
-                "key": key,
-                "label": f"{work['title']} ({descriptor})",
-                "scores": scores,
+                "key": f"{variant}:{score_type}",
+                "arranger": group["arranger"],
+                "label": f"{work['title']} ({group['descriptor']}, {score_type})",
+                "scores": group["scores"],
             })
         return result
-
-    @staticmethod
-    def original_descriptor(scores: list[dict]) -> str:
-        """Describes the expression with no declared arranger."""
-        types = {score.get("type") or "" for score in scores}
-        if len(types) == 1:
-            only = types.pop()
-            if "arranjo" in only.lower():
-                return only[len("Partitura "):] if only.startswith("Partitura ") else only
-        return "original version"
 
     def manifestations(self, expression: dict) -> list[dict]:
         """Groups the scores of an expression into manifestations.
@@ -692,8 +698,8 @@ class WorkBuilder:
             graph.add(iri, "melod:hasInstrumentation",
                       IRI(self.builder.instrumentation(instruments)))
 
-        if expression["key"] != "original":
-            key = self.people.resolve(expression["key"])
+        if expression["arranger"]:
+            key = self.people.resolve(expression["arranger"])
             if key:
                 graph.add(iri, "melod:hasContribution", self.contribution(
                     graph, self.people.iri(key), "terms:Arranger",

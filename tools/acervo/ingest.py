@@ -516,6 +516,12 @@ def prepare_works(works: list[dict], issues: Issues) -> list[dict]:
             if not (score.get("type") or "").strip():
                 score["type"] = "Partitura"
                 issues.add("score_without_type", work["id"], f"score {score['index']}")
+            if "arranjo" in score["type"].lower() and not details.get("Arranjo"):
+                issues.add(
+                    "arrangement_without_arranger", work["id"],
+                    f"score {score['index']} ({score['type']}): the type declares "
+                    "an arrangement without naming an arranger",
+                )
             raw_date = first(details.get("Data"))
             if raw_date and not parse_date(raw_date):
                 issues.add("unparsed_date", work["id"], raw_date)

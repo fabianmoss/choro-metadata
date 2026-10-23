@@ -53,8 +53,11 @@ work (melod:Work)
 source that grounds the attribution (`schema:citation`).
 
 **Expression.**  A version of the work.  Scores with **different declared
-arrangers** are different expressions of the same work.  The scores with no
-declared arrangement form the “original” expression.  It receives the metre
+arrangers** or **different score types** (a piano score, a melody score, a
+cifra…) are different expressions of the same work.  A score whose type
+declares an arrangement but names no arranger forms an **anonymous
+arrangement** expression.  The remaining scores with no declared
+arrangement form the “original” expression.  It receives the metre
 (`melod:hasMeter`), the language (`melod:inLanguage` →
 `terms:Portuguese`), the instrumentation (`melod:hasInstrumentation`) and the
 agents of the version — arranger (`terms:Arranger`) and librettist
@@ -318,6 +321,37 @@ _:d a melod:Date;
 The acervo has no date spans, so this shape only appears in the files of the
 MeLODy model.
 
+### 4.14 Expressions and score types
+
+The “Partituras” list states a type for every score (`Partitura piano`,
+`Partitura melodia`, `Partitura cifra`…).  The type is part of the
+**expression**, not only of the manifestation: a piano score and a melody
+score of the same work are different versions, and the model creates one
+Expression for each type.  Scores with the same arranger *and* the same type
+still share an expression; the copies of one edition remain one
+Manifestation with several Items.
+
+A type that declares an arrangement (`Partitura arranjo`,
+`Partitura arranjo para banda`…) but whose “Arranjo” field is empty becomes
+an anonymous arrangement expression.  Its IRI is derived from the type and
+the marker `anonymous-arrangement`; no `terms:Arranger` contribution is
+written, because the acervo names no arranger.  The ingestion records these
+cases as `arrangement_without_arranger` in the issue report, so that a later
+enrichment can identify the arranger.
+
+The expression IRI therefore includes the arranger (or the anonymous/original
+marker) **and** the score type:
+
+```python
+variant = f"arranger:{arranger}:{score_type}"
+variant = f"anonymous-arrangement:{score_type}"
+variant = f"original:{score_type}"
+```
+
+Changing the type of a score changes its Expression and, because the
+expression is part of the manifestation key, its Manifestation as well; the
+Item IRI stays keyed by the acervo record and the position of the score.
+
 ## 5. Corrections in the data of the MeLODy model
 
 The example files that came with the MeLODy template did not pass the
@@ -372,9 +406,10 @@ from the list of instruments of the score.
 The report is written to `docs/acervo-ingest-issues.md` (summary) and
 `docs/acervo-ingest-issues.csv` (one row per problem).  It records, among
 other things, harvest failures, records skipped for lack of digitisation,
-provisional persons, unstructured values of `"Cópia"`, dates the model cannot
-parse, places without a country or without a GeoNames identifier, and
-instruments without a controlled term.  A problem never stops the ingestion.
+provisional persons, unstructured values of `"Cópia"`, arrangements whose type
+names no arranger, dates the model cannot parse, places without a country or
+without a GeoNames identifier, and instruments without a controlled term.  A
+problem never stops the ingestion.
 
 Because the ingestion deletes the documents it no longer generates — for
 example a provisional person that a later harvest replaced with the real

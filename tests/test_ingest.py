@@ -78,6 +78,11 @@ class IngestionTest(unittest.TestCase):
     def tearDown(self) -> None:
         self.tmp.cleanup()
 
+    def write_works(self, *records: dict) -> None:
+        with open(self.harvest / "works.jsonl", "w", encoding="utf-8") as handle:
+            for record in records:
+                handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+
     def run_ingest(self, prune: bool = True) -> dict:
         with redirect_stdout(io.StringIO()):
             return ingest.ingest(
@@ -113,6 +118,112 @@ class IngestionTest(unittest.TestCase):
             for path in (self.out / "items").glob("*.ttl")
         ]
         self.assertTrue(any("score_1" in text for text in items))
+
+    def test_expressions_are_split_by_score_type(self) -> None:
+        record = work_record()
+        record["scores"] = [
+            {
+                "index": 0,
+                "type": "Partitura piano",
+                "pdf": "score_1",
+                "details": {"Cópia": ["manuscrita"]},
+            },
+            {
+                "index": 1,
+                "type": "Partitura melodia",
+                "pdf": "score_2",
+                "details": {"Cópia": ["manuscrita"]},
+            },
+            {
+                "index": 2,
+                "type": "Partitura piano",
+                "pdf": "score_3",
+                "details": {"Cópia": ["manuscrita"]},
+            },
+        ]
+        self.write_works(record)
+        self.run_ingest(prune=False)
+
+        expressions = [
+            path.read_text(encoding="utf-8")
+            for path in (self.out / "expressions").glob("*.ttl")
+            if "Test work" in path.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(len(expressions), 2)
+        self.assertTrue(any("Partitura piano" in text for text in expressions))
+        self.assertTrue(any("Partitura melodia" in text for text in expressions))
+
+        # the two piano copies share an expression and an edition
+        manifestations = [
+            path.read_text(encoding="utf-8")
+            for path in (self.out / "manifestations").glob("*.ttl")
+            if "Test work" in path.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(len(manifestations), 2)
+        items = [
+            path.read_text(encoding="utf-8")
+            for path in (self.out / "items").glob("*.ttl")
+            if "Test work" in path.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(len(items), 3)
+
+    def test_anonymous_arrangement_is_its_own_expression(self) -> None:
+        record = work_record()
+        record["scores"] = [
+            {
+                "index": 0,
+                "type": "Partitura arranjo para banda",
+                "pdf": "score_1",
+                "details": {"Cópia": ["manuscrita"]},
+            }
+        ]
+        self.write_works(record)
+        self.run_ingest(prune=False)
+
+        expressions = [
+            path.read_text(encoding="utf-8")
+            for path in (self.out / "expressions").glob("*.ttl")
+            if "Test work" in path.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(len(expressions), 1)
+        self.assertIn("anonymous arrangement", expressions[0])
+        self.assertNotIn("terms:Arranger", expressions[0])
+
+        with open(self.issues_csv, encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+        self.assertTrue(
+            any(row["category"] == "arrangement_without_arranger" for row in rows),
+            rows,
+        )
+
+    def test_a_named_arranger_is_kept_when_types_split(self) -> None:
+        record = work_record()
+        record["scores"] = [
+            {
+                "index": 0,
+                "type": "Partitura piano",
+                "pdf": "score_1",
+                "details": {"Cópia": ["manuscrita"], "Arranjo": ["Test Composer"]},
+            },
+            {
+                "index": 1,
+                "type": "Partitura melodia",
+                "pdf": "score_2",
+                "details": {"Cópia": ["manuscrita"], "Arranjo": ["Test Composer"]},
+            },
+        ]
+        self.write_works(record)
+        self.run_ingest(prune=False)
+
+        expressions = [
+            path.read_text(encoding="utf-8")
+            for path in (self.out / "expressions").glob("*.ttl")
+            if "Test work" in path.read_text(encoding="utf-8")
+        ]
+        self.assertEqual(len(expressions), 2)
+        for text in expressions:
+            self.assertIn("arrangement by Test Composer", text)
+            self.assertIn("terms:Arranger", text)
 
     def test_unknown_copyist_becomes_a_provisional_person(self) -> None:
         self.run_ingest()
