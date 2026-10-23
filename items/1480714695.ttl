@@ -1,0 +1,27 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1480714695> a melod:Item;
+    rdfs:label "Modulante — Partitura melodia (score_2151)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1307284754>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd3d9ca2a-8659-7a00-1cd9-171c198ce671;
+    melod:hasShelfmark "score_2151";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2151.pdf>;
+    dct:conformsTo melod:Item.
+
+_:bd3d9ca2a-8659-7a00-1cd9-171c198ce671 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2151".

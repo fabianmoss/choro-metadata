@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1132058545> a melod:Item;
+    rdfs:label "Margarida — Partitura melodia (score_7623)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1252199181>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9e5c7166-797d-9bd5-40fb-a1c95788a22b;
+    melod:hasShelfmark "score_7623";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7623.pdf>;
+    melod:hasProvenance _:bc837d903-d819-ccf9-43c4-b1a51016c0a4;
+    dct:conformsTo melod:Item.
+
+_:b9e5c7166-797d-9bd5-40fb-a1c95788a22b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7623".
+
+_:bc837d903-d819-ccf9-43c4-b1a51016c0a4 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:baf1837dd-9b08-6f26-6e9b-46defc5203d6;
+    melod:hasContribution _:bed9d9bed-70dc-44cc-68bd-390df1c133a3.
+
+_:baf1837dd-9b08-6f26-6e9b-46defc5203d6 a melod:ExactDate;
+    melod:isodate "2004-01-31"^^xsd:date;
+    schema:description "31.01.2004".
+
+_:bed9d9bed-70dc-44cc-68bd-390df1c133a3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

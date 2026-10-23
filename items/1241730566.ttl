@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1241730566> a melod:Item;
+    rdfs:label "Nelson em apuros — Partitura melodia (score_1791)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1358842043>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b07c360f9-883f-ab8a-5839-ff5a1dbf58c7;
+    melod:hasShelfmark "score_1791";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1791.pdf>;
+    melod:hasHand _:b2b4773a9-e233-226b-51d4-c375ed5dc839;
+    melod:hasProvenance _:be7d1f97b-5efa-5559-2d8e-525c77d85e52;
+    dct:conformsTo melod:Item.
+
+_:b07c360f9-883f-ab8a-5839-ff5a1dbf58c7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1791".
+
+_:b2b4773a9-e233-226b-51d4-c375ed5dc839 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Candinho (Cândido Pereira da Silva)".
+
+_:be7d1f97b-5efa-5559-2d8e-525c77d85e52 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bedf50311-2300-7abc-1458-c4cd1acbaf41.
+
+_:bedf50311-2300-7abc-1458-c4cd1acbaf41 a melod:ExactDate;
+    melod:isodate "1951-01-01"^^xsd:date;
+    schema:description "01.01.1951".

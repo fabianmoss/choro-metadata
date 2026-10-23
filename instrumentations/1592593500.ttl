@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1592593500> a melod:Instrumentation;
+    rdfs:label "canto, flauta"@pt;
+    melod:hasInstrumentationDetail _:b8e4934a3-2eae-3b3a-dc14-c595725384fc, _:b8df4ebd0-24c0-0776-6891-61bab3c0e13a.
+
+_:b8e4934a3-2eae-3b3a-dc14-c595725384fc a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "canto";
+    mus:U2_foresees_use_of_medium_of_performance terms:HighVoice;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#va>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b8df4ebd0-24c0-0776-6891-61bab3c0e13a a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

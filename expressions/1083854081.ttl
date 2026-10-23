@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1083854081> a melod:Expression;
+    rdfs:label "Não venhas! (anonymous arrangement, Partitura arranjo para coro)";
+    melod:hasClassification "Dobrado";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b96e9c114-3ec0-d06d-55d1-d4e2972eda6c;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1052125462>;
+    melod:hasContribution _:b7209f8e1-89d2-64a9-3043-c36b4d861bb8;
+    dct:conformsTo melod:Expression.
+
+_:b96e9c114-3ec0-d06d-55d1-d4e2972eda6c a melod:Meter;
+    melod:hasMeterCount "4"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "4/4".
+
+_:b7209f8e1-89d2-64a9-3043-c36b4d861bb8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1522780490>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

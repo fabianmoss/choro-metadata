@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1125679644> a melod:Manifestation;
+    melod:hasTitle _:b5d0eb765-ff6b-435e-166f-040242079496;
+    lrmoo:R4_embodies <urn:uuid:expressions/1533705246>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b1ec2c5b6-3d37-47f4-2856-40e8c761c6ad;
+    dct:conformsTo melod:Manifestation.
+
+_:b5d0eb765-ff6b-435e-166f-040242079496 a melod:Title;
+    rdfs:label "Noite de fogueira — Partitura piano e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b1ec2c5b6-3d37-47f4-2856-40e8c761c6ad a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

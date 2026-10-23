@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1181574019> a melod:Work;
+    melod:hasTitle _:b5eb07463-66ec-e068-cf52-9fe9546cd661;
+    melod:hasIdentifier _:bd2c70dc5-9d81-43da-0cfc-f125a6230e6a;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2232>;
+    melod:hasContribution _:bcd0112f5-b633-36ae-c098-00ae207b9429;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1719004424>, <urn:uuid:expressions/1197428205>;
+    melod:hasAnnotation _:b00ed0772-02f1-3076-6bd5-959ed8daf250;
+    dct:conformsTo melod:Work.
+
+_:b5eb07463-66ec-e068-cf52-9fe9546cd661 a melod:Title;
+    rdfs:label "Não me olhes assim"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd2c70dc5-9d81-43da-0cfc-f125a6230e6a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2232".
+
+_:bcd0112f5-b633-36ae-c098-00ae207b9429 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1313139067>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b00ed0772-02f1-3076-6bd5-959ed8daf250 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2232\">https://acervo.casadochoro.com.br/works/view/2232</a>. Gênero: Schottisch. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

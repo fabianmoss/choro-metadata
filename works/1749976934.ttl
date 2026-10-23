@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1749976934> a melod:Work;
+    melod:hasTitle _:bac225eb8-72e4-91e6-7f37-b73c30a2b08d;
+    melod:hasIdentifier _:baa85020e-3bbc-2457-c3fc-3f4baa3cdafa;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5019>;
+    melod:hasContribution _:b1557c6fe-2687-1fb9-e399-69ba567da372;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1695797336>, <urn:uuid:expressions/1385187222>;
+    melod:hasAnnotation _:b3caf907b-6051-e85a-7e13-73e77a6bbbac;
+    dct:conformsTo melod:Work.
+
+_:bac225eb8-72e4-91e6-7f37-b73c30a2b08d a melod:Title;
+    rdfs:label "Maxixe das flores"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:baa85020e-3bbc-2457-c3fc-3f4baa3cdafa a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5019".
+
+_:b1557c6fe-2687-1fb9-e399-69ba567da372 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3caf907b-6051-e85a-7e13-73e77a6bbbac a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5019\">https://acervo.casadochoro.com.br/works/view/5019</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

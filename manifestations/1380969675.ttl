@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1380969675> a melod:Manifestation;
+    melod:hasTitle _:b7511a909-5fc6-b2b9-ea6c-a289a13981a3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1201213060>;
+    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
+    melod:hasContribution _:b18758bd9-a686-90e1-a5ef-47fc1ab39b22;
+    dct:conformsTo melod:Manifestation.
+
+_:b7511a909-5fc6-b2b9-ea6c-a289a13981a3 a melod:Title;
+    rdfs:label "Não sei o que é — Partitura melodia e letra (edition Casa Carlos Gomes)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b18758bd9-a686-90e1-a5ef-47fc1ab39b22 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1450885394>;
+    melod:hasRole terms:Publisher.

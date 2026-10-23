@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1835893247> a melod:Manifestation;
+    melod:hasTitle _:b0db226f7-39e5-6533-67f5-f7d902f7355a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1796150081>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:b25d3f82d-556e-7bd0-5921-3f3483a53e1d;
+    dct:conformsTo melod:Manifestation.
+
+_:b0db226f7-39e5-6533-67f5-f7d902f7355a a melod:Title;
+    rdfs:label "Musica do momento — Partitura arranjo (edition U.B.C. (União Brasileira de Compositores))";
+    melod:hasTitleType terms:MainTitle.
+
+_:b25d3f82d-556e-7bd0-5921-3f3483a53e1d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1396509580>;
+    melod:hasRole terms:Publisher.

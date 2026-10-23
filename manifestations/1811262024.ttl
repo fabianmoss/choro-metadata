@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1811262024> a melod:Manifestation;
+    melod:hasTitle _:b59847aaa-8c2c-522f-886d-e7437fa9d2cd;
+    lrmoo:R4_embodies <urn:uuid:expressions/1561857092>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b41afaa9a-c2ed-1350-6441-370e8067b7a8;
+    dct:conformsTo melod:Manifestation.
+
+_:b59847aaa-8c2c-522f-886d-e7437fa9d2cd a melod:Title;
+    rdfs:label "Maria Luiza — Partitura piano (edition Manoel Antonio Gomes Guimarães)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b41afaa9a-c2ed-1350-6441-370e8067b7a8 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1853885782>;
+    melod:hasRole terms:Publisher.

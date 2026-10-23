@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1890422658> a melod:Work;
+    melod:hasTitle _:b4fd9dc25-9978-67b4-33e8-6d69a58f0d34;
+    melod:hasIdentifier _:b1a6ac86d-89c3-1058-a9b1-8dbcb1de54ab;
+    melod:hasClassification "Batuque";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4518>;
+    melod:hasContribution _:be6cfd151-85ea-60b2-59fd-3f892d7f19b2, _:b3a4414f4-1406-eabd-b8d7-992bd902dfdb;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1865837430>, <urn:uuid:expressions/1240658605>;
+    melod:hasAnnotation _:b58131e5c-0ec8-0f92-d262-71ebb058dd98;
+    dct:conformsTo melod:Work.
+
+_:b4fd9dc25-9978-67b4-33e8-6d69a58f0d34 a melod:Title;
+    rdfs:label "No batuque"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1a6ac86d-89c3-1058-a9b1-8dbcb1de54ab a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4518".
+
+_:be6cfd151-85ea-60b2-59fd-3f892d7f19b2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1366496114>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3a4414f4-1406-eabd-b8d7-992bd902dfdb a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b58131e5c-0ec8-0f92-d262-71ebb058dd98 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4518\">https://acervo.casadochoro.com.br/works/view/4518</a>. Gênero: Batuque. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

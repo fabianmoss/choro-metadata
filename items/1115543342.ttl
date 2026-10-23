@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1115543342> a melod:Item;
+    rdfs:label "Moderato — Partitura melodia e cifra (score_11591)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1387448178>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bffd5303c-7cb8-8e84-5d17-9e34f64dc8fa;
+    melod:hasShelfmark "score_11591";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11591.pdf>;
+    melod:hasProvenance _:b35b063c9-e876-8c10-686f-12ae98f89144;
+    dct:conformsTo melod:Item.
+
+_:bffd5303c-7cb8-8e84-5d17-9e34f64dc8fa a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11591".
+
+_:b35b063c9-e876-8c10-686f-12ae98f89144 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b6e1b8214-6bb2-3016-0596-196a97c60235.
+
+_:b6e1b8214-6bb2-3016-0596-196a97c60235 a melod:ExactDate;
+    melod:isodate "2005-10-11"^^xsd:date;
+    schema:description "11.10.2005".

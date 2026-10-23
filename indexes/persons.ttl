@@ -22,6 +22,8 @@
 <urn:uuid:persons/1005163886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lourival Faissal" .
 <urn:uuid:persons/1005269835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1005269835> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathias d'Almeida" .
+<urn:uuid:persons/1005483916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1005483916> <http://www.w3.org/2004/02/skos/core#prefLabel> "Claudio Ceccoli" .
 <urn:uuid:persons/1006030912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1006030912> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milton Singe" .
 <urn:uuid:persons/1006052294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -52,12 +54,16 @@
 <urn:uuid:persons/1011498857> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro L. Hallier" .
 <urn:uuid:persons/1011842056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1011842056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francis Thomé" .
+<urn:uuid:persons/1012094905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1012094905> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Pilar dos Santos" .
 <urn:uuid:persons/1012736740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1012736740> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Souza Campos Júnior" .
 <urn:uuid:persons/1013082189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1013082189> <http://www.w3.org/2004/02/skos/core#prefLabel> "Najla Jabor" .
 <urn:uuid:persons/1013113852> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1013113852> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thereza Kury" .
+<urn:uuid:persons/1013234680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1013234680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Neves Costa" .
 <urn:uuid:persons/1014919308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1014919308> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Rocha" .
 <urn:uuid:persons/1015214613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -66,12 +72,18 @@
 <urn:uuid:persons/1015218586> <http://www.w3.org/2004/02/skos/core#prefLabel> "X.Y.Z" .
 <urn:uuid:persons/1017290919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1017290919> <http://www.w3.org/2004/02/skos/core#prefLabel> "Azevedo Pimentel" .
+<urn:uuid:persons/1017368612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1017368612> <http://www.w3.org/2004/02/skos/core#prefLabel> "Joaquim Ignacio Fontellas" .
+<urn:uuid:persons/1017515698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1017515698> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alfenas" .
 <urn:uuid:persons/1017801456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1017801456> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro Pereira Machado" .
 <urn:uuid:persons/1018576327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1018576327> <http://www.w3.org/2004/02/skos/core#prefLabel> "Editado na Itália" .
 <urn:uuid:persons/1018915841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1018915841> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cipriano" .
+<urn:uuid:persons/1019075809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1019075809> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rubem Gerardi" .
 <urn:uuid:persons/1020885676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1020885676> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newton Teixeira" .
 <urn:uuid:persons/1021130890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -138,12 +150,18 @@
 <urn:uuid:persons/1038551069> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frazão" .
 <urn:uuid:persons/1038648325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1038648325> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hermes Fontes" .
+<urn:uuid:persons/1038950014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1038950014> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tonico" .
 <urn:uuid:persons/1039774199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1039774199> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Barbosa" .
+<urn:uuid:persons/1039818397> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1039818397> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eliezer Telles" .
 <urn:uuid:persons/1040009178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1040009178> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fernando Magalhães" .
 <urn:uuid:persons/1040518393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1040518393> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Nepomuceno" .
+<urn:uuid:persons/1040652268> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1040652268> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bernardino Belém de Sousa" .
 <urn:uuid:persons/1040688348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1040688348> <http://www.w3.org/2004/02/skos/core#prefLabel> "Patrício Teixeira" .
 <urn:uuid:persons/1040840292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -172,6 +190,8 @@
 <urn:uuid:persons/1048067239> <http://www.w3.org/2004/02/skos/core#prefLabel> "Franco Micalizzi" .
 <urn:uuid:persons/1048160021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1048160021> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusto Meira" .
+<urn:uuid:persons/1048288949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1048288949> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emile Prud'homme" .
 <urn:uuid:persons/1049169951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1049169951> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusto de Souza Marques" .
 <urn:uuid:persons/1049296225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -192,6 +212,8 @@
 <urn:uuid:persons/1052588324> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santos Coelho" .
 <urn:uuid:persons/1052814050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1052814050> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Senna" .
+<urn:uuid:persons/1052992979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1052992979> <http://www.w3.org/2004/02/skos/core#prefLabel> "do arranjo original do autor" .
 <urn:uuid:persons/1055774428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1055774428> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Peixoto Velho" .
 <urn:uuid:persons/1056416859> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -202,6 +224,10 @@
 <urn:uuid:persons/1057520695> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heitor Ribeiro" .
 <urn:uuid:persons/1058586346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1058586346> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. C. Mendes de Almeida (Quinote)" .
+<urn:uuid:persons/1058683735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1058683735> <http://www.w3.org/2004/02/skos/core#prefLabel> "Homero Dornelas" .
+<urn:uuid:persons/1058792031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1058792031> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arquivo Gerson Ferreira Pinto" .
 <urn:uuid:persons/1060169584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1060169584> <http://www.w3.org/2004/02/skos/core#prefLabel> "Daniel Lemos" .
 <urn:uuid:persons/1060313929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -256,6 +282,8 @@
 <urn:uuid:persons/1071646116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ginha Miranda" .
 <urn:uuid:persons/1072990952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1072990952> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo das Neves" .
+<urn:uuid:persons/1073696225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1073696225> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Maria de Abreu" .
 <urn:uuid:persons/1073726641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1073726641> <http://www.w3.org/2004/02/skos/core#prefLabel> "L. Silesu" .
 <urn:uuid:persons/1073767628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -328,10 +356,14 @@
 <urn:uuid:persons/1087963571> <http://www.w3.org/2004/02/skos/core#prefLabel> "Egberto Gismonti" .
 <urn:uuid:persons/1088052444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1088052444> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fabião Figueira" .
+<urn:uuid:persons/1088287378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1088287378> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Martins" .
 <urn:uuid:persons/1089629457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1089629457> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luizão Maia" .
 <urn:uuid:persons/1089900775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1089900775> <http://www.w3.org/2004/02/skos/core#prefLabel> "Charles Borel Clerc" .
+<urn:uuid:persons/1089963285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1089963285> <http://www.w3.org/2004/02/skos/core#prefLabel> "Furtado Coelho" .
 <urn:uuid:persons/1091071984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1091071984> <http://www.w3.org/2004/02/skos/core#prefLabel> "Índio" .
 <urn:uuid:persons/1091452279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -366,12 +398,16 @@
 <urn:uuid:persons/1096864675> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lorenzo Fernandes" .
 <urn:uuid:persons/1097011883> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1097011883> <http://www.w3.org/2004/02/skos/core#prefLabel> "Misael Domingues" .
+<urn:uuid:persons/1097992020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1097992020> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Pedro Sanches" .
 <urn:uuid:persons/1098284390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1098284390> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alexandre Levy" .
 <urn:uuid:persons/1098598780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1098598780> <http://www.w3.org/2004/02/skos/core#prefLabel> "Iamerê" .
 <urn:uuid:persons/1099290995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1099290995> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boanerges Guedes" .
+<urn:uuid:persons/1100512780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1100512780> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dedicado ao amigo Catullo Cearense" .
 <urn:uuid:persons/1100778834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1100778834> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henrique Vogeler" .
 <urn:uuid:persons/1100862730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -408,6 +444,8 @@
 <urn:uuid:persons/1109008199> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bichara" .
 <urn:uuid:persons/1109372490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1109372490> <http://www.w3.org/2004/02/skos/core#prefLabel> "Doug de Vries" .
+<urn:uuid:persons/1109517612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1109517612> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beto Fonseca" .
 <urn:uuid:persons/1110081558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1110081558> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maneco Paiva" .
 <urn:uuid:persons/1110204488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -428,6 +466,8 @@
 <urn:uuid:persons/1113484597> <http://www.w3.org/2004/02/skos/core#prefLabel> "Guaraci da Costa" .
 <urn:uuid:persons/1113574567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1113574567> <http://www.w3.org/2004/02/skos/core#prefLabel> "M. Souza" .
+<urn:uuid:persons/1113929897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1113929897> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Barros" .
 <urn:uuid:persons/1114215589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1114215589> <http://www.w3.org/2004/02/skos/core#prefLabel> "Osvaldo Colagrande" .
 <urn:uuid:persons/1114549214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -468,12 +508,18 @@
 <urn:uuid:persons/1123638987> <http://www.w3.org/2004/02/skos/core#prefLabel> "Octávio Dutra" .
 <urn:uuid:persons/1124028163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1124028163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrêa Junior" .
+<urn:uuid:persons/1124080521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1124080521> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Theofilo Cardozo" .
+<urn:uuid:persons/1124178535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1124178535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bornéo Passos e Bernabé" .
 <urn:uuid:persons/1125718912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1125718912> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Bittencourt e Luiz Peixoto" .
 <urn:uuid:persons/1125826631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1125826631> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castro Filho" .
 <urn:uuid:persons/1127012829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1127012829> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alvarenga" .
+<urn:uuid:persons/1127495647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1127495647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulo Flores" .
 <urn:uuid:persons/1127737223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1127737223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ernesto Sánchez Gómez" .
 <urn:uuid:persons/1128905872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -492,12 +538,16 @@
 <urn:uuid:persons/1132213335> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gomes Cardim" .
 <urn:uuid:persons/1132444514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1132444514> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dedicado ao amigo Jupyacam Xavier" .
+<urn:uuid:persons/1132572519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1132572519> <http://www.w3.org/2004/02/skos/core#prefLabel> "B.J. Falcão Junior" .
 <urn:uuid:persons/1132670820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1132670820> <http://www.w3.org/2004/02/skos/core#prefLabel> "Olavo S. Carvalho" .
 <urn:uuid:persons/1132692528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1132692528> <http://www.w3.org/2004/02/skos/core#prefLabel> "Camargo, Nabor Pires" .
 <urn:uuid:persons/1133139593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1133139593> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alcebíades Viera Nunes (Bide)" .
+<urn:uuid:persons/1133182714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1133182714> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miguel dos Santos" .
 <urn:uuid:persons/1134493400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1134493400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulo César Pinheiro" .
 <urn:uuid:persons/1134892973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -510,6 +560,8 @@
 <urn:uuid:persons/1135335447> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Donizetti Gondim" .
 <urn:uuid:persons/1135655592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1135655592> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Cavaquinho" .
+<urn:uuid:persons/1136124228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1136124228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rouxinol" .
 <urn:uuid:persons/1137269342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1137269342> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mario Donato" .
 <urn:uuid:persons/1137825187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -530,6 +582,8 @@
 <urn:uuid:persons/1144237081> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. F. Aleixo dos Santos" .
 <urn:uuid:persons/1145102182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1145102182> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assis Valente" .
+<urn:uuid:persons/1146241941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1146241941> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fon-fon" .
 <urn:uuid:persons/1146295467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1146295467> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Toledo" .
 <urn:uuid:persons/1146624448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -554,6 +608,8 @@
 <urn:uuid:persons/1150662067> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valdeos, Sergio" .
 <urn:uuid:persons/1152995577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1152995577> <http://www.w3.org/2004/02/skos/core#prefLabel> "Affonso Martinez Grau" .
+<urn:uuid:persons/1153205416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1153205416> <http://www.w3.org/2004/02/skos/core#prefLabel> "Optaciano Delgado" .
 <urn:uuid:persons/1153529030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1153529030> <http://www.w3.org/2004/02/skos/core#prefLabel> "China" .
 <urn:uuid:persons/1153936201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -628,12 +684,16 @@
 <urn:uuid:persons/1171878946> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miguel A. de Vasconcelos" .
 <urn:uuid:persons/1172277844> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1172277844> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milton Queiroz" .
+<urn:uuid:persons/1172294154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1172294154> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rubens Holzmann Cordeiro" .
 <urn:uuid:persons/1172719176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1172719176> <http://www.w3.org/2004/02/skos/core#prefLabel> "José C.P. Oliveira" .
 <urn:uuid:persons/1172996647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1172996647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mário Álvares" .
 <urn:uuid:persons/1173261496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1173261496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henricão" .
+<urn:uuid:persons/1173365706> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1173365706> <http://www.w3.org/2004/02/skos/core#prefLabel> "Martiniano Pereira da Fonseca" .
 <urn:uuid:persons/1173964147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1173964147> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Sampaio" .
 <urn:uuid:persons/1174326455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -658,6 +718,8 @@
 <urn:uuid:persons/1180391144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Patápio Silva" .
 <urn:uuid:persons/1181305027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1181305027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silva, Viriato Figueira da" .
+<urn:uuid:persons/1181722791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1181722791> <http://www.w3.org/2004/02/skos/core#prefLabel> "Demônios da Garoa (adaptação)" .
 <urn:uuid:persons/1182012213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1182012213> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lobo, Fernando Álvares" .
 <urn:uuid:persons/1182550669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -686,6 +748,8 @@
 <urn:uuid:persons/1189963590> <http://www.w3.org/2004/02/skos/core#prefLabel> "Desenhado por Renato Domingues da Silva" .
 <urn:uuid:persons/1190985169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1190985169> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marquês de Ripafloxa" .
+<urn:uuid:persons/1191321041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1191321041> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dedicada à graciosa filhinha do Snt Procopio Russell/ Versos de Hermes Fontes" .
 <urn:uuid:persons/1191415928> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1191415928> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waldemar Henrique" .
 <urn:uuid:persons/1192471648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -766,6 +830,8 @@
 <urn:uuid:persons/1211570720> <http://www.w3.org/2004/02/skos/core#prefLabel> "Léo" .
 <urn:uuid:persons/1212396187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1212396187> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evora Filho" .
+<urn:uuid:persons/1213835128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1213835128> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulo Neves" .
 <urn:uuid:persons/1213968445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1213968445> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alexandre G. de Almeida" .
 <urn:uuid:persons/1214116628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -814,6 +880,8 @@
 <urn:uuid:persons/1223911954> <http://www.w3.org/2004/02/skos/core#prefLabel> "do Marquez de Ripafloxa" .
 <urn:uuid:persons/1225460008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1225460008> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Masson" .
+<urn:uuid:persons/1226165572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1226165572> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ary Brandão" .
 <urn:uuid:persons/1226838208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1226838208> <http://www.w3.org/2004/02/skos/core#prefLabel> "Targino Carneiro da Cunha" .
 <urn:uuid:persons/1227220344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -840,6 +908,8 @@
 <urn:uuid:persons/1231076300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eliana Fonseca" .
 <urn:uuid:persons/1231143810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1231143810> <http://www.w3.org/2004/02/skos/core#prefLabel> "L. Duque" .
+<urn:uuid:persons/1231432781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1231432781> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.E. Lage" .
 <urn:uuid:persons/1231995860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1231995860> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jorge Amado" .
 <urn:uuid:persons/1232292364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -854,6 +924,10 @@
 <urn:uuid:persons/1233495848> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cláudio Almeida" .
 <urn:uuid:persons/1234576968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1234576968> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel José Alves" .
+<urn:uuid:persons/1235059520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1235059520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Felipe Cemim" .
+<urn:uuid:persons/1235947384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1235947384> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro de Alcântara Filho" .
 <urn:uuid:persons/1236138362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1236138362> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusta Novita Barbosa" .
 <urn:uuid:persons/1236286122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -884,6 +958,8 @@
 <urn:uuid:persons/1241976969> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luís Moreira" .
 <urn:uuid:persons/1244400084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1244400084> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Dias Carrasqueira" .
+<urn:uuid:persons/1244631251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1244631251> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Faria" .
 <urn:uuid:persons/1245039236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1245039236> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amil de Etneciv" .
 <urn:uuid:persons/1245544043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -910,14 +986,20 @@
 <urn:uuid:persons/1250521775> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raul C. de Moraes" .
 <urn:uuid:persons/1250581260> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1250581260> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquiles Moraes" .
+<urn:uuid:persons/1250812134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1250812134> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santos Garcia" .
 <urn:uuid:persons/1251211699> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1251211699> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Carlos Dias" .
 <urn:uuid:persons/1251410035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1251410035> <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Miguel Rojas" .
 <urn:uuid:persons/1253177791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1253177791> <http://www.w3.org/2004/02/skos/core#prefLabel> "Juca Kalut" .
+<urn:uuid:persons/1253453167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1253453167> <http://www.w3.org/2004/02/skos/core#prefLabel> "uma partitura para piano em F. Editora Arthur Napoleão Ltda" .
 <urn:uuid:persons/1253627294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1253627294> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maria Augusta da Costa Fonseca" .
+<urn:uuid:persons/1254036766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1254036766> <http://www.w3.org/2004/02/skos/core#prefLabel> "César Augusto de Carvalho Meneses" .
 <urn:uuid:persons/1254185627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1254185627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hilário" .
 <urn:uuid:persons/1255138047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -946,6 +1028,10 @@
 <urn:uuid:persons/1262990643> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barbosa" .
 <urn:uuid:persons/1263701721> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1263701721> <http://www.w3.org/2004/02/skos/core#prefLabel> "F. Mello Nogueira" .
+<urn:uuid:persons/1263926980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1263926980> <http://www.w3.org/2004/02/skos/core#prefLabel> "Casimiro Rocha" .
+<urn:uuid:persons/1264196282> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1264196282> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Camillo" .
 <urn:uuid:persons/1264250508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1264250508> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Aymberé" .
 <urn:uuid:persons/1265036441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -982,14 +1068,20 @@
 <urn:uuid:persons/1270585740> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Moreno" .
 <urn:uuid:persons/1271016958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1271016958> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ponte" .
+<urn:uuid:persons/1271495529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1271495529> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bruno de Menezes" .
 <urn:uuid:persons/1271601686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1271601686> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Villa" .
 <urn:uuid:persons/1271992613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1271992613> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao sobrinho Gilberto Nazareth" .
 <urn:uuid:persons/1272306924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1272306924> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dedicada a sua filha Marietta" .
+<urn:uuid:persons/1272561376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1272561376> <http://www.w3.org/2004/02/skos/core#prefLabel> "N. Brandão" .
 <urn:uuid:persons/1273588439> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1273588439> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sebastião Motta" .
+<urn:uuid:persons/1273606469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1273606469> <http://www.w3.org/2004/02/skos/core#prefLabel> "D. Moreira" .
 <urn:uuid:persons/1273822691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1273822691> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alfredo Nunes" .
 <urn:uuid:persons/1274364301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1018,8 +1110,12 @@
 <urn:uuid:persons/1280362323> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dunga" .
 <urn:uuid:persons/1280560174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1280560174> <http://www.w3.org/2004/02/skos/core#prefLabel> "Joaquim Alves de Carvalho" .
+<urn:uuid:persons/1280938540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1280938540> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alexandre d' Oliveira" .
 <urn:uuid:persons/1281520927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1281520927> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos de Abreu" .
+<urn:uuid:persons/1281624890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1281624890> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toquinho" .
 <urn:uuid:persons/1282514486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1282514486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lucas José Vieira Ferraz" .
 <urn:uuid:persons/1282958864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1036,6 +1132,8 @@
 <urn:uuid:persons/1284476034> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.C. Franco" .
 <urn:uuid:persons/1284668412> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1284668412> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathias Pinto" .
+<urn:uuid:persons/1284717496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1284717496> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nilce Consendei" .
 <urn:uuid:persons/1284949677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1284949677> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Cascata" .
 <urn:uuid:persons/1284978906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1044,6 +1142,8 @@
 <urn:uuid:persons/1285475781> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luis Vassalo" .
 <urn:uuid:persons/1285554560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1285554560> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rossini Ferreira" .
+<urn:uuid:persons/1285735871> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1285735871> <http://www.w3.org/2004/02/skos/core#prefLabel> "Videira" .
 <urn:uuid:persons/1288806850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1288806850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manuel Bernal Martinez" .
 <urn:uuid:persons/1291004380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1056,6 +1156,8 @@
 <urn:uuid:persons/1292053112> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ricardo Ferreira de Carvalho" .
 <urn:uuid:persons/1292149856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1292149856> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vicente Paiva Ribeiro" .
+<urn:uuid:persons/1293177013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1293177013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Júlio Augusto Pereira da Cunha" .
 <urn:uuid:persons/1293266419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1293266419> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao Alferes Luiz Portugal" .
 <urn:uuid:persons/1293811032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1084,18 +1186,24 @@
 <urn:uuid:persons/1298375373> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Souza" .
 <urn:uuid:persons/1298930666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1298930666> <http://www.w3.org/2004/02/skos/core#prefLabel> "Souza" .
+<urn:uuid:persons/1299248025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1299248025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Walter Leal" .
 <urn:uuid:persons/1300595590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1300595590> <http://www.w3.org/2004/02/skos/core#prefLabel> "Viúva Guerreiro" .
 <urn:uuid:persons/1302583855> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1302583855> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Elias da Cunha" .
 <urn:uuid:persons/1303034053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1303034053> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Cortez" .
+<urn:uuid:persons/1303692568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1303692568> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geraldo Mendonça" .
 <urn:uuid:persons/1304014853> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1304014853> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo Rohan" .
 <urn:uuid:persons/1304154829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1304154829> <http://www.w3.org/2004/02/skos/core#prefLabel> "L. R. Andrade" .
 <urn:uuid:persons/1304180220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1304180220> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Sepe" .
+<urn:uuid:persons/1304963643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1304963643> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maria A. Cruz Ribeiro" .
 <urn:uuid:persons/1305078941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1305078941> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modesto Tavares de Lima" .
 <urn:uuid:persons/1305551237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1110,6 +1218,8 @@
 <urn:uuid:persons/1306503783> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canhotinho" .
 <urn:uuid:persons/1306738344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1306738344> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wilde Dias da Fonseca" .
+<urn:uuid:persons/1307002729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1307002729> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leocádio Alexandrino Bello" .
 <urn:uuid:persons/1307283088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1307283088> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao eminente pianista e compositor H. Oswald" .
 <urn:uuid:persons/1307999040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1120,8 +1230,12 @@
 <urn:uuid:persons/1308194242> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ambrosina de S.B. Corrêa" .
 <urn:uuid:persons/1308706803> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1308706803> <http://www.w3.org/2004/02/skos/core#prefLabel> "Othon Rocha" .
+<urn:uuid:persons/1308840628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1308840628> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adolph Silva" .
 <urn:uuid:persons/1308959211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1308959211> <http://www.w3.org/2004/02/skos/core#prefLabel> "Izaías Bueno" .
+<urn:uuid:persons/1309015665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1309015665> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dávio" .
 <urn:uuid:persons/1309197442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1309197442> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dom José Amat" .
 <urn:uuid:persons/1309265999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1154,6 +1268,8 @@
 <urn:uuid:persons/1313621014> <http://www.w3.org/2004/02/skos/core#prefLabel> "Airton Amorim" .
 <urn:uuid:persons/1313789123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1313789123> <http://www.w3.org/2004/02/skos/core#prefLabel> "Frederico de Jesus (arquivo Donga) - Caderno de Alfredo Vianna" .
+<urn:uuid:persons/1314090788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1314090788> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henrique de Rody Corrêa" .
 <urn:uuid:persons/1314414854> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1314414854> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maria E. da Cruz Almada" .
 <urn:uuid:persons/1314819170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1170,6 +1286,8 @@
 <urn:uuid:persons/1317319113> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alberto Costa" .
 <urn:uuid:persons/1317373632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1317373632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fats Elpídio" .
+<urn:uuid:persons/1317393951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1317393951> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Feliciano de Noronha Feital" .
 <urn:uuid:persons/1318580532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1318580532> <http://www.w3.org/2004/02/skos/core#prefLabel> "A.F. de Saldanha da Gama" .
 <urn:uuid:persons/1319373117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1190,8 +1308,12 @@
 <urn:uuid:persons/1323699056> <http://www.w3.org/2004/02/skos/core#prefLabel> "João de Deus Falcão" .
 <urn:uuid:persons/1324391055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1324391055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ernesto Alves da Costa" .
+<urn:uuid:persons/1324747778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1324747778> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Rodrigues" .
 <urn:uuid:persons/1325564929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1325564929> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manuscrito do arranjo original do autor p/ piano e quinteto clarinete, pistom, bombardino, baixo, sax" .
+<urn:uuid:persons/1325922547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1325922547> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alfredo Zitarrosa" .
 <urn:uuid:persons/1326092622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1326092622> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oscar Pinheiro" .
 <urn:uuid:persons/1326114362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1250,12 +1372,16 @@
 <urn:uuid:persons/1339369764> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlifôl" .
 <urn:uuid:persons/1340198597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1340198597> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tancredo Furtado de Mendonça" .
+<urn:uuid:persons/1341240265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1341240265> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aprígio Barbosa" .
 <urn:uuid:persons/1341787985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1341787985> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zulmira Baptista Alves" .
 <urn:uuid:persons/1341815562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1341815562> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gomes Costa" .
 <urn:uuid:persons/1341952812> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1341952812> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Baptista de Meneses" .
+<urn:uuid:persons/1343539291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1343539291> <http://www.w3.org/2004/02/skos/core#prefLabel> "De Chocolat" .
 <urn:uuid:persons/1344003942> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1344003942> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marino Pinto" .
 <urn:uuid:persons/1344931074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1264,6 +1390,8 @@
 <urn:uuid:persons/1345133121> <http://www.w3.org/2004/02/skos/core#prefLabel> "Otávio Rosa" .
 <urn:uuid:persons/1345221753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1345221753> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo M. Franco" .
+<urn:uuid:persons/1345713243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1345713243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Das Polkas mais em voga / IMperial Estabelecimento - PIANOS MUSICAIS - Narciso & Arthur Napoleão - Rua do Ouvidor, 56 e 58. Rio de Janeiro" .
 <urn:uuid:persons/1346078611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1346078611> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ernesto Nazareth" .
 <urn:uuid:persons/1346191645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1294,6 +1422,10 @@
 <urn:uuid:persons/1353645011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sereno" .
 <urn:uuid:persons/1354460590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1354460590> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Januário da Silva" .
+<urn:uuid:persons/1354519963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1354519963> <http://www.w3.org/2004/02/skos/core#prefLabel> "Álvaro Sousa" .
+<urn:uuid:persons/1355107190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1355107190> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uma cópia de Jupyaçara c/ data de 27/02/1940 , arquivo Jairo Severiano" .
 <urn:uuid:persons/1357643419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1357643419> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sabino Allegrini" .
 <urn:uuid:persons/1358954608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1302,10 +1434,14 @@
 <urn:uuid:persons/1359034731> <http://www.w3.org/2004/02/skos/core#prefLabel> "Darcy de Oliveira" .
 <urn:uuid:persons/1360696238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1360696238> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.C. Machado" .
+<urn:uuid:persons/1360734806> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1360734806> <http://www.w3.org/2004/02/skos/core#prefLabel> "dos que sofrem" .
 <urn:uuid:persons/1360799900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1360799900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Felix Albini" .
 <urn:uuid:persons/1362621733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1362621733> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Carioca" .
+<urn:uuid:persons/1363118641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1363118641> <http://www.w3.org/2004/02/skos/core#prefLabel> "Iuri Bittar" .
 <urn:uuid:persons/1363305843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1363305843> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Menezes" .
 <urn:uuid:persons/1363359381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1336,6 +1472,8 @@
 <urn:uuid:persons/1372428005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silva, Cândido Pereira da" .
 <urn:uuid:persons/1372845463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1372845463> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faustino Guimarães" .
+<urn:uuid:persons/1373074329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1373074329> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yamandu Costa" .
 <urn:uuid:persons/1374875507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1374875507> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mário Lago" .
 <urn:uuid:persons/1376181376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1344,6 +1482,8 @@
 <urn:uuid:persons/1376697569> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cacique" .
 <urn:uuid:persons/1379303776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1379303776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ary Barroso" .
+<urn:uuid:persons/1379370742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1379370742> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Baptista Laurindo" .
 <urn:uuid:persons/1380819200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1380819200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sadi" .
 <urn:uuid:persons/1381238787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1354,6 +1494,8 @@
 <urn:uuid:persons/1381524509> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Otávio Braga" .
 <urn:uuid:persons/1381846909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1381846909> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ricard Viladesau" .
+<urn:uuid:persons/1382322994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1382322994> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antonio Rago" .
 <urn:uuid:persons/1382910425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1382910425> <http://www.w3.org/2004/02/skos/core#prefLabel> "Osires do Nordeste" .
 <urn:uuid:persons/1384130996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1372,12 +1514,16 @@
 <urn:uuid:persons/1388766417> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nino e Tupy" .
 <urn:uuid:persons/1388804868> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1388804868> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luís Felipe Gama" .
+<urn:uuid:persons/1389028426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1389028426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Guanaré" .
 <urn:uuid:persons/1389508809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1389508809> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oscar Carvalho Filho" .
 <urn:uuid:persons/1389512623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1389512623> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heitor Villa-Lobos" .
 <urn:uuid:persons/1389567938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1389567938> <http://www.w3.org/2004/02/skos/core#prefLabel> "Katiá" .
+<urn:uuid:persons/1389979331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1389979331> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur Canongia" .
 <urn:uuid:persons/1390860617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1390860617> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rian" .
 <urn:uuid:persons/1391547729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1386,6 +1532,8 @@
 <urn:uuid:persons/1391979377> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virgínia Elisa Martins" .
 <urn:uuid:persons/1393562256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1393562256> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Vaz" .
+<urn:uuid:persons/1394809144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1394809144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ary Kerner" .
 <urn:uuid:persons/1395510178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1395510178> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sílvio Motto" .
 <urn:uuid:persons/1395535634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1408,8 +1556,12 @@
 <urn:uuid:persons/1402679473> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bruno Nunes" .
 <urn:uuid:persons/1402990724> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1402990724> <http://www.w3.org/2004/02/skos/core#prefLabel> "LIVROS BIBLIOTECA CENTRO DE PESQUISA JACOB DO BANDOLIM" .
+<urn:uuid:persons/1403218586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1403218586> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Santos Vieira" .
 <urn:uuid:persons/1403498897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1403498897> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raul Resende" .
+<urn:uuid:persons/1404315933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1404315933> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elzo Augusto" .
 <urn:uuid:persons/1404905042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1404905042> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duarte Nunes" .
 <urn:uuid:persons/1405564762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1458,6 +1610,8 @@
 <urn:uuid:persons/1417370466> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dino Sete Cordas" .
 <urn:uuid:persons/1417383776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1417383776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rodrigo Alzuguir" .
+<urn:uuid:persons/1417968725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1417968725> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sylla Chaves" .
 <urn:uuid:persons/1419400454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1419400454> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Bastos" .
 <urn:uuid:persons/1419927234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1492,6 +1646,8 @@
 <urn:uuid:persons/1428096665> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Carlos César Sobrinho" .
 <urn:uuid:persons/1428215725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1428215725> <http://www.w3.org/2004/02/skos/core#prefLabel> "Benedicto Silva" .
+<urn:uuid:persons/1428766478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1428766478> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toni 7 cordas" .
 <urn:uuid:persons/1429018027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1429018027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jorge Veiga" .
 <urn:uuid:persons/1429070688> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1500,6 +1656,8 @@
 <urn:uuid:persons/1429105145> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mondego" .
 <urn:uuid:persons/1429464353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1429464353> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisca Pinheiro d'Aguiar" .
+<urn:uuid:persons/1429733395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1429733395> <http://www.w3.org/2004/02/skos/core#prefLabel> "Felisberto Martins" .
 <urn:uuid:persons/1430319205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1430319205> <http://www.w3.org/2004/02/skos/core#prefLabel> "de C. Bitencourt e L. Peixoto" .
 <urn:uuid:persons/1430377740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1540,10 +1698,14 @@
 <urn:uuid:persons/1437897367> <http://www.w3.org/2004/02/skos/core#prefLabel> "Azevedo Lemos" .
 <urn:uuid:persons/1437948753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1437948753> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Francisco de Castro Leal" .
+<urn:uuid:persons/1438528899> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1438528899> <http://www.w3.org/2004/02/skos/core#prefLabel> "Almirante" .
 <urn:uuid:persons/1438725649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1438725649> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio Campos" .
 <urn:uuid:persons/1439577958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1439577958> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abel F. Lopes" .
+<urn:uuid:persons/1440489396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1440489396> <http://www.w3.org/2004/02/skos/core#prefLabel> "Celsinho Silva" .
 <urn:uuid:persons/1440874602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1440874602> <http://www.w3.org/2004/02/skos/core#prefLabel> "Querino José Rodrigues Vieira" .
 <urn:uuid:persons/1440910362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1630,12 +1792,16 @@
 <urn:uuid:persons/1471020480> <http://www.w3.org/2004/02/skos/core#prefLabel> "Capitão Furtado" .
 <urn:uuid:persons/1471116846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1471116846> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vinicius de Moraes" .
+<urn:uuid:persons/1471153851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1471153851> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.F. de Lima Coutinho" .
 <urn:uuid:persons/1471915655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1471915655> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zacharias Thomas" .
 <urn:uuid:persons/1472228247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1472228247> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manuel Pedro Nascimento" .
 <urn:uuid:persons/1472592061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1472592061> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiza Cardoso" .
+<urn:uuid:persons/1472746636> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1472746636> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rafaela de Rozwadowska" .
 <urn:uuid:persons/1474453586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1474453586> <http://www.w3.org/2004/02/skos/core#prefLabel> "X.P.T.O" .
 <urn:uuid:persons/1474863830> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1646,6 +1812,8 @@
 <urn:uuid:persons/1475506359> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nonô" .
 <urn:uuid:persons/1476072842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1476072842> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gaudio Viotti" .
+<urn:uuid:persons/1476441311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1476441311> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maestro Duda" .
 <urn:uuid:persons/1476837810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1476837810> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arlindo Marques Junior" .
 <urn:uuid:persons/1477035549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1656,6 +1824,8 @@
 <urn:uuid:persons/1477246655> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maurício Brotero" .
 <urn:uuid:persons/1477932110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1477932110> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edú Fontes" .
+<urn:uuid:persons/1478064430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1478064430> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruy Bittencourt" .
 <urn:uuid:persons/1478335044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1478335044> <http://www.w3.org/2004/02/skos/core#prefLabel> "Walter Burle-Marx" .
 <urn:uuid:persons/1478402148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1668,18 +1838,26 @@
 <urn:uuid:persons/1479089639> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rodrigues de Abreu" .
 <urn:uuid:persons/1479262682> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1479262682> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lulu Cavaquinho" .
+<urn:uuid:persons/1479280242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1479280242> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ao maestro Nicolino Milano (Nenê)" .
 <urn:uuid:persons/1479729332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1479729332> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Tavares" .
 <urn:uuid:persons/1479779219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1479779219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baden Powell" .
 <urn:uuid:persons/1480176342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1480176342> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur Marques d' Oliveira" .
+<urn:uuid:persons/1480414807> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1480414807> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Bífano" .
 <urn:uuid:persons/1480880223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1480880223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jayme" .
 <urn:uuid:persons/1481347791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1481347791> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nola" .
 <urn:uuid:persons/1481697319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1481697319> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henrique Annes" .
+<urn:uuid:persons/1482014543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1482014543> <http://www.w3.org/2004/02/skos/core#prefLabel> "Serafim Adriano" .
+<urn:uuid:persons/1482831141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1482831141> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Salatiel" .
 <urn:uuid:persons/1483812327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1483812327> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secundino" .
 <urn:uuid:persons/1484410194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1716,6 +1894,8 @@
 <urn:uuid:persons/1492085541> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leocádio Rayol" .
 <urn:uuid:persons/1492841364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1492841364> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alzira Mariath Costa" .
+<urn:uuid:persons/1492902917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1492902917> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tuyú" .
 <urn:uuid:persons/1492969656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1492969656> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dedicada ao ilustrissemo Senr. Dr. Rodrigo Lobato Marcondes Machado" .
 <urn:uuid:persons/1493543356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1732,6 +1912,8 @@
 <urn:uuid:persons/1496956684> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chico Neto" .
 <urn:uuid:persons/1497001618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1497001618> <http://www.w3.org/2004/02/skos/core#prefLabel> "G.R." .
+<urn:uuid:persons/1497379698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1497379698> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dodô Lossio" .
 <urn:uuid:persons/1498051596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1498051596> <http://www.w3.org/2004/02/skos/core#prefLabel> "Costa Júnior" .
 <urn:uuid:persons/1498960752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1766,6 +1948,8 @@
 <urn:uuid:persons/1506949520> <http://www.w3.org/2004/02/skos/core#prefLabel> "Noel Rosa" .
 <urn:uuid:persons/1506992955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1506992955> <http://www.w3.org/2004/02/skos/core#prefLabel> "L. Dall'Argine" .
+<urn:uuid:persons/1507122162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1507122162> <http://www.w3.org/2004/02/skos/core#prefLabel> "H. Silva" .
 <urn:uuid:persons/1507877267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1507877267> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eleonore Dorgean" .
 <urn:uuid:persons/1508268210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1778,6 +1962,8 @@
 <urn:uuid:persons/1510284477> <http://www.w3.org/2004/02/skos/core#prefLabel> "Altamiro Carrilho" .
 <urn:uuid:persons/1510488037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1510488037> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poelchau, Georg" .
+<urn:uuid:persons/1511624026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1511624026> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Do livro 3 vultos históricos* pag. 236 *sic" .
 <urn:uuid:persons/1511764479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1511764479> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jupira Ciléa" .
 <urn:uuid:persons/1512583310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1832,6 +2018,8 @@
 <urn:uuid:persons/1523790669> <http://www.w3.org/2004/02/skos/core#prefLabel> "Renato Lacerda" .
 <urn:uuid:persons/1525919464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1525919464> <http://www.w3.org/2004/02/skos/core#prefLabel> "Júlio Silva" .
+<urn:uuid:persons/1526357862> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1526357862> <http://www.w3.org/2004/02/skos/core#prefLabel> "O.X.S" .
 <urn:uuid:persons/1526724501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1526724501> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Sargento" .
 <urn:uuid:persons/1527172261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1890,6 +2078,8 @@
 <urn:uuid:persons/1541925542> <http://www.w3.org/2004/02/skos/core#prefLabel> "R. Badoni" .
 <urn:uuid:persons/1542204472> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1542204472> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vadinho do Bandolim" .
+<urn:uuid:persons/1542419197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1542419197> <http://www.w3.org/2004/02/skos/core#prefLabel> "A partitura contém duas datas sendo uma a data da cópia de Azevedo Pimentel e a outra não foi identificada sendo de 17/05/1903" .
 <urn:uuid:persons/1543267513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1543267513> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Casado" .
 <urn:uuid:persons/1543423482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1904,12 +2094,18 @@
 <urn:uuid:persons/1544602886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ademir Cândido" .
 <urn:uuid:persons/1544948549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1544948549> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. B. Martins Aranha" .
+<urn:uuid:persons/1545157917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1545157917> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel L. de Barros" .
 <urn:uuid:persons/1545481697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1545481697> <http://www.w3.org/2004/02/skos/core#prefLabel> "Romeo Dionesi" .
+<urn:uuid:persons/1546028672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1546028672> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lamatine Babo" .
 <urn:uuid:persons/1546702705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1546702705> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agostini A." .
 <urn:uuid:persons/1547306243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1547306243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ataulfo Alves" .
+<urn:uuid:persons/1548014297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1548014297> <http://www.w3.org/2004/02/skos/core#prefLabel> "Max Nunes" .
 <urn:uuid:persons/1548875433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1548875433> <http://www.w3.org/2004/02/skos/core#prefLabel> "João de Oliveira Cruz" .
 <urn:uuid:persons/1549023561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1926,6 +2122,10 @@
 <urn:uuid:persons/1550076804> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hygino Billio" .
 <urn:uuid:persons/1550094979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1550094979> <http://www.w3.org/2004/02/skos/core#prefLabel> "Poesia de Dulcinéa Paraense" .
+<urn:uuid:persons/1551196125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1551196125> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlo Miltur" .
+<urn:uuid:persons/1552057301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1552057301> <http://www.w3.org/2004/02/skos/core#prefLabel> "Harold Daltro" .
 <urn:uuid:persons/1552224109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1552224109> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sebastião Cyrino" .
 <urn:uuid:persons/1552305620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1948,6 +2148,8 @@
 <urn:uuid:persons/1556839459> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Sebastião" .
 <urn:uuid:persons/1557453996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1557453996> <http://www.w3.org/2004/02/skos/core#prefLabel> "V. F. Luz" .
+<urn:uuid:persons/1558748320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1558748320> <http://www.w3.org/2004/02/skos/core#prefLabel> "Santos Gabarra" .
 <urn:uuid:persons/1559403878> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1559403878> <http://www.w3.org/2004/02/skos/core#prefLabel> "C. Goria Peñaloza" .
 <urn:uuid:persons/1559812942> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1978,6 +2180,8 @@
 <urn:uuid:persons/1563703625> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afonso S. da Silva Freire" .
 <urn:uuid:persons/1563831784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1563831784> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bento Mossurunga" .
+<urn:uuid:persons/1565815574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1565815574> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lupercina de Sousa" .
 <urn:uuid:persons/1565828895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1565828895> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquiles Moraes e Everson Moraes" .
 <urn:uuid:persons/1566098447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -1992,6 +2196,8 @@
 <urn:uuid:persons/1567845834> <http://www.w3.org/2004/02/skos/core#prefLabel> "Walmeida" .
 <urn:uuid:persons/1568604739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1568604739> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.L Pinna" .
+<urn:uuid:persons/1568808618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1568808618> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ubiratan Sousa" .
 <urn:uuid:persons/1568819611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1568819611> <http://www.w3.org/2004/02/skos/core#prefLabel> "B" .
 <urn:uuid:persons/1568894086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2040,6 +2246,8 @@
 <urn:uuid:persons/1576847074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bia Paes Leme" .
 <urn:uuid:persons/1578140713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1578140713> <http://www.w3.org/2004/02/skos/core#prefLabel> "Affonso Schmidt" .
+<urn:uuid:persons/1578300824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1578300824> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisco Xavier Roth" .
 <urn:uuid:persons/1579341943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1579341943> <http://www.w3.org/2004/02/skos/core#prefLabel> "Charles Tagor" .
 <urn:uuid:persons/1580875087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2110,6 +2318,8 @@
 <urn:uuid:persons/1598038216> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zacarias Freitas" .
 <urn:uuid:persons/1599807196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1599807196> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro de Sá Pereira" .
+<urn:uuid:persons/1601333959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1601333959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laudelino M. de Barros" .
 <urn:uuid:persons/1601508418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1601508418> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alexandre Brandão Filho" .
 <urn:uuid:persons/1602017999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2134,16 +2344,24 @@
 <urn:uuid:persons/1607104126> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Bittencourt" .
 <urn:uuid:persons/1607199964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1607199964> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flávio Vieira" .
+<urn:uuid:persons/1608449163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1608449163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coleção C. Guerra Peixe" .
 <urn:uuid:persons/1608586989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1608586989> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cyriaco de Cardoso" .
 <urn:uuid:persons/1609440262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1609440262> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oswaldo Marques da Silva" .
+<urn:uuid:persons/1610125055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1610125055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Basílio de Andrade" .
+<urn:uuid:persons/1611434116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1611434116> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulino Almeida" .
 <urn:uuid:persons/1611632742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1611632742> <http://www.w3.org/2004/02/skos/core#prefLabel> "Floriano Pientznauer" .
 <urn:uuid:persons/1611945299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1611945299> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nacio Herb Brown" .
 <urn:uuid:persons/1612354907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1612354907> <http://www.w3.org/2004/02/skos/core#prefLabel> "Donga" .
+<urn:uuid:persons/1612360593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1612360593> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rafael Coelho Machado" .
 <urn:uuid:persons/1612969801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1612969801> <http://www.w3.org/2004/02/skos/core#prefLabel> "José S. Rossino" .
 <urn:uuid:persons/1612994515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2188,8 +2406,12 @@
 <urn:uuid:persons/1622451666> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Amaral" .
 <urn:uuid:persons/1622708602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1622708602> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Porto-Arojo" .
+<urn:uuid:persons/1624945984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1624945984> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elpídio Pereira" .
 <urn:uuid:persons/1625483521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1625483521> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Freisleberk" .
+<urn:uuid:persons/1626060530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1626060530> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enrique Domingo Cadícamo" .
 <urn:uuid:persons/1626097689> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1626097689> <http://www.w3.org/2004/02/skos/core#prefLabel> "Horácio de Jesus Rios" .
 <urn:uuid:persons/1626207332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2216,10 +2438,16 @@
 <urn:uuid:persons/1630219416> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. E. S. Queiroz" .
 <urn:uuid:persons/1630276011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1630276011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisco d'Alvarenga" .
+<urn:uuid:persons/1630864150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1630864150> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nuno Guedes Pereira" .
+<urn:uuid:persons/1631040744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1631040744> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alfredo M.M. Guimarães" .
 <urn:uuid:persons/1631063207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1631063207> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulo Barbosa" .
 <urn:uuid:persons/1631554701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1631554701> <http://www.w3.org/2004/02/skos/core#prefLabel> "Caninha" .
+<urn:uuid:persons/1631826104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1631826104> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maria Néri" .
 <urn:uuid:persons/1632253581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1632253581> <http://www.w3.org/2004/02/skos/core#prefLabel> "Guimarães Martins" .
 <urn:uuid:persons/1632864644> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2240,6 +2468,8 @@
 <urn:uuid:persons/1635602345> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro e Neca" .
 <urn:uuid:persons/1635738669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1635738669> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur Alvim" .
+<urn:uuid:persons/1635771487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1635771487> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paulo de Carvalho" .
 <urn:uuid:persons/1636314549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1636314549> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathieu André Reichert" .
 <urn:uuid:persons/1636436713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2272,8 +2502,14 @@
 <urn:uuid:persons/1641893535> <http://www.w3.org/2004/02/skos/core#prefLabel> "Martinez Grau (A. Paraguassú)" .
 <urn:uuid:persons/1643776192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1643776192> <http://www.w3.org/2004/02/skos/core#prefLabel> "Candinho" .
+<urn:uuid:persons/1644102109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1644102109> <http://www.w3.org/2004/02/skos/core#prefLabel> "F.L. Itaborahy" .
 <urn:uuid:persons/1644234606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1644234606> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mario Adnet" .
+<urn:uuid:persons/1644238119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1644238119> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Passinha" .
+<urn:uuid:persons/1644484573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1644484573> <http://www.w3.org/2004/02/skos/core#prefLabel> "V. G. Flores" .
 <urn:uuid:persons/1644775016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1644775016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paurillo Barroso" .
 <urn:uuid:persons/1645000961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2328,6 +2564,8 @@
 <urn:uuid:persons/1659770910> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moraes, Salvador" .
 <urn:uuid:persons/1660667903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1660667903> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luís Ramos de Lima" .
+<urn:uuid:persons/1660700705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1660700705> <http://www.w3.org/2004/02/skos/core#prefLabel> "Com muita dificuldade por estar atacado dos rins" .
 <urn:uuid:persons/1661802554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1661802554> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ernesto Mascaretti" .
 <urn:uuid:persons/1661806102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2378,6 +2616,8 @@
 <urn:uuid:persons/1674644685> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Batista do Nascimento (obtida do Sr. Berredo)" .
 <urn:uuid:persons/1675064278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1675064278> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arnaldo Rebello" .
+<urn:uuid:persons/1675128074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1675128074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alberto M. Alves" .
 <urn:uuid:persons/1675215937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1675215937> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raul Marques" .
 <urn:uuid:persons/1676941515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2388,6 +2628,8 @@
 <urn:uuid:persons/1677398174> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henrique Braga" .
 <urn:uuid:persons/1677682219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1677682219> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio P. da Silva Figueiredo" .
+<urn:uuid:persons/1678663426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1678663426> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Castelo Branco" .
 <urn:uuid:persons/1679046945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1679046945> <http://www.w3.org/2004/02/skos/core#prefLabel> "Augusto Vasseur" .
 <urn:uuid:persons/1679525003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2400,6 +2642,8 @@
 <urn:uuid:persons/1680247410> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carmen Sylvia V. de Vasconcellos" .
 <urn:uuid:persons/1683060839> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1683060839> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Castro Rebello" .
+<urn:uuid:persons/1684407824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1684407824> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.B. Mattos" .
 <urn:uuid:persons/1685077154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1685077154> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Ferreira" .
 <urn:uuid:persons/1685169635> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2416,6 +2660,8 @@
 <urn:uuid:persons/1687719647> <http://www.w3.org/2004/02/skos/core#prefLabel> "Joaquim Édson de Camargo" .
 <urn:uuid:persons/1687796478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1687796478> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisco Mattoso" .
+<urn:uuid:persons/1688111695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1688111695> <http://www.w3.org/2004/02/skos/core#prefLabel> "Claudemiro de Oliveira" .
 <urn:uuid:persons/1688150430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1688150430> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Barbosa-Lima" .
 <urn:uuid:persons/1688259477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2454,6 +2700,8 @@
 <urn:uuid:persons/1698872403> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Ivo" .
 <urn:uuid:persons/1699333385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1699333385> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eleonardo Caffi" .
+<urn:uuid:persons/1699634015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1699634015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mario Ferraresi" .
 <urn:uuid:persons/1701140100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1701140100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Milena Tibúrcio" .
 <urn:uuid:persons/1701771184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2488,8 +2736,12 @@
 <urn:uuid:persons/1709741237> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leny Tavares" .
 <urn:uuid:persons/1710510404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1710510404> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raymundo Corrêa" .
+<urn:uuid:persons/1710581802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1710581802> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Camillo" .
 <urn:uuid:persons/1710699019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1710699019> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klécius Caldas" .
+<urn:uuid:persons/1712472127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1712472127> <http://www.w3.org/2004/02/skos/core#prefLabel> "Raul Longras" .
 <urn:uuid:persons/1713617750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1713617750> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eduardo Souto" .
 <urn:uuid:persons/1714885805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2508,8 +2760,12 @@
 <urn:uuid:persons/1717050824> <http://www.w3.org/2004/02/skos/core#prefLabel> "Astor Piazzolla" .
 <urn:uuid:persons/1717261619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1717261619> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hekel Tavares" .
+<urn:uuid:persons/1717367475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1717367475> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. C. Cobián" .
 <urn:uuid:persons/1717619886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1717619886> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isaías do Bandolim" .
+<urn:uuid:persons/1717737740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1717737740> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro A. da Silva" .
 <urn:uuid:persons/1717916823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1717916823> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luis Otávio Braga" .
 <urn:uuid:persons/1718344157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2538,6 +2794,8 @@
 <urn:uuid:persons/1723256481> <http://www.w3.org/2004/02/skos/core#prefLabel> "Akioka" .
 <urn:uuid:persons/1723537962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1723537962> <http://www.w3.org/2004/02/skos/core#prefLabel> "Waldemar Godinho" .
+<urn:uuid:persons/1723771536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1723771536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luís dos Passos" .
 <urn:uuid:persons/1725379665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1725379665> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro Aragão" .
 <urn:uuid:persons/1725752483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2582,6 +2840,8 @@
 <urn:uuid:persons/1736493321> <http://www.w3.org/2004/02/skos/core#prefLabel> "Theodoro Aguilar (Caderno de Alfredo Vianna)" .
 <urn:uuid:persons/1736533393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1736533393> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antenógenes Silva" .
+<urn:uuid:persons/1737289929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1737289929> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisco Cândido de Sousa" .
 <urn:uuid:persons/1738010051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1738010051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Basílio" .
 <urn:uuid:persons/1738395079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2610,6 +2870,8 @@
 <urn:uuid:persons/1745701177> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manuel Moreira" .
 <urn:uuid:persons/1748141775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1748141775> <http://www.w3.org/2004/02/skos/core#prefLabel> "F. Campos" .
+<urn:uuid:persons/1749482919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1749482919> <http://www.w3.org/2004/02/skos/core#prefLabel> "Faulhaber" .
 <urn:uuid:persons/1749888376> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1749888376> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roberto Firpo" .
 <urn:uuid:persons/1750676347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2632,6 +2894,8 @@
 <urn:uuid:persons/1755442157> <http://www.w3.org/2004/02/skos/core#prefLabel> "Excelsior - Bailado de Manzotti (Musica de Marenco)" .
 <urn:uuid:persons/1756292872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1756292872> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Ferreira Torres" .
+<urn:uuid:persons/1756681502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1756681502> <http://www.w3.org/2004/02/skos/core#prefLabel> "Affonso Silva" .
 <urn:uuid:persons/1756770072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1756770072> <http://www.w3.org/2004/02/skos/core#prefLabel> "Yradier" .
 <urn:uuid:persons/1756788531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2640,8 +2904,6 @@
 <urn:uuid:persons/1756987768> <http://www.w3.org/2004/02/skos/core#prefLabel> "João de Aquino" .
 <urn:uuid:persons/1757089196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1757089196> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Filho / Uesma" .
-<urn:uuid:persons/1757297218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
-<urn:uuid:persons/1757297218> <http://www.w3.org/2004/02/skos/core#prefLabel> "Almirante" .
 <urn:uuid:persons/1757902163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1757902163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oswaldo Orico" .
 <urn:uuid:persons/1758258212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2658,6 +2920,8 @@
 <urn:uuid:persons/1760517893> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ramos Flauta" .
 <urn:uuid:persons/1760607917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1760607917> <http://www.w3.org/2004/02/skos/core#prefLabel> "Norma Levato" .
+<urn:uuid:persons/1762598485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1762598485> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laércio Alves" .
 <urn:uuid:persons/1763234723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1763234723> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro Sá Pereira" .
 <urn:uuid:persons/1763656976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2700,10 +2964,14 @@
 <urn:uuid:persons/1776074573> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luiz Filgueiras" .
 <urn:uuid:persons/1776143228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1776143228> <http://www.w3.org/2004/02/skos/core#prefLabel> "Viriato Corrêa" .
+<urn:uuid:persons/1776447845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1776447845> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zael" .
 <urn:uuid:persons/1776457009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1776457009> <http://www.w3.org/2004/02/skos/core#prefLabel> "José da Silva Nogueira" .
 <urn:uuid:persons/1776520380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1776520380> <http://www.w3.org/2004/02/skos/core#prefLabel> "Castello Netto" .
+<urn:uuid:persons/1776667557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1776667557> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oliveira Urculu" .
 <urn:uuid:persons/1776795866> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1776795866> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gerson Bientinez" .
 <urn:uuid:persons/1777320757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2726,6 +2994,8 @@
 <urn:uuid:persons/1781839052> <http://www.w3.org/2004/02/skos/core#prefLabel> "C. Póvoa" .
 <urn:uuid:persons/1782426768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1782426768> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antonio Balan" .
+<urn:uuid:persons/1782814317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1782814317> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Stoerne" .
 <urn:uuid:persons/1782891880> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1782891880> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rosina Santos Lopes de Mendonça" .
 <urn:uuid:persons/1783861823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2752,6 +3022,8 @@
 <urn:uuid:persons/1788625718> <http://www.w3.org/2004/02/skos/core#prefLabel> "È a resposta da polka para piano \"Nhônhô fasenda\"" .
 <urn:uuid:persons/1788863624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1788863624> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orlando de Pennafort Caldas" .
+<urn:uuid:persons/1789420533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1789420533> <http://www.w3.org/2004/02/skos/core#prefLabel> "Olegário Neiva" .
 <urn:uuid:persons/1789743908> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1789743908> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedroca" .
 <urn:uuid:persons/1790351003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2788,6 +3060,8 @@
 <urn:uuid:persons/1798699733> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maria do Carmo de Figueiredo Santos" .
 <urn:uuid:persons/1799581536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1799581536> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovídio Chaves" .
+<urn:uuid:persons/1801800751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1801800751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reginaldo A. de Oliveira" .
 <urn:uuid:persons/1801836348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1801836348> <http://www.w3.org/2004/02/skos/core#prefLabel> "João do Sul" .
 <urn:uuid:persons/1801841355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2812,6 +3086,8 @@
 <urn:uuid:persons/1805311032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antenor Teixeira (propriedade de Jupyaçara)" .
 <urn:uuid:persons/180681546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/180681546> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nunes, Alfredo" .
+<urn:uuid:persons/1807105086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1807105086> <http://www.w3.org/2004/02/skos/core#prefLabel> "André Ventura Pereira" .
 <urn:uuid:persons/1807252844> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1807252844> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arismar do Espírito Santo" .
 <urn:uuid:persons/1807308903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2824,6 +3100,8 @@
 <urn:uuid:persons/1809088113> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Dias de Farias" .
 <urn:uuid:persons/1809364103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1809364103> <http://www.w3.org/2004/02/skos/core#prefLabel> "Antônio M. Celestino" .
+<urn:uuid:persons/1809843573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1809843573> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manoel Bandeira Filho" .
 <urn:uuid:persons/1810100732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1810100732> <http://www.w3.org/2004/02/skos/core#prefLabel> "Roberto Jope Kinsmann Benjamin" .
 <urn:uuid:persons/1810106447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2836,6 +3114,8 @@
 <urn:uuid:persons/1811516743> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leviano Albano da Conceição" .
 <urn:uuid:persons/1811643101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1811643101> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gerson Moreira" .
+<urn:uuid:persons/1811815945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1811815945> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Saccomani" .
 <urn:uuid:persons/1812781905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1812781905> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ary Duarte" .
 <urn:uuid:persons/1813543553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2858,6 +3138,8 @@
 <urn:uuid:persons/1816391214> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emile Waldteufel" .
 <urn:uuid:persons/1816454299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1816454299> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Pereira da Silveira" .
+<urn:uuid:persons/1816584407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1816584407> <http://www.w3.org/2004/02/skos/core#prefLabel> "Theo Venturellie" .
 <urn:uuid:persons/1818927243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1818927243> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silveira Machado Jr" .
 <urn:uuid:persons/1819252801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2872,8 +3154,12 @@
 <urn:uuid:persons/1821447188> <http://www.w3.org/2004/02/skos/core#prefLabel> "Betinho" .
 <urn:uuid:persons/1821601229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1821601229> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zirlah" .
+<urn:uuid:persons/1821845858> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1821845858> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trindade" .
 <urn:uuid:persons/1821965546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1821965546> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gomes Filho" .
+<urn:uuid:persons/1822502940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1822502940> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marily" .
 <urn:uuid:persons/1823917889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1823917889> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arthur N. Lima" .
 <urn:uuid:persons/1824058459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2920,6 +3206,8 @@
 <urn:uuid:persons/1835719562> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Fontes Júnior" .
 <urn:uuid:persons/1835777616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1835777616> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cop. Geraldo Franciso dos Santos / Conf. Candinho / Conf. Figueiredo" .
+<urn:uuid:persons/1836099872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1836099872> <http://www.w3.org/2004/02/skos/core#prefLabel> "Edu Rocha" .
 <urn:uuid:persons/1836408532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1836408532> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virgílio Pinto da Silveira" .
 <urn:uuid:persons/1837671110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2928,6 +3216,8 @@
 <urn:uuid:persons/1837941406> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jacob do Bandolim" .
 <urn:uuid:persons/1838485959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1838485959> <http://www.w3.org/2004/02/skos/core#prefLabel> "Patrick Angelo" .
+<urn:uuid:persons/1839209703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1839209703> <http://www.w3.org/2004/02/skos/core#prefLabel> "Francisca Machado Dias" .
 <urn:uuid:persons/1839788697> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1839788697> <http://www.w3.org/2004/02/skos/core#prefLabel> "Firmino Borrajo" .
 <urn:uuid:persons/1840108166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2946,6 +3236,8 @@
 <urn:uuid:persons/1843806935> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maycon Júlio da Silva" .
 <urn:uuid:persons/1844257107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1844257107> <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Borgongino" .
+<urn:uuid:persons/1844264914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1844264914> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gaspar Espinosa" .
 <urn:uuid:persons/1844974317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1844974317> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amador Pinho" .
 <urn:uuid:persons/1845321558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -2962,6 +3254,8 @@
 <urn:uuid:persons/1848161879> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duque de Abramonte" .
 <urn:uuid:persons/1848499181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1848499181> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Menra" .
+<urn:uuid:persons/1848645059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1848645059> <http://www.w3.org/2004/02/skos/core#prefLabel> "\"Dançado em Paris pelo seu creador L. Duque\"" .
 <urn:uuid:persons/1849192337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1849192337> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Ferreira Braga" .
 <urn:uuid:persons/1849209736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3018,6 +3312,8 @@
 <urn:uuid:persons/1863935627> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anibal Candido Viana (transportada de uma orquestração por Jacob)" .
 <urn:uuid:persons/1864248955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1864248955> <http://www.w3.org/2004/02/skos/core#prefLabel> "M. J. Coelho" .
+<urn:uuid:persons/1864438850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1864438850> <http://www.w3.org/2004/02/skos/core#prefLabel> "Olavo I. C" .
 <urn:uuid:persons/1865079354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1865079354> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zé da Zilda" .
 <urn:uuid:persons/1865849392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3028,18 +3324,22 @@
 <urn:uuid:persons/1867079408> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ch. Fradel" .
 <urn:uuid:persons/1867880415> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1867880415> <http://www.w3.org/2004/02/skos/core#prefLabel> "L.C. Vogeler Gomes" .
-<urn:uuid:persons/1868056445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
-<urn:uuid:persons/1868056445> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Maria de Abreu" .
 <urn:uuid:persons/1868312962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1868312962> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loreto Conti" .
+<urn:uuid:persons/1868588619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1868588619> <http://www.w3.org/2004/02/skos/core#prefLabel> "Álvaro Passos" .
 <urn:uuid:persons/1870560680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1870560680> <http://www.w3.org/2004/02/skos/core#prefLabel> "Godofredo de Barros" .
+<urn:uuid:persons/1870806236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1870806236> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro Pamplona" .
 <urn:uuid:persons/1870945945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1870945945> <http://www.w3.org/2004/02/skos/core#prefLabel> "Louro" .
 <urn:uuid:persons/1870992824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1870992824> <http://www.w3.org/2004/02/skos/core#prefLabel> "Valentim Costa" .
 <urn:uuid:persons/1873332150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1873332150> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Evangelista" .
+<urn:uuid:persons/1873649250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1873649250> <http://www.w3.org/2004/02/skos/core#prefLabel> "E. Lellis" .
 <urn:uuid:persons/1873726292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1873726292> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pedro de Alcântara" .
 <urn:uuid:persons/1874202119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3068,6 +3368,8 @@
 <urn:uuid:persons/1881458476> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mestre Oscar Santos" .
 <urn:uuid:persons/1881508454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1881508454> <http://www.w3.org/2004/02/skos/core#prefLabel> "S. Rodriguez" .
+<urn:uuid:persons/1881854660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1881854660> <http://www.w3.org/2004/02/skos/core#prefLabel> "João Alves Pinto" .
 <urn:uuid:persons/1882510403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1882510403> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cornélio Pires" .
 <urn:uuid:persons/1882592164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3090,6 +3392,8 @@
 <urn:uuid:persons/1886081406> <http://www.w3.org/2004/02/skos/core#prefLabel> "Composer 2013" .
 <urn:uuid:persons/1886351428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1886351428> <http://www.w3.org/2004/02/skos/core#prefLabel> "José Siqueira" .
+<urn:uuid:persons/1887140314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1887140314> <http://www.w3.org/2004/02/skos/core#prefLabel> "Henrique Fusellas" .
 <urn:uuid:persons/1887498720> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1887498720> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cláudio Monteiro" .
 <urn:uuid:persons/1889920476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3102,6 +3406,8 @@
 <urn:uuid:persons/1891810893> <http://www.w3.org/2004/02/skos/core#prefLabel> "Joaquim Jorge de Andrada" .
 <urn:uuid:persons/1892033621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1892033621> <http://www.w3.org/2004/02/skos/core#prefLabel> "J.F. Massa" .
+<urn:uuid:persons/1892316643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1892316643> <http://www.w3.org/2004/02/skos/core#prefLabel> "João da Praia" .
 <urn:uuid:persons/1893813600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1893813600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Godofredo Gonçalves" .
 <urn:uuid:persons/1894178055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3110,6 +3416,8 @@
 <urn:uuid:persons/1894445365> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Soares" .
 <urn:uuid:persons/1895835013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1895835013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radamés Gnattali" .
+<urn:uuid:persons/1895969137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1895969137> <http://www.w3.org/2004/02/skos/core#prefLabel> "J. Valeriano" .
 <urn:uuid:persons/1896019359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1896019359> <http://www.w3.org/2004/02/skos/core#prefLabel> "Getulio Marinho" .
 <urn:uuid:persons/1896259905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
@@ -3120,8 +3428,12 @@
 <urn:uuid:persons/1896748548> <http://www.w3.org/2004/02/skos/core#prefLabel> "G. J. da Silva" .
 <urn:uuid:persons/1897216116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1897216116> <http://www.w3.org/2004/02/skos/core#prefLabel> "A. Marino" .
+<urn:uuid:persons/1897485164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1897485164> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luís Bandeira" .
 <urn:uuid:persons/1898270983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1898270983> <http://www.w3.org/2004/02/skos/core#prefLabel> "Miltinho" .
+<urn:uuid:persons/1898503744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
+<urn:uuid:persons/1898503744> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nelson Bastos" .
 <urn:uuid:persons/1899061438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .
 <urn:uuid:persons/1899061438> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carlos Teixeira de Carvalho (Corujinha)" .
 <urn:uuid:persons/1899218786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#PersonEntity> .

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1896915187> a melod:Work;
+    melod:hasTitle _:b4eaba29b-10d7-5329-ecd3-cccf7dc057f4;
+    melod:hasIdentifier _:bba3500c6-4ab4-8d3c-9a3d-016c08b13676;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3799>;
+    melod:hasContribution _:bb53bbd85-6b54-b238-d7fe-75069bbb36fa;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1424393909>, <urn:uuid:expressions/1364585157>;
+    melod:hasAnnotation _:b0436f996-2b59-779e-bfb1-b735df919044;
+    dct:conformsTo melod:Work.
+
+_:b4eaba29b-10d7-5329-ecd3-cccf7dc057f4 a melod:Title;
+    rdfs:label "Não gostei dos seus modos"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bba3500c6-4ab4-8d3c-9a3d-016c08b13676 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3799".
+
+_:bb53bbd85-6b54-b238-d7fe-75069bbb36fa a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1323017131>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0436f996-2b59-779e-bfb1-b735df919044 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3799\">https://acervo.casadochoro.com.br/works/view/3799</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

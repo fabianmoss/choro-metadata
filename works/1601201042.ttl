@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1601201042> a melod:Work;
+    melod:hasTitle _:b504190fc-6091-412e-96bc-b91ab0d2f902;
+    melod:hasIdentifier _:b8b5fea1d-1e2c-141c-e079-eb010e236c6d;
+    melod:hasClassification "Canção Batuque";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6983>;
+    melod:hasContribution _:b358380e8-b70b-32db-59b3-ea27decae1bd;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1537438358>;
+    melod:hasAnnotation _:b36b66164-88d2-1593-6b8a-2f322b404eaa;
+    dct:conformsTo melod:Work.
+
+_:b504190fc-6091-412e-96bc-b91ab0d2f902 a melod:Title;
+    rdfs:label "Meu boi vai-se embora"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8b5fea1d-1e2c-141c-e079-eb010e236c6d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6983".
+
+_:b358380e8-b70b-32db-59b3-ea27decae1bd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1191415928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b36b66164-88d2-1593-6b8a-2f322b404eaa a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6983\">https://acervo.casadochoro.com.br/works/view/6983</a>. Gênero: Canção Batuque. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

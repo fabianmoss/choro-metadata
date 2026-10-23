@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1035212023> a melod:Manifestation;
+    melod:hasTitle _:bd65d0a19-aa4e-7463-6e89-a0edaca224cc;
+    lrmoo:R4_embodies <urn:uuid:expressions/1843923384>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b6ce1a2af-a43d-60d7-dc5c-4a93c99f1599;
+    schema:publication _:b37bc5b64-9d45-35fa-beb8-4ff5b1147381;
+    dct:conformsTo melod:Manifestation.
+
+_:bd65d0a19-aa4e-7463-6e89-a0edaca224cc a melod:Title;
+    rdfs:label "Mondrongo — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6ce1a2af-a43d-60d7-dc5c-4a93c99f1599 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b37bc5b64-9d45-35fa-beb8-4ff5b1147381 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

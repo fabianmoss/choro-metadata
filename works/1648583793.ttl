@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1648583793> a melod:Work;
+    melod:hasTitle _:be8435ff0-4468-8783-f197-15697732bdc1;
+    melod:hasIdentifier _:b25f69348-1270-537d-dcf6-4bc335630a94;
+    melod:hasClassification "Frevo";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10758>;
+    melod:hasContribution _:ba34efbd5-8426-777c-521a-8fb97744a3ed, _:b58480f9d-71ea-7ecb-499c-fa6426ce733e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1236269732>;
+    melod:hasAnnotation _:b347c9112-0f3b-5041-bcb3-b3376c7164eb;
+    dct:conformsTo melod:Work.
+
+_:be8435ff0-4468-8783-f197-15697732bdc1 a melod:Title;
+    rdfs:label "No calor do frevo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b25f69348-1270-537d-dcf6-4bc335630a94 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10758".
+
+_:ba34efbd5-8426-777c-521a-8fb97744a3ed a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427434240>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b58480f9d-71ea-7ecb-499c-fa6426ce733e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1309483919>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b347c9112-0f3b-5041-bcb3-b3376c7164eb a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10758\">https://acervo.casadochoro.com.br/works/view/10758</a>. Gênero: Frevo. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

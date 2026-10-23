@@ -1,0 +1,73 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1721253846> a melod:Instrumentation;
+    rdfs:label "baixo, cello, clarinete Bb, flauta, piano, trompa Bb, violino 1, violino 2"@pt;
+    melod:hasInstrumentationDetail _:bf8b6424b-66b6-8caa-d3f4-6b988a72f4f2, _:bd983b5cb-4e08-172b-1378-efe4ee8103c8, _:b3b7216a2-d2a2-9ee4-d217-a460188961a6, _:b3ca8c2a9-891d-e6a1-b538-7fbe07bc0beb, _:b36622cd9-e2d1-c14d-dfc8-76a69fa361cd, _:b3c1d8cf6-7e2b-5c0f-a7c1-cc1b64bec233, _:b7a843428-865a-bb1c-891f-bac23f0d25a3, _:bb9825de1-7c42-2ae3-04fd-9cccdc6cb8b8.
+
+_:bf8b6424b-66b6-8caa-d3f4-6b988a72f4f2 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "baixo";
+    mus:U2_foresees_use_of_medium_of_performance terms:DoubleBass;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sd>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bd983b5cb-4e08-172b-1378-efe4ee8103c8 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "cello";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violoncello;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b3b7216a2-d2a2-9ee4-d217-a460188961a6 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "clarinete Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b3ca8c2a9-891d-e6a1-b538-7fbe07bc0beb a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "flauta";
+    mus:U2_foresees_use_of_medium_of_performance terms:Flute;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b36622cd9-e2d1-c14d-dfc8-76a69fa361cd a melod:InstrumentationDetail;
+    schema:position "5"^^xsd:integer;
+    schema:description "piano";
+    mus:U2_foresees_use_of_medium_of_performance terms:Piano;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ka>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b3c1d8cf6-7e2b-5c0f-a7c1-cc1b64bec233 a melod:InstrumentationDetail;
+    schema:position "6"^^xsd:integer;
+    schema:description "trompa Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Horn;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#ba>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b7a843428-865a-bb1c-891f-bac23f0d25a3 a melod:InstrumentationDetail;
+    schema:position "7"^^xsd:integer;
+    schema:description "violino 1";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bb9825de1-7c42-2ae3-04fd-9cccdc6cb8b8 a melod:InstrumentationDetail;
+    schema:position "8"^^xsd:integer;
+    schema:description "violino 2";
+    mus:U2_foresees_use_of_medium_of_performance terms:Violin;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#sa>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

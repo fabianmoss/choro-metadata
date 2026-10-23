@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1829606989> a melod:Item;
+    rdfs:label "Mutamba — Partitura melodia (score_2931)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1763908511>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bda2061ac-e067-2189-5118-2364ca4de87d;
+    melod:hasShelfmark "score_2931";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2931.pdf>;
+    melod:hasHand _:b4b12301c-8416-f05d-d4b5-0be34bf45944;
+    melod:hasProvenance _:b447b4804-013e-0163-e5fc-8e294dd628f6;
+    dct:conformsTo melod:Item.
+
+_:bda2061ac-e067-2189-5118-2364ca4de87d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2931".
+
+_:b4b12301c-8416-f05d-d4b5-0be34bf45944 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b447b4804-013e-0163-e5fc-8e294dd628f6 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b985f47d8-94af-b71c-e47d-69c885d9fe3c.
+
+_:b985f47d8-94af-b71c-e47d-69c885d9fe3c a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1416747604> a melod:Work;
+    melod:hasTitle _:b88a822e4-56c5-2198-e1b3-9aaee2e60f4b;
+    melod:hasIdentifier _:b8818e9d3-f33d-cf8a-a3b3-e2870deda531;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7874>;
+    melod:hasContribution _:b8fbefa69-24a9-734e-ed5f-2a3be54683df;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1684837913>;
+    melod:hasAnnotation _:b85282d0f-2936-3d4f-c198-95160eb77949;
+    dct:conformsTo melod:Work.
+
+_:b88a822e4-56c5-2198-e1b3-9aaee2e60f4b a melod:Title;
+    rdfs:label "Morrer sonhando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8818e9d3-f33d-cf8a-a3b3-e2870deda531 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7874".
+
+_:b8fbefa69-24a9-734e-ed5f-2a3be54683df a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1105246920>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b85282d0f-2936-3d4f-c198-95160eb77949 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7874\">https://acervo.casadochoro.com.br/works/view/7874</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1706311935> a melod:Work;
+    melod:hasTitle _:b403c4bef-b764-ceda-3600-0f12f74c50a6;
+    melod:hasIdentifier _:baaea6de7-944f-84b5-1301-323bd187332a;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4541>;
+    melod:hasContribution _:b225cd191-ec25-6433-a440-26e9c81747fa;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1782941588>, <urn:uuid:expressions/1103670429>;
+    melod:hasAnnotation _:bf669225c-3fa5-1386-36f1-797925761e1a;
+    dct:conformsTo melod:Work.
+
+_:b403c4bef-b764-ceda-3600-0f12f74c50a6 a melod:Title;
+    rdfs:label "Não mexa comigo, seu Honorato!"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:baaea6de7-944f-84b5-1301-323bd187332a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4541".
+
+_:b225cd191-ec25-6433-a440-26e9c81747fa a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf669225c-3fa5-1386-36f1-797925761e1a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4541\">https://acervo.casadochoro.com.br/works/view/4541</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1088788955> a melod:Item;
+    rdfs:label "Matrucana — Partitura melodia (score_4118)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1469223300>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bae2c4974-fad6-f314-2c6f-0e84af178bf6;
+    melod:hasShelfmark "score_4118";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4118.pdf>;
+    melod:hasHand _:b8a59b042-0eaa-6ba1-a7c9-9a1ec474a988;
+    melod:hasProvenance _:b4f33c332-8776-c86e-1aa8-d28fd2d2c5f3;
+    dct:conformsTo melod:Item.
+
+_:bae2c4974-fad6-f314-2c6f-0e84af178bf6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4118".
+
+_:b8a59b042-0eaa-6ba1-a7c9-9a1ec474a988 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1320280755>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro do Nascimento".
+
+_:b4f33c332-8776-c86e-1aa8-d28fd2d2c5f3 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb2c63e13-af36-82a7-b601-f23cd5dc9dcd.
+
+_:bb2c63e13-af36-82a7-b601-f23cd5dc9dcd a melod:ExactDate;
+    melod:isodate "1962-12-10"^^xsd:date;
+    schema:description "10.12.1962".

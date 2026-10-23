@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1340930819> a melod:Work;
+    melod:hasTitle _:b6c1403d6-c042-3fee-87dd-16fe84204eff;
+    melod:hasIdentifier _:b78e4fa50-3cf0-8f38-794c-e154a8fa25d4;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/890>;
+    melod:hasContribution _:b78a725d6-ffa7-a509-0fdd-0ebb62371886;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1243814614>, <urn:uuid:expressions/1197262611>;
+    melod:hasAnnotation _:bea076cf6-b2e7-a3e3-929e-a7f7ddc20509;
+    dct:conformsTo melod:Work.
+
+_:b6c1403d6-c042-3fee-87dd-16fe84204eff a melod:Title;
+    rdfs:label "No sítio da Primavera"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b78e4fa50-3cf0-8f38-794c-e154a8fa25d4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "890".
+
+_:b78a725d6-ffa7-a509-0fdd-0ebb62371886 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bea076cf6-b2e7-a3e3-929e-a7f7ddc20509 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/890\">https://acervo.casadochoro.com.br/works/view/890</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

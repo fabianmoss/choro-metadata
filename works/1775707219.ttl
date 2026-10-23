@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1775707219> a melod:Work;
+    melod:hasTitle _:b3083eefb-093f-6260-4fbf-8b1a79e4f119;
+    melod:hasIdentifier _:bab1e5dc9-56b1-d72a-0982-fac484fa75d5;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/113>;
+    melod:hasContribution _:bdd957780-034f-ee8d-6155-f416d91c9d8a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1867947612>, <urn:uuid:expressions/1006743224>, <urn:uuid:expressions/1860806885>;
+    melod:hasAnnotation _:bb4d1189f-ba2c-488c-496d-ad3a10d75693;
+    dct:conformsTo melod:Work.
+
+_:b3083eefb-093f-6260-4fbf-8b1a79e4f119 a melod:Title;
+    rdfs:label "Maria Eugênia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bab1e5dc9-56b1-d72a-0982-fac484fa75d5 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "113".
+
+_:bdd957780-034f-ee8d-6155-f416d91c9d8a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195513886>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb4d1189f-ba2c-488c-496d-ad3a10d75693 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/113\">https://acervo.casadochoro.com.br/works/view/113</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

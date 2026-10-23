@@ -33,5 +33,5 @@ _:b835e88ac-4f3a-b496-d9c7-47bca5185508 a melod:Event;
     melod:hasContribution _:b4d302ac5-d158-eaa3-6163-532010647bc3.
 
 _:b4d302ac5-d158-eaa3-6163-532010647bc3 a melod:Contribution;
-    melod:hasAgent <urn:uuid:persons/1757297218>;
+    melod:hasAgent <urn:uuid:persons/1438528899>;
     melod:hasRole terms:FormerOwner.

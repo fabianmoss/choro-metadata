@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1404669925> a melod:Work;
+    melod:hasTitle _:bf41237c9-e95d-7999-85b8-ac03bc58d44e;
+    melod:hasIdentifier _:b867c8ab7-0ade-c546-84bc-9f25b7863699;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6199>;
+    melod:hasContribution _:bbdbeb963-5443-ee4a-bd1b-839a9d378317;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1196244688>, <urn:uuid:expressions/1613681536>;
+    melod:hasAnnotation _:b3a2b015c-5936-30d8-b4b1-f36d4591c9c5;
+    dct:conformsTo melod:Work.
+
+_:bf41237c9-e95d-7999-85b8-ac03bc58d44e a melod:Title;
+    rdfs:label "No meu tempo era assim"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b867c8ab7-0ade-c546-84bc-9f25b7863699 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6199".
+
+_:bbdbeb963-5443-ee4a-bd1b-839a9d378317 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3a2b015c-5936-30d8-b4b1-f36d4591c9c5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6199\">https://acervo.casadochoro.com.br/works/view/6199</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

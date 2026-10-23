@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1083120938> a melod:Manifestation;
+    melod:hasTitle _:b221dea50-7c5e-30eb-ff2b-d4dc01d0727e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1044545587>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bf4fd1a35-298d-64e8-6fe3-0d8c82a475f3;
+    dct:conformsTo melod:Manifestation.
+
+_:b221dea50-7c5e-30eb-ff2b-d4dc01d0727e a melod:Title;
+    rdfs:label "Marocas — Partitura piano (edition J. M. Alves da Rocha)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf4fd1a35-298d-64e8-6fe3-0d8c82a475f3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1826964823>;
+    melod:hasRole terms:Publisher.

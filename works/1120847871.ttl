@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1120847871> a melod:Work;
+    melod:hasTitle _:b78402a87-04e1-2e42-a24a-f916fc183a70;
+    melod:hasIdentifier _:b70dcf021-5c42-319f-c864-a8bd75b65819;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2664>;
+    melod:hasContribution _:b1db4b839-342e-0967-070c-c2b269a01b54;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1269899606>;
+    melod:hasAnnotation _:b8272f2a2-9412-bec0-9264-fde15ffc2812;
+    dct:conformsTo melod:Work.
+
+_:b78402a87-04e1-2e42-a24a-f916fc183a70 a melod:Title;
+    rdfs:label "Não Venhas! (dueto de Pedrinho e Eunicia)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b70dcf021-5c42-319f-c864-a8bd75b65819 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2664".
+
+_:b1db4b839-342e-0967-070c-c2b269a01b54 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b8272f2a2-9412-bec0-9264-fde15ffc2812 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2664\">https://acervo.casadochoro.com.br/works/view/2664</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

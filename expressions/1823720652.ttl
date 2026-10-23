@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1823720652> a melod:Expression;
+    rdfs:label "Na folha seca (arrangement by Mauricio Carrilho, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b27a45385-a0d7-45c3-e225-c75e06e03ae1;
+    melod:hasContribution _:b2ae9b798-ba40-6b1c-80c0-65f8f7ab5b99;
+    dct:conformsTo melod:Expression.
+
+_:b27a45385-a0d7-45c3-e225-c75e06e03ae1 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b2ae9b798-ba40-6b1c-80c0-65f8f7ab5b99 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

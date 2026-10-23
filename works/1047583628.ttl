@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1047583628> a melod:Work;
+    melod:hasTitle _:bbf3504b4-339e-b98e-2ba1-903c6ba707a6;
+    melod:hasIdentifier _:b061d2392-14f7-693b-dd6e-526c940eba69;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7487>;
+    melod:hasContribution _:b2bc80123-0c95-2582-b12e-88bc8c36a62c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1719978066>;
+    melod:hasAnnotation _:bc8a35e39-c09b-ada8-70f8-75d0a5b50aff;
+    dct:conformsTo melod:Work.
+
+_:bbf3504b4-339e-b98e-2ba1-903c6ba707a6 a melod:Title;
+    rdfs:label "Maria fumaça"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b061d2392-14f7-693b-dd6e-526c940eba69 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7487".
+
+_:b2bc80123-0c95-2582-b12e-88bc8c36a62c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1587316768>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc8a35e39-c09b-ada8-70f8-75d0a5b50aff a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7487\">https://acervo.casadochoro.com.br/works/view/7487</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

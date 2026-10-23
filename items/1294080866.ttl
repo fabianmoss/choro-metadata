@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1294080866> a melod:Item;
+    rdfs:label "Minha terra — Partitura violão (score_14872)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1061027137>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:beeadee96-6796-b178-f810-0ae6f2fd197e;
+    melod:hasShelfmark "score_14872";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_14872.pdf>;
+    melod:hasProvenance _:b313aaa2b-3767-d59b-f800-f626fb84d3fc;
+    dct:conformsTo melod:Item.
+
+_:beeadee96-6796-b178-f810-0ae6f2fd197e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_14872".
+
+_:b313aaa2b-3767-d59b-f800-f626fb84d3fc a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b0dc9a47a-18ad-b83a-0c8b-8ea13f8f2629.
+
+_:b0dc9a47a-18ad-b83a-0c8b-8ea13f8f2629 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1237191362>;
+    melod:hasRole terms:Transcriber.

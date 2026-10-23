@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1698124407> a melod:Item;
+    rdfs:label "Nebuloso — Partitura melodia e cifra (score_11634)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1524229774>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb11cca3d-3995-de1f-dfd4-4b235bc1a598;
+    melod:hasShelfmark "score_11634";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11634.pdf>;
+    melod:hasProvenance _:b64ce0958-d765-bad2-b424-ad88a2d6d5cc;
+    dct:conformsTo melod:Item.
+
+_:bb11cca3d-3995-de1f-dfd4-4b235bc1a598 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11634".
+
+_:b64ce0958-d765-bad2-b424-ad88a2d6d5cc a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9943489f-8d42-5889-384b-fbba2fdf3645.
+
+_:b9943489f-8d42-5889-384b-fbba2fdf3645 a melod:ExactDate;
+    melod:isodate "2005-01-13"^^xsd:date;
+    schema:description "13.01.2005".

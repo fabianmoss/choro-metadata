@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1436637393> a melod:Expression;
+    rdfs:label "Misteriosa (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Polca";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:ba25f1e4f-cc81-dbca-78d1-39a447d1f85d;
+    melod:hasContribution _:b21198fee-e7e1-f01d-ec2e-72061c10ceea;
+    dct:conformsTo melod:Expression.
+
+_:ba25f1e4f-cc81-dbca-78d1-39a447d1f85d a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b21198fee-e7e1-f01d-ec2e-72061c10ceea a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

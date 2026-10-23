@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1582444421> a melod:Expression;
+    rdfs:label "Noite feliz (arrangement by Jayme Vignoli, Partitura melodia e cifra)";
+    melod:hasClassification "Schottisch";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b7198c8bb-c5bd-e627-0cae-ed812c39a498;
+    melod:hasContribution _:b08a70236-ac8f-34f1-7c5a-b04ee0a03cec;
+    dct:conformsTo melod:Expression.
+
+_:b7198c8bb-c5bd-e627-0cae-ed812c39a498 a melod:Meter;
+    melod:hasMeterCount "4"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "4/4".
+
+_:b08a70236-ac8f-34f1-7c5a-b04ee0a03cec a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1114549214>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1568975895> a melod:Work;
+    melod:hasTitle _:bf9e02ba6-9a8c-997e-1d81-b52d57f5ea7d;
+    melod:hasIdentifier _:b42c05bc1-4408-2ad7-78b4-fe9e9c622f9e;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2021>;
+    melod:hasContribution _:b579c8d15-58e9-3283-8ca4-0f8f1ef5e28d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1636834010>;
+    melod:hasAnnotation _:b3931e90a-09c2-1066-9cd0-c9ad197a6ddf;
+    dct:conformsTo melod:Work.
+
+_:bf9e02ba6-9a8c-997e-1d81-b52d57f5ea7d a melod:Title;
+    rdfs:label "Não chora neném"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b42c05bc1-4408-2ad7-78b4-fe9e9c622f9e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2021".
+
+_:b579c8d15-58e9-3283-8ca4-0f8f1ef5e28d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1890060245>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3931e90a-09c2-1066-9cd0-c9ad197a6ddf a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2021\">https://acervo.casadochoro.com.br/works/view/2021</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1003420777> a melod:Item;
+    rdfs:label "Mater puríssima — Partitura arranjo (score_9273)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700877878>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b86ab21f6-6804-bf77-5e04-9bfe42bf0976;
+    melod:hasShelfmark "score_9273";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9273.pdf>;
+    melod:hasProvenance _:b832d550d-a701-a943-abc6-fee81bd9120d;
+    dct:conformsTo melod:Item.
+
+_:b86ab21f6-6804-bf77-5e04-9bfe42bf0976 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9273".
+
+_:b832d550d-a701-a943-abc6-fee81bd9120d a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:ba4033bc0-571b-11bf-66ec-5ef445f474f9.
+
+_:ba4033bc0-571b-11bf-66ec-5ef445f474f9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1830795199>;
+    melod:hasRole terms:Transcriber.

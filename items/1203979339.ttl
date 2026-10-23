@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1203979339> a melod:Item;
+    rdfs:label "Mário Álvares — Partitura melodia e cifra (score_11539)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1431356330>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3fb93524-7780-b372-6a8b-645569f97233;
+    melod:hasShelfmark "score_11539";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11539.pdf>;
+    melod:hasProvenance _:b0b4289f3-af7b-a6c2-a366-12c284adb66b;
+    dct:conformsTo melod:Item.
+
+_:b3fb93524-7780-b372-6a8b-645569f97233 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11539".
+
+_:b0b4289f3-af7b-a6c2-a366-12c284adb66b a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b94ccbf78-070f-25cd-e421-a6793892f3a8.
+
+_:b94ccbf78-070f-25cd-e421-a6793892f3a8 a melod:ExactDate;
+    melod:isodate "2005-03-13"^^xsd:date;
+    schema:description "13.03.2005".

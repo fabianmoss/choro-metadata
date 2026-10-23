@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1275390154> a melod:Work;
+    melod:hasTitle _:b727843b5-c84b-939f-a979-07bd9686e7cc;
+    melod:hasIdentifier _:b1cc11ee6-bb30-afbc-76f7-686d60d135b0;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/869>;
+    melod:hasContribution _:b35bd0292-7f91-f6eb-12f9-8a3021136dea;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1657700086>, <urn:uuid:expressions/1157057954>;
+    melod:hasAnnotation _:ba1db5eb2-3c7a-432a-7416-8f3b279b0d68;
+    dct:conformsTo melod:Work.
+
+_:b727843b5-c84b-939f-a979-07bd9686e7cc a melod:Title;
+    rdfs:label "Mastigando"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1cc11ee6-bb30-afbc-76f7-686d60d135b0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "869".
+
+_:b35bd0292-7f91-f6eb-12f9-8a3021136dea a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba1db5eb2-3c7a-432a-7416-8f3b279b0d68 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/869\">https://acervo.casadochoro.com.br/works/view/869</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

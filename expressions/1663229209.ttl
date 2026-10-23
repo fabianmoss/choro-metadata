@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1663229209> a melod:Expression;
+    rdfs:label "Morrer... sem ter amado! (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b69d352a9-067c-d5fa-1e3a-4a7cbd3f493d;
+    melod:hasContribution _:bcdd9759a-0d6a-aed9-6f06-6deb74f242ad;
+    dct:conformsTo melod:Expression.
+
+_:b69d352a9-067c-d5fa-1e3a-4a7cbd3f493d a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bcdd9759a-0d6a-aed9-6f06-6deb74f242ad a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1889470115> a melod:Manifestation;
+    melod:hasTitle _:bb1d16429-5b77-390b-152f-4b779b951ddb;
+    lrmoo:R4_embodies <urn:uuid:expressions/1332082300>;
+    melod:hasClassificationOfManifestation "Partitura melodia e harmonia", terms:Print;
+    melod:hasContribution _:b8001de81-c158-1b24-95f5-9e3726947542;
+    schema:publication _:b3ceb111a-348a-026f-d264-61ae59c1b594;
+    dct:conformsTo melod:Manifestation.
+
+_:bb1d16429-5b77-390b-152f-4b779b951ddb a melod:Title;
+    rdfs:label "Morrer... sem ter amado! — Partitura melodia e harmonia (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8001de81-c158-1b24-95f5-9e3726947542 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:b3ceb111a-348a-026f-d264-61ae59c1b594 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

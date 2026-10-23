@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1813702202> a melod:Item;
+    rdfs:label "Mayá — Partitura cifra (score_11488)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1673119475>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b51d1d1d9-043d-5929-8de2-a2c0f960e6a4;
+    melod:hasShelfmark "score_11488";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11488.pdf>;
+    melod:hasHand _:bcf17c3c2-1d9b-f118-c13d-2c26a5f8440e;
+    dct:conformsTo melod:Item.
+
+_:b51d1d1d9-043d-5929-8de2-a2c0f960e6a4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11488".
+
+_:bcf17c3c2-1d9b-f118-c13d-2c26a5f8440e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Maurício Carrilho".

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1324481790> a melod:Manifestation;
+    melod:hasTitle _:b9a535e6f-e404-3264-38d6-2bd6b582d036;
+    lrmoo:R4_embodies <urn:uuid:expressions/1051798418>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b2620d1f7-0a49-b5cf-74e1-9f4f586e5259;
+    dct:conformsTo melod:Manifestation.
+
+_:b9a535e6f-e404-3264-38d6-2bd6b582d036 a melod:Title;
+    rdfs:label "Nazareth no Cerrado — Partitura melodia e cifra (edition pelo autor)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b2620d1f7-0a49-b5cf-74e1-9f4f586e5259 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094875110>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1541642494> a melod:Manifestation;
+    melod:hasTitle _:b1bcea572-e318-b24b-3635-713bd251fd8d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1221083646>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bf428e230-af53-d036-b556-c96b07144bdf;
+    dct:conformsTo melod:Manifestation.
+
+_:b1bcea572-e318-b24b-3635-713bd251fd8d a melod:Title;
+    rdfs:label "Mariana — Partitura piano (edition Lyra Eólica)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf428e230-af53-d036-b556-c96b07144bdf a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1890654698>;
+    melod:hasRole terms:Publisher.

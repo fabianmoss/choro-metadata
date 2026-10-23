@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1543026624> a melod:Item;
+    rdfs:label "Maria Izabel — Partitura melodia e cifra (score_11537)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1197966118>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b40f8fe0f-7b9c-ad5c-b03a-31cd2e5a0e08;
+    melod:hasShelfmark "score_11537";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11537.pdf>;
+    melod:hasProvenance _:b3187d611-de22-9ee3-3c74-215447ba19f4;
+    dct:conformsTo melod:Item.
+
+_:b40f8fe0f-7b9c-ad5c-b03a-31cd2e5a0e08 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11537".
+
+_:b3187d611-de22-9ee3-3c74-215447ba19f4 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd7cc7980-219d-2f6d-a399-3c0ad54f5d38.
+
+_:bd7cc7980-219d-2f6d-a399-3c0ad54f5d38 a melod:ExactDate;
+    melod:isodate "2009-03-31"^^xsd:date;
+    schema:description "31.03.2009".

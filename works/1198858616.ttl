@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1198858616> a melod:Work;
+    melod:hasTitle _:b159eafe1-3dfa-a90c-bc4d-21506a03b858;
+    melod:hasIdentifier _:b3b479a57-71dd-5a64-4056-6c720554a312;
+    melod:hasClassification "Tango Brasileiro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3521>;
+    melod:hasContribution _:b36f190a5-ce5b-a6a0-13ff-caf234b687f5;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1047964354>;
+    melod:hasAnnotation _:b1cff6608-3219-a06c-9c5a-e00348ee8c5c;
+    dct:conformsTo melod:Work.
+
+_:b159eafe1-3dfa-a90c-bc4d-21506a03b858 a melod:Title;
+    rdfs:label "Mil novecentos e vinte e dois (1922)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3b479a57-71dd-5a64-4056-6c720554a312 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3521".
+
+_:b36f190a5-ce5b-a6a0-13ff-caf234b687f5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1cff6608-3219-a06c-9c5a-e00348ee8c5c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3521\">https://acervo.casadochoro.com.br/works/view/3521</a>. Gênero: Tango Brasileiro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1100608520> a melod:Manifestation;
+    melod:hasTitle _:bde165a24-d0a0-b4a6-3d15-abef5dea2485;
+    lrmoo:R4_embodies <urn:uuid:expressions/1738146338>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:bc22ac37d-c4e8-8d9c-ae81-6bafbe08a596;
+    dct:conformsTo melod:Manifestation.
+
+_:bde165a24-d0a0-b4a6-3d15-abef5dea2485 a melod:Title;
+    rdfs:label "Nanãna — Partitura melodia (edition Belém Musical - Casa Editora de M. Bastos)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bc22ac37d-c4e8-8d9c-ae81-6bafbe08a596 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1886825877>;
+    melod:hasRole terms:Publisher.

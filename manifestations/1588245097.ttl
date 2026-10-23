@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1588245097> a melod:Manifestation;
+    melod:hasTitle _:b81a8e924-ecdf-8d96-1648-9500e907da9c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1311396035>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b5f19be94-5bed-7dc0-05d8-443e9005dd0a;
+    schema:publication _:b5f8410b5-7421-a3d6-0c6e-5a3f93600e7c;
+    dct:conformsTo melod:Manifestation.
+
+_:b81a8e924-ecdf-8d96-1648-9500e907da9c a melod:Title;
+    rdfs:label "Mistério de um beijo — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b5f19be94-5bed-7dc0-05d8-443e9005dd0a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b5f8410b5-7421-a3d6-0c6e-5a3f93600e7c a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1676689576> a melod:Work;
+    melod:hasTitle _:b13e2d69e-5388-f372-6163-c97efc627a02;
+    melod:hasIdentifier _:bf7f1045e-8a77-2a52-a0ab-6938424660fe;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7820>;
+    melod:hasContribution _:b90d6180a-7317-3fe3-d6de-4fa3a8ac8778;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1522331503>;
+    melod:hasAnnotation _:bfa6f154d-d314-22eb-0692-16b7d7fd8249;
+    dct:conformsTo melod:Work.
+
+_:b13e2d69e-5388-f372-6163-c97efc627a02 a melod:Title;
+    rdfs:label "Não me venhas de cuica"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf7f1045e-8a77-2a52-a0ab-6938424660fe a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7820".
+
+_:b90d6180a-7317-3fe3-d6de-4fa3a8ac8778 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfa6f154d-d314-22eb-0692-16b7d7fd8249 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7820\">https://acervo.casadochoro.com.br/works/view/7820</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

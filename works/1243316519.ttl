@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1243316519> a melod:Work;
+    melod:hasTitle _:b78ba6d0b-f209-7d55-c33d-9d48f657a5b9;
+    melod:hasIdentifier _:b31e36edf-f5df-bfc9-bab8-d6f80971c9ef;
+    melod:hasClassification "Baião";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10539>;
+    melod:hasContribution _:bcda4f180-5a2c-4d55-cfc0-9a84e8062c4e;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1329943427>;
+    melod:hasAnnotation _:bec80e5f5-3101-2663-9b1f-6ee86c3f7472;
+    dct:conformsTo melod:Work.
+
+_:b78ba6d0b-f209-7d55-c33d-9d48f657a5b9 a melod:Title;
+    rdfs:label "Mari no forró"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b31e36edf-f5df-bfc9-bab8-d6f80971c9ef a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10539".
+
+_:bcda4f180-5a2c-4d55-cfc0-9a84e8062c4e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1266008399>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bec80e5f5-3101-2663-9b1f-6ee86c3f7472 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10539\">https://acervo.casadochoro.com.br/works/view/10539</a>. Gênero: Baião. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

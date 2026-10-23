@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1365802497> a melod:Manifestation;
+    melod:hasTitle _:b918c70b4-6814-d0df-2268-de94b9f5eb6f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1462960498>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bd4ad7040-a048-5b72-1922-ed3dcb7a2b05;
+    dct:conformsTo melod:Manifestation.
+
+_:b918c70b4-6814-d0df-2268-de94b9f5eb6f a melod:Title;
+    rdfs:label "Meu amor não morre — Partitura piano (edition Casa Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd4ad7040-a048-5b72-1922-ed3dcb7a2b05 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1582051513>;
+    melod:hasRole terms:Publisher.

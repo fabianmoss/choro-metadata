@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1866302150> a melod:Manifestation;
+    melod:hasTitle _:b0e77cf84-47e0-539c-7cb3-6eb22e5f7045;
+    lrmoo:R4_embodies <urn:uuid:expressions/1619996275>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bd6d4d2e9-644d-d26a-5c65-c0e2e87bc7bb;
+    schema:publication _:be1d7ba52-1ceb-acc4-0c0a-1a24c28e7ecd;
+    dct:conformsTo melod:Manifestation.
+
+_:b0e77cf84-47e0-539c-7cb3-6eb22e5f7045 a melod:Title;
+    rdfs:label "Mil novecentos e dezenove (1919) - O licor da ilusão — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd6d4d2e9-644d-d26a-5c65-c0e2e87bc7bb a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:be1d7ba52-1ceb-acc4-0c0a-1a24c28e7ecd a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

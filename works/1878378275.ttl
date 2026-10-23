@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1878378275> a melod:Work;
+    melod:hasTitle _:b53341d80-b2be-106c-5251-3cfb09d7366d;
+    melod:hasIdentifier _:b41729eb3-d084-72ee-c584-a4ccaa14a0c2;
+    melod:hasClassification "Polca Mazurca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3049>;
+    melod:hasContribution _:bd16c7dec-2f81-7782-2814-35b6a0853161;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1017371676>;
+    melod:hasAnnotation _:bc099585c-2982-1f54-5bf3-91fe7f5d427f;
+    dct:conformsTo melod:Work.
+
+_:b53341d80-b2be-106c-5251-3cfb09d7366d a melod:Title;
+    rdfs:label "Mulher ou anjo?"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b41729eb3-d084-72ee-c584-a4ccaa14a0c2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3049".
+
+_:bd16c7dec-2f81-7782-2814-35b6a0853161 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1612360593>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc099585c-2982-1f54-5bf3-91fe7f5d427f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3049\">https://acervo.casadochoro.com.br/works/view/3049</a>. Gênero: Polca Mazurca. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

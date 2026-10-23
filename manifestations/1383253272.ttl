@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1383253272> a melod:Manifestation;
+    melod:hasTitle _:b7c12a54b-1bdf-125b-d652-d2bfabd60bab;
+    lrmoo:R4_embodies <urn:uuid:expressions/1477106665>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b4fd7ca7a-17a6-17b8-4d57-ce01279ff8e6;
+    dct:conformsTo melod:Manifestation.
+
+_:b7c12a54b-1bdf-125b-d652-d2bfabd60bab a melod:Title;
+    rdfs:label "Mulher homem — Partitura piano (edition Buschmann & Guimarães)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b4fd7ca7a-17a6-17b8-4d57-ce01279ff8e6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1465829950>;
+    melod:hasRole terms:Publisher.

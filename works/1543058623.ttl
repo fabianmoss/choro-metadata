@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1543058623> a melod:Work;
+    melod:hasTitle _:bba214981-c70a-06aa-2d99-120757cfc6f7;
+    melod:hasIdentifier _:bdef1a972-98b1-a0a4-4068-257af024f92e;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1891>;
+    melod:hasContribution _:b71e05590-427e-7c79-6e3b-2e87b3fb639f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1047928074>;
+    melod:hasAnnotation _:b49536846-b847-bb1a-037d-e377a0bc346a;
+    dct:conformsTo melod:Work.
+
+_:bba214981-c70a-06aa-2d99-120757cfc6f7 a melod:Title;
+    rdfs:label "Nem a pau"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bdef1a972-98b1-a0a4-4068-257af024f92e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1891".
+
+_:b71e05590-427e-7c79-6e3b-2e87b3fb639f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1153205416>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b49536846-b847-bb1a-037d-e377a0bc346a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1891\">https://acervo.casadochoro.com.br/works/view/1891</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

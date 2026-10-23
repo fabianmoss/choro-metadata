@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1463920235> a melod:Item;
+    rdfs:label "Moacirsantosiana 16 — Partitura melodia e cifra (score_11587)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1517125181>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b626ebc6e-9fdb-b1cc-94c7-09b42a67e244;
+    melod:hasShelfmark "score_11587";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11587.pdf>;
+    melod:hasProvenance _:baea213d7-ffda-f9e3-0345-8beb9c55e71b;
+    dct:conformsTo melod:Item.
+
+_:b626ebc6e-9fdb-b1cc-94c7-09b42a67e244 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11587".
+
+_:baea213d7-ffda-f9e3-0345-8beb9c55e71b a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b29209933-de5b-31d7-b4ea-75588ee2e1c3.
+
+_:b29209933-de5b-31d7-b4ea-75588ee2e1c3 a melod:ExactDate;
+    melod:isodate "2005-12-22"^^xsd:date;
+    schema:description "22.12.2005".

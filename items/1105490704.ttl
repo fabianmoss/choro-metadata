@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1105490704> a melod:Item;
+    rdfs:label "Não é exato — Partitura melodia (score_4295)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1392004864>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2590535d-4db3-a5ee-449c-2f4fceb54083;
+    melod:hasShelfmark "score_4295";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4295.pdf>;
+    melod:hasHand _:b5967fcbb-a1ff-7e65-8725-50cbbd5ccd2d;
+    melod:hasProvenance _:b0637ba55-3b89-f486-44c1-e507d55c5ffe;
+    dct:conformsTo melod:Item.
+
+_:b2590535d-4db3-a5ee-449c-2f4fceb54083 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4295".
+
+_:b5967fcbb-a1ff-7e65-8725-50cbbd5ccd2d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b0637ba55-3b89-f486-44c1-e507d55c5ffe a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bae6adf91-eeb2-8027-eb2d-3165793d91c3.
+
+_:bae6adf91-eeb2-8027-eb2d-3165793d91c3 a melod:ExactDate;
+    melod:isodate "1929-11-01"^^xsd:date;
+    schema:description "01.11.1929".

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1862031005> a melod:Item;
+    rdfs:label "Margarida — Partitura melodia (score_1117)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1795304397>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b077ddcbc-2aaf-6d92-13d5-9ef8656786d2;
+    melod:hasShelfmark "score_1117";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1117.pdf>;
+    melod:hasHand _:bdb367e1a-cd4e-cd97-cecf-e1f22e797e8f;
+    dct:conformsTo melod:Item.
+
+_:b077ddcbc-2aaf-6d92-13d5-9ef8656786d2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1117".
+
+_:bdb367e1a-cd4e-cd97-cecf-e1f22e797e8f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Candinho (Cândido Pereira da Silva)".

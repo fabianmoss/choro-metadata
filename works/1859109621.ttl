@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1859109621> a melod:Work;
+    melod:hasTitle _:b1b4493ac-95c7-3251-c651-ae560a9578ff;
+    melod:hasIdentifier _:bd7d24238-6729-b107-eca7-7b82197307b4;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10266>;
+    melod:hasContribution _:b9864054b-67b2-179d-0af1-a3a6bcb4c07b, _:bcdee886a-2909-460b-b3c3-8f619cc9b021;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1682831241>;
+    melod:hasAnnotation _:bbca13f8a-5164-1632-2316-6562830c9c8a;
+    dct:conformsTo melod:Work.
+
+_:b1b4493ac-95c7-3251-c651-ae560a9578ff a melod:Title;
+    rdfs:label "Não dou meu braço a torcer"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd7d24238-6729-b107-eca7-7b82197307b4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10266".
+
+_:b9864054b-67b2-179d-0af1-a3a6bcb4c07b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1703630577>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcdee886a-2909-460b-b3c3-8f619cc9b021 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1837671110>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bbca13f8a-5164-1632-2316-6562830c9c8a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10266\">https://acervo.casadochoro.com.br/works/view/10266</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1664490859> a melod:Item;
+    rdfs:label "Minha opinião — Partitura melodia e cifra (score_8820)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1153312514>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:be53b72f6-965f-5e61-8cb9-9dd4a52d6e84;
+    melod:hasShelfmark "score_8820";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8820.pdf>;
+    melod:hasHand _:b21991369-af64-868c-2a92-d810e649c991;
+    dct:conformsTo melod:Item.
+
+_:be53b72f6-965f-5e61-8cb9-9dd4a52d6e84 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8820".
+
+_:b21991369-af64-868c-2a92-d810e649c991 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1414518985>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Ian Guest".

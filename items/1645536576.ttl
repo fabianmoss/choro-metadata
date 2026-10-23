@@ -1,0 +1,27 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1645536576> a melod:Item;
+    rdfs:label "Nazareth — Partitura melodia (score_4726)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1083214916>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd0daa669-5033-8c4b-5256-765dd0b9bf2f;
+    melod:hasShelfmark "score_4726";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4726.pdf>;
+    dct:conformsTo melod:Item.
+
+_:bd0daa669-5033-8c4b-5256-765dd0b9bf2f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4726".

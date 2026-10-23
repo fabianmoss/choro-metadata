@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1552212055> a melod:Item;
+    rdfs:label "Nenê — Partitura melodia (score_2930)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1406570728>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b80e31f31-bffa-64a9-2346-f2f9fd10321b;
+    melod:hasShelfmark "score_2930";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2930.pdf>;
+    melod:hasHand _:badc48be0-dfa2-b478-3104-b4c29a89fee8;
+    melod:hasProvenance _:bd3ab3a89-3753-dcca-baa9-2c25b1df16b9;
+    dct:conformsTo melod:Item.
+
+_:b80e31f31-bffa-64a9-2346-f2f9fd10321b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2930".
+
+_:badc48be0-dfa2-b478-3104-b4c29a89fee8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:bd3ab3a89-3753-dcca-baa9-2c25b1df16b9 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bdb635591-19d9-7ef7-9ffc-2575b4e62555.
+
+_:bdb635591-19d9-7ef7-9ffc-2575b4e62555 a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

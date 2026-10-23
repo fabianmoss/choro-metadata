@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1837847166> a melod:Work;
+    melod:hasTitle _:ba17f56c0-1e0e-40a7-cfe7-6a3ea81cb898;
+    melod:hasIdentifier _:b0f2ca99c-62ff-541b-661a-f8e590f87e12;
+    melod:hasClassification "Capricho Espanhol";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1957>;
+    melod:hasContribution _:becbb3c37-7956-005b-56ed-20860a7040ee;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1042838887>, <urn:uuid:expressions/1249064775>;
+    melod:hasAnnotation _:b58291634-6c5e-578c-ed69-e34897028f5c;
+    dct:conformsTo melod:Work.
+
+_:ba17f56c0-1e0e-40a7-cfe7-6a3ea81cb898 a melod:Title;
+    rdfs:label "Moraima"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0f2ca99c-62ff-541b-661a-f8e590f87e12 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1957".
+
+_:becbb3c37-7956-005b-56ed-20860a7040ee a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1844264914>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b58291634-6c5e-578c-ed69-e34897028f5c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1957\">https://acervo.casadochoro.com.br/works/view/1957</a>. Gênero: Capricho Espanhol. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

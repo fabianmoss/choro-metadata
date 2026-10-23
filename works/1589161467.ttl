@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1589161467> a melod:Work;
+    melod:hasTitle _:b2608d07b-556d-6495-18ec-97e74078314b;
+    melod:hasIdentifier _:b53ba1c6f-738c-d543-3bdd-f89d7a8173ba;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3369>;
+    melod:hasContribution _:be1992151-0bd8-5ebc-e69a-2d982633747a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1242185294>;
+    melod:hasAnnotation _:b2bc4a985-6749-1315-8204-40053d952e1c;
+    dct:conformsTo melod:Work.
+
+_:b2608d07b-556d-6495-18ec-97e74078314b a melod:Title;
+    rdfs:label "Marvadinho"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b53ba1c6f-738c-d543-3bdd-f89d7a8173ba a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3369".
+
+_:be1992151-0bd8-5ebc-e69a-2d982633747a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1890282519>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2bc4a985-6749-1315-8204-40053d952e1c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3369\">https://acervo.casadochoro.com.br/works/view/3369</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

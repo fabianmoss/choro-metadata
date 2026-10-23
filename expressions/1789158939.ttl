@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1789158939> a melod:Expression;
+    rdfs:label "Mimosinha (arrangement by Paulo Aragão, Partitura melodia e cifra)";
+    melod:hasClassification "Polca";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc948826b-e2b5-b7f2-de9f-7e7db535ee45;
+    melod:hasContribution _:b88649daf-e549-c872-abe1-03278446041b;
+    dct:conformsTo melod:Expression.
+
+_:bc948826b-e2b5-b7f2-de9f-7e7db535ee45 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b88649daf-e549-c872-abe1-03278446041b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1774983067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

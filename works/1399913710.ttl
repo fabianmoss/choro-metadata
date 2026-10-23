@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1399913710> a melod:Work;
+    melod:hasTitle _:b3848ed41-66c2-ab4e-28b5-6250255b39b8;
+    melod:hasIdentifier _:b6e50baf7-22e1-0aeb-dcd1-98f750664769;
+    melod:hasClassification "Tango de Salão";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4290>;
+    melod:hasContribution _:be82c72f7-b76e-cea4-95e7-5773f8cf3c31;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1032765785>, <urn:uuid:expressions/1009327481>;
+    melod:hasAnnotation _:bf5d77c0b-c23e-ed99-9a2b-7ad286c752dd;
+    dct:conformsTo melod:Work.
+
+_:b3848ed41-66c2-ab4e-28b5-6250255b39b8 a melod:Title;
+    rdfs:label "Marulhos"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6e50baf7-22e1-0aeb-dcd1-98f750664769 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4290".
+
+_:be82c72f7-b76e-cea4-95e7-5773f8cf3c31 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf5d77c0b-c23e-ed99-9a2b-7ad286c752dd a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4290\">https://acervo.casadochoro.com.br/works/view/4290</a>. Gênero: Tango de Salão. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

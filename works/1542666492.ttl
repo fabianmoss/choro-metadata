@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1542666492> a melod:Work;
+    melod:hasTitle _:b35159d07-5b6d-ef7c-6837-d414c55639d9;
+    melod:hasIdentifier _:bc81312c6-1ad6-7c33-7ed8-b1c08e3ac9e1;
+    melod:hasClassification "Samba Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5369>;
+    melod:hasContribution _:b276da665-9be0-58b2-0eb1-fe9bb85a378d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1774812071>;
+    melod:hasAnnotation _:b110e3334-b0d1-d3db-7614-7f08878d0649;
+    dct:conformsTo melod:Work.
+
+_:b35159d07-5b6d-ef7c-6837-d414c55639d9 a melod:Title;
+    rdfs:label "Naquela mesa"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bc81312c6-1ad6-7c33-7ed8-b1c08e3ac9e1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5369".
+
+_:b276da665-9be0-58b2-0eb1-fe9bb85a378d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1174539883>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b110e3334-b0d1-d3db-7614-7f08878d0649 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5369\">https://acervo.casadochoro.com.br/works/view/5369</a>. Gênero: Samba Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

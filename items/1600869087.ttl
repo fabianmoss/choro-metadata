@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1600869087> a melod:Item;
+    rdfs:label "Michelle — Partitura melodia (score_8671)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1527210380>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b8208c54e-294c-4dc8-7163-f7f1f6181bda;
+    melod:hasShelfmark "score_8671";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8671.pdf>;
+    melod:hasHand _:beda1c6f5-c0c7-0c37-aaf5-3ed7d0c55508;
+    melod:hasProvenance _:bac11ab8d-1561-afb1-cb42-d5bb7c43e2ab;
+    dct:conformsTo melod:Item.
+
+_:b8208c54e-294c-4dc8-7163-f7f1f6181bda a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8671".
+
+_:beda1c6f5-c0c7-0c37-aaf5-3ed7d0c55508 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1176356934>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Déo Rian".
+
+_:bac11ab8d-1561-afb1-cb42-d5bb7c43e2ab a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b92d3d5c6-c1cc-140f-5f1c-5dc6802d651d.
+
+_:b92d3d5c6-c1cc-140f-5f1c-5dc6802d651d a melod:ExactDate;
+    melod:isodate "1985-12-30"^^xsd:date;
+    schema:description "30.12.1985".

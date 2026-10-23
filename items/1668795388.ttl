@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1668795388> a melod:Item;
+    rdfs:label "Mariazinha brincando — Partitura melodia (score_5237)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1591160586>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b757a386e-66a9-e5ca-e8b4-9de323e8fe6f;
+    melod:hasShelfmark "score_5237";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5237.pdf>;
+    melod:hasHand _:b71c8bd46-94ff-d5b1-b5fc-926e105a6cfb;
+    melod:hasProvenance _:bfd55eab8-75f3-bfd1-96ae-a5d70b347177;
+    dct:conformsTo melod:Item.
+
+_:b757a386e-66a9-e5ca-e8b4-9de323e8fe6f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5237".
+
+_:b71c8bd46-94ff-d5b1-b5fc-926e105a6cfb a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bfd55eab8-75f3-bfd1-96ae-a5d70b347177 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b157b31e4-158c-7c47-4d2f-a7cd3e127f30.
+
+_:b157b31e4-158c-7c47-4d2f-a7cd3e127f30 a melod:ExactDate;
+    melod:isodate "1929-09-25"^^xsd:date;
+    schema:description "25.09.1929".

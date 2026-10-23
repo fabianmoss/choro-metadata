@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1272631169> a melod:Manifestation;
+    melod:hasTitle _:b65ce3189-09ca-7178-2b2c-9a31e0d13e27;
+    lrmoo:R4_embodies <urn:uuid:expressions/1587121959>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b54cf35bb-4077-666b-2b07-5d3f452c144f;
+    dct:conformsTo melod:Manifestation.
+
+_:b65ce3189-09ca-7178-2b2c-9a31e0d13e27 a melod:Title;
+    rdfs:label "Morro do Pinto — Partitura piano (edition Carlos Wehrs)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b54cf35bb-4077-666b-2b07-5d3f452c144f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1578785434>;
+    melod:hasRole terms:Publisher.

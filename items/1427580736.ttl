@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1427580736> a melod:Item;
+    rdfs:label "Mato Dentro — Partitura melodia e cifra (score_11544)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1185918140>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b53130330-7ba7-d1a8-2e8a-e823f2bd6ca0;
+    melod:hasShelfmark "score_11544";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11544.pdf>;
+    melod:hasProvenance _:bc9a8a806-b5f4-94ee-14c7-f73282ff327d;
+    dct:conformsTo melod:Item.
+
+_:b53130330-7ba7-d1a8-2e8a-e823f2bd6ca0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11544".
+
+_:bc9a8a806-b5f4-94ee-14c7-f73282ff327d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b77675785-1ddf-99c3-a6a4-18bc6fab7128.
+
+_:b77675785-1ddf-99c3-a6a4-18bc6fab7128 a melod:ExactDate;
+    melod:isodate "2009-03-06"^^xsd:date;
+    schema:description "06.03.2009".

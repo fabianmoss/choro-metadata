@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1566369818> a melod:Work;
+    melod:hasTitle _:b8689d453-ad87-6393-12e9-32403a148336;
+    melod:hasIdentifier _:bd15dfcf1-35f4-745e-0ff8-04af0928f62c;
+    melod:hasClassification "Batuque";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10259>;
+    melod:hasContribution _:bf030d869-bf88-015f-335c-2f61ecb69256, _:b934200d6-bded-c151-35fd-fedf6cb2b097;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1541059640>;
+    melod:hasAnnotation _:b2a7d950b-aade-50fe-20ed-31acddc636c5;
+    dct:conformsTo melod:Work.
+
+_:b8689d453-ad87-6393-12e9-32403a148336 a melod:Title;
+    rdfs:label "Mulungú"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd15dfcf1-35f4-745e-0ff8-04af0928f62c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10259".
+
+_:bf030d869-bf88-015f-335c-2f61ecb69256 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1268694053>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b934200d6-bded-c151-35fd-fedf6cb2b097 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1292149856>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2a7d950b-aade-50fe-20ed-31acddc636c5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10259\">https://acervo.casadochoro.com.br/works/view/10259</a>. Gênero: Batuque. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

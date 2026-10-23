@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1787836098> a melod:Manifestation;
+    melod:hasTitle _:bbb081389-84cb-a0db-2052-3169fc1aee65;
+    lrmoo:R4_embodies <urn:uuid:expressions/1880523707>;
+    melod:hasClassificationOfManifestation "Partitura acordeom e letra", terms:Print;
+    melod:hasContribution _:b34df5671-7cd4-7ce0-e9b0-27b1c09606a6;
+    dct:conformsTo melod:Manifestation.
+
+_:bbb081389-84cb-a0db-2052-3169fc1aee65 a melod:Title;
+    rdfs:label "Minha valsa de adeus — Partitura acordeom e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b34df5671-7cd4-7ce0-e9b0-27b1c09606a6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1284808482> a melod:Expression;
+    rdfs:label "Meu ciúme (original version, Partitura piano e letra)";
+    melod:hasClassification "Samba";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b93953c4c-9128-cfa7-0158-0a4fb84019e3;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:b943ce929-757a-cadf-e1e1-49fbd88076b3;
+    dct:conformsTo melod:Expression.
+
+_:b93953c4c-9128-cfa7-0158-0a4fb84019e3 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b943ce929-757a-cadf-e1e1-49fbd88076b3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1098598780>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

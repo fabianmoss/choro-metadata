@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1514474564> a melod:Work;
+    melod:hasTitle _:b9611db42-cd9a-a038-cadd-8256e47b8d45;
+    melod:hasIdentifier _:b9088e022-1e71-7ed1-9d19-17729dd1d2d5;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/886>;
+    melod:hasContribution _:b355e5799-b006-0bed-6512-5f437242802a;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1855564716>, <urn:uuid:expressions/1307244486>;
+    melod:hasAnnotation _:bf8657af2-40c3-6fcd-0ddc-7fe8495cf0dc;
+    dct:conformsTo melod:Work.
+
+_:b9611db42-cd9a-a038-cadd-8256e47b8d45 a melod:Title;
+    rdfs:label "Nelson em apuros"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9088e022-1e71-7ed1-9d19-17729dd1d2d5 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "886".
+
+_:b355e5799-b006-0bed-6512-5f437242802a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bf8657af2-40c3-6fcd-0ddc-7fe8495cf0dc a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/886\">https://acervo.casadochoro.com.br/works/view/886</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

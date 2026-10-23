@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1864850190> a melod:Manifestation;
+    melod:hasTitle _:b49587fb7-0b24-0e58-d047-d7dec976e703;
+    lrmoo:R4_embodies <urn:uuid:expressions/1458369613>;
+    melod:hasClassificationOfManifestation "Partitura melodia e letra", terms:Print;
+    melod:hasContribution _:b95f5e194-8f1c-955e-8fd9-872a12595efc;
+    dct:conformsTo melod:Manifestation.
+
+_:b49587fb7-0b24-0e58-d047-d7dec976e703 a melod:Title;
+    rdfs:label "Me dá meu boné — Partitura melodia e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b95f5e194-8f1c-955e-8fd9-872a12595efc a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

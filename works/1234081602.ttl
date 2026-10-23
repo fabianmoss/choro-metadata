@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1234081602> a melod:Work;
+    melod:hasTitle _:b22f1ab86-422b-83c1-fe7e-1645e3c26f73;
+    melod:hasIdentifier _:b47c53a58-44a6-84fd-6517-63536d136a30;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10271>;
+    melod:hasContribution _:bb152bd83-d608-8527-98ac-45ef0483d867, _:bc85a94fa-6f23-d022-1824-43df2c68744a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1055012318>;
+    melod:hasAnnotation _:bd1294b4c-9449-9bf9-4c66-b05c92e7cfc0;
+    dct:conformsTo melod:Work.
+
+_:b22f1ab86-422b-83c1-fe7e-1645e3c26f73 a melod:Title;
+    rdfs:label "Não posso acreditar (sonhei)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b47c53a58-44a6-84fd-6517-63536d136a30 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10271".
+
+_:bb152bd83-d608-8527-98ac-45ef0483d867 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1379303776>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc85a94fa-6f23-d022-1824-43df2c68744a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1688111695>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd1294b4c-9449-9bf9-4c66-b05c92e7cfc0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10271\">https://acervo.casadochoro.com.br/works/view/10271</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

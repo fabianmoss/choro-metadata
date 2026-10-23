@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1113921210> a melod:Item;
+    rdfs:label "Mocinha — Partitura melodia (score_390)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1727106968>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf51ca836-b9d5-02f7-e176-948ab1c02c3d;
+    melod:hasShelfmark "score_390";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_390.pdf>;
+    melod:hasHand _:b5904a201-b568-3723-25ae-69773ce82839;
+    dct:conformsTo melod:Item.
+
+_:bf51ca836-b9d5-02f7-e176-948ab1c02c3d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_390".
+
+_:b5904a201-b568-3723-25ae-69773ce82839 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1096286736>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theodoro Aguilar".

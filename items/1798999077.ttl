@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1798999077> a melod:Item;
+    rdfs:label "Marise — Partitura melodia (score_8672)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1378320912>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b27c68a36-9202-9a99-152f-98d4dc56601c;
+    melod:hasShelfmark "score_8672";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8672.pdf>;
+    melod:hasProvenance _:bec19b9f9-6960-fb48-c419-1f31f06ce156;
+    dct:conformsTo melod:Item.
+
+_:b27c68a36-9202-9a99-152f-98d4dc56601c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8672".
+
+_:bec19b9f9-6960-fb48-c419-1f31f06ce156 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b29705f2f-c7c0-d6b5-9944-0ca687436d5e.
+
+_:b29705f2f-c7c0-d6b5-9944-0ca687436d5e a melod:ExactDate;
+    melod:isodate "1984-01-08"^^xsd:date;
+    schema:description "08.01.1984".

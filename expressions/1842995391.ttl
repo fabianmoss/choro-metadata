@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1842995391> a melod:Expression;
+    rdfs:label "Minha garotinha (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Polca";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:ba21d1330-5f55-a08c-4059-0597ed146c3b;
+    melod:hasContribution _:b3ee1eddf-22fb-87c7-6a02-2c2cf647c557;
+    dct:conformsTo melod:Expression.
+
+_:ba21d1330-5f55-a08c-4059-0597ed146c3b a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b3ee1eddf-22fb-87c7-6a02-2c2cf647c557 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

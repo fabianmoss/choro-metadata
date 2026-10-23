@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1373790386> a melod:Item;
+    rdfs:label "Na Pavuna — Partitura melodia (score_11455)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1371934038>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf7c42818-9d47-c733-72cc-339006392ed6;
+    melod:hasShelfmark "score_11455";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11455.pdf>;
+    melod:hasHand _:b475aa2c1-7779-0612-94f4-8111b1e5e7d3;
+    melod:hasProvenance _:bffa2f317-1964-1eb0-2947-c354a1b3eb09;
+    dct:conformsTo melod:Item.
+
+_:bf7c42818-9d47-c733-72cc-339006392ed6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11455".
+
+_:b475aa2c1-7779-0612-94f4-8111b1e5e7d3 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1664591566>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro Nascimento".
+
+_:bffa2f317-1964-1eb0-2947-c354a1b3eb09 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b2288e189-3762-4927-6e23-a0466f2a793b.
+
+_:b2288e189-3762-4927-6e23-a0466f2a793b a melod:ExactDate;
+    melod:isodate "1930-02-13"^^xsd:date;
+    schema:description "13.02.1930".

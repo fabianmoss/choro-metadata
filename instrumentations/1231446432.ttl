@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1231446432> a melod:Instrumentation;
+    rdfs:label "trompete Bb 1, trompete Bb 2, trompete Bb 3, tuba"@pt;
+    melod:hasInstrumentationDetail _:bbd2d0f52-779b-5ddf-d906-299186a39e5e, _:bfdc0cdad-b0de-9d5b-80dd-463cf4c817c7, _:b9f4c44eb-1849-3874-1906-fb9d26a3fb92, _:bd3decbdd-e128-a1bc-eb4d-2de8a1ff67cc.
+
+_:bbd2d0f52-779b-5ddf-d906-299186a39e5e a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "trompete Bb 1";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bfdc0cdad-b0de-9d5b-80dd-463cf4c817c7 a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "trompete Bb 2";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b9f4c44eb-1849-3874-1906-fb9d26a3fb92 a melod:InstrumentationDetail;
+    schema:position "3"^^xsd:integer;
+    schema:description "trompete Bb 3";
+    mus:U2_foresees_use_of_medium_of_performance terms:Trumpet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#bb>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:bd3decbdd-e128-a1bc-eb4d-2de8a1ff67cc a melod:InstrumentationDetail;
+    schema:position "4"^^xsd:integer;
+    schema:description "tuba";
+    mus:U2_foresees_use_of_medium_of_performance terms:Tuba;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#be>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

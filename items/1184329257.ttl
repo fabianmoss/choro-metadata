@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1184329257> a melod:Item;
+    rdfs:label "Nazaretheado — Partitura melodia e cifra (score_11633)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1022392524>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7d02ff72-55f4-d62e-f17e-104e6768e5e0;
+    melod:hasShelfmark "score_11633";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11633.pdf>;
+    melod:hasProvenance _:bb865442e-c873-a5dc-fe12-16d7e50e72a3;
+    dct:conformsTo melod:Item.
+
+_:b7d02ff72-55f4-d62e-f17e-104e6768e5e0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11633".
+
+_:bb865442e-c873-a5dc-fe12-16d7e50e72a3 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b93426ba4-e308-8dfd-7f1a-eccaa16991e6.
+
+_:b93426ba4-e308-8dfd-7f1a-eccaa16991e6 a melod:ExactDate;
+    melod:isodate "2005-12-18"^^xsd:date;
+    schema:description "18.12.2005".

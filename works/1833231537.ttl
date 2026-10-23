@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1833231537> a melod:Work;
+    melod:hasTitle _:b561406c1-6dcd-5f93-9500-74180af26948;
+    melod:hasIdentifier _:bce8dd7be-5368-a2d1-ca82-6741f94e3fce;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3417>;
+    melod:hasContribution _:b7d1a056a-10c3-0221-891c-261b520626b0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1208969558>, <urn:uuid:expressions/1169509798>, <urn:uuid:expressions/1582503736>;
+    melod:hasAnnotation _:bcd24406d-30a3-a241-4d32-056d62b2ef6b;
+    dct:conformsTo melod:Work.
+
+_:b561406c1-6dcd-5f93-9500-74180af26948 a melod:Title;
+    rdfs:label "Mimi bilontra"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bce8dd7be-5368-a2d1-ca82-6741f94e3fce a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3417".
+
+_:b7d1a056a-10c3-0221-891c-261b520626b0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1241976969>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bcd24406d-30a3-a241-4d32-056d62b2ef6b a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3417\">https://acervo.casadochoro.com.br/works/view/3417</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

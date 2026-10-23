@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1593879593> a melod:Item;
+    rdfs:label "Não caio noutra — Partitura melodia (score_4996)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1462811552>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3380d986-2371-9089-d92e-4d038b2aabd4;
+    melod:hasShelfmark "score_4996";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4996.pdf>;
+    melod:hasProvenance _:b58622446-9a63-c18f-3b99-c50dce202355;
+    dct:conformsTo melod:Item.
+
+_:b3380d986-2371-9089-d92e-4d038b2aabd4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4996".
+
+_:b58622446-9a63-c18f-3b99-c50dce202355 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:baf7889c2-809c-c85c-10d7-22057525785a.
+
+_:baf7889c2-809c-c85c-10d7-22057525785a a melod:ExactDate;
+    melod:isodate "1977-06-26"^^xsd:date;
+    schema:description "26.06.1977".

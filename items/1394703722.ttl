@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1394703722> a melod:Item;
+    rdfs:label "Neréa — Partitura melodia (score_1665)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1509275680>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3cc9f102-7ff5-cbcd-b7a4-eeb40b5c1b32;
+    melod:hasShelfmark "score_1665";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1665.pdf>;
+    melod:hasHand _:bf181e8ff-3b82-b561-6998-c5eb47d5aeb8;
+    melod:hasProvenance _:b8d960ae8-5783-96b8-aacd-2b48e14c7e90;
+    dct:conformsTo melod:Item.
+
+_:b3cc9f102-7ff5-cbcd-b7a4-eeb40b5c1b32 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1665".
+
+_:bf181e8ff-3b82-b561-6998-c5eb47d5aeb8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1265511671>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mário Peixoto".
+
+_:b8d960ae8-5783-96b8-aacd-2b48e14c7e90 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b9b11aeda-884b-16a7-87be-9b02c963f5c8.
+
+_:b9b11aeda-884b-16a7-87be-9b02c963f5c8 a melod:ExactDate;
+    melod:isodate "1918-01-10"^^xsd:date;
+    schema:description "10.01.1918".

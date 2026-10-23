@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1018182839> a melod:Expression;
+    rdfs:label "Me allegro mas não topo (arrangement by Pedro Paes, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc1bf55a1-deb6-ba88-e88e-85d6c174a2cb;
+    melod:hasContribution _:ba0071313-30ec-6b54-a3ac-98a8d722b4ed;
+    dct:conformsTo melod:Expression.
+
+_:bc1bf55a1-deb6-ba88-e88e-85d6c174a2cb a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:ba0071313-30ec-6b54-a3ac-98a8d722b4ed a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1331846641>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

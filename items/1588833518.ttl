@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1588833518> a melod:Item;
+    rdfs:label "Não estrila Euclydes — Partitura melodia (score_5230)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1288800017>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b1ac9694b-3136-12de-68fd-4c562231a66e;
+    melod:hasShelfmark "score_5230";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5230.pdf>;
+    melod:hasHand _:b01d7445a-843f-abde-2078-573db31e7f5d;
+    melod:hasProvenance _:b1d7810bc-a3ec-578e-66f2-4721a7c348ca;
+    dct:conformsTo melod:Item.
+
+_:b1ac9694b-3136-12de-68fd-4c562231a66e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5230".
+
+_:b01d7445a-843f-abde-2078-573db31e7f5d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b1d7810bc-a3ec-578e-66f2-4721a7c348ca a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd63f0962-c173-7d78-f32e-b5dd43e7fbbe.
+
+_:bd63f0962-c173-7d78-f32e-b5dd43e7fbbe a melod:ExactDate;
+    melod:isodate "1930-08-18"^^xsd:date;
+    schema:description "18.08.1930".

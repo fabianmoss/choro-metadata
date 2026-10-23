@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1409850023> a melod:Work;
+    melod:hasTitle _:bb1463077-a7aa-8839-d785-10bcf82cca15;
+    melod:hasIdentifier _:be2039a05-3606-5ce5-da17-86b75f0f9fd7;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/955>;
+    melod:hasContribution _:b2a3487d1-6978-6245-7278-6c5c49e740c6;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1596768314>, <urn:uuid:expressions/1110979378>;
+    melod:hasAnnotation _:b14913841-986c-8b8e-034f-b8007ca0af74;
+    dct:conformsTo melod:Work.
+
+_:bb1463077-a7aa-8839-d785-10bcf82cca15 a melod:Title;
+    rdfs:label "Modulante"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be2039a05-3606-5ce5-da17-86b75f0f9fd7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "955".
+
+_:b2a3487d1-6978-6245-7278-6c5c49e740c6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1246462573>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b14913841-986c-8b8e-034f-b8007ca0af74 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/955\">https://acervo.casadochoro.com.br/works/view/955</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

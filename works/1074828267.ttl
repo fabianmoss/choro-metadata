@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1074828267> a melod:Work;
+    melod:hasTitle _:badc28166-2551-6039-1a6e-80823b969f30;
+    melod:hasIdentifier _:b2f9254c4-2043-c051-e29b-fe5403298ab0;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5018>;
+    melod:hasContribution _:be3871a68-69f0-2170-1fa7-dcf2a668aadc;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1018768299>;
+    melod:hasAnnotation _:bb97bdde9-f88b-8732-86c7-cd07938d9ee6;
+    dct:conformsTo melod:Work.
+
+_:badc28166-2551-6039-1a6e-80823b969f30 a melod:Title;
+    rdfs:label "Maria Tereza"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2f9254c4-2043-c051-e29b-fe5403298ab0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5018".
+
+_:be3871a68-69f0-2170-1fa7-dcf2a668aadc a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb97bdde9-f88b-8732-86c7-cd07938d9ee6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5018\">https://acervo.casadochoro.com.br/works/view/5018</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

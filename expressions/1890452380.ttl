@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1890452380> a melod:Expression;
+    rdfs:label "Não sei se sabes (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b155cb3f2-d2c6-1ef2-005f-0d2a3317ae56;
+    melod:hasContribution _:b6882a132-b345-71a1-3477-ac1f3168b32a;
+    dct:conformsTo melod:Expression.
+
+_:b155cb3f2-d2c6-1ef2-005f-0d2a3317ae56 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b6882a132-b345-71a1-3477-ac1f3168b32a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

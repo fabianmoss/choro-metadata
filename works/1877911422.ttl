@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1877911422> a melod:Work;
+    melod:hasTitle _:bebd09f91-0712-20e4-f976-8aca3ce630ce;
+    melod:hasIdentifier _:bcde5ccfa-bcaa-fc0f-674b-004d265db24d;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4257>;
+    melod:hasContribution _:b52a7ab35-01e5-2ccf-f5f3-290b14e6747f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1811653227>;
+    melod:hasAnnotation _:ba7cd774d-626e-5c26-ebfb-9d5cc22cd53d;
+    dct:conformsTo melod:Work.
+
+_:bebd09f91-0712-20e4-f976-8aca3ce630ce a melod:Title;
+    rdfs:label "Mikanol"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bcde5ccfa-bcaa-fc0f-674b-004d265db24d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4257".
+
+_:b52a7ab35-01e5-2ccf-f5f3-290b14e6747f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1354519963>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba7cd774d-626e-5c26-ebfb-9d5cc22cd53d a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4257\">https://acervo.casadochoro.com.br/works/view/4257</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

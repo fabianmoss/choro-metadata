@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1539307739> a melod:Item;
+    rdfs:label "Na catêga — Partitura melodia e cifra (score_10143)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1297198051>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bec4f5e1e-efba-9bf9-fddc-0698c7be6e33;
+    melod:hasShelfmark "score_10143";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_10143.pdf>;
+    melod:hasProvenance _:b302130df-b212-9c3b-9255-00739d4c394d;
+    dct:conformsTo melod:Item.
+
+_:bec4f5e1e-efba-9bf9-fddc-0698c7be6e33 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_10143".
+
+_:b302130df-b212-9c3b-9255-00739d4c394d a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b7a522c2a-a549-b7fa-aba1-ca00640e9dee.
+
+_:b7a522c2a-a549-b7fa-aba1-ca00640e9dee a melod:ExactDate;
+    melod:isodate "2004-10-27"^^xsd:date;
+    schema:description "27.10.2004".

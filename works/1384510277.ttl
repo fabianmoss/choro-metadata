@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1384510277> a melod:Work;
+    melod:hasTitle _:bc7eb40ea-a9aa-5c93-ac98-1e9351591136;
+    melod:hasIdentifier _:be3cc1c78-5262-497a-0634-fa5b1c90cec8;
+    melod:hasClassification "Mazurca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4458>;
+    melod:hasContribution _:bc5656b2c-f998-bf0b-13ff-4b6261bec004;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1028722337>, <urn:uuid:expressions/1544438627>, <urn:uuid:expressions/1259222149>, <urn:uuid:expressions/1263351943>;
+    melod:hasAnnotation _:badec1e54-0929-2958-ea3e-e29a960014c7;
+    dct:conformsTo melod:Work.
+
+_:bc7eb40ea-a9aa-5c93-ac98-1e9351591136 a melod:Title;
+    rdfs:label "Margarida"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be3cc1c78-5262-497a-0634-fa5b1c90cec8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4458".
+
+_:bc5656b2c-f998-bf0b-13ff-4b6261bec004 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1180391144>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:badec1e54-0929-2958-ea3e-e29a960014c7 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4458\">https://acervo.casadochoro.com.br/works/view/4458</a>. Gênero: Mazurca. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

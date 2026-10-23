@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1013991404> a melod:Item;
+    rdfs:label "Nhô Nhô em Sarilho — Partitura melodia (score_2153)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1013155940>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba1efd16c-b819-0e55-90be-258d69a6e402;
+    melod:hasShelfmark "score_2153";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2153.pdf>;
+    melod:hasHand _:bea52f0b5-66bc-97ec-f514-c0222892600c;
+    melod:hasProvenance _:be822f881-9fdb-535c-614a-519d48813bc3;
+    dct:conformsTo melod:Item.
+
+_:ba1efd16c-b819-0e55-90be-258d69a6e402 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2153".
+
+_:bea52f0b5-66bc-97ec-f514-c0222892600c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1100959309>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Jupyaçara".
+
+_:be822f881-9fdb-535c-614a-519d48813bc3 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd35f02d0-b4ad-6b12-1702-788b4e1004cd.
+
+_:bd35f02d0-b4ad-6b12-1702-788b4e1004cd a melod:ExactDate;
+    melod:isodate "1942-01-21"^^xsd:date;
+    schema:description "21.01.1942".

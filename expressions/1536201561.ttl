@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1536201561> a melod:Expression;
+    rdfs:label "Nhônhô Fazenda (Série - Flores do Baile) (original version, Partitura melodia)";
+    melod:hasClassification "Polca";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b89f20f76-34b2-eff6-6482-9fa8c94f1c22;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:bda82cd15-b683-c7fa-0c5d-d38577b5b190;
+    dct:conformsTo melod:Expression.
+
+_:b89f20f76-34b2-eff6-6482-9fa8c94f1c22 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bda82cd15-b683-c7fa-0c5d-d38577b5b190 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1345713243>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

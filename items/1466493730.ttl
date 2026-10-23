@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1466493730> a melod:Item;
+    rdfs:label "Maxixe em Cuba — Partitura melodia e cifra (score_9596)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1852773776>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b3e9d06ed-689e-921d-e0b7-8721dfad8135;
+    melod:hasShelfmark "score_9596";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9596.pdf>;
+    melod:hasHand _:b36926d04-75ac-3e37-a201-f39130d04485;
+    melod:hasProvenance _:b44dace71-6a96-ce06-cc2f-f0fe9c11e584;
+    dct:conformsTo melod:Item.
+
+_:b3e9d06ed-689e-921d-e0b7-8721dfad8135 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9596".
+
+_:b36926d04-75ac-3e37-a201-f39130d04485 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1569167162>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Zé Rangel".
+
+_:b44dace71-6a96-ce06-cc2f-f0fe9c11e584 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:be18ebf05-2dc2-c997-2954-577042880bab.
+
+_:be18ebf05-2dc2-c997-2954-577042880bab a melod:ExactDate;
+    melod:isodate "2001-07-16"^^xsd:date;
+    schema:description "16.07.2001".

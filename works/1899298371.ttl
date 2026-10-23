@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1899298371> a melod:Work;
+    melod:hasTitle _:bff721059-1ffc-e9eb-4e9e-19d38130258d;
+    melod:hasIdentifier _:b018140c1-75f8-441a-3063-7a3db241a510;
+    melod:hasClassification "Tango Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5852>;
+    melod:hasContribution _:b400aaaab-37d2-78fd-2ac6-cd3d4e33e41f;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1470123149>;
+    melod:hasAnnotation _:be2222635-63b2-eab0-cd4d-c065607d4c49;
+    dct:conformsTo melod:Work.
+
+_:bff721059-1ffc-e9eb-4e9e-19d38130258d a melod:Title;
+    rdfs:label "Nhá Maria"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b018140c1-75f8-441a-3063-7a3db241a510 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5852".
+
+_:b400aaaab-37d2-78fd-2ac6-cd3d4e33e41f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1504760884>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:be2222635-63b2-eab0-cd4d-c065607d4c49 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5852\">https://acervo.casadochoro.com.br/works/view/5852</a>. Gênero: Tango Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

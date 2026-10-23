@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1132092047> a melod:Item;
+    rdfs:label "Me deixou saudades — Partitura melodia (score_5284)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1896233668>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b8a9681b2-f60b-9ff9-2c8c-c497d187ef7f;
+    melod:hasShelfmark "score_5284";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5284.pdf>;
+    melod:hasHand _:b0025873b-99e0-3628-300e-2503c1d418a8;
+    melod:hasProvenance _:b12d31fba-f6bb-50e2-c514-067f1a0ec837;
+    dct:conformsTo melod:Item.
+
+_:b8a9681b2-f60b-9ff9-2c8c-c497d187ef7f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5284".
+
+_:b0025873b-99e0-3628-300e-2503c1d418a8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b12d31fba-f6bb-50e2-c514-067f1a0ec837 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b7b8dea00-333a-6820-f306-a9d122099e40.
+
+_:b7b8dea00-333a-6820-f306-a9d122099e40 a melod:ExactDate;
+    melod:isodate "1943-08-17"^^xsd:date;
+    schema:description "17.08.1943".

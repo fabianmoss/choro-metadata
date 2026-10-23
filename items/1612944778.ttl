@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1612944778> a melod:Item;
+    rdfs:label "Não escapa — Partitura melodia (score_1163)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1816513203>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b10766863-0a9e-405e-712f-dd7611136932;
+    melod:hasShelfmark "score_1163";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1163.pdf>;
+    melod:hasHand _:bf860af12-5588-826b-ebca-24c504b4aa07;
+    melod:hasProvenance _:b763091d2-87ce-05f4-ab88-c5a337370a86;
+    dct:conformsTo melod:Item.
+
+_:b10766863-0a9e-405e-712f-dd7611136932 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1163".
+
+_:bf860af12-5588-826b-ebca-24c504b4aa07 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Candinho (Cândido Pereira da Silva)".
+
+_:b763091d2-87ce-05f4-ab88-c5a337370a86 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:beb494e00-c991-b17c-9c7c-f306faa9be5e.
+
+_:beb494e00-c991-b17c-9c7c-f306faa9be5e a melod:ExactDate;
+    melod:isodate "1952-01-28"^^xsd:date;
+    schema:description "28.01.1952".

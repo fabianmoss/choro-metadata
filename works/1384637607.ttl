@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1384637607> a melod:Work;
+    melod:hasTitle _:bf85420de-79e2-4c53-a242-50f8763e8b03;
+    melod:hasIdentifier _:b3b18b2c8-55f7-e5dd-ec39-55c1b6eb7ff1;
+    melod:hasClassification "Coco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4705>;
+    melod:hasContribution _:b4dd0b624-4bdc-e8a5-6cdf-9c3e075a8328;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1330281048>;
+    melod:hasAnnotation _:b58f50956-a40c-77aa-0c74-6a9c44fd11b8;
+    dct:conformsTo melod:Work.
+
+_:bf85420de-79e2-4c53-a242-50f8763e8b03 a melod:Title;
+    rdfs:label "Meu barco é veleiro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b3b18b2c8-55f7-e5dd-ec39-55c1b6eb7ff1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4705".
+
+_:b4dd0b624-4bdc-e8a5-6cdf-9c3e075a8328 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1717261619>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b58f50956-a40c-77aa-0c74-6a9c44fd11b8 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4705\">https://acervo.casadochoro.com.br/works/view/4705</a>. Gênero: Coco. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

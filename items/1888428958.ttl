@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1888428958> a melod:Item;
+    rdfs:label "Melancólica — Partitura cifra (score_1260)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1557307997>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf8772f52-7be4-8ee4-d728-5b7c1bd42f81;
+    melod:hasShelfmark "score_1260";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1260.pdf>;
+    melod:hasHand _:bceb11699-fa23-330f-20fd-09190d3f3956;
+    dct:conformsTo melod:Item.
+
+_:bf8772f52-7be4-8ee4-d728-5b7c1bd42f81 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1260".
+
+_:bceb11699-fa23-330f-20fd-09190d3f3956 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Maurício Carrilho".

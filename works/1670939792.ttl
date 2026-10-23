@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1670939792> a melod:Work;
+    melod:hasTitle _:b4c3e0b18-9dd4-8775-97d7-82dd3402b5b5;
+    melod:hasIdentifier _:baa5410a2-f3e3-41dd-24f1-4408c6dc6de4;
+    melod:hasClassification "Charleston";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9317>;
+    melod:hasContribution _:b8101badf-ab6c-bf75-3273-3786abfa611c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1676743113>;
+    melod:hasAnnotation _:bdd308a1f-6481-773e-2b0f-c3f763f206cb;
+    dct:conformsTo melod:Work.
+
+_:b4c3e0b18-9dd4-8775-97d7-82dd3402b5b5 a melod:Title;
+    rdfs:label "Money"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:baa5410a2-f3e3-41dd-24f1-4408c6dc6de4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9317".
+
+_:b8101badf-ab6c-bf75-3273-3786abfa611c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bdd308a1f-6481-773e-2b0f-c3f763f206cb a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9317\">https://acervo.casadochoro.com.br/works/view/9317</a>. Gênero: Charleston. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

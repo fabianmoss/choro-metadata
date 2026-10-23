@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1894645540> a melod:Work;
+    melod:hasTitle _:be2a1faa8-df17-50cf-5762-c912a69c9b1d;
+    melod:hasIdentifier _:b585e73f4-3ee3-83dd-22d4-6260ffa66c0e;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/870>;
+    melod:hasContribution _:b0271483a-ac90-1104-e8a9-e7bb0fb246f4;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1086741868>, <urn:uuid:expressions/1183143899>;
+    melod:hasAnnotation _:b002699eb-02f4-aa57-7ae3-ef563237e7f0;
+    dct:conformsTo melod:Work.
+
+_:be2a1faa8-df17-50cf-5762-c912a69c9b1d a melod:Title;
+    rdfs:label "Meu chapéu virou pandeiro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b585e73f4-3ee3-83dd-22d4-6260ffa66c0e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "870".
+
+_:b0271483a-ac90-1104-e8a9-e7bb0fb246f4 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b002699eb-02f4-aa57-7ae3-ef563237e7f0 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/870\">https://acervo.casadochoro.com.br/works/view/870</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

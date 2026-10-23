@@ -1,5 +1,7 @@
 <urn:uuid:instrumentations/1002290631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1002290631> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, flauta, piano, clarinete A, violino 1, violino 2"@pt .
+<urn:uuid:instrumentations/1005069313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1005069313> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, requinta, bombardino Eb, bumbo, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, sax alto Eb 1, sax alto Eb 2, sax alto Eb 3, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2, chocalhos"@pt .
 <urn:uuid:instrumentations/1006969847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1006969847> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete"@pt .
 <urn:uuid:instrumentations/1008272219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -56,6 +58,8 @@
 <urn:uuid:instrumentations/1088000952> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, flauta, piano, trombone, trompete Bb, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1089271045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1089271045> <http://www.w3.org/2004/02/skos/core#prefLabel> "Small orchestra" .
+<urn:uuid:instrumentations/1092703113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1092703113> <http://www.w3.org/2004/02/skos/core#prefLabel> "voz - baixo, voz - barítono 1, voz - barítono 2, voz - tenor 1, voz - tenor 2"@pt .
 <urn:uuid:instrumentations/1093854048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1093854048> <http://www.w3.org/2004/02/skos/core#prefLabel> "voz"@pt .
 <urn:uuid:instrumentations/1094638559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -68,6 +72,8 @@
 <urn:uuid:instrumentations/1105599422> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, canto"@pt .
 <urn:uuid:instrumentations/1106384834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1106384834> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, piston, sax alto Eb, sax tenor Bb, trombone"@pt .
+<urn:uuid:instrumentations/1116042336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1116042336> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino, caixa, cavaquinho, clarinete, flauta, prato, violão"@pt .
 <urn:uuid:instrumentations/1118880609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1118880609> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandolim, clarinete, violão"@pt .
 <urn:uuid:instrumentations/1123052200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -80,6 +86,8 @@
 <urn:uuid:instrumentations/1142951654> <http://www.w3.org/2004/02/skos/core#prefLabel> "saxofone 2"@pt .
 <urn:uuid:instrumentations/1144302153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1144302153> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavaquinho, clarinete Bb, flauta, violão"@pt .
+<urn:uuid:instrumentations/1145219148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1145219148> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete, flauta, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1145482138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1145482138> <http://www.w3.org/2004/02/skos/core#prefLabel> "flauta iniciante"@pt .
 <urn:uuid:instrumentations/1155677143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -90,12 +98,16 @@
 <urn:uuid:instrumentations/1156822089> <http://www.w3.org/2004/02/skos/core#prefLabel> "requinta Eb"@pt .
 <urn:uuid:instrumentations/1159154162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1159154162> <http://www.w3.org/2004/02/skos/core#prefLabel> "trompete Bb 1"@pt .
+<urn:uuid:instrumentations/1160364401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1160364401> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, violão 1, violão 2, violão 3"@pt .
 <urn:uuid:instrumentations/1160493913> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1160493913> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Bb, flauta, piano, sax alto Eb, sax tenor Bb, trombone, trompete Bb 1, trompete Bb 2, tuba, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1162753080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1162753080> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Eb"@pt .
 <urn:uuid:instrumentations/1163999467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1163999467> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, baixo, sax alto Eb 1, sax alto Eb 2, tenor Bb, trombone, trompete Bb 1, trompete Bb 2, violino 1, violino 2"@pt .
+<urn:uuid:instrumentations/1166498331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1166498331> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino E, flautim Eb, requinta, bumbo, clarinete Bb 1, sax alto Eb 1, sax alto Eb 2, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2, bombardino 1, bombardino 2"@pt .
 <urn:uuid:instrumentations/1167253611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1167253611> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 2, sax alto Eb 3, trombone, trompete Bb 1, trompete Bb 2, violino"@pt .
 <urn:uuid:instrumentations/1167581066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -106,6 +118,8 @@
 <urn:uuid:instrumentations/1178385371> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, flauta, piano, viola, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1179774121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1179774121> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, sax tenor Bb 4, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2, trompete Bb 3, sax barítono 5 Eb"@pt .
+<urn:uuid:instrumentations/1180287215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1180287215> <http://www.w3.org/2004/02/skos/core#prefLabel> "saxofone"@pt .
 <urn:uuid:instrumentations/1181155884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1181155884> <http://www.w3.org/2004/02/skos/core#prefLabel> "violão, violão 7 cordas"@pt .
 <urn:uuid:instrumentations/1181257917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -122,6 +136,8 @@
 <urn:uuid:instrumentations/1197649585> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, voz - baixo, voz - contralto, voz - soprano, voz - tenor"@pt .
 <urn:uuid:instrumentations/1200526780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1200526780> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino Bb, bombardino C, clarinete, clarone Bb, trombone"@pt .
+<urn:uuid:instrumentations/1203372029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1203372029> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino, bumbo, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, contrabaixo Bb, contrabaixo Eb, flauta, flautim, prato, sax horn Eb 1, sax horn Eb 2, sax horn Eb 3, saxofone alto, saxofone tenor, soprano Bb, trombone 1, trombone 2, trombone 3, trompa Bb, trompete Bb 1, trompete Bb 2, trompete Bb 3"@pt .
 <urn:uuid:instrumentations/1203613963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1203613963> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, cello, clarinete Bb, flauta, piano, trompete Bb, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1204406007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -136,6 +152,8 @@
 <urn:uuid:instrumentations/1218354513> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, flauta, piano, violino ou bandolim"@pt .
 <urn:uuid:instrumentations/1231276731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1231276731> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, cello, clarinete Bb, flauta, violino 1, violino 2, trompete Bb"@pt .
+<urn:uuid:instrumentations/1231446432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1231446432> <http://www.w3.org/2004/02/skos/core#prefLabel> "trompete Bb 1, trompete Bb 2, trompete Bb 3, tuba"@pt .
 <urn:uuid:instrumentations/1235386336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1235386336> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, piano, viola, violino 1, violino 2, violino 3"@pt .
 <urn:uuid:instrumentations/1239122959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -204,6 +222,8 @@
 <urn:uuid:instrumentations/1307213592> <http://www.w3.org/2004/02/skos/core#prefLabel> "cello"@pt .
 <urn:uuid:instrumentations/1308575016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1308575016> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, clarinete Bb, flauta, piston, violino"@pt .
+<urn:uuid:instrumentations/1311024525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1311024525> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bombardino, clarinete Bb, piano, saxofone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1316377070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1316377070> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, clarinete Bb 1, clarinete Bb 2, piano, sax alto Eb, sax tenor Bb, trombone, trompa 1, trompa 2, trompa 3, trompete Bb, tuba, eufônio"@pt .
 <urn:uuid:instrumentations/1316759422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -214,6 +234,8 @@
 <urn:uuid:instrumentations/1318968787> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, cornetim, flauta, piano, sax alto Eb, trombone, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1321057350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1321057350> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino C, bumbo, contrabaixo Bb, contrabaixo Eb, bombardino 1, bombardino 2, clarinete Bb 1, clarinete Bb 2, sax horn Eb 1, sax horn Eb 2, sax horn Eb 3, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2"@pt .
+<urn:uuid:instrumentations/1327193161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1327193161> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, clarinete, flauta, sax alto Eb, sax tenor Bb, trombone, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1335050458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1335050458> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bombardino, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, flautim, percussão, requinta Eb, sax alto Eb, trombone 1, trombone 2, trombone 3, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1335163961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -222,6 +244,10 @@
 <urn:uuid:instrumentations/1339815056> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, coro 1, coro 2"@pt .
 <urn:uuid:instrumentations/1341528360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1341528360> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, saxofone"@pt .
+<urn:uuid:instrumentations/1342285451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1342285451> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, requinta, bumbo, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, sax alto Eb 1, sax alto Eb 2, sax alto Eb 3, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2, bombardino Eb"@pt .
+<urn:uuid:instrumentations/1344957509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1344957509> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, piston, sax alto Eb, sax tenor Bb, trombone"@pt .
 <urn:uuid:instrumentations/1348283979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1348283979> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, violão, flauta 1, flauta 2, flauta 3, flauta 4"@pt .
 <urn:uuid:instrumentations/1351958912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -250,18 +276,24 @@
 <urn:uuid:instrumentations/1399320588> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, trombone, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1404099984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1404099984> <http://www.w3.org/2004/02/skos/core#prefLabel> "caixeta"@pt .
+<urn:uuid:instrumentations/1404100396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1404100396> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavaquinho, violão, violão 7 cordas"@pt .
 <urn:uuid:instrumentations/1405757889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1405757889> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, bandoleom"@pt .
 <urn:uuid:instrumentations/1408363929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1408363929> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, sax tenor Bb 4, trombone, trompete Bb 1, trompete Bb 2, trompete Bb 3"@pt .
 <urn:uuid:instrumentations/1411454645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1411454645> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandolim, canto, cavaquinho, clarinete Bb, percussão, violão, violão 7 cordas"@pt .
+<urn:uuid:instrumentations/1432857498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1432857498> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, clarinete Bb, piano, saxofone alto, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1435625143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1435625143> <http://www.w3.org/2004/02/skos/core#prefLabel> "trompete Bb, baixo, piano, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, sax tenor Bb 4"@pt .
 <urn:uuid:instrumentations/1435716797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1435716797> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, voz - contralto 1, voz - contralto 2, voz - soprano 1, voz - soprano 2, voz - soprano solo"@pt .
 <urn:uuid:instrumentations/1437580432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1437580432> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, flauta, piano, sax alto Eb, trompa Bb, violino 1, violino 2"@pt .
+<urn:uuid:instrumentations/1439741733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1439741733> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, bateria, bombardino, clarinete, contrabaixo Bb, flautim, requinta, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1441946950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1441946950> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, violino"@pt .
 <urn:uuid:instrumentations/1444874263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -312,6 +344,8 @@
 <urn:uuid:instrumentations/1514024195> <http://www.w3.org/2004/02/skos/core#prefLabel> "saxofone tenor"@pt .
 <urn:uuid:instrumentations/1514345597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1514345597> <http://www.w3.org/2004/02/skos/core#prefLabel> "violão"@pt .
+<urn:uuid:instrumentations/1522103095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1522103095> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, flauta, piano, sax alto Eb, trompa Bb, violino 1, violino 2 ou oboé"@pt .
 <urn:uuid:instrumentations/1522497181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1522497181> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino C, bumbo, clarinete Bb, contrabaixo Eb, requinta Eb, sax alto Eb 1, sax alto Eb 3, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1527565541> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -322,10 +356,14 @@
 <urn:uuid:instrumentations/1534407871> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Bb, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1535338540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1535338540> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, flauta, piano, trombone, trompete Bb, violino, clarinete Bb"@pt .
+<urn:uuid:instrumentations/1541238784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1541238784> <http://www.w3.org/2004/02/skos/core#prefLabel> "contrabaixo Bb, contrabaixo Eb, barítono Bb, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, clarinete Eb, trombone 1, trombone 2, trombone 3, trompete Bb 1, trompete Bb 2, bateria, sax horn Eb 1, sax horn Eb 2, sax horn Eb 3, contrabaixo C, sax alto F, sax tenor C 1, sax tenor C 2, sax tenor C 3, saxofone alto"@pt .
 <urn:uuid:instrumentations/1541534639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1541534639> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino Bb, clarinete Bb, piano"@pt .
 <urn:uuid:instrumentations/1548644878> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1548644878> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavaquinho, flauta, violão"@pt .
+<urn:uuid:instrumentations/1559771185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1559771185> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavaquinho, clarinete, flauta, violão, violão 7 cordas"@pt .
 <urn:uuid:instrumentations/1560572639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1560572639> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete, flauta, piano, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1561256252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -336,12 +374,18 @@
 <urn:uuid:instrumentations/1582257954> <http://www.w3.org/2004/02/skos/core#prefLabel> "base, fagote, flauta"@pt .
 <urn:uuid:instrumentations/1582386825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1582386825> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandolim, base, clarinete Bb"@pt .
+<urn:uuid:instrumentations/1586025942> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1586025942> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, trombone, tuba, violino, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1586820753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1586820753> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandola, violão, tiple"@pt .
 <urn:uuid:instrumentations/1589382743> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1589382743> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Bb, flauta, trombone"@pt .
+<urn:uuid:instrumentations/1590399638> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1590399638> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb 1, clarinete Bb 2, fagote 1, fagote 2, flauta, órgão, trompa 1, trompa 2, trompete Bb 1, trompete Bb 2, violino 1, violino 2, voz - baixo, voz - contralto, voz - soprano, voz - tenor"@pt .
 <urn:uuid:instrumentations/1591836416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1591836416> <http://www.w3.org/2004/02/skos/core#prefLabel> "cavaquinho, clarinete, pandeiro, violão, violão 7 cordas"@pt .
+<urn:uuid:instrumentations/1592593500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1592593500> <http://www.w3.org/2004/02/skos/core#prefLabel> "canto, flauta"@pt .
 <urn:uuid:instrumentations/1593378939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1593378939> <http://www.w3.org/2004/02/skos/core#prefLabel> "trombone 1"@pt .
 <urn:uuid:instrumentations/1597302259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -370,20 +414,28 @@
 <urn:uuid:instrumentations/1613482027> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, fagote, flauta, oboé, trompa"@pt .
 <urn:uuid:instrumentations/1614659377> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1614659377> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete Bb, flauta, piano, sax tenor Bb"@pt .
+<urn:uuid:instrumentations/1618876238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1618876238> <http://www.w3.org/2004/02/skos/core#prefLabel> "canto, cello, clarinete, percussão, viola, violão, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1628152643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1628152643> <http://www.w3.org/2004/02/skos/core#prefLabel> "instrumentos em Bb"@pt .
 <urn:uuid:instrumentations/1630273374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1630273374> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bandolim, base, clarinete Bb 1, clarinete Bb 2, flauta 1, flauta 2, percussão, sax alto Eb 1, sax alto Eb 2, sax tenor Bb, sax tenor Bb 2, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1633923455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1633923455> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino, clarinete, contrabaixo Bb, saxofone"@pt .
+<urn:uuid:instrumentations/1639402176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1639402176> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, flauta, trompete Bb, violino 2 ou oboé"@pt .
 <urn:uuid:instrumentations/1640612903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1640612903> <http://www.w3.org/2004/02/skos/core#prefLabel> "acordeom"@pt .
 <urn:uuid:instrumentations/1651772691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1651772691> <http://www.w3.org/2004/02/skos/core#prefLabel> "instrumento em clave de fá, piano"@pt .
+<urn:uuid:instrumentations/1652552984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1652552984> <http://www.w3.org/2004/02/skos/core#prefLabel> "contrabaixo Bb, contrabaixo Eb, requinta Eb, sax alto Eb, bombardino solo em concerto, clarinete Bb 1, clarinete Bb 2, trombone em concerto, trompas Eb, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1654840789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1654840789> <http://www.w3.org/2004/02/skos/core#prefLabel> "base, clarinete Bb 1, clarinete Bb 2, flauta 1, flauta 2, sax alto Eb 1, sax alto Eb 2, sax tenor Bb, sax tenor Bb 2, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1660575516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1660575516> <http://www.w3.org/2004/02/skos/core#prefLabel> "tuba"@pt .
+<urn:uuid:instrumentations/1660721751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1660721751> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, flauta, piano, sax alto Eb, trombone, trompete Bb, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1661409059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1661409059> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, clarinete Bb, flauta, piano, piston, sax alto Eb, sax tenor Bb, trombone"@pt .
 <urn:uuid:instrumentations/1665111319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -394,6 +446,8 @@
 <urn:uuid:instrumentations/1670725019> <http://www.w3.org/2004/02/skos/core#prefLabel> "trompete Bb 3"@pt .
 <urn:uuid:instrumentations/1672751445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1672751445> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino C, contrabaixo Bb, contrabaixo Eb, requinta Eb, sax alto Eb, sax tenor Bb, bateria, clarinete Bb 1, clarinete Bb 2, flautim Db, sax horn Eb 1, sax horn Eb 2, sax horn Eb 3, trombone C 1, trombone C 2, trompete Bb 1, trompete Bb 2"@pt .
+<urn:uuid:instrumentations/1673243863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1673243863> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, piano, piston, sax alto Eb, sax tenor Bb, trombone, violino, tuba"@pt .
 <urn:uuid:instrumentations/1677012830> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1677012830> <http://www.w3.org/2004/02/skos/core#prefLabel> "base, clarinete, saxofone tenor, trompete Bb"@pt .
 <urn:uuid:instrumentations/1679637370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -424,14 +478,20 @@
 <urn:uuid:instrumentations/1716456286> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, contrabaixo Eb, percussão, requinta, sax alto Eb 1, sax alto Eb 2, sax alto Eb 3, sax alto Eb 4, sax barítono 1, sax barítono 2, trombone 1, trombone 2, trombone 3, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1720859797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1720859797> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bateria, bombardino, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, flautim, piano, requinta Eb, sax alto Eb 1, sax alto Eb 2, trompete Bb"@pt .
+<urn:uuid:instrumentations/1721253846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1721253846> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, cello, clarinete Bb, flauta, piano, trompa Bb, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1721654358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1721654358> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, canto, piston, saxofone alto, saxofone tenor, trombone"@pt .
 <urn:uuid:instrumentations/1722928696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1722928696> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 3, sax tenor Bb 2, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1731079459> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1731079459> <http://www.w3.org/2004/02/skos/core#prefLabel> "bombardino Bb, bombardino C, bumbo, caixa, clarinete Bb 1, clarinete Bb 2, clarinete Bb 3, flauta, prato, requinta Eb, sax alto Eb, sax barítono 5 Eb, sax horn Eb 1, sax horn Eb 2, sax horn Eb 3, sax tenor Bb, trombone C 1, trombone C 2, trombone C 3, trombone de canto Bb, trompete Bb 1, trompete Bb 2, trompete Bb 3, tuba Bb, tuba Eb"@pt .
+<urn:uuid:instrumentations/1731936226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1731936226> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, piston, saxofone tenor, trombone, violino, saxofone alto"@pt .
 <urn:uuid:instrumentations/1732803836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1732803836> <http://www.w3.org/2004/02/skos/core#prefLabel> "harmônica 2º grau"@pt .
+<urn:uuid:instrumentations/1734253218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1734253218> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, piston, sax tenor Bb"@pt .
 <urn:uuid:instrumentations/1736462266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1736462266> <http://www.w3.org/2004/02/skos/core#prefLabel> "base, clarinete Bb 1, clarinete Bb 2, flauta 1, flauta 2, percussão, sax alto Eb 1, sax alto Eb 2, sax tenor Bb, sax tenor Bb 2, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2"@pt .
 <urn:uuid:instrumentations/1739300273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -462,6 +522,8 @@
 <urn:uuid:instrumentations/1785954744> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, violão"@pt .
 <urn:uuid:instrumentations/1788088447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1788088447> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandolim, canto, cavaquinho, pandeiro, piano, violão 1, violão 2, violão 3"@pt .
+<urn:uuid:instrumentations/1790357988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1790357988> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bumbo, caixa, cello, fagote, flauta, oboé, viola, clarinete Bb 1, clarinete Bb 2, trombone 1, trombone 2, trompete Bb 1, trompete Bb 2, violino 1, violino 2"@pt .
 <urn:uuid:instrumentations/1793048134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1793048134> <http://www.w3.org/2004/02/skos/core#prefLabel> "base"@pt .
 <urn:uuid:instrumentations/1794058813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -480,6 +542,8 @@
 <urn:uuid:instrumentations/1807810034> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, bandolim, base, clarinete, flauta, sax alto Eb 1, sax alto Eb 2, saxofone tenor, trombone, trompete Bb"@pt .
 <urn:uuid:instrumentations/1808444489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1808444489> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandolim, clarinete Bb, violão"@pt .
+<urn:uuid:instrumentations/1811420474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1811420474> <http://www.w3.org/2004/02/skos/core#prefLabel> "requinta"@pt .
 <urn:uuid:instrumentations/1815250698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1815250698> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax alto Eb 2, sax tenor Bb, trombone, trompete Bb 1, trompete Bb 2, violino"@pt .
 <urn:uuid:instrumentations/1818952620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
@@ -532,6 +596,8 @@
 <urn:uuid:instrumentations/1878130855> <http://www.w3.org/2004/02/skos/core#prefLabel> "clarinete, trompete Bb"@pt .
 <urn:uuid:instrumentations/1880284410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1880284410> <http://www.w3.org/2004/02/skos/core#prefLabel> "bandola"@pt .
+<urn:uuid:instrumentations/1883379370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
+<urn:uuid:instrumentations/1883379370> <http://www.w3.org/2004/02/skos/core#prefLabel> "baixo, piano, sax alto Eb 1, sax tenor Bb 2, trombone 1, trombone 2, trompete Bb"@pt .
 <urn:uuid:instrumentations/1888111563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .
 <urn:uuid:instrumentations/1888111563> <http://www.w3.org/2004/02/skos/core#prefLabel> "piano, piston"@pt .
 <urn:uuid:instrumentations/1894304629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://lod.academy/melod/vocab/ontology#InstrumentationEntity> .

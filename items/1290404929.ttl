@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1290404929> a melod:Item;
+    rdfs:label "Naílson no frevo — Partitura melodia e cifra (score_11629)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1589357251>;
+    melod:hasClassificationOfManifestation "Printed copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bd2e74e13-edb4-4f57-5062-0c8cc51207ff;
+    melod:hasShelfmark "score_11629";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11629.pdf>;
+    melod:hasProvenance _:b83528fb5-f282-015c-e257-808fde826bb5;
+    dct:conformsTo melod:Item.
+
+_:bd2e74e13-edb4-4f57-5062-0c8cc51207ff a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11629".
+
+_:b83528fb5-f282-015c-e257-808fde826bb5 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bfb8c92f2-b18c-0b2e-62f0-1afcd10dbad5.
+
+_:bfb8c92f2-b18c-0b2e-62f0-1afcd10dbad5 a melod:ExactDate;
+    melod:isodate "2005-02-10"^^xsd:date;
+    schema:description "10.02.2005".

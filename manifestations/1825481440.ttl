@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1825481440> a melod:Manifestation;
+    melod:hasTitle _:bc6c69bbb-723d-4a7d-8b58-7c1f733c92b5;
+    lrmoo:R4_embodies <urn:uuid:expressions/1086331912>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bf69fdf16-bf63-7c23-526c-0f2d63e64b63;
+    schema:publication _:b4cc2a3ff-5e27-8f41-1af8-0e6123c790de;
+    dct:conformsTo melod:Manifestation.
+
+_:bc6c69bbb-723d-4a7d-8b58-7c1f733c92b5 a melod:Title;
+    rdfs:label "Maxixa, Thadeuzinho! — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf69fdf16-bf63-7c23-526c-0f2d63e64b63 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b4cc2a3ff-5e27-8f41-1af8-0e6123c790de a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1770278450> a melod:Item;
+    rdfs:label "Não venhas assim — Partitura melodia (score_260)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1632902211>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:baffeaf08-e5b4-cd18-a715-5857e3a21064;
+    melod:hasShelfmark "score_260";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_260.pdf>;
+    melod:hasHand _:ba88e9f1f-1cc7-7726-eaa1-32b064c22fd8;
+    dct:conformsTo melod:Item.
+
+_:baffeaf08-e5b4-cd18-a715-5857e3a21064 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_260".
+
+_:ba88e9f1f-1cc7-7726-eaa1-32b064c22fd8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1606846957>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Arnaldo Corrêa".

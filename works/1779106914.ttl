@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1779106914> a melod:Work;
+    melod:hasTitle _:b6ffe6f74-31ce-4821-34a8-8d4d9b4b2a52;
+    melod:hasIdentifier _:b32a22071-2723-6e2f-cf6e-628839e8d178;
+    melod:hasClassification "Batuque";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10147>;
+    melod:hasContribution _:b89cb2451-7fba-420d-cc6e-65fea9762688;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1048705137>;
+    melod:hasAnnotation _:bb6695eb4-1985-ba35-2cff-de85d057db91;
+    dct:conformsTo melod:Work.
+
+_:b6ffe6f74-31ce-4821-34a8-8d4d9b4b2a52 a melod:Title;
+    rdfs:label "Moana - Batuque Cabalístico"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b32a22071-2723-6e2f-cf6e-628839e8d178 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10147".
+
+_:b89cb2451-7fba-420d-cc6e-65fea9762688 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1220200166>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb6695eb4-1985-ba35-2cff-de85d057db91 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10147\">https://acervo.casadochoro.com.br/works/view/10147</a>. Gênero: Batuque. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

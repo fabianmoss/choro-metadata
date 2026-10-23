@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1529165201> a melod:Manifestation;
+    melod:hasTitle _:bd886238c-3a4f-3d26-38fe-75596556dc21;
+    lrmoo:R4_embodies <urn:uuid:expressions/1380406877>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b7faf68b5-8c51-24c4-1c37-d7d4ec747a7f;
+    schema:publication _:be5f4848f-62f7-b2fc-b636-5f07e59d08d1;
+    dct:conformsTo melod:Manifestation.
+
+_:bd886238c-3a4f-3d26-38fe-75596556dc21 a melod:Title;
+    rdfs:label "Não posso me amofinar — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b7faf68b5-8c51-24c4-1c37-d7d4ec747a7f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:be5f4848f-62f7-b2fc-b636-5f07e59d08d1 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.
