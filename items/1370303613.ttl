@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1370303613> a melod:Item;
     rdfs:label "Chorinhos didáticos nº5 — Partitura melodia e cifra (score_6689)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1022165027>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1005851934>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b78d20ac0-6f6f-ff2c-199b-fc8577489cdb;

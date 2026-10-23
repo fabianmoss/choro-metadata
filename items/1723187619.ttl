@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1723187619> a melod:Item;
     rdfs:label "Adieu — Partitura piano (score_4779)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1500978697>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1433635180>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7eec1387-41b0-fd66-f17b-a9c8f0abb980;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1770036715> a melod:Item;
     rdfs:label "Boas festas — Partitura piano (score_9810)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1615260963>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1445310785>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bded3f38a-d52b-17aa-08e8-4bb848ac1d2e;

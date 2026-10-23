@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1249945690> a melod:Manifestation;
+    melod:hasTitle _:bb099b644-9edc-fb36-7d57-255622e8d178;
+    lrmoo:R4_embodies <urn:uuid:expressions/1700502256>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bd7138bbc-1b3e-a0ec-de9f-8ebfa9da55fb;
+    schema:publication _:b7b4ce5de-fb38-135a-1273-bc9babdbcaa5;
+    dct:conformsTo melod:Manifestation.
+
+_:bb099b644-9edc-fb36-7d57-255622e8d178 a melod:Title;
+    rdfs:label "Desnorteada — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd7138bbc-1b3e-a0ec-de9f-8ebfa9da55fb a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b7b4ce5de-fb38-135a-1273-bc9babdbcaa5 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1836946807> a melod:Item;
     rdfs:label "Aida — Partitura piano (score_6257)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1174701304>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1171542594>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b63f8d223-1ffc-84ab-1156-dd2b29f95e16;

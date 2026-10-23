@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1067770526> a melod:Item;
     rdfs:label "Champagne — Partitura melodia e cifra (score_11672)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1635131092>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1426822023>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b26dc0c9f-85a8-62a9-d924-f9dc948f5a79;

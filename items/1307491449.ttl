@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1307491449> a melod:Item;
     rdfs:label "Alberto no choro — Partitura melodia (score_3415)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1589610376>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1078483163>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc0f3452d-f7fc-a906-69ff-a13258fb358d;

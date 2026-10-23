@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1223056975> a melod:Item;
     rdfs:label "Antes tarde do que nunca — Partitura melodia e cifra (score_10437)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1024324726>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1235920480>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b757d4c93-dfd0-d00a-fba1-8c1b1e571511;

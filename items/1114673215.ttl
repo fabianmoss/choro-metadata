@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1114673215> a melod:Item;
     rdfs:label "Carico — Partitura melodia (score_10921)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1147403490>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1404327064>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0cb10751-1bc5-18c2-7fe7-fae72eb9a00d;

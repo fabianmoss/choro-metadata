@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1575876459> a melod:Item;
     rdfs:label "Amor não se compra — Partitura melodia (score_5400)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1579958392>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1509546802>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b097ae4a8-1ae2-1000-c916-763aad8c5ff7;

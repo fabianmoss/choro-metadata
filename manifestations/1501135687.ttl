@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1501135687> a melod:Manifestation;
+    melod:hasTitle _:bdfab4c12-7e23-d209-c435-533cc948feb4;
+    lrmoo:R4_embodies <urn:uuid:expressions/1817037503>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bcd6bc4b0-d075-aabb-4bd4-74f27d9b58e0;
+    schema:publication _:bbd8740bd-ba50-ff8b-41e5-ae8beed2a1b5;
+    dct:conformsTo melod:Manifestation.
+
+_:bdfab4c12-7e23-d209-c435-533cc948feb4 a melod:Title;
+    rdfs:label "Choro pro Luis — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bcd6bc4b0-d075-aabb-4bd4-74f27d9b58e0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bbd8740bd-ba50-ff8b-41e5-ae8beed2a1b5 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

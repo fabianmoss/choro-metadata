@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1734282132> a melod:Item;
     rdfs:label "Bigodinho — Partitura arranjo para pequena orquestra (score_8003)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1644669904>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1634238289>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b45c8030b-1890-a7a3-10c3-a3bd4ff149e1;

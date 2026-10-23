@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1482401182> a melod:Item;
     rdfs:label "As minas de ouro — Partitura piano (score_5363)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1375036835>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1231138420>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b381576e9-5206-2738-c425-d6a8f0edbf3a;

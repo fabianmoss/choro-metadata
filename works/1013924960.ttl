@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1013924960> a melod:Work;
+    melod:hasTitle _:b615117fc-83a3-3689-eff8-2b7358702e12;
+    melod:hasIdentifier _:b0ac217e4-83ed-4049-6f8e-0453030eec90;
+    melod:hasClassification "Sertaneja";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2867>;
+    melod:hasContribution _:b95d22608-45af-a6fd-3e75-9aeea15170e9;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1690599306>;
+    melod:hasAnnotation _:bd73b60c8-7d73-292c-f763-0cb99705495d;
+    dct:conformsTo melod:Work.
+
+_:b615117fc-83a3-3689-eff8-2b7358702e12 a melod:Title;
+    rdfs:label "Coruquerê"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0ac217e4-83ed-4049-6f8e-0453030eec90 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2867".
+
+_:b95d22608-45af-a6fd-3e75-9aeea15170e9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1777888870>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd73b60c8-7d73-292c-f763-0cb99705495d a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2867\">https://acervo.casadochoro.com.br/works/view/2867</a>. Gênero: Sertaneja. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

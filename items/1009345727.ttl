@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1009345727> a melod:Item;
     rdfs:label "Brinde — Partitura melodia e cifra (score_11608)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1460564045>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1628620597>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba1d43561-e836-b273-8a84-ac40e9bf1760;

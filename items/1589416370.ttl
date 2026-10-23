@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1589416370> a melod:Item;
+    rdfs:label "Em ti pensando — Partitura melodia (score_1936)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1043173421>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bef491427-5db8-8a74-f268-124e142a9670;
+    melod:hasShelfmark "score_1936";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1936.pdf>;
+    melod:hasHand _:b3b47b6b3-b9e4-4eb0-7cce-1abb7d3f8c5a;
+    melod:hasProvenance _:bb2382b11-d3f9-6158-597b-044c5387005f;
+    dct:conformsTo melod:Item.
+
+_:bef491427-5db8-8a74-f268-124e142a9670 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1936".
+
+_:b3b47b6b3-b9e4-4eb0-7cce-1abb7d3f8c5a a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1265511671>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por de Mário Peixoto".
+
+_:bb2382b11-d3f9-6158-597b-044c5387005f a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bdf549304-faad-c5f5-36d8-0efa7c6a462d.
+
+_:bdf549304-faad-c5f5-36d8-0efa7c6a462d a melod:ExactDate;
+    melod:isodate "1914-08-28"^^xsd:date;
+    schema:description "28.08.1914".

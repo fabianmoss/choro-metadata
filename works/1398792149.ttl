@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1398792149> a melod:Work;
+    melod:hasTitle _:b902dd14b-88ad-032d-002b-0c88b3d95169;
+    melod:hasIdentifier _:b8e93a4c3-d93c-e993-d956-aadc7bfbc852;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7406>;
+    melod:hasContribution _:b59c0b204-c081-5d1b-80fb-f1ffb7fd4a07;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1403465525>;
+    melod:hasAnnotation _:b06d6ff60-d3ae-03b9-47ed-e7f0926d309c;
+    dct:conformsTo melod:Work.
+
+_:b902dd14b-88ad-032d-002b-0c88b3d95169 a melod:Title;
+    rdfs:label "Declaração"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8e93a4c3-d93c-e993-d956-aadc7bfbc852 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7406".
+
+_:b59c0b204-c081-5d1b-80fb-f1ffb7fd4a07 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1701140100>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b06d6ff60-d3ae-03b9-47ed-e7f0926d309c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7406\">https://acervo.casadochoro.com.br/works/view/7406</a>. Gênero: Não informado. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

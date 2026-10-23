@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1568587015> a melod:Item;
     rdfs:label "Bagda — Partitura arranjo com cifra (score_14844)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1122987966>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1232682595>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bba489901-3f1e-983e-2a4a-9517e0b1860f;

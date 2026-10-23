@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1618609961> a melod:Item;
+    rdfs:label "Elsa — Partitura piano (score_2959)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1563251512>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bb6a6d88e-675f-0d68-2780-6549f90be146;
+    melod:hasShelfmark "score_2959";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2959.pdf>;
+    melod:hasHand _:ba09b316c-55ea-d1e5-a396-80a6975669cd;
+    melod:hasProvenance _:b233ae589-6a46-9569-9db4-ea1dbeedd2a0;
+    dct:conformsTo melod:Item.
+
+_:bb6a6d88e-675f-0d68-2780-6549f90be146 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2959".
+
+_:ba09b316c-55ea-d1e5-a396-80a6975669cd a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b233ae589-6a46-9569-9db4-ea1dbeedd2a0 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b4dadde32-b138-74c4-a148-abaec01a00be.
+
+_:b4dadde32-b138-74c4-a148-abaec01a00be a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

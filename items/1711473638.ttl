@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1711473638> a melod:Item;
     rdfs:label "Bidinha — Partitura melodia (score_1967)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1879033962>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1283384884>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b282331ab-1210-1720-3862-1f5daf655f4a;

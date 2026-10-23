@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1679414376> a melod:Item;
     rdfs:label "Cassíada — Partitura piano (score_8335)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1376390069>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1615981156>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b52b56fd3-1a5d-9ac4-381f-0eedca8ba02b;

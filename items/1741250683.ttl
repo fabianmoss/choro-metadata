@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1741250683> a melod:Item;
     rdfs:label "Aproveita a hora — Partitura melodia e cifra (score_11387)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1592028604>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1686742025>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6bb31845-2230-0a57-08d4-ac4b7e1392da;

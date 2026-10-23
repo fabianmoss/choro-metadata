@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1129160846> a melod:Item;
     rdfs:label "Amo-te — Partitura melodia e cifra (score_12729)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1853974280>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1060389025>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bef16690d-dcec-faf3-59ca-bd490bdd216c;

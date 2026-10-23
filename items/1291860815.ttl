@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1291860815> a melod:Item;
     rdfs:label "Atrativa — Partitura melodia (score_1565)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1586978236>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1857680927>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1476f9c3-d2dd-cfe8-3ee4-fab53102ec9b;

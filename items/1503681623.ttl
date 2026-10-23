@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1503681623> a melod:Item;
     rdfs:label "Amélia — Partitura melodia (score_5294)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1869252107>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1396182186>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5f61cde5-a72f-afa7-d873-11fb7718f2d8;

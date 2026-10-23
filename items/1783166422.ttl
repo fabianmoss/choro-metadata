@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1783166422> a melod:Item;
     rdfs:label "Cervantes — Partitura melodia e cifra (score_11669)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1850122398>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1004458418>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b738b096c-ceae-bdbf-9b03-6cc2ce6c2334;

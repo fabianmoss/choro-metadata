@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1109814615> a melod:Manifestation;
+    melod:hasTitle _:bf96db1d0-48b9-b6bd-4ab0-21c53f7c7fc1;
+    lrmoo:R4_embodies <urn:uuid:expressions/1882737845>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b09197bb3-c530-2f57-4d39-1bb18e859a76;
+    schema:publication _:b7825742f-9ef1-d2e2-9a78-e37d0f7e91d8;
+    dct:conformsTo melod:Manifestation.
+
+_:bf96db1d0-48b9-b6bd-4ab0-21c53f7c7fc1 a melod:Title;
+    rdfs:label "Edu na Fandanga — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b09197bb3-c530-2f57-4d39-1bb18e859a76 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b7825742f-9ef1-d2e2-9a78-e37d0f7e91d8 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

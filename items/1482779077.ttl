@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1482779077> a melod:Item;
     rdfs:label "Bijou — Partitura piano (score_3636)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1350513052>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1263318390>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc4cbd0c1-71f9-d2ae-5a6d-8ff0dd913bbd;

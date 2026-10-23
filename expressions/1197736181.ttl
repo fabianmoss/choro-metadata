@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1197736181> a melod:Expression;
+    rdfs:label "Dança de índios (original version, Partitura piano)";
+    melod:hasClassification "Caboclinho";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bc8c7e1f1-0f39-b236-b296-6b3186abbdf3;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:b693e5843-2db4-7055-5c93-a2049888b68b;
+    dct:conformsTo melod:Expression.
+
+_:bc8c7e1f1-0f39-b236-b296-6b3186abbdf3 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b693e5843-2db4-7055-5c93-a2049888b68b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1018576327>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1222125881> a melod:Item;
     rdfs:label "Chorinho C — Partitura cifra (score_8765)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1505986702>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1652944999>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be674c863-834d-a6d8-262d-31b3aa90ec9d;

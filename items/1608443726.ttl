@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1608443726> a melod:Item;
     rdfs:label "Amor perdido — Partitura melodia e cifra (score_10680)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1411131959>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1363546656>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba9a9f157-6735-8a05-506f-dab8ed8a1da2;

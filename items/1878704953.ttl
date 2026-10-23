@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1878704953> a melod:Item;
     rdfs:label "Arnaldo Corrêa — Partitura melodia e cifra (score_12851)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1240609389>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1609339086>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0edccf88-68f8-45b0-f201-f6b07db93d2c;

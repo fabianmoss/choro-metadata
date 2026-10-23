@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1898027770> a melod:Item;
     rdfs:label "Antonina — Partitura melodia (score_388)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1031227253>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1398259378>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b594f8ca4-9c77-e6ef-251c-e9c12a12b3fa;

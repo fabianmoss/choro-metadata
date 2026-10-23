@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1140843006> a melod:Item;
     rdfs:label "Apologista — Partitura melodia (score_1682)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1295661667>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1105951553>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b69c96392-62b8-547c-2b9f-4ec2e9b372e3;

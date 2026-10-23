@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1717677984> a melod:Manifestation;
+    melod:hasTitle _:beaa076ad-b64a-0760-e9f5-fd0c60cb5374;
+    lrmoo:R4_embodies <urn:uuid:expressions/1821122061>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    dct:conformsTo melod:Manifestation.
+
+_:beaa076ad-b64a-0760-e9f5-fd0c60cb5374 a melod:Title;
+    rdfs:label "Comigo é na chincha! — Partitura piano (edition by Sampaio Araujo & C.)";
+    melod:hasTitleType terms:MainTitle.

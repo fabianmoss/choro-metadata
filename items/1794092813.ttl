@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1794092813> a melod:Item;
     rdfs:label "Arrumadinho — Partitura melodia e cifra (score_11396)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1381991221>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1251651352>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b91077c96-4a30-0078-d2f3-05c57e1307e0;

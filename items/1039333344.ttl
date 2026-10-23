@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1039333344> a melod:Item;
     rdfs:label "Candoca — Partitura melodia (score_1687)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090682585>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1734624342>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b802a8eb1-bd51-b037-6d53-1d927090ee5a;

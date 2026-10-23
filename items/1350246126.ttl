@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1350246126> a melod:Item;
     rdfs:label "Adílio — Partitura melodia e cifra (score_11295)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1493377912>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1426187372>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1a7b7efc-921a-1175-a5c3-cc63056f0a7e;

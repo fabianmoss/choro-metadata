@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1454116039> a melod:Item;
     rdfs:label "Alberto Borgheth — Partitura melodia e cifra (score_11301)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1411239307>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1556185088>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcfbf070c-967e-876d-0d86-e0d0727ad19f;

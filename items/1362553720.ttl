@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1362553720> a melod:Item;
     rdfs:label "As andorinhas — Partitura piano (score_72)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1302889628>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1561194073>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60b2a8f8-8c2f-2f8f-6371-74ca9ff792ab;

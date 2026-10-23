@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1292739163> a melod:Item;
+    rdfs:label "Colônia de São Firmino — Partitura arranjo (score_9848)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590378251>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b612d87dd-da09-b7cc-c888-0c9f0a664d74;
+    melod:hasShelfmark "score_9848";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9848.pdf>;
+    melod:hasProvenance _:b4f88ac1a-5371-8608-64a6-25806ad7b326;
+    dct:conformsTo melod:Item.
+
+_:b612d87dd-da09-b7cc-c888-0c9f0a664d74 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9848".
+
+_:b4f88ac1a-5371-8608-64a6-25806ad7b326 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b72162a17-e40b-b3cf-4fe4-dde915f3b821.
+
+_:b72162a17-e40b-b3cf-4fe4-dde915f3b821 a melod:ExactDate;
+    melod:isodate "2001-12-10"^^xsd:date;
+    schema:description "10.12.2001".

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1412242653> a melod:Manifestation;
+    melod:hasTitle _:b6d04fe4b-0e55-5b82-3266-071c2d18b7ef;
+    lrmoo:R4_embodies <urn:uuid:expressions/1785930539>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b282c481b-7d2e-767c-d058-af2a4f38fa6c;
+    dct:conformsTo melod:Manifestation.
+
+_:b6d04fe4b-0e55-5b82-3266-071c2d18b7ef a melod:Title;
+    rdfs:label "Aurora — Partitura piano (edition Carlos Wehrs)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b282c481b-7d2e-767c-d058-af2a4f38fa6c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1578785434>;
+    melod:hasRole terms:Publisher.

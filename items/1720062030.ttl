@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1720062030> a melod:Item;
     rdfs:label "Aurora — Partitura melodia (score_751)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1062688640>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1725536478>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb938b40a-bef7-12b5-a682-b4e441468f14;

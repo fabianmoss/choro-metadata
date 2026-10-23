@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1722228756> a melod:Item;
     rdfs:label "Camões — Partitura arranjo (score_4665)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1502816413>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1255062564>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb293e9ce-4035-5bdb-ef4f-37b1522df791;

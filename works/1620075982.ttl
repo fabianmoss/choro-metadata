@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1620075982> a melod:Work;
+    melod:hasTitle _:b9603a7c8-9bf9-d845-2f02-eec4ee1f7b3c;
+    melod:hasIdentifier _:beb267a16-5e99-028b-0432-380c37128429;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9498>;
+    melod:hasContribution _:bc80f037d-9c01-5617-380a-e2d8aad16008;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1181173731>;
+    melod:hasAnnotation _:ba8a22a46-8dab-e438-2c8a-0c8fcf9a36b4;
+    dct:conformsTo melod:Work.
+
+_:b9603a7c8-9bf9-d845-2f02-eec4ee1f7b3c a melod:Title;
+    rdfs:label "Dilsinho no choro"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:beb267a16-5e99-028b-0432-380c37128429 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9498".
+
+_:bc80f037d-9c01-5617-380a-e2d8aad16008 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1309483919>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba8a22a46-8dab-e438-2c8a-0c8fcf9a36b4 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9498\">https://acervo.casadochoro.com.br/works/view/9498</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

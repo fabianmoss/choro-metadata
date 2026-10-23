@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1654662865> a melod:Item;
     rdfs:label "Chorando — Partitura melodia (score_975)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1574277085>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1035936521>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5141487f-6262-54e2-7fa3-d06076770131;

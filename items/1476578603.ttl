@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1476578603> a melod:Item;
     rdfs:label "Benzinho — Partitura melodia e cifra (score_10876)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1286656746>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1283916864>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8a9e568b-a155-c352-1340-60f65418948b;

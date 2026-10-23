@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1761995692> a melod:Item;
     rdfs:label "Chico Boia — Partitura piano (score_1993)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1651187411>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1352781862>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b05674209-82de-ff93-647e-e5b9a5f7c928;

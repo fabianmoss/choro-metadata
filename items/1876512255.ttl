@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1876512255> a melod:Item;
     rdfs:label "Bela Paulista — Partitura piano (score_2872)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1028720599>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1607319123>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b255146c2-404b-d5ef-beea-cb4047da418a;

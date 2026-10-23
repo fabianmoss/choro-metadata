@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1085125508> a melod:Item;
     rdfs:label "Bendito Benedito — Partitura melodia e cifra (score_15830)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1813793885>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1525126763>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6b782149-6501-75d5-0386-eda62e0f2c7f;

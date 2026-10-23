@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1709584557> a melod:Item;
     rdfs:label "Cheirava-te — Partitura melodia e cifra (score_232)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1512023313>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1071551782>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba95e1c76-3c95-1e38-dab7-f67b30e090d6;

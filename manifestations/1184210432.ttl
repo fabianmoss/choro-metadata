@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1184210432> a melod:Manifestation;
+    melod:hasTitle _:b3bf7848a-b20d-3886-b12a-9b68b5ec7a09;
+    lrmoo:R4_embodies <urn:uuid:expressions/1040071060>;
+    melod:hasClassificationOfManifestation "Partitura bandolim", terms:Print;
+    melod:hasContribution _:bc36254a1-1ed3-d26b-27fe-d99f20436511;
+    schema:publication _:b4bcbe4dd-5867-5cc3-67ff-f9da83999d5c;
+    dct:conformsTo melod:Manifestation.
+
+_:b3bf7848a-b20d-3886-b12a-9b68b5ec7a09 a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO — Partitura bandolim (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bc36254a1-1ed3-d26b-27fe-d99f20436511 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b4bcbe4dd-5867-5cc3-67ff-f9da83999d5c a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1766371155> a melod:Item;
     rdfs:label "A batuta — Partitura piano (score_8242)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1213262358>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1399457495>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0113f34b-c609-e9ec-9d55-7fe717f2e28c;

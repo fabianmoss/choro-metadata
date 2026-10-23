@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1164115013> a melod:Item;
     rdfs:label "Alaide — Partitura piano (score_2796)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1825544327>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1532852430>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be71ed62f-96c5-af1d-5b2d-ab9099f0821b;

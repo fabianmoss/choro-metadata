@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1832793084> a melod:Item;
     rdfs:label "Amazônia — Partitura piano (score_6350)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1888649621>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1551922226>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf61d59a5-913a-551d-3219-43cce71b806b;

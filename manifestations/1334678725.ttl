@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1334678725> a melod:Manifestation;
+    melod:hasTitle _:bbf288154-8b43-247f-6c9a-3dd0e265000d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1397002716>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra", terms:Print;
+    melod:hasContribution _:badf0ba29-0261-9937-808f-b922f1385041;
+    dct:conformsTo melod:Manifestation.
+
+_:bbf288154-8b43-247f-6c9a-3dd0e265000d a melod:Title;
+    rdfs:label "Deus! Salve o Brasil! — Partitura arranjo com letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:badf0ba29-0261-9937-808f-b922f1385041 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

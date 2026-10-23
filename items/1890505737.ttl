@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1890505737> a melod:Item;
     rdfs:label "Atirada — Partitura melodia e cifra (score_13230)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1365447195>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1099812614>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5a783c23-1d2a-8a53-36af-52d32f4a9a28;

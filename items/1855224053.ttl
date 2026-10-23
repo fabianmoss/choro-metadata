@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1855224053> a melod:Item;
     rdfs:label "A origem da dor — Partitura melodia e cifra (score_13909)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1860524820>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1730354150>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bac9ad258-2666-5e95-af3a-0b032575cd7d;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1690300275> a melod:Item;
     rdfs:label "Chansong — Partitura melodia e cifra (score_14795)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1039196268>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1637272509>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1760fd32-b233-045c-7a65-082c0c1cd2bf;

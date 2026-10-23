@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1563182116> a melod:Item;
     rdfs:label "A dengosa — Partitura melodia (score_848)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1789653431>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1186872872>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b676d03e5-9527-f665-c8ab-11882c4f18b2;

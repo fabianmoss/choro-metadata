@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1830725568> a melod:Item;
     rdfs:label "Bebê — Partitura melodia e cifra (score_10757)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1439505540>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1055640179>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b084cc70e-75b3-c8ba-f31b-82613cedaab7;

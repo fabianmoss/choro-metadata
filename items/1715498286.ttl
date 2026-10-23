@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1715498286> a melod:Item;
     rdfs:label "Arrependimento — Partitura melodia (score_4092)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1112005764>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1155003437>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf2ee3442-8dd3-3f70-5efb-e33fdb4c8e0e;

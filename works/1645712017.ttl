@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1645712017> a melod:Work;
+    melod:hasTitle _:ba882a372-aea5-8617-6ede-c5407213ee16;
+    melod:hasIdentifier _:b2d30f773-b946-bcfb-e337-578755b13e10;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2015>;
+    melod:hasContribution _:b7746412c-4132-9d91-5aa9-22e534433287;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1722735021>, <urn:uuid:expressions/1333570242>;
+    melod:hasAnnotation _:b6b484fdb-8245-b048-24b6-f1079312ab89;
+    dct:conformsTo melod:Work.
+
+_:ba882a372-aea5-8617-6ede-c5407213ee16 a melod:Title;
+    rdfs:label "Dorinha meu amor!"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b2d30f773-b946-bcfb-e337-578755b13e10 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2015".
+
+_:b7746412c-4132-9d91-5aa9-22e534433287 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1890060245>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6b484fdb-8245-b048-24b6-f1079312ab89 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2015\">https://acervo.casadochoro.com.br/works/view/2015</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

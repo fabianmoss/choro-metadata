@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1820721257> a melod:Item;
     rdfs:label "Celinha — Partitura melodia e cifra (score_12893)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1426539423>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1397415146>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b625b0756-a522-d800-d5ac-37e05d1364f2;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1245226843> a melod:Item;
     rdfs:label "Chorinhos didáticos nº3 — Partitura melodia e cifra (score_6700)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1839459915>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1193868226>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1ef3f255-310b-17aa-bc4c-285a249c318d;

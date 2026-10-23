@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1807130187> a melod:Item;
     rdfs:label "A predileta — Partitura piano (score_2300)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1073259064>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1267154043>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb403d4fa-edcd-b4cd-2b48-2b63ad0cd4a6;

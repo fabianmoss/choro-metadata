@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1410143706> a melod:Manifestation;
+    melod:hasTitle _:b701c4ca8-0c0e-f753-c9c4-19a674ff4226;
+    lrmoo:R4_embodies <urn:uuid:expressions/1574041488>;
+    melod:hasClassificationOfManifestation "Partitura sax alto 1", terms:Print;
+    melod:hasContribution _:b83c8f449-b682-2f81-7a2a-752d66925c87;
+    schema:publication _:b8b7704f9-4a05-7a13-fe65-c2c7e6b17da2;
+    dct:conformsTo melod:Manifestation.
+
+_:b701c4ca8-0c0e-f753-c9c4-19a674ff4226 a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO — Partitura sax alto 1 (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b83c8f449-b682-2f81-7a2a-752d66925c87 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b8b7704f9-4a05-7a13-fe65-c2c7e6b17da2 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

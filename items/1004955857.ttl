@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1004955857> a melod:Item;
     rdfs:label "Aristocrata — Partitura melodia (score_815)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1407499255>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1692517352>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfc4783ae-9a68-67b5-660f-f3726bee1661;

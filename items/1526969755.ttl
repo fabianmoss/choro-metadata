@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1526969755> a melod:Item;
     rdfs:label "A bela jardineira — Partitura piano (score_3634)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1750081241>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1506386948>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b607d952e-d4ee-e612-c2ad-5e1f5eaea3a0;

@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1035500828> a melod:Item;
+    rdfs:label "Devaneio — Partitura melodia (score_7633)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1033315604>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:be1def403-1260-8702-6cf2-4e5a62d8da7e;
+    melod:hasShelfmark "score_7633";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7633.pdf>;
+    melod:hasProvenance _:b813b032d-3ee8-f47f-2e91-f8efa4465c95;
+    dct:conformsTo melod:Item.
+
+_:be1def403-1260-8702-6cf2-4e5a62d8da7e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7633".
+
+_:b813b032d-3ee8-f47f-2e91-f8efa4465c95 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd3d7dae3-65b0-4e92-1ef1-060e197dc8bf;
+    melod:hasContribution _:ba2ae745e-9735-e7ad-0427-77175da620c7.
+
+_:bd3d7dae3-65b0-4e92-1ef1-060e197dc8bf a melod:ExactDate;
+    melod:isodate "2004-01-21"^^xsd:date;
+    schema:description "21.01.2004".
+
+_:ba2ae745e-9735-e7ad-0427-77175da620c7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1195276158>;
+    melod:hasRole terms:Transcriber.

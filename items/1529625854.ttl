@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1529625854> a melod:Item;
     rdfs:label "Alfenas — Partitura piano (score_4372)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1435019722>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1041651418>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b70da23b9-aa67-5e81-8492-93fc877de227;

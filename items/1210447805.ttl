@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1210447805> a melod:Item;
     rdfs:label "Amor gentil — Partitura piano (score_2378)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1858027357>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1685247061>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdca75c84-707a-00b5-b48f-e39718657626;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1572415424> a melod:Item;
     rdfs:label "Choro pro Luis — Partitura melodia e cifra (score_13204)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1526721533>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1501135687>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b337de0be-fcbe-c5b1-c72c-f2945dfd2595;

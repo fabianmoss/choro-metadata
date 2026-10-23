@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1807353563> a melod:Item;
     rdfs:label "Arnolina — Partitura melodia (score_438)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1341864635>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1631749922>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd07e817a-f419-ec76-e4e7-727fbb8fa053;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1452454412> a melod:Item;
     rdfs:label "Amor — Partitura piano e letra (score_8272)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1148247741>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1154101866>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b612dcff1-bbaa-6158-e358-02e840a134ea;

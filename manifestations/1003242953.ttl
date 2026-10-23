@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1003242953> a melod:Manifestation;
+    melod:hasTitle _:b72bd0fdb-8f19-11ea-110f-07374c72aa4e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1215609698>;
+    melod:hasClassificationOfManifestation "Partitura bandolim", terms:Print;
+    melod:hasContribution _:b67c4940e-d248-1ebe-4e46-cf430d246255;
+    schema:publication _:b80add746-1429-9d1c-63ec-0dca2d19df06;
+    dct:conformsTo melod:Manifestation.
+
+_:b72bd0fdb-8f19-11ea-110f-07374c72aa4e a melod:Title;
+    rdfs:label "César, o belo_BANDÃO — Partitura bandolim (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b67c4940e-d248-1ebe-4e46-cf430d246255 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b80add746-1429-9d1c-63ec-0dca2d19df06 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

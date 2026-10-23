@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1574989219> a melod:Item;
     rdfs:label "Cafuné — Partitura melodia e cifra (score_10511)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560159005>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1260790395>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b16256c20-a83b-3160-0d0c-0a398a67b82e;

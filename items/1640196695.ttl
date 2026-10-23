@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1640196695> a melod:Item;
     rdfs:label "A meia noite — Partitura piano (score_3747)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1216793169>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1171515741>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b09d80ee3-aa6a-ab05-cfca-7942cb95d78c;

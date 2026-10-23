@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1105311698> a melod:Item;
     rdfs:label "Araribóia — Partitura melodia (score_2169)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1745368227>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1401925859>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1b45eb39-0e52-4c62-57db-1c4a209b0ca3;

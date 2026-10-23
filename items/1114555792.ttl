@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1114555792> a melod:Item;
     rdfs:label "A mulher do bode — Partitura cifra (score_10967)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818585309>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1655030585>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b56f27fa3-a0f3-08e6-6a8b-68beb633dd07;

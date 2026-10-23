@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1238944176> a melod:Item;
     rdfs:label "Altair — Partitura melodia (score_7626)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1629279274>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1056022153>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b356abc36-d11f-0a3b-732d-537405480509;

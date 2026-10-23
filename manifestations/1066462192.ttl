@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1066462192> a melod:Manifestation;
+    melod:hasTitle _:be389a593-fdd3-6ea2-b37e-70f086faaa62;
+    lrmoo:R4_embodies <urn:uuid:expressions/1548042132>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b71323371-4fd8-20cc-1f83-1d5ccb7c25ed;
+    dct:conformsTo melod:Manifestation.
+
+_:be389a593-fdd3-6ea2-b37e-70f086faaa62 a melod:Title;
+    rdfs:label "Adalgisa — Partitura piano (edition Préalle & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b71323371-4fd8-20cc-1f83-1d5ccb7c25ed a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1093013466>;
+    melod:hasRole terms:Publisher.

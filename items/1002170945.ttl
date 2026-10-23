@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1002170945> a melod:Item;
     rdfs:label "Brumas — Partitura piano (score_2317)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1870636345>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1562492993>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b92caf312-9536-b1b3-64b1-a667181f21b3;

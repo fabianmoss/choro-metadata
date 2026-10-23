@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1641063406> a melod:Item;
     rdfs:label "Aperto de mão — Partitura melodia, cifra e letra (score_6980)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1798945220>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1388047335>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdac0285f-755e-00fb-d369-84bd9e0215bb;

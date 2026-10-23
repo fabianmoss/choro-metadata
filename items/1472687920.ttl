@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1472687920> a melod:Item;
     rdfs:label "Bira na quinta — Partitura melodia e cifra (score_8965)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1688006655>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1211102181>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5bb16001-9470-933c-89f2-27e879803c93;

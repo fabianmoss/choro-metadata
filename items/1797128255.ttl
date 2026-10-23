@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1797128255> a melod:Item;
     rdfs:label "Cauhã — Partitura melodia e cifra (score_14073)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1605109533>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1194495247>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b580379ba-c818-f2fb-e78a-ec59a23401ab;

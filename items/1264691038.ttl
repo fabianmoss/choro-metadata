@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1264691038> a melod:Item;
     rdfs:label "Ary — Partitura melodia (score_4004)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577641475>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1146280753>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b148ad54a-fee8-5c13-3342-b365abfe4669;

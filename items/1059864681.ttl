@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1059864681> a melod:Item;
     rdfs:label "Atlântico — Partitura melodia e cifra (score_4798)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1493243711>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1449340977>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb246f41f-b549-9852-d78c-b33b5173301f;

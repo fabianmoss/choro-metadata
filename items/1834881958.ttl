@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1834881958> a melod:Item;
     rdfs:label "Choro do Cazuza — Partitura melodia (score_4061)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1708910586>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560991308>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b10c138c1-e496-4c33-34af-4f69a4b963ae;

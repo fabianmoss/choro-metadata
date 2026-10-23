@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1840329510> a melod:Item;
     rdfs:label "Bouquet — Partitura melodia (score_226)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1237979184>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1582955758>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbf14c3ab-adbc-67af-146d-90dd656a90b4;

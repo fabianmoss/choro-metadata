@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1793801683> a melod:Item;
     rdfs:label "Chapéu palheta — Partitura melodia (score_8686)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1264689286>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1148465306>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2d08fe71-3eef-cb1e-5a50-86e3c0033b90;

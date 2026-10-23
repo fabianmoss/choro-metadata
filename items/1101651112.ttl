@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1101651112> a melod:Item;
     rdfs:label "Buliçoso — Partitura melodia (score_5753)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1505686069>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1314622386>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be37e56c0-af3f-2875-0653-4d3deee6a225;

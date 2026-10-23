@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1857384319> a melod:Work;
+    melod:hasTitle _:bfc2da7f2-e028-2e09-67ef-e6ae746bf3d6;
+    melod:hasIdentifier _:b136182ea-82b2-496c-efa1-a701b9c10115;
+    melod:hasClassification "One-Step";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8064>;
+    melod:hasContribution _:b8e24693c-2752-2b60-c1c8-103b2a3d4e06;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1764755497>;
+    melod:hasAnnotation _:bd3d03478-5fa0-9dfc-ec63-0e4b2fb0fae1;
+    dct:conformsTo melod:Work.
+
+_:bfc2da7f2-e028-2e09-67ef-e6ae746bf3d6 a melod:Title;
+    rdfs:label "Constantinopla"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b136182ea-82b2-496c-efa1-a701b9c10115 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8064".
+
+_:b8e24693c-2752-2b60-c1c8-103b2a3d4e06 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1364309338>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd3d03478-5fa0-9dfc-ec63-0e4b2fb0fae1 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8064\">https://acervo.casadochoro.com.br/works/view/8064</a>. Gênero: One-Step. Compasso: 6/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

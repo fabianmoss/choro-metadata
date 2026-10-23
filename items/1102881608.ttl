@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1102881608> a melod:Item;
     rdfs:label "Amorosa — Partitura melodia e cifra (score_13659)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1588540037>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1441753289>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b66be197c-b699-ac43-6103-113849be6e80;

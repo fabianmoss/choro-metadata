@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1689759122> a melod:Item;
     rdfs:label "Chave de ouro — Partitura piano (score_4864)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1215176441>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1683081629>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdd265809-b21d-5640-2f72-c916faee182c;

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1718146280> a melod:Item;
+    rdfs:label "Com que roupa — Partitura cifra (score_9518)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1269169547>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b984022db-d41d-5b01-0eb8-c4bcd9c3590c;
+    melod:hasShelfmark "score_9518";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9518.pdf>;
+    melod:hasHand _:b7397d744-08b5-4d78-d085-72083a8c72c7;
+    dct:conformsTo melod:Item.
+
+_:b984022db-d41d-5b01-0eb8-c4bcd9c3590c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9518".
+
+_:b7397d744-08b5-4d78-d085-72083a8c72c7 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

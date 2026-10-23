@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1603283911> a melod:Item;
     rdfs:label "Canário branco — Partitura piano e cifra (score_7690)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1002856223>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1000327912>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3edd2891-48da-41fc-4139-cdc35a5cc08f;

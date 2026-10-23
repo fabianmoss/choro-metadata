@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1121089828> a melod:Item;
     rdfs:label "Ciao Brasil — Partitura melodia e cifra (score_8582)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1457535481>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1358240018>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6d5c34c3-6258-bf84-51b2-1357dd435867;

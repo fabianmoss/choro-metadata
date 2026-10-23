@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1006810665> a melod:Item;
     rdfs:label "A despedida — Partitura melodia (score_1317)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1154795286>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1855435755>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd42b08ed-0573-3bf8-c9e0-c85905cad04a;

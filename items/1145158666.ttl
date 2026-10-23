@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1145158666> a melod:Item;
     rdfs:label "Carolina — Partitura melodia e cifra (score_12242)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1627329458>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1006696855>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc3410a3f-619f-26bd-fdbb-e9900470d5e2;

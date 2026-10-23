@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1559993865> a melod:Item;
     rdfs:label "Choro verde — Partitura piano (score_5253)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1551304925>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1205571281>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1a78cc99-5431-fd63-967b-78c9991f01ff;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1410863504> a melod:Item;
     rdfs:label "Carioca — Partitura melodia e cifra (score_12882)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1307455870>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1029858207>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b901881c5-ab6a-78da-24e8-605928f2733d;

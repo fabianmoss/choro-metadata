@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1690634523> a melod:Item;
     rdfs:label "Amistosa — Partitura piano (score_2468)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717975897>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1675543276>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b05494158-15a6-9688-ba1e-78bfeeb039d6;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1778369682> a melod:Item;
     rdfs:label "Amorosa — Partitura piano (score_2472)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1501302638>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1086165225>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf0775c8d-987b-d60a-d2d9-cb2918468977;

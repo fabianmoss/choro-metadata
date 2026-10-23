@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1490972313> a melod:Item;
     rdfs:label "Adelia — Partitura piano (score_8267)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1607012738>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1114759943>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd81487b3-e8e7-168a-f992-8401430d942d;

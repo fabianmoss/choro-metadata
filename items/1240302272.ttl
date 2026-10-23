@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1240302272> a melod:Item;
     rdfs:label "Atlântico — Partitura melodia (score_4801)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1106044654>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1215831877>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b26cced4c-1472-580d-fe7b-bdad19b70306;

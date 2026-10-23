@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1150908574> a melod:Item;
     rdfs:label "Balançando — Partitura melodia, cifra e letra (score_14790)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1803425269>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1011576561>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bed3a0eb3-23e3-9a2a-7ca3-76b51a3346c2;

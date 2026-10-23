@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1263318390> a melod:Manifestation;
+    melod:hasTitle _:baffe1adf-7817-40ac-457d-750619a67003;
+    lrmoo:R4_embodies <urn:uuid:expressions/1656660764>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:baace9798-1b26-c35a-421d-3ee020dc7583;
+    dct:conformsTo melod:Manifestation.
+
+_:baffe1adf-7817-40ac-457d-750619a67003 a melod:Title;
+    rdfs:label "Bijou — Partitura piano (edition Narciso & Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:baace9798-1b26-c35a-421d-3ee020dc7583 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1384331214>;
+    melod:hasRole terms:Publisher.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1181942224> a melod:Manifestation;
+    melod:hasTitle _:bb01d7fac-31b7-0e63-0c27-d1c0f7d7829b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1245373385>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b18dd97a0-eb53-3371-82c0-6e539714fa60;
+    dct:conformsTo melod:Manifestation.
+
+_:bb01d7fac-31b7-0e63-0c27-d1c0f7d7829b a melod:Title;
+    rdfs:label "Bandeirantes do Brasil — Partitura piano e letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b18dd97a0-eb53-3371-82c0-6e539714fa60 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

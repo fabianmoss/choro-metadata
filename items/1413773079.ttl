@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1413773079> a melod:Item;
+    rdfs:label "Dança do botocudo — Partitura piano (score_4723)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1785392640>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9b3efd94-098b-a124-6d43-4d4c9a684412;
+    melod:hasShelfmark "score_4723";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4723.pdf>;
+    melod:hasProvenance _:bb776bc8e-7159-0a7d-f960-2cc38ded2879;
+    dct:conformsTo melod:Item.
+
+_:b9b3efd94-098b-a124-6d43-4d4c9a684412 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4723".
+
+_:bb776bc8e-7159-0a7d-f960-2cc38ded2879 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bda6549ca-2011-b961-4e4a-da63f19a27eb.
+
+_:bda6549ca-2011-b961-4e4a-da63f19a27eb a melod:ExactDate;
+    melod:isodate "1905-04-24"^^xsd:date;
+    schema:description "24.04.1905".

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1570143880> a melod:Item;
     rdfs:label "Café do comércio — Partitura piano (score_5367)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1279141273>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1197942277>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b768c9855-bef0-6e26-1e09-a22511e118ec;

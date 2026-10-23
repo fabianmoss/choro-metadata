@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1309047759> a melod:Manifestation;
+    melod:hasTitle _:be3b47f21-7d64-6369-7d36-50880496a3ae;
+    lrmoo:R4_embodies <urn:uuid:expressions/1380668391>;
+    melod:hasClassificationOfManifestation "Partitura melodia e harmonia", terms:Print;
+    melod:hasContribution _:bb71722f7-9488-82aa-09fc-c07345e57795;
+    dct:conformsTo melod:Manifestation.
+
+_:be3b47f21-7d64-6369-7d36-50880496a3ae a melod:Title;
+    rdfs:label "Como é bom — Partitura melodia e harmonia (edition by Alessandro Valente)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb71722f7-9488-82aa-09fc-c07345e57795 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1086127522>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

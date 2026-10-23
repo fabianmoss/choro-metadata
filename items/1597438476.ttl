@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1597438476> a melod:Item;
     rdfs:label "Brincando — Partitura melodia e cifra (score_12873)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1407823958>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1270571270>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd7b7ba95-8b6b-27a6-2f4e-6574b7cdd425;

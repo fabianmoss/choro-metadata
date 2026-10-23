@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1504861312> a melod:Manifestation;
+    melod:hasTitle _:b0340ba1e-c109-a9f8-4072-894f94afc239;
+    lrmoo:R4_embodies <urn:uuid:expressions/1097928294>;
+    melod:hasClassificationOfManifestation "Partitura sax tenor", terms:Print;
+    melod:hasContribution _:b280c1c43-db96-84bd-f5a8-37ccbf7c59fa;
+    schema:publication _:b97b8755f-46be-cc8c-eaa9-0fcb5e499003;
+    dct:conformsTo melod:Manifestation.
+
+_:b0340ba1e-c109-a9f8-4072-894f94afc239 a melod:Title;
+    rdfs:label "César, o belo_BANDÃO — Partitura sax tenor (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b280c1c43-db96-84bd-f5a8-37ccbf7c59fa a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b97b8755f-46be-cc8c-eaa9-0fcb5e499003 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

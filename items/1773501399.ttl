@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1773501399> a melod:Item;
     rdfs:label "Caixinha de música — Partitura piano (score_5613)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1176890522>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560291918>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9f960c25-da0a-c963-6a7c-f04c50c887aa;

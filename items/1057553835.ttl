@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1057553835> a melod:Item;
     rdfs:label "Casa azul — Partitura melodia (score_6358)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1892690621>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1789285961>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b807bb85f-c5be-8d13-a92d-0f10373fcbe4;

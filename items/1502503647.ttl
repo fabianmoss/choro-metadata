@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1502503647> a melod:Item;
     rdfs:label "Cabocla de Caxangá — Partitura piano (score_1912)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430622285>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1403705309>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b517127ba-fa97-6702-558f-1c843e27fe47;

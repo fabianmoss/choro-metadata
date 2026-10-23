@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1724545146> a melod:Item;
     rdfs:label "Cantiga de primavera — Partitura melodia, cifra e letra (score_10375)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1061897757>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1233321865>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b62a8228b-3b73-c6b2-2249-0bd04e4c7a70;

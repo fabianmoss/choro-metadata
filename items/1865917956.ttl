@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1865917956> a melod:Item;
     rdfs:label "Araci — Partitura melodia (score_5290)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1452079187>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1179100364>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2051c4f8-1982-8f53-9fa3-f937bec7fbd6;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1210613107> a melod:Item;
     rdfs:label "Annita — Partitura melodia e cifra (score_3966)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1532152277>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1578442001>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1cacdff0-b5d8-4cfb-cc42-a762db2bca19;

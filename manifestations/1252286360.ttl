@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1252286360> a melod:Manifestation;
+    melod:hasTitle _:b096de1af-4051-e8a2-b35a-904d01e2a207;
+    lrmoo:R4_embodies <urn:uuid:expressions/1721073830>;
+    melod:hasClassificationOfManifestation "Partitura piano e cifra", terms:Print;
+    melod:hasContribution _:bdcfabd4a-6986-3651-6f0f-f31bb09dde2d;
+    schema:publication _:b60f6a1ed-bbd4-b4e2-0090-b5c4b9fd780f;
+    dct:conformsTo melod:Manifestation.
+
+_:b096de1af-4051-e8a2-b35a-904d01e2a207 a melod:Title;
+    rdfs:label "Edenira — Partitura piano e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bdcfabd4a-6986-3651-6f0f-f31bb09dde2d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b60f6a1ed-bbd4-b4e2-0090-b5c4b9fd780f a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

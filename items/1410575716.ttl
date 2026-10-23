@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1410575716> a melod:Item;
     rdfs:label "A minha dor — Partitura melodia (score_2113)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1670266863>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1053599772>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcf481871-fbd1-425c-7372-bd618cac1b7f;

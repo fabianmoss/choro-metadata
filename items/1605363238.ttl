@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1605363238> a melod:Item;
     rdfs:label "Bolero — Partitura melodia e cifra (score_14793)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545633062>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1404831684>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b917cfc79-29ca-96dc-3ce5-b31dd4a0f5de;

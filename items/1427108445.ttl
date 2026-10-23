@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1427108445> a melod:Item;
     rdfs:label "Cintilante — Partitura melodia (score_123)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560171561>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1419532418>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3e195283-4c0c-424e-3706-4a5d66dfdc28;

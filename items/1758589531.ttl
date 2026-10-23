@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1758589531> a melod:Item;
     rdfs:label "A bailista — Partitura piano (score_3600)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1860162369>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1747210748>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b97a866dc-db4b-23e5-2bd8-a3381d389508;

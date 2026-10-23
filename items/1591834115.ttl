@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1591834115> a melod:Item;
     rdfs:label "Atrasado — Partitura melodia e cifra (score_10134)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1826446007>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1298741889>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb03e1cd2-dbd5-f3ae-c0be-d65e36f88625;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1886485386> a melod:Item;
     rdfs:label "Cadê Mimi — Partitura melodia, cifra e letra (score_8827)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1798535246>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1494193404>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5178c03d-99b4-1e17-65ad-e45adc67fa41;

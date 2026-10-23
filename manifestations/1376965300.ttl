@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1376965300> a melod:Manifestation;
+    melod:hasTitle _:b3783b111-3f0b-8470-1043-9fbbe5e36a84;
+    lrmoo:R4_embodies <urn:uuid:expressions/1064571036>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:be4b91535-f23d-29ef-8bea-adc3843bb835;
+    schema:publication _:b831e8cc9-dbd5-a7e9-2c47-c4549ea3d1db;
+    dct:conformsTo melod:Manifestation.
+
+_:b3783b111-3f0b-8470-1043-9fbbe5e36a84 a melod:Title;
+    rdfs:label "Catinga de mulato — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:be4b91535-f23d-29ef-8bea-adc3843bb835 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b831e8cc9-dbd5-a7e9-2c47-c4549ea3d1db a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

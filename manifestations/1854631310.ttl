@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1854631310> a melod:Manifestation;
+    melod:hasTitle _:b8a651aba-20a4-5227-4b10-7b4025d16342;
+    lrmoo:R4_embodies <urn:uuid:expressions/1684867080>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bba0493b3-5eb2-4752-7a22-c5cdc3f6046f;
+    dct:conformsTo melod:Manifestation.
+
+_:b8a651aba-20a4-5227-4b10-7b4025d16342 a melod:Title;
+    rdfs:label "Canção de amor — Partitura piano e letra (edition Casa Mozart)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bba0493b3-5eb2-4752-7a22-c5cdc3f6046f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1717675916>;
+    melod:hasRole terms:Publisher.

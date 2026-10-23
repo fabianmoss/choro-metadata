@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1334500986> a melod:Item;
     rdfs:label "Amanhecer — Partitura melodia e cifra (score_9997)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1761280343>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1147670150>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be869d8f2-97c1-10d9-48b0-2b4f477adf76;

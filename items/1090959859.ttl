@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1090959859> a melod:Item;
     rdfs:label "Bernardina — Partitura melodia (score_4633)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1099156842>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1538417788>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc73ba777-7893-812b-fd78-ec88609377bc;

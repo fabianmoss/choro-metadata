@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1716184125> a melod:Manifestation;
+    melod:hasTitle _:b9b37da6d-f50d-8540-c57f-f1250f0ba559;
+    lrmoo:R4_embodies <urn:uuid:expressions/1860830158>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b1dacdfd6-9615-e122-e184-dcd56026a1ec;
+    dct:conformsTo melod:Manifestation.
+
+_:b9b37da6d-f50d-8540-c57f-f1250f0ba559 a melod:Title;
+    rdfs:label "Billie Ritchie — Partitura piano (edition Casa Levy)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b1dacdfd6-9615-e122-e184-dcd56026a1ec a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1373143376>;
+    melod:hasRole terms:Publisher.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1235942109> a melod:Item;
     rdfs:label "Alzira — Partitura melodia (score_5396)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1803720630>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577243990>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf5021eb0-c089-b6ea-8a3f-2a0c351a63c3;

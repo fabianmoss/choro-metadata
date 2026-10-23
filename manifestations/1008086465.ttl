@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1008086465> a melod:Manifestation;
+    melod:hasTitle _:bec57c622-3db3-b07b-7007-8d0526f4d25b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1609842913>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b02e38e17-e016-005a-3401-dbb5b5f0013c;
+    dct:conformsTo melod:Manifestation.
+
+_:bec57c622-3db3-b07b-7007-8d0526f4d25b a melod:Title;
+    rdfs:label "A estrela do norte — Partitura piano (edition Victor Prèalle)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b02e38e17-e016-005a-3401-dbb5b5f0013c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1378992545>;
+    melod:hasRole terms:Publisher.

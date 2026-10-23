@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1231052555> a melod:Item;
     rdfs:label "Castelo de cartas — Partitura melodia e cifra funcional (score_9789)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1377963214>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1588866631>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd93bca2a-10ba-de54-7fc7-41f0c97e88f9;

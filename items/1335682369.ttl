@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1335682369> a melod:Item;
     rdfs:label "Alice — Partitura piano (score_8091)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1438113302>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1143656235>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b75bb4f2e-fe19-6576-fd75-8a366e096d95;

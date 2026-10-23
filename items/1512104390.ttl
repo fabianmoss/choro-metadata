@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1512104390> a melod:Item;
     rdfs:label "Aventureira — Partitura melodia (score_5469)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1843343974>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1359207009>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf021316b-f9e7-9656-410f-805bef98432d;

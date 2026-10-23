@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1217866939> a melod:Work;
+    melod:hasTitle _:b14c16e89-8af2-360f-1e38-582ada646c71;
+    melod:hasIdentifier _:b33095641-d3d0-455a-b63c-561372fd6824;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/365>;
+    melod:hasContribution _:b6323cc4d-c5bd-a69d-5b55-2efb0526b662;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1400560519>;
+    melod:hasAnnotation _:b70820494-f7ec-8128-7622-e04a2d7af3a6;
+    dct:conformsTo melod:Work.
+
+_:b14c16e89-8af2-360f-1e38-582ada646c71 a melod:Title;
+    rdfs:label "Como se morre"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b33095641-d3d0-455a-b63c-561372fd6824 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "365".
+
+_:b6323cc4d-c5bd-a69d-5b55-2efb0526b662 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1456987132>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b70820494-f7ec-8128-7622-e04a2d7af3a6 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/365\">https://acervo.casadochoro.com.br/works/view/365</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

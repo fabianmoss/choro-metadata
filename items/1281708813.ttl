@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1281708813> a melod:Item;
     rdfs:label "Açucena — Partitura melodia (score_1297)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1797623759>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1610696140>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0c9f0ad8-3d08-8305-5290-5f9afad38778;

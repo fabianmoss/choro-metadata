@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1118657302> a melod:Item;
     rdfs:label "Altair — Partitura piano (score_2961)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1041415172>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1621105308>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf74e7db9-db8d-b622-44f9-644d5172bcde;

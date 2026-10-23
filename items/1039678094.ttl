@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1039678094> a melod:Item;
     rdfs:label "Celestial — Partitura melodia e cifra (score_12890)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1451510038>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1565904108>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6e11d7eb-9e9b-3a9b-e6d6-cfded0799b77;

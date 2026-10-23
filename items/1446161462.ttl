@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1446161462> a melod:Item;
+    rdfs:label "É sina — Partitura melodia (score_5381)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1495917369>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bad817af6-9d12-7dd2-c2af-6a01d81e6b63;
+    melod:hasShelfmark "score_5381";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5381.pdf>;
+    melod:hasHand _:bc2b90475-1aa7-3661-343c-854f1eeac2f2;
+    dct:conformsTo melod:Item.
+
+_:bad817af6-9d12-7dd2-c2af-6a01d81e6b63 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5381".
+
+_:bc2b90475-1aa7-3661-343c-854f1eeac2f2 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1146702713>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Frederico de Jesus (Arquivo Donga)".

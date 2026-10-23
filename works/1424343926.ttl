@@ -18,7 +18,7 @@
     melod:hasClassification "Marcha";
     owl:sameAs <https://acervo.casadochoro.com.br/works/view/6753>;
     melod:hasContribution _:b8cd1bb5c-89f8-afcd-3a6f-7afcd6adcf29, _:b77c85c40-e45b-059a-8f47-751c53279dc0;
-    lrmoo:R3_is_realised_in <urn:uuid:expressions/1835905379>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1505836761>, <urn:uuid:expressions/1726410614>;
     melod:hasAnnotation _:bb13a44d4-b83d-9acf-a826-609f3bf696ee;
     dct:conformsTo melod:Work.
 

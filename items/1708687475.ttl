@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1708687475> a melod:Item;
+    rdfs:label "Clarinha — Partitura melodia (score_978)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1476220379>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:be607f116-19d7-80f4-78eb-e44d23539df4;
+    melod:hasShelfmark "score_978";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_978.pdf>;
+    melod:hasHand _:b7d90d255-fb8c-6a69-cbff-3a2000cf9db9;
+    dct:conformsTo melod:Item.
+
+_:be607f116-19d7-80f4-78eb-e44d23539df4 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_978".
+
+_:b7d90d255-fb8c-6a69-cbff-3a2000cf9db9 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cândido Pereira da Silva (Candinho do Trombone)".

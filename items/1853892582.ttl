@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1853892582> a melod:Item;
     rdfs:label "Chalaça — Partitura melodia, cifra e letra (score_14541)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1896962719>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1401894090>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc42ae362-f7c6-4bdf-923e-4db80ee0a330;

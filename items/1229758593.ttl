@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1229758593> a melod:Item;
     rdfs:label "Cibelle — Partitura melodia e cifra (score_8692)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1780563739>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1088509793>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd5f0805a-aa09-447c-7b47-fe89525685ca;

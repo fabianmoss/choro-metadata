@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1752974340> a melod:Item;
     rdfs:label "Anita sapeca — Partitura melodia e cifra (score_6885)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841149493>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046596205>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9cb8f117-86f4-2c74-f04a-5d10dfe378c7;

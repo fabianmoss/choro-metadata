@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1723410288> a melod:Item;
     rdfs:label "A sirigaita — Partitura piano (score_9796)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1670468295>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545825572>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0063be46-c001-c25d-4792-b95f5a946cc1;

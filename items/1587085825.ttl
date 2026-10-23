@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1587085825> a melod:Item;
     rdfs:label "Artística — Partitura piano (score_2478)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1268310455>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1882537060>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb04f44aa-7e0f-c6c9-aeab-ed5ffd3ff75a;

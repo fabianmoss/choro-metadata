@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1017319403> a melod:Work;
+    melod:hasTitle _:b53860937-4a30-005a-3dd7-f024d1932394;
+    melod:hasIdentifier _:be9ff241d-b181-d51a-b104-89bbbc5bb1a1;
+    melod:hasClassification "Canção Amazônica";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6969>;
+    melod:hasContribution _:bebef1a69-dd9e-fb5d-4046-78b5270a7041;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1648216468>;
+    melod:hasAnnotation _:b527b9390-04b7-ef1b-687c-de21a29b3e3c;
+    dct:conformsTo melod:Work.
+
+_:b53860937-4a30-005a-3dd7-f024d1932394 a melod:Title;
+    rdfs:label "Cobra grande"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be9ff241d-b181-d51a-b104-89bbbc5bb1a1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6969".
+
+_:bebef1a69-dd9e-fb5d-4046-78b5270a7041 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1191415928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b527b9390-04b7-ef1b-687c-de21a29b3e3c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6969\">https://acervo.casadochoro.com.br/works/view/6969</a>. Gênero: Canção Amazônica. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

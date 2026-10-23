@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1688707640> a melod:Item;
     rdfs:label "Ausélia — Partitura melodia e cifra (score_10879)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1327424120>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1305210574>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b44900f15-2596-75cb-a856-4bd127510960;

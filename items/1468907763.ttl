@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1468907763> a melod:Item;
     rdfs:label "Aleluia — Partitura cifra (score_6751)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1044900126>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160232110>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be0e2936c-7550-5292-994e-ef78214512ae;

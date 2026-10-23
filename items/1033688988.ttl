@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1033688988> a melod:Item;
     rdfs:label "Cinco tacadas — Partitura melodia (score_1628)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1009717863>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1243471701>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b74c0a972-bd05-a1fc-678e-e4987ef61217;

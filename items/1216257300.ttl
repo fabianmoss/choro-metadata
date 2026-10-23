@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1216257300> a melod:Item;
     rdfs:label "Arredio — Partitura melodia e cifra (score_11394)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1468437474>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717900382>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9ae6a1d0-fdf2-a19b-1710-8acef259f28c;

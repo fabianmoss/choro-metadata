@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1626053190> a melod:Item;
     rdfs:label "A coroa de Carlos Magno — Partitura piano a quatro mãos (score_4667)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1559246240>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1729168251>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc6988d45-8d67-3c9e-ecb2-d160b3b0615f;

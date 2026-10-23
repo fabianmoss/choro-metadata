@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1144057790> a melod:Item;
     rdfs:label "A vizinha do lado — Partitura melodia, cifra e letra (score_14307)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1630373061>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1583632796>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd80aba1e-f601-cf6c-375e-fab066bd23fa;

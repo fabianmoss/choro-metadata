@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1559195888> a melod:Item;
     rdfs:label "Cabocla — Partitura melodia e cifra (score_10510)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1161591415>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1191672099>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3e674b86-052a-5999-3d8f-25795d038d0a;

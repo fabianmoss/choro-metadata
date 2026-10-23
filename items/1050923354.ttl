@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1050923354> a melod:Item;
     rdfs:label "Carrilhando — Partitura melodia (score_10028)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1019576838>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1385425135>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b96d50f15-8b9c-138b-a48a-d07d870df02f;

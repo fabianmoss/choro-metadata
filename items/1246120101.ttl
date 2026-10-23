@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1246120101> a melod:Item;
     rdfs:label "Beijos divinais — Partitura melodia e cifra (score_14101)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1766939002>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1646045843>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0523d4f5-2992-a222-153e-e2fec486ea4e;

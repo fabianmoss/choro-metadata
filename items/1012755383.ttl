@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1012755383> a melod:Item;
     rdfs:label "Borboleta — Partitura melodia e cifra (score_3980)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1724652135>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1565603610>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5934e11b-91db-9258-9492-b144952c9331;

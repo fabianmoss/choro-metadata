@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1772458304> a melod:Item;
     rdfs:label "Adelina — Partitura melodia (score_7974)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1329688219>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1073009633>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7f9e069d-d786-a205-c55d-2da8e9e1b62d;

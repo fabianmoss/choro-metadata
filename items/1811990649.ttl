@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1811990649> a melod:Item;
     rdfs:label "Candinha — Partitura melodia (score_6125)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1716119530>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1329628834>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4ece8462-5ad8-494d-6a13-12a8b561c073;

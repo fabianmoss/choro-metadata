@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1733151513> a melod:Item;
     rdfs:label "Antiga — Partitura melodia e cifra (score_11380)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1649217332>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1198970341>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b861f8ac7-977b-f0f1-2e47-0e2985728562;

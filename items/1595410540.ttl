@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1595410540> a melod:Item;
     rdfs:label "Alma saudosa — Partitura piano (score_3688)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1765080050>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025618465>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2d54238d-e5d1-8d77-f163-e83b3485c1c3;

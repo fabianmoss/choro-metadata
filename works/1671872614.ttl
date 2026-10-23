@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1671872614> a melod:Work;
+    melod:hasTitle _:b818c247a-662b-93e0-412c-136c8cc6b423;
+    melod:hasIdentifier _:be397b419-0920-755a-15e6-4722824e5aed;
+    melod:hasClassification "Fantasia";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/7881>;
+    melod:hasContribution _:b285e8fcf-b3e1-4099-d2cf-6e6ffa31f025;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1533309663>;
+    melod:hasAnnotation _:b097b20b2-a2b5-f32e-9700-e25cbb2de32a;
+    dct:conformsTo melod:Work.
+
+_:b818c247a-662b-93e0-412c-136c8cc6b423 a melod:Title;
+    rdfs:label "Dall'Ago al milione"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:be397b419-0920-755a-15e6-4722824e5aed a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "7881".
+
+_:b285e8fcf-b3e1-4099-d2cf-6e6ffa31f025 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1506992955>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b097b20b2-a2b5-f32e-9700-e25cbb2de32a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/7881\">https://acervo.casadochoro.com.br/works/view/7881</a>. Gênero: Fantasia. Compasso: diversos. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1572511004> a melod:Manifestation;
+    melod:hasTitle _:b9d51400f-ecfc-33aa-d298-3ccad2a3f2e5;
+    lrmoo:R4_embodies <urn:uuid:expressions/1852675965>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bd38cf814-1af7-8f3c-de5c-5ea8b1a75f48;
+    dct:conformsTo melod:Manifestation.
+
+_:b9d51400f-ecfc-33aa-d298-3ccad2a3f2e5 a melod:Title;
+    rdfs:label "Castelo branco — Partitura piano (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd38cf814-1af7-8f3c-de5c-5ea8b1a75f48 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1183304310> a melod:Item;
     rdfs:label "Ancestral — Partitura melodia e cifra (score_11318)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1190612168>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1038145267>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf0d17e91-15d6-3812-c9a7-d5933a0f247a;

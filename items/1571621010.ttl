@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1571621010> a melod:Item;
     rdfs:label "Abacaxi — Partitura melodia e cifra (score_13817)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1551629930>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1366377762>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b159f64a2-ef9e-d607-3458-c676e1928eb7;

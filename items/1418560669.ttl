@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1418560669> a melod:Item;
     rdfs:label "Abril — Partitura piano e letra (score_4874)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1123513709>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1305945028>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd60e45a3-2c22-19c6-f026-71e416274eed;

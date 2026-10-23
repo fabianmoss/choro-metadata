@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1747072924> a melod:Item;
     rdfs:label "Alice — Partitura piano (score_5497)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1248688443>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1809506465>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdce0efa2-7ec0-be27-2c35-7810acf3e2a9;

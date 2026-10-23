@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1022713725> a melod:Item;
     rdfs:label "Brincalhão — Partitura piano (score_5861)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1756146186>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1230928860>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b271519c8-ca72-e9c4-cad0-0d44e23cb4b8;

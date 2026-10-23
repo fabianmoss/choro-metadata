@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1337668139> a melod:Manifestation;
+    melod:hasTitle _:b78a9edaa-2119-052e-73ad-3ba0d53f88dd;
+    lrmoo:R4_embodies <urn:uuid:expressions/1283194931>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b5183d1b0-8eb3-d844-ef15-66dc63e7ed9e;
+    schema:publication _:b198e42d5-530f-2ec7-91c8-7bc6ef8e8599;
+    dct:conformsTo melod:Manifestation.
+
+_:b78a9edaa-2119-052e-73ad-3ba0d53f88dd a melod:Title;
+    rdfs:label "Beijos de noiva — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b5183d1b0-8eb3-d844-ef15-66dc63e7ed9e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b198e42d5-530f-2ec7-91c8-7bc6ef8e8599 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

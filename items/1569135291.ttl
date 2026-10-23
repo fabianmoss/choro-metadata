@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1569135291> a melod:Item;
     rdfs:label "Bernadette — Partitura melodia e cifra (score_14042)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1305670859>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1641521826>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3e8417f8-3436-e3d4-0267-22caf604c334;

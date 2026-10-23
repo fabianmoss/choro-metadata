@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1835400583> a melod:Item;
     rdfs:label "Campo bom — Partitura melodia e cifra (score_15842)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1751325000>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1178317572>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b27c306af-345c-f687-0cd2-121e2849a169;

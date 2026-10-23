@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1210940520> a melod:Item;
     rdfs:label "Ceição — Partitura melodia (score_6529)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1588454945>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1330979196>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdd544342-7b23-fa7a-0945-b0d72ff5d8e0;

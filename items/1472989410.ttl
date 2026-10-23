@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1472989410> a melod:Item;
     rdfs:label "A frorada — Partitura piano e letra (score_4123)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1739061798>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1123260568>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbfa36188-87d9-d078-25f7-8c186d9382b3;

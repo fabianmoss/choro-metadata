@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1786050122> a melod:Item;
     rdfs:label "Aí, mestre! — Partitura melodia (score_10896)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590361509>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1781725430>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2a915ae3-e81c-3f82-622b-eac09b9a8be3;

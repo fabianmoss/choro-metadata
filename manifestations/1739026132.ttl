@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1739026132> a melod:Manifestation;
+    melod:hasTitle _:bc0755045-81b3-6814-6b69-247a02b5825a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1533743607>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b41837205-242f-0e0b-4ee1-40792f3d8a8d;
+    dct:conformsTo melod:Manifestation.
+
+_:bc0755045-81b3-6814-6b69-247a02b5825a a melod:Title;
+    rdfs:label "África — Partitura piano (edition Fermata do Brasil)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b41837205-242f-0e0b-4ee1-40792f3d8a8d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094092957>;
+    melod:hasRole terms:Publisher.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1243382445> a melod:Item;
     rdfs:label "Artur China — Partitura melodia (score_820)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1386945215>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1520475198>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9fc2e661-3f56-7d14-4a7b-c0d3270f7dab;

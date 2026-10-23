@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1802126019> a melod:Item;
     rdfs:label "Carinhosa — Partitura melodia (score_1688)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1135935024>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1011707120>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b759fc712-6504-526c-5e77-3e76356dd2f3;

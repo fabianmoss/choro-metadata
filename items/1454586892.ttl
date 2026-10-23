@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1454586892> a melod:Item;
     rdfs:label "Aparatosa — Partitura melodia (score_2475)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1862756229>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1076043281>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b279502f7-f7c0-c3be-8455-1748a3b9eefd;

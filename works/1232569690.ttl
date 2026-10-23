@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1232569690> a melod:Work;
+    melod:hasTitle _:b007ffbef-359d-1a9d-a29c-d84666b45b7e;
+    melod:hasIdentifier _:bf6fa7f66-a3b7-55d5-9d26-ab236e3f328d;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5002>;
+    melod:hasContribution _:b0844db66-ad8d-5bb0-c507-af72eb843a46;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1729618112>, <urn:uuid:expressions/1249059342>, <urn:uuid:expressions/1568327991>;
+    melod:hasAnnotation _:b2eb9f6c0-1604-6642-4c36-3652eddae949;
+    dct:conformsTo melod:Work.
+
+_:b007ffbef-359d-1a9d-a29c-d84666b45b7e a melod:Title;
+    rdfs:label "Deixa o breque pra mim"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf6fa7f66-a3b7-55d5-9d26-ab236e3f328d a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5002".
+
+_:b0844db66-ad8d-5bb0-c507-af72eb843a46 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2eb9f6c0-1604-6642-4c36-3652eddae949 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5002\">https://acervo.casadochoro.com.br/works/view/5002</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

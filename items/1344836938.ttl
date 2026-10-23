@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1344836938> a melod:Item;
     rdfs:label "Carlotinha — Partitura piano (score_4407)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1412045750>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1181781171>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bca3e9cf6-e957-0e1c-f65a-77e5cd39cedf;

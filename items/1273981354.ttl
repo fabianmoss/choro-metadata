@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1273981354> a melod:Item;
     rdfs:label "Albertina — Partitura melodia (score_1558)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1182783964>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1213973243>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b000b850e-006f-6c4b-03b4-4e0f30404d65;

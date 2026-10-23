@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1583326241> a melod:Manifestation;
+    melod:hasTitle _:bfff74f1a-7aa4-2d95-372d-fd4468be8f5a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1794377971>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b5b02c72e-b9fb-a11f-a8ea-4bd3097b6ac2;
+    schema:publication _:b1d39b8b6-60e6-7616-90f1-02b8f6a23187;
+    dct:conformsTo melod:Manifestation.
+
+_:bfff74f1a-7aa4-2d95-372d-fd4468be8f5a a melod:Title;
+    rdfs:label "Deixa assim — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b5b02c72e-b9fb-a11f-a8ea-4bd3097b6ac2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b1d39b8b6-60e6-7616-90f1-02b8f6a23187 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

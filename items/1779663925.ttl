@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1779663925> a melod:Item;
     rdfs:label "Caçuá — Partitura melodia e cifra (score_10027)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1746265525>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1682820415>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be9b22dc9-8eda-2472-4a0d-96afa93bc1ef;

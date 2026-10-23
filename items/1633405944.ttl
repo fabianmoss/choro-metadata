@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1633405944> a melod:Item;
     rdfs:label "Cativante — Partitura melodia (score_1568)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1167384432>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1270498668>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b94bd09cc-cc8c-e139-d98a-1f0acba6e052;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1147456745> a melod:Item;
     rdfs:label "Chorinho — Partitura melodia (score_6673)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1578157588>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1370343767>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b37a9a4f6-ff79-129e-7020-5fd9ef1f8f62;

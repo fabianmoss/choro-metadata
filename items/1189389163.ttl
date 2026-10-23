@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1189389163> a melod:Item;
     rdfs:label "A desejada — Partitura melodia (score_852)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1068909942>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1267855545>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bac4009d1-59f7-e34c-2786-2e144c35df7e;

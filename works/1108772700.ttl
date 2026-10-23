@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1108772700> a melod:Work;
+    melod:hasTitle _:bb3138bf8-1afb-d392-8ad9-dcd175ee9279;
+    melod:hasIdentifier _:b0c5d2288-bc07-aeee-df16-8d78abd78a6b;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6169>;
+    melod:hasContribution _:bb59afc1a-cbca-967d-e5aa-cb1cd57507ef;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1631792328>, <urn:uuid:expressions/1423871131>;
+    melod:hasAnnotation _:b7717f6ee-546d-d4b5-4a64-0707165647bf;
+    dct:conformsTo melod:Work.
+
+_:bb3138bf8-1afb-d392-8ad9-dcd175ee9279 a melod:Title;
+    rdfs:label "Edelvira"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0c5d2288-bc07-aeee-df16-8d78abd78a6b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6169".
+
+_:bb59afc1a-cbca-967d-e5aa-cb1cd57507ef a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b7717f6ee-546d-d4b5-4a64-0707165647bf a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6169\">https://acervo.casadochoro.com.br/works/view/6169</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

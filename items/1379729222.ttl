@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1379729222> a melod:Item;
     rdfs:label "Amor — Partitura piano (score_2259)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1629992215>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1200540639>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd23f0af2-e5f0-920b-48c6-4522360cf143;

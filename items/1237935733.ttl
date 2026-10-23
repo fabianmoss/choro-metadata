@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1237935733> a melod:Item;
     rdfs:label "Choro nº2 — Partitura violão (score_8783)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1679835017>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1579663723>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b317b50ac-e811-8023-8e23-5195621ea85d;

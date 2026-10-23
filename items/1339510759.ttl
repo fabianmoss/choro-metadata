@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1339510759> a melod:Item;
     rdfs:label "Ceci — Partitura melodia e cifra (score_12888)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1218386883>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1147357843>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0d885ca7-2316-7f46-bac4-3a2e21b32a37;

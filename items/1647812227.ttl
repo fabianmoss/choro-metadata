@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1647812227> a melod:Item;
     rdfs:label "Choro de 1 minuto — Partitura melodia (score_9895)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1613227682>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1293519920>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be9bf9011-1ede-3028-5d50-c0503e04910c;

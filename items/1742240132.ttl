@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1742240132> a melod:Item;
     rdfs:label "Canarinho — Partitura melodia e cifra (score_10798)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1530050188>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1830781509>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd03cd9ed-6587-ef64-6971-fd0808f0d500;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1234573136> a melod:Item;
     rdfs:label "Canto da libertação — Partitura melodia e cifra (score_15848)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1813735089>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1762597900>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdf74531a-2251-3b76-279a-9473ab3fee72;

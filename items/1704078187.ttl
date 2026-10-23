@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1704078187> a melod:Item;
     rdfs:label "Arrepiado — Partitura melodia e cifra (score_9304)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1528507914>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226004980>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1858f487-cb03-75a1-4e9e-52ffd4304cad;

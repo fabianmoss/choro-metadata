@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1762806725> a melod:Item;
     rdfs:label "Cateretê — Partitura piano e letra (score_9790)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1173602814>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1146610050>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b65e2a677-c7e3-2dcd-3793-acac2c3a5be0;

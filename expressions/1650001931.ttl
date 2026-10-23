@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1650001931> a melod:Expression;
+    rdfs:label "Crepuscular (arrangement by Jayme Vignoli, Partitura melodia e cifra)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b7e3e0ca1-9ea8-cfae-6ff5-b10bd528a43c;
+    melod:hasContribution _:b30797469-da07-1cef-056d-d0f96f4057d9;
+    dct:conformsTo melod:Expression.
+
+_:b7e3e0ca1-9ea8-cfae-6ff5-b10bd528a43c a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b30797469-da07-1cef-056d-d0f96f4057d9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1114549214>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

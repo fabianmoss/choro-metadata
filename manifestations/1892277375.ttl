@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1892277375> a melod:Manifestation;
+    melod:hasTitle _:ba949e2a9-0f64-2f13-6f16-f002bb7f459b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1289614416>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra Bb", terms:Print;
+    melod:hasContribution _:beaace5eb-b2ee-d6ce-f619-b7af5ca15b22;
+    schema:publication _:b55d6fd46-c053-21f1-39a3-1ba3c1989aa8;
+    dct:conformsTo melod:Manifestation.
+
+_:ba949e2a9-0f64-2f13-6f16-f002bb7f459b a melod:Title;
+    rdfs:label "Donga_Oficina de verão 2026 — Partitura melodia e cifra Bb (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:beaace5eb-b2ee-d6ce-f619-b7af5ca15b22 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b55d6fd46-c053-21f1-39a3-1ba3c1989aa8 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1462664204> a melod:Item;
     rdfs:label "Bôto — Partitura melodia, piano e letra (score_9111)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1702795611>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1357172312>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b89c3912a-e32c-8dbb-6adb-7460a9072237;

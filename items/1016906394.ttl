@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1016906394> a melod:Item;
     rdfs:label "Barra Mansa — Partitura cifra (score_9859)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1653090204>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1681199280>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9edd7e08-cd0f-6df1-adeb-e2fa288180fa;

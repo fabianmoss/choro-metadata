@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1150797636> a melod:Item;
     rdfs:label "Anastácia — Partitura melodia e cifra (score_11317)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1131509915>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1575986044>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5f70ba40-0ab6-5d7e-188c-e7c665326447;

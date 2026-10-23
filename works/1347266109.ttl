@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1347266109> a melod:Work;
+    melod:hasTitle _:bee655b7b-e3db-f67d-3e0e-e6df9c54148b;
+    melod:hasIdentifier _:b30b578ef-cf21-00df-66e4-31409fd799bd;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8982>;
+    melod:hasContribution _:b83e89194-3445-0ea6-1d06-b623b1fc4e69;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1462681486>;
+    melod:hasAnnotation _:b1a11fa85-83de-a708-0dab-c8f55bc6d3f3;
+    dct:conformsTo melod:Work.
+
+_:bee655b7b-e3db-f67d-3e0e-e6df9c54148b a melod:Title;
+    rdfs:label "Dona Maria"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b30b578ef-cf21-00df-66e4-31409fd799bd a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8982".
+
+_:b83e89194-3445-0ea6-1d06-b623b1fc4e69 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1a11fa85-83de-a708-0dab-c8f55bc6d3f3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8982\">https://acervo.casadochoro.com.br/works/view/8982</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1276641396> a melod:Work;
+    melod:hasTitle _:b02404601-9565-2df0-dc03-f2d422d1adb6;
+    melod:hasIdentifier _:bf4f99e7c-36f6-0b8f-cad4-049fcddcdcb6;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9822>;
+    melod:hasContribution _:bfc651cc5-66de-fa1a-1546-54bd05c670ac, _:b4c185c3d-3f6a-188b-c693-631e2ebdfd7a;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1147447521>;
+    melod:hasAnnotation _:b68f50a4e-ebe1-b40c-7879-4558686fd63f;
+    dct:conformsTo melod:Work.
+
+_:b02404601-9565-2df0-dc03-f2d422d1adb6 a melod:Title;
+    rdfs:label "Ê...São Paulo"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf4f99e7c-36f6-0b8f-cad4-049fcddcdcb6 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9822".
+
+_:bfc651cc5-66de-fa1a-1546-54bd05c670ac a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1127012829>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4c185c3d-3f6a-188b-c693-631e2ebdfd7a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1824058459>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b68f50a4e-ebe1-b40c-7879-4558686fd63f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9822\">https://acervo.casadochoro.com.br/works/view/9822</a>. Gênero: Não informado. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1377949349> a melod:Item;
     rdfs:label "Adelaide — Partitura melodia (score_1555)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1870696605>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1639507108>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b76df1291-6b26-0f1e-b170-df7549e8c6aa;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1390535783> a melod:Item;
     rdfs:label "A media luz — Partitura melodia (score_14176)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1225063473>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560091316>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bffca9811-f2fb-a6f3-c046-ec8e8f9c57f1;

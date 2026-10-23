@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1127040035> a melod:Manifestation;
+    melod:hasTitle _:bc7cfbd25-a994-cf4f-40ad-9ac26f61acb1;
+    lrmoo:R4_embodies <urn:uuid:expressions/1390226796>;
+    melod:hasClassificationOfManifestation "Partitura violão", terms:Print;
+    melod:hasContribution _:b6a4be5f3-ae00-6d2b-18dc-75d6216c11b9;
+    dct:conformsTo melod:Manifestation.
+
+_:bc7cfbd25-a994-cf4f-40ad-9ac26f61acb1 a melod:Title;
+    rdfs:label "A Choça do monte — Partitura violão (edition Guitar Solo Publication)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6a4be5f3-ae00-6d2b-18dc-75d6216c11b9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1833372489>;
+    melod:hasRole terms:Publisher.

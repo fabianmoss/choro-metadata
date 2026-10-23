@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1781905935> a melod:Item;
     rdfs:label "A Imprensa — Partitura piano (score_320)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1796832531>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1029038914>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bade08ee5-c972-e23c-052d-a90b16e5f2f5;

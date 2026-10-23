@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1791471340> a melod:Item;
     rdfs:label "Amistad — Partitura piano (score_9320)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1419535426>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1269811199>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be3fe881f-32b4-2f44-3af7-5e73d838eb01;

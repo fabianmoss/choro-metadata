@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1726405700> a melod:Item;
+    rdfs:label "Contigo em sonhos — Partitura melodia (score_988)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1617469195>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b2128de07-bd9e-4a78-85a8-0a7aca61d43e;
+    melod:hasShelfmark "score_988";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_988.pdf>;
+    melod:hasHand _:bfc885a51-9059-447e-7f93-63cb9ece5608;
+    dct:conformsTo melod:Item.
+
+_:b2128de07-bd9e-4a78-85a8-0a7aca61d43e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_988".
+
+_:bfc885a51-9059-447e-7f93-63cb9ece5608 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1758258212>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Gilda Mattos".

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1543878407> a melod:Manifestation;
+    melod:hasTitle _:b3c63b31b-7882-5043-a0e1-abf10302b282;
+    lrmoo:R4_embodies <urn:uuid:expressions/1142957564>;
+    melod:hasClassificationOfManifestation "Partitura clarinete", terms:Print;
+    melod:hasContribution _:bab3aef5d-af2f-e0e5-95b4-4a5f1f384b01;
+    schema:publication _:bd5885e3d-88ae-da48-b4c0-47c9aa0d1789;
+    dct:conformsTo melod:Manifestation.
+
+_:b3c63b31b-7882-5043-a0e1-abf10302b282 a melod:Title;
+    rdfs:label "Cigana do Catumby_BANDÃO — Partitura clarinete (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bab3aef5d-af2f-e0e5-95b4-4a5f1f384b01 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bd5885e3d-88ae-da48-b4c0-47c9aa0d1789 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

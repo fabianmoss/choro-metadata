@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1882743985> a melod:Item;
     rdfs:label "Chile-Brasil — Partitura piano (score_4865)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1893265882>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1775360352>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd4cc6f1a-adb8-43cc-4536-3a8552d84f33;

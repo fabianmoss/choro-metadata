@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1484916061> a melod:Item;
     rdfs:label "Alumbrado — Partitura melodia e cifra (score_11311)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1679134068>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1345278270>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bea662966-d545-441b-e6cc-8532967103a1;

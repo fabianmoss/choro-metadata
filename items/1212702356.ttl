@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1212702356> a melod:Item;
     rdfs:label "Castigando — Partitura melodia e cifra (score_12886)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1860978156>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1386159327>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b739a8918-8883-ad9d-d52b-b837cec25029;

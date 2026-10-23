@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1334183380> a melod:Item;
     rdfs:label "Canto chorado — Partitura melodia e cifra (score_10513)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1121923643>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025169945>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b15d6eb7e-e6de-8e30-f007-2e2d818c8e08;

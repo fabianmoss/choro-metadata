@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1252294569> a melod:Item;
     rdfs:label "Aí dedinho — Partitura melodia (score_8952)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1663271422>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1009895198>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b026da402-fe83-fee6-bced-c8818d013b70;

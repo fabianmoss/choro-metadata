@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1577326304> a melod:Manifestation;
+    melod:hasTitle _:b49e814da-d604-eeb5-9281-f4572a6b433e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1670474543>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b6ce9a06c-3155-cd9b-70e4-94d5c4506276;
+    dct:conformsTo melod:Manifestation.
+
+_:b49e814da-d604-eeb5-9281-f4572a6b433e a melod:Title;
+    rdfs:label "A bordo — Partitura piano (edition Eduardo Paiva)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6ce9a06c-3155-cd9b-70e4-94d5c4506276 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1169052835>;
+    melod:hasRole terms:Publisher.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1468194303> a melod:Item;
     rdfs:label "A nova era — Partitura piano (score_6297)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1010195868>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1572750550>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb19fac2e-a51d-3f75-b9da-727a2c931f4d;

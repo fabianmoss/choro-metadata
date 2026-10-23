@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1584246720> a melod:Item;
     rdfs:label "Bixo solto — Partitura melodia - arranjo (score_15831)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1396376973>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1156274380>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9621b3e9-5e1c-8e6e-95d7-0210f4aef2d7;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1785050710> a melod:Item;
     rdfs:label "A.B.C. de Lampeão — Partitura melodia, piano e letra (score_9105)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1477938835>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1756983290>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6d7f33e7-fd3d-9ab1-1db6-34eb6bc6a6f4;

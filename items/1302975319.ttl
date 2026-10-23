@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1302975319> a melod:Item;
     rdfs:label "Chiquita — Partitura melodia (score_11444)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1539427497>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1178933140>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6a79cc38-a537-70be-defb-82e7ebf5d868;

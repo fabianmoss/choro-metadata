@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1068904760> a melod:Item;
     rdfs:label "Alta noite — Partitura melodia e cifra (score_13593)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1575373012>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1119537968>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8fac568f-9d43-2f1a-279c-74e958cb21f4;

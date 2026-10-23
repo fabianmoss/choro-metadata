@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1375927391> a melod:Item;
     rdfs:label "Celeste — Partitura melodia (score_760)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1014593657>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1752366905>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba955c18c-ed88-8522-14fa-c74b0ff6dc96;

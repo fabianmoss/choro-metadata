@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1876432133> a melod:Item;
     rdfs:label "Antonico — Partitura cifra (score_11599)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1447329582>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199364072>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb286df8a-86eb-b083-b8cb-91cff72b49de;

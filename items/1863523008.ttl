@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1863523008> a melod:Item;
     rdfs:label "A liga — Partitura piano (score_4258)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1679269629>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1671662705>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5e2bd33e-b5c9-21f0-fae2-b49957b3bb5c;

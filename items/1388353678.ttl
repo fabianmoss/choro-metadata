@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1388353678> a melod:Item;
     rdfs:label "A fonte do suspiro — Partitura piano (score_4945)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1600054682>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1172178696>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4a6b5f4e-52cd-6a2e-0ff6-eeae0cb87e2e;

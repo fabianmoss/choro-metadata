@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1800141954> a melod:Item;
     rdfs:label "Adeus supremo — Partitura piano (score_600)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1880753050>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1052822929>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b42358132-d27d-dc8f-d899-64f147676953;

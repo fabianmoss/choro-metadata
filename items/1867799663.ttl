@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1867799663> a melod:Item;
+    rdfs:label "Dá nele — Partitura melodia (score_7653)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818074881>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b14bd1f49-8247-02b3-de44-0fe36ddaf45f;
+    melod:hasShelfmark "score_7653";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7653.pdf>;
+    melod:hasHand _:bc1f2a753-5c4b-34a5-4b57-e1e8f136aecf;
+    melod:hasProvenance _:b86ecec5a-6035-f086-233d-457d67dcbf5e;
+    dct:conformsTo melod:Item.
+
+_:b14bd1f49-8247-02b3-de44-0fe36ddaf45f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7653".
+
+_:bc1f2a753-5c4b-34a5-4b57-e1e8f136aecf a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b86ecec5a-6035-f086-233d-457d67dcbf5e a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:be74fcf13-1d1f-f686-51f4-bd7f4d228e38.
+
+_:be74fcf13-1d1f-f686-51f4-bd7f4d228e38 a melod:ExactDate;
+    melod:isodate "1930-09-19"^^xsd:date;
+    schema:description "19.09.1930".

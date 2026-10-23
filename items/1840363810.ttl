@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1840363810> a melod:Item;
     rdfs:label "Chopp com rosca — Partitura melodia (score_4070)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1469501541>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1805134138>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6c06a0c6-b9f9-1ae9-6ce3-6ca74e0a28d1;

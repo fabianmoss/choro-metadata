@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1303750151> a melod:Item;
+    rdfs:label "Dez de janeiro — Partitura melodia (score_8955)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1221817296>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b6a30aa0c-a622-4d0f-7d25-819f1e7a31d8;
+    melod:hasShelfmark "score_8955";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_8955.pdf>;
+    melod:hasProvenance _:bc759fa9f-8935-2dfd-551d-e9cb1f0efd9b;
+    dct:conformsTo melod:Item.
+
+_:b6a30aa0c-a622-4d0f-7d25-819f1e7a31d8 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_8955".
+
+_:bc759fa9f-8935-2dfd-551d-e9cb1f0efd9b a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb6133ba0-8042-b6f9-344d-a47b5f32749f.
+
+_:bb6133ba0-8042-b6f9-344d-a47b5f32749f a melod:ExactDate;
+    melod:isodate "1954-01-18"^^xsd:date;
+    schema:description "18.01.1954".

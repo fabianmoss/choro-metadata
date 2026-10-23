@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1444749772> a melod:Item;
     rdfs:label "Alma-de-mestre — Partitura melodia e cifra (score_11306)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1121051431>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1375185749>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bad0a9b41-1e68-cc2d-0aa8-1929505b85c6;

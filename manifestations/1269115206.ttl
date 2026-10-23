@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1269115206> a melod:Manifestation;
+    melod:hasTitle _:bc26cdb2a-3618-49d4-d598-6263bf792263;
+    lrmoo:R4_embodies <urn:uuid:expressions/1693816713>;
+    melod:hasClassificationOfManifestation "Partitura grade", terms:Print;
+    melod:hasContribution _:b343186af-559f-ad9c-d099-8e5573e5a637;
+    schema:publication _:bb1d6203c-7888-cb84-9395-c6c0d938c15c;
+    dct:conformsTo melod:Manifestation.
+
+_:bc26cdb2a-3618-49d4-d598-6263bf792263 a melod:Title;
+    rdfs:label "Amor perdido — Partitura grade (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b343186af-559f-ad9c-d099-8e5573e5a637 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:bb1d6203c-7888-cb84-9395-c6c0d938c15c a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

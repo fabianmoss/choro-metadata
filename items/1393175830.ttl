@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1393175830> a melod:Item;
     rdfs:label "Balada — Partitura cifra (score_9229)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1165673565>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1069724549>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b110ab424-9860-304c-6375-36754306eae9;

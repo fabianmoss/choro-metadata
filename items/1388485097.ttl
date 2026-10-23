@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1388485097> a melod:Item;
     rdfs:label "Alpha — Partitura melodia e cifra (score_13228)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1159099927>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1366843928>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b930df027-1b61-679a-c120-bfce70025a5e;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1655581866> a melod:Item;
     rdfs:label "Aury — Partitura melodia e cifra (score_13860)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577849208>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1798980213>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b55066471-cce5-12de-46e4-27e56567c05c;

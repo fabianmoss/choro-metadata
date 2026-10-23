@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1594310007> a melod:Item;
     rdfs:label "Besançon — Partitura melodia e cifra (score_8446)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1337375628>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1565769740>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3fe8b715-161f-873e-17d3-bbd48ac53476;

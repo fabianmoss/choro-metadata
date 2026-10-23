@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1887176460> a melod:Item;
     rdfs:label "Chorinho do boteco — Partitura melodia (score_9067)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1222436326>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1240892063>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc9a6f4ec-4540-5628-6bc2-e1959e96453e;

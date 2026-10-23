@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1729168251> a melod:Manifestation;
+    melod:hasTitle _:b11469f5d-1435-93b2-f1c7-dfbfd4a1b031;
+    lrmoo:R4_embodies <urn:uuid:expressions/1301750835>;
+    melod:hasClassificationOfManifestation "Partitura piano a quatro mãos", terms:Print;
+    melod:hasContribution _:b73036f02-23c1-9e57-fda0-1f47bcd91080;
+    dct:conformsTo melod:Manifestation.
+
+_:b11469f5d-1435-93b2-f1c7-dfbfd4a1b031 a melod:Title;
+    rdfs:label "A coroa de Carlos Magno — Partitura piano a quatro mãos (edition Narciso & Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b73036f02-23c1-9e57-fda0-1f47bcd91080 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1384331214>;
+    melod:hasRole terms:Publisher.

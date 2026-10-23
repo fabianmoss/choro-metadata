@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1741119928> a melod:Item;
     rdfs:label "À espera do Ruy — Partitura melodia (score_3370)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1284693653>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226152484>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b39fc9eda-8d82-d2db-d282-4ea6d2c7cda8;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1345815221> a melod:Item;
     rdfs:label "Caminhador — Partitura melodia e cifra (score_11621)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1053981674>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1366587018>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8c159dba-4f12-8694-2f6b-e28fea149e5a;

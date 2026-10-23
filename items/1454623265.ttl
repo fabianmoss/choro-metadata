@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1454623265> a melod:Item;
     rdfs:label "As Magdalenas arrependidas — Partitura melodia (score_6199)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1748796525>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1511729982>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b45233148-1808-69e9-28ba-428cc59abcee;

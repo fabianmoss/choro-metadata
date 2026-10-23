@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1831390846> a melod:Item;
     rdfs:label "A.B.C. do amor — Partitura piano e letra (score_14309)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1643981940>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1498727385>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b771322c2-a28a-4c38-3b32-09a9088a7903;

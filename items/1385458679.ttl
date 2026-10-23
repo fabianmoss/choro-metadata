@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1385458679> a melod:Item;
     rdfs:label "Chorinho moderno — Partitura melodia e cifra (score_10257)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1386040187>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1220060157>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4473c194-4443-439c-e421-0a4a42f6ab56;

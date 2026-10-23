@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1354680999> a melod:Work;
+    melod:hasTitle _:ba6a6088d-bbd6-7660-5136-4fb3a714ee31;
+    melod:hasIdentifier _:bdc6ddc2d-17d6-0be2-cd04-49de6e9d9aa1;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9819>;
+    melod:hasContribution _:b55e44097-e6e8-3412-f61c-bc068d05d918, _:b134958ad-ce96-63c6-55b5-6bd892745f4c;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1337564823>;
+    melod:hasAnnotation _:b3269d581-c685-1652-6a0c-cf23587ae0a3;
+    dct:conformsTo melod:Work.
+
+_:ba6a6088d-bbd6-7660-5136-4fb3a714ee31 a melod:Title;
+    rdfs:label "E o vento levou"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bdc6ddc2d-17d6-0be2-cd04-49de6e9d9aa1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9819".
+
+_:b55e44097-e6e8-3412-f61c-bc068d05d918 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1703630577>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b134958ad-ce96-63c6-55b5-6bd892745f4c a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1257082323>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b3269d581-c685-1652-6a0c-cf23587ae0a3 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9819\">https://acervo.casadochoro.com.br/works/view/9819</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

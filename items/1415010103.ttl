@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1415010103> a melod:Item;
     rdfs:label "Chega pra lá — Partitura melodia e cifra (score_11675)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1112709392>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1229264403>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4ee4cd2d-7b6e-73ae-3742-688bbef24adf;

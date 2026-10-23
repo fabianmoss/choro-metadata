@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1149638689> a melod:Item;
     rdfs:label "A sonhar — Partitura melodia (score_7625)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1476979938>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1145800814>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd14d9737-67a7-9b93-135d-17a623e8bbcc;

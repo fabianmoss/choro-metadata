@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1698947178> a melod:Item;
     rdfs:label "Branca — Partitura melodia e letra (no digitisation)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1598537446>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129906197>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasAnnotation _:b53b3690e-4a04-c87a-2e1b-caa7ca4aa7ff;

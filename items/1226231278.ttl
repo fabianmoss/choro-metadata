@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1226231278> a melod:Item;
     rdfs:label "Choro n.15 (G) — Partitura melodia e cifra (score_9876)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1015625207>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1510923826>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd890d868-eeae-cd7f-2a43-fb30cd7ca516;

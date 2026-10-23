@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1738638639> a melod:Item;
     rdfs:label "A elegância — Partitura melodia e cifra (score_13557)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1505548022>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1347782615>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3858cc57-67b5-fdde-f79c-7d157d2c41ef;

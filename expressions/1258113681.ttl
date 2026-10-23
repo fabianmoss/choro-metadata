@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1258113681> a melod:Expression;
+    rdfs:label "Diplomata_BANDÃO (arrangement by Thiago Osório, Partitura flauta 2)";
+    melod:hasClassification "Choro";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bb62e7009-9212-90fb-eb5d-445ee607086c;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1317696346>;
+    melod:hasContribution _:b057d2818-21ee-9beb-6546-0d92730567de;
+    dct:conformsTo melod:Expression.
+
+_:bb62e7009-9212-90fb-eb5d-445ee607086c a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b057d2818-21ee-9beb-6546-0d92730567de a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1650931356>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

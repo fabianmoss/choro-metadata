@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1799762706> a melod:Item;
     rdfs:label "Circumscis flautica — Partitura piano (score_4408)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1325267178>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1010403191>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b827f38fd-03c1-c19a-876b-52150ae9e86a;

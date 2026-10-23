@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1711228224> a melod:Item;
     rdfs:label "Bebericando — Partitura melodia e cifra (score_11424)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1893885267>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1042592476>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b533d4999-d7c4-c411-323d-4bd498a35bd9;

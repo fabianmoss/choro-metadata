@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1026381948> a melod:Item;
     rdfs:label "Choro nº10 — Partitura violão (score_8770)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1479958317>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1026372907>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc6038add-4df6-6b5a-a89c-ae5e198de2ea;

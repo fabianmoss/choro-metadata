@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1866323154> a melod:Item;
     rdfs:label "Angá — Partitura melodia (score_3936)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1305709621>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1022621766>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7e7b78c0-6023-a8b6-4ec4-52a2a0c9045a;

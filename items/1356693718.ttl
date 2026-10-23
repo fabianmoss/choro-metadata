@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1356693718> a melod:Item;
     rdfs:label "Carlos Alberto — Partitura melodia (score_909)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1307414797>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1224938205>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc53a8195-942e-b728-56ca-049cc211f6f1;

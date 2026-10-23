@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1506571245> a melod:Item;
     rdfs:label "A gazetinha — Partitura piano (score_4388)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1185017707>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1318738801>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc89522d6-1bd3-a333-98cd-394edff6a5da;

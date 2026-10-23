@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1592969083> a melod:Item;
     rdfs:label "Aeroplanando — Partitura melodia (score_1618)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1815694551>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1468334110>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b84ed92d7-3f4e-642f-bccf-24726f0cbaaf;

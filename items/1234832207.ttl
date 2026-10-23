@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1234832207> a melod:Item;
     rdfs:label "A Folgaza — Partitura piano (score_650)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1418219999>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1587553449>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b43b08606-43a0-6215-0a87-fd4264138c88;

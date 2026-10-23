@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1501847963> a melod:Item;
     rdfs:label "Azul e branco — Partitura arranjo (score_6757)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1689980362>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1529849528>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b13e98f4b-73dd-4f54-09b7-1309a85b47e7;

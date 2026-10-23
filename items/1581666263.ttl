@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1581666263> a melod:Item;
     rdfs:label "Boca nova — Partitura melodia e cifra (score_12868)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1588625343>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1171851718>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcbc9fbc6-c082-7381-bc9a-5b41051c2876;

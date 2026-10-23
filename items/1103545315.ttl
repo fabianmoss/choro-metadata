@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1103545315> a melod:Item;
     rdfs:label "Apanhei-te cavaquinho — Partitura melodia (score_4776)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1375201682>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090305164>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba137d9e1-d8dd-3ca2-9f2a-06839b88fa0d;

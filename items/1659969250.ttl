@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1659969250> a melod:Item;
     rdfs:label "A lebre e a tartaruga — Partitura melodia e cifra (score_15812)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1654710118>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1610897592>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b90f1f5d9-d2a0-7b02-b9a5-6c92bc9dcb89;

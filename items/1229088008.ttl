@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1229088008> a melod:Item;
     rdfs:label "Acabou-se o que era doce — Partitura melodia (score_4066)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1715363686>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1774146451>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0a4b1d91-2190-0ae6-a0b3-a3c2faa982f5;

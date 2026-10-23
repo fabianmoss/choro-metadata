@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1875148820> a melod:Item;
     rdfs:label "Cariry — Partitura melodia (score_3754)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1448471565>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1386713082>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b665c03b1-f478-d77d-1c3d-a3f3dd63c0ce;

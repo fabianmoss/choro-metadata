@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1685501574> a melod:Item;
+    rdfs:label "Deixa viver — Partitura melodia (score_11210)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1009278616>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b8ff4019d-edc4-c331-b9cc-8798877218e7;
+    melod:hasShelfmark "score_11210";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11210.pdf>;
+    melod:hasHand _:bddda11eb-6191-a844-f265-b518a0658154;
+    melod:hasProvenance _:bb176bd9e-f81f-6ba6-a914-66a7ac347fec;
+    dct:conformsTo melod:Item.
+
+_:b8ff4019d-edc4-c331-b9cc-8798877218e7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11210".
+
+_:bddda11eb-6191-a844-f265-b518a0658154 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bb176bd9e-f81f-6ba6-a914-66a7ac347fec a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b46406f31-3b62-407c-fff2-5bda336811d3.
+
+_:b46406f31-3b62-407c-fff2-5bda336811d3 a melod:ExactDate;
+    melod:isodate "1932-12-13"^^xsd:date;
+    schema:description "13.12.1932".

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1898781225> a melod:Item;
     rdfs:label "Casa Oliveira — Partitura melodia e cifra (score_15296)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1479297319>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1225570884>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd33e2d46-1c1e-e6ed-a1ef-bb8790a2f675;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1774713296> a melod:Item;
     rdfs:label "A dor de um beijo — Partitura melodia (score_4601)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1708582360>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1683434637>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc2b13a04-40a8-4690-c5b8-97a3214920b1;

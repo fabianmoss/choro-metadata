@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1628738409> a melod:Work;
+    melod:hasTitle _:bbedf26d8-3040-0c45-f144-b258438063ae;
+    melod:hasIdentifier _:bf75dfe8e-0d16-7288-6b9c-3d3e78cc1798;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/805>;
+    melod:hasContribution _:b2f5721b3-fb86-ef4a-f566-4ea9a8157d0e;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1635579037>, <urn:uuid:expressions/1168097934>, <urn:uuid:expressions/1526358083>;
+    melod:hasAnnotation _:bfe793fcb-4580-1646-d9a9-6d4a0670b06e;
+    dct:conformsTo melod:Work.
+
+_:bbedf26d8-3040-0c45-f144-b258438063ae a melod:Title;
+    rdfs:label "Dionísio, olha o baixo!"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bf75dfe8e-0d16-7288-6b9c-3d3e78cc1798 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "805".
+
+_:b2f5721b3-fb86-ef4a-f566-4ea9a8157d0e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfe793fcb-4580-1646-d9a9-6d4a0670b06e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/805\">https://acervo.casadochoro.com.br/works/view/805</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

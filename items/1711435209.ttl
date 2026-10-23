@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1711435209> a melod:Item;
     rdfs:label "Aldesinda — Partitura melodia (score_798)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1017860575>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1649183758>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be2077e4a-bf8e-9e8a-b3d3-970edc3b2157;

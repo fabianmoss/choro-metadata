@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1525586866> a melod:Item;
     rdfs:label "Caprichosa — Partitura melodia (score_1310)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1221768492>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1006703172>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b86444ad4-54b0-694a-29b8-0a55379a93e0;

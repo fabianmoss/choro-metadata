@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1434577960> a melod:Item;
     rdfs:label "Caminho da saudade — Partitura 2a voz (score_7130)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1791849070>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1141858104>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7e2790e0-8798-0f89-21d9-d0d635db7d28;

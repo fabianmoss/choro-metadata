@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1312225762> a melod:Item;
     rdfs:label "A borboleta de ouro — Partitura piano (score_3426)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1697725675>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1667911331>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1f508e25-0c77-63ba-09a4-2163d7980a9a;

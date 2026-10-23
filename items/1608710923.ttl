@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1608710923> a melod:Item;
     rdfs:label "Casa aberta — Partitura melodia e cifra (score_11659)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1418086528>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1363163640>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb963fb73-1de6-f2f3-5e7c-f46b0bd37b5e;

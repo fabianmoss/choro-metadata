@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1456954808> a melod:Item;
     rdfs:label "A viola do Cecílio — Partitura cifra (score_11165)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1444695451>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1843820094>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bafc58d1e-7dc4-5a35-caac-16d9325f4d93;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1592948057> a melod:Item;
     rdfs:label "A careca do doutor — Partitura melodia e cifra (score_12812)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1684118761>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1060521961>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb46bddba-2850-73a7-e5d5-e60ebf5f975f;

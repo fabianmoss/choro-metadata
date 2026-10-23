@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1563710697> a melod:Item;
     rdfs:label "A fera encantada — Partitura melodia (score_1513)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1791263117>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545086348>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc01661d7-3958-9109-48c6-85c591490749;

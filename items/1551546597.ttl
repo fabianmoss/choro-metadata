@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1551546597> a melod:Item;
     rdfs:label "Capriccio — Partitura piano (score_15134)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1353592721>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1062786259>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9e8a3c82-8df2-407d-8076-844180d8e192;

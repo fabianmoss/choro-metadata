@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1693588999> a melod:Item;
     rdfs:label "Cantiga — Partitura melodia e cifra (score_8982)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1187247868>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025309247>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:baf9fb08c-afc6-cd1b-76e6-0e511c9f26b9;

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1348343310> a melod:Work;
+    melod:hasTitle _:b280b11e0-e626-11cb-ed0a-8a995a2fb07c;
+    melod:hasIdentifier _:b624e4edd-105d-4886-22b9-a4046cfe5c4c;
+    melod:hasClassification "Samba";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5548>;
+    melod:hasContribution _:bfc6debc6-505f-3478-b475-58e5183562b5;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1176509822>, <urn:uuid:expressions/1845011913>;
+    melod:hasAnnotation _:b6fd31494-d3ba-7c86-05da-cf7455d4bd3e;
+    dct:conformsTo melod:Work.
+
+_:b280b11e0-e626-11cb-ed0a-8a995a2fb07c a melod:Title;
+    rdfs:label "Deixa de ser convencida"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b624e4edd-105d-4886-22b9-a4046cfe5c4c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5548".
+
+_:bfc6debc6-505f-3478-b475-58e5183562b5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1112306431>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6fd31494-d3ba-7c86-05da-cf7455d4bd3e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5548\">https://acervo.casadochoro.com.br/works/view/5548</a>. Gênero: Samba. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

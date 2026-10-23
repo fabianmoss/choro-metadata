@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1207116829> a melod:Item;
     rdfs:label "Alcide — Partitura piano (score_2324)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841324205>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1520130908>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf4c982a1-5668-692c-2b73-e3630f87bf1f;

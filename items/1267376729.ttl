@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1267376729> a melod:Item;
     rdfs:label "All right — Partitura melodia e cifra (score_12380)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1424327937>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1497030762>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc104031a-eca7-f01e-dcb8-71bb9f44efe8;

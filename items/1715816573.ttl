@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1715816573> a melod:Item;
     rdfs:label "Charlante — Partitura melodia e cifra (score_11674)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1583761230>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1664143437>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfd101f95-3087-8fe8-dff1-e9890a0e4a17;

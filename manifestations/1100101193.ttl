@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1100101193> a melod:Manifestation;
+    melod:hasTitle _:b3428384c-9160-5d7c-399a-763878a0163b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1116630980>;
+    melod:hasClassificationOfManifestation "Partitura arranjo para pequena orquestra", terms:Print;
+    melod:hasContribution _:b352fe7d3-26ca-9089-98e9-f2a1f493223e;
+    dct:conformsTo melod:Manifestation.
+
+_:b3428384c-9160-5d7c-399a-763878a0163b a melod:Title;
+    rdfs:label "Chorinho criolo — Partitura arranjo para pequena orquestra (edition by A. Di Franco)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b352fe7d3-26ca-9089-98e9-f2a1f493223e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1635252664>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

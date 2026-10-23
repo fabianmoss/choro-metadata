@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1443456994> a melod:Work;
+    melod:hasTitle _:b9bd68ce9-2f38-3fd1-f4be-4f9f4eeb8d99;
+    melod:hasIdentifier _:b1fdf7655-7868-8425-c328-29945e6f11f1;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1752>;
+    melod:hasContribution _:bd1f43bbe-71b7-261d-935c-d1a949f22f9d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1890437295>, <urn:uuid:expressions/1058387456>;
+    melod:hasAnnotation _:b65c0adb6-c669-9a47-915a-6fdb9dc967f5;
+    dct:conformsTo melod:Work.
+
+_:b9bd68ce9-2f38-3fd1-f4be-4f9f4eeb8d99 a melod:Title;
+    rdfs:label "Em continência"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b1fdf7655-7868-8425-c328-29945e6f11f1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1752".
+
+_:bd1f43bbe-71b7-261d-935c-d1a949f22f9d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1498051596>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b65c0adb6-c669-9a47-915a-6fdb9dc967f5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1752\">https://acervo.casadochoro.com.br/works/view/1752</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

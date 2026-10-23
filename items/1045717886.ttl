@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1045717886> a melod:Item;
     rdfs:label "Adelia — Partitura melodia (score_6538)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1097990681>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1076539846>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b597d0ae4-b67e-515c-ac4a-0350d7c3c9f9;

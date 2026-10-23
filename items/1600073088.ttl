@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1600073088> a melod:Item;
     rdfs:label "A pastorinha — Partitura piano (score_3314)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1313475138>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1286495893>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b89096615-5caa-96b0-552e-eed2c0ef62cc;

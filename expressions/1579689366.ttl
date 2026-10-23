@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1579689366> a melod:Expression;
+    rdfs:label "A cara do Brasil (original version, Partitura melodia, cifra e letra)";
+    melod:hasClassification "Samba";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b1de781cd-5ffc-d101-97b7-74cf0484ba44;
+    melod:hasContribution _:bef007b38-5ea2-763f-a01e-67136c7cbbc2;
+    dct:conformsTo melod:Expression.
+
+_:b1de781cd-5ffc-d101-97b7-74cf0484ba44 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bef007b38-5ea2-763f-a01e-67136c7cbbc2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1192492182>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

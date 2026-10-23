@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1855407624> a melod:Item;
     rdfs:label "Antepassados — Partitura melodia e cifra (score_11379)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1582444304>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1369121909>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b54b46f21-df12-4ba8-e881-88652c045deb;

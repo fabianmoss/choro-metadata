@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1288005644> a melod:Item;
     rdfs:label "Annalira — Partitura melodia (score_4738)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1015881927>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1317848670>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b851f6412-9459-4f0a-de15-e2e6b8eee6f2;

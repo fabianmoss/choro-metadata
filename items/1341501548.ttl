@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1341501548> a melod:Item;
     rdfs:label "Campestre — Partitura melodia e cifra (score_12674)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1327055591>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1672632227>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba7f897a3-f711-b4b9-7ff2-013dc22f8fbf;

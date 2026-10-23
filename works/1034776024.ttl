@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1034776024> a melod:Work;
+    melod:hasTitle _:b9a646614-5d24-db64-a417-a8a7fd659d2a;
+    melod:hasIdentifier _:ba6e24cfa-a2af-90b1-22db-4faadc5b3d9f;
+    melod:hasClassification "Maxixe";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2480>;
+    melod:hasContribution _:b23796054-0246-40a5-96b6-39b50a10978b;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1773041019>;
+    melod:hasAnnotation _:b0be2fb82-ff16-9189-d1c8-c1cc1550131f;
+    dct:conformsTo melod:Work.
+
+_:b9a646614-5d24-db64-a417-a8a7fd659d2a a melod:Title;
+    rdfs:label "Deixa morder teu beiço"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba6e24cfa-a2af-90b1-22db-4faadc5b3d9f a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2480".
+
+_:b23796054-0246-40a5-96b6-39b50a10978b a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1602017999>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b0be2fb82-ff16-9189-d1c8-c1cc1550131f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2480\">https://acervo.casadochoro.com.br/works/view/2480</a>. Gênero: Maxixe. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

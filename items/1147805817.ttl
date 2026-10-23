@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1147805817> a melod:Item;
     rdfs:label "Atirada — Partitura piano (score_2480)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1870858640>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1803093198>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3e049894-55fd-85f5-8fec-86c23c88bdb8;

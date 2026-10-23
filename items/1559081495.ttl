@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1559081495> a melod:Item;
     rdfs:label "Buenos Aires Hora 0 — Partitura piano (score_9157)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1538522510>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1152006698>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:baa73cbf1-66da-7faf-2329-4ef927c7aa40;

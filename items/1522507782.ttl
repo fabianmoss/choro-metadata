@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1522507782> a melod:Item;
     rdfs:label "Agora sim — Partitura melodia (score_3313)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1801291779>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818735096>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba58445ab-fd1c-6795-aa0e-7af5f150c03c;

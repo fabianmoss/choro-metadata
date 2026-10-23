@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1524892681> a melod:Item;
     rdfs:label "Buscapé — Partitura melodia e cifra (score_15839)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1409974302>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1409743211>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf97755b1-6d94-57a8-964c-29636e6a9458;

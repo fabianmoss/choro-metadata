@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1739626110> a melod:Item;
     rdfs:label "A sua carta — Partitura piano e letra (score_2190)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1096710870>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1332708086>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b91dfe847-a1de-5ae0-d59c-4fa6fadbf30e;

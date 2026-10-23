@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1586172759> a melod:Item;
     rdfs:label "Belezas do Recife — Partitura melodia e cifra (score_2802)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1232654584>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1219740346>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcc3cd82f-f715-7b7d-d914-190ee6e5285f;

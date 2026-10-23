@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1818742859> a melod:Item;
     rdfs:label "Albertina — Partitura cifra (score_1539)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1542078321>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1087483775>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0ab86c18-ed9f-e2d2-57e0-ca5f2208801e;

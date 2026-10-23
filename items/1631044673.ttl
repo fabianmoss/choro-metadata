@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1631044673> a melod:Item;
     rdfs:label "Balancê — Partitura piano e letra (score_14412)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1041023114>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1355262459>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b726f1482-4b2e-3b50-561b-1c2c8101bf67;

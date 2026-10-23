@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1261688950> a melod:Item;
     rdfs:label "A solidão — Partitura melodia (score_677)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1358524843>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1217851154>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7da68f35-a6b6-d451-4f9b-7226ed2ebe9c;

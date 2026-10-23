@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1618748443> a melod:Item;
     rdfs:label "Atrevidinha — Partitura piano (score_4803)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1366038309>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1152067169>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b80da0396-329b-e6ef-0103-06e332be728c;

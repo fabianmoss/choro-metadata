@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1337307432> a melod:Item;
     rdfs:label "China pau — Partitura melodia, cifra e letra (score_8829)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1695694443>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1205265505>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6c8f7b33-1a83-3c24-8d3d-0397dae68b5c;

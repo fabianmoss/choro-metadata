@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1227284447> a melod:Manifestation;
+    melod:hasTitle _:bcbbd21ec-ecc5-9adf-a430-c635c4274c10;
+    lrmoo:R4_embodies <urn:uuid:expressions/1661754559>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:be6aeaaf7-0557-baae-6559-c556e428cb49;
+    schema:publication _:bf30c5cff-3df2-5f78-13cd-ddb641e6c615;
+    dct:conformsTo melod:Manifestation.
+
+_:bcbbd21ec-ecc5-9adf-a430-c635c4274c10 a melod:Title;
+    rdfs:label "Aniversário do Heitor Corrêa — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:be6aeaaf7-0557-baae-6559-c556e428cb49 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bf30c5cff-3df2-5f78-13cd-ddb641e6c615 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

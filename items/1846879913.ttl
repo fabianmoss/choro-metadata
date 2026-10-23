@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1846879913> a melod:Item;
     rdfs:label "Angá — Partitura melodia e cifra (score_3981)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1664944987>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1086592106>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcf19ece0-0911-2f32-a5f6-08f82e42c16a;

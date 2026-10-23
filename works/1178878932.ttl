@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1178878932> a melod:Work;
+    melod:hasTitle _:b6d92c290-90b7-8c1a-901f-0c814df7d9c8;
+    melod:hasIdentifier _:b8d309e7d-bf8c-7b07-addd-149f300e6d5e;
+    melod:hasClassification "Tango de Salão";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4272>;
+    melod:hasContribution _:b6a907993-27b7-a75d-dd76-27f6382dfdaf;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1697340033>, <urn:uuid:expressions/1213512013>, <urn:uuid:expressions/1810955632>;
+    melod:hasAnnotation _:bc46754b4-c553-d2de-2d1a-9cac3eed599f;
+    dct:conformsTo melod:Work.
+
+_:b6d92c290-90b7-8c1a-901f-0c814df7d9c8 a melod:Title;
+    rdfs:label "Do sorriso da mulher nasceram as flores"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8d309e7d-bf8c-7b07-addd-149f300e6d5e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4272".
+
+_:b6a907993-27b7-a75d-dd76-27f6382dfdaf a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1713617750>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc46754b4-c553-d2de-2d1a-9cac3eed599f a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4272\">https://acervo.casadochoro.com.br/works/view/4272</a>. Gênero: Tango de Salão. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

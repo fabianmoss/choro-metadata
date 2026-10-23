@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1707500228> a melod:Item;
     rdfs:label "Canção de amor — Partitura piano e letra (score_11206)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1657223587>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1559663104>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba53f931f-2143-fb00-dc3a-e9d9aa536fd5;

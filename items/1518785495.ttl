@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1518785495> a melod:Item;
     rdfs:label "A última estrofe — Partitura melodia (score_5265)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1405557977>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1282311137>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8f923b84-2a56-e344-3d96-e2628e4f0cbb;

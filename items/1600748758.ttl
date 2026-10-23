@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1600748758> a melod:Item;
     rdfs:label "Alegro de concerto — Partitura piano (score_1971)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1307080090>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1005214356>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b97f230dd-d380-f790-7e6e-20f2dcf8e89f;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1705062537> a melod:Item;
     rdfs:label "Amigo copo — Partitura melodia e cifra (score_9588)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1880423410>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1779470282>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd82c9436-22e2-b550-a2a5-9ecf5f7fa3e9;

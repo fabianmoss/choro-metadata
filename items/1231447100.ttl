@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1231447100> a melod:Item;
     rdfs:label "Choro da madrugada — Partitura piano e letra (score_4648)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1622474999>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1570002227>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b97ea512e-4f0c-3774-b11f-1b4eed5a498f;

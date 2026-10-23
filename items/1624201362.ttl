@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1624201362> a melod:Item;
     rdfs:label "Caboclo chorando — Partitura melodia (score_6441)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1873735581>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1120182268>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb2da3858-7fb9-3a9d-5e2d-60f49b02e1d8;

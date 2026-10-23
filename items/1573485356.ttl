@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1573485356> a melod:Item;
     rdfs:label "Aliança liberal — Partitura piano (score_6300)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1533173510>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470669480>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b07300aac-1e46-0f02-2997-7bc3b44d2dd4;

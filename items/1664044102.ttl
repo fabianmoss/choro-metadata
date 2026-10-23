@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1664044102> a melod:Item;
     rdfs:label "Angelical — Partitura melodia (score_7940)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1326932529>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1439418769>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdbb810e3-b0be-31d0-182c-a2fa9834a310;

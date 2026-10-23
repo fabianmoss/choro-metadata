@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1613189589> a melod:Item;
     rdfs:label "Carolina Correia — Partitura melodia (score_6451)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1477683682>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1179628075>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b04e63056-ca08-91cb-0c0a-5a6957ae40e0;

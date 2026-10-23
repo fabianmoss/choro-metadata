@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1162692338> a melod:Item;
     rdfs:label "Adelaide — Partitura melodia (score_6142)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1732806263>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1595814453>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2a41e81a-0392-43f2-8bd4-7615a496cc7f;

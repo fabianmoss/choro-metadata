@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1184193259> a melod:Manifestation;
+    melod:hasTitle _:ba482755b-aa1a-b2fa-1112-829b9fef6b64;
+    lrmoo:R4_embodies <urn:uuid:expressions/1516605191>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    dct:conformsTo melod:Manifestation.
+
+_:ba482755b-aa1a-b2fa-1112-829b9fef6b64 a melod:Title;
+    rdfs:label "Alerta! — Partitura piano (edition by Bevilacqua & C.)";
+    melod:hasTitleType terms:MainTitle.

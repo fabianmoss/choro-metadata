@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1464447246> a melod:Item;
     rdfs:label "Alexandre no choro — Partitura melodia (score_5277)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1519925359>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1058728682>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be25f0b1d-1764-cd9f-1ac9-a258ce01555c;

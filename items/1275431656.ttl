@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1275431656> a melod:Item;
     rdfs:label "Caboclo — Partitura melodia e cifra (score_8966)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1798112543>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1411538902>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcb90c824-5353-d94d-1f83-d3502fbb450e;

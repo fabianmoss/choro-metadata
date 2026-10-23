@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1123082647> a melod:Item;
     rdfs:label "Chegou o Tuta — Partitura melodia (score_973)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1541779632>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1323610011>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4986ad09-a5fa-1f47-86f0-f3744874888d;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1390209136> a melod:Item;
     rdfs:label "A maritaca — Partitura melodia e cifra (score_11282)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1712968672>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1020826046>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7bf8356b-eeac-fc58-2165-09884faed739;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1656850295> a melod:Item;
     rdfs:label "Beija-flor — Partitura piano (score_2868)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1109867274>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1008486140>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba06de95a-a6f4-86ff-bcd7-c491e54f93f6;

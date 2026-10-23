@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1462128878> a melod:Work;
+    melod:hasTitle _:b80858e68-38e8-3f4d-d0e6-eef95726e29b;
+    melod:hasIdentifier _:b054d95c4-7b7a-9194-c806-0c3157d75e4b;
+    melod:hasClassification "Tango";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1026>;
+    melod:hasContribution _:badc1edaa-cb1d-f475-dc16-7cdf0d23a169;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1432375792>;
+    melod:hasAnnotation _:bb748e1e6-4829-a16d-0ae8-6a16826e7730;
+    dct:conformsTo melod:Work.
+
+_:b80858e68-38e8-3f4d-d0e6-eef95726e29b a melod:Title;
+    rdfs:label "D. Sebastiana"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b054d95c4-7b7a-9194-c806-0c3157d75e4b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1026".
+
+_:badc1edaa-cb1d-f475-dc16-7cdf0d23a169 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1641840505>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb748e1e6-4829-a16d-0ae8-6a16826e7730 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1026\">https://acervo.casadochoro.com.br/works/view/1026</a>. Gênero: Tango. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

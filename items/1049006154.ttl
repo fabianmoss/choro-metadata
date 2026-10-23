@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1049006154> a melod:Item;
     rdfs:label "Choro do luar — Partitura melodia (score_8209)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1002719642>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1472298041>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b66a2f20f-43c4-1441-c8c0-58631ff9738b;

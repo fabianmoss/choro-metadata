@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1335100537> a melod:Expression;
+    rdfs:label "América F. C. _BANDÃO (arrangement by Jayme Vignoli, Partitura sax alto 2)";
+    melod:hasClassification "Lundu";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b96df0fe3-78ce-5e5b-2417-df9823ef8916;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1305377863>;
+    melod:hasContribution _:b5974f30e-057c-55b4-158f-6b1d4af8394f;
+    dct:conformsTo melod:Expression.
+
+_:b96df0fe3-78ce-5e5b-2417-df9823ef8916 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:b5974f30e-057c-55b4-158f-6b1d4af8394f a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1114549214>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

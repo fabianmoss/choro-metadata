@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1338049527> a melod:Manifestation;
+    melod:hasTitle _:b153c880c-f78c-800a-1852-d2b5a0ba85d3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1319826672>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:bb48d58ae-e482-5199-e9a1-ef891abf7220;
+    schema:publication _:bddb95cff-934b-508c-8299-cd8a9898053b;
+    dct:conformsTo melod:Manifestation.
+
+_:b153c880c-f78c-800a-1852-d2b5a0ba85d3 a melod:Title;
+    rdfs:label "Amor perdido — Partitura melodia (edition Irmãos Vitale)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb48d58ae-e482-5199-e9a1-ef891abf7220 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1332881481>;
+    melod:hasRole terms:Publisher.
+
+_:bddb95cff-934b-508c-8299-cd8a9898053b a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1332881481>;
+    schema:location <urn:uuid:places/1800036311>.

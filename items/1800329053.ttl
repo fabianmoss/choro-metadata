@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1800329053> a melod:Item;
     rdfs:label "À espera de um milagre — Partitura melodia (score_3369)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1623831276>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1316558783>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b71c995db-c3a4-2ae7-9774-a9e832227249;

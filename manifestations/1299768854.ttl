@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1299768854> a melod:Manifestation;
+    melod:hasTitle _:b22a08f06-3a6e-e772-ebe8-2932873abc0b;
+    lrmoo:R4_embodies <urn:uuid:expressions/1628128170>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra", terms:Print;
+    melod:hasContribution _:bf23d4b6c-75b6-7241-8ce9-292baba7d797;
+    dct:conformsTo melod:Manifestation.
+
+_:b22a08f06-3a6e-e772-ebe8-2932873abc0b a melod:Title;
+    rdfs:label "Coração materno — Partitura arranjo com letra (edition E.S. Mangione)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bf23d4b6c-75b6-7241-8ce9-292baba7d797 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1297834093>;
+    melod:hasRole terms:Publisher.

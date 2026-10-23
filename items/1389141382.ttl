@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1389141382> a melod:Item;
     rdfs:label "Choro pra Pia — Partitura melodia e cifra (score_11701)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1731764567>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1553520082>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4d7c7918-df44-d60a-7b31-a0c6544092a1;

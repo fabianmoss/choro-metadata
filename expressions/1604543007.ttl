@@ -1,0 +1,26 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1604543007> a melod:Expression;
+    rdfs:label "Aparição de Yara (original version, Partitura melodia)";
+    melod:hasClassification "Lenda Melodia";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b6c6851be-1b31-c6bb-2db2-2daebb54e65b;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1441946950>;
+    dct:conformsTo melod:Expression.
+
+_:b6c6851be-1b31-c6bb-2db2-2daebb54e65b a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".

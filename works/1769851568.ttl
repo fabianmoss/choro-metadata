@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1769851568> a melod:Work;
+    melod:hasTitle _:b01663ccd-807b-b6a4-9acd-0a8b2ffde130;
+    melod:hasIdentifier _:b6c785928-16c7-4112-49fe-6f7979f42346;
+    melod:hasClassification "Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6971>;
+    melod:hasContribution _:b067f41fc-dbc9-f522-c2a3-4333cdb32592;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1848357797>;
+    melod:hasAnnotation _:b1d52c5ae-a585-9a3d-3aa9-2dbc70b98f26;
+    dct:conformsTo melod:Work.
+
+_:b01663ccd-807b-b6a4-9acd-0a8b2ffde130 a melod:Title;
+    rdfs:label "Curupira"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6c785928-16c7-4112-49fe-6f7979f42346 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6971".
+
+_:b067f41fc-dbc9-f522-c2a3-4333cdb32592 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1191415928>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b1d52c5ae-a585-9a3d-3aa9-2dbc70b98f26 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6971\">https://acervo.casadochoro.com.br/works/view/6971</a>. Gênero: Canção. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1181292507> a melod:Item;
     rdfs:label "Caressante — Partitura melodia e cifra (score_12460)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1667236952>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1104580528>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfdce6bef-adaa-b5dd-d2c3-5fe61feab150;

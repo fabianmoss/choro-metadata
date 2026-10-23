@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1816859507> a melod:Work;
+    melod:hasTitle _:b47415530-ef91-67cd-40ee-63430b93b14f;
+    melod:hasIdentifier _:bef910f6c-ba6a-423b-21d2-3f102e81bcff;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/6014>;
+    melod:hasContribution _:bd058a04f-af8b-ff90-b566-59e8f84130a1;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1035005581>;
+    melod:hasAnnotation _:b4f6aa002-53c1-b05b-b84f-85c582363497;
+    dct:conformsTo melod:Work.
+
+_:b47415530-ef91-67cd-40ee-63430b93b14f a melod:Title;
+    rdfs:label "Conversa de Bach e Nazareth"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bef910f6c-ba6a-423b-21d2-3f102e81bcff a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "6014".
+
+_:bd058a04f-af8b-ff90-b566-59e8f84130a1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1230418614>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b4f6aa002-53c1-b05b-b84f-85c582363497 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/6014\">https://acervo.casadochoro.com.br/works/view/6014</a>. Gênero: Não informado. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

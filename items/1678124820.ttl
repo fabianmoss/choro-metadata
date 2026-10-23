@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1678124820> a melod:Item;
     rdfs:label "Aí, Morcego! — Partitura base e harmonia (score_92)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1638557504>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1066414191>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b840c9937-13fd-22ed-e649-437e75ad67e1;

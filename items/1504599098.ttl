@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1504599098> a melod:Item;
     rdfs:label "Carolina — Partitura melodia (score_1312)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1808496962>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129545831>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1238f1f4-2755-41fd-2189-85fe9a7d2afe;

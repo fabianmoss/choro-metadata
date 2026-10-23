@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1775181947> a melod:Item;
     rdfs:label "Andante expressivo — Partitura piano (score_5135)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1793606288>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1165830852>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd6ec81a4-32ef-7745-e271-f12389a5f333;

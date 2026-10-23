@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1760851773> a melod:Item;
     rdfs:label "A Vila — Partitura melodia e cifra (score_9421)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1718241282>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226683006>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba28f7594-ca58-7d78-6270-c59c33d8b694;

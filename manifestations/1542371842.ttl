@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1542371842> a melod:Manifestation;
+    melod:hasTitle _:b14da5bf0-4ad0-6d89-52be-a527a183ab64;
+    lrmoo:R4_embodies <urn:uuid:expressions/1850368439>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:be12dd9cb-62a5-e70b-8d2b-49206c6fc643;
+    dct:conformsTo melod:Manifestation.
+
+_:b14da5bf0-4ad0-6d89-52be-a527a183ab64 a melod:Title;
+    rdfs:label "Cutuba — Partitura piano (edition Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:be12dd9cb-62a5-e70b-8d2b-49206c6fc643 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1113102569>;
+    melod:hasRole terms:Publisher.

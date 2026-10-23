@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1640731287> a melod:Item;
     rdfs:label "A boa roda do Parangolé — Partitura melodia e cifra (score_15824)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1673594922>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1191707587>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b814f02c2-9962-e24a-8f61-32c46801d647;

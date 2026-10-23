@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1412824054> a melod:Work;
+    melod:hasTitle _:ba317a795-adcb-6fab-fd42-c77e17df87c3;
+    melod:hasIdentifier _:b33ac1f4d-7324-c784-f861-07a6e2f2fec1;
+    melod:hasClassification "Allegro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2432>;
+    melod:hasContribution _:bd2af64ef-36a9-3757-c463-e57833524464;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1582318329>;
+    melod:hasAnnotation _:b501d95a3-c3b7-c7b3-1e44-8806863f672e;
+    dct:conformsTo melod:Work.
+
+_:ba317a795-adcb-6fab-fd42-c77e17df87c3 a melod:Title;
+    rdfs:label "Danse de Négres (Dança dos negros)"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b33ac1f4d-7324-c784-f861-07a6e2f2fec1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2432".
+
+_:bd2af64ef-36a9-3757-c463-e57833524464 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1140669963>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b501d95a3-c3b7-c7b3-1e44-8806863f672e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2432\">https://acervo.casadochoro.com.br/works/view/2432</a>. Gênero: Allegro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

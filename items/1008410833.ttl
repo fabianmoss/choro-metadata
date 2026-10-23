@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1008410833> a melod:Item;
     rdfs:label "Besinha — Partitura melodia e cifra (score_10607)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1624855862>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1624220809>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2b8eaa51-62b4-7fbf-b810-bf8a796e1f5a;

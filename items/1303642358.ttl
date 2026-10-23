@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1303642358> a melod:Item;
     rdfs:label "A florista — Partitura piano e letra (score_4941)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1134807769>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1333070419>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6531c1b4-30a5-84e8-4845-9c5e1e783c10;

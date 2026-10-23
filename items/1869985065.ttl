@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1869985065> a melod:Item;
     rdfs:label "Benguelê — Partitura arranjo (no digitisation)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1747973900>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1230301074>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasAnnotation _:bf18c9156-90b1-d111-8dcc-f4ce581d9347;

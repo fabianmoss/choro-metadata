@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1518198851> a melod:Manifestation;
+    melod:hasTitle _:bb3599c34-3403-e85e-b8d3-e8e188e72e4c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1890499740>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:bda559794-624e-62be-3d11-ec7caf5aca71;
+    dct:conformsTo melod:Manifestation.
+
+_:bb3599c34-3403-e85e-b8d3-e8e188e72e4c a melod:Title;
+    rdfs:label "Choro caboclo — Partitura arranjo (edition by A. Di Franco)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bda559794-624e-62be-3d11-ec7caf5aca71 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1635252664>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

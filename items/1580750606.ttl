@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1580750606> a melod:Item;
     rdfs:label "Brincalhão — Partitura melodia e cifra (score_13573)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1844921965>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1668431366>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bad543246-0200-ba52-e465-8118be016b42;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1587340419> a melod:Item;
     rdfs:label "Café Globo — Partitura melodia (score_2002)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1490039710>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1004504260>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bec035084-537e-a2c9-8e0b-c95cb6de54e6;

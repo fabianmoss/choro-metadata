@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1016876044> a melod:Item;
     rdfs:label "Boquinha brejeira — Partitura piano (score_8146)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1864370279>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1585698069>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b00b6140a-d9ef-ac6f-2e39-0417d0f803aa;

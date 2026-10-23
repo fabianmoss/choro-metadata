@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1448411323> a melod:Item;
     rdfs:label "Capricho — Partitura piano (score_5137)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1893267475>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1132257577>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfc0afac6-00f2-9c98-dac1-1a22ca112339;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1186697802> a melod:Item;
     rdfs:label "Batuque — Partitura piano (score_4812)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1744539233>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1379035298>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0729edc1-83ef-2394-fe2c-6aae79209df3;

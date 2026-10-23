@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1561001528> a melod:Item;
     rdfs:label "A pequena valsa — Partitura melodia e cifra (score_6834)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1179477709>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1277827303>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bab370dae-7a73-dfda-b5aa-408f6759d0e2;

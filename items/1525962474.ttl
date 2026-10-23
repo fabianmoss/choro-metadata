@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1525962474> a melod:Item;
+    rdfs:label "Corróca — Partitura melodia (score_6002)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1069643365>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bee52af2c-14e1-081a-9ff1-0c3a2e760c97;
+    melod:hasShelfmark "score_6002";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6002.pdf>;
+    melod:hasHand _:b609d3fa6-7df2-6c18-de1e-c026e963c85f;
+    melod:hasProvenance _:b179e8bdf-deb7-c1ce-45e5-3b0fb3ed3016;
+    dct:conformsTo melod:Item.
+
+_:bee52af2c-14e1-081a-9ff1-0c3a2e760c97 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6002".
+
+_:b609d3fa6-7df2-6c18-de1e-c026e963c85f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1001596025>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Arnaldo Corrêa".
+
+_:b179e8bdf-deb7-c1ce-45e5-3b0fb3ed3016 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bc671cac3-4434-b120-373c-c811b12951c3.
+
+_:bc671cac3-4434-b120-373c-c811b12951c3 a melod:ExactDate;
+    melod:isodate "1940-03-14"^^xsd:date;
+    schema:description "14.03.1940".

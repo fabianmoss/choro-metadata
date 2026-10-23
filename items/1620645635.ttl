@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1620645635> a melod:Item;
+    rdfs:label "Contatos imediatos do 3º grau — Partitura melodia e cifra (score_6772)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1509632227>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf8e4f399-7239-128a-db69-edb655272051;
+    melod:hasShelfmark "score_6772";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6772.pdf>;
+    melod:hasHand _:b2a6117b8-ca60-5e8b-b309-5e4bd678b6e8;
+    dct:conformsTo melod:Item.
+
+_:bf8e4f399-7239-128a-db69-edb655272051 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6772".
+
+_:b2a6117b8-ca60-5e8b-b309-5e4bd678b6e8 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Altamiro Carrilho".

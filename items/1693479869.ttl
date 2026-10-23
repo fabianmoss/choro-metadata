@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1693479869> a melod:Item;
     rdfs:label "Castelo branco — Partitura piano (score_14539)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1291090947>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1572511004>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc6287fa5-7156-aff5-29b8-922b97122b79;

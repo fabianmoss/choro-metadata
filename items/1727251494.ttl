@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1727251494> a melod:Item;
     rdfs:label "Alma volúvel — Partitura melodia (score_2165)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1153575019>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1524989762>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0595b1bf-80f0-df45-eec8-ca404a5b7357;

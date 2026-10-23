@@ -1,0 +1,41 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1574364059> a melod:Work;
+    melod:hasTitle _:bbc2db629-b6e4-f9fc-5455-99c2e588aeb6;
+    melod:hasIdentifier _:b9b471e0a-c0fd-a8cc-f159-c5545f915db1;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/813>;
+    melod:hasContribution _:b211cf94f-658b-9623-9b5d-408d23ab1557;
+    schema:citation <urn:uuid:bibliography/1425172023>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1160625703>, <urn:uuid:expressions/1322746382>;
+    melod:hasAnnotation _:b9678d790-2b82-3889-2cbb-4f16c39c3c07;
+    dct:conformsTo melod:Work.
+
+_:bbc2db629-b6e4-f9fc-5455-99c2e588aeb6 a melod:Title;
+    rdfs:label "Elzinha e Flávia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9b471e0a-c0fd-a8cc-f159-c5545f915db1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "813".
+
+_:b211cf94f-658b-9623-9b5d-408d23ab1557 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1372428005>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b9678d790-2b82-3889-2cbb-4f16c39c3c07 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/813\">https://acervo.casadochoro.com.br/works/view/813</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

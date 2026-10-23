@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1473235368> a melod:Item;
     rdfs:label "Carinhosa — Partitura cifra (score_11116)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700555926>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1706878920>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf2aa2ac8-49ec-1e6a-a048-d9e14afdd3d2;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1061214170> a melod:Item;
     rdfs:label "Brincando — Partitura piano (score_2046)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1502213042>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1150280844>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bed032226-421c-391e-f3bf-9dc466ff03e6;

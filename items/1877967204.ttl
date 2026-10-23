@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1877967204> a melod:Item;
     rdfs:label "Chorombiano — Partitura melodia e cifra (score_15862)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1320944576>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1018989560>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4e963f5a-bdef-e6cf-c3a5-13e25138c4a2;

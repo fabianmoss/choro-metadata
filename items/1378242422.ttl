@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1378242422> a melod:Item;
     rdfs:label "Canarinho teimoso — Partitura melodia (score_6767)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1638087371>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1365049548>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf92480aa-97ce-f4c4-3b7c-51801ff3d61e;

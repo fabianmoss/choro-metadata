@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1200153254> a melod:Item;
     rdfs:label "Amor ideal — Partitura piano (score_2771)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1763652157>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1595547010>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfb9895b7-9c72-904b-6851-204d6a24d2b6;

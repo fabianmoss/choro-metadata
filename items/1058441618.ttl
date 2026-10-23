@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1058441618> a melod:Item;
     rdfs:label "Aguenta firme — Partitura melodia e cifra (score_14189)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1234346046>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1600436715>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60d51ada-1c48-9455-d5ca-9b704b3754bf;

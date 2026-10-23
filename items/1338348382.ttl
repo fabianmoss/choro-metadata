@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1338348382> a melod:Item;
     rdfs:label "César, o Belo — Partitura arranjo (score_8289)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1721720983>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1510985584>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3c179677-a855-30ce-c558-2693c89c18e4;

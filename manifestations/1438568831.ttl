@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1438568831> a melod:Manifestation;
+    melod:hasTitle _:b2eeba98b-5d14-4f90-6991-838ceb66343c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1396692266>;
+    melod:hasClassificationOfManifestation "Partitura coro", terms:Print;
+    melod:hasContribution _:b9afaa90a-e408-9c58-f864-14778fd81b0c;
+    schema:publication _:b44a129fa-5fb3-9ae4-cf7e-3483449ea82b;
+    dct:conformsTo melod:Manifestation.
+
+_:b2eeba98b-5d14-4f90-6991-838ceb66343c a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO — Partitura coro (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9afaa90a-e408-9c58-f864-14778fd81b0c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b44a129fa-5fb3-9ae4-cf7e-3483449ea82b a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

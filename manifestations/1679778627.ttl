@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1679778627> a melod:Manifestation;
+    melod:hasTitle _:bf0339402-56b8-2cff-bc12-d093d7902b39;
+    lrmoo:R4_embodies <urn:uuid:expressions/1300321732>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b544b36fb-7448-a4a9-66f5-dfdbbf3ad36d;
+    dct:conformsTo melod:Manifestation.
+
+_:bf0339402-56b8-2cff-bc12-d093d7902b39 a melod:Title;
+    rdfs:label "Acanhado — Partitura melodia e cifra (edition Fermata do Brasil)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b544b36fb-7448-a4a9-66f5-dfdbbf3ad36d a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094092957>;
+    melod:hasRole terms:Publisher.

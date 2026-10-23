@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1286862655> a melod:Item;
     rdfs:label "Assim mesmo — Partitura melodia (score_223)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1526159436>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129707152>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb5f46997-cf36-bd78-ef1b-cc8ec23251a6;

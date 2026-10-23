@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1014228663> a melod:Item;
     rdfs:label "Ausência de um amigo — Partitura melodia (score_3323)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430633102>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1272903019>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb8f8d311-db48-613a-6f74-f95e9a99693f;

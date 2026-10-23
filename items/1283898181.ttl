@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1283898181> a melod:Item;
     rdfs:label "A nova era — Partitura cifra (score_6296)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1628433774>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1303627415>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b408c09c4-9495-abf6-cf06-4b5dcdcbb84b;

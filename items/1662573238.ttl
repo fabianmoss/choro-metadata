@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1662573238> a melod:Item;
     rdfs:label "A noite dos reis — Partitura piano (score_397)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1707866381>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1533159490>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b89949381-0278-586e-9d7f-3eeef72ea389;

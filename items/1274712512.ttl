@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1274712512> a melod:Item;
     rdfs:label "Almiscarado — Partitura melodia e cifra (score_11308)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1807784426>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1240620964>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bed25cfdb-ce10-daad-8e40-3075329e6fed;

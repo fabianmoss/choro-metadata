@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1593025968> a melod:Item;
     rdfs:label "Choro nº1 — Partitura cifra (score_9842)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1453464342>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1348949906>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b946f8d1e-4de4-1334-07cf-2d6fdb56d190;

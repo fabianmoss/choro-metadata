@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1458648721> a melod:Item;
     rdfs:label "Cantei — Partitura melodia e cifra (score_10000)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1185258282>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1256335658>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:beadc77b5-8142-5457-a191-68736e5deebb;

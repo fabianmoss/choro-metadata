@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1500427427> a melod:Item;
     rdfs:label "Cheirava-te — Partitura melodia (score_231)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1413387089>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1124780306>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb35c4b21-32d8-62e3-e02d-3b6343ce2ffe;

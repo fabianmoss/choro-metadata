@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1072820704> a melod:Item;
     rdfs:label "Choro em linhas - Catálogo — Partitura catálogo (score_16035)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1174769947>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1162278908>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be277f639-e0c6-dc7c-b748-9f1d11a99b9c;

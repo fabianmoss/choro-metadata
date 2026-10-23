@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1758177972> a melod:Manifestation;
+    melod:hasTitle _:bdc987e8f-19d5-2ec0-a183-7d29912b587c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1209804014>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bacdc78e0-ae42-31be-6ae2-594ef4a4f833;
+    dct:conformsTo melod:Manifestation.
+
+_:bdc987e8f-19d5-2ec0-a183-7d29912b587c a melod:Title;
+    rdfs:label "Borboleta — Partitura piano (edition Buschmann & Guimarães)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bacdc78e0-ae42-31be-6ae2-594ef4a4f833 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1465829950>;
+    melod:hasRole terms:Publisher.

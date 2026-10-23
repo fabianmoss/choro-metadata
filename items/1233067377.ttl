@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1233067377> a melod:Item;
     rdfs:label "Capichaba — Partitura piano (score_3045)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1047613216>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1056268007>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8971ed28-9632-55a3-b786-0dd0749734ca;

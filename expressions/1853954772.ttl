@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1853954772> a melod:Expression;
+    rdfs:label "Cabocla (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Tanguinho";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b1eec0daf-9932-524f-8768-18d58985d99b;
+    melod:hasContribution _:bf78df2b2-9a1d-a304-a38b-c7bb5b8d003e;
+    dct:conformsTo melod:Expression.
+
+_:b1eec0daf-9932-524f-8768-18d58985d99b a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bf78df2b2-9a1d-a304-a38b-c7bb5b8d003e a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

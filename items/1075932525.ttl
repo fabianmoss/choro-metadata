@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1075932525> a melod:Item;
     rdfs:label "Cinza — Partitura melodia e cifra (score_13196)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1769180570>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1634884384>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b90cce7ad-ab45-dbde-250c-83aea66e6b40;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1113543725> a melod:Item;
     rdfs:label "Adalgisa — Partitura piano (score_3533)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1884242678>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1066462192>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bda26ca04-efb8-6dad-162c-f0ade9363dab;

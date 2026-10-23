@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1185758422> a melod:Item;
     rdfs:label "A tela e o pandeiro — Partitura melodia e cifra (score_11285)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1235719574>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1017201138>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6e107b99-d0fd-ef6b-d33b-502fdbc17d3b;

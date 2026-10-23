@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1451961347> a melod:Work;
+    melod:hasTitle _:be033b1b6-1835-3c6a-98d6-5ce652755ab7;
+    melod:hasIdentifier _:b25348ca5-b102-beef-cd0c-8295ded22630;
+    melod:hasClassification "Marcha";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4710>;
+    melod:hasContribution _:b61376365-98cc-2e2d-a9f2-3a51f403a8e1;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1173158933>;
+    melod:hasAnnotation _:b180c38c2-53b1-19f1-82b6-98013b5a2d40;
+    dct:conformsTo melod:Work.
+
+_:be033b1b6-1835-3c6a-98d6-5ce652755ab7 a melod:Title;
+    rdfs:label "Comendo bola"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b25348ca5-b102-beef-cd0c-8295ded22630 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4710".
+
+_:b61376365-98cc-2e2d-a9f2-3a51f403a8e1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1717261619>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b180c38c2-53b1-19f1-82b6-98013b5a2d40 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4710\">https://acervo.casadochoro.com.br/works/view/4710</a>. Gênero: Marcha. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

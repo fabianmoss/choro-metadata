@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1199738444> a melod:Item;
     rdfs:label "Celina — Partitura melodia (score_971)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1399375788>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1188230667>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0d666570-f464-2c32-a2aa-870e3f67b2d3;

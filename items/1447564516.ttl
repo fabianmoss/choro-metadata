@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1447564516> a melod:Item;
     rdfs:label "Bonina — Partitura piano (score_3044)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1115366833>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046213713>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8a7898bb-9bad-cc4a-8f4f-1aff9dc7f1c1;

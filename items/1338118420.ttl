@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1338118420> a melod:Item;
     rdfs:label "Ao luar — Partitura melodia (score_5491)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470826341>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1727533704>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b615e3086-a417-633e-bfaf-de17bac48881;

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1575674861> a melod:Work;
+    melod:hasTitle _:ba05ee7bc-4198-a455-28dd-83158161e9ec;
+    melod:hasIdentifier _:bb661c57d-d5aa-4e60-a3af-ff098b36188a;
+    melod:hasClassification "Elegia";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3725>;
+    melod:hasContribution _:b150c9ff1-cc28-d450-4fb2-c744b37390cd;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1483695846>;
+    melod:hasAnnotation _:ba55a559b-2be6-0f69-9531-072166b06d02;
+    dct:conformsTo melod:Work.
+
+_:ba05ee7bc-4198-a455-28dd-83158161e9ec a melod:Title;
+    rdfs:label "Elegia"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb661c57d-d5aa-4e60-a3af-ff098b36188a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3725".
+
+_:b150c9ff1-cc28-d450-4fb2-c744b37390cd a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:ba55a559b-2be6-0f69-9531-072166b06d02 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3725\">https://acervo.casadochoro.com.br/works/view/3725</a>. Gênero: Elegia. Compasso: 12/8. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

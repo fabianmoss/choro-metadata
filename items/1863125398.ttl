@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1863125398> a melod:Item;
     rdfs:label "Addio — Partitura piano (score_2855)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717170743>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1459385304>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be59c09bb-2fdd-db9a-d78e-45cc88667043;

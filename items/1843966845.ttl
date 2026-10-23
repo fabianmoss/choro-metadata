@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1843966845> a melod:Item;
     rdfs:label "Cadê balanço? — Partitura melodia (score_6774)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1443347313>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1620784546>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf3983647-48c2-64e9-9c33-9ac2cd83292a;

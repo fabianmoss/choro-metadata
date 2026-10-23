@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1466237629> a melod:Item;
     rdfs:label "A lambujem — Partitura piano (score_3209)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1799087042>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1503801220>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4fde6852-7679-3b9f-4d72-dcb7071fa38c;

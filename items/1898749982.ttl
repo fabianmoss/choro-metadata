@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1898749982> a melod:Item;
     rdfs:label "Alentejana — Partitura melodia e cifra (score_11302)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1212096012>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1460834683>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfc40fede-c38a-c4a7-4e3e-f4c76399673c;

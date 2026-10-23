@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1299923504> a melod:Item;
+    rdfs:label "Divertimento — Partitura melodia (score_6671)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1408740628>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba45477e1-8a3d-eaa6-61e4-0c5a933d5667;
+    melod:hasShelfmark "score_6671";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6671.pdf>;
+    melod:hasHand _:bcc665af4-a849-999d-3b9a-52b82dfcbafd;
+    melod:hasProvenance _:bb99d51d5-c233-7a47-f203-afdca9e058b1;
+    dct:conformsTo melod:Item.
+
+_:ba45477e1-8a3d-eaa6-61e4-0c5a933d5667 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6671".
+
+_:bcc665af4-a849-999d-3b9a-52b82dfcbafd a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1244400084>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por João Dias Carrasqueira".
+
+_:bb99d51d5-c233-7a47-f203-afdca9e058b1 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b855176b8-8739-2fc7-0932-4c93432af558.
+
+_:b855176b8-8739-2fc7-0932-4c93432af558 a melod:ExactDate;
+    melod:isodate "1996-09-09"^^xsd:date;
+    schema:description "09.09.1996".

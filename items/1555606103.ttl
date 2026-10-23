@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1555606103> a melod:Item;
     rdfs:label "A casamenteira — Partitura piano (score_641)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1877594586>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470848010>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b941d857d-371c-9e18-fcca-718f5a855335;

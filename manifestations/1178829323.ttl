@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1178829323> a melod:Manifestation;
+    melod:hasTitle _:b5864a1d5-5ca9-5b0a-7404-67670f0159d6;
+    lrmoo:R4_embodies <urn:uuid:expressions/1344811664>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Print;
+    melod:hasContribution _:ba34b78e2-281e-5912-27af-ebc9b61f2795;
+    dct:conformsTo melod:Manifestation.
+
+_:b5864a1d5-5ca9-5b0a-7404-67670f0159d6 a melod:Title;
+    rdfs:label "Apanhei-te cavaquinho — Partitura melodia (edition France melodie)";
+    melod:hasTitleType terms:MainTitle.
+
+_:ba34b78e2-281e-5912-27af-ebc9b61f2795 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1243892874>;
+    melod:hasRole terms:Publisher.

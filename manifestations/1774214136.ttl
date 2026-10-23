@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1774214136> a melod:Manifestation;
+    melod:hasTitle _:bd411507a-9bf2-de2b-87b4-99665884c732;
+    lrmoo:R4_embodies <urn:uuid:expressions/1497598787>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra Bb", terms:Print;
+    melod:hasContribution _:b8beb350f-8982-9e96-66f5-311136c51484;
+    schema:publication _:b59341d46-1204-2975-ed6a-b66e86aced2b;
+    dct:conformsTo melod:Manifestation.
+
+_:bd411507a-9bf2-de2b-87b4-99665884c732 a melod:Title;
+    rdfs:label "Ave Maria dos amigos do choro — Partitura melodia e cifra Bb (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8beb350f-8982-9e96-66f5-311136c51484 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b59341d46-1204-2975-ed6a-b66e86aced2b a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

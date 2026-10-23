@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1267559729> a melod:Item;
     rdfs:label "Abigail — Partitura melodia e cifra (score_780)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1538257247>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1601844570>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b58ca8d93-f651-5daf-f502-58839e768843;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1868796241> a melod:Item;
     rdfs:label "Boas vidas — Partitura melodia (score_7242)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1799023686>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1531986757>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7d681eef-f01d-792f-4073-b4dbecbe31eb;

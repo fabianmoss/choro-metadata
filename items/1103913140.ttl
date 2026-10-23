@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1103913140> a melod:Item;
     rdfs:label "Adilson — Partitura melodia (score_10897)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1583606725>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1042396218>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4d2b436d-1b1a-60e3-e40b-12fc73fbdf14;

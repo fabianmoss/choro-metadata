@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1218622312> a melod:Item;
     rdfs:label "Cinamomo — Partitura melodia e cifra (score_10076)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1856078891>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1810407494>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9a5bc749-0e4e-9e89-8aa9-a0646713b44c;

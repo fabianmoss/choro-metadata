@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1352200833> a melod:Item;
     rdfs:label "Bingo — Partitura melodia (score_7575)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841009283>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1812306316>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2bca8908-992c-d733-18be-33616fd83202;

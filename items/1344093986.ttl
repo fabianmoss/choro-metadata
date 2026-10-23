@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1344093986> a melod:Item;
     rdfs:label "Atraente — Partitura cifra (score_10381)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1557889823>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1670214199>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdd7f3019-673e-a0d3-175e-e92ad23ffdfc;

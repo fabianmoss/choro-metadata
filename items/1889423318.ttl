@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1889423318> a melod:Item;
     rdfs:label "Bagatela — Partitura melodia e cifra (score_11409)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1594044548>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1294288300>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b942eb887-d812-d713-590d-938b2cc94521;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1767389198> a melod:Item;
     rdfs:label "Chorando em Macaé — Partitura melodia e cifra (score_9591)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1519137161>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1255427444>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b73b8bb15-983f-4f1d-c8fd-54fd16e575ba;

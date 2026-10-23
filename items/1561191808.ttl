@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1561191808> a melod:Item;
     rdfs:label "Celina — Partitura melodia e cifra (score_12891)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1390538160>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226418758>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf32adb0f-3f0b-858e-856c-b6ac3bd149ab;

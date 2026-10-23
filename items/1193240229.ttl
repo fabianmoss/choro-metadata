@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1193240229> a melod:Item;
     rdfs:label "Ave Maria — Partitura piano (score_11196)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1567322092>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1485551843>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc7c05bd4-9e23-58c1-94de-5bebd494a228;

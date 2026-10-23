@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1848923468> a melod:Item;
     rdfs:label "Bola 7 — Partitura cifra (score_13047)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1706377106>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1518031653>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b528d6e9b-094c-712b-4abf-9b43445fc6a5;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1301009457> a melod:Item;
     rdfs:label "Blue um — Partitura melodia e cifra (score_14792)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1884552977>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1008436867>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2819e980-9002-d4b6-58da-57bad44f247d;

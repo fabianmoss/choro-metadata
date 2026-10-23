@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1683081171> a melod:Manifestation;
+    melod:hasTitle _:b59177b65-efac-7ce2-bd87-c3ccd4cec8a4;
+    lrmoo:R4_embodies <urn:uuid:expressions/1145601005>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bd439a0d7-6f9f-48a5-4dfc-5cec32a1ac6b;
+    dct:conformsTo melod:Manifestation.
+
+_:b59177b65-efac-7ce2-bd87-c3ccd4cec8a4 a melod:Title;
+    rdfs:label "Beijo das ondas — Partitura piano (edition J. Filippone)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd439a0d7-6f9f-48a5-4dfc-5cec32a1ac6b a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1762047859>;
+    melod:hasRole terms:Publisher.

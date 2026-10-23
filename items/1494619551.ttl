@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1494619551> a melod:Item;
     rdfs:label "Bambuhy — Partitura melodia e cifra (score_10506)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1694838740>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1162768359>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b615d79c6-fedc-80f5-dfff-cde7768cd2b0;

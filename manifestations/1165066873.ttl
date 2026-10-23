@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1165066873> a melod:Manifestation;
+    melod:hasTitle _:b378cf5a5-0254-c0c9-25bb-c10b0d29ce52;
+    lrmoo:R4_embodies <urn:uuid:expressions/1312031452>;
+    melod:hasClassificationOfManifestation "Partitura grade", terms:Print;
+    melod:hasContribution _:b6d7a8059-3732-fb81-5c77-9a7f0a5154e1;
+    schema:publication _:baf2df3a9-a1ff-7608-5071-0dd48e16015d;
+    dct:conformsTo melod:Manifestation.
+
+_:b378cf5a5-0254-c0c9-25bb-c10b0d29ce52 a melod:Title;
+    rdfs:label "Canto do Rio_BANDÃO — Partitura grade (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6d7a8059-3732-fb81-5c77-9a7f0a5154e1 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:baf2df3a9-a1ff-7608-5071-0dd48e16015d a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

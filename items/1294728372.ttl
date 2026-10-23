@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1294728372> a melod:Item;
     rdfs:label "Canavieiro — Partitura melodia e cifra (score_11645)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1506384983>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1101627146>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b961c6947-f0c2-e42d-bfc8-008920760998;

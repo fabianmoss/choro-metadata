@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1831367686> a melod:Item;
+    rdfs:label "Conversa de bandolim — Partitura melodia (score_5071)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1885417184>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bc41dcb48-2985-ff8f-fa60-fce13b2a6ddb;
+    melod:hasShelfmark "score_5071";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5071.pdf>;
+    melod:hasHand _:b0a66d257-e42e-29c8-913f-b11c285af868;
+    melod:hasProvenance _:b750aac8b-1884-359b-3c1f-49996aac4cfa;
+    dct:conformsTo melod:Item.
+
+_:bc41dcb48-2985-ff8f-fa60-fce13b2a6ddb a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5071".
+
+_:b0a66d257-e42e-29c8-913f-b11c285af868 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:b750aac8b-1884-359b-3c1f-49996aac4cfa a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b1cb1b470-1dd7-bdb5-3f62-cdf8befa06b4.
+
+_:b1cb1b470-1dd7-bdb5-3f62-cdf8befa06b4 a melod:ExactDate;
+    melod:isodate "1936-02-18"^^xsd:date;
+    schema:description "18.02.1936".

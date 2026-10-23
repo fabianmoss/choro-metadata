@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1284792294> a melod:Item;
     rdfs:label "Chorando no choro — Partitura melodia e cifra (score_9175)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1556797383>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1147299287>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd7fe6c8a-f38b-0161-2883-6d0d9cf49af6;

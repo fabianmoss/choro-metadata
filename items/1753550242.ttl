@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1753550242> a melod:Item;
     rdfs:label "Andante expressivo — Partitura violão (score_3268)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1657810548>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1420268852>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb75c86d9-87b9-587d-3200-9ae73e1fab35;

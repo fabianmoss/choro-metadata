@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1400580119> a melod:Manifestation;
+    melod:hasTitle _:b0e57958d-b5d4-c8d3-8b23-fe5f3ad18978;
+    lrmoo:R4_embodies <urn:uuid:expressions/1197534184>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b4d13d528-260b-a3f9-8f4e-83d2b1906df2;
+    schema:publication _:b2b0d3b86-1828-4654-1822-1fdfcfa1ae34;
+    dct:conformsTo melod:Manifestation.
+
+_:b0e57958d-b5d4-c8d3-8b23-fe5f3ad18978 a melod:Title;
+    rdfs:label "Bagaços da velhice — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b4d13d528-260b-a3f9-8f4e-83d2b1906df2 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b2b0d3b86-1828-4654-1822-1fdfcfa1ae34 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

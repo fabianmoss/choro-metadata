@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1522635807> a melod:Item;
     rdfs:label "Aurenice — Partitura melodia e cifra (score_12862)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1434013685>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1020607462>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf1fb9005-d403-064b-717f-307375134690;

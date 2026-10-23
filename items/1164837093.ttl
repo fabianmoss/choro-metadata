@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1164837093> a melod:Item;
     rdfs:label "Cananéa — Partitura arranjo para pequena orquestra (score_3695)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1557031721>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1321043359>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b02474e0f-9962-0f49-a0ab-f9723fa423f1;

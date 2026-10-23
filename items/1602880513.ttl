@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1602880513> a melod:Item;
     rdfs:label "Cafezinho bom — Partitura melodia e cifra (score_8977)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1466188771>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1280772590>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b14bc71e2-cf4b-b8a1-7f8e-89cf2738cc55;

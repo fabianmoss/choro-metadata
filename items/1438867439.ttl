@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1438867439> a melod:Item;
     rdfs:label "Buena Vista Juiz de Fora — Partitura melodia e cifra (score_9846)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1503740189>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160449851>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b12164f4b-6f1b-83b6-d9db-13da282d4af7;

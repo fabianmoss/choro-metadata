@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1047199388> a melod:Item;
     rdfs:label "Captivo — Partitura melodia (score_11452)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1845720073>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1058698435>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b342b18f9-f76f-d6da-21ae-c820e28692c0;

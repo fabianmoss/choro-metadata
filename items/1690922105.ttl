@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1690922105> a melod:Item;
+    rdfs:label "Elogios ao abacate — Partitura piano e letra (score_2977)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1148030041>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bfa4f5559-8c2f-f503-31e3-a999e6272c33;
+    melod:hasShelfmark "score_2977";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_2977.pdf>;
+    melod:hasHand _:b54e88a9e-20ff-28f2-e6a8-c6d0190533eb;
+    melod:hasProvenance _:b8111e572-4011-66ff-6c9e-b65d3d8fb501;
+    dct:conformsTo melod:Item.
+
+_:bfa4f5559-8c2f-f503-31e3-a999e6272c33 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_2977".
+
+_:b54e88a9e-20ff-28f2-e6a8-c6d0190533eb a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1306738344>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Wilde Dias da Fonseca".
+
+_:b8111e572-4011-66ff-6c9e-b65d3d8fb501 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b8bf7d9cc-b4fb-fcae-4270-e33591d01aaa.
+
+_:b8bf7d9cc-b4fb-fcae-4270-e33591d01aaa a melod:ExactDate;
+    melod:isodate "1980-08-12"^^xsd:date;
+    schema:description "12.08.1980".

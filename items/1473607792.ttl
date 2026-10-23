@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1473607792> a melod:Item;
     rdfs:label "Bianca — Partitura melodia e cifra (score_13470)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1471072916>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199108670>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bded39950-b2dd-cb06-719f-3f2a5f8b5cc6;

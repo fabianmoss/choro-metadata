@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1299657404> a melod:Item;
     rdfs:label "A mariposa — Partitura piano (score_75)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1182013317>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1552810705>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd045b088-6768-e01c-7221-00c7b163c4b7;

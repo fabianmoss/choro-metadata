@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1439210654> a melod:Item;
+    rdfs:label "Cupidos grisalhos — Partitura piano (score_15183)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1280584623>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b4c5735e2-9a75-514d-d3b5-72e5bf384690;
+    melod:hasShelfmark "score_15183";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_15183.pdf>;
+    melod:hasProvenance _:bca45b691-2d96-f73f-e054-b0bc10ac40e4;
+    dct:conformsTo melod:Item.
+
+_:b4c5735e2-9a75-514d-d3b5-72e5bf384690 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_15183".
+
+_:bca45b691-2d96-f73f-e054-b0bc10ac40e4 a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:b70a23f41-4227-a846-f2a5-8a008fdd1b16.
+
+_:b70a23f41-4227-a846-f2a5-8a008fdd1b16 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1060169584>;
+    melod:hasRole terms:Transcriber.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1085430305> a melod:Item;
     rdfs:label "A sabina — Partitura piano (score_3462)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1498296665>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1373540703>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba0782e17-4690-e14d-daaa-660b814d346b;

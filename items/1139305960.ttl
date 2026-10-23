@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1139305960> a melod:Item;
     rdfs:label "Burro de carga — Partitura arranjo para pequena orquestra (score_9746)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1835527521>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1592676621>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9f129bb2-33cc-b521-32d6-87a4f09dcda1;

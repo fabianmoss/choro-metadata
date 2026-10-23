@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1526574919> a melod:Item;
     rdfs:label "Cinco de abril — Partitura melodia (score_5279)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1248072561>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1065565675>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b07b6a0b2-13b8-dca9-0128-c9a2f83accb7;

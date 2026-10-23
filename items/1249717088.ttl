@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1249717088> a melod:Item;
     rdfs:label "A borboleta — Partitura piano (score_1890)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1168721481>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1441862511>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8a6e2214-c6b0-6f46-6c28-a18aca68ba61;

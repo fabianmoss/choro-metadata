@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1438199495> a melod:Item;
     rdfs:label "A invejosa — Partitura piano (score_3594)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1580220494>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1334211334>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba6c3c519-621a-b652-ab03-64d3535bb9c8;

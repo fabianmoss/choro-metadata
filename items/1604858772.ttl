@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1604858772> a melod:Item;
     rdfs:label "Cecy — Partitura piano (score_3941)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1809524245>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470442725>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b645c0847-80c7-c53c-5243-e7cbc9cfb8fa;

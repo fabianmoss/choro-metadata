@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1722218764> a melod:Item;
     rdfs:label "A mulatinha — Partitura piano e letra (score_3765)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1435652150>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1007847825>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b045a0ca1-380d-7c63-f9ef-5e823385d7ca;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1045578779> a melod:Item;
     rdfs:label "Bifina — Partitura melodia e cifra (score_12648)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1592314325>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1310704700>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b56050872-e449-33da-f524-dc12ad84435c;

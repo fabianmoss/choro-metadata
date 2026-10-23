@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1485416280> a melod:Item;
     rdfs:label "Amor perdido — Partitura melodia (no digitisation)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1678754228>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1338049527>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasAnnotation _:b516861d9-c1ac-f644-1da0-caab9f8fc9a1;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1792347741> a melod:Item;
     rdfs:label "Boca de siri — Partitura cifra (score_7822)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1541559939>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1280136853>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0583c0db-1c21-33f5-8a4a-772e8c55d3de;

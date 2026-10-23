@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1243288042> a melod:Item;
+    rdfs:label "Colhendo flores — Partitura melodia (score_4217)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1650417242>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf297a0e9-b9d7-8213-0e4e-35eaf33cb8ce;
+    melod:hasShelfmark "score_4217";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4217.pdf>;
+    melod:hasHand _:b391e1396-006d-7970-e0eb-506d8a0c70e1;
+    melod:hasProvenance _:b7eafa308-7327-9ab9-65d2-c33f7a4f418f;
+    dct:conformsTo melod:Item.
+
+_:bf297a0e9-b9d7-8213-0e4e-35eaf33cb8ce a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4217".
+
+_:b391e1396-006d-7970-e0eb-506d8a0c70e1 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1320280755>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro do Nascimento".
+
+_:b7eafa308-7327-9ab9-65d2-c33f7a4f418f a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b0a5b993e-646b-a3c2-08bf-025747df0d81.
+
+_:b0a5b993e-646b-a3c2-08bf-025747df0d81 a melod:ExactDate;
+    melod:isodate "1933-07-10"^^xsd:date;
+    schema:description "10.07.1933".

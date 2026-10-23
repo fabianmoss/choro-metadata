@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1800777394> a melod:Item;
     rdfs:label "Breve fechará — Partitura melodia e cifra (score_10440)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1685084872>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1807231820>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdcce680c-0a2a-948f-2e3c-2112f3475a16;

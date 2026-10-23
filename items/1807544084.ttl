@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1807544084> a melod:Item;
     rdfs:label "A tempestade — Partitura melodia e cifra (score_10604)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1879594280>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1376526502>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1ded2751-38e3-3264-d81c-83b9a31050f1;

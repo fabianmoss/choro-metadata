@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1712185234> a melod:Item;
     rdfs:label "A lira de minh'alma — Partitura melodia e cifra (score_13655)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1724806679>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1101039616>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b87b90890-6a31-2e70-60cb-c3c9f6048e59;

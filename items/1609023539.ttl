@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1609023539> a melod:Item;
     rdfs:label "Bodas — Partitura melodia e cifra (score_9915)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1276390674>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1351813563>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd2fe9e04-3e35-a83b-217e-b2cb5bd8fbb1;

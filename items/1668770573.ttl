@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1668770573> a melod:Item;
     rdfs:label "Caraboo — Partitura piano (score_3157)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1180915004>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1032260493>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bce6b6ee2-48e5-a9be-5b69-8a4fff60bc4b;

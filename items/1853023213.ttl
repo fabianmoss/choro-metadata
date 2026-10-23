@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1853023213> a melod:Item;
     rdfs:label "Adalgisa Gabbi — Partitura melodia e cifra (score_13766)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1816671500>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1410802512>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bddb673ed-2549-aa2c-3dcd-5c2bc2e8d18c;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1413667545> a melod:Item;
     rdfs:label "Canção do violeiro — Partitura piano e letra (score_5711)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1055476276>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1538627260>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5cba661c-3583-86e6-aef9-cdb397ad80c1;

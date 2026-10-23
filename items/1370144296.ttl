@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1370144296> a melod:Item;
     rdfs:label "Choros nº7 — Partitura arranjo para orquestra (score_10994)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1840791643>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1385257775>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b68fefdcb-f94d-f061-4609-89b2c310d1e7;

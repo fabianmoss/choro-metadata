@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1006017115> a melod:Item;
     rdfs:label "Agradecimento — Partitura melodia (score_1680)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1854398476>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1486972927>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba1a22276-e8d5-1ec9-d784-e25b4fc47dea;

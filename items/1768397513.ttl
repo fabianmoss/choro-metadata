@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1768397513> a melod:Item;
     rdfs:label "A sedutora — Partitura cifra (score_1205)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1448773587>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1132412104>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bec74a02c-c3a5-27fe-c8d4-77919f35c39f;

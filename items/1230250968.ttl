@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1230250968> a melod:Item;
     rdfs:label "Balanço de rede — Partitura melodia e cifra (score_11410)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1883146051>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1504564690>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3db0e3c2-6e96-a8e8-1f54-8dd9064b9564;

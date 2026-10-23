@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1755049079> a melod:Item;
     rdfs:label "Chimpanzé — Partitura melodia (score_4608)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1725465263>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1253327556>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1cf3602d-b635-2873-09ec-df1e0f5e2aff;

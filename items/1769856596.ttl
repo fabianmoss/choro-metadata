@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1769856596> a melod:Item;
     rdfs:label "Batuque — Partitura melodia e cifra (score_14791)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1687209420>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1212633112>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb1799af3-7101-f2a4-a5be-9d712cef8c17;

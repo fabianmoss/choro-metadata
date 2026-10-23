@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1010032501> a melod:Item;
     rdfs:label "Apimentado — Partitura melodia e cifra (score_11384)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1462713368>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1560668177>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbeb4dfb0-b4d2-7205-2cab-ead20a3588be;

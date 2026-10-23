@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1811770958> a melod:Item;
+    rdfs:label "Diagnóstico — Partitura cifra (score_7839)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1261397240>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b734a9494-cef7-66dd-a27b-fc85b7ee46ec;
+    melod:hasShelfmark "score_7839";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7839.pdf>;
+    melod:hasHand _:b8b8f1481-0dcd-59b4-feff-d6fe03357dbf;
+    dct:conformsTo melod:Item.
+
+_:b734a9494-cef7-66dd-a27b-fc85b7ee46ec a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7839".
+
+_:b8b8f1481-0dcd-59b4-feff-d6fe03357dbf a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauricio Carrilho".

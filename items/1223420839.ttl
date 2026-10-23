@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1223420839> a melod:Item;
     rdfs:label "Airosa — Partitura piano (score_8247)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1375589190>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1790607239>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b239078c1-1b8e-aaee-7848-4f092e3b8cdc;

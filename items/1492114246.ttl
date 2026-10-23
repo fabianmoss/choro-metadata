@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1492114246> a melod:Item;
     rdfs:label "Adejos d'um anjo — Partitura piano (score_2375)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1722978498>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1553873600>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b76aca252-d409-6c58-e27b-b64cc2f69a9f;

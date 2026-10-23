@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1214579338> a melod:Item;
     rdfs:label "A bordo — Partitura piano (score_3535)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1584286233>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577326304>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7c20f55e-f614-8ae6-f0ac-0256fbefb9ef;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1499689027> a melod:Item;
     rdfs:label "A vida sem destino — Partitura piano (score_8810)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1668945222>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1092141522>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60a078bf-eb95-4940-5092-0eba0e3fed70;

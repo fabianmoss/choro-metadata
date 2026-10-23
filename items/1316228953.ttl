@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1316228953> a melod:Item;
     rdfs:label "Bugrinha — Partitura melodia e cifra (score_12796)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1548567812>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1605653005>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be39defd5-fefc-0def-f669-c473822b6b78;

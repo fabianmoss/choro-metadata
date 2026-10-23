@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1260722320> a melod:Item;
     rdfs:label "Carmen — Partitura melodia (score_2934)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1825962483>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1593900483>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd96f7bb2-10c2-1a1a-25ef-4a1b36215fc1;

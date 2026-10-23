@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1042509210> a melod:Item;
     rdfs:label "Bandeirantes — Partitura piano e letra (score_5803)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1330329496>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1089659674>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be62317db-2696-2277-30ce-000414185bba;

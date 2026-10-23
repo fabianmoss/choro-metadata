@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1742484708> a melod:Item;
     rdfs:label "Caridosa — Partitura piano (score_2500)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129557372>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1377399127>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf8f18ef6-9306-c199-f26c-773cb55ad4ad;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1042891826> a melod:Item;
     rdfs:label "Choros — Partitura melodia (score_8333)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160907497>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1518235739>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bca385f22-c86c-fa5b-1514-15313c33c6aa;

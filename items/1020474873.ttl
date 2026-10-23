@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1020474873> a melod:Item;
     rdfs:label "Chinoise — Partitura melodia e cifra (score_11679)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1882194949>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1433475153>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b02b9d2f5-67f8-a919-78dc-3880ea11cbc8;

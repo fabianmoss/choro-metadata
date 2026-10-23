@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1533415886> a melod:Item;
     rdfs:label "Abigail — Partitura piano (score_8325)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1231534166>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1029495611>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4d445f83-ce80-2470-6ed2-27901d0b3678;

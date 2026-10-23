@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1789909222> a melod:Item;
     rdfs:label "A janela do seu quarto — Partitura piano e letra (score_2198)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1482752567>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1363356392>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3f154e6a-79ed-a865-da7c-5c09c664b13e;

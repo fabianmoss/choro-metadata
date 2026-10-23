@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1115970970> a melod:Item;
+    rdfs:label "Coração que sente — Partitura melodia (score_4873)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1844876282>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b889287ad-598e-7cc5-6155-ad32a4ea5bf0;
+    melod:hasShelfmark "score_4873";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4873.pdf>;
+    melod:hasHand _:b4d3c03d2-d9da-3801-51fb-88e5047a3e3e;
+    melod:hasProvenance _:bab154743-3d02-0936-3f05-d2bc6220e121;
+    dct:conformsTo melod:Item.
+
+_:b889287ad-598e-7cc5-6155-ad32a4ea5bf0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4873".
+
+_:b4d3c03d2-d9da-3801-51fb-88e5047a3e3e a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1122689035>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Theo Venturelli".
+
+_:bab154743-3d02-0936-3f05-d2bc6220e121 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bd8060d08-6c87-90fe-c1da-e73d9bac4f1f.
+
+_:bd8060d08-6c87-90fe-c1da-e73d9bac4f1f a melod:ExactDate;
+    melod:isodate "1948-02-14"^^xsd:date;
+    schema:description "14.02.1948".

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1582642183> a melod:Item;
     rdfs:label "A sombra da floresta — Partitura melodia e cifra (score_12396)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1777349950>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1320679349>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7828f3ee-b110-0d6d-80d6-a83b2797c0d8;

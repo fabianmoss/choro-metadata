@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1408849352> a melod:Item;
     rdfs:label "Annita — Partitura piano (score_3620)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1284251603>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1556501515>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9e00efcc-77c5-a428-61a9-b5e5e829938f;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1204452863> a melod:Item;
     rdfs:label "Bibelot — Partitura piano e letra (score_14440)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1123227767>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1250796552>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb2e58cd8-0e9e-64ee-7c59-d50152659122;

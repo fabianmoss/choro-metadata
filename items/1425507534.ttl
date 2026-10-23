@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1425507534> a melod:Item;
     rdfs:label "Arisca — Partitura melodia (score_1563)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1564968751>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1234679048>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b34ccc917-93df-326f-402d-bf6aba2cca0c;

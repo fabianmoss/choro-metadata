@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1594894507> a melod:Item;
     rdfs:label "Carmen — Partitura melodia e cifra (score_13776)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1822479919>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1369672015>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bce4096c8-ad2e-dcaf-f799-067d25c5532b;

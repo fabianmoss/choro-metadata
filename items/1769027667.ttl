@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1769027667> a melod:Item;
     rdfs:label "Babá — Partitura melodia e cifra (score_11408)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1510758863>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1242295499>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b40c56ad0-64e0-37f4-8f70-d58dab5dfff5;

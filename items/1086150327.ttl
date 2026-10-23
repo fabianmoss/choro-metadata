@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1086150327> a melod:Item;
     rdfs:label "À beira-mar — Partitura piano (score_2044)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1035214437>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1096640002>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd3efa4a5-d0ad-f6da-a2e2-db1a8ed94418;

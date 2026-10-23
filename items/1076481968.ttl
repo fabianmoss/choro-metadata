@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1076481968> a melod:Item;
     rdfs:label "Branca Moraes — Partitura melodia e cifra (score_13852)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1412715039>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1216107987>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8ba7d6d5-5a38-e4d1-9f77-2ac1c8f32a90;

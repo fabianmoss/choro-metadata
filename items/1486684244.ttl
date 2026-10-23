@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1486684244> a melod:Item;
     rdfs:label "Acabei de crer — Partitura melodia e cifra (score_13841)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841782830>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1449672322>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b83a044a8-c3a1-d9a1-7953-c053df7ef8e4;

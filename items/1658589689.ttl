@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1658589689> a melod:Item;
     rdfs:label "Agora sim — Partitura melodia e cifra (score_10797)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1809903344>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1385759346>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b93433d03-02d9-91f8-7f6e-c4bf6a92173a;

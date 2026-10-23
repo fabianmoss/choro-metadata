@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1032842738> a melod:Item;
     rdfs:label "Batuque — Partitura arranjo (score_7908)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1816023065>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1548314518>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb6f66eaf-5866-2250-0476-06498e2ed479;

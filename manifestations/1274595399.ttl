@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1274595399> a melod:Manifestation;
+    melod:hasTitle _:b5d937266-1e5a-d46a-8554-4d14f9d98dd0;
+    lrmoo:R4_embodies <urn:uuid:expressions/1845119207>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bb08e67a4-d255-6940-6953-30b42b48fe4f;
+    dct:conformsTo melod:Manifestation.
+
+_:b5d937266-1e5a-d46a-8554-4d14f9d98dd0 a melod:Title;
+    rdfs:label "Cruz, perigo! — Partitura piano (edition Arthur Napoleão)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb08e67a4-d255-6940-6953-30b42b48fe4f a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1113102569>;
+    melod:hasRole terms:Publisher.

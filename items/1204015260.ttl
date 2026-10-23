@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1204015260> a melod:Item;
     rdfs:label "Cheguei agora — Partitura melodia e cifra (score_10227)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1222286004>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1485606931>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba1a0cb3b-ffd6-07de-cebb-6cd4bf2603f2;

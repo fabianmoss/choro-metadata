@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1771398359> a melod:Item;
     rdfs:label "Bandolinata — Partitura melodia e cifra (score_13758)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1642057071>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430674872>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b92097400-dc92-0ed7-8a2e-ec68ded342c1;

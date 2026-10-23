@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1281314432> a melod:Item;
     rdfs:label "Choro nº2 — Partitura melodia (score_9845)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1139012547>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1050165851>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bac5e4317-d5fb-688b-786d-1886a077a20a;

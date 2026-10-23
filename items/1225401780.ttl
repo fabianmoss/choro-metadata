@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1225401780> a melod:Item;
     rdfs:label "Cabeça virada — Partitura melodia e cifra (score_10508)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1222087804>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1631211538>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd6a661a9-8455-a76c-42e8-dedb8cb326df;

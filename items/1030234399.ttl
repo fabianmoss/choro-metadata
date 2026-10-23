@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1030234399> a melod:Item;
     rdfs:label "Betina — Partitura piano (score_2967)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1356301100>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1118069998>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b66e2970e-e003-9118-bf9c-274e3cca388c;

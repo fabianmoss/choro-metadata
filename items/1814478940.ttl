@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1814478940> a melod:Item;
     rdfs:label "Apanhando papel — Partitura piano e letra (score_14396)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1074370244>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1062374491>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4a917aa7-9d14-479c-87c1-6fe93fda5c6f;

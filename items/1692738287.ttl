@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1692738287> a melod:Item;
     rdfs:label "Alerta! — Partitura piano (score_4780)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1136559656>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1184193259>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd6662902-051e-166a-d92c-6068dbef66a3;

@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1855013298> a melod:Manifestation;
+    melod:hasTitle _:b15e50fdb-55ad-9c7f-7691-9bbdc1cfa442;
+    lrmoo:R4_embodies <urn:uuid:expressions/1280402387>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
+    dct:conformsTo melod:Manifestation.
+
+_:b15e50fdb-55ad-9c7f-7691-9bbdc1cfa442 a melod:Title;
+    rdfs:label "Diva — Partitura melodia (manuscript)";
+    melod:hasTitleType terms:MainTitle.

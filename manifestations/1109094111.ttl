@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1109094111> a melod:Manifestation;
+    melod:hasTitle _:b992c7296-8952-8161-cf80-345b99c4fa10;
+    lrmoo:R4_embodies <urn:uuid:expressions/1816433059>;
+    melod:hasClassificationOfManifestation "Partitura flauta iniciante", terms:Print;
+    melod:hasContribution _:b9b7419f3-505c-5aff-3ac9-3798c4801ee6;
+    schema:publication _:b3cb6e31c-3d35-81f8-d515-da8725e1ab7a;
+    dct:conformsTo melod:Manifestation.
+
+_:b992c7296-8952-8161-cf80-345b99c4fa10 a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO — Partitura flauta iniciante (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9b7419f3-505c-5aff-3ac9-3798c4801ee6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b3cb6e31c-3d35-81f8-d515-da8725e1ab7a a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

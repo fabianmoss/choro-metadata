@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1841452596> a melod:Item;
     rdfs:label "Alguém que passou — Partitura melodia e cifra (score_6611)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1324139106>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090568633>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b58a51fa4-f9cb-5c69-6489-e2f2977766a3;

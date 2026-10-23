@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1669134141> a melod:Item;
     rdfs:label "A sereia — Partitura piano e letra (score_3879)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1862149591>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1710363707>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc0672adf-a6a7-0bc9-8e8f-1962de2e45fa;

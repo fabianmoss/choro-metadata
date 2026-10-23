@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1501811277> a melod:Item;
     rdfs:label "A tarameleira — Partitura piano (score_4272)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1184752016>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1189181309>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b67508b42-b72b-02dd-7a1d-364d8941d929;

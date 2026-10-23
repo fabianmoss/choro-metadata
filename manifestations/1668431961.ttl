@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1668431961> a melod:Manifestation;
+    melod:hasTitle _:b5bcdb4c9-5f3f-7cb7-0e18-6097e211e564;
+    lrmoo:R4_embodies <urn:uuid:expressions/1260135288>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b41e0fa84-eb5c-79a4-5837-e220ae9e50cd;
+    dct:conformsTo melod:Manifestation.
+
+_:b5bcdb4c9-5f3f-7cb7-0e18-6097e211e564 a melod:Title;
+    rdfs:label "El Taita del Arrabál — Partitura piano (edition Campassi & Camin)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b41e0fa84-eb5c-79a4-5837-e220ae9e50cd a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1303311434>;
+    melod:hasRole terms:Publisher.

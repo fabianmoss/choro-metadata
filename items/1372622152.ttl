@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1372622152> a melod:Item;
+    rdfs:label "Dona Clara — Partitura melodia (score_1008)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1237630601>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:ba65a2a5a-03be-5696-f459-2a01b4232309;
+    melod:hasShelfmark "score_1008";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1008.pdf>;
+    melod:hasHand _:b538dd970-ab8d-679f-e971-ae4007f65066;
+    dct:conformsTo melod:Item.
+
+_:ba65a2a5a-03be-5696-f459-2a01b4232309 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1008".
+
+_:b538dd970-ab8d-679f-e971-ae4007f65066 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Candinho (Cândido Pereira da Silva)".

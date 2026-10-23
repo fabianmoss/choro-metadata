@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1422314086> a melod:Manifestation;
+    melod:hasTitle _:b8f5fccba-46c5-3990-02e3-5943f71f4aa7;
+    lrmoo:R4_embodies <urn:uuid:expressions/1752061558>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bd48c69bf-d0a8-df4e-8473-8a14a8d7938c;
+    dct:conformsTo melod:Manifestation.
+
+_:b8f5fccba-46c5-3990-02e3-5943f71f4aa7 a melod:Title;
+    rdfs:label "Choro de varanda — Partitura melodia e cifra (edition Cruzeiro Musical Ltda)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd48c69bf-d0a8-df4e-8473-8a14a8d7938c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1048465894>;
+    melod:hasRole terms:Publisher.

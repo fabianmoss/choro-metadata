@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1381194292> a melod:Item;
     rdfs:label "Adelyr — Partitura piano (score_8340)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1608291742>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1235873718>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5e4f2ef5-6944-5b6a-ea40-321b7479727c;

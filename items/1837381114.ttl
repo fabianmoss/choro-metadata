@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1837381114> a melod:Item;
     rdfs:label "Boêmia Terra — Partitura melodia (score_116)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1674101106>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1610153957>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4d6a5873-39ac-f158-8448-f94ccb0e10e6;

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1369624194> a melod:Manifestation;
+    melod:hasTitle _:bae86877d-14ed-7a07-f020-4211560654ff;
+    lrmoo:R4_embodies <urn:uuid:expressions/1591142743>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra para pequena orquestra", terms:Print;
+    melod:hasContribution _:b53b301f2-f0d2-7ec7-e388-238b7a72a360;
+    dct:conformsTo melod:Manifestation.
+
+_:bae86877d-14ed-7a07-f020-4211560654ff a melod:Title;
+    rdfs:label "Ai! Ai! — Partitura arranjo com letra para pequena orquestra (edition C.E.M.B S.Paulo)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b53b301f2-f0d2-7ec7-e388-238b7a72a360 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1685886416>;
+    melod:hasRole terms:Publisher.

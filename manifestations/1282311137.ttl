@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1282311137> a melod:Manifestation;
+    melod:hasTitle _:b82ee898c-9137-2ea1-34be-31d8071c8086;
+    lrmoo:R4_embodies <urn:uuid:expressions/1628696753>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
+    dct:conformsTo melod:Manifestation.
+
+_:b82ee898c-9137-2ea1-34be-31d8071c8086 a melod:Title;
+    rdfs:label "A última estrofe — Partitura melodia (manuscript)";
+    melod:hasTitleType terms:MainTitle.

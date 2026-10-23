@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1099540761> a melod:Work;
+    melod:hasTitle _:bb8f855a1-5473-9b1f-fe8d-dccb7b14ea54;
+    melod:hasIdentifier _:b24571643-e345-73d2-5b7e-40868013be2a;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9969>;
+    melod:hasContribution _:bda792442-28c6-a859-f611-61b42fe550bf;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1403699395>;
+    melod:hasAnnotation _:b5e54b0e8-c810-1d27-49eb-1c5b650f24ec;
+    dct:conformsTo melod:Work.
+
+_:bb8f855a1-5473-9b1f-fe8d-dccb7b14ea54 a melod:Title;
+    rdfs:label "Ciscando no teclado"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b24571643-e345-73d2-5b7e-40868013be2a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9969".
+
+_:bda792442-28c6-a859-f611-61b42fe550bf a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1831756280>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b5e54b0e8-c810-1d27-49eb-1c5b650f24ec a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9969\">https://acervo.casadochoro.com.br/works/view/9969</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

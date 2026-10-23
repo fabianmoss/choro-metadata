@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1649424210> a melod:Item;
     rdfs:label "Camueca — Partitura melodia e cifra (score_12878)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1790239755>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1066461419>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b11836cde-17c7-6b33-3192-be3b5f18033d;

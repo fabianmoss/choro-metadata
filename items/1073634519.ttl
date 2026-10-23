@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1073634519> a melod:Item;
     rdfs:label "A minha palavra — Partitura piano (score_3592)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1374511011>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1213450377>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc344518b-e444-b03d-17ae-07c052e920d1;

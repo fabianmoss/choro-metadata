@@ -18,7 +18,7 @@
     melod:hasClassification "Tango";
     owl:sameAs <https://acervo.casadochoro.com.br/works/view/2542>;
     melod:hasContribution _:ba12805b5-85d1-0a0e-9cb9-d2e60e2bfdc5;
-    lrmoo:R3_is_realised_in <urn:uuid:expressions/1768842652>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1704061022>, <urn:uuid:expressions/1195414182>;
     melod:hasAnnotation _:bcef49aea-f774-efbc-c87b-4de3d22fa8c4;
     dct:conformsTo melod:Work.
 

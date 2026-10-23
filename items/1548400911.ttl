@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1548400911> a melod:Item;
     rdfs:label "A borboleta de ouro — Partitura melodia e cifra (score_12448)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1413020809>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1812575004>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcea5fd3d-ba5a-328d-2e01-2f458fc5c4c3;

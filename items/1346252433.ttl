@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1346252433> a melod:Item;
     rdfs:label "Bouquet — Partitura cifra (score_11145)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1094925773>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1359146889>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6e4b672e-3ca2-7ae2-7ce0-3b5743e689bb;

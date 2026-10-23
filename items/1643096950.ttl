@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1643096950> a melod:Item;
     rdfs:label "Catando pimenta — Partitura melodia (score_6167)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1017287101>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1148784201>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdff40b54-0805-eed8-5cbd-ef9e23a9028b;

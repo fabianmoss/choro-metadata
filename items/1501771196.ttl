@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1501771196> a melod:Item;
     rdfs:label "Caravana de Olaria — Partitura melodia (score_5964)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1400081599>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1269756418>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5c5a09a9-0a2b-6639-ef6f-9dd2b9ccfeee;

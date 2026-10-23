@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1797800773> a melod:Item;
+    rdfs:label "Conceição — Partitura melodia (score_844)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1235593448>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bdea693cf-12af-e735-a745-821d0c2b44de;
+    melod:hasShelfmark "score_844";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_844.pdf>;
+    melod:hasHand _:b58df85c6-a703-65f9-9f27-771711b6f0b9;
+    melod:hasProvenance _:bfcdb1a5f-f967-3be8-178f-824389aeb3d2;
+    dct:conformsTo melod:Item.
+
+_:bdea693cf-12af-e735-a745-821d0c2b44de a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_844".
+
+_:b58df85c6-a703-65f9-9f27-771711b6f0b9 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1032506567>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Sérgio Napoleão Belluco".
+
+_:bfcdb1a5f-f967-3be8-178f-824389aeb3d2 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b413c6b2e-d04a-caeb-b445-25e7bbdb4415.
+
+_:b413c6b2e-d04a-caeb-b445-25e7bbdb4415 a melod:ExactDate;
+    melod:isodate "1988-10-30"^^xsd:date;
+    schema:description "30.10.1988".

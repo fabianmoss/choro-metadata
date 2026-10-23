@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1466443538> a melod:Work;
+    melod:hasTitle _:b1d2388cc-801e-8e95-3d8f-cb39c7ac4b1c;
+    melod:hasIdentifier _:b6dd09dc4-bf2c-f93e-a154-9f46f8469b7b;
+    melod:hasClassification "Bolero";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9806>;
+    melod:hasContribution _:b42491943-a430-d485-2323-ce876562027d, _:bddc34444-0aa8-21bf-c98a-9b5fa4779af9;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1219204059>;
+    melod:hasAnnotation _:b66de36a1-15ef-48cf-6c92-0d5067cc62cf;
+    dct:conformsTo melod:Work.
+
+_:b1d2388cc-801e-8e95-3d8f-cb39c7ac4b1c a melod:Title;
+    rdfs:label "Distância"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b6dd09dc4-bf2c-f93e-a154-9f46f8469b7b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9806".
+
+_:b42491943-a430-d485-2323-ce876562027d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1344003942>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bddc34444-0aa8-21bf-c98a-9b5fa4779af9 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1201562957>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b66de36a1-15ef-48cf-6c92-0d5067cc62cf a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9806\">https://acervo.casadochoro.com.br/works/view/9806</a>. Gênero: Bolero. Compasso: 2/2. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

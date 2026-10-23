@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1590263487> a melod:Item;
     rdfs:label "Ai, que gozos — Partitura piano (score_747)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1699969673>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1121260969>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbae7c665-de88-d039-5ffb-611a3edb8dcc;

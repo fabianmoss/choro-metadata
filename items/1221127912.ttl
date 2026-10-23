@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1221127912> a melod:Item;
     rdfs:label "Cantilena — Partitura piano e letra (score_2808)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1634023115>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1496588466>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0de70c27-d6d2-e736-d14a-4cb35d80cf04;

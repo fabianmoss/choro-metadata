@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1804938061> a melod:Item;
     rdfs:label "Beijos — Partitura melodia, piano e letra (score_3632)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1387344919>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1601168607>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b62e1ca13-73ef-096d-a4ba-9de089c32d16;

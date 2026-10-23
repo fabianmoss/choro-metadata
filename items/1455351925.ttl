@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1455351925> a melod:Item;
     rdfs:label "Carmen — Partitura piano (score_682)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1323941573>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1332132663>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b92777a0c-af32-ed07-0b4d-2942d8b8fbc0;

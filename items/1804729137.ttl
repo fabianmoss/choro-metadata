@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1804729137> a melod:Item;
     rdfs:label "Acalanto — Partitura melodia, piano e letra (score_9107)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1026230141>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025320626>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4c99ca60-6a8c-a93a-c3ea-4a74c4435b04;

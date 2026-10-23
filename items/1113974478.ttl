@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1113974478> a melod:Item;
     rdfs:label "Aldyra — Partitura melodia (score_4735)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1314619747>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1469028426>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b34a1f1b0-4b4d-7f7d-b8dd-06504b2be02c;

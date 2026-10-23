@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1575594887> a melod:Item;
     rdfs:label "Chorando de saudade — Partitura melodia e cifra (score_14197)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1047226429>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1062135964>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc6f4ac51-c4f2-abcc-c8f0-9f9fafb1ebd4;

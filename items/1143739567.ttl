@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1143739567> a melod:Item;
     rdfs:label "Campainha — Partitura melodia e cifra (score_11623)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1759154672>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1753181857>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b32b55623-fad5-d3f6-bd49-367667671901;

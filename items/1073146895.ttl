@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1073146895> a melod:Item;
     rdfs:label "Cantiga de Ninar I — Partitura arranjo com cifra (score_14821)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1534528526>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1041123624>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b11e729c7-1246-aa19-bb40-4620a4ac041f;

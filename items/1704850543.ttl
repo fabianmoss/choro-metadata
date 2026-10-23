@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1704850543> a melod:Item;
     rdfs:label "Ave-ave! — Partitura piano (score_15258)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1835423376>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1220491914>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be745cc97-73b2-0777-0294-02eaba25542e;

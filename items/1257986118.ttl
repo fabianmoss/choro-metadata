@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1257986118> a melod:Item;
     rdfs:label "Casa destelhada — Partitura piano e canto (score_14535)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1338890255>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1219656083>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b99fe51fd-b679-b8ba-0093-02b47e90f092;

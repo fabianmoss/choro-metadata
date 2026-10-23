@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1343189641> a melod:Item;
     rdfs:label "Bugrinha — Partitura melodia (score_4313)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1540493206>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1549379361>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfecd654c-c10b-6b44-332c-b20ac00b3fb4;

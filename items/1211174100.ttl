@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1211174100> a melod:Item;
     rdfs:label "Chorando — Partitura melodia e cifra (score_12901)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1681216929>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1253509466>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba13a7124-0b12-63c5-12f6-0453bb4d7aec;

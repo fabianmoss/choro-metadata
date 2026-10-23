@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1684617538> a melod:Item;
     rdfs:label "Choro ímpar 1 — Partitura melodia e cifra (score_9882)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1638200364>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1245711302>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb1304f26-5515-d0d6-1c2f-3be6138854ad;

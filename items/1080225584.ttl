@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1080225584> a melod:Item;
     rdfs:label "Caixa alta — Partitura arranjo com letra (score_14512)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1728294769>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1841871301>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3766e448-9d7d-6a58-d36e-99e796a0344b;

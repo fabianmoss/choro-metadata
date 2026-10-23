@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1564043969> a melod:Item;
     rdfs:label "Adolescente — Partitura melodia (score_4332)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1752680615>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1601530205>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdcdd7a70-c273-f8da-6ee6-35763dbfbd85;

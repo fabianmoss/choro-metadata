@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1740641259> a melod:Item;
     rdfs:label "Cabreiro — Partitura melodia e cifra (score_11612)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1231032386>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1361090082>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b629b3447-34ba-c41d-7643-2fb8b4a11206;

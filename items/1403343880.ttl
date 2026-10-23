@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1403343880> a melod:Item;
     rdfs:label "Amanhã direi — Partitura melodia (score_3315)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1777742750>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1337559113>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfa55f791-610e-4099-abf2-bab678f213a4;

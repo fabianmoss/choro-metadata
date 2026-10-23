@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1279502565> a melod:Item;
     rdfs:label "Benguelê — Partitura melodia e cifra (no digitisation)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1622222022>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1039638290>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasAnnotation _:b8d4093bf-4f8a-01d0-f721-3cd5a814ba27;

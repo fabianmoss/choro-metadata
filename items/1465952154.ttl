@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1465952154> a melod:Item;
     rdfs:label "A borboleta — Partitura piano (score_2238)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1345515515>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430065236>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb7ce647d-317e-1ff8-4497-51c96fd1fca1;

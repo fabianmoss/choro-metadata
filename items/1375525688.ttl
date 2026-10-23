@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1375525688> a melod:Item;
     rdfs:label "Carícias — Partitura melodia e cifra (score_13578)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1228729836>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590461344>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bec58a6a2-ba86-9c0a-79e6-b3ce5168a709;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1846102366> a melod:Item;
     rdfs:label "Abaluaiê — Partitura melodia, piano e letra (score_9106)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1711475277>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1444097031>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6c8be795-e221-69dd-5e98-a67376d18c21;

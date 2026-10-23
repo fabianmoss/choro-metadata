@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1266631159> a melod:Item;
     rdfs:label "A mesma frase de amor — Partitura melodia e cifra (score_10497)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1085276280>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1065561106>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8d7481ee-b2bd-c1c6-a88a-902e1d0af46c;

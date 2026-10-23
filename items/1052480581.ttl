@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1052480581> a melod:Item;
     rdfs:label "A sertaneja — Partitura piano e letra (score_3880)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717782855>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1434531802>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7af74ffc-48d5-b63d-0dd4-50c34a04b739;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1100786323> a melod:Item;
     rdfs:label "Beija-flor — Partitura melodia (score_6164)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1470198631>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1099990260>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdbe768bb-3855-91af-f73f-257194453537;

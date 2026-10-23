@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1011936582> a melod:Item;
     rdfs:label "A sertaneja — Partitura arranjo (score_3925)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1325266551>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1233210169>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b951c19b0-98b1-1834-0bb8-e0fa18848cad;

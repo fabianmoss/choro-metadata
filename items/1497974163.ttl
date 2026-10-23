@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1497974163> a melod:Item;
+    rdfs:label "Deisinha / Dez de junho — Partitura melodia (score_997)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1578682604>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bf7275d46-b8d8-a08f-5f49-1909a83163c2;
+    melod:hasShelfmark "score_997";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_997.pdf>;
+    melod:hasHand _:b76bf9062-b7b5-f578-ebe2-8b37ed777b84;
+    dct:conformsTo melod:Item.
+
+_:bf7275d46-b8d8-a08f-5f49-1909a83163c2 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_997".
+
+_:b76bf9062-b7b5-f578-ebe2-8b37ed777b84 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Candinho (Cândido Pereira da Silva)".

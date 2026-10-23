@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1406418793> a melod:Item;
     rdfs:label "A fonte do lambary — Partitura piano (score_4944)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1020604334>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1315382206>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bba85076e-084b-d82c-f4fd-726c9b572335;

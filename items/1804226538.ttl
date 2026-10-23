@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1804226538> a melod:Item;
+    rdfs:label "Despertando — Partitura melodia (score_5204)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1581226834>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b5cc09e6a-34b1-f688-380b-fcdd0bfbb296;
+    melod:hasShelfmark "score_5204";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_5204.pdf>;
+    melod:hasHand _:b5e3a3dc6-4caf-b690-bff4-9aa93b3ca022;
+    melod:hasProvenance _:bc13769a3-1f16-3455-74c6-3d08751ff805;
+    dct:conformsTo melod:Item.
+
+_:b5cc09e6a-34b1-f688-380b-fcdd0bfbb296 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_5204".
+
+_:b5e3a3dc6-4caf-b690-bff4-9aa93b3ca022 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1063044915>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manoel Pedro do Nascimento".
+
+_:bc13769a3-1f16-3455-74c6-3d08751ff805 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b6b66ed54-152c-18b6-f4ff-3c7a45daea71.
+
+_:b6b66ed54-152c-18b6-f4ff-3c7a45daea71 a melod:ExactDate;
+    melod:isodate "1961-01-20"^^xsd:date;
+    schema:description "20.01.1961".

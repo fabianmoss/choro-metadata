@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1341446425> a melod:Manifestation;
+    melod:hasTitle _:b231b2f55-04e1-fd46-5557-67ba7c5ef1aa;
+    lrmoo:R4_embodies <urn:uuid:expressions/1696453273>;
+    melod:hasClassificationOfManifestation "Partitura melodia", terms:Manuscript;
+    dct:conformsTo melod:Manifestation.
+
+_:b231b2f55-04e1-fd46-5557-67ba7c5ef1aa a melod:Title;
+    rdfs:label "Confidências do Emílio — Partitura melodia (manuscript)";
+    melod:hasTitleType terms:MainTitle.

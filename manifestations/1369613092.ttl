@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1369613092> a melod:Manifestation;
+    melod:hasTitle _:b859b5d4a-7df1-e729-631d-e088d3eb228a;
+    lrmoo:R4_embodies <urn:uuid:expressions/1131584838>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:b07c6b6da-6f5a-9487-cf48-7e66895c5eb3;
+    dct:conformsTo melod:Manifestation.
+
+_:b859b5d4a-7df1-e729-631d-e088d3eb228a a melod:Title;
+    rdfs:label "Eh! Coroné, sem minhoca não vai — Partitura piano e letra (edition A.R.S)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b07c6b6da-6f5a-9487-cf48-7e66895c5eb3 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1117713342>;
+    melod:hasRole terms:Publisher.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1414830835> a melod:Item;
     rdfs:label "Bachorando — Partitura melodia e cifra (score_10138)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1320266943>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1611249130>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf8819396-e486-4f93-6682-00fb3a614c71;

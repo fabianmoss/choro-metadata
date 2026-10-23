@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1212782589> a melod:Item;
     rdfs:label "Choro — Partitura melodia e cifra (score_9174)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1654112696>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1606611681>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b70c3eac7-7cb4-df53-d87f-5667d9415bae;

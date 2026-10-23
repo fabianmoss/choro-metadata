@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1304494147> a melod:Item;
     rdfs:label "Branca — Partitura piano (score_8373)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1349107462>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1136631114>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbfd40524-4734-0664-1446-f942f48f4995;

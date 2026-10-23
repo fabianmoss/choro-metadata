@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1025293706> a melod:Work;
+    melod:hasTitle _:b5b1cd73d-69d9-adda-aa52-448774a5007a;
+    melod:hasIdentifier _:bb067833c-724f-7fce-6fa8-6a968ff79f7e;
+    melod:hasClassification "Coco";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3882>;
+    melod:hasContribution _:b8c93d67f-709a-c355-4bac-cf41d6223eb0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1869278351>;
+    melod:hasAnnotation _:b00a2488b-b0b3-77db-cd13-e39326650cdf;
+    dct:conformsTo melod:Work.
+
+_:b5b1cd73d-69d9-adda-aa52-448774a5007a a melod:Title;
+    rdfs:label "Côco dendê"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bb067833c-724f-7fce-6fa8-6a968ff79f7e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3882".
+
+_:b8c93d67f-709a-c355-4bac-cf41d6223eb0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1691697107>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b00a2488b-b0b3-77db-cd13-e39326650cdf a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3882\">https://acervo.casadochoro.com.br/works/view/3882</a>. Gênero: Coco. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

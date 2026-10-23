@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1214848738> a melod:Item;
     rdfs:label "Amo-te — Partitura piano (score_1908)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1733770769>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1017643258>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b75cd79e1-fc7a-8aea-6f55-2d17ebcbfeea;

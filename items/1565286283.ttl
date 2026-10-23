@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1565286283> a melod:Item;
     rdfs:label "Aurora — Partitura cifra (score_1283)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1708172045>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1348333041>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc737857e-0872-46cd-df91-6e302789f89f;

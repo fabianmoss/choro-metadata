@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1848354774> a melod:Item;
     rdfs:label "Batuque — Partitura melodia (score_4660)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1629945388>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1047989619>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2b6b4a65-098e-2bfc-35bc-2689c6d39959;

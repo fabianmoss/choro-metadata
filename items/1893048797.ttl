@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1893048797> a melod:Item;
+    rdfs:label "Dança das horas — Partitura cifra (score_6777)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1735876560>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b7502bfb5-1dcd-3c06-d227-32aa4365f2f7;
+    melod:hasShelfmark "score_6777";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6777.pdf>;
+    melod:hasHand _:bc82e23c3-29a4-ef08-22ae-6b725e95bfc9;
+    dct:conformsTo melod:Item.
+
+_:b7502bfb5-1dcd-3c06-d227-32aa4365f2f7 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6777".
+
+_:bc82e23c3-29a4-ef08-22ae-6b725e95bfc9 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1510284477>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Altamiro Carrilho".

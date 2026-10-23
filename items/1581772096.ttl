@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1581772096> a melod:Item;
     rdfs:label "As musas — Partitura piano (score_4383)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1573970578>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1354833471>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9853fdb4-ed37-3045-6e8a-dca24c1cf40c;

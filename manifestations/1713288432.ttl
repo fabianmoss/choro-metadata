@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1713288432> a melod:Manifestation;
+    melod:hasTitle _:b50a5f23b-08bc-3d53-e06c-d25b6b14a349;
+    lrmoo:R4_embodies <urn:uuid:expressions/1324527071>;
+    melod:hasClassificationOfManifestation "Partitura piano, letra e cifra", terms:Print;
+    dct:conformsTo melod:Manifestation.
+
+_:b50a5f23b-08bc-3d53-e06c-d25b6b14a349 a melod:Title;
+    rdfs:label "Danado de bão — Partitura piano, letra e cifra (printed edition)";
+    melod:hasTitleType terms:MainTitle.

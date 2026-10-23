@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1279166029> a melod:Item;
+    rdfs:label "Cruzes, minha prima! — Partitura melodia (score_778)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1448166473>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b5f939810-1e04-bcf5-bc79-be29b76617e1;
+    melod:hasShelfmark "score_778";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_778.pdf>;
+    melod:hasHand _:bc80ad6e2-ecc5-d9c8-8758-c1bdbee6663c;
+    melod:hasProvenance _:b1136dd75-a9a3-03d6-d2bb-eea5309eebfb;
+    dct:conformsTo melod:Item.
+
+_:b5f939810-1e04-bcf5-bc79-be29b76617e1 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_778".
+
+_:bc80ad6e2-ecc5-d9c8-8758-c1bdbee6663c a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1785308059>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Gilberto Mattos".
+
+_:b1136dd75-a9a3-03d6-d2bb-eea5309eebfb a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bf3501aa1-db22-00ab-646c-2780c8da4425.
+
+_:bf3501aa1-db22-00ab-646c-2780c8da4425 a melod:ExactDate;
+    melod:isodate "1909-06-23"^^xsd:date;
+    schema:description "23.06.1909".

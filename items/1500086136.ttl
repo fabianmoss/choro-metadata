@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1500086136> a melod:Item;
     rdfs:label "Afoito — Partitura melodia e cifra (score_11297)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1605209321>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1451335582>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5419778e-c7a0-99f6-a7f5-b026248c1a66;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1637520952> a melod:Item;
     rdfs:label "Arreliado — Partitura piano (score_4793)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1050267166>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1827567468>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b687c7979-c500-8dd8-c559-837b6e362286;

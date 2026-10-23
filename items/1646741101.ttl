@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1646741101> a melod:Item;
     rdfs:label "A mimosa — Partitura piano (score_5375)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1161168478>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1337899646>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b037bc19e-1c09-f4f0-1768-faeb6480604d;

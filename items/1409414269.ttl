@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1409414269> a melod:Item;
     rdfs:label "Caixinha de música — Partitura melodia e cifra (score_8447)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1161813840>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1496452944>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be029bb04-cfa1-674f-e346-0402cd2eb143;

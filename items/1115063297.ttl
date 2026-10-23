@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1115063297> a melod:Item;
     rdfs:label "Choro — Partitura melodia (score_4087)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1657783203>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1466389022>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b47d9fed9-0862-a7de-ab19-8b47ceb0324d;

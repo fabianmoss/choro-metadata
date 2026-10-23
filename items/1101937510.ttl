@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1101937510> a melod:Item;
     rdfs:label "Aprendizes — Partitura melodia e cifra (score_10069)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1466592742>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1359613366>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b581fb59e-23e8-a36c-c919-5782456a88b5;

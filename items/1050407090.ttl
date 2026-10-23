@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1050407090> a melod:Item;
     rdfs:label "Bouquet de Teresinha — Partitura melodia (score_5027)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1479148993>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1103424283>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6e01e6bb-d47b-091a-0864-3a611262d2e2;

@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1494414729> a melod:Item;
+    rdfs:label "Cuidado violão — Partitura melodia (score_6351)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1819209200>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:bbb8cb2af-5f9b-53bb-f96d-3a8ecee2bfee;
+    melod:hasShelfmark "score_6351";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_6351.pdf>;
+    melod:hasHand _:bc7c18eac-f57c-a0e5-604e-68ae1d56100f;
+    melod:hasProvenance _:bbd0c9e33-9f57-be66-6e25-3694a20030a1;
+    dct:conformsTo melod:Item.
+
+_:bbb8cb2af-5f9b-53bb-f96d-3a8ecee2bfee a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_6351".
+
+_:bc7c18eac-f57c-a0e5-604e-68ae1d56100f a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:bbd0c9e33-9f57-be66-6e25-3694a20030a1 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bac060eaa-b64e-a111-981b-8bc3ebf85cc7.
+
+_:bac060eaa-b64e-a111-981b-8bc3ebf85cc7 a melod:ExactDate;
+    melod:isodate "1962-03-02"^^xsd:date;
+    schema:description "02.03.1962".

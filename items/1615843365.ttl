@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1615843365> a melod:Item;
     rdfs:label "Ai Marica — Partitura piano (score_3422)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1586498190>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1243017769>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b483e185f-0dcb-04fd-53a0-867442c6ac1e;

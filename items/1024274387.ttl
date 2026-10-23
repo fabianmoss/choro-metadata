@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1024274387> a melod:Item;
     rdfs:label "Camilla — Partitura melodia e cifra (score_9826)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1455587238>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1269775816>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b54f6983c-4df3-44b4-d4de-a9ed90bc61e3;

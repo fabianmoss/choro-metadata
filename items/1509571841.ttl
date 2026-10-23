@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1509571841> a melod:Item;
     rdfs:label "Cinco deusas — Partitura melodia (score_763)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1730775126>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1410949579>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4dc02be2-337f-6fe0-99cc-4a1228653cba;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1845768816> a melod:Item;
     rdfs:label "Boneca — Partitura melodia (score_5768)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1360345915>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1826403525>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60736570-55ac-0918-759c-895656140afe;

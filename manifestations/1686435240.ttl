@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1686435240> a melod:Manifestation;
+    melod:hasTitle _:b256b8a51-1973-6549-961b-bcbaaef69b37;
+    lrmoo:R4_embodies <urn:uuid:expressions/1484488429>;
+    melod:hasClassificationOfManifestation "Partitura arranjo", terms:Print;
+    melod:hasContribution _:b6fc9f98b-887c-9f8f-97e3-599580d55789;
+    dct:conformsTo melod:Manifestation.
+
+_:b256b8a51-1973-6549-961b-bcbaaef69b37 a melod:Title;
+    rdfs:label "Canto do Rio — Partitura arranjo (edition Funarte)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6fc9f98b-887c-9f8f-97e3-599580d55789 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1522548084>;
+    melod:hasRole terms:Publisher.

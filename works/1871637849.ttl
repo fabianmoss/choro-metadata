@@ -18,7 +18,7 @@
     melod:hasClassification "Polca";
     owl:sameAs <https://acervo.casadochoro.com.br/works/view/640>;
     melod:hasContribution _:b1124e8df-ce01-6965-6734-152161b5262e;
-    lrmoo:R3_is_realised_in <urn:uuid:expressions/1670595320>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1709129127>, <urn:uuid:expressions/1460380119>, <urn:uuid:expressions/1155170529>;
     melod:hasAnnotation _:b08493d8f-a44b-ddd3-b854-f68dc9bb33bd;
     dct:conformsTo melod:Work.
 

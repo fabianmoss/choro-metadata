@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1201270678> a melod:Item;
     rdfs:label "A defesa é Federá — Partitura piano e letra (score_2991)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1382331811>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1677519581>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd50c0589-0cae-c493-950c-d14d2836a8c1;

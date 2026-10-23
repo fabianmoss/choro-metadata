@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1273835860> a melod:Item;
     rdfs:label "A flor do bloco — Partitura melodia (score_5228)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1559999955>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1280020110>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfb0029c0-da89-dc42-45d8-fd3c12509e1f;

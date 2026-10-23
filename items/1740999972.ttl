@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1740999972> a melod:Item;
     rdfs:label "Bartira — Partitura melodia (score_1456)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545434541>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1101372988>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb57dad6b-ff0a-7654-5433-000bda6b3591;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1724890211> a melod:Item;
     rdfs:label "Albertina — Partitura melodia (score_3579)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1445654275>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1076253302>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b32a088dd-2aea-6936-9d2f-c9b58ed0223b;
@@ -28,6 +28,6 @@ _:b32a088dd-2aea-6936-9d2f-c9b58ed0223b a melod:Identifier;
     owl:hasValue "score_3579".
 
 _:bfba39ad7-9d17-dcac-d3d5-517c09a649b3 a melod:Hand;
-    melod:hasAgent <urn:uuid:persons/1557429544>;
+    melod:hasAgent <urn:uuid:persons/1814675029>;
     melod:hasHandType terms:Writer;
     schema:description "manuscrita por Ilydio Nascimento".

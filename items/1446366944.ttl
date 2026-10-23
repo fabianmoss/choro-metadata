@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1446366944> a melod:Item;
     rdfs:label "Chi — Partitura piano (score_3651)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1614616163>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1298638361>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5aed4c49-0060-8b13-5b43-cd1e123d0e4d;

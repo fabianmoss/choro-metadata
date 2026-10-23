@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1312359431> a melod:Item;
     rdfs:label "Canhotinho — Partitura melodia (score_6630)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1571404794>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1085965490>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1c3487eb-dd6d-809b-a585-90a44703874f;

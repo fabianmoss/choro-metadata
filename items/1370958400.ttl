@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1370958400> a melod:Item;
     rdfs:label "Arco — Partitura melodia e cifra (score_9853)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1809621756>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1514923958>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdf7f5bd0-4d0c-67af-4298-fd272189fa54;

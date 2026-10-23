@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1738213005> a melod:Item;
     rdfs:label "Andaraí A. C. — Partitura melodia e cifra (score_11319)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1078896892>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1536608264>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bebe85d90-a06e-c64e-067b-4c28a407e2da;

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1422849245> a melod:Work;
+    melod:hasTitle _:bd1cbdbaf-8df5-0070-3367-969b96224d3f;
+    melod:hasIdentifier _:b8d72cf87-5c67-6517-822e-668c7c585575;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2959>;
+    melod:hasContribution _:b7faa5ed6-a285-a672-dd36-8bca899c8815;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1867593922>;
+    melod:hasAnnotation _:baa88d171-e8b9-5be4-0d74-065cba4e0e6c;
+    dct:conformsTo melod:Work.
+
+_:bd1cbdbaf-8df5-0070-3367-969b96224d3f a melod:Title;
+    rdfs:label "Desterrada"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b8d72cf87-5c67-6517-822e-668c7c585575 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2959".
+
+_:b7faa5ed6-a285-a672-dd36-8bca899c8815 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1075186840>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:baa88d171-e8b9-5be4-0d74-065cba4e0e6c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2959\">https://acervo.casadochoro.com.br/works/view/2959</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

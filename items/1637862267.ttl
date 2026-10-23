@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1637862267> a melod:Item;
     rdfs:label "Brasil — Partitura melodia e cifra (score_11088)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1862432466>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1572238220>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b561d1653-1952-c5f1-b27f-e562868496f6;

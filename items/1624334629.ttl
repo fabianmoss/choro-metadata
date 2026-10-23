@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1624334629> a melod:Item;
     rdfs:label "A reconhecida — Partitura piano (score_4271)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1186864735>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1154657030>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b77bd92de-a744-ae49-8031-0151dd24651e;

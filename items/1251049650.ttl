@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1251049650> a melod:Item;
     rdfs:label "Choro contente — Partitura melodia e cifra (score_11683)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1682530913>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1539970295>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b677ee98e-7225-1128-111b-715ce7a5ea1b;

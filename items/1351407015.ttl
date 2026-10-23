@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1351407015> a melod:Item;
     rdfs:label "A primeira andorinha — Partitura piano (score_14301)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1130774504>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1587937621>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b18dc8f6f-0ad6-7f2b-a7ef-02db5e7bb1df;

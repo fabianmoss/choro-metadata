@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1638913552> a melod:Item;
     rdfs:label "Choro em Mi menor (vermelho) — Partitura cifra (score_10231)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1563555369>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1550711225>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9e24c2b5-59b1-6b65-19dd-34ae99d1daaf;

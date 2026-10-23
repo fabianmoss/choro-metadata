@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1140638151> a melod:Manifestation;
+    melod:hasTitle _:bc5be77da-f106-7589-542c-94d09985e964;
+    lrmoo:R4_embodies <urn:uuid:expressions/1025352584>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b8ea78d50-5d5f-0694-af76-ffc54abeb849;
+    dct:conformsTo melod:Manifestation.
+
+_:bc5be77da-f106-7589-542c-94d09985e964 a melod:Title;
+    rdfs:label "Como esquecer-te — Partitura piano (edition Casa Bevilacqua)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b8ea78d50-5d5f-0694-af76-ffc54abeb849 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1477204031>;
+    melod:hasRole terms:Publisher.

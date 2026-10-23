@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1156510685> a melod:Item;
     rdfs:label "A teu gosto — Partitura melodia (score_5249)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1079397972>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1389974544>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b32358535-3381-6aef-80f6-33fbb788c1f3;

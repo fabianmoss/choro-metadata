@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1096129293> a melod:Item;
     rdfs:label "Arrufos — Partitura piano (score_4796)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1823658787>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1524571466>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0b470e1f-7b00-7ba2-0833-3852f2e997cc;

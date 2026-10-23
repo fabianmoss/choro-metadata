@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1497157518> a melod:Item;
     rdfs:label "Belinha — Partitura melodia (score_1683)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1045730150>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1000291230>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b11ebb47e-a805-971b-9ba3-4eaf493d4f21;

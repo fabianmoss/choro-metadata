@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1262016782> a melod:Item;
     rdfs:label "Capela — Partitura melodia e cifra (score_11651)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1145138515>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1526561515>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b431b3ea4-5277-955b-2b21-44df86d08c50;

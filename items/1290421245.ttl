@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1290421245> a melod:Item;
     rdfs:label "Ananias — Partitura melodia e cifra (score_12840)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1525630514>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1306684097>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf1e334a7-c7b0-80ac-2832-46e290a872e5;

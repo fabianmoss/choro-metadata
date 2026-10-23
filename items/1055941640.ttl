@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1055941640> a melod:Item;
     rdfs:label "Araci — Partitura melodia e cifra (score_13859)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1703006410>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1483650716>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd285ec4a-fb3b-290d-dc51-263723a8c0ab;

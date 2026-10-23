@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1378290350> a melod:Item;
     rdfs:label "Caminhando — Partitura melodia (score_8553)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1810896697>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1362082616>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0b187e53-a4b3-9b49-cccb-a5e35eca231e;

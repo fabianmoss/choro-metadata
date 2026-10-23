@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1753742485> a melod:Item;
     rdfs:label "Benedito Pedroso — Partitura melodia e cifra (score_13663)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1259313666>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1604321496>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b64d1c07f-7a8c-de43-f125-203e68202ec4;

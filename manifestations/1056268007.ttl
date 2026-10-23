@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1056268007> a melod:Manifestation;
+    melod:hasTitle _:bbcf01076-bbcf-ed7e-c035-6bde297c15e4;
+    lrmoo:R4_embodies <urn:uuid:expressions/1631541029>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:ba70361a8-4633-f246-8b38-1431aa5798bb;
+    dct:conformsTo melod:Manifestation.
+
+_:bbcf01076-bbcf-ed7e-c035-6bde297c15e4 a melod:Title;
+    rdfs:label "Capichaba — Partitura piano (edition Vieira Machado & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:ba70361a8-4633-f246-8b38-1431aa5798bb a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1086272776>;
+    melod:hasRole terms:Publisher.

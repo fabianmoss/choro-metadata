@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1461357788> a melod:Item;
     rdfs:label "Aldesinda — Partitura melodia e cifra (score_12830)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1516705729>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1350629428>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b517e9a82-3ec9-cef6-3406-438ccc89ef1f;

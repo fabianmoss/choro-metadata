@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1048523236> a melod:Item;
     rdfs:label "Barcarolla — Partitura piano e letra (score_3629)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1147829160>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1359041562>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bff07d669-2762-a355-7125-8b5ee5a5eeb4;

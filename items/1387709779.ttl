@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1387709779> a melod:Item;
     rdfs:label "Cadê a flauta, seu João? — Partitura melodia (score_900)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1521264072>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1424429856>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b00f8e5d2-8c94-923d-fd2c-32135b7b93dc;

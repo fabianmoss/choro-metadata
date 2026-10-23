@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1783970030> a melod:Item;
     rdfs:label "Bambino — Partitura melodia (score_4811)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1210554961>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1197412742>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b83888d2d-a7bc-2e17-4edb-db755d14f09a;

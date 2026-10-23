@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1800048462> a melod:Item;
     rdfs:label "Africano — Partitura melodia (score_11237)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1857049930>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199142170>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b57b46e05-7e0d-96b8-1a2e-519e302d6d3b;

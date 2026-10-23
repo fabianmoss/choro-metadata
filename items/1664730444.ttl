@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1664730444> a melod:Item;
     rdfs:label "Alma dorida — Partitura piano (score_3685)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1197817929>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1113925345>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7201c4b4-c407-5d38-a4e4-e97a5054c5bc;

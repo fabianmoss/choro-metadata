@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1155915273> a melod:Item;
     rdfs:label "Cambucyna — Partitura piano (score_3602)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1472030181>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1006074823>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b55509a96-f2d5-da55-3174-16049f24659e;

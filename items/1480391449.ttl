@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1480391449> a melod:Item;
     rdfs:label "Bar vinte — Partitura violão (score_9223)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1760743686>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1200735713>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b75f86e50-f9e8-4465-1a93-d788eebbdeb2;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1645326004> a melod:Item;
     rdfs:label "Cai no mangue — Partitura piano (score_1992)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1488795379>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1859824979>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:babc3ed80-a7a9-eaec-2c3a-badcd4ea896b;

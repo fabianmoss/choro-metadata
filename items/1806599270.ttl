@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1806599270> a melod:Item;
     rdfs:label "Aurora — Partitura piano (score_2325)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1485754392>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1412242653>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba9c44ef7-e00a-6e4d-f085-0f56d10bc121;

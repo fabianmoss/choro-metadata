@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1106686571> a melod:Item;
     rdfs:label "Cecília — Partitura piano (score_15166)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1769968253>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1540777680>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2c7026ca-b755-a17a-c8e7-3e98ba30f069;

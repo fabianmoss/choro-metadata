@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1358923719> a melod:Item;
     rdfs:label "Acorda, Armantina!... — Partitura melodia (score_2626)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1747306301>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1545910557>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b18b29663-0ed2-f312-62f2-921717421430;

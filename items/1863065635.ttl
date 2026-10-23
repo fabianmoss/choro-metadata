@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1863065635> a melod:Item;
     rdfs:label "Campestre — Partitura melodia (score_1458)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1887665242>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1471071759>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7c51585c-364a-5850-5126-b506251e55d9;

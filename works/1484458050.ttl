@@ -18,7 +18,7 @@
     melod:hasClassification "Choro";
     owl:sameAs <https://acervo.casadochoro.com.br/works/view/2546>;
     melod:hasContribution _:b99152b8c-d165-50c9-bc67-da1bfbaa3a8f;
-    lrmoo:R3_is_realised_in <urn:uuid:expressions/1587756282>;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1607520756>, <urn:uuid:expressions/1016154885>, <urn:uuid:expressions/1891136006>, <urn:uuid:expressions/1034640599>;
     melod:hasAnnotation _:bed6d397a-4072-2389-01b6-52fde02c7072;
     dct:conformsTo melod:Work.
 

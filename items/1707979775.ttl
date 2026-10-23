@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1707979775> a melod:Item;
     rdfs:label "Ameno resedá — Partitura piano (score_4783)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1690842964>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1123895226>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfc46be39-31e5-cf84-a364-7a47c8349fae;

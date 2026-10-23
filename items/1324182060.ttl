@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1324182060> a melod:Item;
     rdfs:label "Barra da Tijuca — Partitura cifra (score_5966)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1050932117>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1186897575>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3ae813d0-0c47-dfd0-428b-b2ec6ef05aec;

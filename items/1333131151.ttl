@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1333131151> a melod:Item;
     rdfs:label "Cecília — Partitura melodia (score_6168)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1491332790>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1587385179>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2afaafaa-67bb-f2e3-2f74-6f6537a064ff;

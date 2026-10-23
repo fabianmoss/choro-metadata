@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1240857289> a melod:Work;
+    melod:hasTitle _:bed4e5213-7838-861d-344c-34235421a5e7;
+    melod:hasIdentifier _:b041f07b1-ccb5-4419-a267-0a04cdf4a58c;
+    melod:hasClassification "Valsa";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3553>;
+    melod:hasContribution _:b6eac8bfb-d8d1-4b4e-afb2-2809809b1e65;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1800380373>, <urn:uuid:expressions/1122157967>, <urn:uuid:expressions/1134520768>, <urn:uuid:expressions/1560397548>;
+    melod:hasAnnotation _:bb5c7b55a-167f-6f95-b0bd-92e4d12a9a17;
+    dct:conformsTo melod:Work.
+
+_:bed4e5213-7838-861d-344c-34235421a5e7 a melod:Title;
+    rdfs:label "Coração que sente"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b041f07b1-ccb5-4419-a267-0a04cdf4a58c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3553".
+
+_:b6eac8bfb-d8d1-4b4e-afb2-2809809b1e65 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1346078611>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bb5c7b55a-167f-6f95-b0bd-92e4d12a9a17 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3553\">https://acervo.casadochoro.com.br/works/view/3553</a>. Gênero: Valsa. Compasso: 3/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1065953988> a melod:Item;
     rdfs:label "Carolina — Partitura piano (score_1311)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1495200707>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090543926>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bda5d4c1c-944c-8f4e-b83d-27fe91b5253c;

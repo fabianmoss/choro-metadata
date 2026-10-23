@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1812644982> a melod:Manifestation;
+    melod:hasTitle _:b60c6496a-9611-fb9d-2ca3-da439539b351;
+    lrmoo:R4_embodies <urn:uuid:expressions/1801251074>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b160c10e7-1a3a-653f-b235-9c3941d00d7e;
+    dct:conformsTo melod:Manifestation.
+
+_:b60c6496a-9611-fb9d-2ca3-da439539b351 a melod:Title;
+    rdfs:label "Beijos em sonhos! — Partitura piano (edition Casa Viúva Guerreiro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b160c10e7-1a3a-653f-b235-9c3941d00d7e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1652795271>;
+    melod:hasRole terms:Publisher.

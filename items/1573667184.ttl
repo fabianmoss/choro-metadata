@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1573667184> a melod:Item;
     rdfs:label "Cachopa — Partitura piano (score_2494)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1852474252>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1739798430>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc41c4f3a-4cd1-2fca-9040-0a350080a50e;

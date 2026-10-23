@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1397248200> a melod:Item;
     rdfs:label "A peixada dos coroas — Partitura melodia (score_1811)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1380400472>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1661753859>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbc6b3b6d-d33b-8eec-66c5-60c09df924fc;

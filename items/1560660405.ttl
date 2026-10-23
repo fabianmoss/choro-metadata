@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1560660405> a melod:Item;
     rdfs:label "André de sapato novo — Partitura melodia (score_3291)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1494804950>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1123987585>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b24b0ed5e-5acc-51b5-a522-20a31503ddcd;

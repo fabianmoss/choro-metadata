@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1490342029> a melod:Item;
     rdfs:label "Abusado — Partitura melodia e cifra (score_11288)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1752748287>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1177257989>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba3772284-fa0a-a396-6f28-79feb7f9ac3a;

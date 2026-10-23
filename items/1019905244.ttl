@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1019905244> a melod:Item;
     rdfs:label "Bolado — Partitura melodia e cifra (score_11431)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1338215528>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1609657595>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2d45856e-6206-4f3f-e866-d4cefdc93941;

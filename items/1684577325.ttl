@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1684577325> a melod:Item;
     rdfs:label "Algodão — Partitura melodia e cifra (score_11303)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1087250105>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1549370851>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2143e9e7-9ee5-9059-d6d2-40df4b3c4a56;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1793234732> a melod:Item;
     rdfs:label "Choro #1 — Partitura melodia e cifra (score_8871)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1785176946>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1419040085>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8c0e03ca-2386-7467-cde9-cc0fd8ecb078;

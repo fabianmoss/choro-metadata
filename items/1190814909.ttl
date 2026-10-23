@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1190814909> a melod:Item;
     rdfs:label "Chega! — Partitura piano e letra (score_14543)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1877346480>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1513696769>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb3384ffe-f79f-ca74-c124-0a8c5ec098bc;

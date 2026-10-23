@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1138925195> a melod:Item;
     rdfs:label "Bellegrandi — Partitura piano (score_611)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1634246827>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577167557>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b50fa2f54-09b6-aabd-d9f4-a673974a759d;

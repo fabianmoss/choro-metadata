@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1712496010> a melod:Item;
     rdfs:label "A torre em concurso — Partitura piano (score_15181)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1367724024>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1284746899>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc3c76256-254e-7608-e4ff-73329796890e;

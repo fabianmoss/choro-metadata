@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1720474938> a melod:Item;
     rdfs:label "Cacilda — Partitura melodia e cifra (score_13396)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1846319118>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1252241943>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4e25aaf8-cfa7-142b-02c5-4aa4fe67b1ce;

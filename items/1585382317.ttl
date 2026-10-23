@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1585382317> a melod:Item;
     rdfs:label "Alô Bateria !!! — Partitura melodia e cifra (score_9382)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1539022829>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1107205972>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b61263392-ec48-dc86-671b-3d813877587d;

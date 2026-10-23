@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1339923008> a melod:Item;
     rdfs:label "Carmen Bastos — Partitura melodia (score_2949)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1509402026>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1290945764>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be05c6f79-9979-bf87-2e02-5ff9863bbbdf;

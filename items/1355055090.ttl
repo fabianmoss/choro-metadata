@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1355055090> a melod:Item;
     rdfs:label "Boca pintada — Partitura piano e letra (score_8004)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1474226995>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1218524985>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2f5ab3cf-77aa-feb5-5d8f-cc26f1786b46;

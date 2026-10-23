@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1721233175> a melod:Item;
     rdfs:label "Caboclo magoado... — Partitura piano e letra (score_5633)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1681087234>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1167999032>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf9b03d80-4e64-80d7-49e1-8bb51f2853ee;

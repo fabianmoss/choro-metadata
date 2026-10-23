@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1560582510> a melod:Item;
     rdfs:label "A cayumba — Partitura piano (score_3573)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1684642836>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1475321379>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b25c22e57-7497-f8de-14d0-148111a32889;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1723911436> a melod:Item;
     rdfs:label "Céu azul — Partitura piano e letra (score_14406)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1683036135>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1652888641>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b05ed1793-88ae-0173-1fa2-505439e9c959;

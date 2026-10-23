@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1793302068> a melod:Expression;
+    rdfs:label "Derradeira primavera_BANDÃO (arrangement by Pedro Paes, Partitura trombone 1)";
+    melod:hasClassification "Não informado";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bbe7883ec-f471-0641-b101-fce88a0bb65d;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1593378939>;
+    melod:hasContribution _:b4a3b032d-f602-0ff9-1cfe-5a4db8f88cca;
+    dct:conformsTo melod:Expression.
+
+_:bbe7883ec-f471-0641-b101-fce88a0bb65d a melod:Meter;
+    melod:hasMeterCount "4"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "4/4".
+
+_:b4a3b032d-f602-0ff9-1cfe-5a4db8f88cca a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1331846641>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

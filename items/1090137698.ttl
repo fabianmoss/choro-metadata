@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1090137698> a melod:Item;
     rdfs:label "Carijó — Partitura cavaquinho (score_10383)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1562498683>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1577355615>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b32c8b394-f283-3844-d6ac-5439a6657354;

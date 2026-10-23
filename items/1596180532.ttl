@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1596180532> a melod:Item;
     rdfs:label "Cavaco atrevido — Partitura melodia (score_9966)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700535429>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1153693125>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b430f4cab-f449-4e20-c159-c38fb69f0d47;

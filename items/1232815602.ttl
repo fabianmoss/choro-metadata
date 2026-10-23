@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1232815602> a melod:Item;
     rdfs:label "Cheia de rosas — Partitura melodia e cifra (score_12688)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1649696372>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1549328262>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6c7c01e9-4c11-1bc4-72e3-d5a956e3c30c;

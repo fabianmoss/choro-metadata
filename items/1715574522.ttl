@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1715574522> a melod:Item;
     rdfs:label "Aristotelina — Partitura melodia (score_4546)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1803020687>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1502372167>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b69fb38ec-b6d4-99cc-b581-f4ba1ac8f097;

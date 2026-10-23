@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1476677724> a melod:Item;
     rdfs:label "Cbndes2015 — Partitura 2a voz (score_14243)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1630777817>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1460191738>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b36e20cde-b1c9-e10d-623f-48fbeb831daa;

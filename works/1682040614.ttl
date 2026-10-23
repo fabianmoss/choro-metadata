@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1682040614> a melod:Work;
+    melod:hasTitle _:bfc89bf6e-afa8-a92f-93b7-30812ac272d4;
+    melod:hasIdentifier _:b85c06bc5-ef50-12bc-4065-ad57c7440a68;
+    melod:hasClassification "Não informado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10713>;
+    melod:hasContribution _:ba7c65e0c-2842-b0fe-3a21-2b8a6a2567c7, _:b507485d0-1cc6-928e-bae1-e2c78e947e83;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1699253337>, <urn:uuid:expressions/1817648002>, <urn:uuid:expressions/1816433059>, <urn:uuid:expressions/1563096954>, <urn:uuid:expressions/1207306049>, <urn:uuid:expressions/1401433952>, <urn:uuid:expressions/1574041488>, <urn:uuid:expressions/1148940865>, <urn:uuid:expressions/1631068747>, <urn:uuid:expressions/1822728314>, <urn:uuid:expressions/1459284992>, <urn:uuid:expressions/1094627309>, <urn:uuid:expressions/1327828383>, <urn:uuid:expressions/1782326104>, <urn:uuid:expressions/1793302068>, <urn:uuid:expressions/1718156691>, <urn:uuid:expressions/1555955270>, <urn:uuid:expressions/1396692266>, <urn:uuid:expressions/1040071060>, <urn:uuid:expressions/1594067705>, <urn:uuid:expressions/1142634447>, <urn:uuid:expressions/1573218868>;
+    melod:hasAnnotation _:b2b7f7ae0-5f7d-ec42-22e9-8c7e3fe18b82;
+    dct:conformsTo melod:Work.
+
+_:bfc89bf6e-afa8-a92f-93b7-30812ac272d4 a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b85c06bc5-ef50-12bc-4065-ad57c7440a68 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10713".
+
+_:ba7c65e0c-2842-b0fe-3a21-2b8a6a2567c7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1663007803>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b507485d0-1cc6-928e-bae1-e2c78e947e83 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1471116846>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b2b7f7ae0-5f7d-ec42-22e9-8c7e3fe18b82 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10713\">https://acervo.casadochoro.com.br/works/view/10713</a>. Gênero: Não informado. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

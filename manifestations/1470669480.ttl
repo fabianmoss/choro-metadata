@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1470669480> a melod:Manifestation;
+    melod:hasTitle _:b9fb9819d-8de0-8832-4c3f-9781817b2bd7;
+    lrmoo:R4_embodies <urn:uuid:expressions/1049406419>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b43246951-f583-772a-6fb2-7855db287e1e;
+    dct:conformsTo melod:Manifestation.
+
+_:b9fb9819d-8de0-8832-4c3f-9781817b2bd7 a melod:Title;
+    rdfs:label "Aliança liberal — Partitura piano (edition Casa Viúva Guerreiro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b43246951-f583-772a-6fb2-7855db287e1e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1652795271>;
+    melod:hasRole terms:Publisher.

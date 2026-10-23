@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1398100819> a melod:Item;
     rdfs:label "Abandonado — Partitura melodia e cifra (score_9275)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1598351428>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1579889965>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2ffad59a-b0f8-9f97-3e99-c47f452228c2;

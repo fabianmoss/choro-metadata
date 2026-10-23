@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1332035469> a melod:Item;
     rdfs:label "Centro lírico — Partitura piano (score_5225)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1201951261>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1101040838>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6be50ac9-c512-7e7e-411e-29f71cfcaa11;

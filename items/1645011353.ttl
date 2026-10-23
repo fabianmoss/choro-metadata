@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1645011353> a melod:Item;
     rdfs:label "Aglaê — Partitura piano (score_1880)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1351196411>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1169365393>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdffdcee2-498f-1dd8-d706-6b68fac7383d;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1708095482> a melod:Item;
     rdfs:label "Alice — Partitura melodia e cifra (score_12457)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1724421426>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1350225936>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb721b8b4-7a90-75c3-45fe-9c06e05b0683;

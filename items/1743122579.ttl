@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1743122579> a melod:Item;
     rdfs:label "A pagodeira — Partitura melodia (score_1089)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1004188294>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1498420736>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8c465de0-57a6-9546-dc27-09fd3fb87ed7;

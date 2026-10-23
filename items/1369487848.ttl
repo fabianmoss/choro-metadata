@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1369487848> a melod:Item;
     rdfs:label "Ambrosina — Partitura piano (score_1889)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1596160366>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1540743107>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbd129c36-3d87-8129-7ff4-9fe6be0a9919;

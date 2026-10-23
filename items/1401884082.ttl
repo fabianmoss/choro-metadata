@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1401884082> a melod:Item;
     rdfs:label "Atractivo — Partitura melodia e cifra (score_13932)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1265715378>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1568972157>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf16a243c-e9f0-a18a-a64a-84c21f125d98;

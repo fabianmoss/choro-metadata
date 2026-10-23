@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1118900420> a melod:Item;
     rdfs:label "Brejeira — Partitura piano (score_2490)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1443881961>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1699244871>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2cb15a6a-5b8a-cfa4-9122-16a2770f11f1;

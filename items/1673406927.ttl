@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1673406927> a melod:Item;
     rdfs:label "Anninha — Partitura piano (score_9639)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1631512814>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1670259472>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb7099f7f-5ad9-3b12-d918-9a300e7ddbee;

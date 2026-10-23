@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1554280516> a melod:Item;
     rdfs:label "Canela — Partitura melodia e cifra (score_15294)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1727145695>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1259883273>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5f4a70a5-a918-48d3-69bf-44d8dd97772b;

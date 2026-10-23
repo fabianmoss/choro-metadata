@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1787288004> a melod:Item;
     rdfs:label "Bituca — Partitura melodia (score_8141)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1057508569>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1708906148>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b03f3b6b6-81d5-8b0f-0e3b-a8856ce9ac25;

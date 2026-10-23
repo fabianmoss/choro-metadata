@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1255279753> a melod:Item;
     rdfs:label "Antonieta — Partitura piano (score_5506)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1051430883>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1233320505>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba242ab2a-be2e-d94f-20ab-cc984698047d;

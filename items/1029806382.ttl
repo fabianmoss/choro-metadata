@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1029806382> a melod:Item;
     rdfs:label "Alpha — Partitura piano (score_2464)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1734911273>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1342846553>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b20157184-7b0b-3fd9-33db-a861ced2a76a;

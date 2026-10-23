@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1072302592> a melod:Item;
     rdfs:label "Ao luar — Partitura violão (score_3270)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1441593397>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1247187284>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b72daa97c-c111-817f-bcc9-bf932b0f0d2d;

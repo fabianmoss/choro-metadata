@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1298278754> a melod:Manifestation;
+    melod:hasTitle _:b1e8c4d9e-d9d4-c375-4ce9-508b9538ef9d;
+    lrmoo:R4_embodies <urn:uuid:expressions/1437850542>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b7e7adbba-9dd8-9c65-d2b6-282556e75003;
+    schema:publication _:be5a01ec2-e6fb-a786-0005-1a77ac373a07;
+    dct:conformsTo melod:Manifestation.
+
+_:b1e8c4d9e-d9d4-c375-4ce9-508b9538ef9d a melod:Title;
+    rdfs:label "Amizade sincera — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b7e7adbba-9dd8-9c65-d2b6-282556e75003 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:be5a01ec2-e6fb-a786-0005-1a77ac373a07 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

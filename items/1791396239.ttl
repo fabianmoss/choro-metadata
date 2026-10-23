@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1791396239> a melod:Item;
     rdfs:label "Cantilena — Partitura piano (score_10993)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1613651336>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1026938987>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc7e20fbb-2438-6e1d-e7c7-f563a06efcea;

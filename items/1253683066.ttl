@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1253683066> a melod:Item;
     rdfs:label "Andorinha — Partitura melodia (score_7782)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1285414825>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226912774>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9fef1eb0-eed1-7c80-058d-05decf517e29;

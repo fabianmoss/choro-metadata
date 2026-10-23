@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1798180385> a melod:Item;
     rdfs:label "Bambino — Partitura piano e letra (score_4805)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1464729069>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1068281615>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b62f9895b-7e22-9baf-fabf-f94d1fca630a;

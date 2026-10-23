@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1762813884> a melod:Work;
+    melod:hasTitle _:b061b912f-9e9a-de50-4c79-567d5d12f6b0;
+    melod:hasIdentifier _:b9845be94-3a55-1421-79b3-339849e1e68b;
+    melod:hasClassification "Baião";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10738>;
+    melod:hasContribution _:be5a4862d-db49-9742-4f6e-f6e4ac801c3a, _:b102470c7-2a89-78e9-dc37-928c695ea7da;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1855038822>;
+    melod:hasAnnotation _:b55e9caea-c208-259f-72c8-0697cc5f0d2e;
+    dct:conformsTo melod:Work.
+
+_:b061b912f-9e9a-de50-4c79-567d5d12f6b0 a melod:Title;
+    rdfs:label "De Niterói ao Ceará"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b9845be94-3a55-1421-79b3-339849e1e68b a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10738".
+
+_:be5a4862d-db49-9742-4f6e-f6e4ac801c3a a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1427434240>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b102470c7-2a89-78e9-dc37-928c695ea7da a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1309483919>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b55e9caea-c208-259f-72c8-0697cc5f0d2e a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10738\">https://acervo.casadochoro.com.br/works/view/10738</a>. Gênero: Baião. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

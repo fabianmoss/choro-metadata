@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1445870435> a melod:Item;
     rdfs:label "Branca — Partitura melodia e cifra (score_14102)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1602615698>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1045507367>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b228ccadd-c525-5d07-605b-ad15761028c6;

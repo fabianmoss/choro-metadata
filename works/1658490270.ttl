@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1658490270> a melod:Work;
+    melod:hasTitle _:bd82aa192-6cf2-dc29-ae94-b8c0244d7de4;
+    melod:hasIdentifier _:b52a82be4-e885-253c-65e6-86f037945b9a;
+    melod:hasClassification "Blues";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/5740>;
+    melod:hasContribution _:be6583c52-fcef-43a1-9b18-37ed04e65e48;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1496865751>;
+    melod:hasAnnotation _:b207caa43-b05d-0e37-7520-5fe9e369e75c;
+    dct:conformsTo melod:Work.
+
+_:bd82aa192-6cf2-dc29-ae94-b8c0244d7de4 a melod:Title;
+    rdfs:label "De baixo astral"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b52a82be4-e885-253c-65e6-86f037945b9a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "5740".
+
+_:be6583c52-fcef-43a1-9b18-37ed04e65e48 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1776795866>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b207caa43-b05d-0e37-7520-5fe9e369e75c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/5740\">https://acervo.casadochoro.com.br/works/view/5740</a>. Gênero: Blues. Compasso: -. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

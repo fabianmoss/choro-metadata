@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1073915185> a melod:Work;
+    melod:hasTitle _:bfe8c937e-a828-b679-77ca-1d010bd14098;
+    melod:hasIdentifier _:b796cb2a8-f51d-7bbc-7e7a-609f8e841ba0;
+    melod:hasClassification "Lundu";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/10715>;
+    melod:hasContribution _:b0a6b7686-9290-e1ac-275e-7f05aa9c0170;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1828057298>, <urn:uuid:expressions/1289614416>, <urn:uuid:expressions/1723513886>;
+    melod:hasAnnotation _:b617d5f5e-32c6-ed47-19c2-2151e61ed1b5;
+    dct:conformsTo melod:Work.
+
+_:bfe8c937e-a828-b679-77ca-1d010bd14098 a melod:Title;
+    rdfs:label "Donga_Oficina de verão 2026"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b796cb2a8-f51d-7bbc-7e7a-609f8e841ba0 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "10715".
+
+_:b0a6b7686-9290-e1ac-275e-7f05aa9c0170 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b617d5f5e-32c6-ed47-19c2-2151e61ed1b5 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/10715\">https://acervo.casadochoro.com.br/works/view/10715</a>. Gênero: Lundu. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

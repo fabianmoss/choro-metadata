@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1622246261> a melod:Manifestation;
+    melod:hasTitle _:b3636266d-bf11-cacf-9804-7275d1b032d8;
+    lrmoo:R4_embodies <urn:uuid:expressions/1248174220>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bb8ac5a7a-b846-a663-14fc-1c4708b5c58c;
+    dct:conformsTo melod:Manifestation.
+
+_:b3636266d-bf11-cacf-9804-7275d1b032d8 a melod:Title;
+    rdfs:label "A noite — Partitura piano (edition Sasset & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bb8ac5a7a-b846-a663-14fc-1c4708b5c58c a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1430658729>;
+    melod:hasRole terms:Publisher.

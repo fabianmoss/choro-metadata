@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1139025787> a melod:Item;
     rdfs:label "As açorianas — Partitura piano (score_8058)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1334539523>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1001418423>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2220ff4d-1d56-04c5-2a52-a3a827e2e7ce;

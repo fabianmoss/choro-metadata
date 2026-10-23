@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1893574601> a melod:Item;
     rdfs:label "Amigo Alfredo — Partitura melodia e cifra (score_13185)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1531882304>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199052970>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0afa0fc6-aa93-54fc-62de-be625957a99d;

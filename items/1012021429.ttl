@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1012021429> a melod:Item;
     rdfs:label "Chora, negrinho — Partitura melodia e cifra (score_10776)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1685661212>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1601071734>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b91c4f385-b861-30c0-5d3c-a5c2e41812ff;

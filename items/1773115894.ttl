@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1773115894> a melod:Item;
     rdfs:label "Chatinha — Partitura arranjo para pequena orquestra (score_6022)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1785600457>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1233286949>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9008ae86-d1fd-baa0-f46d-2c368c2fa70b;

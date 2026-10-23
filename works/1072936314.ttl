@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1072936314> a melod:Work;
+    melod:hasTitle _:bf43fc7e1-ea11-526e-c674-0e0d18da5e4b;
+    melod:hasIdentifier _:bd6ee0801-4a4d-dc55-45d7-a9aba8c62fad;
+    melod:hasClassification "Dança Cubana";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/1625>;
+    melod:hasContribution _:bd52c882d-a33d-7ee3-a737-bcae4be413e5;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1834828459>, <urn:uuid:expressions/1458350105>;
+    melod:hasAnnotation _:befa6e1eb-b0e6-2ec5-74b3-914056c97e8a;
+    dct:conformsTo melod:Work.
+
+_:bf43fc7e1-ea11-526e-c674-0e0d18da5e4b a melod:Title;
+    rdfs:label "Cri cri"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bd6ee0801-4a4d-dc55-45d7-a9aba8c62fad a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "1625".
+
+_:bd52c882d-a33d-7ee3-a737-bcae4be413e5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1672074150>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:befa6e1eb-b0e6-2ec5-74b3-914056c97e8a a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/1625\">https://acervo.casadochoro.com.br/works/view/1625</a>. Gênero: Dança Cubana. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

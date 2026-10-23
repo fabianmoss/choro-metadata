@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1324474790> a melod:Item;
     rdfs:label "A desejada — Partitura piano (score_850)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1891674332>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1228848291>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba59ea96f-27d7-3c54-6b78-3b99658d0ee2;

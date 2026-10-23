@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1006605744> a melod:Item;
     rdfs:label "Carlos Gomes — Partitura piano (score_3649)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046765226>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1559210945>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b57fecc8f-b06a-d76c-7c2f-cddd456cf1b9;

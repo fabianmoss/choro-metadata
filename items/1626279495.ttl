@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1626279495> a melod:Item;
     rdfs:label "Alexandrina — Partitura melodia e cifra (score_12832)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1702109845>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1532730253>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9de7c851-62b4-649b-5023-00e41a847a29;

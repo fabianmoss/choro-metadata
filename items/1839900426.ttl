@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1839900426> a melod:Item;
     rdfs:label "Balancê — Partitura melodia, cifra e letra (score_8825)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1196197090>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1666706546>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd9ab486f-d28a-5a0b-3e55-02a1974ec9f3;

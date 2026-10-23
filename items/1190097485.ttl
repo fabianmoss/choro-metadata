@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1190097485> a melod:Item;
     rdfs:label "A brasileira — Partitura piano e letra (score_3631)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1585703623>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1420039606>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcf879a26-70e3-9353-df89-3dae72522a86;

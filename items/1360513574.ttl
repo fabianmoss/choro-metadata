@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1360513574> a melod:Item;
     rdfs:label "A quatro mãos — Partitura melodia e cifra (score_11283)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1704596591>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1698944415>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b45004844-6816-b788-31b9-78d56bb2a79f;

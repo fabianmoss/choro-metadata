@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1301817578> a melod:Item;
     rdfs:label "Ai! Ai! — Partitura melodia e cifra (score_10500)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1499759206>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1603452257>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b128f88d9-5455-eb29-6181-c2ae9b195479;

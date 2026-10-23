@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1290222021> a melod:Item;
     rdfs:label "Carioca — Partitura melodia (score_6186)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1049573977>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1199830676>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8f2d1983-3fae-62df-cd0d-55d39b92133c;

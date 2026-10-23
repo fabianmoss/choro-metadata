@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1894084630> a melod:Item;
     rdfs:label "Chegou a patroa — Partitura melodia e cifra (score_12894)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1741753921>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1620951591>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfe5bc5ba-978e-6c3f-1d5e-c6e413bfbeb2;

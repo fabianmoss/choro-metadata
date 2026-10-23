@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1878731418> a melod:Item;
     rdfs:label "Abrideira — Partitura melodia e cifra (score_11287)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1230216286>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1126418181>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b393510fb-5c00-9526-fb0e-561c61e92d71;

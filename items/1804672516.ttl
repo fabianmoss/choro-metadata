@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1804672516> a melod:Item;
     rdfs:label "Ameno resedá — Partitura melodia (score_4788)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1490591076>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1771532659>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba896c7d4-781c-3d59-8b53-422d5dbd5828;

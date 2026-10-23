@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1078535207> a melod:Item;
     rdfs:label "Batucada — Partitura melodia (score_4227)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1711366079>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1374182702>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7a2e6e0d-526c-1354-1381-456582c33ef7;

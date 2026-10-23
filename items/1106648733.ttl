@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1106648733> a melod:Item;
     rdfs:label "Batuque — Partitura arranjo (score_4669)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1483183507>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1735915973>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb001380b-e4b5-ea65-d111-b9021c4ebf9e;

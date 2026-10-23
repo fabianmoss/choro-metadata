@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1143656235> a melod:Manifestation;
+    melod:hasTitle _:b99fe4310-fca9-4324-b539-d0bec389e52e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1722339411>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b75aa48da-d0f5-209d-5d0c-e7d9c42ff6cc;
+    dct:conformsTo melod:Manifestation.
+
+_:b99fe4310-fca9-4324-b539-d0bec389e52e a melod:Title;
+    rdfs:label "Alice — Partitura piano (edition Aurélio Cavalcanti Editor)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b75aa48da-d0f5-209d-5d0c-e7d9c42ff6cc a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1165833526>;
+    melod:hasRole terms:Publisher.

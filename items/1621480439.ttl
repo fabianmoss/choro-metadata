@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1621480439> a melod:Item;
     rdfs:label "Ansiedade — Partitura melodia e cifra (score_13595)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1521190549>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1373522452>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfd25b784-715b-f71b-7de6-4e7c13c9f631;

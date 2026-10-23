@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1424717305> a melod:Item;
     rdfs:label "A violeta — Partitura melodia e harmonia (score_636)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1753921630>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1552648794>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b25e9a537-70ec-0f9b-aac0-53e1ba54ee55;

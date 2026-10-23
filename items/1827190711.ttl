@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1827190711> a melod:Item;
     rdfs:label "Cacilda — Partitura melodia (score_899)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1865187468>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1276344433>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba8be293a-fde6-866b-41c0-05135d907052;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1730101980> a melod:Item;
     rdfs:label "Cativo — Partitura melodia e cifra (score_11666)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1281723781>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1446944790>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b38e2b585-3a4d-613b-69d2-8030bfd556a5;

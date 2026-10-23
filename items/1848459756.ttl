@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1848459756> a melod:Item;
     rdfs:label "Aristocrata — Partitura melodia e cifra (score_12849)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1890799450>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1843303581>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be03ef663-6409-f635-fa8a-1fab9d2d4f0e;

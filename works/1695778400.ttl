@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1695778400> a melod:Work;
+    melod:hasTitle _:baa13f63d-af7c-f1e5-8a2d-cfd76c21444e;
+    melod:hasIdentifier _:b0dc9d212-d2e1-b4de-4ab6-ea5fc0e49f6e;
+    melod:hasClassification "Dobrado";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/2590>;
+    melod:hasContribution _:bc2205bc4-890b-c8c7-cc1f-b09803f1a1b0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1605203389>;
+    melod:hasAnnotation _:bd59649a7-3599-6ada-f53e-0609178d7a38;
+    dct:conformsTo melod:Work.
+
+_:baa13f63d-af7c-f1e5-8a2d-cfd76c21444e a melod:Title;
+    rdfs:label "Em guarda"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b0dc9d212-d2e1-b4de-4ab6-ea5fc0e49f6e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "2590".
+
+_:bc2205bc4-890b-c8c7-cc1f-b09803f1a1b0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1007313521>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bd59649a7-3599-6ada-f53e-0609178d7a38 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/2590\">https://acervo.casadochoro.com.br/works/view/2590</a>. Gênero: Dobrado. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

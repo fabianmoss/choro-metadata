@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1890861834> a melod:Item;
     rdfs:label "Alma — Partitura melodia e cifra (score_6590)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1670428501>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1863617204>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be3faeb7d-293e-352a-40d8-906eaf2c79d8;

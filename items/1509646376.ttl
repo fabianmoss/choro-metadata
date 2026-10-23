@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1509646376> a melod:Item;
     rdfs:label "Cecilia Dubois — Partitura melodia e cifra (score_12657)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1336857234>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1135200623>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5a13f842-10b6-d545-29be-165d411c26cf;

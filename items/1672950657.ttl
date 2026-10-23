@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1672950657> a melod:Item;
     rdfs:label "A vida é essa... — Partitura melodia e cifra (score_10498)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1495293076>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1456923691>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6a03d681-dfef-10bd-d0fb-d1f5a306b832;

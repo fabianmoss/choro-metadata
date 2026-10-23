@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1850261027> a melod:Item;
     rdfs:label "Albina — Partitura melodia (score_103)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1657376430>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1837330974>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcd79d486-f56d-455d-6a2c-4e33de851f41;

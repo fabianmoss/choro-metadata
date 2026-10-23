@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1255512929> a melod:Item;
     rdfs:label "Carinhosa — Partitura melodia e cifra (score_13184)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1746395154>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1507921740>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd3a4f5b8-11e3-3478-b2d1-6c3257aef273;

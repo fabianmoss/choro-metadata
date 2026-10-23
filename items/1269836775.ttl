@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1269836775> a melod:Item;
     rdfs:label "Bela nova — Partitura melodia e cifra (score_11096)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1404704237>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1329438644>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b95f28d0c-1691-1bc3-56d3-3eaaf56bb49f;

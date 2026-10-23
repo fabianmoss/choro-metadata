@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1772118715> a melod:Item;
     rdfs:label "Catira — Partitura melodia e cifra (score_8985)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1878391431>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1593261824>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0056b21d-3efd-f7d3-6dde-c6c8c2455d5f;

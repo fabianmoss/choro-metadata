@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1591799650> a melod:Item;
     rdfs:label "Bolão no maxixe — Partitura melodia e cifra (score_11600)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1815655840>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1234005481>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd02934a8-e5fc-673f-c750-e611204421c6;

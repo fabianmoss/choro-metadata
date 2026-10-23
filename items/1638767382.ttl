@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1638767382> a melod:Item;
     rdfs:label "Carinhosa — Partitura piano (score_7132)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1386824545>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1298735444>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1d4d0b27-11e1-39b1-6c98-62e3e7641bf7;

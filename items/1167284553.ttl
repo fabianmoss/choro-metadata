@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1167284553> a melod:Item;
     rdfs:label "Argumentando — Partitura melodia e cifra (score_11390)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1619961605>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1597691235>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b90acaa29-306c-8403-09da-6884ff77380f;

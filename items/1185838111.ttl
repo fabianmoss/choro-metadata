@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1185838111> a melod:Item;
     rdfs:label "Alaíde — Partitura melodia e cifra (score_12829)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1666953808>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1489994143>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b10b03624-a7c2-ca3e-89ff-e9bdc709a542;

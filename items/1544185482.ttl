@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1544185482> a melod:Item;
     rdfs:label "Bambuzal — Partitura melodia e cifra (score_11412)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1671957823>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1231051327>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:be9c3fbc7-ef5d-e86a-b520-316cb0c7706a;

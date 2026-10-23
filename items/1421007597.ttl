@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1421007597> a melod:Item;
     rdfs:label "Cantigamente — Partitura arranjo com cifra (score_14845)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1853669403>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1020529978>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b396b0f67-7d56-3139-94b9-ae88206fec86;

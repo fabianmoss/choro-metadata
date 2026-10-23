@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1870140802> a melod:Item;
     rdfs:label "Adamastor — Partitura piano (score_2019)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1410272972>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1800151416>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b02c10861-d86b-48ea-01d0-c781205e0c86;

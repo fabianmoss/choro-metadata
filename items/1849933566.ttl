@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1849933566> a melod:Item;
     rdfs:label "Carnaval de 1867 — Partitura melodia (score_755)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1234284729>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1482977476>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b28bcd2b8-c65a-8ef3-4239-f01843293ec0;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1346693701> a melod:Item;
     rdfs:label "Amizade — Partitura melodia (score_1501)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1852947731>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1514999317>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf9d043fa-8b10-b2b3-9e5e-007e84041b0c;

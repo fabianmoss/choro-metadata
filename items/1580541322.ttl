@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1580541322> a melod:Item;
     rdfs:label "A viola do jangadeiro — Partitura piano e letra (score_8171)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1361871431>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1330752424>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b24fdee01-81dd-0ced-55db-9b85f559836f;

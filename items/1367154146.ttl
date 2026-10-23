@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1367154146> a melod:Item;
     rdfs:label "Carola — Partitura melodia e cifra (score_12885)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1726317814>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1629947001>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf62c35e2-96fe-a3cc-3006-0fee6ddd9574;

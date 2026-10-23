@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1764701989> a melod:Item;
     rdfs:label "Aux cent mille paletots — Partitura piano (score_2452)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1441772305>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1013233959>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b67771955-b6c6-da17-a896-b2bdfaec5e1a;

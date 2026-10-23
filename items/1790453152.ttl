@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1790453152> a melod:Item;
     rdfs:label "Cabelo de Fogo — Partitura melodia (score_7756)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1511650113>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1454043280>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba5293cf1-b79e-2833-5c12-7152ed7e503c;

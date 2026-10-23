@@ -1,0 +1,29 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1104257647> a melod:Manifestation;
+    melod:hasTitle _:b22dced18-713f-021e-d783-7b15cac0115c;
+    lrmoo:R4_embodies <urn:uuid:expressions/1079204378>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bc5ad203e-9d0e-a7e8-e5f7-7fbb8f4e7589;
+    dct:conformsTo melod:Manifestation.
+
+_:b22dced18-713f-021e-d783-7b15cac0115c a melod:Title;
+    rdfs:label "Cortando vorta — Partitura piano e letra (edition by A. Di Franco)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bc5ad203e-9d0e-a7e8-e5f7-7fbb8f4e7589 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1635252664>;
+    melod:hasRole terms:Editor;
+    melod:hasCertainty terms:MediumCertainty.

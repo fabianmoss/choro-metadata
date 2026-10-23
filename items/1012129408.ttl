@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1012129408> a melod:Item;
     rdfs:label "A cornucópia do amor — Partitura melodia (score_3429)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1882133960>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1667872251>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7d18e280-dc70-51fc-1f9b-64cbf0c88695;

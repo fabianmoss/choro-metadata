@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1496901915> a melod:Item;
     rdfs:label "Canção ao Pinheiro — Partitura piano e letra (score_4454)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1814456851>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1311489625>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfee408c9-2f9a-2fc2-5dc9-ea4099f93caa;

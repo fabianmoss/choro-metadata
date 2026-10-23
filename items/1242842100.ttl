@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1242842100> a melod:Item;
     rdfs:label "Caressante — Partitura melodia (score_3427)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1192835176>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1207556792>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1c3dbfe3-eedf-2c58-acee-7e9c727caadb;

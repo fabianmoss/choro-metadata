@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1798419847> a melod:Item;
     rdfs:label "Catita — Partitura melodia e cifra (score_10663)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1158912121>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1644657281>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bae5a6ecf-dc96-fa55-2302-fc91389f1ada;

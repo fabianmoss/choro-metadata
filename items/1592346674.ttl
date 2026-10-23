@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1592346674> a melod:Item;
     rdfs:label "Belinha — Partitura cifra (score_1685)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1707968464>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1011915866>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b60884325-b314-9c88-ae15-0282bc63a277;

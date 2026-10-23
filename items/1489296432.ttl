@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1489296432> a melod:Item;
     rdfs:label "Ancias d'alma — Partitura piano (score_7984)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1393546334>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1325769974>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdba7bb9e-45bf-ea14-0da0-9b600ef50422;

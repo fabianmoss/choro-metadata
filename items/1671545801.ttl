@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1671545801> a melod:Item;
     rdfs:label "Avenida — Partitura melodia (score_4107)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1030076696>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1011138702>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb05d062a-6516-ea0a-d27a-00477ff34d6e;

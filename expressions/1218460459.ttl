@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1218460459> a melod:Expression;
+    rdfs:label "Desejos (original version, Partitura piano)";
+    melod:hasClassification "Fado";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b4507cb1c-5d11-3f4f-5252-9fe3fa6f1a3d;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1513365995>;
+    melod:hasContribution _:be76d91f0-aaf3-58db-f865-27eb9857f242;
+    dct:conformsTo melod:Expression.
+
+_:b4507cb1c-5d11-3f4f-5252-9fe3fa6f1a3d a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:be76d91f0-aaf3-58db-f865-27eb9857f242 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1849925321>;
+    melod:hasRole terms:Librettist;
+    melod:hasCertainty terms:MediumCertainty.

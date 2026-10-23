@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1337990828> a melod:Item;
     rdfs:label "Chororó — Partitura melodia (score_974)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1289806443>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1856525021>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b193b2e80-3efb-be61-3b66-d157b6d3e5b7;

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1441235100> a melod:Manifestation;
+    melod:hasTitle _:b0b109628-d0cf-8ee2-c0f4-e423d8c7d586;
+    lrmoo:R4_embodies <urn:uuid:expressions/1316489860>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:bd331fd18-b819-c5c0-8a14-ef1ce052afce;
+    dct:conformsTo melod:Manifestation.
+
+_:b0b109628-d0cf-8ee2-c0f4-e423d8c7d586 a melod:Title;
+    rdfs:label "Bijou — Partitura piano (edition Casa Levy)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bd331fd18-b819-c5c0-8a14-ef1ce052afce a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1373143376>;
+    melod:hasRole terms:Publisher.

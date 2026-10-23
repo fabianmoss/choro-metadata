@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1890368109> a melod:Item;
     rdfs:label "Chinota — Partitura melodia e cifra (score_12898)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1714830302>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1182374800>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4b094b90-5330-e326-c6b3-736f122f961a;

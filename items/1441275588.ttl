@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1441275588> a melod:Item;
     rdfs:label "Chininha — Partitura melodia (score_4739)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1069925383>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1334180944>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b544a3d69-3f2b-bd55-2273-01f31df3eed7;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1710536077> a melod:Item;
     rdfs:label "Choro cruzado — Partitura melodia e cifra (score_7871)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818725003>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1450707176>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bcb47cc45-5e3f-bdd9-b528-6b23bac8238c;

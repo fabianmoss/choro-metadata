@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:instrumentations/1694327418> a melod:Instrumentation;
+    rdfs:label "clarone Bb, requinta Eb"@pt;
+    melod:hasInstrumentationDetail _:b3d28e7f1-5653-eb56-d3ed-fc4f8b481765, _:b486d9c76-a9f7-b2cd-d649-8f288204cf6d.
+
+_:b3d28e7f1-5653-eb56-d3ed-fc4f8b481765 a melod:InstrumentationDetail;
+    schema:position "1"^^xsd:integer;
+    schema:description "clarone Bb";
+    mus:U2_foresees_use_of_medium_of_performance terms:BassClarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wg>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.
+
+_:b486d9c76-a9f7-b2cd-d649-8f288204cf6d a melod:InstrumentationDetail;
+    schema:position "2"^^xsd:integer;
+    schema:description "requinta Eb";
+    mus:U2_foresees_use_of_medium_of_performance terms:Clarinet;
+    owl:sameAs <https://www.loc.gov/standards/valuelist/marcmusperf.html#wc>;
+    mus:U30_foresees_quantity_of_medium_of_performance "1"^^xsd:integer.

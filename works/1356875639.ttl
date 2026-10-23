@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1356875639> a melod:Work;
+    melod:hasTitle _:b74e02996-1126-b5fd-0e4d-07b2f1723486;
+    melod:hasIdentifier _:ba601f727-fb4e-3cfc-a5d8-ebca7889de52;
+    melod:hasClassification "Choro";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/8324>;
+    melod:hasContribution _:b9b5d90f8-756b-f110-d9f2-af24a92be63d;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1457664413>;
+    melod:hasAnnotation _:bfb9e4911-d15b-afc4-60db-4e15345f3135;
+    dct:conformsTo melod:Work.
+
+_:b74e02996-1126-b5fd-0e4d-07b2f1723486 a melod:Title;
+    rdfs:label "Don Pablo no seis"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:ba601f727-fb4e-3cfc-a5d8-ebca7889de52 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "8324".
+
+_:b9b5d90f8-756b-f110-d9f2-af24a92be63d a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bfb9e4911-d15b-afc4-60db-4e15345f3135 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/8324\">https://acervo.casadochoro.com.br/works/view/8324</a>. Gênero: Choro. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

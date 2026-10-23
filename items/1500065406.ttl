@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1500065406> a melod:Item;
     rdfs:label "Afeição — Partitura melodia (score_2011)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1226757700>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1614969180>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1c64190d-d116-6ea1-a886-737ac9e15521;

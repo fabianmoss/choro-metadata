@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1744904627> a melod:Item;
     rdfs:label "Acorda — Partitura piano (score_6061)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1488948587>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1710013331>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6bb9c6c6-03aa-4231-5ee9-4a8fb6cd28d8;

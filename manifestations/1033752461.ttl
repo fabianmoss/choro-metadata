@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1033752461> a melod:Manifestation;
+    melod:hasTitle _:b01d280bc-40be-bb24-15cd-f5e9bb1ea9c2;
+    lrmoo:R4_embodies <urn:uuid:expressions/1859224322>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b4c90be22-73c8-a21b-36d1-11bab79ddfa7;
+    schema:publication _:b4ef30de9-cc49-1e4d-bb2c-a316823f6b0d;
+    dct:conformsTo melod:Manifestation.
+
+_:b01d280bc-40be-bb24-15cd-f5e9bb1ea9c2 a melod:Title;
+    rdfs:label "Chiquinha Gonzaga — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b4c90be22-73c8-a21b-36d1-11bab79ddfa7 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b4ef30de9-cc49-1e4d-bb2c-a316823f6b0d a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

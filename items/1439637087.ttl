@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1439637087> a melod:Item;
     rdfs:label "Bagulhando — Partitura melodia (score_5068)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1430106781>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1396105107>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b632c968c-0773-a4b5-5c26-30935a2b4240;

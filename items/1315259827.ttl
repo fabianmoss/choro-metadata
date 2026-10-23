@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1315259827> a melod:Item;
+    rdfs:label "Deise — Partitura melodia (score_1000)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1214908167>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b34e5e349-b6c5-2b6f-e7ab-b915aa3a3802;
+    melod:hasShelfmark "score_1000";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_1000.pdf>;
+    melod:hasHand _:be00e9aa7-f712-7c4e-dcc2-013d1a4576bf;
+    melod:hasProvenance _:b3ea2003f-2553-b94a-4384-f532fc4afbb5;
+    dct:conformsTo melod:Item.
+
+_:b34e5e349-b6c5-2b6f-e7ab-b915aa3a3802 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_1000".
+
+_:be00e9aa7-f712-7c4e-dcc2-013d1a4576bf a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1756788531>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Cópia de Candinho (Cândido Pereira da Silva)".
+
+_:b3ea2003f-2553-b94a-4384-f532fc4afbb5 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:bb3a349fa-b973-f1eb-56c3-c300803cc4d8.
+
+_:bb3a349fa-b973-f1eb-56c3-c300803cc4d8 a melod:ExactDate;
+    melod:isodate "1952-12-04"^^xsd:date;
+    schema:description "04.12.1952".

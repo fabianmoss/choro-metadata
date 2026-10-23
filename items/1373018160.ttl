@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1373018160> a melod:Item;
     rdfs:label "A sabina — Partitura melodia e cifra (score_12453)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1143443195>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1074596455>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5d08adc2-e4f2-d9fd-a90e-5a39b17ae4c1;

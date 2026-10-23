@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1350729736> a melod:Item;
     rdfs:label "Carolina — Partitura cifra (score_4441)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1854903119>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1798049159>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1c755529-9bee-9b39-bd15-90686766a188;

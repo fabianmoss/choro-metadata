@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1313391501> a melod:Item;
     rdfs:label "Abaxo ó Piques — Partitura melodia (score_4711)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1806379448>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1200132301>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf15fdd72-b7d6-d666-e178-7c493cb91f3b;

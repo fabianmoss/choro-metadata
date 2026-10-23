@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1577695629> a melod:Item;
     rdfs:label "Castorina — Partitura melodia e cifra (score_12887)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1505243422>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1081021140>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf9913e5a-225c-9366-41d9-de916ac11b93;

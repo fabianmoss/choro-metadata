@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1353854197> a melod:Item;
     rdfs:label "Abigail — Partitura piano e cifra (score_12817)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1610252594>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1568575380>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b590da92d-5ce0-aebd-5f01-acc810fae0b2;

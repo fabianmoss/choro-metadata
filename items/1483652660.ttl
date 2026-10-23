@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1483652660> a melod:Item;
     rdfs:label "Cancioneiro — Partitura melodia e cifra (score_15844)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1531034217>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1088527966>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba5ee8fc6-c4b3-d3b0-132e-6c81fb531578;

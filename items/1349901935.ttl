@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1349901935> a melod:Item;
     rdfs:label "Baluartes — Partitura melodia e cifra (score_11411)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1897939205>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1095428181>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b581bf1b3-e865-e0d4-2844-7f23f8767951;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1481815526> a melod:Item;
     rdfs:label "Abolicionista — Partitura piano (score_2458)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1498342043>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1225552044>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b17a7f9cc-337e-60e2-0cc5-ced9efa117c8;

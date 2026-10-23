@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1098665404> a melod:Item;
     rdfs:label "Andarilho — Partitura melodia e cifra (score_11320)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1066840672>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1761958060>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb63055c2-6f7c-28d5-ad6d-6c6972e97a5b;

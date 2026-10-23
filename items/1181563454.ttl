@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1181563454> a melod:Item;
     rdfs:label "Bandeirantes do Brasil — Partitura piano e letra (score_14419)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1773366337>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1181942224>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b31c73337-84a7-181f-a711-7e33ae2c47ec;

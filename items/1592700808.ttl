@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1592700808> a melod:Item;
     rdfs:label "Aristotelina — Partitura melodia e cifra (score_12850)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1168107415>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1114955606>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7f41bb62-d1be-1998-63cd-7e92cf2587b0;

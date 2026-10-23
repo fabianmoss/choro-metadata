@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1765200582> a melod:Item;
     rdfs:label "Amália — Partitura melodia e cifra (score_14087)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1212147687>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1404495344>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8526a561-47e4-2e28-367c-a2431634d09f;

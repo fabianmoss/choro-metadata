@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1224807551> a melod:Item;
     rdfs:label "Chorinhos didáticos nº8 — Partitura melodia e cifra (score_6705)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1081955432>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1181191081>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b998915a4-6229-38c0-0934-2dd10cf32dbf;

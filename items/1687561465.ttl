@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1687561465> a melod:Item;
     rdfs:label "Cinco lagos — Partitura melodia e cifra (score_8929)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1602661182>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1523646595>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc523d001-ae3b-fd8b-96c6-2e14c9ce61fd;

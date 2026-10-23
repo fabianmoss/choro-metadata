@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1652378017> a melod:Item;
     rdfs:label "Artigo do dia — Partitura melodia (score_4600)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1821986979>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1875042211>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf633f223-75d3-1d31-48e9-9e5fa74b11b4;

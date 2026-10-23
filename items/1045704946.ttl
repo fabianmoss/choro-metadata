@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1045704946> a melod:Item;
     rdfs:label "Bolinando — Partitura melodia (score_10894)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1871475762>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1741407840>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9d3a89aa-244d-245e-8549-0903b3d178ba;

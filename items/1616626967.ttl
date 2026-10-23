@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1616626967> a melod:Item;
     rdfs:label "Albertina — Partitura piano (score_1556)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1647791050>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1417078152>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bacba7023-c112-3268-7ca8-114ea6911e10;

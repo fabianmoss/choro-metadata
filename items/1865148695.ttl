@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1865148695> a melod:Item;
     rdfs:label "Atraente — Partitura melodia e cifra (score_3624)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1146277190>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1633493155>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b11e7224d-386d-7c8b-371a-78dc18caa5bb;

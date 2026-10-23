@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1865226151> a melod:Item;
     rdfs:label "Altiva — Partitura piano (score_2466)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1813327221>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1766942640>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba441b13b-8589-4ac3-0b5b-b107100c571e;

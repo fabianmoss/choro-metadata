@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1007637900> a melod:Item;
     rdfs:label "Adriana — Partitura melodia e cifra (score_9933)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1315206618>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1220432637>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b87438527-a5ea-bcb4-a6ad-7252ad01942a;

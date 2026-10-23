@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1784136097> a melod:Item;
     rdfs:label "Cateretê — Partitura piano (score_4720)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1080055497>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1058149742>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5238dba7-da50-7fc7-2530-6f3ec56c63f0;

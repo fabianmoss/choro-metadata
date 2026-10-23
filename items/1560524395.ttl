@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1560524395> a melod:Item;
     rdfs:label "Apologia — Partitura piano (score_9802)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1660128579>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1406043394>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bffa0039d-3d23-4ae9-b4e6-437a6df8c395;

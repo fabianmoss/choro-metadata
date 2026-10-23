@@ -1,0 +1,31 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1277348946> a melod:Expression;
+    rdfs:label "Cantiga (arrangement by Sergio Valdeos, Partitura melodia e cifra)";
+    melod:hasClassification "Toada Sertaneja";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b5fe9eb93-f70e-5172-1a34-59039635a916;
+    melod:hasContribution _:bf57e9ea8-1777-f7a3-a1f1-614c92fe2f52;
+    dct:conformsTo melod:Expression.
+
+_:b5fe9eb93-f70e-5172-1a34-59039635a916 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bf57e9ea8-1777-f7a3-a1f1-614c92fe2f52 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1150662067>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

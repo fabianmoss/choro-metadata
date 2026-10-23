@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1799529970> a melod:Manifestation;
+    melod:hasTitle _:bc6eb5805-9f4d-8c46-f85b-9102ccf0f4cb;
+    lrmoo:R4_embodies <urn:uuid:expressions/1785649318>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b2bc0630e-7d4a-3ab2-3ed0-b71cd4f7ef99;
+    schema:publication _:b22424ef9-5e57-87f6-4f07-286311c93450;
+    dct:conformsTo melod:Manifestation.
+
+_:bc6eb5805-9f4d-8c46-f85b-9102ccf0f4cb a melod:Title;
+    rdfs:label "Amor que mata — Partitura melodia e cifra (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b2bc0630e-7d4a-3ab2-3ed0-b71cd4f7ef99 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:b22424ef9-5e57-87f6-4f07-286311c93450 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

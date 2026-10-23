@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1012897074> a melod:Item;
     rdfs:label "Celestial — Partitura melodia (score_912)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1440035453>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1217149576>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:ba08420db-a71c-a38c-80bd-ecc4743ac435;

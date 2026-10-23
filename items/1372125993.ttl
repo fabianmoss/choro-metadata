@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1372125993> a melod:Item;
     rdfs:label "Aluada — Partitura melodia e cifra (score_11310)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1760591353>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1240661096>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b59881cd9-7c66-6abc-36fe-81506b12fb94;

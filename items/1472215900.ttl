@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1472215900> a melod:Item;
     rdfs:label "Antonieta — Partitura melodia e cifra (score_12846)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1498484056>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1264951278>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd4acac2e-7947-42ef-03fe-b773434f0d62;

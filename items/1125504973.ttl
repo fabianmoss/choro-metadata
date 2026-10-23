@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1125504973> a melod:Item;
     rdfs:label "Antigamente era assim — Partitura melodia (score_5256)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1814839311>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1729523683>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc12081f1-fc04-0878-668a-483d0e22f68f;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1546572572> a melod:Item;
     rdfs:label "Catando cavaco — Partitura melodia e cifra (score_11663)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1830884010>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1219985659>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2e590f48-af4c-50fe-669e-11cfdebd8749;

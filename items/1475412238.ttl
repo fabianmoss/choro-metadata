@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1475412238> a melod:Item;
     rdfs:label "Adelaide — Partitura melodia e cifra (score_12397)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1033374858>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1553471862>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b11cc8f3f-f440-4808-13e8-76839431aab0;

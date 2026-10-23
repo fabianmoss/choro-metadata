@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1693553354> a melod:Item;
+    rdfs:label "Cotinha — Partitura cifra (score_11499)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1247346167>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b322c89fa-db02-ecb0-f0b4-c90d7d8d5d56;
+    melod:hasShelfmark "score_11499";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_11499.pdf>;
+    melod:hasHand _:bffc9e7f3-a939-87de-fcdc-a3616eaa0eec;
+    dct:conformsTo melod:Item.
+
+_:b322c89fa-db02-ecb0-f0b4-c90d7d8d5d56 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_11499".
+
+_:bffc9e7f3-a939-87de-fcdc-a3616eaa0eec a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1160114887>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Maurício Carrilho".

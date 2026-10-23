@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1267925596> a melod:Item;
     rdfs:label "Avenida — Partitura melodia e cifra (score_10878)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1565570623>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1590264693>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9bc8379e-e15d-d17c-2b78-60d08a21fdb2;

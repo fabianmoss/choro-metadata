@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1133456211> a melod:Item;
     rdfs:label "Bibelô — Partitura melodia e cifra (score_14255)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1401184121>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700992904>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf67cc8cd-34d1-329b-9123-e3e6c487b836;

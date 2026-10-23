@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1673991620> a melod:Item;
     rdfs:label "Boccas — Partitura arranjo com letra (score_8133)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1355297177>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1371280933>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b830c22f3-233a-e71e-2077-d8dae50f6dd2;

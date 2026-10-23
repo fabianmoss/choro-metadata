@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1887529316> a melod:Item;
     rdfs:label "Bem te quero — Partitura melodia (score_110)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1193000140>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1689181152>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b555e7906-d8b2-e81e-9d41-6b81c5a3dfc5;

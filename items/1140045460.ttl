@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1140045460> a melod:Item;
     rdfs:label "Aguenta — Partitura melodia (score_14359)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1143059139>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1553289583>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3ef12302-c106-e840-5e82-d883a5b604f1;

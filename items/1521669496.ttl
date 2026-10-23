@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1521669496> a melod:Item;
     rdfs:label "Chorando difícil — Partitura cifra (score_10229)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1489742828>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1248750303>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b00f00001-802d-92b1-d570-55ca8be8ef30;

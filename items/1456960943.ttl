@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1456960943> a melod:Item;
     rdfs:label "A corte na roça — Partitura piano (score_3945)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1774171908>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1432628804>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5c766da1-01f1-8c74-0801-36ac399a10ec;

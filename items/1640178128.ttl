@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1640178128> a melod:Item;
     rdfs:label "Choques e cheques — Partitura melodia (score_1569)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1241725773>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1239459225>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bed1660ad-23d5-65c4-dad1-1b320c434d77;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1802459474> a melod:Item;
     rdfs:label "Album de Isolda — Partitura piano (score_5392)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1501118192>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1370556292>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbdf0cc62-7dbf-50e0-0d22-42636b36b0b4;

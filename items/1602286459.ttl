@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1602286459> a melod:Item;
     rdfs:label "Aranha de ouro — Partitura melodia (score_1622)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1618369901>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1085308252>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2c1fe049-438d-1f14-8304-df50dc30d19c;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1262969021> a melod:Item;
     rdfs:label "Amém — Partitura violão (score_3246)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1256864371>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1235245445>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bfb5ad1a0-9a8e-b6a5-9cc1-4f181ddeb73e;

@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1053824592> a melod:Manifestation;
+    melod:hasTitle _:b906db51a-24b0-6903-e19f-ca89f295fa46;
+    lrmoo:R4_embodies <urn:uuid:expressions/1401433952>;
+    melod:hasClassificationOfManifestation "Partitura clarinete iniciante", terms:Print;
+    melod:hasContribution _:b9eafe085-e044-eddb-08bc-9dc913a9c089;
+    schema:publication _:beae85553-690b-eff9-5f02-6aa128e3f2ba;
+    dct:conformsTo melod:Manifestation.
+
+_:b906db51a-24b0-6903-e19f-ca89f295fa46 a melod:Title;
+    rdfs:label "Derradeira primavera_BANDÃO — Partitura clarinete iniciante (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b9eafe085-e044-eddb-08bc-9dc913a9c089 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:beae85553-690b-eff9-5f02-6aa128e3f2ba a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

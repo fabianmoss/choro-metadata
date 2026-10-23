@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1788046935> a melod:Item;
     rdfs:label "Casca de banana — Partitura melodia e cifra (score_11662)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1584204417>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1127007026>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b974d0064-6aef-ee97-5773-ab5049ac16fd;

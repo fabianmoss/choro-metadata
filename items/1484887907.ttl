@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1484887907> a melod:Item;
     rdfs:label "Arsene — Partitura piano (score_4443)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1390008540>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1367542265>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0102becd-b797-458e-8f9e-d4a678479975;

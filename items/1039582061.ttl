@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1039582061> a melod:Item;
     rdfs:label "Aracy — Partitura melodia e cifra (score_12398)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1383528547>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1166158811>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b77bce6a3-679b-3024-acc7-79ff3b51854d;

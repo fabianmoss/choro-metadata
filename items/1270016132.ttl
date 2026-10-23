@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1270016132> a melod:Item;
     rdfs:label "Alice — Partitura cifra (score_5499)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1473923971>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1294195830>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b848db2af-8abc-9f7c-e1f5-695f23f192d5;

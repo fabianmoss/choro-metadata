@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1390640680> a melod:Item;
     rdfs:label "Aéreo — Partitura melodia e cifra (score_11296)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1781689366>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160299309>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4b6125c8-afb1-8b9f-bb5e-2d76cb78647a;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1867842038> a melod:Item;
     rdfs:label "Brinquedos de Lêda — Partitura melodia (score_3576)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1839585619>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1573256198>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b86487fbf-76df-7d4c-2a3c-76518525070b;

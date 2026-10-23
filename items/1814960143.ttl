@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1814960143> a melod:Item;
     rdfs:label "Bric-a-brac — Partitura piano (score_15211)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1254897273>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1457600682>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc387987f-368e-07a2-8411-43fc45e116c7;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1754302455> a melod:Item;
     rdfs:label "A baianinha — Partitura melodia (score_825)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1476106020>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1429214589>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b08604277-13da-b841-6b22-3d14f664a4be;

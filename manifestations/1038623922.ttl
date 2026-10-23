@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1038623922> a melod:Manifestation;
+    melod:hasTitle _:b90596e2d-ca02-7357-e7e4-b5b752b1e19e;
+    lrmoo:R4_embodies <urn:uuid:expressions/1441474359>;
+    melod:hasClassificationOfManifestation "Partitura clarinete", terms:Print;
+    melod:hasContribution _:b6aaccbad-2eec-0658-8c2f-4d970273c68b;
+    schema:publication _:bf3bac049-45da-f160-2dec-e75a0163a290;
+    dct:conformsTo melod:Manifestation.
+
+_:b90596e2d-ca02-7357-e7e4-b5b752b1e19e a melod:Title;
+    rdfs:label "Aí Morcego_BANDÃO — Partitura clarinete (edition Instituto Casa do Choro)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6aaccbad-2eec-0658-8c2f-4d970273c68b a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1466939823>;
+    melod:hasRole terms:Publisher.
+
+_:bf3bac049-45da-f160-2dec-e75a0163a290 a schema:PublicationEvent;
+    schema:publishedBy <urn:uuid:institutions/1466939823>;
+    schema:location <urn:uuid:places/1800036311>.

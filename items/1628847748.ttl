@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1628847748> a melod:Item;
     rdfs:label "Arrufos — Partitura melodia e cifra (score_12400)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1198101686>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1612442645>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8f5364e3-6101-c77d-880f-135013ad0864;

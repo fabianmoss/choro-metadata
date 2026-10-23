@@ -1,0 +1,33 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1029524792> a melod:Item;
+    rdfs:label "Divina flauta — Partitura melodia (score_7785)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1309715273>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b19607312-c886-4e38-b9ef-cd0f97a36fe5;
+    melod:hasShelfmark "score_7785";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_7785.pdf>;
+    melod:hasHand _:b88c72a4c-ba17-a69f-d53b-f71a3b97064a;
+    dct:conformsTo melod:Item.
+
+_:b19607312-c886-4e38-b9ef-cd0f97a36fe5 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_7785".
+
+_:b88c72a4c-ba17-a69f-d53b-f71a3b97064a a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1670001134>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Mauro Affonso".

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1859627884> a melod:Item;
     rdfs:label "Aula de música — Partitura piano e letra (score_14405)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1452147355>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1037880812>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6ed62360-b224-bf9c-b8fa-c00c49776fb1;

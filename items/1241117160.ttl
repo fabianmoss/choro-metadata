@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1241117160> a melod:Item;
     rdfs:label "Cadência — Partitura melodia e cifra (score_7354)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1406063541>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1665630242>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf0fddb21-9e3b-1344-3fdd-8a1479e64883;

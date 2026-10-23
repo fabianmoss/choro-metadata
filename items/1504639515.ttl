@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1504639515> a melod:Item;
     rdfs:label "Arisca — Partitura melodia e cifra (score_12399)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1728533238>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1099377334>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf84432d1-1258-6c34-72e5-eaec09f79524;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1235444882> a melod:Item;
     rdfs:label "Atrativa — Partitura melodia e cifra (score_12401)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1749264661>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1295453265>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3f0dedbd-2acb-94f6-da4c-5d79390f3eea;

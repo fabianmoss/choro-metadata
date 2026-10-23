@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1623943347> a melod:Manifestation;
+    melod:hasTitle _:bcb1e3f79-709d-9081-004d-b0e178a03255;
+    lrmoo:R4_embodies <urn:uuid:expressions/1296602045>;
+    melod:hasClassificationOfManifestation "Partitura piano e letra", terms:Print;
+    melod:hasContribution _:bca56eb43-92e7-8086-6dfc-882b891d9bbd;
+    dct:conformsTo melod:Manifestation.
+
+_:bcb1e3f79-709d-9081-004d-b0e178a03255 a melod:Title;
+    rdfs:label "Cisma do caboclo — Partitura piano e letra (edition Casa Carlos Gomes)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bca56eb43-92e7-8086-6dfc-882b891d9bbd a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1450885394>;
+    melod:hasRole terms:Publisher.

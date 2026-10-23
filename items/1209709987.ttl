@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1209709987> a melod:Item;
     rdfs:label "Choro sem nome — Partitura melodia (score_7607)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1205155894>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1044721310>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5c8c56e1-d7ca-ca53-6254-04af32070cb9;

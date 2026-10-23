@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1599401632> a melod:Item;
     rdfs:label "A estrela do norte — Partitura piano (score_1878)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1342817499>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1008086465>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b264719c6-ed81-7e0e-0d59-dbd94217f06b;

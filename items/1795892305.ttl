@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1795892305> a melod:Item;
     rdfs:label "A dengosa — Partitura arranjo (score_1254)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1818143658>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1061822879>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:befa17f22-1d95-edbb-f664-8341c543ca48;

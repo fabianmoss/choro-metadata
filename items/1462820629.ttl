@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1462820629> a melod:Item;
     rdfs:label "Canta o Yapurú — Partitura melodia (score_7629)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1603567055>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1157455126>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bec546bbc-0e86-45d2-0b06-4a7e3de33d1a;

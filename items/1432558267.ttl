@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1432558267> a melod:Item;
     rdfs:label "Alayde — Partitura melodia e cifra (score_13550)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1223022082>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1628002406>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2b47ab7e-6545-d34e-82ef-49b22de59c07;

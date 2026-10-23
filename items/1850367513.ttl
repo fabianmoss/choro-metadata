@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1850367513> a melod:Item;
     rdfs:label "Calix de Ambrosia — Partitura piano (score_631)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1823336483>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1115070976>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b29b5956e-8ec7-b103-6c6f-cd4b1c67489f;

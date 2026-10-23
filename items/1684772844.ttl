@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1684772844> a melod:Item;
     rdfs:label "Apaixonada — Partitura melodia (score_88)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1001759996>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1351452398>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b124b1c24-a99b-d8cf-25fe-c72c0dd8b53c;

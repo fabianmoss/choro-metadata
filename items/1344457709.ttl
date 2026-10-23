@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1344457709> a melod:Item;
     rdfs:label "Catrapus — Partitura melodia (score_4854)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1652369616>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1434841821>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b22cc6ad6-29b7-929e-5387-a22cd3786d81;

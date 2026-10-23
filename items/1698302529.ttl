@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1698302529> a melod:Item;
     rdfs:label "Bacharelanda — Partitura melodia (score_1626)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1877646314>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1677034061>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b090e32d6-d426-e704-35b8-59c7e5f66732;

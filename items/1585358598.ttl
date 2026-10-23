@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1585358598> a melod:Item;
     rdfs:label "Cajueiro — Partitura melodia e cifra (score_11617)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1491510803>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1076480684>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b883385a6-4806-fc71-757c-a077d13cdce5;

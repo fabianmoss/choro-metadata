@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1844787065> a melod:Item;
     rdfs:label "Ananias — Partitura melodia (score_805)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1208960511>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1250415518>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b52a9b25a-9423-eb5f-94b4-f91acfdd9d41;

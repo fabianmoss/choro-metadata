@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1250662572> a melod:Item;
     rdfs:label "Casa da Penha — Partitura melodia e cifra (score_11661)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1717588894>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1573493517>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1a5dfc98-f62a-df82-4a7c-e6536c863e6b;

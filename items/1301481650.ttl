@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1301481650> a melod:Item;
     rdfs:label "Amém — Partitura piano (score_9341)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1371284130>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1178578215>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5eca1344-acd6-4abc-1dc2-4cea8789cbc6;

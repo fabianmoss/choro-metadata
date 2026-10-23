@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1362123227> a melod:Item;
     rdfs:label "Cambaxirra — Partitura melodia e cifra (score_11620)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1308057450>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1163997665>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1b4ece74-dda7-bec9-5008-fa9eb8ea1e1f;

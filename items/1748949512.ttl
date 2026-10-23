@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1748949512> a melod:Item;
     rdfs:label "Bambino — Partitura cifra (score_4809)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1699340898>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1259894612>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b8c58db4a-3cbb-0ecb-aff0-af0e6d5a9a34;

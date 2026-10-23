@@ -1,0 +1,23 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1620801048> a melod:Manifestation;
+    melod:hasTitle _:bccad543c-7d2a-7b75-6e2e-4398610d52b3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1547520240>;
+    melod:hasClassificationOfManifestation "Partitura arranjo para pequena orquestra", terms:Manuscript;
+    dct:conformsTo melod:Manifestation.
+
+_:bccad543c-7d2a-7b75-6e2e-4398610d52b3 a melod:Title;
+    rdfs:label "Coco Velho — Partitura arranjo para pequena orquestra (manuscript)";
+    melod:hasTitleType terms:MainTitle.

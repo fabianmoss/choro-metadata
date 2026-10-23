@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1001768489> a melod:Item;
     rdfs:label "A noite — Partitura arranjo para pequena orquestra (score_3959)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1248075614>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1593328619>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b244af5aa-a248-1a88-d32b-07c5df6c24c2;

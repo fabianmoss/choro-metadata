@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1066672933> a melod:Item;
     rdfs:label "Apenas as estrelas — Partitura melodia e cifra (score_8710)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160582092>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1060931527>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b000c4992-dd07-50e1-6d06-abddface8fed;

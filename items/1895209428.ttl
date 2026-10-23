@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1895209428> a melod:Item;
     rdfs:label "A elegância — Partitura piano (score_5867)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1813723464>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1581299217>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b0fbc6c32-1725-ba66-000e-662138847b36;

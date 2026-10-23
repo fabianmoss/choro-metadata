@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1746584141> a melod:Item;
     rdfs:label "A surpresa — Partitura melodia e cifra (score_12630)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1711272736>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1169153292>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2af9ba1e-6f52-a360-8e66-c43756df2066;

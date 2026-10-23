@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1029512197> a melod:Manifestation;
+    melod:hasTitle _:bab7b650e-6d0d-e217-574f-c8b784e23edf;
+    lrmoo:R4_embodies <urn:uuid:expressions/1233954535>;
+    melod:hasClassificationOfManifestation "Partitura arranjo com letra", terms:Print;
+    melod:hasContribution _:b30be446b-bc0b-c5d5-6fec-143974081075;
+    dct:conformsTo melod:Manifestation.
+
+_:bab7b650e-6d0d-e217-574f-c8b784e23edf a melod:Title;
+    rdfs:label "De papo pro ar — Partitura arranjo com letra (edition CEMB - Casa Editora Musical Brasileira)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b30be446b-bc0b-c5d5-6fec-143974081075 a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1213797432>;
+    melod:hasRole terms:Publisher.

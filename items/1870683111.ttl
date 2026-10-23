@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1870683111> a melod:Item;
     rdfs:label "A Choça do monte — Partitura violão (score_11023)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1768859342>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1639341344>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7b27c323-f858-8d70-d3ac-2b334a00fbe7;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1401929789> a melod:Item;
     rdfs:label "Ariadne — Partitura piano (score_2132)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1127446232>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1302421161>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b2b900ccb-d0af-11f0-7bf3-bd3e0dd0fcc0;

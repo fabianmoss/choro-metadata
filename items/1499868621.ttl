@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1499868621> a melod:Item;
+    rdfs:label "Deixa-me viver — Partitura melodia (score_4222)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1232772829>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b568108d3-fde4-796b-1392-6932f655b708;
+    melod:hasShelfmark "score_4222";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_4222.pdf>;
+    melod:hasHand _:bc5a9b363-d818-d387-d299-0f4de4fea88d;
+    melod:hasProvenance _:b5b6c80c7-0dca-eb23-3c9a-e63630e2b694;
+    dct:conformsTo melod:Item.
+
+_:b568108d3-fde4-796b-1392-6932f655b708 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_4222".
+
+_:bc5a9b363-d818-d387-d299-0f4de4fea88d a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1472228247>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Manuel Pedro Nascimento".
+
+_:b5b6c80c7-0dca-eb23-3c9a-e63630e2b694 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:b88f1be63-b40a-b5eb-9abc-f5eaa5d5a863.
+
+_:b88f1be63-b40a-b5eb-9abc-f5eaa5d5a863 a melod:ExactDate;
+    melod:isodate "1962-11-19"^^xsd:date;
+    schema:description "19.11.1962".

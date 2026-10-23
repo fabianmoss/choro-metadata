@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1065009937> a melod:Item;
     rdfs:label "Amigos — Partitura melodia e cifra (score_7969)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1844461215>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1532395011>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bf3e2ad8d-1350-ba4d-a4b6-ef15c8f1e826;

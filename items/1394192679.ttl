@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1394192679> a melod:Item;
     rdfs:label "A jovem marciana — Partitura piano (score_6042)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1533681775>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1512874980>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b159b2aa8-ad9f-6850-2b87-5eb74e98c657;

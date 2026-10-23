@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1542792857> a melod:Item;
     rdfs:label "Acorda, Luiz — Partitura melodia e cifra (score_6750)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1833451225>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1700090723>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b37177549-ba2b-454e-7803-d2ac798f4e94;

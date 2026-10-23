@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1488487648> a melod:Item;
     rdfs:label "Choro pro Fred — Partitura melodia e cifra (score_10003)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1385907079>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1061153752>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5f2b38a4-8d20-ff51-537e-8ac55e624c12;

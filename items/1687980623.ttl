@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1687980623> a melod:Item;
     rdfs:label "Camponesa — Partitura melodia e cifra (score_11087)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1212298706>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1194199867>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bba443c8e-c00c-102e-95b4-274f7ec612dd;

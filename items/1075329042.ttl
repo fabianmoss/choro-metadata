@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1075329042> a melod:Item;
     rdfs:label "Choque elétrico — Partitura piano (score_8360)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1631828642>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1523100783>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b17e62658-1674-8f9f-06c3-a1caa00e6b48;

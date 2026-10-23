@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1053410758> a melod:Item;
     rdfs:label "Adelina — Partitura melodia e cifra (score_10566)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1248284576>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1409661409>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd931d840-737c-5a0b-c72c-1d4627419be3;

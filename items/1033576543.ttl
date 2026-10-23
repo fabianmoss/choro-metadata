@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1033576543> a melod:Item;
     rdfs:label "Bond'Elecco — Partitura piano (score_8241)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1468463585>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1244040870>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1f7b244a-3401-0c6f-94e3-c2b797df5a33;

@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1615182251> a melod:Work;
+    melod:hasTitle _:b93478cd3-7608-6048-24e1-2be274fcc24e;
+    melod:hasIdentifier _:b679435b0-8a0e-150d-629d-86cf3e81eb52;
+    melod:hasClassification "Polca";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/4641>;
+    melod:hasContribution _:beee6476d-db2f-e5fc-2177-cb05bccb61c0;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1732914698>, <urn:uuid:expressions/1791396125>, <urn:uuid:expressions/1017312417>;
+    melod:hasAnnotation _:b6b9b1782-7660-89b6-93eb-8ac4f91e7a7c;
+    dct:conformsTo melod:Work.
+
+_:b93478cd3-7608-6048-24e1-2be274fcc24e a melod:Title;
+    rdfs:label "Doralice"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b679435b0-8a0e-150d-629d-86cf3e81eb52 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "4641".
+
+_:beee6476d-db2f-e5fc-2177-cb05bccb61c0 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1344931074>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b6b9b1782-7660-89b6-93eb-8ac4f91e7a7c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/4641\">https://acervo.casadochoro.com.br/works/view/4641</a>. Gênero: Polca. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

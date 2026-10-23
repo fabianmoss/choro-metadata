@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1761830658> a melod:Item;
     rdfs:label "Chegou a tempo — Partitura melodia e cifra (score_13874)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1654995910>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1663713114>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b13b6cbf9-323d-8847-ddaa-c919c0558efe;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1049725100> a melod:Item;
     rdfs:label "Bonitinha — Partitura melodia e cifra (score_12870)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1676750672>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1013409611>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1d94a96f-fc87-0639-12c1-f2db6ae87d5d;

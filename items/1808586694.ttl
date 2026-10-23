@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1808586694> a melod:Item;
     rdfs:label "Chorosa — Partitura melodia e cifra (score_13234)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1053373417>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1599010284>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b456d2ec7-756d-1485-2591-8c68e550c784;

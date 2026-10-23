@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1657804190> a melod:Item;
     rdfs:label "Bar Urca — Partitura melodia e cifra (score_11417)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1092612133>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1843088779>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd86c2395-f552-b0db-105f-c52bd570d1fc;

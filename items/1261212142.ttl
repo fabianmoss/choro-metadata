@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1261212142> a melod:Item;
     rdfs:label "Arrufos — Partitura melodia (score_1564)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1197755648>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1160306349>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b9155d370-2ced-53c8-d9a8-79af0672078e;

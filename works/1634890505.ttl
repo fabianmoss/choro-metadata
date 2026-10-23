@@ -1,0 +1,40 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1634890505> a melod:Work;
+    melod:hasTitle _:b08eee230-f98a-28c2-67e0-499e6bd990ca;
+    melod:hasIdentifier _:bbafd554e-1b9b-6f9b-5fdf-0649bce6047c;
+    melod:hasClassification "Schottisch";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/3138>;
+    melod:hasContribution _:b223f411f-db04-d17a-8282-f58cc05f2f14;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1894757770>;
+    melod:hasAnnotation _:bc00ea83d-593b-ab32-5ac0-2d1ad8bbe426;
+    dct:conformsTo melod:Work.
+
+_:b08eee230-f98a-28c2-67e0-499e6bd990ca a melod:Title;
+    rdfs:label "Elegante"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:bbafd554e-1b9b-6f9b-5fdf-0649bce6047c a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "3138".
+
+_:b223f411f-db04-d17a-8282-f58cc05f2f14 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1841162128>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:bc00ea83d-593b-ab32-5ac0-2d1ad8bbe426 a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/3138\">https://acervo.casadochoro.com.br/works/view/3138</a>. Gênero: Schottisch. Compasso: 4/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

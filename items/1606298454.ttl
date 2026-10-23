@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1606298454> a melod:Item;
     rdfs:label "Casa nova — Partitura melodia (score_5750)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129357733>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1423685147>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5933db0b-2fb0-0944-90a9-3e6586d2cf67;

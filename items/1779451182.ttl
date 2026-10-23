@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1779451182> a melod:Item;
     rdfs:label "Albertina — Partitura piano (score_1883)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1766501409>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1781714049>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b1d1b9c61-0f78-8450-c4ed-f63ea836f0f6;

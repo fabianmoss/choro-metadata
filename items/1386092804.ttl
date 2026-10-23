@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1386092804> a melod:Item;
     rdfs:label "Boneca — Partitura piano (score_8367)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1227021850>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1027437232>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b3965547f-4627-064c-71f5-cd35674e0928;

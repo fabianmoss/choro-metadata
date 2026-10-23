@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1088274138> a melod:Item;
     rdfs:label "Camponesa — Partitura melodia (score_1461)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1806603184>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1374959119>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b160646ec-d0ff-1938-ccaa-0b02fd33b8c8;

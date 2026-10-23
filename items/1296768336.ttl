@@ -1,0 +1,36 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1296768336> a melod:Item;
+    rdfs:label "Dobrado 15 — Partitura arranjo (score_9272)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1628493074>;
+    melod:hasClassificationOfManifestation "Copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b9327f92d-2222-d198-107a-27ad59eb551e;
+    melod:hasShelfmark "score_9272";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_9272.pdf>;
+    melod:hasProvenance _:b142ff536-8f38-67b9-7250-cd2f33b1818c;
+    dct:conformsTo melod:Item.
+
+_:b9327f92d-2222-d198-107a-27ad59eb551e a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_9272".
+
+_:b142ff536-8f38-67b9-7250-cd2f33b1818c a melod:Event;
+    rdfs:label "Digital transcription";
+    melod:hasContribution _:bb53dc3ab-edc0-bbf1-7a17-9295b492c961.
+
+_:bb53dc3ab-edc0-bbf1-7a17-9295b492c961 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1830795199>;
+    melod:hasRole terms:Transcriber.

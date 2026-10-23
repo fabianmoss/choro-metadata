@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1397096711> a melod:Item;
     rdfs:label "Adiles — Partitura piano (score_8244)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1403173810>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1366169051>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b07b52cf1-065d-ff53-a014-f9d0eda744e8;

@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1242622617> a melod:Manifestation;
+    melod:hasTitle _:b811013b2-c169-bdeb-b440-544b16cb8f5f;
+    lrmoo:R4_embodies <urn:uuid:expressions/1261943793>;
+    melod:hasClassificationOfManifestation "Partitura piano", terms:Print;
+    melod:hasContribution _:b6881ab9f-482c-7f6f-48b6-fb1b5ccb1c7e;
+    dct:conformsTo melod:Manifestation.
+
+_:b811013b2-c169-bdeb-b440-544b16cb8f5f a melod:Title;
+    rdfs:label "Anceios d'alma — Partitura piano (edition Préalle & Cia)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b6881ab9f-482c-7f6f-48b6-fb1b5ccb1c7e a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1093013466>;
+    melod:hasRole terms:Publisher.

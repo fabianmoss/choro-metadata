@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1008765460> a melod:Expression;
+    rdfs:label "El fagot (arrangement by Juan Jose Oliva, Partitura violão)";
+    melod:hasClassification "Valsa";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:bbdafa1f8-12f6-7210-e774-ab8b9ddad8a8;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1514345597>;
+    melod:hasContribution _:b3ba497fe-ff23-b976-2c12-d600b9972a59;
+    dct:conformsTo melod:Expression.
+
+_:bbdafa1f8-12f6-7210-e774-ab8b9ddad8a8 a melod:Meter;
+    melod:hasMeterCount "3"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "3/4".
+
+_:b3ba497fe-ff23-b976-2c12-d600b9972a59 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1422981519>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

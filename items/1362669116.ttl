@@ -1,0 +1,42 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:items/1362669116> a melod:Item;
+    rdfs:label "Como é bom — Partitura melodia (score_743)";
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1638593467>;
+    melod:hasClassificationOfManifestation "Manuscript copy";
+    cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
+    melod:hasIdentifier _:b1d98a286-71c8-0911-c421-c7d5c0261c7a;
+    melod:hasShelfmark "score_743";
+    owl:sameAs <https://acervo.casadochoro.com.br/files/uploads/scores/score_743.pdf>;
+    melod:hasHand _:b59c68d71-1e11-9450-770e-970c07002356;
+    melod:hasProvenance _:be2029b2f-e9fa-ff85-d384-891ec651ede2;
+    dct:conformsTo melod:Item.
+
+_:b1d98a286-71c8-0911-c421-c7d5c0261c7a a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro — digitised score";
+    owl:hasValue "score_743".
+
+_:b59c68d71-1e11-9450-770e-970c07002356 a melod:Hand;
+    melod:hasAgent <urn:uuid:persons/1017290919>;
+    melod:hasHandType terms:Writer;
+    schema:description "manuscrita por Azevedo Pimentel".
+
+_:be2029b2f-e9fa-ff85-d384-891ec651ede2 a melod:Event;
+    rdfs:label "Provenance of the copy";
+    melod:hasEventDate _:be9a60b58-ad48-d393-677b-4c8ba9c6262a.
+
+_:be9a60b58-ad48-d393-677b-4c8ba9c6262a a melod:ExactDate;
+    melod:isodate "1915-10-28"^^xsd:date;
+    schema:description "28.10.1915".

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1538833823> a melod:Item;
     rdfs:label "A volta do Ruy — Partitura melodia (score_3412)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1487460174>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1881975228>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbc9770ed-57ae-84af-e417-b1b013c241b6;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1786477698> a melod:Item;
     rdfs:label "Amigos de sempre — Partitura melodia (score_803)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1301792173>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1159256019>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b4ff4f3e3-1b34-b0f2-e478-d5ccfc98ff79;

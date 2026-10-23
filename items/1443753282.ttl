@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1443753282> a melod:Item;
     rdfs:label "Alexandrina — Partitura melodia (score_800)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1129085653>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1559328091>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bd62ac57b-59ca-7217-9cfc-df380652897a;

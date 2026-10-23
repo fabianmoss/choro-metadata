@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1400909805> a melod:Item;
     rdfs:label "Catete — Partitura melodia (score_10917)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1459400031>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1471624972>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bbdc2c619-b6a4-88f9-1ea8-4df8819d1517;

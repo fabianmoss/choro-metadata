@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1261801956> a melod:Item;
     rdfs:label "Assembleia Paraense — Partitura piano (score_8320)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1636310953>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1265452853>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b03c42d7d-bbd8-b973-d8cd-5db3387073a9;

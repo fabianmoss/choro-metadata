@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1385445400> a melod:Item;
     rdfs:label "Aleluia — Partitura melodia e cifra (score_6752)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1090786894>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1025516414>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdc8a8632-236d-a775-60eb-5a6f4e9c8bd2;

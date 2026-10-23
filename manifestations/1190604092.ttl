@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1190604092> a melod:Manifestation;
+    melod:hasTitle _:b52e521ea-b799-6c01-1346-b2d8a6c41de3;
+    lrmoo:R4_embodies <urn:uuid:expressions/1003292274>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:b162bfd4f-9779-225b-06fc-385e42d3a0dd;
+    dct:conformsTo melod:Manifestation.
+
+_:b52e521ea-b799-6c01-1346-b2d8a6c41de3 a melod:Title;
+    rdfs:label "Beijos de mel — Partitura melodia e cifra (edition Fermata do Brasil)";
+    melod:hasTitleType terms:MainTitle.
+
+_:b162bfd4f-9779-225b-06fc-385e42d3a0dd a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1094092957>;
+    melod:hasRole terms:Publisher.

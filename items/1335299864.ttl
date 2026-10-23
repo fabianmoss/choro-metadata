@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1335299864> a melod:Item;
     rdfs:label "Brejeiro — Partitura cifra (score_4838)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1685645864>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1078270353>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bdc22f01d-1b48-9cae-acc6-f244ff85957c;

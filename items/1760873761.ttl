@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1760873761> a melod:Item;
     rdfs:label "A lâmpada e a ancora — Partitura melodia e cifra (score_8569)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1018482305>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1761312223>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc3aa17e5-b53c-529e-2e0d-30b8ac2be548;

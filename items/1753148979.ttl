@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1753148979> a melod:Item;
     rdfs:label "A barraca vazia — Partitura piano e letra (score_14286)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1863392012>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1268923776>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b57f3e993-2ec9-26e9-1598-22dd7b9569cd;

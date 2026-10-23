@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1409690630> a melod:Item;
     rdfs:label "Assanhado — Partitura melodia (score_7233)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1656778872>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1018134321>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bc4db5d2e-7d99-a1de-4d40-3bedbf0162b3;

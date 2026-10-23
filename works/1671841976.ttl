@@ -1,0 +1,45 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:works/1671841976> a melod:Work;
+    melod:hasTitle _:b86fa1cdf-7585-d82c-df4a-a985e3262d72;
+    melod:hasIdentifier _:b5481ce56-e96d-d695-4a75-e359c8721333;
+    melod:hasClassification "Samba Canção";
+    owl:sameAs <https://acervo.casadochoro.com.br/works/view/9815>;
+    melod:hasContribution _:b64c91e0e-69db-1b43-154a-6a81f02cddb6, _:b8d998953-f2eb-8b83-bfdd-39a989b074e6;
+    lrmoo:R3_is_realised_in <urn:uuid:expressions/1522265243>;
+    melod:hasAnnotation _:b5fdfa189-6612-0a04-9edb-062417dc651c;
+    dct:conformsTo melod:Work.
+
+_:b86fa1cdf-7585-d82c-df4a-a985e3262d72 a melod:Title;
+    rdfs:label "E a saudade ficou"@pt;
+    melod:hasTitleType terms:MainTitle.
+
+_:b5481ce56-e96d-d695-4a75-e359c8721333 a melod:Identifier;
+    rdfs:label "Acervo Casa do Choro";
+    owl:hasValue "9815".
+
+_:b64c91e0e-69db-1b43-154a-6a81f02cddb6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1701771184>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b8d998953-f2eb-8b83-bfdd-39a989b074e6 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1703630577>;
+    melod:hasRole terms:Composer;
+    melod:hasCertainty terms:HighCertainty.
+
+_:b5fdfa189-6612-0a04-9edb-062417dc651c a melod:Annotation;
+    rdfs:label "Record in the archive";
+    melod:paragraph "<p>Record in the archive: <a href=\"https://acervo.casadochoro.com.br/works/view/9815\">https://acervo.casadochoro.com.br/works/view/9815</a>. Gênero: Samba Canção. Compasso: 2/4. The acervo does not show the composition date on the record.</p>"^^rdf:HTML.

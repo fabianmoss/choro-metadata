@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1687369157> a melod:Item;
     rdfs:label "Atraente — Partitura melodia (score_6756)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1562442705>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1883819960>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b6bb884ae-1253-ef82-dc73-ee4f3238ad57;

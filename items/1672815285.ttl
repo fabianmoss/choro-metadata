@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1672815285> a melod:Item;
     rdfs:label "Até amanhã — Partitura melodia (score_11434)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1398398348>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1162520518>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:bb47e5c11-18a2-2598-6efe-a714c6cff8be;

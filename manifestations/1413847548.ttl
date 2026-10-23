@@ -1,0 +1,28 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:manifestations/1413847548> a melod:Manifestation;
+    melod:hasTitle _:b787366f2-8b93-20ee-1a6e-cf28053206a8;
+    lrmoo:R4_embodies <urn:uuid:expressions/1708023545>;
+    melod:hasClassificationOfManifestation "Partitura melodia e cifra", terms:Print;
+    melod:hasContribution _:bef607c49-84ca-208c-4fd2-e07ced37398a;
+    dct:conformsTo melod:Manifestation.
+
+_:b787366f2-8b93-20ee-1a6e-cf28053206a8 a melod:Title;
+    rdfs:label "Apaixonado — Partitura melodia e cifra (edition Universidade Federal de Santa Catarina - UFSC)";
+    melod:hasTitleType terms:MainTitle.
+
+_:bef607c49-84ca-208c-4fd2-e07ced37398a a melod:Contribution;
+    melod:hasAgent <urn:uuid:institutions/1085108804>;
+    melod:hasRole terms:Publisher.

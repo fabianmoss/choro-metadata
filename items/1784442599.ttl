@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1784442599> a melod:Item;
     rdfs:label "Bambino — Partitura piano (score_4808)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1745188261>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1046792042>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b7dfcda04-b74e-7a14-ced1-69cfad71a598;

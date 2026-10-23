@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1698912958> a melod:Item;
     rdfs:label "Atrapado — Partitura melodia e cifra (score_8941)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1702457849>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1592524265>;
     melod:hasClassificationOfManifestation "Copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b5432bdc4-cbb9-5a1f-4ff4-8b0ced437018;

@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1433192003> a melod:Item;
     rdfs:label "Choro-canção — Partitura melodia (score_3165)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1862384321>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1321929436>;
     melod:hasClassificationOfManifestation "Manuscript copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b702acd0c-0133-0182-5f53-a92b132947d6;

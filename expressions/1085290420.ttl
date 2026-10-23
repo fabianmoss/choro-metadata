@@ -1,0 +1,32 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/>.
+@prefix melod: <https://lod.academy/melod/vocab/ontology#>.
+@prefix mus: <http://data.doremus.org/ontology#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <https://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix terms: <https://lod.academy/melod/vocab/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<urn:uuid:expressions/1085290420> a melod:Expression;
+    rdfs:label "A viola magoada (arrangement by Nelson Piló, Partitura violão)";
+    melod:hasClassification "Canção";
+    melod:inLanguage terms:Portuguese;
+    melod:hasMeter _:b3fb36633-5b49-4b34-0547-34c13ddac6d3;
+    melod:hasInstrumentation <urn:uuid:instrumentations/1514345597>;
+    melod:hasContribution _:bf1464962-c6b3-c07c-2fbb-e7cd97ba7ce5;
+    dct:conformsTo melod:Expression.
+
+_:b3fb36633-5b49-4b34-0547-34c13ddac6d3 a melod:Meter;
+    melod:hasMeterCount "2"^^xsd:integer;
+    melod:inMeterUnit "4"^^xsd:integer;
+    schema:description "2/4".
+
+_:bf1464962-c6b3-c07c-2fbb-e7cd97ba7ce5 a melod:Contribution;
+    melod:hasAgent <urn:uuid:persons/1104916803>;
+    melod:hasRole terms:Arranger;
+    melod:hasCertainty terms:MediumCertainty.

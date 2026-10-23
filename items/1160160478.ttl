@@ -14,7 +14,7 @@
 
 <urn:uuid:items/1160160478> a melod:Item;
     rdfs:label "Arranjador — Partitura melodia e cifra (score_11392)";
-    lrmoo:R7_exemplifies <urn:uuid:manifestations/1520631931>;
+    lrmoo:R7_exemplifies <urn:uuid:manifestations/1002442039>;
     melod:hasClassificationOfManifestation "Printed copy";
     cidoc:P50_has_current_keeper <urn:uuid:institutions/1466939823>;
     melod:hasIdentifier _:b31831cf4-ebfc-bb12-b00a-7d333c39404c;
